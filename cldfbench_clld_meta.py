@@ -10,6 +10,8 @@ from xml.etree import ElementTree as ET
 from cldfbench import Dataset as BaseDataset
 
 
+OAI_URL = 'https://zenodo.org/oai2d'
+
 DOI_REGEX = r'(?:doi:)?10(?:\.[0-9]+)+/'
 GITHUB_REGEX = r'(?:url:)?(?:https?://)?github.com'
 COMMUNITY_REGEX = r'(?:url:)?(?:https?://)?zenodo.org/communities'
@@ -94,7 +96,6 @@ class MetaDataDownloader:
 
 
 def zenodo_records():
-    OAI_URL = "https://zenodo.org/oai2d"
     # TODO find a way to search for all records
     #  (ideally on the server-side, rather than downloading *all* the records)
 
