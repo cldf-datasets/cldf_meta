@@ -16,34 +16,28 @@ from cldfbench import Dataset as BaseDataset
 OAI_URL = 'https://zenodo.org/oai2d'
 
 DOI_REGEX = r'(?:doi:)?10(?:\.[0-9]+)+/'
+#ZENODO_DOI_REGEX = r'(?:doi:)?10\.5281/zenodo\.'
 GITHUB_REGEX = r'(?:url:)?(?:https?://)?github.com'
 COMMUNITY_REGEX = r'(?:url:)?(?:https?://)?zenodo.org/communities'
+
 ZENODO_METADATA_ROWS = [
-    'ID',
-    'Title',
-    'Description',
-    'Authors',
-    'Creators',
-    'Contributors',
-    'Communities',
-    'License',
-    'DOI',
-    'DOI_Latest',
-    'Zenodo_Link',
-    'Github_Link',
-    'Subjects']
-
-
-def oai_ns(elem):
-    return '{http://www.openarchives.org/OAI/2.0/}%s' % elem
-
-
-def oai_dc_ns(elem):
-    return '{http://www.openarchives.org/OAI/2.0/oai_dc/}%s' % elem
-
-
-def dc_ns(elem):
-    return '{http://purl.org/dc/elements/1.1/}%s' % elem
+    'id',
+    'date',
+    'title',
+    'description',
+    'author',
+    'contributor',
+    'creator',
+    'github-link',
+    'zenodo-link',
+    'doi',
+    'doi-related',
+    'communities',
+    'rights',
+    'source',
+    'subject',
+    'type',
+]
 
 
 def zenodo_records():
@@ -54,80 +48,48 @@ def zenodo_records():
         OAI_URL,
         retry_status_codes=[503, 429],
         max_retries=3,
-        default_retry_after=60,
-        iterator=OAIResponseIterator)
+        default_retry_after=60)
 
     #set='user-dictionaria')
-    for resp in dl.ListRecords(metadataPrefix='oai_dc', set='user-lexibank'):
-        xml_data = ET.fromstring(resp.raw)
-
-        # TODO get info out of sickle's pre-parsed record objects
-        records = xml_data.find(oai_ns('ListRecords')).iter(oai_ns('record'))
-        for xml_record in records:
-            yield xml_record
+    return dl.ListRecords(metadataPrefix='oai_dc', set='user-lexibank')
 
 
-def _parse_md(elem):
-    if elem.tag == dc_ns('identifier'):
-        if re.match('https?://', elem.text):
-            return 'Zenodo_Link', elem.text
-        elif elem.text.startswith('oai:zenodo.org:'):
-            return 'ID', elem.text
-        elif re.match(DOI_REGEX, elem.text, re.I):
-            return 'DOI', elem.text
+def _transform_key(k, v):
+    if k == 'identifier':
+        if re.match('https?://', v):
+            return 'zenodo-link'
+        elif v.startswith('oai:zenodo.org:'):
+            return 'id'
+        elif re.match(DOI_REGEX, v, re.I):
+            return 'doi'
         else:
-            return None, None
-    elif elem.tag == dc_ns('title'):
-        return 'Title', elem.text
-    elif elem.tag == dc_ns('description'):
-        return 'Description', elem.text
-    elif elem.tag == dc_ns('author'):
-        return 'Authors', elem.text
-    elif elem.tag == dc_ns('creator'):
-        return 'Creators', elem.text
-    elif elem.tag == dc_ns('contributor'):
-        return 'Contributors', elem.text
-    elif elem.tag == dc_ns('rights'):
-        return 'License', elem.text
-    elif elem.tag == dc_ns('relation'):
-        if re.match(DOI_REGEX, elem.text, re.I):
-            return 'DOI_Latest', elem.text
-        elif re.match(GITHUB_REGEX, elem.text, re.I):
-            return 'Github_Link', elem.text
-        elif re.match(COMMUNITY_REGEX, elem.text, re.I):
-            return 'Communities', elem.text
+            return None
+    elif k == 'relation':
+        if re.match(DOI_REGEX, v, re.I):
+            return 'doi-related'
+        elif re.match(GITHUB_REGEX, v, re.I):
+            return 'github-link'
+        elif re.match(COMMUNITY_REGEX, v, re.I):
+            return 'communities'
         else:
-            return None, None
-    elif elem.tag == dc_ns('subject'):
-        return 'Subjects', elem.text
+            return None
     else:
-        return None, None
+        return k
 
 
-def parse_xml_metadata(elem):
-    md = defaultdict(lambda y: None)
-    list_fields = (
-        'Authors', 'Creators', 'Contributors', 'Subjects', 'Communities',
-        'License')
-    for k in list_fields:
-        md[k] = []
+def parse_record_md(record_md):
+    md = defaultdict(list)
+    for k, vs in record_md.items():
+        for v in vs:
+            new_k = _transform_key(k ,v)
+            if not new_k:
+                continue
 
-    dc = elem.find(oai_ns('metadata')).find(oai_dc_ns('dc'))
-    for node in dc:
-        k, v = _parse_md(node)
-        if not k or not v:
-            continue
-
-        v = v.strip()\
-            .replace('\\', '\\\\')\
-            .replace('\n', '\\n')\
-            .replace('\t', ' ')
-
-        if k in list_fields:
-            md[k].append(v)
-        else:
-            md[k] = v
-
+            v = v.strip()\
+                .replace('\\', '\\\\')\
+                .replace('\n', '\\n')\
+                .replace('\t', ' ')
+            md[new_k].append(v)
     return md
 
 
@@ -144,7 +106,10 @@ class Dataset(BaseDataset):
 
         >>> self.raw_dir.download(url, fname)
         """
-        records = list(map(parse_xml_metadata, zenodo_records()))
+        records = [
+            parse_record_md(record.metadata)
+            for record in zenodo_records()]
+
         def merge_lists(v):
             # TODO use a separator that is guaranteed to not appear in the cells
             return '\\t'.join(v) if isinstance(v, list) else v
