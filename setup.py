@@ -13,6 +13,7 @@ setup(
     },
     install_requires=[
         'cldfbench',
+        'sickle',
     ],
     extras_require={
         'test': [
