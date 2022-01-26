@@ -1,5 +1,6 @@
 from collections import defaultdict, namedtuple
 import csv
+from functools import partial, reduce
 import pathlib
 import re
 import sys
@@ -38,6 +39,14 @@ ZENODO_METADATA_ROWS = [
     'subject',
     'type',
 ]
+
+
+def uniq(iterable):
+    seen_before = set()
+    for item in iterable:
+        if item not in seen_before:
+            seen_before.add(item)
+            yield item
 
 
 def zenodo_records():
@@ -111,8 +120,7 @@ class Dataset(BaseDataset):
             for record in zenodo_records()]
 
         def merge_lists(v):
-            # TODO use a separator that is guaranteed to not appear in the cells
-            return '\\t'.join(v) if isinstance(v, list) else v
+            return '\\t'.join(uniq(v)) if isinstance(v, list) else v
         csv_rows = [
             [merge_lists(record.get(k) or '') for k in ZENODO_METADATA_ROWS]
             for record in records]
