@@ -41,26 +41,13 @@ ZENODO_METADATA_ROWS = [
 ]
 
 
-def uniq(iterable):
+def uniq(iterable, key=None):
     seen_before = set()
     for item in iterable:
-        if item not in seen_before:
-            seen_before.add(item)
+        keyed = key(item) if key else item
+        if keyed not in seen_before:
+            seen_before.add(keyed)
             yield item
-
-
-def zenodo_records():
-    # TODO find a way to search for all records
-    #  (ideally on the server-side, rather than downloading *all* the records)
-
-    dl = Sickle(
-        OAI_URL,
-        retry_status_codes=[503, 429],
-        max_retries=3,
-        default_retry_after=60)
-
-    #set='user-dictionaria')
-    return dl.ListRecords(metadataPrefix='oai_dc', set='user-lexibank')
 
 
 def _transform_key(k, v):
@@ -115,9 +102,27 @@ class Dataset(BaseDataset):
 
         >>> self.raw_dir.download(url, fname)
         """
-        records = [
-            parse_record_md(record.metadata)
-            for record in zenodo_records()]
+        # TODO find a way to search for all records
+        #  (ideally on the server-side, rather than downloading *all* the records)
+
+        dl = Sickle(
+            OAI_URL,
+            retry_status_codes=[503, 429],
+            max_retries=3,
+            default_retry_after=60)
+
+        communities = (
+            'user-lexibank',
+            'user-dictionaria')
+        records = list(uniq(
+            (
+                parse_record_md(record.metadata)
+                for community in communities
+                for record in dl.ListRecords(
+                    metadataPrefix='oai_dc',
+                    set=community)
+            ),
+            key=lambda r: '\t'.join(r['id'])))
 
         def merge_lists(v):
             return '\\t'.join(uniq(v)) if isinstance(v, list) else v
