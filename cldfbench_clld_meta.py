@@ -19,7 +19,7 @@ OAI_URL = 'https://zenodo.org/oai2d'
 DOI_REGEX = r'(?:doi:)?10(?:\.[0-9]+)+/'
 #ZENODO_DOI_REGEX = r'(?:doi:)?10\.5281/zenodo\.'
 GITHUB_REGEX = r'(?:url:)?(?:https?://)?github.com'
-COMMUNITY_REGEX = r'(?:url:)?(?:https?://)?zenodo.org/communities'
+#COMMUNITY_REGEX = r'(?:url:)?(?:https?://)?zenodo.org/communities'
 
 ZENODO_METADATA_ROWS = [
     'id',
@@ -65,17 +65,16 @@ def _transform_key(k, v):
             return 'doi-related'
         elif re.match(GITHUB_REGEX, v, re.I):
             return 'github-link'
-        elif re.match(COMMUNITY_REGEX, v, re.I):
-            return 'communities'
         else:
             return None
     else:
         return k
 
 
-def parse_record_md(record_md):
+def parse_record(record):
     md = defaultdict(list)
-    for k, vs in record_md.items():
+    md['communities'] = record.header.setSpecs
+    for k, vs in record.metadata.items():
         for v in vs:
             new_k = _transform_key(k ,v)
             if not new_k:
@@ -116,7 +115,7 @@ class Dataset(BaseDataset):
             'user-dictionaria')
         records = list(uniq(
             (
-                parse_record_md(record.metadata)
+                parse_record(record)
                 for community in communities
                 for record in dl.ListRecords(
                     metadataPrefix='oai_dc',
