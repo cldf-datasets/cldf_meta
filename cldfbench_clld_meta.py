@@ -137,12 +137,8 @@ def parse_record(record):
 
 
 def _id_sort_key(record_row):
-    id_ = record_row[0]
-    match = re.fullmatch(r'oai:zenodo.org:(\d+)', id_)
-    if match:
-        return False, int(match.group(1))
-    else:
-        return True, id_
+    # XXX this assumes zenodo doesn't change their id generation pattern
+    return re.fullmatch(r'oai:zenodo.org:(\d+)', record_row[0]).group(1)
 
 
 class Dataset(BaseDataset):
