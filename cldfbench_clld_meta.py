@@ -120,6 +120,15 @@ def parse_record(record):
     return md
 
 
+def _id_sort_key(record_row):
+    id_ = record_row[0]
+    match = re.fullmatch(r'oai:zenodo.org:(\d+)', id_)
+    if match:
+        return False, int(match.group(1))
+    else:
+        return True, id_
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "clld_meta"
@@ -178,7 +187,7 @@ class Dataset(BaseDataset):
         csv_rows = [
             [merge_lists(record.get(k) or '') for k in ZENODO_METADATA_ROWS]
             for record in records]
-        csv_rows.sort(key=lambda r: r[0])
+        csv_rows.sort(key=_id_sort_key)
         with open(self.raw_dir / 'zenodo-metadata.csv', 'w', encoding='utf-8') as f:
             wrt = csv.writer(f)
             wrt.writerow(ZENODO_METADATA_ROWS)
