@@ -57,13 +57,29 @@ TYPE_BLACKLIST = {
 }
 
 
+TITLE_BLACKLIST = {
+    'Glottolog database 2.2',
+    'Glottolog database 2.3',
+    'PYCLTS. A Python library for the handling of phonetic transcription systems',
+    'CLTS. Cross-Linguistic Transcription Systems',
+    'CLTS. Cross-Linguistic Transcription Systems',
+    'CLTS. Cross-Linguistic Transcription Systems',
+    'CLLD Concepticon 2.3.0',
+    'CLLD Concepticon 2.4.0-rc.1',
+    'CLLD Concepticon 2.4.0',
+    'CLLD Concepticon 2.5.0',
+}
+
+
 def is_valid(record):
     for type_ in record.get('type', ()):
         if type_ in TYPE_BLACKLIST:
             return False
 
     for title in record.get('title', ()):
-        if re.match(r'(?:\S*?)glottolog(?:\S*?):', title.strip()):
+        if title in TITLE_BLACKLIST:
+            return False
+        elif re.match(r'(?:\S*?)glottolog(?:\S*?):', title.strip()):
             return False
         elif re.match(r'(?:\S*?)clts(?:\S*?):', title.strip()):
             return False
