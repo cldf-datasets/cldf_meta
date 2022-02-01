@@ -112,7 +112,16 @@ class Dataset(BaseDataset):
 
         communities = (
             'user-lexibank',
-            'user-dictionaria')
+            'user-dictionaria',
+            'user-calc',
+            'user-cldf-datasets',
+            'user-clics',
+            'user-clld',
+            'user-diachronica',
+            'user-dighl',
+            'user-digling',
+            'user-tular',
+        )
         records = list(uniq(
             (
                 parse_record(record)
@@ -122,6 +131,15 @@ class Dataset(BaseDataset):
                     set=community)
             ),
             key=lambda r: '\t'.join(r['id'])))
+
+        print('additional communities mentioned:')
+        old_comms = set(communities)
+        new_comms = {
+            c
+            for record in records
+            for c in record.get('communities', ())
+            if c not in old_comms}
+        print('\n'.join(' * {}'.format(c) for c in sorted(new_comms))) 
 
         def merge_lists(v):
             return '\\t'.join(uniq(v)) if isinstance(v, list) else v
