@@ -138,7 +138,7 @@ def parse_record(record):
 
 def _id_sort_key(record_row):
     # XXX this assumes zenodo doesn't change their id generation pattern
-    return re.fullmatch(r'oai:zenodo.org:(\d+)', record_row[0]).group(1)
+    return int(re.fullmatch(r'oai:zenodo.org:(\d+)', record_row[0]).group(1))
 
 
 class Dataset(BaseDataset):
