@@ -41,6 +41,38 @@ ZENODO_METADATA_ROWS = [
 ]
 
 
+TYPE_BLACKLIST = {
+    'lesson',
+    'poster',
+    'presentation',
+    'publication-annotationcollection',
+    'publication-article',
+    'publication-book',
+    'publication-conferencepaper',
+    'publication-other',
+    'publication-proposal',
+    'publication-report',
+    'publication-softwaredocumentation',
+    'video',
+}
+
+
+def is_valid(record):
+    for type_ in record.get('type', ()):
+        if type_ in TYPE_BLACKLIST:
+            return False
+
+    for title in record.get('title', ()):
+        if re.match(r'(?:\S*?)glottolog(?:\S*?):', title.strip()):
+            return False
+        elif re.match(r'(?:\S*?)clts(?:\S*?):', title.strip()):
+            return False
+        elif re.match(r'(?:\S*?)concepticon(?:\S*?):', title.strip()):
+            return False
+
+    return True
+
+
 def uniq(iterable, key=None):
     seen_before = set()
     for item in iterable:
@@ -122,15 +154,15 @@ class Dataset(BaseDataset):
             'user-digling',
             'user-tular',
         )
-        records = list(uniq(
-            (
-                parse_record(record)
-                for community in communities
-                for record in dl.ListRecords(
-                    metadataPrefix='oai_dc',
-                    set=community)
-            ),
-            key=lambda r: '\t'.join(r['id'])))
+        records = (
+            parse_record(record)
+            for community in communities
+            for record in dl.ListRecords(
+                metadataPrefix='oai_dc',
+                set=community))
+        records = filter(is_valid, records)
+        records = uniq(records, key=lambda r: '\t'.join(r['id']))
+        records = list(records)
 
         print('additional communities mentioned:')
         old_comms = set(communities)
@@ -139,7 +171,7 @@ class Dataset(BaseDataset):
             for record in records
             for c in record.get('communities', ())
             if c not in old_comms}
-        print('\n'.join(' * {}'.format(c) for c in sorted(new_comms))) 
+        print('\n'.join(' * {}'.format(c) for c in sorted(new_comms)))
 
         def merge_lists(v):
             return '\\t'.join(uniq(v)) if isinstance(v, list) else v
