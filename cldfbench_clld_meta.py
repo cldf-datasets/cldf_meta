@@ -1,6 +1,7 @@
 from collections import defaultdict, namedtuple
 import csv
 from functools import partial, reduce
+import json
 import pathlib
 import re
 import sys
@@ -8,6 +9,7 @@ import time
 from urllib import request
 from xml.etree import ElementTree as ET
 
+from bs4 import BeautifulSoup
 from sickle import Sickle
 from sickle.iterator import OAIResponseIterator
 
@@ -141,6 +143,83 @@ def _id_sort_key(record_row):
     return int(re.fullmatch(r'oai:zenodo.org:(\d+)', record_row[0]).group(1))
 
 
+def fmt_time_period(secs):
+    mins, secs = secs // 60, secs % 60
+    hrs, mins = mins // 60, mins % 60
+    days, hrs = hrs // 24, hrs % 24
+    if days:
+        return '{}d{}h{}m{}s'.format(days, hrs, mins, secs)
+    elif hrs:
+        return '{}h{}m{}s'.format(hrs, mins, secs)
+    elif mins:
+        return '{}m{}s'.format(mins, secs)
+    else:
+        return '{}s'.format(secs)
+
+
+def time_secs():
+    return time.time_ns() // 1000000000
+
+
+def wait_until(secs_since_epoch):
+    dt = secs_since_epoch - time_secs()
+    print(
+        'hit rate limit -- waiting', fmt_time_period(dt),
+        'until', time.ctime(secs_since_epoch),
+        file=sys.stdout)
+    time.sleep(dt)
+
+
+def download_all(urls):
+    """Download data from multiple urls at a ratelimit-friendly pace."""
+    limit = 60
+    limit_remaining = 60
+    retry_after = 60
+    limit_reset = time_secs() + retry_after
+
+    retries = 3
+    for url in urls:
+        for attempt in range(retries):
+            with request.urlopen(url) as response:
+                limit = response.headers['X-RateLimit-Limit']
+                limit_remaining = response.headers['X-RateLimit-Remaining']
+                limit_reset = response.headers['X-RateLimit-Reset']
+                retry_after = response.headers['Retry-After']
+
+                if response.status == 200:
+                    # ok
+                    yield response.read()
+                    if limit_remaining == 0:
+                        wait_until(max(limit_reset, time_secs() + retry_after))
+                    # no retries needed
+                    break
+                elif response.status == 429:
+                    # too many requests
+                    wait_until(max(limit_reset, time_secs() + retry_after))
+                else:
+                    print(
+                       'Unexpected http response:', response.status,
+                       '\nRetrying (attempt', attempt + 1,
+                       'of', '%s)...' % retries,
+                       file=sys.stderr)
+        else:
+            print(
+                'Tried', retries, 'times to no avail.  Giving up...',
+                file=sys.stderr)
+            return
+
+
+def extract_json(html_string):
+    soup = BeautifulSoup(html_string, 'lxml')
+    pre_tags = soup.find_all('pre', style="white-space: pre-wrap;")
+    if not pre_tags:
+        raise ValueError('no <pre> tags found that could contain the json input')
+    elif len(pre_tags) > 1:
+        raise ValueError('more than one candidate for a json <pre> tag')
+    else:
+        return json.loads(pre_tags[0].text)
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "clld_meta"
@@ -156,6 +235,21 @@ class Dataset(BaseDataset):
         """
         # TODO find a way to search for all records
         #  (ideally on the server-side, rather than downloading *all* the records)
+
+        # TODO see what info we can collect
+        #
+        #  * File info seems useful (if i want to dl the thingy)
+        #
+        # "version": "v1.2", 
+
+        # TODO get urls from oai data
+        responses = list(download_all([
+            'https://zenodo.org/record/5526477/export/json',
+            'https://zenodo.org/record/5526509/export/json',
+            'https://zenodo.org/record/5526518/export/json',
+            ]))
+        json_data = list(map(extract_json, responses))
+        return
 
         dl = Sickle(
             OAI_URL,
