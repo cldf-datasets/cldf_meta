@@ -192,12 +192,6 @@ def download_all(urls):
                     limit_remaining = int(response.headers['X-RateLimit-Remaining'])
                     limit_reset = int(response.headers['X-RateLimit-Reset'])
                     retry_after = int(response.headers['Retry-After'])
-                    print(url)
-                    print('    X-RateLimit-Limit:', limit)
-                    print('    X-RateLimit-Remaining:', limit_remaining)
-                    print('    X-RateLimit-Reset:', limit_reset)
-                    print('    Retry-After', retry_after)
-                    print()
 
                     yield response.read()
 
