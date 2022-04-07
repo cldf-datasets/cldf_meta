@@ -1,4 +1,4 @@
-from collections import defaultdict, namedtuple
+from collections import defaultdict, namedtuple, OrderedDict
 import csv
 from functools import partial, reduce
 import json
@@ -7,11 +7,13 @@ import re
 import sys
 import time
 from urllib import request
+from urllib.error import HTTPError
 from xml.etree import ElementTree as ET
 
 from bs4 import BeautifulSoup
 from sickle import Sickle
 from sickle.iterator import OAIResponseIterator
+from tqdm import tqdm
 
 from cldfbench import Dataset as BaseDataset
 
@@ -27,6 +29,7 @@ ZENODO_METADATA_ROWS = [
     'id',
     'date',
     'title',
+    'version',
     'description',
     'author',
     'contributor',
@@ -40,6 +43,9 @@ ZENODO_METADATA_ROWS = [
     'source',
     'subject',
     'type',
+    'file-links',
+    'file-types',
+    'file-checksums',
 ]
 
 
@@ -180,20 +186,27 @@ def download_all(urls):
     retries = 3
     for url in urls:
         for attempt in range(retries):
-            with request.urlopen(url) as response:
-                limit = response.headers['X-RateLimit-Limit']
-                limit_remaining = response.headers['X-RateLimit-Remaining']
-                limit_reset = response.headers['X-RateLimit-Reset']
-                retry_after = response.headers['Retry-After']
+            try:
+                with request.urlopen(url) as response:
+                    limit = int(response.headers['X-RateLimit-Limit'])
+                    limit_remaining = int(response.headers['X-RateLimit-Remaining'])
+                    limit_reset = int(response.headers['X-RateLimit-Reset'])
+                    retry_after = int(response.headers['Retry-After'])
+                    print(url)
+                    print('    X-RateLimit-Limit:', limit)
+                    print('    X-RateLimit-Remaining:', limit_remaining)
+                    print('    X-RateLimit-Reset:', limit_reset)
+                    print('    Retry-After', retry_after)
+                    print()
 
-                if response.status == 200:
-                    # ok
                     yield response.read()
+
                     if limit_remaining == 0:
                         wait_until(max(limit_reset, time_secs() + retry_after))
                     # no retries needed
                     break
-                elif response.status == 429:
+            except HTTPError as e:
+                if e.code == 429:
                     # too many requests
                     wait_until(max(limit_reset, time_secs() + retry_after))
                 else:
@@ -236,21 +249,6 @@ class Dataset(BaseDataset):
         # TODO find a way to search for all records
         #  (ideally on the server-side, rather than downloading *all* the records)
 
-        # TODO see what info we can collect
-        #
-        #  * File info seems useful (if i want to dl the thingy)
-        #
-        # "version": "v1.2", 
-
-        # TODO get urls from oai data
-        responses = list(download_all([
-            'https://zenodo.org/record/5526477/export/json',
-            'https://zenodo.org/record/5526509/export/json',
-            'https://zenodo.org/record/5526518/export/json',
-            ]))
-        json_data = list(map(extract_json, responses))
-        return
-
         dl = Sickle(
             OAI_URL,
             retry_status_codes=[503, 429],
@@ -277,13 +275,37 @@ class Dataset(BaseDataset):
                 set=community))
         records = filter(is_valid, records)
         records = uniq(records, key=lambda r: '\t'.join(r['id']))
-        records = list(records)
+        records = OrderedDict((record['zenodo-link'][0], record) for record in records)
+
+        print('downloading json metadata...', file=sys.stderr)
+
+        json_links = [
+            '{}/export/json'.format(record['zenodo-link'][0])
+            for record in records.values()
+            if record.get('zenodo-link')]
+        # TODO replace tqdm with less cursor-move-y status msg
+        json_data = list(download_all(tqdm(json_links)))
+        json_data = list(map(extract_json, json_data))
+
+        for json_record in json_data:
+            zenodo_link = json_record.get('links', {}).get('html')
+            if not zenodo_link:
+                continue
+            md = json_record.get('metadata') or {}
+            records[zenodo_link]['version'] = md.get('version') or ''
+            for filedata in json_record.get('files', ()):
+                records[zenodo_link]['file-links'].append(
+                    filedata.get('links', {}).get('self', ''))
+                records[zenodo_link]['file-types'].append(
+                    filedata.get('type', ''))
+                records[zenodo_link]['file-checksums'].append(
+                    filedata.get('checksum', ''))
 
         print('additional communities mentioned:')
         old_comms = set(communities)
         new_comms = {
             c
-            for record in records
+            for record in records.values()
             for c in record.get('communities', ())
             if c not in old_comms}
         print('\n'.join(' * {}'.format(c) for c in sorted(new_comms)))
@@ -292,7 +314,7 @@ class Dataset(BaseDataset):
             return '\\t'.join(uniq(v)) if isinstance(v, list) else v
         csv_rows = [
             [merge_lists(record.get(k) or '') for k in ZENODO_METADATA_ROWS]
-            for record in records]
+            for record in records.values()]
         csv_rows.sort(key=_id_sort_key)
         with open(self.raw_dir / 'zenodo-metadata.csv', 'w', encoding='utf-8') as f:
             wrt = csv.writer(f)
