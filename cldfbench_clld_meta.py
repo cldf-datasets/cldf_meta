@@ -13,7 +13,6 @@ from xml.etree import ElementTree as ET
 from bs4 import BeautifulSoup
 from sickle import Sickle
 from sickle.iterator import OAIResponseIterator
-from tqdm import tqdm
 
 from cldfbench import Dataset as BaseDataset
 
@@ -144,6 +143,26 @@ def parse_record(record):
     return md
 
 
+def loggable_progress(things, step=10, steps_per_line=10, file=sys.stderr):
+    """Progressbar that doesn't clog up logs with escape codes.
+
+    Loops over `things` and prints status update every `step` elements.
+    Starts a new line every `steps_per_line` steps.
+    Writes status updates to `file` (standard error by default).
+
+    Yields elements in `things`.
+    """
+    for index, thing in enumerate(things):
+        if index % step == 0:
+            if (index // step) % steps_per_line == steps_per_line - 1:
+                nl = '\n'
+            else:
+                nl = ''
+            print(index, '..', nl, sep='', end='', file=file)
+        yield thing
+    print('done.', file=file)
+
+
 def _id_sort_key(record_row):
     # XXX this assumes zenodo doesn't change their id generation pattern
     return int(re.fullmatch(r'oai:zenodo.org:(\d+)', record_row[0]).group(1))
@@ -172,7 +191,7 @@ def wait_until(secs_since_epoch):
     print(
         'hit rate limit -- waiting', fmt_time_period(dt),
         'until', time.ctime(secs_since_epoch),
-        file=sys.stdout)
+        file=sys.stderr)
     time.sleep(dt)
 
 
@@ -277,8 +296,7 @@ class Dataset(BaseDataset):
             '{}/export/json'.format(record['zenodo-link'][0])
             for record in records.values()
             if record.get('zenodo-link')]
-        # TODO replace tqdm with less cursor-move-y status msg
-        json_data = list(download_all(tqdm(json_links)))
+        json_data = list(download_all(loggable_progress(json_links)))
         json_data = list(map(extract_json, json_data))
 
         for json_record in json_data:
