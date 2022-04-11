@@ -368,7 +368,7 @@ class Dataset(BaseDataset):
         _merge_json_data(records, json_data)
         _merge_previous_records(records, previous_md)
 
-        print('writing raw/zenodo-metadata.csv', file=sys.stderr)
+        print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
         self._write_zenodo_metadata(records)
 
         print('additional communities mentioned:', file=sys.stderr)
