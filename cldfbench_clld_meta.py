@@ -1,6 +1,5 @@
-from collections import defaultdict, namedtuple, OrderedDict
+from collections import defaultdict, OrderedDict
 import csv
-from functools import partial, reduce
 import json
 import pathlib
 import re
@@ -8,11 +7,9 @@ import sys
 import time
 from urllib import request
 from urllib.error import HTTPError
-from xml.etree import ElementTree as ET
 
 from bs4 import BeautifulSoup
 from sickle import Sickle
-from sickle.iterator import OAIResponseIterator
 
 from cldfbench import Dataset as BaseDataset
 
@@ -20,9 +17,9 @@ from cldfbench import Dataset as BaseDataset
 OAI_URL = 'https://zenodo.org/oai2d'
 
 DOI_REGEX = r'(?:doi:)?10(?:\.[0-9]+)+/'
-#ZENODO_DOI_REGEX = r'(?:doi:)?10\.5281/zenodo\.'
+# ZENODO_DOI_REGEX = r'(?:doi:)?10\.5281/zenodo\.'
 GITHUB_REGEX = r'(?:url:)?(?:https?://)?github.com'
-#COMMUNITY_REGEX = r'(?:url:)?(?:https?://)?zenodo.org/communities'
+# COMMUNITY_REGEX = r'(?:url:)?(?:https?://)?zenodo.org/communities'
 
 ZENODO_METADATA_ROWS = [
     'id',
@@ -132,7 +129,7 @@ def parse_record(record):
     md['communities'] = record.header.setSpecs
     for k, vs in record.metadata.items():
         for v in vs:
-            new_k = _transform_key(k ,v)
+            new_k = _transform_key(k, v)
             if not new_k:
                 continue
 
@@ -272,12 +269,57 @@ def _download_json_data(json_links):
     return json_data
 
 
+def _merge_json_data(records, json_data):
+    for json_record in json_data:
+        zenodo_link = json_record.get('links', {}).get('html')
+        if not zenodo_link:
+            continue
+        md = json_record.get('metadata') or {}
+        records[zenodo_link]['version'] = md.get('version') or ''
+        for filedata in json_record.get('files', ()):
+            records[zenodo_link]['file-links'].append(
+                filedata.get('links', {}).get('self', ''))
+            records[zenodo_link]['file-types'].append(
+                filedata.get('type', ''))
+            records[zenodo_link]['file-checksums'].append(
+                filedata.get('checksum', ''))
+        records[zenodo_link]['json-downloaded'] = 'y'
+
+
+def _merge_previous_records(records, previous_md):
+    for zenodo_link, previous_record in previous_md.items():
+        if previous_record.get('json-downloaded') != 'y':
+            continue
+        if zenodo_link not in records:
+            continue
+        for k in (
+            'version',
+            'file-links',
+            'file-types',
+            'file-checksums',
+        ):
+            records[zenodo_link][k] = previous_md[zenodo_link].get(k) or ''
+        records[zenodo_link]['json-downloaded'] = 'y'
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "clld_meta"
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return super().cldf_specs()
+
+    def _write_zenodo_metadata(self, records):
+        def merge_lists(v):
+            return '\\t'.join(uniq(v)) if isinstance(v, list) else v
+        csv_rows = [
+            [merge_lists(record.get(k) or '') for k in ZENODO_METADATA_ROWS]
+            for record in records.values()]
+        csv_rows.sort(key=_id_sort_key)
+        with open(self.raw_dir / 'zenodo-metadata.csv', 'w', encoding='utf-8') as f:
+            wrt = csv.writer(f)
+            wrt.writerow(ZENODO_METADATA_ROWS)
+            wrt.writerows(csv_rows)
 
     def cmd_download(self, args):
         """
@@ -299,16 +341,16 @@ class Dataset(BaseDataset):
             previous_md = {}
 
         communities = (
-            #'user-lexibank',
+            # 'user-lexibank',
             'user-dictionaria',
-            #'user-calc',
-            #'user-cldf-datasets',
-            #'user-clics',
-            #'user-clld',
-            #'user-diachronica',
-            #'user-dighl',
-            #'user-digling',
-            #'user-tular',
+            # 'user-calc',
+            # 'user-cldf-datasets',
+            # 'user-clics',
+            # 'user-clld',
+            # 'user-diachronica',
+            # 'user-dighl',
+            # 'user-digling',
+            # 'user-tular',
         )
         print('downloading OAI-PH metadata...', file=sys.stderr)
         records = _download_oai_metadata(communities)
@@ -323,46 +365,11 @@ class Dataset(BaseDataset):
         else:
             json_data = ()
 
-        for json_record in json_data:
-            zenodo_link = json_record.get('links', {}).get('html')
-            if not zenodo_link:
-                continue
-            md = json_record.get('metadata') or {}
-            records[zenodo_link]['version'] = md.get('version') or ''
-            for filedata in json_record.get('files', ()):
-                records[zenodo_link]['file-links'].append(
-                    filedata.get('links', {}).get('self', ''))
-                records[zenodo_link]['file-types'].append(
-                    filedata.get('type', ''))
-                records[zenodo_link]['file-checksums'].append(
-                    filedata.get('checksum', ''))
-            records[zenodo_link]['json-downloaded'] = 'y'
-
-        for zenodo_link, previous_record in previous_md.items():
-            if previous_record.get('json-downloaded') != 'y':
-                continue
-            if zenodo_link not in records:
-                continue
-            for k in (
-                'version',
-                'file-links',
-                'file-types',
-                'file-checksums',
-            ):
-                records[zenodo_link][k] = previous_md[zenodo_link].get(k) or ''
-            records[zenodo_link]['json-downloaded'] = 'y'
+        _merge_json_data(records, json_data)
+        _merge_previous_records(records, previous_md)
 
         print('writing raw/zenodo-metadata.csv', file=sys.stderr)
-        def merge_lists(v):
-            return '\\t'.join(uniq(v)) if isinstance(v, list) else v
-        csv_rows = [
-            [merge_lists(record.get(k) or '') for k in ZENODO_METADATA_ROWS]
-            for record in records.values()]
-        csv_rows.sort(key=_id_sort_key)
-        with open(self.raw_dir / 'zenodo-metadata.csv', 'w', encoding='utf-8') as f:
-            wrt = csv.writer(f)
-            wrt.writerow(ZENODO_METADATA_ROWS)
-            wrt.writerows(csv_rows)
+        self._write_zenodo_metadata(records)
 
         print('additional communities mentioned:', file=sys.stderr)
         old_comms = set(communities)
