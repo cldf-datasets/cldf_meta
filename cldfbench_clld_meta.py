@@ -352,15 +352,7 @@ class Dataset(BaseDataset):
                 records[zenodo_link][k] = previous_md[zenodo_link].get(k) or ''
             records[zenodo_link]['json-downloaded'] = 'y'
 
-        print('additional communities mentioned:')
-        old_comms = set(communities)
-        new_comms = {
-            c
-            for record in records.values()
-            for c in record.get('communities', ())
-            if c not in old_comms}
-        print('\n'.join(' * {}'.format(c) for c in sorted(new_comms)))
-
+        print('writing raw/zenodo-metadata.csv', file=sys.stderr)
         def merge_lists(v):
             return '\\t'.join(uniq(v)) if isinstance(v, list) else v
         csv_rows = [
@@ -371,6 +363,17 @@ class Dataset(BaseDataset):
             wrt = csv.writer(f)
             wrt.writerow(ZENODO_METADATA_ROWS)
             wrt.writerows(csv_rows)
+
+        print('additional communities mentioned:', file=sys.stderr)
+        old_comms = set(communities)
+        new_comms = {
+            c
+            for record in records.values()
+            for c in record.get('communities', ())
+            if c not in old_comms}
+        print(
+            '\n'.join(' * {}'.format(c) for c in sorted(new_comms)),
+            file=sys.stderr)
 
     def cmd_makecldf(self, args):
         """
