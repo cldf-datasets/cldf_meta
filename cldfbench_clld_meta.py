@@ -45,6 +45,7 @@ ZENODO_METADATA_ROWS = [
     'file-links',
     'file-types',
     'file-checksums',
+    'json-downloaded',
 ]
 
 
@@ -246,6 +247,31 @@ def extract_json(html_string):
         return json.loads(pre_tags[0].text)
 
 
+def _download_oai_metadata(communities):
+    dl = Sickle(
+        OAI_URL,
+        retry_status_codes=[503, 429],
+        max_retries=3,
+        default_retry_after=60)
+
+    records = (
+        parse_record(record)
+        for community in communities
+        for record in dl.ListRecords(
+            metadataPrefix='oai_dc',
+            set=community))
+    records = filter(is_valid, records)
+    records = uniq(records, key=lambda r: '\t'.join(r['id']))
+    records = OrderedDict((record['zenodo-link'][0], record) for record in records)
+    return records
+
+
+def _download_json_data(json_links):
+    json_data = list(download_all(loggable_progress(json_links)))
+    json_data = list(map(extract_json, json_data))
+    return json_data
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "clld_meta"
@@ -262,42 +288,40 @@ class Dataset(BaseDataset):
         # TODO find a way to search for all records
         #  (ideally on the server-side, rather than downloading *all* the records)
 
-        dl = Sickle(
-            OAI_URL,
-            retry_status_codes=[503, 429],
-            max_retries=3,
-            default_retry_after=60)
+        try:
+            previous_md = {
+                record['zenodo-link']: record
+                for record in self.raw_dir.read_csv(
+                    'zenodo-metadata.csv',
+                    dicts=True)
+            }
+        except IOError:
+            previous_md = {}
 
         communities = (
-            'user-lexibank',
+            #'user-lexibank',
             'user-dictionaria',
-            'user-calc',
-            'user-cldf-datasets',
-            'user-clics',
-            'user-clld',
-            'user-diachronica',
-            'user-dighl',
-            'user-digling',
-            'user-tular',
+            #'user-calc',
+            #'user-cldf-datasets',
+            #'user-clics',
+            #'user-clld',
+            #'user-diachronica',
+            #'user-dighl',
+            #'user-digling',
+            #'user-tular',
         )
-        records = (
-            parse_record(record)
-            for community in communities
-            for record in dl.ListRecords(
-                metadataPrefix='oai_dc',
-                set=community))
-        records = filter(is_valid, records)
-        records = uniq(records, key=lambda r: '\t'.join(r['id']))
-        records = OrderedDict((record['zenodo-link'][0], record) for record in records)
-
-        print('downloading json metadata...', file=sys.stderr)
+        print('downloading OAI-PH metadata...', file=sys.stderr)
+        records = _download_oai_metadata(communities)
 
         json_links = [
-            '{}/export/json'.format(record['zenodo-link'][0])
-            for record in records.values()
-            if record.get('zenodo-link')]
-        json_data = list(download_all(loggable_progress(json_links)))
-        json_data = list(map(extract_json, json_data))
+            '{}/export/json'.format(zenodo_link)
+            for zenodo_link, rec in records.items()
+            if previous_md.get(zenodo_link, {}).get('json-downloaded') != 'y']
+        if json_links:
+            print('downloading json metadata...', file=sys.stderr)
+            json_data = _download_json_data(json_links)
+        else:
+            json_data = ()
 
         for json_record in json_data:
             zenodo_link = json_record.get('links', {}).get('html')
@@ -312,6 +336,21 @@ class Dataset(BaseDataset):
                     filedata.get('type', ''))
                 records[zenodo_link]['file-checksums'].append(
                     filedata.get('checksum', ''))
+            records[zenodo_link]['json-downloaded'] = 'y'
+
+        for zenodo_link, previous_record in previous_md.items():
+            if previous_record.get('json-downloaded') != 'y':
+                continue
+            if zenodo_link not in records:
+                continue
+            for k in (
+                'version',
+                'file-links',
+                'file-types',
+                'file-checksums',
+            ):
+                records[zenodo_link][k] = previous_md[zenodo_link].get(k) or ''
+            records[zenodo_link]['json-downloaded'] = 'y'
 
         print('additional communities mentioned:')
         old_comms = set(communities)
