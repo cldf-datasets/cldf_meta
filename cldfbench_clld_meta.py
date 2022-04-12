@@ -1,5 +1,8 @@
 from collections import defaultdict, OrderedDict
 import csv
+import hashlib
+import io
+from itertools import chain, repeat
 import json
 import pathlib
 import re
@@ -7,6 +10,7 @@ import sys
 import time
 from urllib import request
 from urllib.error import HTTPError
+import zipfile
 
 from bs4 import BeautifulSoup
 from sickle import Sickle
@@ -21,6 +25,7 @@ DOI_REGEX = r'(?:doi:)?10(?:\.[0-9]+)+/'
 GITHUB_REGEX = r'(?:url:)?(?:https?://)?github.com'
 # COMMUNITY_REGEX = r'(?:url:)?(?:https?://)?zenodo.org/communities'
 
+ZENODO_METADATA_LISTSEP = r'\t'
 ZENODO_METADATA_ROWS = [
     'id',
     'date',
@@ -292,14 +297,40 @@ def _merge_previous_records(records, previous_md):
             continue
         if zenodo_link not in records:
             continue
+        records[zenodo_link]['version'] = previous_record.get('version') or ''
         for k in (
-            'version',
             'file-links',
             'file-types',
             'file-checksums',
         ):
-            records[zenodo_link][k] = previous_md[zenodo_link].get(k) or ''
+            v = previous_record.get(k) or ''
+            records[zenodo_link][k] = v.split(ZENODO_METADATA_LISTSEP)
         records[zenodo_link]['json-downloaded'] = 'y'
+
+
+def validate_checksum(checksum, data):
+    """Validate `data` by comparing its hash to `checksum`.
+
+    `checksum` is assumed to look like `hashing_algorithm:hex_checksum`
+    (e.g. `md5:6f5902ac237024bdd0c176cb93063dc4`).
+    """
+    fields = checksum.split(':', maxsplit=1)
+    if len(fields) != 2:
+        raise ValueError('Could not determine hashing algorithm')
+
+    algo, expected_sum = fields
+    if algo not in hashlib.algorithms_available:
+        raise ValueError(
+            "Hashing algorigthm '%s' not available in hashlib" % algo)
+
+    h = hashlib.new(algo)
+    h.update(data)
+    real_sum = h.hexdigest()
+
+    if real_sum != expected_sum:
+        raise ValueError(
+            'Checksum validation failed: '
+            "Expected %s sum '%s'; got '%s'." % (algo, expected_sum, real_sum))
 
 
 class Dataset(BaseDataset):
@@ -311,7 +342,7 @@ class Dataset(BaseDataset):
 
     def _write_zenodo_metadata(self, records):
         def merge_lists(v):
-            return '\\t'.join(uniq(v)) if isinstance(v, list) else v
+            return ZENODO_METADATA_LISTSEP.join(uniq(v)) if isinstance(v, list) else v
         csv_rows = [
             [merge_lists(record.get(k) or '') for k in ZENODO_METADATA_ROWS]
             for record in records.values()]
@@ -367,6 +398,44 @@ class Dataset(BaseDataset):
 
         _merge_json_data(records, json_data)
         _merge_previous_records(records, previous_md)
+
+        def zenodo_id(zenodo_link):
+            m = re.fullmatch(r'https://zenodo.org/record/(\d+)', zenodo_link)
+            if not m:
+                raise ValueError(
+                    'Zenodo link looks funny: {}'.format(zenodo_link))
+            return m.group(1)
+        def _ftypes(ftypes):
+            return chain(ftypes, repeat(ftypes[-1])) if ftypes else ()
+
+        file_urls = [
+            (zenodo_id(zenodo_link), furl, ftype, fsum)
+            for zenodo_link, record in records.items()
+            for furl, ftype, fsum in zip(
+                record.get('file-links') or (),
+                _ftypes(record.get('file-types') or ()),
+                record.get('file-checksums') or ())
+            if ftype == 'zip']
+        # only download if raw/<id> folder is missing or empty
+        file_urls = [
+            (id_, furl, ftype, fsum)
+            for (id_, furl, ftype, fsum) in file_urls
+            if (not self.raw_dir.joinpath(id_).exists()
+                or not any(self.raw_dir.joinpath(id_).iterdir()))]
+
+        # XXX it is possible that several zip files are dumped into the same folder
+        # whether that's a problem or not, I don't know
+        if file_urls:
+            print('downloading datasets...', file=sys.stderr)
+            dls = download_all(loggable_progress(
+                furl for _, furl, _, _ in file_urls))
+            for raw_data, (id_, furl, ftype, fsum) in zip(dls, file_urls):
+                validate_checksum(fsum, raw_data)
+                output_folder = self.raw_dir / id_
+                output_folder.mkdir(parents=True, exist_ok=True)
+                # XXX support more file types?
+                with zipfile.ZipFile(io.BytesIO(raw_data)) as zipped_data:
+                    zipped_data.extractall(output_folder)
 
         print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
         self._write_zenodo_metadata(records)
