@@ -415,6 +415,9 @@ class Dataset(BaseDataset):
         _merge_json_data(records, json_data)
         _merge_previous_records(records, previous_md)
 
+        print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
+        self._write_zenodo_metadata(records)
+
         def zenodo_id(zenodo_link):
             m = re.fullmatch(r'https://zenodo.org/record/(\d+)', zenodo_link)
             if not m:
@@ -445,9 +448,6 @@ class Dataset(BaseDataset):
                 'downloading', len(file_urls), 'datasets...',
                 file=sys.stderr)
             _download_datasets(dataset_dir, file_urls)
-
-        print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
-        self._write_zenodo_metadata(records)
 
         print('additional communities mentioned:', file=sys.stderr)
         old_comms = set(communities)
