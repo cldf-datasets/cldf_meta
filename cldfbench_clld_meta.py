@@ -333,6 +333,20 @@ def validate_checksum(checksum, data):
             "Expected %s sum '%s'; got '%s'." % (algo, expected_sum, real_sum))
 
 
+def _download_datasets(raw_dir, file_urls):
+    dls = download_all(loggable_progress(
+        furl for _, furl, _, _ in file_urls))
+    for raw_data, (id_, furl, ftype, fsum) in zip(dls, file_urls):
+        validate_checksum(fsum, raw_data)
+        output_folder = raw_dir / id_
+        output_folder.mkdir(parents=True, exist_ok=True)
+        # XXX support more file types?
+        # XXX it is possible that several zip files are dumped into the same folder
+        # whether that's a problem or not, I don't know
+        with zipfile.ZipFile(io.BytesIO(raw_data)) as zipped_data:
+            zipped_data.extractall(output_folder)
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "clld_meta"
@@ -423,19 +437,9 @@ class Dataset(BaseDataset):
             if (not self.raw_dir.joinpath(id_).exists()
                 or not any(self.raw_dir.joinpath(id_).iterdir()))]
 
-        # XXX it is possible that several zip files are dumped into the same folder
-        # whether that's a problem or not, I don't know
         if file_urls:
             print('downloading datasets...', file=sys.stderr)
-            dls = download_all(loggable_progress(
-                furl for _, furl, _, _ in file_urls))
-            for raw_data, (id_, furl, ftype, fsum) in zip(dls, file_urls):
-                validate_checksum(fsum, raw_data)
-                output_folder = self.raw_dir / id_
-                output_folder.mkdir(parents=True, exist_ok=True)
-                # XXX support more file types?
-                with zipfile.ZipFile(io.BytesIO(raw_data)) as zipped_data:
-                    zipped_data.extractall(output_folder)
+            _download_datasets(self.raw_dir, file_urls)
 
         print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
         self._write_zenodo_metadata(records)
