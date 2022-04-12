@@ -405,7 +405,9 @@ class Dataset(BaseDataset):
             for zenodo_link, rec in records.items()
             if previous_md.get(zenodo_link, {}).get('json-downloaded') != 'y']
         if json_links:
-            print('downloading json metadata...', file=sys.stderr)
+            print(
+                'downloading', len(json_links), 'json metadata files...',
+                file=sys.stderr)
             json_data = _download_json_data(json_links)
         else:
             json_data = ()
@@ -439,7 +441,9 @@ class Dataset(BaseDataset):
                 or not any(dataset_dir.joinpath(id_).iterdir()))]
 
         if file_urls:
-            print('downloading datasets...', file=sys.stderr)
+            print(
+                'downloading', len(file_urls), 'datasets...',
+                file=sys.stderr)
             _download_datasets(dataset_dir, file_urls)
 
         print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
