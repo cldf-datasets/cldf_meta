@@ -161,7 +161,7 @@ def loggable_progress(things, step=10, steps_per_line=10, file=sys.stderr):
                 nl = '\n'
             else:
                 nl = ''
-            print(index, '..', nl, sep='', end='', file=file)
+            print(index + 1, '..', nl, sep='', end='', file=file)
         yield thing
     print('done.', file=file)
 
@@ -386,16 +386,16 @@ class Dataset(BaseDataset):
             previous_md = {}
 
         communities = (
-            # 'user-lexibank',
+            'user-lexibank',
             'user-dictionaria',
-            # 'user-calc',
-            # 'user-cldf-datasets',
-            # 'user-clics',
-            # 'user-clld',
-            # 'user-diachronica',
-            # 'user-dighl',
-            # 'user-digling',
-            # 'user-tular',
+            'user-calc',
+            'user-cldf-datasets',
+            'user-clics',
+            'user-clld',
+            'user-diachronica',
+            'user-dighl',
+            'user-digling',
+            'user-tular',
         )
         print('downloading OAI-PH metadata...', file=sys.stderr)
         records = _download_oai_metadata(communities)
