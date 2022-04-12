@@ -422,6 +422,7 @@ class Dataset(BaseDataset):
         def _ftypes(ftypes):
             return chain(ftypes, repeat(ftypes[-1])) if ftypes else ()
 
+        dataset_dir = self.raw_dir / 'datasets'
         file_urls = [
             (zenodo_id(zenodo_link), furl, ftype, fsum)
             for zenodo_link, record in records.items()
@@ -434,12 +435,12 @@ class Dataset(BaseDataset):
         file_urls = [
             (id_, furl, ftype, fsum)
             for (id_, furl, ftype, fsum) in file_urls
-            if (not self.raw_dir.joinpath(id_).exists()
-                or not any(self.raw_dir.joinpath(id_).iterdir()))]
+            if (not dataset_dir.joinpath(id_).exists()
+                or not any(dataset_dir.joinpath(id_).iterdir()))]
 
         if file_urls:
             print('downloading datasets...', file=sys.stderr)
-            _download_datasets(self.raw_dir, file_urls)
+            _download_datasets(dataset_dir, file_urls)
 
         print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
         self._write_zenodo_metadata(records)
