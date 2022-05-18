@@ -146,24 +146,19 @@ def parse_record(record):
     return md
 
 
-def loggable_progress(things, step=10, steps_per_line=10, file=sys.stderr):
-    """Progressbar that doesn't clog up logs with escape codes.
+def loggable_progress(things, file=sys.stderr):
+    """'Progressbar' that doesn't clog up logs with escape codes.
 
-    Loops over `things` and prints status update every `step` elements.
-    Starts a new line every `steps_per_line` steps.
+    Loops over `things` and prints a status update every 10 elements.
     Writes status updates to `file` (standard error by default).
 
     Yields elements in `things`.
     """
     for index, thing in enumerate(things):
-        if index % step == 0:
-            if (index // step) % steps_per_line == steps_per_line - 1:
-                nl = '\n'
-            else:
-                nl = ''
-            print(index + 1, '..', nl, sep='', end='', file=file)
+        if (index + 1) % 10 == 0:
+            print(index + 1, '....', sep='', end='', file=file, flush=True)
         yield thing
-    print('done.', file=file)
+    print('done.', file=file, flush=True)
 
 
 def _id_sort_key(record_row):
@@ -194,7 +189,7 @@ def wait_until(secs_since_epoch):
     print(
         'hit rate limit -- waiting', fmt_time_period(dt),
         'until', time.ctime(secs_since_epoch),
-        file=sys.stderr)
+        file=sys.stderr, flush=True)
     time.sleep(dt)
 
 
@@ -227,10 +222,10 @@ def download_all(urls):
                     wait_until(max(limit_reset, time_secs() + retry_after))
                 else:
                     print(
-                       'Unexpected http response:', response.status,
+                       'Unexpected http response:', e.code,
                        '\nRetrying (attempt', attempt + 1,
                        'of', '%s)...' % retries,
-                       file=sys.stderr)
+                       file=sys.stderr, flush=True)
         else:
             print(
                 'Tried', retries, 'times to no avail.  Giving up...',
@@ -269,7 +264,7 @@ def _download_oai_metadata(communities):
 
 
 def _download_json_data(json_links):
-    json_data = list(download_all(loggable_progress(json_links)))
+    json_data = list(download_all(loggable_progress(json_links, sys.stderr)))
     json_data = list(map(extract_json, json_data))
     return json_data
 
@@ -335,7 +330,8 @@ def validate_checksum(checksum, data):
 
 def _download_datasets(raw_dir, file_urls):
     dls = download_all(loggable_progress(
-        furl for _, furl, _, _ in file_urls))
+        (furl for _, furl, _, _ in file_urls),
+        file=sys.stderr))
     for raw_data, (id_, furl, ftype, fsum) in zip(dls, file_urls):
         validate_checksum(fsum, raw_data)
         output_folder = raw_dir / id_
