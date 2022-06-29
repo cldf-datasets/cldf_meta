@@ -4,12 +4,14 @@ import hashlib
 import io
 from itertools import chain, repeat
 import json
+import os
 import pathlib
 import re
 import sys
 import time
 from urllib import request
 from urllib.error import HTTPError
+from urllib.parse import urlparse
 import zipfile
 
 from bs4 import BeautifulSoup
@@ -193,6 +195,19 @@ def wait_until(secs_since_epoch):
     time.sleep(dt)
 
 
+def add_access_token(url, token):
+    if not token:
+        return url
+
+    o = urlparse(url)
+    if o.query:
+        o = o._replace(query='{}&access_token={}'.format(o.query, token))
+    else:
+        o = o._replace(query='access_token={}'.format(token))
+
+    return o.geturl()
+
+
 def download_all(urls):
     """Download data from multiple urls at a ratelimit-friendly pace."""
     limit = 60
@@ -371,6 +386,10 @@ class Dataset(BaseDataset):
         # TODO find a way to search for all records
         #  (ideally on the server-side, rather than downloading *all* the records)
 
+        access_token = os.environ.get('CLLD_META_ACCESS_TOKEN') or ''
+        if access_token:
+            print('NOTE: Access token detected.', file=sys.stderr)
+
         try:
             previous_md = {
                 record['zenodo-link']: record
@@ -400,6 +419,10 @@ class Dataset(BaseDataset):
             '{}/export/json'.format(zenodo_link)
             for zenodo_link, rec in records.items()
             if previous_md.get(zenodo_link, {}).get('json-downloaded') != 'y']
+        if access_token:
+            json_links = [
+                add_access_token(url, access_token)
+                for url in json_links]
         if json_links:
             print(
                 'downloading', len(json_links), 'json metadata files...',
@@ -438,6 +461,10 @@ class Dataset(BaseDataset):
             for (id_, furl, ftype, fsum) in file_urls
             if (not dataset_dir.joinpath(id_).exists()
                 or not any(dataset_dir.joinpath(id_).iterdir()))]
+        if access_token:
+            file_urls = [
+                (id_, add_access_token(furl), ftype, fsum)
+                for (id_, furl, ftype, fsum) in file_urls]
 
         if file_urls:
             print(
