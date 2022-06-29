@@ -463,7 +463,7 @@ class Dataset(BaseDataset):
                 or not any(dataset_dir.joinpath(id_).iterdir()))]
         if access_token:
             file_urls = [
-                (id_, add_access_token(furl), ftype, fsum)
+                (id_, add_access_token(furl, access_token), ftype, fsum)
                 for (id_, furl, ftype, fsum) in file_urls]
 
         if file_urls:
