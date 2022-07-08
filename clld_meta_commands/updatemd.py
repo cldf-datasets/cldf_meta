@@ -390,7 +390,7 @@ def register(parser):
     add_dataset_spec(parser)
 
 
-def _run(dataset, args):
+def updatemd(dataset, args):
     print('reading existing zenodo metadata...', file=sys.stderr, flush=True)
     try:
         previous_md = {
@@ -446,4 +446,4 @@ def _run(dataset, args):
 
 
 def run(args):
-    with_dataset(args, _run)
+    with_dataset(args, updatemd)
