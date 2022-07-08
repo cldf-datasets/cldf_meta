@@ -1,9 +1,6 @@
-from collections import defaultdict, OrderedDict
-import csv
 import hashlib
 import io
 from itertools import chain, repeat
-import json
 import os
 import pathlib
 import re
@@ -14,160 +11,45 @@ from urllib.error import HTTPError
 from urllib.parse import urlparse
 import zipfile
 
-from bs4 import BeautifulSoup
-from sickle import Sickle
 
 from cldfbench import Dataset as BaseDataset
 
 
-OAI_URL = 'https://zenodo.org/oai2d'
+### Stuff that needs to be put in some sort of library ###
 
-DOI_REGEX = r'(?:doi:)?10(?:\.[0-9]+)+/'
-# ZENODO_DOI_REGEX = r'(?:doi:)?10\.5281/zenodo\.'
-GITHUB_REGEX = r'(?:url:)?(?:https?://)?github.com'
-# COMMUNITY_REGEX = r'(?:url:)?(?:https?://)?zenodo.org/communities'
+# FIXME code duplication
+def get_access_token():
+    """Get access token from environment.
 
-ZENODO_METADATA_LISTSEP = r'\t'
-ZENODO_METADATA_ROWS = [
-    'id',
-    'date',
-    'title',
-    'version',
-    'description',
-    'author',
-    'contributor',
-    'creator',
-    'github-link',
-    'zenodo-link',
-    'doi',
-    'doi-related',
-    'communities',
-    'rights',
-    'source',
-    'subject',
-    'type',
-    'file-links',
-    'file-types',
-    'file-checksums',
-    'json-downloaded',
-]
-
-
-TYPE_BLACKLIST = {
-    'lesson',
-    'poster',
-    'presentation',
-    'publication-annotationcollection',
-    'publication-article',
-    'publication-book',
-    'publication-conferencepaper',
-    'publication-other',
-    'publication-proposal',
-    'publication-report',
-    'publication-softwaredocumentation',
-    'video',
-}
-
-
-TITLE_BLACKLIST = {
-    'Glottolog database 2.2',
-    'Glottolog database 2.3',
-    'PYCLTS. A Python library for the handling of phonetic transcription systems',
-    'CLTS. Cross-Linguistic Transcription Systems',
-    'CLTS. Cross-Linguistic Transcription Systems',
-    'CLTS. Cross-Linguistic Transcription Systems',
-    'CLLD Concepticon 2.3.0',
-    'CLLD Concepticon 2.4.0-rc.1',
-    'CLLD Concepticon 2.4.0',
-    'CLLD Concepticon 2.5.0',
-}
-
-
-def is_valid(record):
-    for type_ in record.get('type', ()):
-        if type_ in TYPE_BLACKLIST:
-            return False
-
-    for title in record.get('title', ()):
-        if title in TITLE_BLACKLIST:
-            return False
-        elif re.match(r'(?:\S*?)glottolog(?:\S*?):', title.strip()):
-            return False
-        elif re.match(r'(?:\S*?)clts(?:\S*?):', title.strip()):
-            return False
-        elif re.match(r'(?:\S*?)concepticon(?:\S*?):', title.strip()):
-            return False
-
-    return True
-
-
-def uniq(iterable, key=None):
-    seen_before = set()
-    for item in iterable:
-        keyed = key(item) if key else item
-        if keyed not in seen_before:
-            seen_before.add(keyed)
-            yield item
-
-
-def _transform_key(k, v):
-    if k == 'identifier':
-        if re.match('https?://', v):
-            return 'zenodo-link'
-        elif v.startswith('oai:zenodo.org:'):
-            return 'id'
-        elif re.match(DOI_REGEX, v, re.I):
-            return 'doi'
-        else:
-            return None
-    elif k == 'relation':
-        if re.match(DOI_REGEX, v, re.I):
-            return 'doi-related'
-        elif re.match(GITHUB_REGEX, v, re.I):
-            return 'github-link'
-        else:
-            return None
-    else:
-        return k
-
-
-def parse_record(record):
-    md = defaultdict(list)
-    md['communities'] = record.header.setSpecs
-    for k, vs in record.metadata.items():
-        for v in vs:
-            new_k = _transform_key(k, v)
-            if not new_k:
-                continue
-
-            v = v.strip()\
-                .replace('\\', '\\\\')\
-                .replace('\n', '\\n')\
-                .replace('\t', ' ')
-            md[new_k].append(v)
-    return md
-
-
-def loggable_progress(things, file=sys.stderr):
-    """'Progressbar' that doesn't clog up logs with escape codes.
-
-    Loops over `things` and prints a status update every 10 elements.
-    Writes status updates to `file` (standard error by default).
-
-    Yields elements in `things`.
+    Uses the `CLLD_META_ACCESS_TOKEN` environment variable.
     """
-    for index, thing in enumerate(things):
-        if (index + 1) % 10 == 0:
-            print(index + 1, '....', sep='', end='', file=file, flush=True)
-        yield thing
-    print('done.', file=file, flush=True)
+    access_token = os.environ.get('CLLD_META_ACCESS_TOKEN') or ''
+    if access_token:
+        print('NOTE: Access token detected.', file=sys.stderr)
+    return access_token
 
 
-def _id_sort_key(record_row):
-    # XXX this assumes zenodo doesn't change their id generation pattern
-    return int(re.fullmatch(r'oai:zenodo.org:(\d+)', record_row[0]).group(1))
+# FIXME code duplication
+def add_access_token(url, token):
+    """Add Zenodod access token to a URL."""
+    if not token:
+        return url
+
+    o = urlparse(url)
+    if o.query:
+        o = o._replace(query='{}&access_token={}'.format(o.query, token))
+    else:
+        o = o._replace(query='access_token={}'.format(token))
+
+    return o.geturl()
 
 
+# FIXME code duplication
+def time_secs():
+    return time.time_ns() // 1000000000
+
+
+# FIXME code duplication
 def fmt_time_period(secs):
     mins, secs = secs // 60, secs % 60
     hrs, mins = mins // 60, mins % 60
@@ -182,10 +64,7 @@ def fmt_time_period(secs):
         return '{}s'.format(secs)
 
 
-def time_secs():
-    return time.time_ns() // 1000000000
-
-
+# FIXME code duplication
 def wait_until(secs_since_epoch):
     dt = secs_since_epoch - time_secs()
     print(
@@ -195,19 +74,7 @@ def wait_until(secs_since_epoch):
     time.sleep(dt)
 
 
-def add_access_token(url, token):
-    if not token:
-        return url
-
-    o = urlparse(url)
-    if o.query:
-        o = o._replace(query='{}&access_token={}'.format(o.query, token))
-    else:
-        o = o._replace(query='access_token={}'.format(token))
-
-    return o.geturl()
-
-
+# FIXME code duplication
 def download_all(urls):
     """Download data from multiple urls at a ratelimit-friendly pace."""
     limit = 60
@@ -248,75 +115,23 @@ def download_all(urls):
             return
 
 
-def extract_json(html_string):
-    soup = BeautifulSoup(html_string, 'lxml')
-    pre_tags = soup.find_all('pre', style="white-space: pre-wrap;")
-    if not pre_tags:
-        raise ValueError('no <pre> tags found that could contain the json input')
-    elif len(pre_tags) > 1:
-        raise ValueError('more than one candidate for a json <pre> tag')
-    else:
-        return json.loads(pre_tags[0].text)
+# FIXME code duplication
+def loggable_progress(things, file=sys.stderr):
+    """'Progressbar' that doesn't clog up logs with escape codes.
+
+    Loops over `things` and prints a status update every 10 elements.
+    Writes status updates to `file` (standard error by default).
+
+    Yields elements in `things`.
+    """
+    for index, thing in enumerate(things):
+        if (index + 1) % 10 == 0:
+            print(index + 1, '....', sep='', end='', file=file, flush=True)
+        yield thing
+    print('done.', file=file, flush=True)
 
 
-def _download_oai_metadata(communities):
-    dl = Sickle(
-        OAI_URL,
-        retry_status_codes=[503, 429],
-        max_retries=3,
-        default_retry_after=60)
-
-    records = (
-        parse_record(record)
-        for community in communities
-        for record in dl.ListRecords(
-            metadataPrefix='oai_dc',
-            set=community))
-    records = filter(is_valid, records)
-    records = uniq(records, key=lambda r: '\t'.join(r['id']))
-    records = OrderedDict((record['zenodo-link'][0], record) for record in records)
-    return records
-
-
-def _download_json_data(json_links):
-    json_data = list(download_all(loggable_progress(json_links, sys.stderr)))
-    json_data = list(map(extract_json, json_data))
-    return json_data
-
-
-def _merge_json_data(records, json_data):
-    for json_record in json_data:
-        zenodo_link = json_record.get('links', {}).get('html')
-        if not zenodo_link:
-            continue
-        md = json_record.get('metadata') or {}
-        records[zenodo_link]['version'] = md.get('version') or ''
-        for filedata in json_record.get('files', ()):
-            records[zenodo_link]['file-links'].append(
-                filedata.get('links', {}).get('self', ''))
-            records[zenodo_link]['file-types'].append(
-                filedata.get('type', ''))
-            records[zenodo_link]['file-checksums'].append(
-                filedata.get('checksum', ''))
-        records[zenodo_link]['json-downloaded'] = 'y'
-
-
-def _merge_previous_records(records, previous_md):
-    for zenodo_link, previous_record in previous_md.items():
-        if previous_record.get('json-downloaded') != 'y':
-            continue
-        if zenodo_link not in records:
-            continue
-        records[zenodo_link]['version'] = previous_record.get('version') or ''
-        for k in (
-            'file-links',
-            'file-types',
-            'file-checksums',
-        ):
-            v = previous_record.get(k) or ''
-            records[zenodo_link][k] = v.split(ZENODO_METADATA_LISTSEP)
-        records[zenodo_link]['json-downloaded'] = 'y'
-
+### Data download
 
 def validate_checksum(checksum, data):
     """Validate `data` by comparing its hash to `checksum`.
@@ -365,18 +180,6 @@ class Dataset(BaseDataset):
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return super().cldf_specs()
 
-    def _write_zenodo_metadata(self, records):
-        def merge_lists(v):
-            return ZENODO_METADATA_LISTSEP.join(uniq(v)) if isinstance(v, list) else v
-        csv_rows = [
-            [merge_lists(record.get(k) or '') for k in ZENODO_METADATA_ROWS]
-            for record in records.values()]
-        csv_rows.sort(key=_id_sort_key)
-        with open(self.raw_dir / 'zenodo-metadata.csv', 'w', encoding='utf-8') as f:
-            wrt = csv.writer(f)
-            wrt.writerow(ZENODO_METADATA_ROWS)
-            wrt.writerows(csv_rows)
-
     def cmd_download(self, args):
         """
         Download files to the raw/ directory. You can use helpers methods of `self.raw_dir`, e.g.
@@ -386,56 +189,17 @@ class Dataset(BaseDataset):
         # TODO find a way to search for all records
         #  (ideally on the server-side, rather than downloading *all* the records)
 
-        access_token = os.environ.get('CLLD_META_ACCESS_TOKEN') or ''
-        if access_token:
-            print('NOTE: Access token detected.', file=sys.stderr)
+        access_token = get_access_token()
 
         try:
-            previous_md = {
+            records = {
                 record['zenodo-link']: record
                 for record in self.raw_dir.read_csv(
                     'zenodo-metadata.csv',
                     dicts=True)
             }
         except IOError:
-            previous_md = {}
-
-        communities = (
-            'user-lexibank',
-            'user-dictionaria',
-            'user-calc',
-            'user-cldf-datasets',
-            'user-clics',
-            'user-clld',
-            'user-diachronica',
-            'user-dighl',
-            'user-digling',
-            'user-tular',
-        )
-        print('downloading OAI-PH metadata...', file=sys.stderr)
-        records = _download_oai_metadata(communities)
-
-        json_links = [
-            '{}/export/json'.format(zenodo_link)
-            for zenodo_link, rec in records.items()
-            if previous_md.get(zenodo_link, {}).get('json-downloaded') != 'y']
-        if access_token:
-            json_links = [
-                add_access_token(url, access_token)
-                for url in json_links]
-        if json_links:
-            print(
-                'downloading', len(json_links), 'json metadata files...',
-                file=sys.stderr)
-            json_data = _download_json_data(json_links)
-        else:
-            json_data = ()
-
-        _merge_json_data(records, json_data)
-        _merge_previous_records(records, previous_md)
-
-        print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
-        self._write_zenodo_metadata(records)
+            records = {}
 
         def zenodo_id(zenodo_link):
             m = re.fullmatch(r'https://zenodo.org/record/(\d+)', zenodo_link)
@@ -443,6 +207,7 @@ class Dataset(BaseDataset):
                 raise ValueError(
                     'Zenodo link looks funny: {}'.format(zenodo_link))
             return m.group(1)
+
         def _ftypes(ftypes):
             return chain(ftypes, repeat(ftypes[-1])) if ftypes else ()
 
@@ -471,17 +236,6 @@ class Dataset(BaseDataset):
                 'downloading', len(file_urls), 'datasets...',
                 file=sys.stderr)
             _download_datasets(dataset_dir, file_urls)
-
-        print('additional communities mentioned:', file=sys.stderr)
-        old_comms = set(communities)
-        new_comms = {
-            c
-            for record in records.values()
-            for c in record.get('communities', ())
-            if c not in old_comms}
-        print(
-            '\n'.join(' * {}'.format(c) for c in sorted(new_comms)),
-            file=sys.stderr)
 
     def cmd_makecldf(self, args):
         """

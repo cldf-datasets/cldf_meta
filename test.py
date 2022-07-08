@@ -49,7 +49,7 @@ class JSONExtraction(unittest.TestCase):
         json_data = m.extract_json(html)
         self.assertEqual(json_data, {'key': 'value'})
 
-    def test_good_pre_tag(self):
+    def test_multiple_pre_tags(self):
         html = (
             '<html>\n'
             '<body>\n'

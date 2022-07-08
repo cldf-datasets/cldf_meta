@@ -7,9 +7,8 @@ setup(
     include_package_data=True,
     zip_safe=False,
     entry_points={
-        'cldfbench.dataset': [
-            'clld_meta=cldfbench_clld_meta:Dataset',
-        ]
+        'cldfbench.dataset': ['clld_meta=cldfbench_clld_meta:Dataset'],
+        'cldfbench.commands': ['clld-meta=clld_meta_commands'],
     },
     install_requires=[
         'cldfbench',
