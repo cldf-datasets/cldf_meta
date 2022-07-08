@@ -1,5 +1,5 @@
 import unittest
-import cldfbench_clld_meta as m
+from clld_meta_commands import updatemd
 
 
 class JSONExtraction(unittest.TestCase):
@@ -12,7 +12,7 @@ class JSONExtraction(unittest.TestCase):
             '</body>\n'
             '</html>')
         with self.assertRaises(ValueError):
-            json_data = m.extract_json(html)
+            json_data = updatemd.extract_json(html)
 
     def test_good_pre_tag(self):
         html = (
@@ -22,7 +22,7 @@ class JSONExtraction(unittest.TestCase):
             '<pre style="white-space: pre-wrap;">{&#34;key&#34;: &#34;value&#34;}</pre>\n'
             '</body>\n'
             '</html>')
-        json_data = m.extract_json(html)
+        json_data = updatemd.extract_json(html)
         self.assertEqual(json_data, {'key': 'value'})
 
     def test_no_good_pre_tag(self):
@@ -34,7 +34,7 @@ class JSONExtraction(unittest.TestCase):
             '</body>\n'
             '</html>')
         with self.assertRaises(ValueError):
-            json_data = m.extract_json(html)
+            json_data = updatemd.extract_json(html)
 
     def test_good_and_non_good_pre_tag(self):
         html = (
@@ -46,7 +46,7 @@ class JSONExtraction(unittest.TestCase):
             '<pre style="white-space: pre-wrap;">{&#34;key&#34;: &#34;value&#34;}</pre>\n'
             '</body>\n'
             '</html>')
-        json_data = m.extract_json(html)
+        json_data = updatemd.extract_json(html)
         self.assertEqual(json_data, {'key': 'value'})
 
     def test_multiple_pre_tags(self):
@@ -60,7 +60,7 @@ class JSONExtraction(unittest.TestCase):
             '</body>\n'
             '</html>')
         with self.assertRaises(ValueError):
-            json_data = m.extract_json(html)
+            json_data = updatemd.extract_json(html)
 
 
 def test_valid(cldf_dataset, cldf_logger):
