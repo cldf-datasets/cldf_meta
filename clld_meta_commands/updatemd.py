@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from sickle import Sickle
 
-from csvw import dsv
+from cldfbench.cli_util import add_dataset_spec, with_dataset
 
 
 OAI_URL = 'https://zenodo.org/oai2d'
@@ -387,16 +387,17 @@ def write_zenodo_metadata(records, filename):
 
 
 def register(parser):
-    pass
+    add_dataset_spec(parser)
 
 
-def run(args):
+def _run(dataset, args):
+    print('reading existing zenodo metadata...', file=sys.stderr)
     try:
-        with open('raw/zenodo-metadata.csv', encoding='utf-8') as f:
-            previous_md = {
-                record['zenodo-link']: record
-                for record in dsv.reader(f, dicts=True)
-            }
+        previous_md = {
+            record['zenodo-link']: record
+            for record in dataset.raw_dir.read_csv(
+                'zenodo-metadata.csv', dicts=True)
+        }
     except IOError:
         previous_md = {}
 
@@ -438,5 +439,11 @@ def run(args):
         '\n'.join(' * {}'.format(c) for c in sorted(new_comms)),
         file=sys.stderr)
 
-    print('writing raw/zenodo-metadata.csv...', file=sys.stderr)
-    write_zenodo_metadata(records, 'raw/zenodo-metadata.csv')
+    print('writing zenodo metadata...', file=sys.stderr)
+    write_zenodo_metadata(
+        records,
+        dataset.raw_dir / 'zenodo-metadata.csv')
+
+
+def run(args):
+    with_dataset(args, _run)
