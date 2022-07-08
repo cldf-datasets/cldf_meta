@@ -391,7 +391,7 @@ def register(parser):
 
 
 def _run(dataset, args):
-    print('reading existing zenodo metadata...', file=sys.stderr)
+    print('reading existing zenodo metadata...', file=sys.stderr, flush=True)
     try:
         previous_md = {
             record['zenodo-link']: record
@@ -403,9 +403,9 @@ def _run(dataset, args):
 
     access_token = os.environ.get('CLLD_META_ACCESS_TOKEN') or ''
     if access_token:
-        print('NOTE: Access token detected.', file=sys.stderr)
+        print('NOTE: Access token detected.', file=sys.stderr, flush=True)
 
-    print('downloading OAI-PH metadata...', file=sys.stderr)
+    print('downloading OAI-PH metadata...', file=sys.stderr, flush=True)
     records = download_oai_metadata(SEARCH_COMMUNITIES)
 
     json_links = [
@@ -420,7 +420,7 @@ def _run(dataset, args):
     if json_links:
         print(
             'downloading', len(json_links), 'json metadata files...',
-            file=sys.stderr)
+            file=sys.stderr, flush=True)
         json_data = download_json_data(json_links)
     else:
         json_data = ()
@@ -428,7 +428,7 @@ def _run(dataset, args):
     merge_json_data(records, json_data)
     merge_previous_records(records, previous_md)
 
-    print('additional communities mentioned:', file=sys.stderr)
+    print('additional communities mentioned:', file=sys.stderr, flush=True)
     old_comms = set(SEARCH_COMMUNITIES)
     new_comms = {
         c
@@ -437,9 +437,9 @@ def _run(dataset, args):
         if c not in old_comms}
     print(
         '\n'.join(' * {}'.format(c) for c in sorted(new_comms)),
-        file=sys.stderr)
+        file=sys.stderr, flush=True)
 
-    print('writing zenodo metadata...', file=sys.stderr)
+    print('writing zenodo metadata...', file=sys.stderr, flush=True)
     write_zenodo_metadata(
         records,
         dataset.raw_dir / 'zenodo-metadata.csv')
