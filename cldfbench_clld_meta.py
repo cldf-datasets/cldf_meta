@@ -131,7 +131,7 @@ def loggable_progress(things, file=sys.stderr):
     print('done.', file=file, flush=True)
 
 
-### Data download
+### Data download ###
 
 def validate_checksum(checksum, data):
     """Validate `data` by comparing its hash to `checksum`.
