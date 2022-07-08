@@ -236,6 +236,10 @@ class Dataset(BaseDataset):
                 'downloading', len(file_urls), 'datasets...',
                 file=sys.stderr)
             _download_datasets(dataset_dir, file_urls)
+        else:
+            print(
+                'Datasets already up-to-date.',
+                file=sys.stderr, flush=True)
 
     def cmd_makecldf(self, args):
         """
