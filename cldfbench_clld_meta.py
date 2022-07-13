@@ -26,6 +26,10 @@ def get_access_token():
     access_token = os.environ.get('CLLD_META_ACCESS_TOKEN') or ''
     if access_token:
         print('NOTE: Access token detected.', file=sys.stderr, flush=True)
+    else:
+        print(
+            'WARNING: No zenodo access token detected!',
+            file=sys.stderr, flush=True)
     return access_token
 
 
