@@ -52,18 +52,33 @@ TYPE_BLACKLIST = {
     'publication-softwaredocumentation',
     'video',
 }
-TITLE_BLACKLIST = {
-    'Glottolog database 2.2',
-    'Glottolog database 2.3',
-    'PYCLTS. A Python library for the handling of phonetic transcription systems',
-    'CLTS. Cross-Linguistic Transcription Systems',
-    'CLTS. Cross-Linguistic Transcription Systems',
-    'CLTS. Cross-Linguistic Transcription Systems',
-    'CLLD Concepticon 2.3.0',
-    'CLLD Concepticon 2.4.0-rc.1',
-    'CLLD Concepticon 2.4.0',
-    'CLLD Concepticon 2.5.0',
-}
+TITLE_BLACKLIST_REGEX = r'''
+    ^Glottolog\ database
+    | ^Cross-Linguistic\ Transcription\ Systems:\ Final\ Version
+    | ^CLTS\.\ Cross-Linguistic\ Transcription\ Systems
+    | ^Cross-Linguistic\ Transcription\ Systems$
+    | ^CLLD\ Concepticon
+    | ^(?:clld/)?(?:clld:)?\s*clld\ (?:-\ )?(?:a\ )?toolkit\ for
+    | ^PYCLTS\.
+    | ^cldf/cldf:
+    | ^cldf:\ Baseline\ for\ first\ experiments
+    | ^clics/pyclics:
+    | ^clics/pyclics-clustering:
+    | ^clld/clics:\ CLLD\ app
+    | ^CL\ Toolkit\.\ A\ Python\ Library
+    | ^DAFSA:\ a\ Python\ Library
+    | ^edictor:\ EDICTOR\ version
+    | ^EDICTOR\.\ A\ web-based\ interactive\ tool
+    | ^glottobank/cldf:
+    | ^LingPy[-:. ]
+    | ^lingpy/lingpy:
+    | ^lingpy/lingpy-tutorial:\ LingPy\ Tutorial
+    | ^LingRex[:.]\ Linguistic\ Reconstruction
+    | ^lingpy/lingrex:
+    | ^paceofchange:
+    | ^PoePy\.\ A\ Python\ library
+    | ^PyBor:\ A\ Python\ library
+'''
 
 ZENODO_METADATA_LISTSEP = r'\t'
 ZENODO_METADATA_ROWS = [
@@ -259,7 +274,7 @@ def is_valid(record):
             return False
 
     for title in record.get('title', ()):
-        if title in TITLE_BLACKLIST:
+        if re.search(TITLE_BLACKLIST_REGEX, title, re.VERBOSE):
             return False
         elif re.match(r'(?:\S*?)glottolog(?:\S*?):', title.strip()):
             return False
