@@ -281,6 +281,8 @@ class Dataset(BaseDataset):
             for row in json_md
             if 'zip' in row.get('file-types', '').split('\\t')]
 
+        # before doing anything, check that the datasets have all been
+        # downloaded propery
         error_messages = find_missing_datasets(self.raw_dir, json_md)
         if error_messages:
             print(
