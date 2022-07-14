@@ -244,9 +244,9 @@ class Dataset(BaseDataset):
             (zenodo_id(zenodo_link), furl, ftype, fsum)
             for zenodo_link, record in records.items()
             for furl, ftype, fsum in zip(
-                record.get('file-links') or (),
-                _ftypes(record.get('file-types') or ()),
-                record.get('file-checksums') or ())
+                record.get('file-links').split('\\t') or (),
+                _ftypes(record.get('file-types').split('\\t') or ()),
+                record.get('file-checksums').split('\\t') or ())
             if ftype == 'zip']
         # only download if raw/<id> folder is missing or empty
         file_urls = [
