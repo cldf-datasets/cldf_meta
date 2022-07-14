@@ -1,3 +1,4 @@
+from collections import OrderedDict
 import hashlib
 import io
 from itertools import chain, repeat
@@ -177,6 +178,29 @@ def _download_datasets(raw_dir, file_urls):
             zipped_data.extractall(output_folder)
 
 
+### Loading data ###
+
+def _dataset_exists(raw_dir, contrib_md):
+    zenodo_link = contrib_md.get('zenodo-link') or ''
+    m = re.fullmatch(r'https://zenodo\.org/record/(\d+)', zenodo_link)
+    assert m, 'the json data should contain valid zenodo links'
+    record_no = m.group(1)
+    dataset_dir = pathlib.Path(raw_dir) / 'datasets' / record_no
+
+    if not dataset_dir.exists():
+        return False, '{}: dataset folder not found'.format(dataset_dir)
+    elif not any(dataset_dir.iterdir()):
+        return False, '{}: dataset folder empty'.format(dataset_dir)
+    else:
+        return True, ''
+
+def find_missing_datasets(raw_dir, json_md):
+    results = [_dataset_exists(raw_dir, row) for row in json_md]
+    return [msg for success, msg in results if not success]
+
+
+### CLDFbench ###
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "clld_meta"
@@ -251,3 +275,17 @@ class Dataset(BaseDataset):
 
         >>> args.writer.objects['LanguageTable'].append(...)
         """
+        json_md = self.raw_dir.read_csv('zenodo-metadata.csv', dicts=True)
+        json_md = [
+            row
+            for row in json_md
+            if 'zip' in row.get('file-types', '').split('\\t')]
+
+        error_messages = find_missing_datasets(self.raw_dir, json_md)
+        if error_messages:
+            print(
+                '\n'.join(error_messages),
+                '\nERROR: Some datasets seem to be missing in raw/.',
+                '\nYou might have to re-run `cldfbench download`.',
+                sep='', file=sys.stderr, flush=True)
+            return
