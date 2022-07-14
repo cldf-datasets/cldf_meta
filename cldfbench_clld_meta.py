@@ -240,6 +240,7 @@ class Dataset(BaseDataset):
             return chain(ftypes, repeat(ftypes[-1])) if ftypes else ()
 
         dataset_dir = self.raw_dir / 'datasets'
+        # XXX how will I know if someone packages a cldf dataset as a tarball…?
         file_urls = [
             (zenodo_id(zenodo_link), furl, ftype, fsum)
             for zenodo_link, record in records.items()
