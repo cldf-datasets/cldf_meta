@@ -287,7 +287,7 @@ class Dataset(BaseDataset):
         if error_messages:
             print(
                 '\n'.join(error_messages),
-                '\nERROR: Some datasets seem to be missing in raw/.',
-                '\nYou might have to re-run `cldfbench download`.',
-                sep='', file=sys.stderr, flush=True)
+                'ERROR: Some datasets seem to be missing in raw/.',
+                'You might have to re-run `cldfbench download`.',
+                sep='\n', file=sys.stderr, flush=True)
             return
