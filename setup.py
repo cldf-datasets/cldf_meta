@@ -11,7 +11,7 @@ setup(
         'cldfbench.commands': ['clld-meta=clld_meta_commands'],
     },
     install_requires=[
-        'cldfbench',
+        'cldfbench[glottolog]',
         'sickle',
     ],
     extras_require={
