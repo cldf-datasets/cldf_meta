@@ -16,6 +16,16 @@ import zipfile
 from cldfbench import Dataset as BaseDataset
 
 
+### Helpers ###
+
+def zenodo_id(zenodo_link):
+    match = re.fullmatch(r'https://zenodo\.org/record/(\d+)', zenodo_link)
+    if match:
+        return match.group(1)
+    else:
+        raise ValueError('Zenodo link looks funny: {}'.format(zenodo_link))
+
+
 ### Stuff that needs to be put in some sort of library ###
 
 # FIXME code duplication
@@ -181,10 +191,7 @@ def _download_datasets(raw_dir, file_urls):
 ### Loading data ###
 
 def _dataset_exists(raw_dir, contrib_md):
-    zenodo_link = contrib_md.get('zenodo-link') or ''
-    m = re.fullmatch(r'https://zenodo\.org/record/(\d+)', zenodo_link)
-    assert m, 'the json data should contain valid zenodo links'
-    record_no = m.group(1)
+    record_no = zenodo_id(contrib_md.get('zenodo-link') or '')
     dataset_dir = pathlib.Path(raw_dir) / 'datasets' / record_no
 
     if not dataset_dir.exists():
@@ -228,13 +235,6 @@ class Dataset(BaseDataset):
             }
         except IOError:
             records = {}
-
-        def zenodo_id(zenodo_link):
-            m = re.fullmatch(r'https://zenodo.org/record/(\d+)', zenodo_link)
-            if not m:
-                raise ValueError(
-                    'Zenodo link looks funny: {}'.format(zenodo_link))
-            return m.group(1)
 
         def _ftypes(ftypes):
             return chain(ftypes, repeat(ftypes[-1])) if ftypes else ()
