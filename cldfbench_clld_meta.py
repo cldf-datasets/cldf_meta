@@ -14,6 +14,7 @@ import zipfile
 
 
 from cldfbench import Dataset as BaseDataset
+from pycldf.dataset import iter_datasets
 
 
 ### Helpers ###
@@ -292,3 +293,11 @@ class Dataset(BaseDataset):
                 'You might have to re-run `cldfbench download`.',
                 sep='\n', file=sys.stderr, flush=True)
             return
+
+        for contrib_md in json_md:
+            record_no = zenodo_id(contrib_md.get('zenodo-link') or '')
+            data_dir = self.raw_dir / 'datasets' / record_no
+            if not data_dir.exists():
+                continue
+            for dataset in iter_datasets(data_dir):
+                print('{}: {}'.format(data_dir, repr(dataset)), file=sys.stderr, flush=True)
