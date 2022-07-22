@@ -162,7 +162,7 @@ def validate_checksum(checksum, data):
     algo, expected_sum = fields
     if algo not in hashlib.algorithms_available:
         raise ValueError(
-            "Hashing algorigthm '%s' not available in hashlib" % algo)
+            "Hashing algorithm '%s' not available in hashlib" % algo)
 
     h = hashlib.new(algo)
     h.update(data)
@@ -294,10 +294,17 @@ class Dataset(BaseDataset):
                 sep='\n', file=sys.stderr, flush=True)
             return
 
+        contributions = []
+        datasets = []
+        languages = []
+        contribution_languages = []
+
+        print('loading cldf databases...', file=sys.stderr, flush=True)
         for contrib_md in json_md:
             record_no = zenodo_id(contrib_md.get('zenodo-link') or '')
             data_dir = self.raw_dir / 'datasets' / record_no
+            print(data_dir, file=sys.stderr, flush=True)
             if not data_dir.exists():
                 continue
             for dataset in iter_datasets(data_dir):
-                print('{}: {}'.format(data_dir, repr(dataset)), file=sys.stderr, flush=True)
+                print(' *', dataset, file=sys.stderr, flush=True)
