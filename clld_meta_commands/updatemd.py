@@ -65,6 +65,7 @@ TITLE_BLACKLIST_REGEX = r'''
     | ^clics/pyclics:
     | ^clics/pyclics-clustering:
     | ^clld/clics:\ CLLD\ app
+    | ^clld/asjp:\ The\ ASJP\ Database
     | ^CL\ Toolkit\.\ A\ Python\ Library
     | ^DAFSA:\ a\ Python\ Library
     | ^edictor:\ EDICTOR\ version
@@ -268,7 +269,15 @@ def is_valid(record):
 
      1. Ignore non-data entries (posters, books, videos, etc.).
      2. Ignore cldf catalogues.
+     3. Ignore everything made before 2018 (CLDF didn't exist, yet).
     """
+    if record.get('date'):
+        date = record.get('date')[0].strip()
+        match = re.fullmatch('(\d\d\d\d)-(\d\d)-(\d\d)', date)
+        assert match, '`date` needs to be YYYY-MM-DD, not {}'.format(repr(date))
+        if int(match.group(1)) < 2018:
+            return False
+
     for type_ in record.get('type', ()):
         if type_ in TYPE_BLACKLIST:
             return False
