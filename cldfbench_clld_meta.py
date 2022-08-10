@@ -3,7 +3,7 @@ import hashlib
 import io
 from itertools import chain, repeat
 import os
-import pathlib
+from pathlib import Path
 import re
 import sys
 import time
@@ -12,9 +12,8 @@ from urllib.error import HTTPError
 from urllib.parse import urlparse
 import zipfile
 
-
 from cldfbench import Dataset as BaseDataset
-from pycldf.dataset import iter_datasets, SchemaError
+from pycldf.dataset import Dataset as CLDFDataset, sniff
 
 
 ### Helpers ###
@@ -193,7 +192,7 @@ def _download_datasets(raw_dir, file_urls):
 
 def _dataset_exists(raw_dir, contrib_md):
     record_no = zenodo_id(contrib_md.get('zenodo-link') or '')
-    dataset_dir = pathlib.Path(raw_dir) / 'datasets' / record_no
+    dataset_dir = Path(raw_dir) / 'datasets' / record_no
 
     if not dataset_dir.exists():
         return False, '{}: dataset folder not found'.format(dataset_dir)
@@ -202,15 +201,91 @@ def _dataset_exists(raw_dir, contrib_md):
     else:
         return True, ''
 
+
 def find_missing_datasets(raw_dir, json_md):
     results = [_dataset_exists(raw_dir, row) for row in json_md]
     return [msg for success, msg in results if not success]
 
 
+# FIXME not happy with that function name
+def load_dataset(dataset):
+    # TODO remove per-dataset logging unless there's a problem
+    print(' *', dataset, file=sys.stderr, flush=True)
+
+    if 'ValueTable' in dataset:
+        values = [
+            (r['languageReference'], r.get('parameterReference'))
+            for r in dataset.iter_rows(
+                'ValueTable', 'languageReference', 'parameterReference')
+            if r.get('languageReference')]
+        lang_values = Counter(l for l, _ in values)
+        # XXX: count parameters and concepts separately?
+        #  if so -- how?
+        lang_features = Counter((l, p) for l, p in values if p)
+    else:
+        values = []
+        lang_values = Counter()
+        lang_features = Counter()
+
+    if 'FormTable' in dataset:
+        lang_forms = Counter(
+            r['languageReference']
+            for r in dataset.iter_rows(
+                'FormTable', 'languageReference')
+            if r.get('languageReference'))
+    else:
+        lang_forms = Counter()
+
+    if 'EntryTable' in dataset:
+        lang_entries = Counter(
+            r['languageReference']
+            for r in dataset.iter_rows(
+                'EntryTable', 'languageReference')
+            if r.get('languageReference'))
+    else:
+        lang_entries = Counter()
+
+    if 'ExampleTable' in dataset:
+        lang_examples = Counter(
+            r['languageReference']
+            for r in dataset.iter_rows(
+                'ExampleTable', 'languageReference', 'Language_ID')
+            if r.get('languageReference'))
+    else:
+        lang_examples = Counter()
+
+    if 'LanguageTable' in dataset:
+        langs = OrderedDict(
+            (
+                row.get('id'),
+                (row.get('glottocode') or row.get('iso639P3code') or row.get('id'))
+            )
+            for row in dataset.iter_rows(
+                'LanguageTable', 'id', 'glottocode', 'iso639P3code'))
+    else:
+        langs = OrderedDict(
+            (v, v)
+            for v in chain(
+                lang_values,
+                lang_forms,
+                lang_examples,
+                lang_entries))
+
+    # TODO can (should) we find out the glottocode at this point?
+
+    # TODO count values for languages
+    # ^ save them for now
+
+    # TODO count concepticon ids?
+
+    # FIXME: actually return data!
+    return None
+
+
 ### CLDFbench ###
 
 class Dataset(BaseDataset):
-    dir = pathlib.Path(__file__).parent
+    dir = Path(__file__).parent
     id = "clld_meta"
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
@@ -294,99 +369,42 @@ class Dataset(BaseDataset):
                 sep='\n', file=sys.stderr, flush=True)
             return
 
-        contributions = OrderedDict()
-        datasets = OrderedDict()
-        languages = []
-        contribution_languages = []
+        print('finding cldf datasets..', file=sys.stderr, flush=True)
+        record_nos = [
+            zenodo_id(contrib_md.get('zenodo-link') or '')
+            for contrib_md in json_md]
+        data_dirs = [
+            (record_no, self.raw_dir / 'datasets' / record_no)
+            for record_no in record_nos
+            if (self.raw_dir / 'datasets' / record_no).exists()]
+        cldf_metadata_files = [
+            (record_no, Path(dirpath) / fname)
+            for record_no, data_dir in data_dirs
+            for dirpath, _, filenames in os.walk(data_dir)
+            for fname in filenames
+            if fname.endswith('.json') and sniff(Path(dirpath) / fname)]
 
-        print('loading cldf databases...', file=sys.stderr, flush=True)
-        for contrib_md in json_md:
-            record_no = zenodo_id(contrib_md.get('zenodo-link') or '')
-            data_dir = self.raw_dir / 'datasets' / record_no
-            print(data_dir, file=sys.stderr, flush=True)
-            if not data_dir.exists():
-                continue
-            for index, dataset in enumerate(iter_datasets(data_dir)):
-                print(' *', dataset, file=sys.stderr, flush=True)
+        print(
+            'loading', len(cldf_metadata_files), 'cldf databases...',
+            file=sys.stderr, flush=True)
+        # TODO: use `loggable_progress`
+        cldf_datasets = [
+            (record_no, load_dataset(CLDFDataset.from_metadata(fname)))
+            for record_no, fname in cldf_metadata_files]
 
-                if 'ValueTable' in dataset:
-                    values = [
-                        (r['languageReference'], r.get('parameterReference'))
-                        for r in dataset.iter_rows(
-                            'ValueTable', 'languageReference', 'parameterReference')
-                        if r.get('languageReference')]
-                    lang_values = Counter(l for l, _ in values)
-                    # XXX: count parameters and concepts separately?
-                    #  if so -- how?
-                    lang_features = Counter((l, p) for l, p in values if p)
-                else:
-                    values = []
-                    lang_values = Counter()
-                    lang_features = Counter()
+        # # TODO: Create this struct
+        # # XXX how idempotent is this?
+        # ds_id = '{}-{}'.format(record_no, index + 1)
+        # datasets[ds_id] = {
+        #     'ID': ds_id,
+        #     'Contribution_ID': record_no,
+        #     'Module': '',  # TODO (maybe later)?
+        #     'Language_Count': len(langs),  # TODO (maybe later)?
+        #     'Glottocode_Count': 0,  # TODO (maybe later)?
+        #     'Value_Count': len(values),
+        # }
 
-                if 'FormTable' in dataset:
-                    lang_forms = Counter(
-                        r['languageReference']
-                        for r in dataset.iter_rows(
-                            'FormTable', 'languageReference')
-                        if r.get('languageReference'))
-                else:
-                    lang_forms = Counter()
-
-                if 'EntryTable' in dataset:
-                    lang_entries = Counter(
-                        r['languageReference']
-                        for r in dataset.iter_rows(
-                            'EntryTable', 'languageReference')
-                        if r.get('languageReference'))
-                else:
-                    lang_entries = Counter()
-
-                if 'ExampleTable' in dataset:
-                    lang_examples = Counter(
-                        r['languageReference']
-                        for r in dataset.iter_rows(
-                            'ExampleTable', 'languageReference', 'Language_ID')
-                        if r.get('languageReference'))
-                else:
-                    lang_examples = Counter()
-
-                if 'LanguageTable' in dataset:
-                    langs = OrderedDict(
-                        (
-                            row.get('id'),
-                            (row.get('glottocode') or row.get('iso639P3code') or row.get('id'))
-                        )
-                        for row in dataset.iter_rows(
-                            'LanguageTable', 'id', 'glottocode', 'iso639P3code'))
-                else:
-                    langs = OrderedDict(
-                        (v, v)
-                        for v in chain(
-                            lang_values,
-                            lang_forms,
-                            lang_examples,
-                            lang_entries))
-
-                # TODO can (should) we find out the glottocode at this point?
-
-                # TODO count values for languages
-                # ^ save them for now
-
-                # TODO count concepticon ids?
-
-                # XXX how idempotent is this?
-                ds_id = '{}-{}'.format(record_no, index + 1)
-                datasets[ds_id] = {
-                    'ID': ds_id,
-                    'Contribution_ID': record_no,
-                    'Module': '',  # TODO (maybe later)?
-                    'Language_Count': len(langs),  # TODO (maybe later)?
-                    'Glottocode_Count': 0,  # TODO (maybe later)?
-                    'Value_Count': len(values),
-                }
-
-        # TODO assemble table of unique languages
+        # TODO assemble grand table of unique languages
         # TODO count all teh things! o/
 
         contributions = [
@@ -410,7 +428,7 @@ class Dataset(BaseDataset):
                 'Zenodo_Subject': contrib_md['subject'],
                 'Zenodo_Type': contrib_md['type'],
             }
-            for contib_md in json_md]
+            for contrib_md in json_md]
 
         # TODO CLDF schema
         #
