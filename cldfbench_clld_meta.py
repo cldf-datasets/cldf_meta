@@ -1,4 +1,4 @@
-from collections import OrderedDict
+from collections import Counter, OrderedDict
 import hashlib
 import io
 from itertools import chain, repeat
@@ -14,7 +14,7 @@ import zipfile
 
 
 from cldfbench import Dataset as BaseDataset
-from pycldf.dataset import iter_datasets
+from pycldf.dataset import iter_datasets, SchemaError
 
 
 ### Helpers ###
@@ -294,8 +294,8 @@ class Dataset(BaseDataset):
                 sep='\n', file=sys.stderr, flush=True)
             return
 
-        contributions = []
-        datasets = []
+        contributions = OrderedDict()
+        datasets = OrderedDict()
         languages = []
         contribution_languages = []
 
@@ -306,5 +306,119 @@ class Dataset(BaseDataset):
             print(data_dir, file=sys.stderr, flush=True)
             if not data_dir.exists():
                 continue
-            for dataset in iter_datasets(data_dir):
+            for index, dataset in enumerate(iter_datasets(data_dir)):
                 print(' *', dataset, file=sys.stderr, flush=True)
+
+                if 'ValueTable' in dataset:
+                    values = [
+                        (r['languageReference'], r.get('parameterReference'))
+                        for r in dataset.iter_rows(
+                            'ValueTable', 'languageReference', 'parameterReference')
+                        if r.get('languageReference')]
+                    lang_values = Counter(l for l, _ in values)
+                    # XXX: count parameters and concepts separately?
+                    #  if so -- how?
+                    lang_features = Counter((l, p) for l, p in values if p)
+                else:
+                    values = []
+                    lang_values = Counter()
+                    lang_features = Counter()
+
+                if 'FormTable' in dataset:
+                    lang_forms = Counter(
+                        r['languageReference']
+                        for r in dataset.iter_rows(
+                            'FormTable', 'languageReference')
+                        if r.get('languageReference'))
+                else:
+                    lang_forms = Counter()
+
+                if 'EntryTable' in dataset:
+                    lang_entries = Counter(
+                        r['languageReference']
+                        for r in dataset.iter_rows(
+                            'EntryTable', 'languageReference')
+                        if r.get('languageReference'))
+                else:
+                    lang_entries = Counter()
+
+                if 'ExampleTable' in dataset:
+                    lang_examples = Counter(
+                        r['languageReference']
+                        for r in dataset.iter_rows(
+                            'ExampleTable', 'languageReference', 'Language_ID')
+                        if r.get('languageReference'))
+                else:
+                    lang_examples = Counter()
+
+                if 'LanguageTable' in dataset:
+                    langs = OrderedDict(
+                        (
+                            row.get('id'),
+                            (row.get('glottocode') or row.get('iso639P3code') or row.get('id'))
+                        )
+                        for row in dataset.iter_rows(
+                            'LanguageTable', 'id', 'glottocode', 'iso639P3code'))
+                else:
+                    langs = OrderedDict(
+                        (v, v)
+                        for v in chain(
+                            lang_values,
+                            lang_forms,
+                            lang_examples,
+                            lang_entries))
+
+                # TODO can (should) we find out the glottocode at this point?
+
+                # TODO count values for languages
+                # ^ save them for now
+
+                # TODO count concepticon ids?
+
+                # XXX how idempotent is this?
+                ds_id = '{}-{}'.format(record_no, index + 1)
+                datasets[ds_id] = {
+                    'ID': ds_id,
+                    'Contribution_ID': record_no,
+                    'Module': '',  # TODO (maybe later)?
+                    'Language_Count': len(langs),  # TODO (maybe later)?
+                    'Glottocode_Count': 0,  # TODO (maybe later)?
+                    'Value_Count': len(values),
+                }
+
+        # TODO assemble table of unique languages
+        # TODO count all teh things! o/
+
+        contributions = [
+            {
+                'ID': zenodo_id(contrib_md['zenodo-link'] or ''),
+                'Name': contrib_md['title'],
+                'Description': contrib_md['description'],
+                'Version': contrib_md['version'],
+                'Author': contrib_md['author'],
+                'Contributor': contrib_md['contributor'],
+                'Creator': contrib_md['creator'],
+                'Zenodo_ID': contrib_md['id'],
+                'DOI': contrib_md['doi'],
+                'DOI_Related': contrib_md['doi-related'],
+                'GitHub_Link': contrib_md['github-link'],
+                'Zenodo_Link': contrib_md['zenodo-link'],
+                'Date': contrib_md['date'],
+                'Communities': contrib_md['communities'],
+                'License': contrib_md['rights'],
+                'Source': contrib_md['source'],
+                'Zenodo_Subject': contrib_md['subject'],
+                'Zenodo_Type': contrib_md['type'],
+            }
+            for contib_md in json_md]
+
+        # TODO CLDF schema
+        #
+        # contributions:
+        #   ID, Name, Description, Version, Author, Contributor, Creator,
+        #   Zenodo_ID, DOI, DOI_Related, GitHub_Link, Zenodo_Link, Date,
+        #   Communities, License, Source, Zenodo_Subject, Zenodo_Type
+        #
+        # datasets
+        #   ID, Contribution_ID, Module, Language_Count, Glottocode_Count,
+        #   Value_Count
