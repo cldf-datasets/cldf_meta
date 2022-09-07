@@ -269,40 +269,64 @@ def collect_dataset_stats(dataset):
     else:
         lang_examples = Counter()
 
+    lang_iter = chain(lang_values, lang_forms, lang_examples, lang_entries)
     if 'LanguageTable' in dataset:
-        langs = OrderedDict(
-            (
-                row.get('id'),
-                (row.get('glottocode') or row.get('iso639P3code') or row.get('id'))
-            )
+        langtable = {
+            row.get('id'): (
+                row.get('glottocode')
+                or row.get('iso639P3code')
+                or row.get('id'))
             for row in try_to_load_table(
-                dataset, 'LanguageTable', 'id', 'glottocode', 'iso639P3code'))
+                dataset, 'LanguageTable', 'id', 'glottocode', 'iso639P3code')}
+        langs = {v: (langtable.get(v) or v) for v in lang_iter}
     else:
-        langs = OrderedDict(
-            (v, v)
-            for v in chain(
-                lang_values,
-                lang_forms,
-                lang_examples,
-                lang_entries))
-
-    # TODO can (should) we find out the glottocode at this point?
+        langs = {v: v for v in lang_iter}
 
     # TODO count concepticon ids?
 
     return {
         'module': dataset.module,
         'value_count': len(values),
+        'langs': langs,
         'lang_values': lang_values,
         'lang_features': lang_features,
         'lang_forms': lang_forms,
         'lang_examples': lang_examples,
-        'langs': langs,
     }
 
 
 def load_dataset_helper(file_path):
     return collect_dataset_stats(CLDFDataset.from_metadata(file_path))
+
+
+def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
+    lang_map = {
+        lid: (by_glottocode.get(guess) or by_isocode[guess]).id
+        for lid, guess in stats['langs'].items()
+        if guess in by_glottocode or guess in by_isocode}
+    return {
+        'module': stats['module'],
+        'value_count': stats['value_count'],
+        'lang_count': len(stats['langs']),
+        'glottocode_count': len(lang_map),
+        'langs': list(lang_map.values()),
+        'lang_values': {
+            lang_map[l]: c
+            for l, c in stats['lang_values'].items()
+            if l in lang_map},
+        'lang_features': {
+            lang_map[l]: c
+            for l, c in stats['lang_features'].items()
+            if l in lang_map},
+        'lang_forms': {
+            lang_map[l]: c
+            for l, c in stats['lang_forms'].items()
+            if l in lang_map},
+        'lang_examples': {
+            lang_map[l]: c
+            for l, c in stats['lang_examples'].items()
+            if l in lang_map},
+    }
 
 
 ### CLDFbench ###
@@ -421,13 +445,43 @@ class Dataset(BaseDataset):
                 load_dataset_helper,
                 (p for _, p in cldf_metadata_files))))
 
+        print(
+            'loading language info from glottolog...',
+            file=sys.stderr, flush=True)
+        by_glottocode = {l.id: l for l in args.glottolog.api.languoids()}
+        by_isocode = {l.iso: l for l in by_glottocode.values() if l.iso}
+
+        dataset_stats = [
+            raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode)
+            for stats in dataset_stats]
+
+        print('assembling language table...', file=sys.stderr, flush=True)
+        all_glottocodes = sorted({
+            lid
+            for stats in dataset_stats
+            for lid in stats['langs']})
+
+        def macroarea(l):
+            m = l.macroareas
+            return m[0].name if m else ''
+        languages = [
+            {
+                'ID': lid,
+                'Name': by_glottocode[lid].name,
+                'Glottocode': lid,
+                'ISO639P3code': (by_glottocode[lid].iso or ''),
+                'Macroarea': macroarea(by_glottocode[lid]),
+                'Latitude': by_glottocode[lid].latitude,
+                'Longitude': by_glottocode[lid].longitude,
+            }
+            for lid in all_glottocodes]
+
+        # TODO count all teh things! o/
+
         datasets_per_contrib = Counter()
         def count_datasets(record_no):
             datasets_per_contrib[record_no] += 1
             return datasets_per_contrib[record_no]
-
-        # TODO assemble grand table of unique languages
-        # TODO count all teh things! o/
 
         # # XXX how idempotent is this?
         datasets = [
