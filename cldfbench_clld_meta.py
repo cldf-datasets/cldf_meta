@@ -455,7 +455,10 @@ class Dataset(BaseDataset):
             raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode)
             for stats in dataset_stats]
 
+        # Create CLDF tables
+
         print('assembling language table...', file=sys.stderr, flush=True)
+
         all_glottocodes = sorted({
             lid
             for stats in dataset_stats
@@ -483,6 +486,8 @@ class Dataset(BaseDataset):
             datasets_per_contrib[record_no] += 1
             return datasets_per_contrib[record_no]
 
+        print('assembling dataset tables...', file=sys.stderr, flush=True)
+
         # # XXX how idempotent is this?
         datasets = [
             {
@@ -491,9 +496,22 @@ class Dataset(BaseDataset):
                 'Module': stats['module'],
                 'Language_Count': len(stats['langs']),
                 'Value_Count': stats['value_count'],
-                'Glottocode_Count': 0,  # TODO
+                'Glottocode_Count': stats['glottocode_count'],
             }
             for ((record_no, _), stats) in zip(cldf_metadata_files, dataset_stats)]
+
+        dataset_languages = [
+            {
+                'ID': '{}-{}'.format(ds['ID'], lid),
+                'Language_ID': lid,
+                'Dataset_ID': ds['ID'],
+                'Value_Count': stats['lang_values'].get(lid, 0),
+                'Parameter_Count': stats['lang_features'].get(lid, 0),
+                'Form_Count': stats['lang_forms'].get(lid, 0),
+                'Example_Count': stats['lang_examples'].get(lid, 0),
+            }
+            for ds, stats in zip(datasets, dataset_stats)
+            for lid in stats['langs']]
 
         contributions = [
             {
