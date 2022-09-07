@@ -14,6 +14,7 @@ from urllib.parse import urlparse
 import zipfile
 
 from cldfbench import Dataset as BaseDataset
+from cldfbench.cldf import CLDFSpec
 from pycldf.dataset import Dataset as CLDFDataset, SchemaError, sniff
 
 
@@ -291,6 +292,7 @@ def collect_dataset_stats(dataset):
         'lang_values': lang_values,
         'lang_features': lang_features,
         'lang_forms': lang_forms,
+        'lang_entries': lang_entries,
         'lang_examples': lang_examples,
     }
 
@@ -309,7 +311,7 @@ def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
         'value_count': stats['value_count'],
         'lang_count': len(stats['langs']),
         'glottocode_count': len(lang_map),
-        'langs': list(lang_map.values()),
+        'langs': sorted(set(lang_map.values())),
         'lang_values': {
             lang_map[l]: c
             for l, c in stats['lang_values'].items()
@@ -321,6 +323,10 @@ def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
         'lang_forms': {
             lang_map[l]: c
             for l, c in stats['lang_forms'].items()
+            if l in lang_map},
+        'lang_entries': {
+            lang_map[l]: c
+            for l, c in stats['lang_entries'].items()
             if l in lang_map},
         'lang_examples': {
             lang_map[l]: c
@@ -336,7 +342,10 @@ class Dataset(BaseDataset):
     id = "clld_meta"
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
-        return super().cldf_specs()
+        return CLDFSpec(
+            dir=self.cldf_dir,
+            module='Generic',
+            metadata_fname='cldf-metadata.json')
 
     def cmd_download(self, args):
         """
@@ -428,8 +437,6 @@ class Dataset(BaseDataset):
             (record_no, self.raw_dir / 'datasets' / record_no)
             for record_no in record_nos
             if (self.raw_dir / 'datasets' / record_no).exists()]
-        # FIXME Remove debug code
-        data_dirs = data_dirs[200:300]
         cldf_metadata_files = [
             (record_no, Path(dirpath) / fname)
             for record_no, data_dir in data_dirs
@@ -471,11 +478,11 @@ class Dataset(BaseDataset):
             {
                 'ID': lid,
                 'Name': by_glottocode[lid].name,
-                'Glottocode': lid,
-                'ISO639P3code': (by_glottocode[lid].iso or ''),
                 'Macroarea': macroarea(by_glottocode[lid]),
                 'Latitude': by_glottocode[lid].latitude,
                 'Longitude': by_glottocode[lid].longitude,
+                'Glottocode': lid,
+                'ISO639P3code': (by_glottocode[lid].iso or ''),
             }
             for lid in all_glottocodes]
 
@@ -508,6 +515,7 @@ class Dataset(BaseDataset):
                 'Value_Count': stats['lang_values'].get(lid, 0),
                 'Parameter_Count': stats['lang_features'].get(lid, 0),
                 'Form_Count': stats['lang_forms'].get(lid, 0),
+                'Entry_Count': stats['lang_entries'].get(lid, 0),
                 'Example_Count': stats['lang_examples'].get(lid, 0),
             }
             for ds, stats in zip(datasets, dataset_stats)
@@ -536,13 +544,59 @@ class Dataset(BaseDataset):
             }
             for contrib_md in json_md]
 
-        # TODO CLDF schema
-        #
-        # contributions:
-        #   ID, Name, Description, Version, Author, Contributor, Creator,
-        #   Zenodo_ID, DOI, DOI_Related, GitHub_Link, Zenodo_Link, Date,
-        #   Communities, License, Source, Zenodo_Subject, Zenodo_Type
-        #
-        # datasets
-        #   ID, Contribution_ID, Module, Language_Count, Glottocode_Count,
-        #   Value_Count
+        # Write CLDF data
+
+        print('writing cldf data...', file=sys.stderr, flush=True)
+
+        args.writer.cldf.add_component('LanguageTable')
+
+        args.writer.cldf.add_table(
+            'contributions.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#name',
+            'http://cldf.clld.org/v1.0/terms.rdf#description',
+            'Version',
+            'Author',
+            'Contributor',
+            'Creator',
+            'Zenodo_ID',
+            'DOI',
+            'DOI_Related',
+            'GitHub_Link',
+            'Zenodo_Link',
+            'Date',
+            'Communities',
+            'License',
+            'Source',
+            'Zenodo_Subject',
+            'Zenodo_Type')
+
+        args.writer.cldf.add_table(
+            'datasets.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'Contribution_ID',
+            'Module',
+            {'name': 'Language_Count', 'datatype': 'integer'},
+            {'name': 'Value_Count', 'datatype': 'integer'},
+            {'name': 'Glottocode_Count', 'datatype': 'integer'})
+        args.writer.cldf.add_foreign_key(
+            'datasets.csv', 'Contribution_ID', 'contributions.csv', 'ID')
+
+        args.writer.cldf.add_table(
+            'dataset-languages.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'Dataset_ID',
+            'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
+            {'name': 'Value_Count', 'datatype': 'integer'},
+            {'name': 'Parameter_Count', 'datatype': 'integer'},
+            {'name': 'Form_Count', 'datatype': 'integer'},
+            {'name': 'Entry_Count', 'datatype': 'integer'},
+            {'name': 'Example_Count', 'datatype': 'integer'})
+        args.writer.cldf.add_foreign_key(
+            'dataset-languages.csv', 'Dataset_ID',
+            'datasets.csv', 'ID')
+
+        args.writer.objects['LanguageTable'] = languages
+        args.writer.objects['contributions.csv'] = contributions
+        args.writer.objects['datasets.csv'] = datasets
+        args.writer.objects['dataset-languages.csv'] = dataset_languages
