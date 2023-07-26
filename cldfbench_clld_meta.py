@@ -1,7 +1,10 @@
-from collections import Counter, OrderedDict
+from collections import Counter
+import contextlib
+import csv
 import hashlib
+from itertools import chain
 import io
-from itertools import chain, repeat
+import json
 from multiprocessing import Pool
 import os
 from pathlib import Path
@@ -16,16 +19,14 @@ import zipfile
 from cldfbench import Dataset as BaseDataset
 from cldfbench.cldf import CLDFSpec
 from pycldf.dataset import Dataset as CLDFDataset, SchemaError, sniff
+from pycldf.terms import URL as TERMS_URL
 
 
-### Helpers ###
-
-def zenodo_id(zenodo_link):
-    match = re.fullmatch(r'https://zenodo\.org/record/(\d+)', zenodo_link)
-    if match:
-        return match.group(1)
-    else:
-        raise ValueError('Zenodo link looks funny: {}'.format(zenodo_link))
+# TODO: add 'All Versions' DOI for the meta database itself, once we have one.
+PARENT_BLACKLIST = {
+    "10.5281/zenodo.3260727",  # glottolog-cldf
+    "10.5281/zenodo.7298022",  # concepticon-cldf
+}
 
 
 ### Stuff that needs to be put in some sort of library ###
@@ -91,40 +92,33 @@ def wait_until(secs_since_epoch):
     time.sleep(dt)
 
 
-# FIXME code duplication
 def download_all(urls):
     """Download data from multiple urls at a ratelimit-friendly pace."""
-    limit = 60
-    limit_remaining = 60
-    retry_after = 60
-    limit_reset = time_secs() + retry_after
-
     retries = 3
     for url in urls:
         for attempt in range(retries):
             try:
                 with request.urlopen(url) as response:
-                    limit = int(response.headers['X-RateLimit-Limit'])
-                    limit_remaining = int(response.headers['X-RateLimit-Remaining'])
-                    limit_reset = int(response.headers['X-RateLimit-Reset'])
-                    retry_after = int(response.headers['Retry-After'])
-
                     yield response.read()
-
+                    limit_remaining = int(response.headers['X-RateLimit-Remaining'])
                     if limit_remaining == 0:
+                        limit_reset = int(response.headers['X-RateLimit-Reset'])
+                        retry_after = int(response.headers['Retry-After'])
                         wait_until(max(limit_reset, time_secs() + retry_after))
                     # no retries needed
                     break
             except HTTPError as e:
                 if e.code == 429:
                     # too many requests
+                    limit_reset = int(e.headers['X-RateLimit-Reset'])
+                    retry_after = int(e.headers['Retry-After'])
                     wait_until(max(limit_reset, time_secs() + retry_after))
                 else:
                     print(
-                       'Unexpected http response:', e.code,
-                       '\nRetrying (attempt', attempt + 1,
-                       'of', '%s)...' % retries,
-                       file=sys.stderr, flush=True)
+                        'Unexpected http response:', e.code,
+                        '\nRetrying (attempt', attempt + 1,
+                        'of', '%s)...' % retries,
+                        file=sys.stderr, flush=True)
         else:
             print(
                 'Tried', retries, 'times to no avail.  Giving up...',
@@ -132,7 +126,6 @@ def download_all(urls):
             return
 
 
-# FIXME code duplication
 def loggable_progress(things, file=sys.stderr):
     """'Progressbar' that doesn't clog up logs with escape codes.
 
@@ -175,26 +168,44 @@ def validate_checksum(checksum, data):
             "Expected %s sum '%s'; got '%s'." % (algo, expected_sum, real_sum))
 
 
-def _download_datasets(raw_dir, file_urls):
-    dls = download_all(loggable_progress(
-        (furl for _, furl, _, _ in file_urls),
-        file=sys.stderr))
-    for raw_data, (id_, furl, ftype, fsum) in zip(dls, file_urls):
-        validate_checksum(fsum, raw_data)
+def _download_datasets(raw_dir, files, access_token=None):
+    urls = (file['links']['self'] for _, file in files)
+    if access_token:
+        urls = (add_access_token(url, access_token) for url in urls)
+    dls = download_all(loggable_progress(urls, file=sys.stderr))
+    for raw_data, (id_, file) in zip(dls, files):
+        validate_checksum(file['checksum'], raw_data)
+        basename = re.search(
+            r'/([^/]+?)(?:\?[^/]*)?(?:#[^/]*)?$',
+            file['links']['self']).group(1)
+        assert basename
+        if not basename.endswith('.{}'.format(file['type'])):
+            basename = '{}.{}'.format(basename, file['type'])
         output_folder = raw_dir / id_
         output_folder.mkdir(parents=True, exist_ok=True)
-        # XXX support more file types?
-        # XXX it is possible that several zip files are dumped into the same folder
-        # whether that's a problem or not, I don't know
-        with zipfile.ZipFile(io.BytesIO(raw_data)) as zipped_data:
-            zipped_data.extractall(output_folder)
+        output_file = output_folder / basename
+        output_file.write_bytes(raw_data)
 
 
 ### Loading data ###
 
-def _dataset_exists(raw_dir, contrib_md):
-    record_no = zenodo_id(contrib_md.get('zenodo-link') or '')
-    dataset_dir = Path(raw_dir) / 'datasets' / record_no
+def _has_downloaded_data(datadir, record):
+    record_dir = datadir.joinpath(str(record['id']))
+    return record_dir.exists() and any(record_dir.iterdir())
+
+
+def _is_blacklisted(record):
+    return record.get('conceptdoi') in PARENT_BLACKLIST
+
+
+def _has_zip(record):
+    """Return True if a record might contain a cldf dataset."""
+    return any(file['type'] == 'zip' for file in record.get('files', ()))
+
+
+def _dataset_exists(raw_dir, record):
+    record_no = record['id']
+    dataset_dir = Path(raw_dir) / 'datasets' / str(record_no)
 
     if not dataset_dir.exists():
         return False, '{}: dataset folder not found'.format(dataset_dir)
@@ -204,89 +215,148 @@ def _dataset_exists(raw_dir, contrib_md):
         return True, ''
 
 
-def find_missing_datasets(raw_dir, json_md):
-    results = [_dataset_exists(raw_dir, row) for row in json_md]
-    return [msg for success, msg in results if not success]
+def find_missing_datasets(raw_dir, records):
+    results = [_dataset_exists(raw_dir, rec) for rec in records]
+    return [err for exists, err in results if not exists]
 
 
-def try_to_load_table(dataset, table, *rows):
+def get_cldf_json(f):
     try:
-        # we need to actually loop here, otherwise the ValueError gets thrown
-        # at the caller.
-        for row in dataset.iter_rows(table, *rows):
-            yield row
-    except SchemaError:
-        # If a table doesn't have the columns we need, we won't read it
-        return
-    except ValueError:
-        # If a table is invalid, we simply won't read it
-        return
-    except IOError:
-        # If we can't read a table, we can't read the table
-        return
+        if not f.read(10).lstrip().startswith(b'{'):
+            return None
+        f.seek(0)
+        json_data = json.load(f, encoding='utf-8')
+        if not json_data.get('dc:conformsTo', '').startswith(TERMS_URL):
+            return None
+        return json_data
+    except Exception:
+        return None
+
+
+class ZipDataReader:
+    def __init__(self, zip_file, zip_infos, md_root, cldf_md):
+        self._zip_file = zip_file
+        self._zip_infos = zip_infos
+        self._md_root = md_root
+        self._cldf_md = cldf_md
+
+    def cldf_module(self):
+        return self._cldf_md['dc:conformsTo'].split('#')[-1]
+
+    def get_table(self, name_or_url):
+        url = '{}#{}'.format(TERMS_URL, name_or_url)
+        for table in self._cldf_md['tables']:
+            if table.get('dc:conformsTo', '') == url:
+                return table
+        else:
+            raise ValueError('table not found: {}'.format(name_or_url))
+
+    def iterrows(self, table, *columns):
+        try:
+            table = self.get_table(table)
+        except ValueError:
+            return
+        col_urls = {'{}#{}'.format(TERMS_URL, col): col for col in columns}
+
+        def get_colname(spec):
+            purl = spec.get('propertyUrl')
+            if purl in col_urls:
+                return col_urls[purl]
+            else:
+                return None
+
+        col_names = list(map(get_colname, table['tableSchema']['columns']))
+
+        relpath = table['url']
+        root = self._md_root
+        while relpath.startswith('../'):
+            relpath, root = relpath[3:], root.parent
+        relpath_zip = '{}.zip'.format(relpath)
+
+        zip_info = (
+            self._zip_infos.get(root / relpath_zip)
+            or self._zip_infos.get(root / relpath))
+        if zip_info is None:
+            # TODO: maybe show an error message?
+            return
+
+        with contextlib.ExitStack() as withs:
+            csv_f = withs.enter_context(self._zip_file.open(zip_info))
+            if zip_info.filename.endswith('.zip'):
+                internal_zip = withs.enter_context(zipfile.ZipFile(csv_f))
+                internal_info = [
+                    info
+                    for info in internal_zip.infolist()
+                    if info.filename.endswith(Path(relpath).name)][0]
+                csv_f = withs.enter_context(internal_zip.open(internal_info))
+            decoder = io.TextIOWrapper(csv_f, encoding='utf-8')
+            rdr = csv.reader(decoder)
+            _ = next(rdr)
+            for row in rdr:
+                yield {
+                    colname: cell
+                    for colname, cell in zip(col_names, row)
+                    if colname and cell}
+
+
+def _stats_from_zip(args):
+    record_no, zip_path = args
+    with zipfile.ZipFile(zip_path) as zip:
+        file_tree = {Path(info.filename): info for info in zip.infolist()}
+        for path, info in file_tree.items():
+            if path.suffix != '.json':
+                continue
+            with zip.open(info) as f:
+                cldf_md = get_cldf_json(f)
+            if cldf_md is None:
+                continue
+            zipreader = ZipDataReader(zip, file_tree, path.parent, cldf_md)
+            yield collect_dataset_stats(zipreader)
+
+
+def stats_from_zip(args):
+    return list(_stats_from_zip(args))
 
 
 # FIXME not happy with that function name
-def collect_dataset_stats(dataset):
-    if 'ValueTable' in dataset:
-        values = [
-            (r['languageReference'], r.get('parameterReference'))
-            for r in try_to_load_table(
-                dataset, 'ValueTable', 'languageReference', 'parameterReference')
-            if r.get('languageReference')]
-        lang_values = Counter(l for l, _ in values)
-        # XXX: count parameters and concepts separately?
-        #  if so -- how?
-        lang_features = Counter((l, p) for l, p in values if p)
-    else:
-        values = []
-        lang_values = Counter()
-        lang_features = Counter()
+def collect_dataset_stats(zipreader):
+    values = [
+        (r['languageReference'], r.get('parameterReference'))
+        for r in zipreader.iterrows(
+            'ValueTable', 'languageReference', 'parameterReference')
+        if r.get('languageReference')]
+    lang_values = Counter(l for l, _ in values)
+    # XXX: count parameters and concepts separately?
+    #  if so -- how?
+    lang_features = Counter((l, p) for l, p in values if p)
 
-    if 'FormTable' in dataset:
-        lang_forms = Counter(
-            r['languageReference']
-            for r in try_to_load_table(
-                dataset, 'FormTable', 'languageReference')
-            if r.get('languageReference'))
-    else:
-        lang_forms = Counter()
+    lang_forms = Counter(
+        r['languageReference']
+        for r in zipreader.iterrows('FormTable', 'languageReference')
+        if r.get('languageReference'))
 
-    if 'EntryTable' in dataset:
-        lang_entries = Counter(
-            r['languageReference']
-            for r in try_to_load_table(
-                dataset, 'EntryTable', 'languageReference')
-            if r.get('languageReference'))
-    else:
-        lang_entries = Counter()
+    lang_entries = Counter(
+        r['languageReference']
+        for r in zipreader.iterrows('EntryTable', 'languageReference')
+        if r.get('languageReference'))
 
-    if 'ExampleTable' in dataset:
-        lang_examples = Counter(
-            r['languageReference']
-            for r in try_to_load_table(
-                dataset, 'ExampleTable', 'languageReference')
-            if r.get('languageReference'))
-    else:
-        lang_examples = Counter()
+    lang_examples = Counter(
+        r['languageReference']
+        for r in zipreader.iterrows('ExampleTable', 'languageReference')
+        if r.get('languageReference'))
 
     lang_iter = chain(lang_values, lang_forms, lang_examples, lang_entries)
-    if 'LanguageTable' in dataset:
-        langtable = {
-            row.get('id'): (
-                row.get('glottocode')
-                or row.get('iso639P3code')
-                or row.get('id'))
-            for row in try_to_load_table(
-                dataset, 'LanguageTable', 'id', 'glottocode', 'iso639P3code')}
-        langs = {v: (langtable.get(v) or v) for v in lang_iter}
-    else:
-        langs = {v: v for v in lang_iter}
+    langtable = {
+        r['id']: r.get('glottocode') or r.get('iso639P3code') or r.get('id')
+        for r in zipreader.iterrows(
+            'LanguageTable', 'id', 'glottocode', 'iso639P3code')
+        if r.get('id')}
+    langs = {v: (langtable.get(v) or v) for v in lang_iter}
 
     # TODO count concepticon ids?
 
     return {
-        'module': dataset.module,
+        'module': zipreader.cldf_module(),
         'value_count': len(values),
         'langs': langs,
         'lang_values': lang_values,
@@ -295,10 +365,6 @@ def collect_dataset_stats(dataset):
         'lang_entries': lang_entries,
         'lang_examples': lang_examples,
     }
-
-
-def load_dataset_helper(file_path):
-    return collect_dataset_stats(CLDFDataset.from_metadata(file_path))
 
 
 def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
@@ -353,50 +419,36 @@ class Dataset(BaseDataset):
 
         >>> self.raw_dir.download(url, fname)
         """
-        # TODO find a way to search for all records
-        #  (ideally on the server-side, rather than downloading *all* the records)
-
         access_token = get_access_token()
 
         try:
-            records = {
-                record['zenodo-link']: record
-                for record in self.raw_dir.read_csv(
-                    'zenodo-metadata.csv',
-                    dicts=True)
-            }
+            records = self.raw_dir.read_json('zenodo-metadata.json')['records']
         except IOError:
-            records = {}
+            args.log.error(
+                'No zenodo metadata found.'
+                '  Run `cldfbench clld-meta.updatemd cldfbench_clld_meta.py`'
+                '  to download the metadata.')
+            return
 
-        def _ftypes(ftypes):
-            return chain(ftypes, repeat(ftypes[-1])) if ftypes else ()
-
-        dataset_dir = self.raw_dir / 'datasets'
+        datadir = self.raw_dir / 'datasets'
+        # only download if raw/<id> folder is missing or empty
+        records = [
+            rec
+            for rec in records
+            if not _has_downloaded_data(datadir, rec)
+            and not _is_blacklisted(rec)]
         # XXX how will I know if someone packages a cldf dataset as a tarball…?
         file_urls = [
-            (zenodo_id(zenodo_link), furl, ftype, fsum)
-            for zenodo_link, record in records.items()
-            for furl, ftype, fsum in zip(
-                record.get('file-links').split('\\t') or (),
-                _ftypes(record.get('file-types').split('\\t') or ()),
-                record.get('file-checksums').split('\\t') or ())
-            if ftype == 'zip']
-        # only download if raw/<id> folder is missing or empty
-        file_urls = [
-            (id_, furl, ftype, fsum)
-            for (id_, furl, ftype, fsum) in file_urls
-            if (not dataset_dir.joinpath(id_).exists()
-                or not any(dataset_dir.joinpath(id_).iterdir()))]
-        if access_token:
-            file_urls = [
-                (id_, add_access_token(furl, access_token), ftype, fsum)
-                for (id_, furl, ftype, fsum) in file_urls]
+            (str(rec['id']), file)
+            for rec in records
+            for file in rec.get('files', ())
+            if file['type'] == 'zip']
 
         if file_urls:
             print(
                 'downloading', len(file_urls), 'datasets...',
                 file=sys.stderr, flush=True)
-            _download_datasets(dataset_dir, file_urls)
+            _download_datasets(datadir, file_urls, access_token=access_token)
         else:
             print(
                 'Datasets already up-to-date.',
@@ -410,17 +462,17 @@ class Dataset(BaseDataset):
         """
         # Prepare metadata
 
-        json_md = self.raw_dir.read_csv('zenodo-metadata.csv', dicts=True)
-        json_md = [
-            row
-            for row in json_md
-            if 'zip' in row.get('file-types', '').split('\\t')]
+        records = [
+            rec
+            for rec in self.raw_dir.read_json('zenodo-metadata.json')['records']
+            if _has_zip(rec)
+            and not _is_blacklisted(rec)]
 
         # Read CLDF data
 
         # before doing anything, check that the datasets have all been
-        # downloaded propery
-        error_messages = find_missing_datasets(self.raw_dir, json_md)
+        # downloaded properly
+        error_messages = find_missing_datasets(self.raw_dir, records)
         if error_messages:
             print(
                 '\n'.join(error_messages),
@@ -430,27 +482,25 @@ class Dataset(BaseDataset):
             return
 
         print('finding cldf datasets..', file=sys.stderr, flush=True)
-        record_nos = [
-            zenodo_id(contrib_md.get('zenodo-link') or '')
-            for contrib_md in json_md]
         data_dirs = [
-            (record_no, self.raw_dir / 'datasets' / record_no)
-            for record_no in record_nos
-            if (self.raw_dir / 'datasets' / record_no).exists()]
-        cldf_metadata_files = [
+            (rec['id'], self.raw_dir / 'datasets' / str(rec['id']))
+            for rec in records]
+        data_archives = [
             (record_no, Path(dirpath) / fname)
             for record_no, data_dir in data_dirs
             for dirpath, _, filenames in os.walk(data_dir)
             for fname in filenames
-            if fname.endswith('.json') and sniff(Path(dirpath) / fname)]
+            if fname.endswith('.zip')]
 
         print(
-            'loading', len(cldf_metadata_files), 'cldf databases...',
+            'extracting databases from', len(data_archives), 'zip files...',
             file=sys.stderr, flush=True)
         with Pool() as pool:
-            dataset_stats = list(loggable_progress(pool.imap(
-                load_dataset_helper,
-                (p for _, p in cldf_metadata_files))))
+            dataset_stats = [
+                stats
+                for chunk in loggable_progress(
+                    pool.imap(stats_from_zip, data_archives))
+                for stats in chunk]
 
         print(
             'loading language info from glottolog...',
@@ -489,6 +539,7 @@ class Dataset(BaseDataset):
         # TODO count all teh things! o/
 
         datasets_per_contrib = Counter()
+
         def count_datasets(record_no):
             datasets_per_contrib[record_no] += 1
             return datasets_per_contrib[record_no]
@@ -505,7 +556,7 @@ class Dataset(BaseDataset):
                 'Value_Count': stats['value_count'],
                 'Glottocode_Count': stats['glottocode_count'],
             }
-            for ((record_no, _), stats) in zip(cldf_metadata_files, dataset_stats)]
+            for ((record_no, _), stats) in zip(data_archives, dataset_stats)]
 
         dataset_languages = [
             {
@@ -523,26 +574,30 @@ class Dataset(BaseDataset):
 
         contributions = [
             {
-                'ID': zenodo_id(contrib_md['zenodo-link'] or ''),
-                'Name': contrib_md['title'],
-                'Description': contrib_md['description'],
-                'Version': contrib_md['version'],
-                'Author': contrib_md['author'],
-                'Contributor': contrib_md['contributor'],
-                'Creator': contrib_md['creator'],
-                'Zenodo_ID': contrib_md['id'],
-                'DOI': contrib_md['doi'],
-                'DOI_Related': contrib_md['doi-related'],
-                'GitHub_Link': contrib_md['github-link'],
-                'Zenodo_Link': contrib_md['zenodo-link'],
-                'Date': contrib_md['date'],
-                'Communities': contrib_md['communities'],
-                'License': contrib_md['rights'],
-                'Source': contrib_md['source'],
-                'Zenodo_Subject': contrib_md['subject'],
-                'Zenodo_Type': contrib_md['type'],
+                'ID': rec['id'],
+                'Name': rec['metadata']['title'],
+                'Description': rec['metadata']['description'],
+                'Version': rec['metadata']['version'],
+                'Creators': [
+                    c['name'] for c in rec['metadata']['creators']],
+                'Contributors': [
+                    c['name'] for c in rec['metadata'].get('contributors', ())],
+                'DOI': rec['doi'],
+                'Concept_DOI': rec['conceptdoi'],
+                'Parent_ID': rec['conceptrecid'],
+                # TODO: extract github link somehow...
+                # 'GitHub_Link': contrib_md['github-link'],
+                'Date_Created': rec['created'],
+                'Date_Updated': rec['updated'],
+                'Communities': [
+                    c['id'] for c in rec['metadata'].get('communities', ())],
+                'License': rec['metadata']['license']['id'],
+                'Zenodo_ID': rec['id'],
+                'Zenodo_Link': rec['links']['html'],
+                'Zenodo_Keywords': rec['metadata']['keywords'],
+                'Zenodo_Type': rec['metadata']['resource_type']['type'],
             }
-            for contrib_md in json_md]
+            for rec in records]
 
         # Write CLDF data
 
@@ -556,20 +611,19 @@ class Dataset(BaseDataset):
             'http://cldf.clld.org/v1.0/terms.rdf#name',
             'http://cldf.clld.org/v1.0/terms.rdf#description',
             'Version',
-            'Author',
-            'Contributor',
-            'Creator',
-            'Zenodo_ID',
+            {'name': 'Creators', 'separator': ' ; '},
+            {'name': 'Contributors', 'separator': ' ; '},
             'DOI',
-            'DOI_Related',
-            'GitHub_Link',
-            'Zenodo_Link',
+            'Concept_DOI',
             'Date',
-            'Communities',
+            {'name': 'Communities', 'separator': ';'},
             'License',
-            'Source',
-            'Zenodo_Subject',
-            'Zenodo_Type')
+            'Zenodo_Link',
+            'Zenodo_ID',
+            'Parent_ID',
+            {'name': 'Zenodo_Keyword', 'separator': ';'},
+            'Zenodo_Type',
+            'GitHub_Link')
 
         args.writer.cldf.add_table(
             'datasets.csv',
