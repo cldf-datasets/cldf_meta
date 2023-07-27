@@ -1,8 +1,8 @@
-from collections import Counter
+from collections import Counter, namedtuple
 import contextlib
 import csv
 import hashlib
-from itertools import chain
+from itertools import chain, islice
 import io
 import json
 from multiprocessing import Pool
@@ -15,7 +15,6 @@ from urllib import request
 from urllib.error import HTTPError
 from urllib.parse import urlparse
 import zipfile
-
 from cldfbench import Dataset as BaseDataset
 from cldfbench.cldf import CLDFSpec
 from pycldf.dataset import Dataset as CLDFDataset, SchemaError, sniff
@@ -27,6 +26,9 @@ PARENT_BLACKLIST = {
     "10.5281/zenodo.3260727",  # glottolog-cldf
     "10.5281/zenodo.7298022",  # concepticon-cldf
 }
+
+
+CLDFError = namedtuple('CLDFError', 'record_no file reason')
 
 
 ### Stuff that needs to be put in some sort of library ###
@@ -143,6 +145,16 @@ def loggable_progress(things, file=sys.stderr):
 
 ### Data download ###
 
+def file_basename(file):
+    basename = re.search(
+        r'/([^/]+?)(?:\?[^/]*)?(?:#[^/]*)?$',
+        file['links']['self']).group(1)
+    assert basename
+    if not basename.endswith('.{}'.format(file['type'])):
+        basename = '{}.{}'.format(basename, file['type'])
+    return basename
+
+
 def validate_checksum(checksum, data):
     """Validate `data` by comparing its hash to `checksum`.
 
@@ -175,12 +187,7 @@ def _download_datasets(raw_dir, files, access_token=None):
     dls = download_all(loggable_progress(urls, file=sys.stderr))
     for raw_data, (id_, file) in zip(dls, files):
         validate_checksum(file['checksum'], raw_data)
-        basename = re.search(
-            r'/([^/]+?)(?:\?[^/]*)?(?:#[^/]*)?$',
-            file['links']['self']).group(1)
-        assert basename
-        if not basename.endswith('.{}'.format(file['type'])):
-            basename = '{}.{}'.format(basename, file['type'])
+        basename = file_basename(file)
         output_folder = raw_dir / id_
         output_folder.mkdir(parents=True, exist_ok=True)
         output_file = output_folder / basename
@@ -291,8 +298,7 @@ class ZipDataReader:
                 csv_f = withs.enter_context(internal_zip.open(internal_info))
             decoder = io.TextIOWrapper(csv_f, encoding='utf-8')
             rdr = csv.reader(decoder)
-            _ = next(rdr)
-            for row in rdr:
+            for row in islice(rdr, 1, None):
                 yield {
                     colname: cell
                     for colname, cell in zip(col_names, row)
@@ -301,6 +307,7 @@ class ZipDataReader:
 
 def _stats_from_zip(args):
     record_no, zip_path = args
+    found_data = False
     with zipfile.ZipFile(zip_path) as zip:
         file_tree = {Path(info.filename): info for info in zip.infolist()}
         for path, info in file_tree.items():
@@ -311,7 +318,10 @@ def _stats_from_zip(args):
             if cldf_md is None:
                 continue
             zipreader = ZipDataReader(zip, file_tree, path.parent, cldf_md)
-            yield collect_dataset_stats(zipreader)
+            found_data = True
+            yield collect_dataset_stats(zipreader), None
+    if not found_data:
+        yield None, CLDFError(record_no, zip_path.name, 'nocldf')
 
 
 def stats_from_zip(args):
@@ -401,6 +411,18 @@ def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
     }
 
 
+class ErrorFilter:
+    def __init__(self):
+        self.errors = []
+
+    def filter(self, iterable):
+        for val, err in iterable:
+            if err is not None:
+                self.errors.append(err)
+            if val is not None:
+                yield val
+
+
 ### CLDFbench ###
 
 class Dataset(BaseDataset):
@@ -430,6 +452,11 @@ class Dataset(BaseDataset):
                 '  to download the metadata.')
             return
 
+        known_nocldf = {
+            (record_no, file)
+            for record_no, file in islice(
+                self.etc_dir.read_csv('blacklist.csv'), 1, None)}
+
         datadir = self.raw_dir / 'datasets'
         # only download if raw/<id> folder is missing or empty
         records = [
@@ -442,7 +469,8 @@ class Dataset(BaseDataset):
             (str(rec['id']), file)
             for rec in records
             for file in rec.get('files', ())
-            if file['type'] == 'zip']
+            if file['type'] == 'zip'
+            and (str(rec['id']), file_basename(file)) not in known_nocldf]
 
         if file_urls:
             print(
@@ -467,40 +495,60 @@ class Dataset(BaseDataset):
             for rec in self.raw_dir.read_json('zenodo-metadata.json')['records']
             if _has_zip(rec)
             and not _is_blacklisted(rec)]
+        etc_blacklist = [
+            CLDFError(*row)
+            for row in islice(self.etc_dir.read_csv('blacklist.csv'), 1, None)]
 
         # Read CLDF data
 
-        # before doing anything, check that the datasets have all been
-        # downloaded properly
-        error_messages = find_missing_datasets(self.raw_dir, records)
-        if error_messages:
+        print('finding cldf datasets..', file=sys.stderr, flush=True)
+        known_nocldf = {(err.record_no, err.file) for err in etc_blacklist}
+        data_archives = [
+            (rec['id'], self.raw_dir / 'datasets' / str(rec['id']) / fname)
+            for rec in records
+            for fname in map(file_basename, rec['files'])
+            if fname.endswith('.zip')
+            and (rec['id'], fname) not in known_nocldf]
+
+        missing_files = [
+            (record_no, path)
+            for record_no, path in data_archives
+            if not path.is_file()]
+        if missing_files:
             print(
-                '\n'.join(error_messages),
+                '\n'.join(
+                    '{}:{}: file not found'.format(record_no, path.name)
+                    for record_no, path in missing_files),
+                file=sys.stderr)
+            print(
                 'ERROR: Some datasets seem to be missing in raw/.',
                 'You might have to re-run `cldfbench download`.',
                 sep='\n', file=sys.stderr, flush=True)
             return
 
-        print('finding cldf datasets..', file=sys.stderr, flush=True)
-        data_dirs = [
-            (rec['id'], self.raw_dir / 'datasets' / str(rec['id']))
-            for rec in records]
-        data_archives = [
-            (record_no, Path(dirpath) / fname)
-            for record_no, data_dir in data_dirs
-            for dirpath, _, filenames in os.walk(data_dir)
-            for fname in filenames
-            if fname.endswith('.zip')]
-
         print(
             'extracting databases from', len(data_archives), 'zip files...',
             file=sys.stderr, flush=True)
+        cldf_errors = ErrorFilter()
         with Pool() as pool:
-            dataset_stats = [
-                stats
+            dataset_stats = list(cldf_errors.filter(
+                (stats, err)
                 for chunk in loggable_progress(
                     pool.imap(stats_from_zip, data_archives))
-                for stats in chunk]
+                for stats, err in chunk))
+        if cldf_errors.errors:
+            print(
+                '\n'.join(
+                    '{}:{}: no cldf data found'.format(err.record_no, err.file)
+                    for err in cldf_errors.errors),
+                file=sys.stderr)
+            etc_blacklist.extend(cldf_errors.errors)
+            etc_blacklist.sort(key=lambda err: int(err.record_no))
+            blacklist_name = self.etc_dir / 'blacklist.csv'
+            with open(blacklist_name, 'w', encoding='utf-8') as f:
+                wtr = csv.writer(f)
+                wtr.writerow(CLDFError._fields)
+                wtr.writerows(etc_blacklist)
 
         print(
             'loading language info from glottolog...',
