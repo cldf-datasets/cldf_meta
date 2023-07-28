@@ -456,7 +456,7 @@ class Dataset(BaseDataset):
 
         known_nocldf = {
             (record_no, file)
-            for record_no, file in islice(
+            for record_no, file, _ in islice(
                 self.etc_dir.read_csv('blacklist.csv'), 1, None)}
 
         datadir = self.raw_dir / 'datasets'
