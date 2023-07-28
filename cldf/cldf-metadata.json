@@ -1,0 +1,321 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
+    "dc:identifier": "meta.clld.org",
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dc:title": "CLLD Meta",
+    "prov:wasDerivedFrom": [
+        {
+            "rdf:about": "clld_meta",
+            "rdf:type": "prov:Entity",
+            "dc:created": "45162db",
+            "dc:title": "Repository"
+        },
+        {
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "rdf:type": "prov:Entity",
+            "dc:created": "v4.8",
+            "dc:title": "Glottolog"
+        }
+    ],
+    "prov:wasGeneratedBy": [
+        {
+            "dc:title": "python",
+            "dc:description": "3.8.10"
+        },
+        {
+            "dc:title": "python-packages",
+            "dc:relation": "requirements.txt"
+        }
+    ],
+    "rdf:ID": "clld_meta",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
+    "tables": [
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:extent": 9028,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#macroarea",
+                        "required": false,
+                        "name": "Macroarea"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": "-90",
+                            "maximum": "90"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
+                        "required": false,
+                        "name": "Latitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": "-180",
+                            "maximum": "180"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
+                        "required": false,
+                        "name": "Longitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z0-9]{4}[1-9][0-9]{3}"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
+                        "required": false,
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{Glottocode}",
+                        "name": "Glottocode"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z]{3}"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
+                        "required": false,
+                        "name": "ISO639P3code"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "languages.csv"
+        },
+        {
+            "dc:extent": 358,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Version"
+                    },
+                    {
+                        "separator": " ; ",
+                        "name": "Creators"
+                    },
+                    {
+                        "separator": " ; ",
+                        "name": "Contributors"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "DOI"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Concept_DOI"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Date"
+                    },
+                    {
+                        "separator": ";",
+                        "name": "Communities"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "License"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Zenodo_Link"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Zenodo_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Parent_ID"
+                    },
+                    {
+                        "separator": ";",
+                        "name": "Zenodo_Keyword"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Zenodo_Type"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GitHub_Link"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "contributions.csv"
+        },
+        {
+            "dc:extent": 358,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Contribution_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Module"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Language_Count"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Value_Count"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Glottocode_Count"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Contribution_ID"
+                        ],
+                        "reference": {
+                            "resource": "contributions.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "datasets.csv"
+        },
+        {
+            "dc:extent": 124414,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Dataset_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "name": "Language_ID"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Value_Count"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Parameter_Count"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Form_Count"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Entry_Count"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Example_Count"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Dataset_ID"
+                        ],
+                        "reference": {
+                            "resource": "datasets.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "dataset-languages.csv"
+        }
+    ]
+}
