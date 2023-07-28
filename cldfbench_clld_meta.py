@@ -510,7 +510,7 @@ class Dataset(BaseDataset):
             for rec in records
             for fname in map(file_basename, rec['files'])
             if fname.endswith('.zip')
-            and (rec['id'], fname) not in known_nocldf]
+            and (str(rec['id']), fname) not in known_nocldf]
 
         missing_files = [
             (record_no, path)
