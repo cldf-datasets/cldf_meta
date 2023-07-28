@@ -13,7 +13,7 @@
         {
             "rdf:about": "clld_meta",
             "rdf:type": "prov:Entity",
-            "dc:created": "45162db",
+            "dc:created": "bfa67bc",
             "dc:title": "Repository"
         },
         {
@@ -194,7 +194,7 @@
             "url": "contributions.csv"
         },
         {
-            "dc:extent": 358,
+            "dc:extent": 356,
             "tableSchema": {
                 "columns": [
                     {
@@ -246,7 +246,7 @@
             "url": "datasets.csv"
         },
         {
-            "dc:extent": 124414,
+            "dc:extent": 124396,
             "tableSchema": {
                 "columns": [
                     {
