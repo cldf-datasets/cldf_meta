@@ -106,16 +106,16 @@
       ],
       "revision": 4,
       "stats": {
-        "downloads": 0.0,
-        "unique_downloads": 0.0,
-        "unique_views": 1.0,
-        "version_downloads": 0.0,
-        "version_unique_downloads": 0.0,
-        "version_unique_views": 1.0,
-        "version_views": 1.0,
-        "version_volume": 0.0,
-        "views": 1.0,
-        "volume": 0.0
+        "downloads": 1.0,
+        "unique_downloads": 1.0,
+        "unique_views": 2.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 2.0,
+        "version_views": 2.0,
+        "version_volume": 201271.0,
+        "views": 2.0,
+        "volume": 201271.0
       },
       "updated": "2023-07-25T02:26:59.781211+00:00"
     },
@@ -221,16 +221,16 @@
       ],
       "revision": 4,
       "stats": {
-        "downloads": 0.0,
-        "unique_downloads": 0.0,
-        "unique_views": 1.0,
-        "version_downloads": 0.0,
-        "version_unique_downloads": 0.0,
-        "version_unique_views": 1.0,
-        "version_views": 1.0,
-        "version_volume": 0.0,
-        "views": 1.0,
-        "volume": 0.0
+        "downloads": 1.0,
+        "unique_downloads": 1.0,
+        "unique_views": 2.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 2.0,
+        "version_views": 2.0,
+        "version_volume": 540438.0,
+        "views": 2.0,
+        "volume": 540438.0
       },
       "updated": "2023-07-25T02:26:59.758400+00:00"
     },
@@ -334,16 +334,16 @@
       ],
       "revision": 4,
       "stats": {
-        "downloads": 0.0,
-        "unique_downloads": 0.0,
-        "unique_views": 2.0,
-        "version_downloads": 0.0,
-        "version_unique_downloads": 0.0,
-        "version_unique_views": 2.0,
-        "version_views": 2.0,
-        "version_volume": 0.0,
-        "views": 2.0,
-        "volume": 0.0
+        "downloads": 1.0,
+        "unique_downloads": 1.0,
+        "unique_views": 4.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 4.0,
+        "version_views": 4.0,
+        "version_volume": 70709.0,
+        "views": 4.0,
+        "volume": 70709.0
       },
       "updated": "2023-07-24T14:04:15.903860+00:00"
     },
@@ -454,16 +454,16 @@
       ],
       "revision": 4,
       "stats": {
-        "downloads": 0.0,
-        "unique_downloads": 0.0,
-        "unique_views": 2.0,
-        "version_downloads": 0.0,
-        "version_unique_downloads": 0.0,
-        "version_unique_views": 2.0,
-        "version_views": 2.0,
-        "version_volume": 0.0,
-        "views": 2.0,
-        "volume": 0.0
+        "downloads": 1.0,
+        "unique_downloads": 1.0,
+        "unique_views": 3.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 3.0,
+        "version_views": 3.0,
+        "version_volume": 167825.0,
+        "views": 3.0,
+        "volume": 167825.0
       },
       "updated": "2023-07-24T14:04:12.561904+00:00"
     },
@@ -603,16 +603,16 @@
       ],
       "revision": 6,
       "stats": {
-        "downloads": 7.0,
-        "unique_downloads": 7.0,
-        "unique_views": 44.0,
-        "version_downloads": 7.0,
-        "version_unique_downloads": 7.0,
-        "version_unique_views": 44.0,
-        "version_views": 58.0,
-        "version_volume": 40893419.0,
-        "views": 58.0,
-        "volume": 40893419.0
+        "downloads": 20.0,
+        "unique_downloads": 15.0,
+        "unique_views": 56.0,
+        "version_downloads": 20.0,
+        "version_unique_downloads": 15.0,
+        "version_unique_views": 56.0,
+        "version_views": 70.0,
+        "version_volume": 116838340.0,
+        "views": 70.0,
+        "volume": 116838340.0
       },
       "updated": "2023-07-24T06:39:07.079498+00:00"
     },
@@ -710,16 +710,16 @@
       ],
       "revision": 3,
       "stats": {
-        "downloads": 0.0,
-        "unique_downloads": 0.0,
-        "unique_views": 1.0,
-        "version_downloads": 0.0,
-        "version_unique_downloads": 0.0,
-        "version_unique_views": 1.0,
-        "version_views": 1.0,
-        "version_volume": 0.0,
-        "views": 1.0,
-        "volume": 0.0
+        "downloads": 1.0,
+        "unique_downloads": 1.0,
+        "unique_views": 2.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 2.0,
+        "version_views": 2.0,
+        "version_volume": 156390.0,
+        "views": 2.0,
+        "volume": 156390.0
       },
       "updated": "2023-07-23T02:26:56.674362+00:00"
     },
@@ -829,16 +829,16 @@
       ],
       "revision": 3,
       "stats": {
-        "downloads": 0.0,
-        "unique_downloads": 0.0,
-        "unique_views": 3.0,
-        "version_downloads": 14.0,
-        "version_unique_downloads": 11.0,
-        "version_unique_views": 71.0,
-        "version_views": 88.0,
-        "version_volume": 22887712.0,
-        "views": 3.0,
-        "volume": 0.0
+        "downloads": 1.0,
+        "unique_downloads": 1.0,
+        "unique_views": 4.0,
+        "version_downloads": 15.0,
+        "version_unique_downloads": 12.0,
+        "version_unique_views": 72.0,
+        "version_views": 89.0,
+        "version_volume": 24530166.0,
+        "views": 4.0,
+        "volume": 1642454.0
       },
       "updated": "2023-07-20T14:26:49.820762+00:00"
     },
@@ -951,15 +951,139 @@
         "downloads": 11.0,
         "unique_downloads": 10.0,
         "unique_views": 45.0,
-        "version_downloads": 14.0,
-        "version_unique_downloads": 11.0,
-        "version_unique_views": 71.0,
-        "version_views": 88.0,
-        "version_volume": 22887712.0,
+        "version_downloads": 15.0,
+        "version_unique_downloads": 12.0,
+        "version_unique_views": 72.0,
+        "version_views": 89.0,
+        "version_volume": 24530166.0,
         "views": 49.0,
         "volume": 17983405.0
       },
       "updated": "2023-07-20T13:52:35.113367+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.3755518",
+      "conceptrecid": "3755518",
+      "created": "2020-04-17T11:41:44.296033+00:00",
+      "doi": "10.5281/zenodo.3755519",
+      "files": [
+        {
+          "bucket": "52415875-8904-4165-92a5-47d4ffebf3a0",
+          "checksum": "md5:0b1bf52855d398c62f9ead9116946014",
+          "key": "lexibank/grollemundbantu-v1.0rc1.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/52415875-8904-4165-92a5-47d4ffebf3a0/lexibank/grollemundbantu-v1.0rc1.zip"
+          },
+          "size": 1634769,
+          "type": "zip"
+        }
+      ],
+      "id": 3755519,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.3755519.svg",
+        "bucket": "https://zenodo.org/api/files/52415875-8904-4165-92a5-47d4ffebf3a0",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.3755518.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.3755518",
+        "doi": "https://doi.org/10.5281/zenodo.3755519",
+        "html": "https://zenodo.org/record/3755519",
+        "latest": "https://zenodo.org/api/records/8169123",
+        "latest_html": "https://zenodo.org/record/8169123",
+        "self": "https://zenodo.org/api/records/3755519"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "communities": [
+          {
+            "id": "lexibank"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Mark Pagel",
+            "type": "Distributor"
+          },
+          {
+            "name": "Rebecca Grollemund",
+            "type": "Distributor"
+          }
+        ],
+        "creators": [
+          {
+            "name": "Robert Forkel"
+          },
+          {
+            "name": "Tiago Tresoldi"
+          }
+        ],
+        "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Grollemund, Rebecca, Branford, Simon, Bostoen, Koen, Meade, Andrew, Venditti, Chris, &amp; Pagel, Mark (2015) Bantu expansion shows habitat alters the route and pace of human dispersals. Proc Natl Acad Sci USA. doi:10.1073/pnas.1503793112.</p>\n</blockquote>",
+        "doi": "10.5281/zenodo.3755519",
+        "keywords": [
+          "linguistics",
+          "cldf:Wordlist"
+        ],
+        "license": {
+          "id": "CC-BY-NC-4.0"
+        },
+        "publication_date": "2020-04-17",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/lexibank/grollemundbantu/tree/v1.0rc1",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.1073/pnas.1503793112",
+            "relation": "isDerivedFrom",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.3755518",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 3,
+              "index": 0,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "8169123"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "3755518"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "CLDF dataset derived from Grollemund et al.'s \"Bantu expansion shows habitat alters the route and pace of human dispersals\" from 2015",
+        "version": "v1.0rc1"
+      },
+      "owners": [
+        46881
+      ],
+      "revision": 7,
+      "stats": {
+        "downloads": 3.0,
+        "unique_downloads": 3.0,
+        "unique_views": 28.0,
+        "version_downloads": 15.0,
+        "version_unique_downloads": 12.0,
+        "version_unique_views": 72.0,
+        "version_views": 89.0,
+        "version_volume": 24530166.0,
+        "views": 36.0,
+        "volume": 4904307.0
+      },
+      "updated": "2023-07-20T13:52:34.892039+00:00"
     },
     {
       "conceptdoi": "10.5281/zenodo.3260727",
@@ -1079,13 +1203,13 @@
       "stats": {
         "downloads": 8.0,
         "unique_downloads": 8.0,
-        "unique_views": 28.0,
+        "unique_views": 30.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
-        "views": 31.0,
+        "views": 33.0,
         "volume": 361197128.0
       },
       "updated": "2023-07-10T14:26:48.500419+00:00"
@@ -1211,8 +1335,8 @@
         "unique_views": 209.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 239.0,
         "volume": 3962822227.0
@@ -1335,8 +1459,8 @@
         "unique_views": 133.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 150.0,
         "volume": 555474906.0
@@ -1459,8 +1583,8 @@
         "unique_views": 143.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 153.0,
         "volume": 140513814.0
@@ -1583,8 +1707,8 @@
         "unique_views": 212.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 264.0,
         "volume": 2452701593.0
@@ -1707,8 +1831,8 @@
         "unique_views": 283.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 341.0,
         "volume": 650716160.0
@@ -1831,8 +1955,8 @@
         "unique_views": 153.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 173.0,
         "volume": 195364575.0
@@ -1954,8 +2078,8 @@
         "unique_views": 212.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 227.0,
         "volume": 179771634.0
@@ -2078,8 +2202,8 @@
         "unique_views": 24.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 29.0,
         "volume": 29958320.0
@@ -2200,8 +2324,8 @@
         "unique_views": 157.0,
         "version_downloads": 784.0,
         "version_unique_downloads": 568.0,
-        "version_unique_views": 1593.0,
-        "version_views": 1912.0,
+        "version_unique_views": 1595.0,
+        "version_views": 1914.0,
         "version_volume": 8723112483.0,
         "views": 170.0,
         "volume": 74966256.0
@@ -2315,13 +2439,13 @@
       "stats": {
         "downloads": 11.0,
         "unique_downloads": 11.0,
-        "unique_views": 84.0,
+        "unique_views": 86.0,
         "version_downloads": 14.0,
         "version_unique_downloads": 12.0,
-        "version_unique_views": 87.0,
-        "version_views": 112.0,
+        "version_unique_views": 89.0,
+        "version_views": 114.0,
         "version_volume": 385047313.0,
-        "views": 96.0,
+        "views": 98.0,
         "volume": 294266390.0
       },
       "updated": "2023-07-05T12:03:30.361883+00:00"
@@ -2436,8 +2560,8 @@
         "unique_views": 9.0,
         "version_downloads": 14.0,
         "version_unique_downloads": 12.0,
-        "version_unique_views": 87.0,
-        "version_views": 112.0,
+        "version_unique_views": 89.0,
+        "version_views": 114.0,
         "version_volume": 385047313.0,
         "views": 10.0,
         "volume": 48519434.0
@@ -2554,8 +2678,8 @@
         "unique_views": 3.0,
         "version_downloads": 14.0,
         "version_unique_downloads": 12.0,
-        "version_unique_views": 87.0,
-        "version_views": 112.0,
+        "version_unique_views": 89.0,
+        "version_views": 114.0,
         "version_volume": 385047313.0,
         "views": 6.0,
         "volume": 42261489.0
@@ -4590,16 +4714,16 @@
       ],
       "revision": 7,
       "stats": {
-        "downloads": 6.0,
-        "unique_downloads": 6.0,
-        "unique_views": 33.0,
-        "version_downloads": 6.0,
-        "version_unique_downloads": 6.0,
-        "version_unique_views": 33.0,
-        "version_views": 38.0,
-        "version_volume": 9815886.0,
-        "views": 38.0,
-        "volume": 9815886.0
+        "downloads": 7.0,
+        "unique_downloads": 7.0,
+        "unique_views": 34.0,
+        "version_downloads": 7.0,
+        "version_unique_downloads": 7.0,
+        "version_unique_views": 34.0,
+        "version_views": 39.0,
+        "version_volume": 11451867.0,
+        "views": 39.0,
+        "volume": 11451867.0
       },
       "updated": "2023-05-04T05:59:18.320240+00:00"
     },
@@ -5642,16 +5766,143 @@
       "stats": {
         "downloads": 13.0,
         "unique_downloads": 12.0,
-        "unique_views": 69.0,
+        "unique_views": 70.0,
         "version_downloads": 62.0,
         "version_unique_downloads": 56.0,
-        "version_unique_views": 360.0,
-        "version_views": 389.0,
+        "version_unique_views": 361.0,
+        "version_views": 390.0,
         "version_volume": 1462324213.0,
-        "views": 72.0,
+        "views": 73.0,
         "volume": 433586608.0
       },
       "updated": "2023-04-26T10:07:11.890470+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.5227817",
+      "conceptrecid": "5227817",
+      "created": "2021-08-20T18:27:37.187464+00:00",
+      "doi": "10.5281/zenodo.5227818",
+      "files": [
+        {
+          "bucket": "456b2c7a-de0f-4b0d-8ee1-c4b9d5760525",
+          "checksum": "md5:2f0dde7f0f5b29a3d05f62a35080a64e",
+          "key": "lexibank/lexibank-analysed-v0.2.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/456b2c7a-de0f-4b0d-8ee1-c4b9d5760525/lexibank/lexibank-analysed-v0.2.zip"
+          },
+          "size": 20994645,
+          "type": "zip"
+        }
+      ],
+      "id": 5227818,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.5227818.svg",
+        "bucket": "https://zenodo.org/api/files/456b2c7a-de0f-4b0d-8ee1-c4b9d5760525",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.5227817.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.5227817",
+        "doi": "https://doi.org/10.5281/zenodo.5227818",
+        "html": "https://zenodo.org/record/5227818",
+        "latest": "https://zenodo.org/api/records/7836668",
+        "latest_html": "https://zenodo.org/record/7836668",
+        "self": "https://zenodo.org/api/records/5227818"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "communities": [
+          {
+            "id": "calc"
+          },
+          {
+            "id": "lexibank"
+          },
+          {
+            "id": "produsemy"
+          }
+        ],
+        "creators": [
+          {
+            "name": "Johann-Mattis List"
+          },
+          {
+            "name": "Robert Forkel"
+          },
+          {
+            "name": "Simon J. Greenhill"
+          },
+          {
+            "name": "Rzymski, Christoph"
+          },
+          {
+            "name": "Englisch, Johannes"
+          },
+          {
+            "name": "Russell D. Gray"
+          }
+        ],
+        "description": "<p>Cite the dataset as:</p>\n\n<blockquote>\n<p>List, Johann-Mattis; Forkel, Robert; Greenhill, Simon J.; Rzymski, Christoph; Englisch, Johannes; and Russell D. Gray (2021): Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties [Dataset, Version 0.1]. Geneva: Zenodo. https://github.com/lexibank/lexibank-analysed</p>\n</blockquote>",
+        "doi": "10.5281/zenodo.5227818",
+        "keywords": [
+          "linguistics",
+          "cldf:Wordlist"
+        ],
+        "license": {
+          "id": "CC-BY-4.0"
+        },
+        "publication_date": "2021-08-20",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/lexibank/lexibank-analysed/tree/v0.2",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.5227817",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 2,
+              "index": 0,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7836668"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "5227817"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "Lexibank: A publicly available repository of standardized lexical datasets with automatically computed phonological and lexical features for more than 2000 language varieties",
+        "version": "v0.2"
+      },
+      "owners": [
+        246235
+      ],
+      "revision": 10,
+      "stats": {
+        "downloads": 49.0,
+        "unique_downloads": 45.0,
+        "unique_views": 293.0,
+        "version_downloads": 62.0,
+        "version_unique_downloads": 56.0,
+        "version_unique_views": 361.0,
+        "version_views": 390.0,
+        "version_volume": 1462324213.0,
+        "views": 317.0,
+        "volume": 1028737605.0
+      },
+      "updated": "2023-04-26T10:07:11.775543+00:00"
     },
     {
       "conceptdoi": "10.5281/zenodo.7590183",
@@ -6419,13 +6670,13 @@
       "stats": {
         "downloads": 286.0,
         "unique_downloads": 274.0,
-        "unique_views": 1216.0,
+        "unique_views": 1221.0,
         "version_downloads": 370.0,
         "version_unique_downloads": 330.0,
-        "version_unique_views": 1503.0,
-        "version_views": 1793.0,
+        "version_unique_views": 1508.0,
+        "version_views": 1800.0,
         "version_volume": 3371801294.0,
-        "views": 1386.0,
+        "views": 1393.0,
         "volume": 2606403228.0
       },
       "updated": "2023-04-19T14:26:40.379722+00:00"
@@ -6931,8 +7182,8 @@
         "unique_views": 36.0,
         "version_downloads": 370.0,
         "version_unique_downloads": 330.0,
-        "version_unique_views": 1503.0,
-        "version_views": 1793.0,
+        "version_unique_views": 1508.0,
+        "version_views": 1800.0,
         "version_volume": 3371801294.0,
         "views": 41.0,
         "volume": 72904424.0
@@ -7386,8 +7637,8 @@
         "unique_views": 30.0,
         "version_downloads": 370.0,
         "version_unique_downloads": 330.0,
-        "version_unique_views": 1503.0,
-        "version_views": 1793.0,
+        "version_unique_views": 1508.0,
+        "version_views": 1800.0,
         "version_volume": 3371801294.0,
         "views": 40.0,
         "volume": 63785652.0
@@ -7841,8 +8092,8 @@
         "unique_views": 300.0,
         "version_downloads": 370.0,
         "version_unique_downloads": 330.0,
-        "version_unique_views": 1503.0,
-        "version_views": 1793.0,
+        "version_unique_views": 1508.0,
+        "version_views": 1800.0,
         "version_volume": 3371801294.0,
         "views": 326.0,
         "volume": 628707990.0
@@ -8233,8 +8484,8 @@
         "unique_views": 91.0,
         "version_downloads": 347.0,
         "version_unique_downloads": 276.0,
-        "version_unique_views": 1371.0,
-        "version_views": 1657.0,
+        "version_unique_views": 1373.0,
+        "version_views": 1659.0,
         "version_volume": 4591367215.0,
         "views": 103.0,
         "volume": 393069057.0
@@ -8358,13 +8609,13 @@
       "stats": {
         "downloads": 87.0,
         "unique_downloads": 77.0,
-        "unique_views": 312.0,
+        "unique_views": 313.0,
         "version_downloads": 347.0,
         "version_unique_downloads": 276.0,
-        "version_unique_views": 1371.0,
-        "version_views": 1657.0,
+        "version_unique_views": 1373.0,
+        "version_views": 1659.0,
         "version_volume": 4591367215.0,
-        "views": 355.0,
+        "views": 356.0,
         "volume": 1126082673.0
       },
       "updated": "2023-03-06T11:42:21.559364+00:00"
@@ -8489,8 +8740,8 @@
         "unique_views": 95.0,
         "version_downloads": 347.0,
         "version_unique_downloads": 276.0,
-        "version_unique_views": 1371.0,
-        "version_views": 1657.0,
+        "version_unique_views": 1373.0,
+        "version_views": 1659.0,
         "version_volume": 4591367215.0,
         "views": 103.0,
         "volume": 205338944.0
@@ -8618,8 +8869,8 @@
         "unique_views": 211.0,
         "version_downloads": 347.0,
         "version_unique_downloads": 276.0,
-        "version_unique_views": 1371.0,
-        "version_views": 1657.0,
+        "version_unique_views": 1373.0,
+        "version_views": 1659.0,
         "version_volume": 4591367215.0,
         "views": 234.0,
         "volume": 679914157.0
@@ -8726,13 +8977,13 @@
       "stats": {
         "downloads": 73.0,
         "unique_downloads": 68.0,
-        "unique_views": 478.0,
+        "unique_views": 479.0,
         "version_downloads": 347.0,
         "version_unique_downloads": 276.0,
-        "version_unique_views": 1371.0,
-        "version_views": 1657.0,
+        "version_unique_views": 1373.0,
+        "version_views": 1659.0,
         "version_volume": 4591367215.0,
-        "views": 530.0,
+        "views": 531.0,
         "volume": 1011582389.0
       },
       "updated": "2023-03-06T11:42:21.206416+00:00"
@@ -10079,16 +10330,16 @@
       ],
       "revision": 3,
       "stats": {
-        "downloads": 292.0,
-        "unique_downloads": 271.0,
-        "unique_views": 1961.0,
-        "version_downloads": 1287.0,
-        "version_unique_downloads": 1053.0,
-        "version_unique_views": 6151.0,
-        "version_views": 7170.0,
-        "version_volume": 13752448949.0,
-        "views": 2210.0,
-        "volume": 3685945200.0
+        "downloads": 293.0,
+        "unique_downloads": 272.0,
+        "unique_views": 1973.0,
+        "version_downloads": 1289.0,
+        "version_unique_downloads": 1055.0,
+        "version_unique_views": 6167.0,
+        "version_views": 7187.0,
+        "version_volume": 13774461770.0,
+        "views": 2223.0,
+        "volume": 3698568300.0
       },
       "updated": "2022-12-02T14:27:17.142739+00:00"
     },
@@ -10200,11 +10451,11 @@
         "downloads": 141.0,
         "unique_downloads": 115.0,
         "unique_views": 480.0,
-        "version_downloads": 1287.0,
-        "version_unique_downloads": 1053.0,
-        "version_unique_views": 6151.0,
-        "version_views": 7170.0,
-        "version_volume": 13752448949.0,
+        "version_downloads": 1289.0,
+        "version_unique_downloads": 1055.0,
+        "version_unique_views": 6167.0,
+        "version_views": 7187.0,
+        "version_volume": 13774461770.0,
         "views": 542.0,
         "volume": 1750108497.0
       },
@@ -10318,11 +10569,11 @@
         "downloads": 303.0,
         "unique_downloads": 278.0,
         "unique_views": 1491.0,
-        "version_downloads": 1287.0,
-        "version_unique_downloads": 1053.0,
-        "version_unique_views": 6151.0,
-        "version_views": 7170.0,
-        "version_volume": 13752448949.0,
+        "version_downloads": 1289.0,
+        "version_unique_downloads": 1055.0,
+        "version_unique_views": 6167.0,
+        "version_views": 7187.0,
+        "version_volume": 13774461770.0,
         "views": 1653.0,
         "volume": 3754341801.0
       },
@@ -10441,16 +10692,16 @@
       ],
       "revision": 9,
       "stats": {
-        "downloads": 369.0,
-        "unique_downloads": 331.0,
-        "unique_views": 1869.0,
-        "version_downloads": 1287.0,
-        "version_unique_downloads": 1053.0,
-        "version_unique_views": 6151.0,
-        "version_views": 7170.0,
-        "version_volume": 13752448949.0,
-        "views": 2046.0,
-        "volume": 3464807049.0
+        "downloads": 370.0,
+        "unique_downloads": 332.0,
+        "unique_views": 1873.0,
+        "version_downloads": 1289.0,
+        "version_unique_downloads": 1055.0,
+        "version_unique_views": 6167.0,
+        "version_views": 7187.0,
+        "version_volume": 13774461770.0,
+        "views": 2050.0,
+        "volume": 3474196770.0
       },
       "updated": "2022-12-01T09:40:19.281486+00:00"
     },
@@ -10563,11 +10814,11 @@
         "downloads": 136.0,
         "unique_downloads": 48.0,
         "unique_views": 306.0,
-        "version_downloads": 1287.0,
-        "version_unique_downloads": 1053.0,
-        "version_unique_views": 6151.0,
-        "version_views": 7170.0,
-        "version_volume": 13752448949.0,
+        "version_downloads": 1289.0,
+        "version_unique_downloads": 1055.0,
+        "version_unique_views": 6167.0,
+        "version_views": 7187.0,
+        "version_volume": 13774461770.0,
         "views": 330.0,
         "volume": 863309776.0
       },
@@ -11081,16 +11332,943 @@
       "stats": {
         "downloads": 18.0,
         "unique_downloads": 17.0,
-        "unique_views": 107.0,
+        "unique_views": 108.0,
         "version_downloads": 18.0,
         "version_unique_downloads": 17.0,
-        "version_unique_views": 107.0,
-        "version_views": 119.0,
+        "version_unique_views": 108.0,
+        "version_views": 120.0,
         "version_volume": 454957542.0,
-        "views": 119.0,
+        "views": 120.0,
         "volume": 454957542.0
       },
       "updated": "2022-10-21T15:21:33.610599+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-10-16T01:09:22.846898+00:00",
+      "doi": "10.5281/zenodo.7212584",
+      "files": [
+        {
+          "bucket": "1fcb5ece-d281-45c7-b294-17b43bd18cc7",
+          "checksum": "md5:f92135c98a2ae2ccb07e4f03274507f5",
+          "key": "fmatter/pylingdocs-0.0.10.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/1fcb5ece-d281-45c7-b294-17b43bd18cc7/fmatter/pylingdocs-0.0.10.zip"
+          },
+          "size": 525714,
+          "type": "zip"
+        }
+      ],
+      "id": 7212584,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.7212584.svg",
+        "bucket": "https://zenodo.org/api/files/1fcb5ece-d281-45c7-b294-17b43bd18cc7",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.7212584",
+        "html": "https://zenodo.org/record/7212584",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/7212584"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "Create data-rich linguistic documents.",
+        "doi": "10.5281/zenodo.7212584",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-10-15",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.10",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 8,
+              "is_last": true,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.10"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 3,
+      "stats": {
+        "downloads": 1.0,
+        "unique_downloads": 1.0,
+        "unique_views": 10.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 11.0,
+        "volume": 525714.0
+      },
+      "updated": "2022-10-16T02:26:23.520549+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-09-20T03:33:37.373987+00:00",
+      "doi": "10.5281/zenodo.7094985",
+      "files": [
+        {
+          "bucket": "4bd9ac1f-2e42-44e3-bfba-86eb810a42f2",
+          "checksum": "md5:e3dbe86936763ccb8eb778504cf0e111",
+          "key": "fmatter/pylingdocs-0.0.9.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/4bd9ac1f-2e42-44e3-bfba-86eb810a42f2/fmatter/pylingdocs-0.0.9.zip"
+          },
+          "size": 520798,
+          "type": "zip"
+        }
+      ],
+      "id": 7094985,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.7094985.svg",
+        "bucket": "https://zenodo.org/api/files/4bd9ac1f-2e42-44e3-bfba-86eb810a42f2",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.7094985",
+        "html": "https://zenodo.org/record/7094985",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/7094985"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "<p><a href=\"https://doi.org/10.5281/zenodo.6567304\"></a>\n\n<a href=\"https://pylingdocs.readthedocs.io/en/latest/?badge=latest\"></a>\n<a href=\"https://github.com/fmatter/pylingdocs/actions/workflows/tests.yml\"></a>\n<a href=\"https://github.com/fmatter/pylingdocs/actions/workflows/lint.yml\"></a>\n<a href=\"https://app.codecov.io/gh/fmatter/pylingdocs/\"></a>\n<a href=\"https://pypi.org/project/pylingdocs\"></a>\n</p>\n<p>The main functionalities of <code>pylingdocs</code> are showcased in the demo, where <a href=\"https://github.com/fmatter/pylingdocs/blob/main/docs/demo.txt\">this text</a>, using <a href=\"https://github.com/fmatter/pylingdocs/tree/main/tests/data/cldf\">this dataset</a>, is turned into a <a href=\"https://raw.githubusercontent.com/fmatter/pylingdocs/main/docs/demo.pdf\">PDF file</a>.\nIntegration into CLLD web apps is possible with <a href=\"https://github.com/clld/clld-markdown-plugin/\">clld-markdown-plugin</a>, optionally combined with <a href=\"https://github.com/fmatter/clld-document-plugin/\">clld-document-plugin</a>; an example can be inspected <a href=\"https://fl.mt/yawarana-sketch\">here</a>.</p>\n<p>Installation:</p>\n<p><code>pip install pylingdocs</code></p>\n<p>For further instructions check out the documentation at <a href=\"https://pylingdocs.readthedocs.io\">pylingdocs.readthedocs.io</a>.</p>\n<p>Rudimentary GUI editor:</p>\n<p><code>pip install pylingdocs-gui</code></p>",
+        "doi": "10.5281/zenodo.7094985",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-09-19",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.9",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 7,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.9"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 4,
+      "stats": {
+        "downloads": 0.0,
+        "unique_downloads": 0.0,
+        "unique_views": 10.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 10.0,
+        "volume": 0.0
+      },
+      "updated": "2022-10-16T01:09:25.140985+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-08-23T07:13:57.519596+00:00",
+      "doi": "10.5281/zenodo.7016300",
+      "files": [
+        {
+          "bucket": "9716ce31-540e-4078-8e40-b6e01df9cca6",
+          "checksum": "md5:7519eeee7c76f317e21174bdae04b0fa",
+          "key": "fmatter/pylingdocs-0.0.8.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/9716ce31-540e-4078-8e40-b6e01df9cca6/fmatter/pylingdocs-0.0.8.zip"
+          },
+          "size": 374476,
+          "type": "zip"
+        }
+      ],
+      "id": 7016300,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.7016300.svg",
+        "bucket": "https://zenodo.org/api/files/9716ce31-540e-4078-8e40-b6e01df9cca6",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.7016300",
+        "html": "https://zenodo.org/record/7016300",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/7016300"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "Create data-rich linguistic documents.",
+        "doi": "10.5281/zenodo.7016300",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-08-23",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.8",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 6,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.8"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 5,
+      "stats": {
+        "downloads": 0.0,
+        "unique_downloads": 0.0,
+        "unique_views": 10.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 12.0,
+        "volume": 0.0
+      },
+      "updated": "2022-10-16T01:09:24.948355+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-08-20T08:17:22.839618+00:00",
+      "doi": "10.5281/zenodo.7011989",
+      "files": [
+        {
+          "bucket": "f7a75d32-9ae5-4a5f-9e15-ff72d816f93d",
+          "checksum": "md5:b3a5e4d4d9023873e925a813b35d69a7",
+          "key": "fmatter/pylingdocs-0.0.7.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/f7a75d32-9ae5-4a5f-9e15-ff72d816f93d/fmatter/pylingdocs-0.0.7.zip"
+          },
+          "size": 374344,
+          "type": "zip"
+        }
+      ],
+      "id": 7011989,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.7011989.svg",
+        "bucket": "https://zenodo.org/api/files/f7a75d32-9ae5-4a5f-9e15-ff72d816f93d",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.7011989",
+        "html": "https://zenodo.org/record/7011989",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/7011989"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "Create data-rich linguistic documents.",
+        "doi": "10.5281/zenodo.7011989",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-08-20",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.7",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 5,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.7"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 6,
+      "stats": {
+        "downloads": 0.0,
+        "unique_downloads": 0.0,
+        "unique_views": 5.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 5.0,
+        "volume": 0.0
+      },
+      "updated": "2022-10-16T01:09:24.827552+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-08-20T07:43:28.594810+00:00",
+      "doi": "10.5281/zenodo.7011944",
+      "files": [
+        {
+          "bucket": "f39be446-5737-4305-9770-b4111c42edc6",
+          "checksum": "md5:5ea50c6d1deaa73e0c2ccc6db929e692",
+          "key": "fmatter/pylingdocs-0.0.6.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/f39be446-5737-4305-9770-b4111c42edc6/fmatter/pylingdocs-0.0.6.zip"
+          },
+          "size": 374276,
+          "type": "zip"
+        }
+      ],
+      "id": 7011944,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.7011944.svg",
+        "bucket": "https://zenodo.org/api/files/f39be446-5737-4305-9770-b4111c42edc6",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.7011944",
+        "html": "https://zenodo.org/record/7011944",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/7011944"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "Create data-rich linguistic documents.",
+        "doi": "10.5281/zenodo.7011944",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-08-20",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.6",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 4,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.6"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 7,
+      "stats": {
+        "downloads": 0.0,
+        "unique_downloads": 0.0,
+        "unique_views": 4.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 4.0,
+        "volume": 0.0
+      },
+      "updated": "2022-10-16T01:09:24.574940+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-07-21T17:17:09.993129+00:00",
+      "doi": "10.5281/zenodo.6877453",
+      "files": [
+        {
+          "bucket": "a064768d-be43-4b37-9614-c6f684fdca43",
+          "checksum": "md5:7a77f387bf46633c93fb29656d7f738e",
+          "key": "fmatter/pylingdocs-0.0.5.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/a064768d-be43-4b37-9614-c6f684fdca43/fmatter/pylingdocs-0.0.5.zip"
+          },
+          "size": 360541,
+          "type": "zip"
+        }
+      ],
+      "id": 6877453,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.6877453.svg",
+        "bucket": "https://zenodo.org/api/files/a064768d-be43-4b37-9614-c6f684fdca43",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.6877453",
+        "html": "https://zenodo.org/record/6877453",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/6877453"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "Create data-rich linguistic documents.",
+        "doi": "10.5281/zenodo.6877453",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-07-21",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.5",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 3,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.5"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 8,
+      "stats": {
+        "downloads": 0.0,
+        "unique_downloads": 0.0,
+        "unique_views": 9.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 11.0,
+        "volume": 0.0
+      },
+      "updated": "2022-10-16T01:09:24.289132+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-06-03T22:50:28.081007+00:00",
+      "doi": "10.5281/zenodo.6612557",
+      "files": [
+        {
+          "bucket": "82fd6150-2dcf-4ee2-b9a5-6d6276ef7697",
+          "checksum": "md5:9b16a264ab01fea48edfa8e180c1ee59",
+          "key": "fmatter/pylingdocs-0.0.4.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/82fd6150-2dcf-4ee2-b9a5-6d6276ef7697/fmatter/pylingdocs-0.0.4.zip"
+          },
+          "size": 215548,
+          "type": "zip"
+        }
+      ],
+      "id": 6612557,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.6612557.svg",
+        "bucket": "https://zenodo.org/api/files/82fd6150-2dcf-4ee2-b9a5-6d6276ef7697",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.6612557",
+        "html": "https://zenodo.org/record/6612557",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/6612557"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "<p>Version 0.0.4 of <a href=\"https://github.com/fmatter/pylingdocs/\">pylingdocs</a> (<a href=\"https://github.com/fmatter/pylingdocs/compare/0.0.4...0.0.4\">full changelog</a>).</p>",
+        "doi": "10.5281/zenodo.6612557",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-06-03",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.4",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 2,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.4"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 9,
+      "stats": {
+        "downloads": 0.0,
+        "unique_downloads": 0.0,
+        "unique_views": 15.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 16.0,
+        "volume": 0.0
+      },
+      "updated": "2022-10-16T01:09:23.985495+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-05-27T16:12:25.840780+00:00",
+      "doi": "10.5281/zenodo.6587763",
+      "files": [
+        {
+          "bucket": "491d24ae-c22f-42a2-ba5e-1d25dee63609",
+          "checksum": "md5:3fe2114d8a29c0d0da8e6cc691ee34f0",
+          "key": "fmatter/pylingdocs-0.0.3.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/491d24ae-c22f-42a2-ba5e-1d25dee63609/fmatter/pylingdocs-0.0.3.zip"
+          },
+          "size": 212294,
+          "type": "zip"
+        }
+      ],
+      "id": 6587763,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.6587763.svg",
+        "bucket": "https://zenodo.org/api/files/491d24ae-c22f-42a2-ba5e-1d25dee63609",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.6587763",
+        "html": "https://zenodo.org/record/6587763",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/6587763"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "<p>Version 0.0.3 of <a href=\"https://github.com/fmatter/pylingdocs/\">pylingdocs</a> (<a href=\"https://github.com/fmatter/pylingdocs/compare/0.0.2...0.0.3\">full changelog</a>).</p>",
+        "doi": "10.5281/zenodo.6587763",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-05-27",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.3",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 1,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.3"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 10,
+      "stats": {
+        "downloads": 0.0,
+        "unique_downloads": 0.0,
+        "unique_views": 14.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 16.0,
+        "volume": 0.0
+      },
+      "updated": "2022-10-16T01:09:23.706647+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6567304",
+      "conceptrecid": "6567304",
+      "created": "2022-05-20T16:28:40.761866+00:00",
+      "doi": "10.5281/zenodo.6567305",
+      "files": [
+        {
+          "bucket": "e919d315-2e22-49ec-923b-ee492e8ddd78",
+          "checksum": "md5:f1418697dbad5d7ad091b49aaa82fc68",
+          "key": "fmatter/pylingdocs-0.0.2.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/e919d315-2e22-49ec-923b-ee492e8ddd78/fmatter/pylingdocs-0.0.2.zip"
+          },
+          "size": 201909,
+          "type": "zip"
+        }
+      ],
+      "id": 6567305,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567305.svg",
+        "bucket": "https://zenodo.org/api/files/e919d315-2e22-49ec-923b-ee492e8ddd78",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6567304.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6567304",
+        "doi": "https://doi.org/10.5281/zenodo.6567305",
+        "html": "https://zenodo.org/record/6567305",
+        "latest": "https://zenodo.org/api/records/7212584",
+        "latest_html": "https://zenodo.org/record/7212584",
+        "self": "https://zenodo.org/api/records/6567305"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "creators": [
+          {
+            "name": "Matter, Florian",
+            "orcid": "0000-0002-2545-5154"
+          }
+        ],
+        "description": "Added\n<ul>\n<li>generate data for the <a href=\"https://github.com/fmatter/pylingdocs-sublime/\">Sublime Text plugin</a> with <code>pylingdocs sublime</code></li>\n<li>create a new project with <code>pylingdocs new</code></li>\n<li>prettier plaintext example rendering</li>\n<li>use pandoc throughout</li>\n<li>expanded demo document</li>\n<li>multicite (LaTeX only, WIP)</li>\n<li>new options:<ul>\n<li><code>readme</code></li>\n<li><code>citation_cff</code></li>\n</ul>\n</li>\n<li>new default models:<ul>\n<li>Form</li>\n<li>Cognateset</li>\n</ul>\n</li>\n<li>new templates:<ul>\n<li>LaTeX <code>handout</code></li>\n</ul>\n</li>\n<li><code>--latex</code> option for the <code>build</code> and <code>preview</code> commands</li>\n<li><code>--release</code> option for better citability</li>\n<li>better HTML</li>\n<li><a href=\"https://github.com/fmatter/expex-acro/\">expex-acro</a> in LaTeX templates</li>\n</ul>\nRemoved\n<ul>\n<li>various bugs</li>\n<li>CITATION.CFF</li>\n<li>some CLDF metadata (now in <a href=\"https://github.com/fmatter/clld-morphology-plugin\">clld-morphology-plugin</a>)</li>\n</ul>\nChanged\n<ul>\n<li>if the <code>structure_file</code> and <code>table_md</code> paths are only files, they are assumed to be in the content and tables folders, respectively </li>\n</ul>",
+        "doi": "10.5281/zenodo.6567305",
+        "keywords": [
+          "digital linguistics",
+          "CLDF"
+        ],
+        "license": {
+          "id": "Apache-2.0"
+        },
+        "notes": "If you use this software, please cite it using these metadata.",
+        "publication_date": "2022-05-20",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/fmatter/pylingdocs/tree/0.0.2",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6567304",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 9,
+              "index": 0,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "7212584"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6567304"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "pylingdocs",
+        "version": "0.0.2"
+      },
+      "owners": [
+        273192
+      ],
+      "revision": 11,
+      "stats": {
+        "downloads": 0.0,
+        "unique_downloads": 0.0,
+        "unique_views": 18.0,
+        "version_downloads": 1.0,
+        "version_unique_downloads": 1.0,
+        "version_unique_views": 86.0,
+        "version_views": 104.0,
+        "version_volume": 525714.0,
+        "views": 19.0,
+        "volume": 0.0
+      },
+      "updated": "2022-10-16T01:09:23.317917+00:00"
     },
     {
       "conceptdoi": "10.5281/zenodo.5596346",
@@ -14922,13 +16100,13 @@
       "stats": {
         "downloads": 6.0,
         "unique_downloads": 6.0,
-        "unique_views": 143.0,
+        "unique_views": 144.0,
         "version_downloads": 25.0,
         "version_unique_downloads": 23.0,
-        "version_unique_views": 331.0,
-        "version_views": 356.0,
+        "version_unique_views": 332.0,
+        "version_views": 359.0,
         "version_volume": 16324988.0,
-        "views": 145.0,
+        "views": 146.0,
         "volume": 4881804.0
       },
       "updated": "2022-07-21T01:49:53.907991+00:00"
@@ -15050,13 +16228,13 @@
       "stats": {
         "downloads": 10.0,
         "unique_downloads": 10.0,
-        "unique_views": 109.0,
+        "unique_views": 110.0,
         "version_downloads": 25.0,
         "version_unique_downloads": 23.0,
-        "version_unique_views": 331.0,
-        "version_views": 356.0,
+        "version_unique_views": 332.0,
+        "version_views": 359.0,
         "version_volume": 16324988.0,
-        "views": 113.0,
+        "views": 114.0,
         "volume": 8059400.0
       },
       "updated": "2022-07-20T13:23:35.142427+00:00"
@@ -15157,13 +16335,13 @@
       "stats": {
         "downloads": 9.0,
         "unique_downloads": 9.0,
-        "unique_views": 96.0,
+        "unique_views": 97.0,
         "version_downloads": 25.0,
         "version_unique_downloads": 23.0,
-        "version_unique_views": 331.0,
-        "version_views": 356.0,
+        "version_unique_views": 332.0,
+        "version_views": 359.0,
         "version_volume": 16324988.0,
-        "views": 98.0,
+        "views": 99.0,
         "volume": 3383784.0
       },
       "updated": "2022-07-20T13:23:34.940415+00:00"
@@ -16078,6 +17256,242 @@
         "volume": 3897768.0
       },
       "updated": "2022-06-13T09:40:08.880167+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6426073",
+      "conceptrecid": "6426073",
+      "created": "2022-06-03T15:33:57.543373+00:00",
+      "doi": "10.5281/zenodo.6611616",
+      "files": [
+        {
+          "bucket": "a59d2aba-646c-40fd-8c53-c16bdc38e37a",
+          "checksum": "md5:c95d6b7ee04d6b339cc9c1889fd53a25",
+          "key": "lingpy/supervised-reconstruction-paper-v1.1.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/a59d2aba-646c-40fd-8c53-c16bdc38e37a/lingpy/supervised-reconstruction-paper-v1.1.zip"
+          },
+          "size": 65033696,
+          "type": "zip"
+        }
+      ],
+      "id": 6611616,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.6611616.svg",
+        "bucket": "https://zenodo.org/api/files/a59d2aba-646c-40fd-8c53-c16bdc38e37a",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6426073.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6426073",
+        "doi": "https://doi.org/10.5281/zenodo.6611616",
+        "html": "https://zenodo.org/record/6611616",
+        "latest": "https://zenodo.org/api/records/6611616",
+        "latest_html": "https://zenodo.org/record/6611616",
+        "self": "https://zenodo.org/api/records/6611616"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "communities": [
+          {
+            "id": "calc"
+          },
+          {
+            "id": "digling"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Cl\u00e9ment Besner",
+            "type": "Other"
+          }
+        ],
+        "creators": [
+          {
+            "name": "Johann-Mattis List"
+          },
+          {
+            "name": "Robert Forkel"
+          },
+          {
+            "name": "Nathan W. Hill"
+          }
+        ],
+        "description": "<p>No description provided.</p>",
+        "doi": "10.5281/zenodo.6611616",
+        "keywords": [
+          "linguistics",
+          "cldf:Wordlist"
+        ],
+        "license": {
+          "id": "CC-BY-4.0"
+        },
+        "publication_date": "2022-06-03",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/lingpy/supervised-reconstruction-paper/tree/v1.1",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6426073",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 2,
+              "index": 1,
+              "is_last": true,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "6611616"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6426073"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "A New Framework for Fast Automated Phonological Reconstruction Using Trimmed Alignments and Sound Correspondence Patterns",
+        "version": "v1.1"
+      },
+      "owners": [
+        5137
+      ],
+      "revision": 4,
+      "stats": {
+        "downloads": 2.0,
+        "unique_downloads": 2.0,
+        "unique_views": 21.0,
+        "version_downloads": 5.0,
+        "version_unique_downloads": 4.0,
+        "version_unique_views": 57.0,
+        "version_views": 68.0,
+        "version_volume": 325168426.0,
+        "views": 24.0,
+        "volume": 130067392.0
+      },
+      "updated": "2022-06-04T13:51:13.145083+00:00"
+    },
+    {
+      "conceptdoi": "10.5281/zenodo.6426073",
+      "conceptrecid": "6426073",
+      "created": "2022-04-08T19:40:24.781026+00:00",
+      "doi": "10.5281/zenodo.6426074",
+      "files": [
+        {
+          "bucket": "9b65d954-7fc4-4c05-8382-ee994d0a4895",
+          "checksum": "md5:be81fcd00652f9c5d36c2fe04c62efe2",
+          "key": "lingpy/supervised-reconstruction-paper-v1.0.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/9b65d954-7fc4-4c05-8382-ee994d0a4895/lingpy/supervised-reconstruction-paper-v1.0.zip"
+          },
+          "size": 65033678,
+          "type": "zip"
+        }
+      ],
+      "id": 6426074,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.6426074.svg",
+        "bucket": "https://zenodo.org/api/files/9b65d954-7fc4-4c05-8382-ee994d0a4895",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.6426073.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.6426073",
+        "doi": "https://doi.org/10.5281/zenodo.6426074",
+        "html": "https://zenodo.org/record/6426074",
+        "latest": "https://zenodo.org/api/records/6611616",
+        "latest_html": "https://zenodo.org/record/6611616",
+        "self": "https://zenodo.org/api/records/6426074"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "communities": [
+          {
+            "id": "calc"
+          },
+          {
+            "id": "digling"
+          }
+        ],
+        "creators": [
+          {
+            "name": "Johann-Mattis List"
+          },
+          {
+            "name": "Robert Forkel"
+          },
+          {
+            "name": "Nathan W. Hill"
+          }
+        ],
+        "description": "No description provided.",
+        "doi": "10.5281/zenodo.6426074",
+        "keywords": [
+          "linguistics",
+          "cldf:Wordlist"
+        ],
+        "license": {
+          "id": "CC-BY-4.0"
+        },
+        "publication_date": "2022-04-08",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/lingpy/supervised-reconstruction-paper/tree/v1.0",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.6426073",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 2,
+              "index": 0,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "6611616"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "6426073"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "A New Framework for Fast Automated Phonological Reconstruction Using Trimmed Alignments and Sound Correspondence Patterns",
+        "version": "v1.0"
+      },
+      "owners": [
+        5137
+      ],
+      "revision": 5,
+      "stats": {
+        "downloads": 3.0,
+        "unique_downloads": 3.0,
+        "unique_views": 40.0,
+        "version_downloads": 5.0,
+        "version_unique_downloads": 4.0,
+        "version_unique_views": 57.0,
+        "version_views": 68.0,
+        "version_volume": 325168426.0,
+        "views": 44.0,
+        "volume": 195101034.0
+      },
+      "updated": "2022-06-03T15:35:31.963077+00:00"
     },
     {
       "conceptdoi": "10.5281/zenodo.5136923",
@@ -17017,13 +18431,13 @@
       "stats": {
         "downloads": 6.0,
         "unique_downloads": 6.0,
-        "unique_views": 114.0,
+        "unique_views": 115.0,
         "version_downloads": 31.0,
         "version_unique_downloads": 25.0,
-        "version_unique_views": 356.0,
-        "version_views": 389.0,
+        "version_unique_views": 357.0,
+        "version_views": 390.0,
         "version_volume": 4755901.0,
-        "views": 117.0,
+        "views": 118.0,
         "volume": 2108904.0
       },
       "updated": "2022-05-20T01:49:37.945825+00:00"
@@ -17159,8 +18573,8 @@
         "unique_views": 81.0,
         "version_downloads": 31.0,
         "version_unique_downloads": 25.0,
-        "version_unique_views": 356.0,
-        "version_views": 389.0,
+        "version_unique_views": 357.0,
+        "version_views": 390.0,
         "version_volume": 4755901.0,
         "views": 86.0,
         "volume": 1474965.0
@@ -17298,8 +18712,8 @@
         "unique_views": 112.0,
         "version_downloads": 31.0,
         "version_unique_downloads": 25.0,
-        "version_unique_views": 356.0,
-        "version_views": 389.0,
+        "version_unique_views": 357.0,
+        "version_views": 390.0,
         "version_volume": 4755901.0,
         "views": 117.0,
         "volume": 832266.0
@@ -17436,8 +18850,8 @@
         "unique_views": 68.0,
         "version_downloads": 31.0,
         "version_unique_downloads": 25.0,
-        "version_unique_views": 356.0,
-        "version_views": 389.0,
+        "version_unique_views": 357.0,
+        "version_views": 390.0,
         "version_volume": 4755901.0,
         "views": 69.0,
         "volume": 339766.0
@@ -17674,8 +19088,8 @@
         "unique_views": 100.0,
         "version_downloads": 49.0,
         "version_unique_downloads": 36.0,
-        "version_unique_views": 546.0,
-        "version_views": 639.0,
+        "version_unique_views": 547.0,
+        "version_views": 640.0,
         "version_volume": 14118350.0,
         "views": 103.0,
         "volume": 2236157.0
@@ -17790,8 +19204,8 @@
         "unique_views": 60.0,
         "version_downloads": 13.0,
         "version_unique_downloads": 12.0,
-        "version_unique_views": 127.0,
-        "version_views": 140.0,
+        "version_unique_views": 128.0,
+        "version_views": 141.0,
         "version_volume": 836181.0,
         "views": 61.0,
         "volume": 320925.0
@@ -18273,13 +19687,13 @@
       "stats": {
         "downloads": 7.0,
         "unique_downloads": 7.0,
-        "unique_views": 91.0,
+        "unique_views": 92.0,
         "version_downloads": 49.0,
         "version_unique_downloads": 36.0,
-        "version_unique_views": 546.0,
-        "version_views": 639.0,
+        "version_unique_views": 547.0,
+        "version_views": 640.0,
         "version_volume": 14118350.0,
-        "views": 96.0,
+        "views": 97.0,
         "volume": 2150666.0
       },
       "updated": "2022-05-11T09:14:02.186735+00:00"
@@ -18396,8 +19810,8 @@
         "unique_views": 83.0,
         "version_downloads": 49.0,
         "version_unique_downloads": 36.0,
-        "version_unique_views": 546.0,
-        "version_views": 639.0,
+        "version_unique_views": 547.0,
+        "version_views": 640.0,
         "version_volume": 14118350.0,
         "views": 85.0,
         "volume": 1229036.0
@@ -18514,8 +19928,8 @@
         "unique_views": 203.0,
         "version_downloads": 49.0,
         "version_unique_downloads": 36.0,
-        "version_unique_views": 546.0,
-        "version_views": 639.0,
+        "version_unique_views": 547.0,
+        "version_views": 640.0,
         "version_volume": 14118350.0,
         "views": 220.0,
         "volume": 4337175.0
@@ -18757,13 +20171,13 @@
       "stats": {
         "downloads": 8.0,
         "unique_downloads": 8.0,
-        "unique_views": 74.0,
+        "unique_views": 75.0,
         "version_downloads": 13.0,
         "version_unique_downloads": 12.0,
-        "version_unique_views": 127.0,
-        "version_views": 140.0,
+        "version_unique_views": 128.0,
+        "version_views": 141.0,
         "version_volume": 836181.0,
-        "views": 79.0,
+        "views": 80.0,
         "volume": 515256.0
       },
       "updated": "2022-05-11T08:43:17.800573+00:00"
@@ -19880,13 +21294,13 @@
       "stats": {
         "downloads": 6.0,
         "unique_downloads": 6.0,
-        "unique_views": 88.0,
+        "unique_views": 89.0,
         "version_downloads": 6.0,
         "version_unique_downloads": 6.0,
-        "version_unique_views": 88.0,
-        "version_views": 91.0,
+        "version_unique_views": 89.0,
+        "version_views": 93.0,
         "version_volume": 29358816.0,
-        "views": 91.0,
+        "views": 93.0,
         "volume": 29358816.0
       },
       "updated": "2022-02-21T08:44:40.076276+00:00"
@@ -20252,6 +21666,137 @@
       "updated": "2022-02-19T21:53:21.743698+00:00"
     },
     {
+      "conceptdoi": "10.5281/zenodo.1164782",
+      "conceptrecid": "1164782",
+      "created": "2019-01-15T17:49:11.803196+00:00",
+      "doi": "10.5281/zenodo.2540954",
+      "files": [
+        {
+          "bucket": "ebdfadef-492d-46aa-8836-931cd2741e30",
+          "checksum": "md5:2614e9ed68b16a53b60f2fbc8e87b1e9",
+          "key": "lessersunda/lexirumah-data-v2.0.0.zip",
+          "links": {
+            "self": "https://zenodo.org/api/files/ebdfadef-492d-46aa-8836-931cd2741e30/lessersunda/lexirumah-data-v2.0.0.zip"
+          },
+          "size": 6172289,
+          "type": "zip"
+        }
+      ],
+      "id": 2540954,
+      "links": {
+        "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.2540954.svg",
+        "bucket": "https://zenodo.org/api/files/ebdfadef-492d-46aa-8836-931cd2741e30",
+        "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.1164782.svg",
+        "conceptdoi": "https://doi.org/10.5281/zenodo.1164782",
+        "doi": "https://doi.org/10.5281/zenodo.2540954",
+        "html": "https://zenodo.org/record/2540954",
+        "latest": "https://zenodo.org/api/records/5951917",
+        "latest_html": "https://zenodo.org/record/5951917",
+        "self": "https://zenodo.org/api/records/2540954"
+      },
+      "metadata": {
+        "access_right": "open",
+        "access_right_category": "success",
+        "communities": [
+          {
+            "id": "cldf-datasets"
+          },
+          {
+            "id": "clics"
+          },
+          {
+            "id": "clld"
+          },
+          {
+            "id": "lexibank"
+          }
+        ],
+        "creators": [
+          {
+            "affiliation": "Leiden University Center for Linguistics",
+            "name": "Gereon Kaiping",
+            "orcid": "0000-0002-8155-9089"
+          },
+          {
+            "affiliation": "Leiden University Center for Linguistics",
+            "name": "Owen Edwards",
+            "orcid": "0000-0003-2209-0652"
+          },
+          {
+            "affiliation": "Leiden University Center for Linguistics",
+            "name": "Marian Klamer",
+            "orcid": "0000-0002-2905-7161"
+          }
+        ],
+        "description": "<p>This is the second version of LexiRumah, with the following major changes:</p>\n\n<ul>\n\t<li>Form IDs have been reset</li>\n\t<li>Forms are now given (a) as found in the source, (b) in standardized IPA, (c) in BIPA segments and (d) in an orthography more accessible to local speakers</li>\n\t<li>The base URL has been moved to its own third-level domain, lexirumah.model-ling.eu</li>\n\t<li>Bad automatic cognate codes have been removed</li>\n\t<li>New languages have been added</li>\n</ul>",
+        "doi": "10.5281/zenodo.2540954",
+        "keywords": [
+          "Lexical database",
+          "Timor-Alor-Pantar languages",
+          "Austronesian languages",
+          "CLDF",
+          "CLLD"
+        ],
+        "language": "eng",
+        "license": {
+          "id": "CC-BY-4.0"
+        },
+        "publication_date": "2019-01-15",
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/lessersunda/lexirumah-data/tree/v2.0.0",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.5281/zenodo.1164782",
+            "relation": "isVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "count": 16,
+              "index": 4,
+              "is_last": false,
+              "last_child": {
+                "pid_type": "recid",
+                "pid_value": "5951917"
+              },
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "1164782"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "title": "lessersunda/lexirumah-data: Orthographic Variety",
+        "version": "v2.0.0"
+      },
+      "owners": [
+        37672
+      ],
+      "revision": 49,
+      "stats": {
+        "downloads": 10.0,
+        "unique_downloads": 9.0,
+        "unique_views": 45.0,
+        "version_downloads": 208.0,
+        "version_unique_downloads": 121.0,
+        "version_unique_views": 960.0,
+        "version_views": 1269.0,
+        "version_volume": 868662787.0,
+        "views": 53.0,
+        "volume": 61722890.0
+      },
+      "updated": "2022-02-03T00:23:40.186512+00:00"
+    },
+    {
       "conceptdoi": "10.5281/zenodo.5899635",
       "conceptrecid": "5899635",
       "created": "2022-01-24T23:32:58.799780+00:00",
@@ -20605,13 +22150,13 @@
       "stats": {
         "downloads": 19.0,
         "unique_downloads": 19.0,
-        "unique_views": 152.0,
+        "unique_views": 153.0,
         "version_downloads": 103.0,
         "version_unique_downloads": 70.0,
-        "version_unique_views": 505.0,
-        "version_views": 620.0,
+        "version_unique_views": 506.0,
+        "version_views": 621.0,
         "version_volume": 322099360.0,
-        "views": 161.0,
+        "views": 162.0,
         "volume": 58453880.0
       },
       "updated": "2021-11-21T06:34:15.425778+00:00"
@@ -22471,8 +24016,8 @@
         "unique_views": 143.0,
         "version_downloads": 65.0,
         "version_unique_downloads": 56.0,
-        "version_unique_views": 504.0,
-        "version_views": 581.0,
+        "version_unique_views": 505.0,
+        "version_views": 582.0,
         "version_volume": 46781517.0,
         "views": 150.0,
         "volume": 19847313.0
@@ -23846,8 +25391,8 @@
         "unique_views": 129.0,
         "version_downloads": 65.0,
         "version_unique_downloads": 56.0,
-        "version_unique_views": 504.0,
-        "version_views": 581.0,
+        "version_unique_views": 505.0,
+        "version_views": 582.0,
         "version_volume": 46781517.0,
         "views": 133.0,
         "volume": 14006388.0
@@ -23958,13 +25503,13 @@
       "stats": {
         "downloads": 36.0,
         "unique_downloads": 33.0,
-        "unique_views": 285.0,
+        "unique_views": 286.0,
         "version_downloads": 65.0,
         "version_unique_downloads": 56.0,
-        "version_unique_views": 504.0,
-        "version_views": 581.0,
+        "version_unique_views": 505.0,
+        "version_views": 582.0,
         "version_volume": 46781517.0,
-        "views": 298.0,
+        "views": 299.0,
         "volume": 12927816.0
       },
       "updated": "2021-09-24T12:35:53.080504+00:00"
@@ -26834,13 +28379,13 @@
       "stats": {
         "downloads": 18.0,
         "unique_downloads": 18.0,
-        "unique_views": 137.0,
+        "unique_views": 140.0,
         "version_downloads": 18.0,
         "version_unique_downloads": 18.0,
-        "version_unique_views": 137.0,
-        "version_views": 154.0,
+        "version_unique_views": 140.0,
+        "version_views": 157.0,
         "version_volume": 121399236.0,
-        "views": 154.0,
+        "views": 157.0,
         "volume": 121399236.0
       },
       "updated": "2021-08-17T13:48:26.028902+00:00"
@@ -27165,13 +28710,13 @@
       "stats": {
         "downloads": 15.0,
         "unique_downloads": 15.0,
-        "unique_views": 96.0,
+        "unique_views": 97.0,
         "version_downloads": 60.0,
         "version_unique_downloads": 41.0,
-        "version_unique_views": 441.0,
-        "version_views": 543.0,
+        "version_unique_views": 442.0,
+        "version_views": 546.0,
         "version_volume": 8031903.0,
-        "views": 101.0,
+        "views": 102.0,
         "volume": 2070870.0
       },
       "updated": "2021-07-28T13:48:18.951280+00:00"
@@ -27281,13 +28826,13 @@
       "stats": {
         "downloads": 15.0,
         "unique_downloads": 14.0,
-        "unique_views": 97.0,
+        "unique_views": 98.0,
         "version_downloads": 47.0,
         "version_unique_downloads": 37.0,
-        "version_unique_views": 444.0,
-        "version_views": 508.0,
+        "version_unique_views": 445.0,
+        "version_views": 512.0,
         "version_volume": 389642790.0,
-        "views": 103.0,
+        "views": 104.0,
         "volume": 163167180.0
       },
       "updated": "2021-07-28T13:48:18.904933+00:00"
@@ -27392,13 +28937,13 @@
       "stats": {
         "downloads": 19.0,
         "unique_downloads": 19.0,
-        "unique_views": 195.0,
+        "unique_views": 196.0,
         "version_downloads": 47.0,
         "version_unique_downloads": 37.0,
-        "version_unique_views": 444.0,
-        "version_views": 508.0,
+        "version_unique_views": 445.0,
+        "version_views": 512.0,
         "version_volume": 389642790.0,
-        "views": 207.0,
+        "views": 208.0,
         "volume": 134750774.0
       },
       "updated": "2021-07-28T10:34:25.105100+00:00"
@@ -27497,13 +29042,13 @@
       "stats": {
         "downloads": 19.0,
         "unique_downloads": 19.0,
-        "unique_views": 176.0,
+        "unique_views": 177.0,
         "version_downloads": 60.0,
         "version_unique_downloads": 41.0,
-        "version_unique_views": 441.0,
-        "version_views": 543.0,
+        "version_unique_views": 442.0,
+        "version_views": 546.0,
         "version_volume": 8031903.0,
-        "views": 191.0,
+        "views": 192.0,
         "volume": 2627757.0
       },
       "updated": "2021-07-28T09:10:36.337090+00:00"
@@ -27726,13 +29271,13 @@
       "stats": {
         "downloads": 13.0,
         "unique_downloads": 13.0,
-        "unique_views": 88.0,
+        "unique_views": 89.0,
         "version_downloads": 47.0,
         "version_unique_downloads": 41.0,
-        "version_unique_views": 194.0,
-        "version_views": 219.0,
+        "version_unique_views": 195.0,
+        "version_views": 221.0,
         "version_volume": 9941081.0,
-        "views": 90.0,
+        "views": 91.0,
         "volume": 3168451.0
       },
       "updated": "2021-07-27T13:48:22.342737+00:00"
@@ -27970,13 +29515,13 @@
       "stats": {
         "downloads": 24.0,
         "unique_downloads": 22.0,
-        "unique_views": 131.0,
+        "unique_views": 132.0,
         "version_downloads": 4182.0,
         "version_unique_downloads": 900.0,
-        "version_unique_views": 1055.0,
-        "version_views": 1185.0,
+        "version_unique_views": 1057.0,
+        "version_views": 1187.0,
         "version_volume": 26228973057.0,
-        "views": 138.0,
+        "views": 139.0,
         "volume": 377594616.0
       },
       "updated": "2021-07-27T13:48:22.023951+00:00"
@@ -28083,13 +29628,13 @@
       "stats": {
         "downloads": 34.0,
         "unique_downloads": 33.0,
-        "unique_views": 119.0,
+        "unique_views": 120.0,
         "version_downloads": 47.0,
         "version_unique_downloads": 41.0,
-        "version_unique_views": 194.0,
-        "version_views": 219.0,
+        "version_unique_views": 195.0,
+        "version_views": 221.0,
         "version_volume": 9941081.0,
-        "views": 129.0,
+        "views": 130.0,
         "volume": 6772630.0
       },
       "updated": "2021-07-27T13:28:31.386151+00:00"
@@ -28204,13 +29749,13 @@
       "stats": {
         "downloads": 43.0,
         "unique_downloads": 42.0,
-        "unique_views": 405.0,
+        "unique_views": 406.0,
         "version_downloads": 4182.0,
         "version_unique_downloads": 900.0,
-        "version_unique_views": 1055.0,
-        "version_views": 1185.0,
+        "version_unique_views": 1057.0,
+        "version_views": 1187.0,
         "version_volume": 26228973057.0,
-        "views": 428.0,
+        "views": 429.0,
         "volume": 309044741.0
       },
       "updated": "2021-07-27T13:20:58.095858+00:00"
@@ -28452,13 +29997,13 @@
       "stats": {
         "downloads": 6.0,
         "unique_downloads": 6.0,
-        "unique_views": 75.0,
+        "unique_views": 77.0,
         "version_downloads": 6.0,
         "version_unique_downloads": 6.0,
-        "version_unique_views": 75.0,
-        "version_views": 78.0,
+        "version_unique_views": 77.0,
+        "version_views": 80.0,
         "version_volume": 3784410.0,
-        "views": 78.0,
+        "views": 80.0,
         "volume": 3784410.0
       },
       "updated": "2021-07-26T13:48:28.767434+00:00"
@@ -29722,13 +31267,13 @@
       "stats": {
         "downloads": 10.0,
         "unique_downloads": 10.0,
-        "unique_views": 92.0,
+        "unique_views": 93.0,
         "version_downloads": 20.0,
         "version_unique_downloads": 18.0,
-        "version_unique_views": 148.0,
-        "version_views": 171.0,
+        "version_unique_views": 149.0,
+        "version_views": 173.0,
         "version_volume": 8087300.0,
-        "views": 95.0,
+        "views": 96.0,
         "volume": 3182730.0
       },
       "updated": "2021-07-26T13:48:28.441484+00:00"
@@ -29954,13 +31499,13 @@
       "stats": {
         "downloads": 6.0,
         "unique_downloads": 6.0,
-        "unique_views": 77.0,
+        "unique_views": 78.0,
         "version_downloads": 6.0,
         "version_unique_downloads": 6.0,
-        "version_unique_views": 77.0,
-        "version_views": 81.0,
+        "version_unique_views": 78.0,
+        "version_views": 82.0,
         "version_volume": 211494.0,
-        "views": 81.0,
+        "views": 82.0,
         "volume": 211494.0
       },
       "updated": "2021-07-26T13:48:28.383507+00:00"
@@ -30428,13 +31973,13 @@
       "stats": {
         "downloads": 10.0,
         "unique_downloads": 10.0,
-        "unique_views": 72.0,
+        "unique_views": 73.0,
         "version_downloads": 20.0,
         "version_unique_downloads": 18.0,
-        "version_unique_views": 148.0,
-        "version_views": 171.0,
+        "version_unique_views": 149.0,
+        "version_views": 173.0,
         "version_volume": 8087300.0,
-        "views": 76.0,
+        "views": 77.0,
         "volume": 4904570.0
       },
       "updated": "2021-07-26T09:38:47.573875+00:00"
@@ -30780,13 +32325,13 @@
       "stats": {
         "downloads": 11.0,
         "unique_downloads": 11.0,
-        "unique_views": 111.0,
+        "unique_views": 112.0,
         "version_downloads": 11.0,
         "version_unique_downloads": 11.0,
-        "version_unique_views": 111.0,
-        "version_views": 116.0,
+        "version_unique_views": 112.0,
+        "version_views": 117.0,
         "version_volume": 1994300.0,
-        "views": 116.0,
+        "views": 117.0,
         "volume": 1994300.0
       },
       "updated": "2021-07-24T01:48:44.317782+00:00"
@@ -31065,13 +32610,13 @@
       "stats": {
         "downloads": 10.0,
         "unique_downloads": 10.0,
-        "unique_views": 95.0,
+        "unique_views": 96.0,
         "version_downloads": 50.0,
         "version_unique_downloads": 41.0,
-        "version_unique_views": 393.0,
-        "version_views": 461.0,
+        "version_unique_views": 394.0,
+        "version_views": 462.0,
         "version_volume": 5229730.0,
-        "views": 102.0,
+        "views": 103.0,
         "volume": 1209310.0
       },
       "updated": "2021-07-24T01:48:44.259721+00:00"
@@ -31533,13 +33078,13 @@
       "stats": {
         "downloads": 16.0,
         "unique_downloads": 15.0,
-        "unique_views": 110.0,
+        "unique_views": 111.0,
         "version_downloads": 38.0,
         "version_unique_downloads": 35.0,
-        "version_unique_views": 275.0,
-        "version_views": 295.0,
+        "version_unique_views": 276.0,
+        "version_views": 297.0,
         "version_volume": 14802122.0,
-        "views": 116.0,
+        "views": 117.0,
         "volume": 6282688.0
       },
       "updated": "2021-07-24T01:48:44.023400+00:00"
@@ -31649,13 +33194,13 @@
       "stats": {
         "downloads": 9.0,
         "unique_downloads": 9.0,
-        "unique_views": 80.0,
+        "unique_views": 81.0,
         "version_downloads": 9.0,
         "version_unique_downloads": 9.0,
-        "version_unique_views": 80.0,
-        "version_views": 84.0,
+        "version_unique_views": 81.0,
+        "version_views": 85.0,
         "version_volume": 1112706.0,
-        "views": 84.0,
+        "views": 85.0,
         "volume": 1112706.0
       },
       "updated": "2021-07-24T01:48:43.984185+00:00"
@@ -32244,13 +33789,13 @@
       "stats": {
         "downloads": 10.0,
         "unique_downloads": 10.0,
-        "unique_views": 82.0,
+        "unique_views": 84.0,
         "version_downloads": 10.0,
         "version_unique_downloads": 10.0,
-        "version_unique_views": 82.0,
-        "version_views": 85.0,
+        "version_unique_views": 84.0,
+        "version_views": 87.0,
         "version_volume": 6368090.0,
-        "views": 85.0,
+        "views": 87.0,
         "volume": 6368090.0
       },
       "updated": "2021-07-24T01:48:43.819684+00:00"
@@ -32587,13 +34132,13 @@
       "stats": {
         "downloads": 9.0,
         "unique_downloads": 9.0,
-        "unique_views": 77.0,
+        "unique_views": 78.0,
         "version_downloads": 9.0,
         "version_unique_downloads": 9.0,
-        "version_unique_views": 77.0,
-        "version_views": 81.0,
+        "version_unique_views": 78.0,
+        "version_views": 82.0,
         "version_volume": 4330332.0,
-        "views": 81.0,
+        "views": 82.0,
         "volume": 4330332.0
       },
       "updated": "2021-07-24T01:48:43.495763+00:00"
@@ -32711,13 +34256,13 @@
       "stats": {
         "downloads": 11.0,
         "unique_downloads": 11.0,
-        "unique_views": 90.0,
+        "unique_views": 91.0,
         "version_downloads": 11.0,
         "version_unique_downloads": 11.0,
-        "version_unique_views": 90.0,
-        "version_views": 94.0,
+        "version_unique_views": 91.0,
+        "version_views": 95.0,
         "version_volume": 13929014.0,
-        "views": 94.0,
+        "views": 95.0,
         "volume": 13929014.0
       },
       "updated": "2021-07-24T01:48:43.412303+00:00"
@@ -33087,13 +34632,13 @@
       "stats": {
         "downloads": 14.0,
         "unique_downloads": 14.0,
-        "unique_views": 85.0,
+        "unique_views": 86.0,
         "version_downloads": 14.0,
         "version_unique_downloads": 14.0,
-        "version_unique_views": 85.0,
-        "version_views": 90.0,
+        "version_unique_views": 86.0,
+        "version_views": 91.0,
         "version_volume": 161493444.0,
-        "views": 90.0,
+        "views": 91.0,
         "volume": 161493444.0
       },
       "updated": "2021-07-24T01:48:43.353684+00:00"
@@ -33326,13 +34871,13 @@
       "stats": {
         "downloads": 14.0,
         "unique_downloads": 14.0,
-        "unique_views": 95.0,
+        "unique_views": 96.0,
         "version_downloads": 14.0,
         "version_unique_downloads": 14.0,
-        "version_unique_views": 95.0,
-        "version_views": 107.0,
+        "version_unique_views": 96.0,
+        "version_views": 108.0,
         "version_volume": 2773022.0,
-        "views": 107.0,
+        "views": 108.0,
         "volume": 2773022.0
       },
       "updated": "2021-07-24T01:48:43.317756+00:00"
@@ -33791,13 +35336,13 @@
       "stats": {
         "downloads": 22.0,
         "unique_downloads": 22.0,
-        "unique_views": 173.0,
+        "unique_views": 174.0,
         "version_downloads": 38.0,
         "version_unique_downloads": 35.0,
-        "version_unique_views": 275.0,
-        "version_views": 295.0,
+        "version_unique_views": 276.0,
+        "version_views": 297.0,
         "version_volume": 14802122.0,
-        "views": 179.0,
+        "views": 180.0,
         "volume": 8519434.0
       },
       "updated": "2021-07-23T13:00:22.493101+00:00"
@@ -33959,8 +35504,8 @@
         "unique_views": 87.0,
         "version_downloads": 50.0,
         "version_unique_downloads": 41.0,
-        "version_unique_views": 393.0,
-        "version_views": 461.0,
+        "version_unique_views": 394.0,
+        "version_views": 462.0,
         "version_volume": 5229730.0,
         "views": 91.0,
         "volume": 699036.0
@@ -34124,8 +35669,8 @@
         "unique_views": 92.0,
         "version_downloads": 50.0,
         "version_unique_downloads": 41.0,
-        "version_unique_views": 393.0,
-        "version_views": 461.0,
+        "version_unique_views": 394.0,
+        "version_views": 462.0,
         "version_volume": 5229730.0,
         "views": 100.0,
         "volume": 827152.0
@@ -34778,13 +36323,13 @@
       "stats": {
         "downloads": 17.0,
         "unique_downloads": 16.0,
-        "unique_views": 114.0,
+        "unique_views": 115.0,
         "version_downloads": 109.0,
         "version_unique_downloads": 92.0,
-        "version_unique_views": 762.0,
-        "version_views": 873.0,
+        "version_unique_views": 763.0,
+        "version_views": 878.0,
         "version_volume": 600210452.0,
-        "views": 118.0,
+        "views": 119.0,
         "volume": 153327505.0
       },
       "updated": "2021-07-22T13:48:22.360177+00:00"
@@ -35616,16 +37161,16 @@
       ],
       "revision": 3,
       "stats": {
-        "downloads": 11.0,
-        "unique_downloads": 11.0,
-        "unique_views": 145.0,
-        "version_downloads": 104.0,
-        "version_unique_downloads": 81.0,
-        "version_unique_views": 747.0,
-        "version_views": 875.0,
-        "version_volume": 133979523.0,
-        "views": 154.0,
-        "volume": 17526366.0
+        "downloads": 12.0,
+        "unique_downloads": 12.0,
+        "unique_views": 147.0,
+        "version_downloads": 106.0,
+        "version_unique_downloads": 82.0,
+        "version_unique_views": 749.0,
+        "version_views": 881.0,
+        "version_volume": 136817400.0,
+        "views": 156.0,
+        "volume": 19119672.0
       },
       "updated": "2021-07-22T13:48:22.132883+00:00"
     },
@@ -35757,8 +37302,8 @@
         "unique_views": 135.0,
         "version_downloads": 124.0,
         "version_unique_downloads": 98.0,
-        "version_unique_views": 858.0,
-        "version_views": 1012.0,
+        "version_unique_views": 859.0,
+        "version_views": 1013.0,
         "version_volume": 783665110.0,
         "views": 152.0,
         "volume": 177604750.0
@@ -35991,13 +37536,13 @@
       "stats": {
         "downloads": 4.0,
         "unique_downloads": 4.0,
-        "unique_views": 85.0,
+        "unique_views": 86.0,
         "version_downloads": 6.0,
         "version_unique_downloads": 5.0,
-        "version_unique_views": 138.0,
-        "version_views": 152.0,
+        "version_unique_views": 139.0,
+        "version_views": 154.0,
         "version_volume": 1188672.0,
-        "views": 88.0,
+        "views": 89.0,
         "volume": 792412.0
       },
       "updated": "2021-07-22T13:48:22.073994+00:00"
@@ -36832,13 +38377,13 @@
       "stats": {
         "downloads": 8.0,
         "unique_downloads": 8.0,
-        "unique_views": 71.0,
+        "unique_views": 72.0,
         "version_downloads": 64.0,
         "version_unique_downloads": 49.0,
-        "version_unique_views": 410.0,
-        "version_views": 475.0,
+        "version_unique_views": 411.0,
+        "version_views": 477.0,
         "version_volume": 69600435.0,
-        "views": 73.0,
+        "views": 74.0,
         "volume": 10493088.0
       },
       "updated": "2021-07-22T13:48:21.940714+00:00"
@@ -36964,13 +38509,13 @@
       "stats": {
         "downloads": 5.0,
         "unique_downloads": 5.0,
-        "unique_views": 75.0,
+        "unique_views": 77.0,
         "version_downloads": 5.0,
         "version_unique_downloads": 5.0,
-        "version_unique_views": 75.0,
-        "version_views": 79.0,
+        "version_unique_views": 77.0,
+        "version_views": 81.0,
         "version_volume": 23505420.0,
-        "views": 79.0,
+        "views": 81.0,
         "volume": 23505420.0
       },
       "updated": "2021-07-22T13:48:21.906136+00:00"
@@ -37713,13 +39258,13 @@
       "stats": {
         "downloads": 12.0,
         "unique_downloads": 11.0,
-        "unique_views": 89.0,
+        "unique_views": 91.0,
         "version_downloads": 60.0,
         "version_unique_downloads": 52.0,
-        "version_unique_views": 541.0,
-        "version_views": 606.0,
+        "version_unique_views": 543.0,
+        "version_views": 611.0,
         "version_volume": 48884814.0,
-        "views": 96.0,
+        "views": 98.0,
         "volume": 12170292.0
       },
       "updated": "2021-07-22T13:48:21.748101+00:00"
@@ -38304,13 +39849,13 @@
       "stats": {
         "downloads": 50.0,
         "unique_downloads": 48.0,
-        "unique_views": 332.0,
+        "unique_views": 333.0,
         "version_downloads": 109.0,
         "version_unique_downloads": 92.0,
-        "version_unique_views": 762.0,
-        "version_views": 873.0,
+        "version_unique_views": 763.0,
+        "version_views": 878.0,
         "version_volume": 600210452.0,
-        "views": 358.0,
+        "views": 359.0,
         "volume": 249551600.0
       },
       "updated": "2021-07-22T13:25:29.245603+00:00"
@@ -38767,8 +40312,8 @@
         "unique_views": 158.0,
         "version_downloads": 64.0,
         "version_unique_downloads": 49.0,
-        "version_unique_views": 410.0,
-        "version_views": 475.0,
+        "version_unique_views": 411.0,
+        "version_views": 477.0,
         "version_volume": 69600435.0,
         "views": 166.0,
         "volume": 18552848.0
@@ -39366,13 +40911,13 @@
       "stats": {
         "downloads": 20.0,
         "unique_downloads": 20.0,
-        "unique_views": 208.0,
+        "unique_views": 209.0,
         "version_downloads": 60.0,
         "version_unique_downloads": 52.0,
-        "version_unique_views": 541.0,
-        "version_views": 606.0,
+        "version_unique_views": 543.0,
+        "version_views": 611.0,
         "version_volume": 48884814.0,
-        "views": 219.0,
+        "views": 220.0,
         "volume": 14430460.0
       },
       "updated": "2021-07-22T09:04:44.119213+00:00"
@@ -39501,13 +41046,13 @@
       "stats": {
         "downloads": 36.0,
         "unique_downloads": 35.0,
-        "unique_views": 320.0,
+        "unique_views": 321.0,
         "version_downloads": 124.0,
         "version_unique_downloads": 98.0,
-        "version_unique_views": 858.0,
-        "version_views": 1012.0,
+        "version_unique_views": 859.0,
+        "version_views": 1013.0,
         "version_volume": 783665110.0,
-        "views": 351.0,
+        "views": 352.0,
         "volume": 222318756.0
       },
       "updated": "2021-07-22T08:37:48.450022+00:00"
@@ -40216,13 +41761,13 @@
       "stats": {
         "downloads": 2.0,
         "unique_downloads": 2.0,
-        "unique_views": 61.0,
+        "unique_views": 62.0,
         "version_downloads": 6.0,
         "version_unique_downloads": 5.0,
-        "version_unique_views": 138.0,
-        "version_views": 152.0,
+        "version_unique_views": 139.0,
+        "version_views": 154.0,
         "version_volume": 1188672.0,
-        "views": 64.0,
+        "views": 65.0,
         "volume": 396260.0
       },
       "updated": "2021-07-22T07:49:47.456934+00:00"
@@ -41199,13 +42744,13 @@
       "stats": {
         "downloads": 4.0,
         "unique_downloads": 4.0,
-        "unique_views": 71.0,
+        "unique_views": 72.0,
         "version_downloads": 19.0,
         "version_unique_downloads": 13.0,
-        "version_unique_views": 313.0,
-        "version_views": 358.0,
+        "version_unique_views": 314.0,
+        "version_views": 361.0,
         "version_volume": 3758518.0,
-        "views": 73.0,
+        "views": 74.0,
         "volume": 837124.0
       },
       "updated": "2021-07-21T13:48:18.458852+00:00"
@@ -41315,13 +42860,13 @@
       "stats": {
         "downloads": 12.0,
         "unique_downloads": 12.0,
-        "unique_views": 113.0,
+        "unique_views": 114.0,
         "version_downloads": 62.0,
         "version_unique_downloads": 49.0,
-        "version_unique_views": 592.0,
-        "version_views": 668.0,
+        "version_unique_views": 593.0,
+        "version_views": 669.0,
         "version_volume": 130720801.0,
-        "views": 117.0,
+        "views": 118.0,
         "volume": 27777564.0
       },
       "updated": "2021-07-21T13:48:18.430869+00:00"
@@ -41439,13 +42984,13 @@
       "stats": {
         "downloads": 12.0,
         "unique_downloads": 12.0,
-        "unique_views": 134.0,
+        "unique_views": 136.0,
         "version_downloads": 87.0,
         "version_unique_downloads": 77.0,
-        "version_unique_views": 810.0,
-        "version_views": 976.0,
+        "version_unique_views": 812.0,
+        "version_views": 986.0,
         "version_volume": 52666096.0,
-        "views": 142.0,
+        "views": 144.0,
         "volume": 8793000.0
       },
       "updated": "2021-07-21T13:48:18.403608+00:00"
@@ -41682,8 +43227,8 @@
         "unique_views": 78.0,
         "version_downloads": 62.0,
         "version_unique_downloads": 49.0,
-        "version_unique_views": 592.0,
-        "version_views": 668.0,
+        "version_unique_views": 593.0,
+        "version_views": 669.0,
         "version_volume": 130720801.0,
         "views": 78.0,
         "volume": 6944469.0
@@ -41810,8 +43355,8 @@
         "unique_views": 232.0,
         "version_downloads": 62.0,
         "version_unique_downloads": 49.0,
-        "version_unique_views": 592.0,
-        "version_views": 668.0,
+        "version_unique_views": 593.0,
+        "version_views": 669.0,
         "version_volume": 130720801.0,
         "views": 246.0,
         "volume": 41942208.0
@@ -42180,13 +43725,13 @@
       "stats": {
         "downloads": 15.0,
         "unique_downloads": 15.0,
-        "unique_views": 177.0,
+        "unique_views": 179.0,
         "version_downloads": 87.0,
         "version_unique_downloads": 77.0,
-        "version_unique_views": 810.0,
-        "version_views": 976.0,
+        "version_unique_views": 812.0,
+        "version_views": 986.0,
         "version_volume": 52666096.0,
-        "views": 249.0,
+        "views": 251.0,
         "volume": 10645530.0
       },
       "updated": "2021-07-21T10:34:24.370779+00:00"
@@ -42309,13 +43854,13 @@
       "stats": {
         "downloads": 38.0,
         "unique_downloads": 38.0,
-        "unique_views": 312.0,
+        "unique_views": 314.0,
         "version_downloads": 87.0,
         "version_unique_downloads": 77.0,
-        "version_unique_views": 810.0,
-        "version_views": 976.0,
+        "version_unique_views": 812.0,
+        "version_views": 986.0,
         "version_volume": 52666096.0,
-        "views": 332.0,
+        "views": 334.0,
         "volume": 20894110.0
       },
       "updated": "2021-07-21T10:34:24.260298+00:00"
@@ -42421,13 +43966,13 @@
       "stats": {
         "downloads": 9.0,
         "unique_downloads": 9.0,
-        "unique_views": 168.0,
+        "unique_views": 169.0,
         "version_downloads": 19.0,
         "version_unique_downloads": 13.0,
-        "version_unique_views": 313.0,
-        "version_views": 358.0,
+        "version_unique_views": 314.0,
+        "version_views": 361.0,
         "version_volume": 3758518.0,
-        "views": 181.0,
+        "views": 182.0,
         "volume": 1752876.0
       },
       "updated": "2021-07-21T09:01:03.817330+00:00"
@@ -42540,13 +44085,13 @@
       "stats": {
         "downloads": 22.0,
         "unique_downloads": 21.0,
-        "unique_views": 101.0,
+        "unique_views": 102.0,
         "version_downloads": 141.0,
         "version_unique_downloads": 73.0,
-        "version_unique_views": 510.0,
-        "version_views": 595.0,
+        "version_unique_views": 511.0,
+        "version_views": 599.0,
         "version_volume": 31047129.0,
-        "views": 108.0,
+        "views": 109.0,
         "volume": 6188666.0
       },
       "updated": "2021-07-20T13:48:18.600979+00:00"
@@ -42798,13 +44343,13 @@
       "stats": {
         "downloads": 16.0,
         "unique_downloads": 9.0,
-        "unique_views": 101.0,
+        "unique_views": 102.0,
         "version_downloads": 23.0,
         "version_unique_downloads": 14.0,
-        "version_unique_views": 193.0,
-        "version_views": 221.0,
+        "version_unique_views": 194.0,
+        "version_views": 223.0,
         "version_volume": 1329458.0,
-        "views": 110.0,
+        "views": 111.0,
         "volume": 953600.0
       },
       "updated": "2021-07-20T13:48:18.498075+00:00"
@@ -42938,13 +44483,13 @@
       "stats": {
         "downloads": 10.0,
         "unique_downloads": 10.0,
-        "unique_views": 102.0,
+        "unique_views": 103.0,
         "version_downloads": 51.0,
         "version_unique_downloads": 43.0,
-        "version_unique_views": 453.0,
-        "version_views": 520.0,
+        "version_unique_views": 454.0,
+        "version_views": 521.0,
         "version_volume": 9027174.0,
-        "views": 106.0,
+        "views": 107.0,
         "volume": 2160330.0
       },
       "updated": "2021-07-20T13:48:18.478525+00:00"
@@ -43054,13 +44599,13 @@
       "stats": {
         "downloads": 12.0,
         "unique_downloads": 12.0,
-        "unique_views": 131.0,
+        "unique_views": 133.0,
         "version_downloads": 67.0,
         "version_unique_downloads": 53.0,
-        "version_unique_views": 864.0,
-        "version_views": 957.0,
+        "version_unique_views": 866.0,
+        "version_views": 960.0,
         "version_volume": 10297496.0,
-        "views": 132.0,
+        "views": 134.0,
         "volume": 2311032.0
       },
       "updated": "2021-07-20T13:48:18.313627+00:00"
@@ -43162,8 +44707,8 @@
         "unique_views": 179.0,
         "version_downloads": 141.0,
         "version_unique_downloads": 73.0,
-        "version_unique_views": 510.0,
-        "version_views": 595.0,
+        "version_unique_views": 511.0,
+        "version_views": 599.0,
         "version_volume": 31047129.0,
         "views": 190.0,
         "volume": 18240855.0
@@ -43279,8 +44824,8 @@
         "unique_views": 194.0,
         "version_downloads": 51.0,
         "version_unique_downloads": 43.0,
-        "version_unique_views": 453.0,
-        "version_views": 520.0,
+        "version_unique_views": 454.0,
+        "version_views": 521.0,
         "version_volume": 9027174.0,
         "views": 207.0,
         "volume": 3072818.0
@@ -43412,13 +44957,13 @@
       "stats": {
         "downloads": 22.0,
         "unique_downloads": 22.0,
-        "unique_views": 361.0,
+        "unique_views": 362.0,
         "version_downloads": 67.0,
         "version_unique_downloads": 53.0,
-        "version_unique_views": 864.0,
-        "version_views": 957.0,
+        "version_unique_views": 866.0,
+        "version_views": 960.0,
         "version_volume": 10297496.0,
-        "views": 380.0,
+        "views": 381.0,
         "volume": 3328490.0
       },
       "updated": "2021-07-20T08:10:00.376027+00:00"
@@ -44988,13 +46533,13 @@
       "stats": {
         "downloads": 202.0,
         "unique_downloads": 113.0,
-        "unique_views": 610.0,
+        "unique_views": 611.0,
         "version_downloads": 202.0,
         "version_unique_downloads": 113.0,
-        "version_unique_views": 610.0,
-        "version_views": 708.0,
+        "version_unique_views": 611.0,
+        "version_views": 709.0,
         "version_volume": 2126274220.0,
-        "views": 708.0,
+        "views": 709.0,
         "volume": 2126274220.0
       },
       "updated": "2020-12-09T06:33:26.595648+00:00"
@@ -45568,13 +47113,13 @@
       "stats": {
         "downloads": 9.0,
         "unique_downloads": 9.0,
-        "unique_views": 99.0,
+        "unique_views": 101.0,
         "version_downloads": 17.0,
         "version_unique_downloads": 12.0,
-        "version_unique_views": 145.0,
-        "version_views": 172.0,
+        "version_unique_views": 147.0,
+        "version_views": 176.0,
         "version_volume": 48123306.0,
-        "views": 102.0,
+        "views": 104.0,
         "volume": 25927794.0
       },
       "updated": "2020-09-24T12:26:50.778968+00:00"
@@ -45681,13 +47226,13 @@
       "stats": {
         "downloads": 5.0,
         "unique_downloads": 4.0,
-        "unique_views": 25.0,
+        "unique_views": 26.0,
         "version_downloads": 17.0,
         "version_unique_downloads": 12.0,
-        "version_unique_views": 145.0,
-        "version_views": 172.0,
+        "version_unique_views": 147.0,
+        "version_views": 176.0,
         "version_volume": 48123306.0,
-        "views": 27.0,
+        "views": 28.0,
         "volume": 14148765.0
       },
       "updated": "2020-09-24T07:16:12.800594+00:00"
@@ -45799,13 +47344,13 @@
       "stats": {
         "downloads": 3.0,
         "unique_downloads": 3.0,
-        "unique_views": 35.0,
+        "unique_views": 36.0,
         "version_downloads": 17.0,
         "version_unique_downloads": 12.0,
-        "version_unique_views": 145.0,
-        "version_views": 172.0,
+        "version_unique_views": 147.0,
+        "version_views": 176.0,
         "version_volume": 48123306.0,
-        "views": 43.0,
+        "views": 44.0,
         "volume": 8046747.0
       },
       "updated": "2020-09-24T07:16:12.513115+00:00"
@@ -47019,16 +48564,16 @@
       ],
       "revision": 8,
       "stats": {
-        "downloads": 436.0,
-        "unique_downloads": 412.0,
-        "unique_views": 1432.0,
-        "version_downloads": 540.0,
-        "version_unique_downloads": 505.0,
-        "version_unique_views": 2618.0,
-        "version_views": 2956.0,
-        "version_volume": 1026007995.0,
-        "views": 1587.0,
-        "volume": 828131424.0
+        "downloads": 437.0,
+        "unique_downloads": 413.0,
+        "unique_views": 1434.0,
+        "version_downloads": 541.0,
+        "version_unique_downloads": 506.0,
+        "version_unique_views": 2620.0,
+        "version_views": 2958.0,
+        "version_volume": 1027907379.0,
+        "views": 1589.0,
+        "volume": 830030808.0
       },
       "updated": "2020-02-13T08:33:15.656283+00:00"
     },
@@ -47156,11 +48701,11 @@
         "downloads": 97.0,
         "unique_downloads": 93.0,
         "unique_views": 1173.0,
-        "version_downloads": 540.0,
-        "version_unique_downloads": 505.0,
-        "version_unique_views": 2618.0,
-        "version_views": 2956.0,
-        "version_volume": 1026007995.0,
+        "version_downloads": 541.0,
+        "version_unique_downloads": 506.0,
+        "version_unique_views": 2620.0,
+        "version_views": 2958.0,
+        "version_volume": 1027907379.0,
         "views": 1259.0,
         "volume": 184122684.0
       },
