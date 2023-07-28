@@ -312,6 +312,7 @@ def _stats_from_zip(args):
     with zipfile.ZipFile(zip_path) as zip:
         file_tree = {Path(info.filename): info for info in zip.infolist()}
         for path, info in file_tree.items():
+            # TODO: try and filter out raw/ and test/ folders
             if path.suffix != '.json':
                 continue
             with zip.open(info) as f:
