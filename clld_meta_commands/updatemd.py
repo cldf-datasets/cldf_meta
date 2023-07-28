@@ -2,8 +2,10 @@
 Update Zenodo metadata in `raw/zenodo-metadata.json`.
 """
 
+from itertools import chain
 import json
 import os
+import re
 import sys
 import time
 from urllib import request
@@ -20,9 +22,81 @@ SEARCH_KEYWORDS = [
     'cldf:Dictionary',
     'cldf:Generic',
 ]
+SEARCH_COMMUNITIES = [
+    'user-lexibank',
+    'user-dictionaria',
+    'user-calc',
+    'user-cldf-datasets',
+    'user-clics',
+    'user-clld',
+    'user-diachronica',
+    'user-dighl',
+    'user-digling',
+    'user-tular',
+]
+
+TYPE_BLACKLIST = {
+    'lesson',
+    'poster',
+    'presentation',
+    'publication-annotationcollection',
+    'publication-article',
+    'publication-book',
+    'publication-conferencepaper',
+    'publication-other',
+    'publication-proposal',
+    'publication-report',
+    'publication-softwaredocumentation',
+    'video',
+}
+TITLE_BLACKLIST_REGEX = r'''
+    ^Glottolog\ database
+    | ^Cross-Linguistic\ Transcription\ Systems:\ Final\ Version
+    | ^CLTS\.\ Cross-Linguistic\ Transcription\ Systems
+    | ^Cross-Linguistic\ Transcription\ Systems$
+    | ^CLLD\ Concepticon
+    | ^(?:clld/)?(?:clld:)?\s*clld\ (?:-\ )?(?:a\ )?toolkit\ for
+    | ^PYCLTS\.
+    | ^cldf/cldf:
+    | ^cldf:\ Baseline\ for\ first\ experiments
+    | ^clics/pyclics:
+    | ^clics/pyclics-clustering:
+    | ^clld/clics:\ CLLD\ app
+    | ^clld/asjp:\ The\ ASJP\ Database
+    | ^CL\ Toolkit\.\ A\ Python\ Library
+    | ^DAFSA:\ a\ Python\ Library
+    | ^edictor:\ EDICTOR\ version
+    | ^EDICTOR\.\ A\ web-based\ interactive\ tool
+    | ^glottobank/cldf:
+    | ^glottolog/glottolog-cldf:
+    | ^LingPy[-:. ]
+    | ^lingpy/lingpy:
+    | ^lingpy/lingpy-tutorial:\ LingPy\ Tutorial
+    | ^LingRex[:.]\ Linguistic\ Reconstruction
+    | ^lingpy/lingrex:
+    | ^paceofchange:
+    | ^PoePy\.\ A\ Python\ library
+    | ^PyBor:\ A\ Python\ library
+'''
 
 
 ### Stuff that needs to be put in some sort of library ###
+
+# FIXME: code duplication
+def loggable_progress(things, file=sys.stderr):
+    """'Progressbar' that doesn't clog up logs with escape codes.
+
+    Loops over `things` and prints a status update every 10 elements.
+    Writes status updates to `file` (standard error by default).
+
+    Yields elements in `things`.
+    """
+    for index, thing in enumerate(things):
+        if (index + 1) % 10 == 0:
+            print(index + 1, '....', sep='', end='', file=file, flush=True)
+        yield thing
+    print('done.', file=file, flush=True)
+
 
 # FIXME code duplication
 def get_access_token():
@@ -83,6 +157,19 @@ def wait_until(secs_since_epoch):
 
 ### JSON metadata download ###
 
+def build_search_url(params):
+    """Build url for downloading record metadata from Zenodo."""
+    entity = 'records'
+    api = 'https://zenodo.org/api'
+    param_str = '&'.join(
+        '{}={}'.format(quote(k, safe=''), quote(v, safe=''))
+        for k, v in params)
+    return '{api}/{entity}/{param_prefix}{params}'.format(
+        api=api, entity=entity,
+        param_prefix='?' if param_str else '',
+        params=param_str)
+
+
 def download_or_wait(url):
     """Download data from one url waiting for the ratelimit."""
     retries = 3
@@ -121,6 +208,39 @@ def register(parser):
     add_dataset_spec(parser)
 
 
+def is_valid(record):
+    """Filter for possible CLDF datasets.
+
+     1. Ignore non-data entries (posters, books, videos, etc.).
+     2. Ignore cldf catalogues.
+     3. Ignore everything made before 2018 (CLDF didn't exist, yet).
+    """
+    # TODO: date
+    if (date := record.get('created')):
+        #date = record.get('date')[0].strip()
+        match = re.match(r'(\d\d\d\d)-(\d\d)-(\d\d)', date)
+        assert match, '`date` needs to be YYYY-MM-DD, not {}'.format(repr(date))
+        if int(match.group(1)) < 2018:
+            return False
+
+    md = record.get('metadata') or {}
+    if (type_ := md.get('resource_type', {}).get('type')):
+        if type_ in TYPE_BLACKLIST:
+            return False
+
+    if (title := md.get('title')):
+        if re.search(TITLE_BLACKLIST_REGEX, title, re.VERBOSE):
+            return False
+        elif re.match(r'(?:\S*?)glottolog(?:\S*?):', title.strip()):
+            return False
+        elif re.match(r'(?:\S*?)clts(?:\S*?):', title.strip()):
+            return False
+        elif re.match(r'(?:\S*?)concepticon(?:\S*?):', title.strip()):
+            return False
+
+    return True
+
+
 def updatemd(dataset, args):
     access_token = get_access_token()
 
@@ -136,33 +256,42 @@ def updatemd(dataset, args):
         records = {}
 
     print('downloading records...', file=sys.stderr, flush=True)
-    entity = 'records'
-    api = 'https://zenodo.org/api'
-    query = 'keywords:({})'.format(
+
+    query_kw = 'keywords:({})'.format(
         ' OR '.join('"{}"'.format(kw) for kw in SEARCH_KEYWORDS))
-    params = [
+    params_kw = [
         ('sort', 'mostrecent'),
         ('all_versions', 'true'),
-        ('q', query),
+        ('q', query_kw),
         ('type', 'dataset'),
         ('status', 'published'),
         ('size', '100'),
     ]
     if access_token:
-        params.append(('access_token', access_token))
+        params_kw.append(('access_token', access_token))
 
-    param_str = '&'.join(
-        '{}={}'.format(quote(k, safe=''), quote(v, safe=''))
-        for k, v in params)
-    search_url = '{api}/{entity}/{param_prefix}{params}'.format(
-        api=api, entity=entity,
-        param_prefix='?' if param_str else '',
-        params=param_str)
+    query_comm = 'communities:({})'.format(
+        ' OR '.join('"{}"'.format(kw) for kw in SEARCH_COMMUNITIES))
+    params_comm = [
+        ('sort', 'mostrecent'),
+        ('all_versions', 'true'),
+        ('q', query_comm),
+        ('status', 'published'),
+        ('size', '100'),
+    ]
+    if access_token:
+        params_comm.append(('access_token', access_token))
 
-    records.update(
+    keyword_url = build_search_url(params_kw)
+    community_url = build_search_url(params_comm)
+
+    records.update(loggable_progress(
         (hit['id'], hit)
-        for hits in download_records_paginated(search_url)
-        for hit in hits)
+        for hits in chain(
+            download_records_paginated(keyword_url),
+            download_records_paginated(community_url))
+        for hit in hits
+        if is_valid(hit)))
 
     new_metadata = {
         'records': sorted(

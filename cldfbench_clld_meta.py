@@ -128,6 +128,7 @@ def download_all(urls):
             return
 
 
+# FIXME: code duplication
 def loggable_progress(things, file=sys.stderr):
     """'Progressbar' that doesn't clog up logs with escape codes.
 
