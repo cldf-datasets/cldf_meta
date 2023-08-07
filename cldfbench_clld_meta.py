@@ -457,7 +457,7 @@ class Dataset(BaseDataset):
         known_nocldf = {
             (record_no, file)
             for record_no, file, _ in islice(
-                self.etc_dir.read_csv('blacklist.csv'), 1, None)}
+                self.etc_dir.read_csv('not-cldf.csv'), 1, None)}
 
         datadir = self.raw_dir / 'datasets'
         # only download if raw/<id> folder is missing or empty
@@ -497,20 +497,20 @@ class Dataset(BaseDataset):
             for rec in self.raw_dir.read_json('zenodo-metadata.json')['records']
             if _has_zip(rec)
             and not _is_blacklisted(rec)]
-        etc_blacklist = [
+        not_cldf_full = [
             CLDFError(*row)
-            for row in islice(self.etc_dir.read_csv('blacklist.csv'), 1, None)]
+            for row in islice(self.etc_dir.read_csv('not-cldf.csv'), 1, None)]
 
         # Read CLDF data
 
         print('finding cldf datasets..', file=sys.stderr, flush=True)
-        known_nocldf = {(err.record_no, err.file) for err in etc_blacklist}
+        not_cldf = {(err.record_no, err.file) for err in not_cldf_full}
         data_archives = [
             (rec['id'], self.raw_dir / 'datasets' / str(rec['id']) / fname)
             for rec in records
             for fname in map(file_basename, rec['files'])
             if fname.endswith('.zip')
-            and (str(rec['id']), fname) not in known_nocldf]
+            and (str(rec['id']), fname) not in not_cldf]
 
         missing_files = [
             (record_no, path)
@@ -544,13 +544,13 @@ class Dataset(BaseDataset):
                     '{}:{}: no cldf data found'.format(err.record_no, err.file)
                     for err in cldf_errors.errors),
                 file=sys.stderr)
-            etc_blacklist.extend(cldf_errors.errors)
-            etc_blacklist.sort(key=lambda err: int(err.record_no))
-            blacklist_name = self.etc_dir / 'blacklist.csv'
-            with open(blacklist_name, 'w', encoding='utf-8') as f:
+            not_cldf_full.extend(cldf_errors.errors)
+            not_cldf_full.sort(key=lambda err: int(err.record_no))
+            not_cldf_path = self.etc_dir / 'not-cldf.csv'
+            with open(not_cldf_path, 'w', encoding='utf-8') as f:
                 wtr = csv.writer(f)
                 wtr.writerow(CLDFError._fields)
-                wtr.writerows(etc_blacklist)
+                wtr.writerows(not_cldf_full)
 
         print(
             'loading language info from glottolog...',
