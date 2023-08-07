@@ -649,7 +649,7 @@ class Dataset(BaseDataset):
                 'License': rec['metadata']['license']['id'],
                 'Zenodo_ID': rec['id'],
                 'Zenodo_Link': rec['links']['html'],
-                'Zenodo_Keywords': rec['metadata']['keywords'],
+                'Zenodo_Keywords': rec['metadata'].get('keywords', ()),
                 'Zenodo_Type': rec['metadata']['resource_type']['type'],
             }
             for rec in records]
