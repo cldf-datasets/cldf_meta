@@ -5,15 +5,14 @@ Update Zenodo metadata in `raw/zenodo-metadata.json`.
 from itertools import chain, islice
 import csv
 import json
-import os
 import re
 import sys
-import time
-from urllib import request
-from urllib.error import HTTPError
-from urllib.parse import urlparse, quote
+from urllib.parse import quote
 
 from cldfbench.cli_util import add_dataset_spec, with_dataset
+
+from clld_meta import download as dl
+from clld_meta.util import loggable_progress
 
 
 SEARCH_KEYWORDS = [
@@ -81,83 +80,6 @@ TITLE_BLACKLIST_REGEX = r'''
 '''
 
 
-### Stuff that needs to be put in some sort of library ###
-
-# FIXME: code duplication
-def loggable_progress(things, file=sys.stderr):
-    """'Progressbar' that doesn't clog up logs with escape codes.
-
-    Loops over `things` and prints a status update every 10 elements.
-    Writes status updates to `file` (standard error by default).
-
-    Yields elements in `things`.
-    """
-    for index, thing in enumerate(things):
-        if (index + 1) % 10 == 0:
-            print(index + 1, '....', sep='', end='', file=file, flush=True)
-        yield thing
-    print('done.', file=file, flush=True)
-
-
-# FIXME code duplication
-def get_access_token():
-    """Get access token from environment.
-
-    Uses the `CLLD_META_ACCESS_TOKEN` environment variable.
-    """
-    access_token = os.environ.get('CLLD_META_ACCESS_TOKEN') or ''
-    if access_token:
-        print('NOTE: Access token detected.', file=sys.stderr)
-    return access_token
-
-
-# FIXME code duplication
-def add_access_token(url, token):
-    """Add Zenodod access token to a URL."""
-    if not token:
-        return url
-
-    o = urlparse(url)
-    if o.query:
-        o = o._replace(query='{}&access_token={}'.format(o.query, token))
-    else:
-        o = o._replace(query='access_token={}'.format(token))
-
-    return o.geturl()
-
-
-# FIXME code duplication
-def time_secs():
-    return time.time_ns() // 1000000000
-
-
-# FIXME code duplication
-def fmt_time_period(secs):
-    mins, secs = secs // 60, secs % 60
-    hrs, mins = mins // 60, mins % 60
-    days, hrs = hrs // 24, hrs % 24
-    if days:
-        return '{}d{}h{}m{}s'.format(days, hrs, mins, secs)
-    elif hrs:
-        return '{}h{}m{}s'.format(hrs, mins, secs)
-    elif mins:
-        return '{}m{}s'.format(mins, secs)
-    else:
-        return '{}s'.format(secs)
-
-
-# FIXME code duplication
-def wait_until(secs_since_epoch):
-    dt = secs_since_epoch - time_secs()
-    print(
-        'hit rate limit -- waiting', fmt_time_period(dt),
-        'until', time.ctime(secs_since_epoch),
-        file=sys.stderr, flush=True)
-    time.sleep(dt)
-
-
-### JSON metadata download ###
-
 def build_search_url(params):
     """Build url for downloading record metadata from Zenodo."""
     entity = 'records'
@@ -185,35 +107,9 @@ def build_doi_url(access_token, doi):
     return build_search_url(params_doi)
 
 
-def download_or_wait(url):
-    """Download data from one url waiting for the ratelimit."""
-    retries = 3
-    for attempt in range(retries):
-        try:
-            with request.urlopen(url) as response:
-                return response.read()
-        except HTTPError as e:
-            if e.code == 429:
-                # too many requests
-                limit_reset = int(e.headers['X-RateLimit-Reset'])
-                retry_after = int(e.headers['Retry-After'])
-                wait_until(max(limit_reset, time_secs() + retry_after))
-            else:
-                print(
-                    'Unexpected http response:', e.code,
-                    '\nRetrying (attempt', attempt + 1,
-                    'of', '%s)...' % retries,
-                    file=sys.stderr, flush=True)
-    else:
-        print(
-            'Tried', retries, 'times to no avail.  Giving up...',
-            file=sys.stderr)
-        return
-
-
 def download_records_paginated(url):
     while url:
-        raw_data = download_or_wait(url)
+        raw_data = dl.download_or_wait(url)
         json_data = json.loads(raw_data)
         yield json_data['hits']['hits']
         url = json_data['links'].get('next')
@@ -230,9 +126,7 @@ def is_valid(record):
      2. Ignore cldf catalogues.
      3. Ignore everything made before 2018 (CLDF didn't exist, yet).
     """
-    # TODO: date
     if (date := record.get('created')):
-        #date = record.get('date')[0].strip()
         match = re.match(r'(\d\d\d\d)-(\d\d)-(\d\d)', date)
         assert match, '`date` needs to be YYYY-MM-DD, not {}'.format(repr(date))
         if int(match.group(1)) < 2018:
@@ -257,7 +151,7 @@ def is_valid(record):
 
 
 def updatemd(dataset, args):
-    access_token = get_access_token()
+    access_token = dl.retrieve_access_token()
 
     print('reading existing zenodo metadata...', file=sys.stderr, flush=True)
     metadata_file = dataset.raw_dir / 'zenodo-metadata.json'

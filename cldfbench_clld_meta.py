@@ -1,194 +1,33 @@
 from collections import Counter, namedtuple
-import contextlib
 import csv
-import hashlib
 from itertools import chain, islice
-import io
-import json
 from multiprocessing import Pool
-import os
 from pathlib import Path
-import re
 import sys
-import time
-from urllib import request
-from urllib.error import HTTPError
-from urllib.parse import urlparse
 import zipfile
+
 from cldfbench import Dataset as BaseDataset
 from cldfbench.cldf import CLDFSpec
-from pycldf.dataset import Dataset as CLDFDataset, SchemaError, sniff
-from pycldf.terms import URL as TERMS_URL
 
+from clld_meta import download as dl, zipdata
+from clld_meta.util import loggable_progress, file_basename
 
 CLDFError = namedtuple('CLDFError', 'record_no file reason')
-
-
-### Stuff that needs to be put in some sort of library ###
-
-# FIXME code duplication
-def get_access_token():
-    """Get access token from environment.
-
-    Uses the `CLLD_META_ACCESS_TOKEN` environment variable.
-    """
-    access_token = os.environ.get('CLLD_META_ACCESS_TOKEN') or ''
-    if access_token:
-        print('NOTE: Access token detected.', file=sys.stderr, flush=True)
-    else:
-        print(
-            'WARNING: No zenodo access token detected!',
-            file=sys.stderr, flush=True)
-    return access_token
-
-
-# FIXME code duplication
-def add_access_token(url, token):
-    """Add Zenodod access token to a URL."""
-    if not token:
-        return url
-
-    o = urlparse(url)
-    if o.query:
-        o = o._replace(query='{}&access_token={}'.format(o.query, token))
-    else:
-        o = o._replace(query='access_token={}'.format(token))
-
-    return o.geturl()
-
-
-# FIXME code duplication
-def time_secs():
-    return time.time_ns() // 1000000000
-
-
-# FIXME code duplication
-def fmt_time_period(secs):
-    mins, secs = secs // 60, secs % 60
-    hrs, mins = mins // 60, mins % 60
-    days, hrs = hrs // 24, hrs % 24
-    if days:
-        return '{}d{}h{}m{}s'.format(days, hrs, mins, secs)
-    elif hrs:
-        return '{}h{}m{}s'.format(hrs, mins, secs)
-    elif mins:
-        return '{}m{}s'.format(mins, secs)
-    else:
-        return '{}s'.format(secs)
-
-
-# FIXME code duplication
-def wait_until(secs_since_epoch):
-    dt = secs_since_epoch - time_secs()
-    print(
-        'hit rate limit -- waiting', fmt_time_period(dt),
-        'until', time.ctime(secs_since_epoch),
-        file=sys.stderr, flush=True)
-    time.sleep(dt)
-
-
-def download_all(urls):
-    """Download data from multiple urls at a ratelimit-friendly pace."""
-    retries = 3
-    for url in urls:
-        for attempt in range(retries):
-            try:
-                with request.urlopen(url) as response:
-                    yield response.read()
-                    limit_remaining = int(response.headers['X-RateLimit-Remaining'])
-                    if limit_remaining == 0:
-                        limit_reset = int(response.headers['X-RateLimit-Reset'])
-                        retry_after = int(response.headers['Retry-After'])
-                        wait_until(max(limit_reset, time_secs() + retry_after))
-                    # no retries needed
-                    break
-            except HTTPError as e:
-                if e.code == 429:
-                    # too many requests
-                    limit_reset = int(e.headers['X-RateLimit-Reset'])
-                    retry_after = int(e.headers['Retry-After'])
-                    wait_until(max(limit_reset, time_secs() + retry_after))
-                else:
-                    print(
-                        'Unexpected http response:', e.code,
-                        '\nRetrying (attempt', attempt + 1,
-                        'of', '%s)...' % retries,
-                        file=sys.stderr, flush=True)
-        else:
-            print(
-                'Tried', retries, 'times to no avail.  Giving up...',
-                file=sys.stderr, flush=True)
-            return
-
-
-# FIXME: code duplication
-def loggable_progress(things, file=sys.stderr):
-    """'Progressbar' that doesn't clog up logs with escape codes.
-
-    Loops over `things` and prints a status update every 10 elements.
-    Writes status updates to `file` (standard error by default).
-
-    Yields elements in `things`.
-    """
-    for index, thing in enumerate(things):
-        if (index + 1) % 10 == 0:
-            print(index + 1, '....', sep='', end='', file=file, flush=True)
-        yield thing
-    print('done.', file=file, flush=True)
-
-
-### Data download ###
-
-def file_basename(file):
-    basename = re.search(
-        r'/([^/]+?)(?:\?[^/]*)?(?:#[^/]*)?$',
-        file['links']['self']).group(1)
-    assert basename
-    if not basename.endswith('.{}'.format(file['type'])):
-        basename = '{}.{}'.format(basename, file['type'])
-    return basename
-
-
-def validate_checksum(checksum, data):
-    """Validate `data` by comparing its hash to `checksum`.
-
-    `checksum` is assumed to look like `hashing_algorithm:hex_checksum`
-    (e.g. `md5:6f5902ac237024bdd0c176cb93063dc4`).
-    """
-    fields = checksum.split(':', maxsplit=1)
-    if len(fields) != 2:
-        raise ValueError('Could not determine hashing algorithm')
-
-    algo, expected_sum = fields
-    if algo not in hashlib.algorithms_available:
-        raise ValueError(
-            "Hashing algorithm '%s' not available in hashlib" % algo)
-
-    h = hashlib.new(algo)
-    h.update(data)
-    real_sum = h.hexdigest()
-
-    if real_sum != expected_sum:
-        raise ValueError(
-            'Checksum validation failed: '
-            "Expected %s sum '%s'; got '%s'." % (algo, expected_sum, real_sum))
 
 
 def _download_datasets(raw_dir, files, access_token=None):
     urls = (file['links']['self'] for _, file in files)
     if access_token:
-        urls = (add_access_token(url, access_token) for url in urls)
-    dls = download_all(loggable_progress(urls, file=sys.stderr))
+        urls = (dl.add_access_token(url, access_token) for url in urls)
+    dls = dl.download_all(loggable_progress(urls, file=sys.stderr))
     for raw_data, (id_, file) in zip(dls, files):
-        validate_checksum(file['checksum'], raw_data)
+        dl.validate_checksum(file['checksum'], raw_data)
         basename = file_basename(file)
         output_folder = raw_dir / id_
         output_folder.mkdir(parents=True, exist_ok=True)
         output_file = output_folder / basename
         output_file.write_bytes(raw_data)
 
-
-### Loading data ###
 
 def _has_downloaded_data(datadir, record):
     record_dir = datadir.joinpath(str(record['id']))
@@ -204,125 +43,6 @@ def _is_blacklisted(blacklist, record):
 def _has_zip(record):
     """Return True if a record might contain a cldf dataset."""
     return any(file['type'] == 'zip' for file in record.get('files', ()))
-
-
-def _dataset_exists(raw_dir, record):
-    record_no = record['id']
-    dataset_dir = Path(raw_dir) / 'datasets' / str(record_no)
-
-    if not dataset_dir.exists():
-        return False, '{}: dataset folder not found'.format(dataset_dir)
-    elif not any(dataset_dir.iterdir()):
-        return False, '{}: dataset folder empty'.format(dataset_dir)
-    else:
-        return True, ''
-
-
-def find_missing_datasets(raw_dir, records):
-    results = [_dataset_exists(raw_dir, rec) for rec in records]
-    return [err for exists, err in results if not exists]
-
-
-def get_cldf_json(f):
-    try:
-        if not f.read(10).lstrip().startswith(b'{'):
-            return None
-        f.seek(0)
-        json_data = json.load(f, encoding='utf-8')
-        if not json_data.get('dc:conformsTo', '').startswith(TERMS_URL):
-            return None
-        return json_data
-    except Exception:
-        return None
-
-
-class ZipDataReader:
-    def __init__(self, zip_file, zip_infos, md_root, cldf_md):
-        self._zip_file = zip_file
-        self._zip_infos = zip_infos
-        self._md_root = md_root
-        self._cldf_md = cldf_md
-
-    def cldf_module(self):
-        return self._cldf_md['dc:conformsTo'].split('#')[-1]
-
-    def get_table(self, name_or_url):
-        url = '{}#{}'.format(TERMS_URL, name_or_url)
-        for table in self._cldf_md['tables']:
-            if table.get('dc:conformsTo', '') == url:
-                return table
-        else:
-            raise ValueError('table not found: {}'.format(name_or_url))
-
-    def iterrows(self, table, *columns):
-        try:
-            table = self.get_table(table)
-        except ValueError:
-            return
-        col_urls = {'{}#{}'.format(TERMS_URL, col): col for col in columns}
-
-        def get_colname(spec):
-            purl = spec.get('propertyUrl')
-            if purl in col_urls:
-                return col_urls[purl]
-            else:
-                return None
-
-        col_names = list(map(get_colname, table['tableSchema']['columns']))
-
-        relpath = table['url']
-        root = self._md_root
-        while relpath.startswith('../'):
-            relpath, root = relpath[3:], root.parent
-        relpath_zip = '{}.zip'.format(relpath)
-
-        zip_info = (
-            self._zip_infos.get(root / relpath_zip)
-            or self._zip_infos.get(root / relpath))
-        if zip_info is None:
-            # TODO: maybe show an error message?
-            return
-
-        with contextlib.ExitStack() as withs:
-            csv_f = withs.enter_context(self._zip_file.open(zip_info))
-            if zip_info.filename.endswith('.zip'):
-                internal_zip = withs.enter_context(zipfile.ZipFile(csv_f))
-                internal_info = [
-                    info
-                    for info in internal_zip.infolist()
-                    if info.filename.endswith(Path(relpath).name)][0]
-                csv_f = withs.enter_context(internal_zip.open(internal_info))
-            decoder = io.TextIOWrapper(csv_f, encoding='utf-8')
-            rdr = csv.reader(decoder)
-            for row in islice(rdr, 1, None):
-                yield {
-                    colname: cell
-                    for colname, cell in zip(col_names, row)
-                    if colname and cell}
-
-
-def _stats_from_zip(args):
-    record_no, zip_path = args
-    found_data = False
-    with zipfile.ZipFile(zip_path) as zip:
-        file_tree = {Path(info.filename): info for info in zip.infolist()}
-        for path, info in file_tree.items():
-            # TODO: try and filter out raw/ and test/ folders
-            if path.suffix != '.json':
-                continue
-            with zip.open(info) as f:
-                cldf_md = get_cldf_json(f)
-            if cldf_md is None:
-                continue
-            zipreader = ZipDataReader(zip, file_tree, path.parent, cldf_md)
-            found_data = True
-            yield collect_dataset_stats(zipreader), None
-    if not found_data:
-        yield None, CLDFError(record_no, zip_path.name, 'nocldf')
-
-
-def stats_from_zip(args):
-    return list(_stats_from_zip(args))
 
 
 # FIXME not happy with that function name
@@ -374,6 +94,31 @@ def collect_dataset_stats(zipreader):
     }
 
 
+def _stats_from_zip(args):
+    record_no, zip_path = args
+    found_data = False
+    with zipfile.ZipFile(zip_path) as zip:
+        file_tree = {Path(info.filename): info for info in zip.infolist()}
+        for path, info in file_tree.items():
+            # TODO: try and filter out raw/ and test/ folders
+            if path.suffix != '.json':
+                continue
+            with zip.open(info) as f:
+                cldf_md = zipdata.get_cldf_json(f)
+            if cldf_md is None:
+                continue
+            zipreader = zipdata.ZipDataReader(
+                zip, file_tree, path.parent, cldf_md)
+            found_data = True
+            yield collect_dataset_stats(zipreader), None
+    if not found_data:
+        yield None, CLDFError(record_no, zip_path.name, 'nocldf')
+
+
+def stats_from_zip(args):
+    return list(_stats_from_zip(args))
+
+
 def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
     lang_map = {
         lid: (by_glottocode.get(guess) or by_isocode[guess]).id
@@ -420,8 +165,6 @@ class ErrorFilter:
                 yield val
 
 
-### CLDFbench ###
-
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "clld_meta"
@@ -438,7 +181,7 @@ class Dataset(BaseDataset):
 
         >>> self.raw_dir.download(url, fname)
         """
-        access_token = get_access_token()
+        access_token = dl.retrieve_access_token()
 
         try:
             records = self.raw_dir.read_json('zenodo-metadata.json')['records']
