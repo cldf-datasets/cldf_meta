@@ -1,3 +1,3 @@
-record_no,file,reason
-6426074,supervised-reconstruction-paper-v1.0.zip,nocldf
-6611616,supervised-reconstruction-paper-v1.1.zip,nocldf
+doi,comment
+10.5281/zenodo.3260727,glottolog-cldf
+10.5281/zenodo.7298022,concepticon-cldf

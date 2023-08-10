@@ -21,13 +21,6 @@ from pycldf.dataset import Dataset as CLDFDataset, SchemaError, sniff
 from pycldf.terms import URL as TERMS_URL
 
 
-# TODO: add 'All Versions' DOI for the meta database itself, once we have one.
-PARENT_BLACKLIST = {
-    "10.5281/zenodo.3260727",  # glottolog-cldf
-    "10.5281/zenodo.7298022",  # concepticon-cldf
-}
-
-
 CLDFError = namedtuple('CLDFError', 'record_no file reason')
 
 
@@ -202,8 +195,10 @@ def _has_downloaded_data(datadir, record):
     return record_dir.exists() and any(record_dir.iterdir())
 
 
-def _is_blacklisted(record):
-    return record.get('conceptdoi') in PARENT_BLACKLIST
+def _is_blacklisted(blacklist, record):
+    return (
+        record.get('doi') in blacklist
+        or record.get('conceptdoi') in blacklist)
 
 
 def _has_zip(record):
@@ -454,25 +449,31 @@ class Dataset(BaseDataset):
                 '  to download the metadata.')
             return
 
-        known_nocldf = {
+        files_without_cldf = {
             (record_no, file)
             for record_no, file, _ in islice(
-                self.etc_dir.read_csv('blacklist.csv'), 1, None)}
+                self.etc_dir.read_csv('not-cldf.csv'), 1, None)}
 
         datadir = self.raw_dir / 'datasets'
         # only download if raw/<id> folder is missing or empty
+
+        # TODO: add 'All Versions' DOI for the meta database itself, once we have one.
+        with open(self.etc_dir / 'blacklist.csv', encoding='utf-8') as f:
+            rdr = csv.reader(f)
+            blacklist = {doi for doi, _ in islice(rdr, 1, None) if doi}
+
         records = [
             rec
             for rec in records
             if not _has_downloaded_data(datadir, rec)
-            and not _is_blacklisted(rec)]
+            and not _is_blacklisted(blacklist, rec)]
         # XXX how will I know if someone packages a cldf dataset as a tarball…?
         file_urls = [
             (str(rec['id']), file)
             for rec in records
             for file in rec.get('files', ())
             if file['type'] == 'zip'
-            and (str(rec['id']), file_basename(file)) not in known_nocldf]
+            and (str(rec['id']), file_basename(file)) not in files_without_cldf]
 
         if file_urls:
             print(
@@ -492,25 +493,29 @@ class Dataset(BaseDataset):
         """
         # Prepare metadata
 
+        with open(self.etc_dir / 'blacklist.csv', encoding='utf-8') as f:
+            rdr = csv.reader(f)
+            blacklist = {doi for doi, _ in islice(rdr, 1, None) if doi}
+
         records = [
             rec
             for rec in self.raw_dir.read_json('zenodo-metadata.json')['records']
             if _has_zip(rec)
-            and not _is_blacklisted(rec)]
-        etc_blacklist = [
+            and not _is_blacklisted(blacklist, rec)]
+        not_cldf_full = [
             CLDFError(*row)
-            for row in islice(self.etc_dir.read_csv('blacklist.csv'), 1, None)]
+            for row in islice(self.etc_dir.read_csv('not-cldf.csv'), 1, None)]
 
         # Read CLDF data
 
         print('finding cldf datasets..', file=sys.stderr, flush=True)
-        known_nocldf = {(err.record_no, err.file) for err in etc_blacklist}
+        not_cldf = {(err.record_no, err.file) for err in not_cldf_full}
         data_archives = [
             (rec['id'], self.raw_dir / 'datasets' / str(rec['id']) / fname)
             for rec in records
             for fname in map(file_basename, rec['files'])
             if fname.endswith('.zip')
-            and (str(rec['id']), fname) not in known_nocldf]
+            and (str(rec['id']), fname) not in not_cldf]
 
         missing_files = [
             (record_no, path)
@@ -544,13 +549,13 @@ class Dataset(BaseDataset):
                     '{}:{}: no cldf data found'.format(err.record_no, err.file)
                     for err in cldf_errors.errors),
                 file=sys.stderr)
-            etc_blacklist.extend(cldf_errors.errors)
-            etc_blacklist.sort(key=lambda err: int(err.record_no))
-            blacklist_name = self.etc_dir / 'blacklist.csv'
-            with open(blacklist_name, 'w', encoding='utf-8') as f:
+            not_cldf_full.extend(cldf_errors.errors)
+            not_cldf_full.sort(key=lambda err: int(err.record_no))
+            not_cldf_path = self.etc_dir / 'not-cldf.csv'
+            with open(not_cldf_path, 'w', encoding='utf-8') as f:
                 wtr = csv.writer(f)
                 wtr.writerow(CLDFError._fields)
-                wtr.writerows(etc_blacklist)
+                wtr.writerows(not_cldf_full)
 
         print(
             'loading language info from glottolog...',
@@ -644,7 +649,7 @@ class Dataset(BaseDataset):
                 'License': rec['metadata']['license']['id'],
                 'Zenodo_ID': rec['id'],
                 'Zenodo_Link': rec['links']['html'],
-                'Zenodo_Keywords': rec['metadata']['keywords'],
+                'Zenodo_Keywords': rec['metadata'].get('keywords', ()),
                 'Zenodo_Type': rec['metadata']['resource_type']['type'],
             }
             for rec in records]

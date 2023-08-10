@@ -2,7 +2,8 @@
 Update Zenodo metadata in `raw/zenodo-metadata.json`.
 """
 
-from itertools import chain
+from itertools import chain, islice
+import csv
 import json
 import os
 import re
@@ -170,6 +171,20 @@ def build_search_url(params):
         params=param_str)
 
 
+def build_doi_url(access_token, doi):
+    query_doi = 'doi:"{0}" OR conceptdoi:"{0}"'.format(doi)
+    params_doi = [
+        ('sort', 'mostrecent'),
+        ('all_versions', 'true'),
+        ('q', query_doi),
+        ('status', 'published'),
+        ('size', '100'),
+    ]
+    if access_token:
+        params_doi.append(('access_token', access_token))
+    return build_search_url(params_doi)
+
+
 def download_or_wait(url):
     """Download data from one url waiting for the ratelimit."""
     retries = 3
@@ -255,6 +270,10 @@ def updatemd(dataset, args):
     else:
         records = {}
 
+    with open(dataset.etc_dir / 'whitelist.csv', encoding='utf-8') as f:
+        rdr = csv.reader(f)
+        whitelist = [doi for doi, _ in islice(rdr, 1, None) if doi]
+
     print('downloading records...', file=sys.stderr, flush=True)
 
     query_kw = 'keywords:({})'.format(
@@ -284,12 +303,20 @@ def updatemd(dataset, args):
 
     keyword_url = build_search_url(params_kw)
     community_url = build_search_url(params_comm)
+    doi_urls = [
+        build_doi_url(access_token, doi)
+        for doi in whitelist]
+
+    def _download_individual_dois(doi_urls):
+        for hits in map(download_records_paginated, doi_urls):
+            yield from hits
 
     records.update(loggable_progress(
         (hit['id'], hit)
         for hits in chain(
             download_records_paginated(keyword_url),
-            download_records_paginated(community_url))
+            download_records_paginated(community_url),
+            _download_individual_dois(doi_urls))
         for hit in hits
         if is_valid(hit)))
 
