@@ -214,6 +214,12 @@ def updatemd(dataset, args):
         for hit in hits
         if is_valid(hit)))
 
+    # We don't need Zenodo's view/download stats; they just create unnecessary
+    # diffs.
+    for record in records.values():
+        if 'stats' in record:
+            del record['stats']
+
     new_metadata = {
         'records': sorted(
             records.values(),
