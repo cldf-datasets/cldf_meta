@@ -46,7 +46,7 @@ def _has_zip(record):
 
 
 # FIXME not happy with that function name
-def collect_dataset_stats(zipreader):
+def collect_dataset_stats(record_no, zipreader):
     values = [
         (r['languageReference'], r.get('parameterReference'))
         for r in zipreader.iterrows(
@@ -83,6 +83,7 @@ def collect_dataset_stats(zipreader):
     # TODO count concepticon ids?
 
     return {
+        'record_no': record_no,
         'module': zipreader.cldf_module(),
         'value_count': len(values),
         'langs': langs,
@@ -110,7 +111,7 @@ def _stats_from_zip(args):
             zipreader = zipdata.ZipDataReader(
                 zip, file_tree, path.parent, cldf_md)
             found_data = True
-            yield collect_dataset_stats(zipreader), None
+            yield collect_dataset_stats(record_no, zipreader), None
     if not found_data:
         yield None, CLDFError(record_no, zip_path.name, 'nocldf')
 
@@ -125,6 +126,7 @@ def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
         for lid, guess in stats['langs'].items()
         if guess in by_glottocode or guess in by_isocode}
     return {
+        'record_no': stats['record_no'],
         'module': stats['module'],
         'value_count': stats['value_count'],
         'lang_count': len(stats['langs']),
@@ -338,23 +340,24 @@ class Dataset(BaseDataset):
 
         datasets_per_contrib = Counter()
 
-        def count_datasets(record_no):
+        def dataset_id(record_no):
             datasets_per_contrib[record_no] += 1
-            return datasets_per_contrib[record_no]
+            dataset_count = datasets_per_contrib[record_no]
+            return f'{record_no}-{dataset_count}'
 
         print('assembling dataset tables...', file=sys.stderr, flush=True)
 
         # # XXX how idempotent is this?
-        datasets = [
-            {
-                'ID': '{}-{}'.format(record_no, count_datasets(record_no)),
-                'Contribution_ID': record_no,
+        datasets = {
+            dataset_id(stats['record_no']): {
+                'ID': dataset_id(stats['record_no']),
+                'Contribution_ID': stats['record_no'],
                 'Module': stats['module'],
                 'Language_Count': len(stats['langs']),
                 'Value_Count': stats['value_count'],
                 'Glottocode_Count': stats['glottocode_count'],
             }
-            for ((record_no, _), stats) in zip(data_archives, dataset_stats)]
+            for stats in dataset_stats}
 
         dataset_languages = [
             {
@@ -367,7 +370,7 @@ class Dataset(BaseDataset):
                 'Entry_Count': stats['lang_entries'].get(lid, 0),
                 'Example_Count': stats['lang_examples'].get(lid, 0),
             }
-            for ds, stats in zip(datasets, dataset_stats)
+            for ds, stats in zip(datasets.values(), dataset_stats)
             for lid in stats['langs']]
 
         contributions = [
@@ -395,7 +398,8 @@ class Dataset(BaseDataset):
                 'Zenodo_Keywords': rec['metadata'].get('keywords', ()),
                 'Zenodo_Type': rec['metadata']['resource_type']['type'],
             }
-            for rec in records]
+            for rec in records
+            if rec['id'] in datasets]
 
         # Write CLDF data
 
@@ -450,7 +454,7 @@ class Dataset(BaseDataset):
 
         args.writer.objects['LanguageTable'] = languages
         args.writer.objects['contributions.csv'] = contributions
-        args.writer.objects['datasets.csv'] = datasets
+        args.writer.objects['datasets.csv'] = datasets.values()
         args.writer.objects['dataset-languages.csv'] = dataset_languages
 
     def cmd_readme(self, args):
