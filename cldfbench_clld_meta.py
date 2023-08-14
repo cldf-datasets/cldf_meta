@@ -10,7 +10,7 @@ from cldfbench import Dataset as BaseDataset
 from cldfbench.cldf import CLDFSpec
 
 from clld_meta import download as dl, zipdata
-from clld_meta.util import loggable_progress, file_basename
+from clld_meta.util import loggable_progress, file_basename, path_contains
 
 CLDFError = namedtuple('CLDFError', 'record_no file reason')
 
@@ -101,8 +101,10 @@ def _stats_from_zip(args):
     with zipfile.ZipFile(zip_path) as zip:
         file_tree = {Path(info.filename): info for info in zip.infolist()}
         for path, info in file_tree.items():
-            # TODO: try and filter out raw/ and test/ folders
             if path.suffix != '.json':
+                continue
+            # Filter out test suites and raw upstream data in cldfbenches.
+            if path_contains(path, 'raw|tests?'):
                 continue
             with zip.open(info) as f:
                 cldf_md = zipdata.get_cldf_json(f)

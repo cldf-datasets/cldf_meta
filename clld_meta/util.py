@@ -27,3 +27,15 @@ def file_basename(file):
     if not basename.endswith('.{}'.format(file['type'])):
         basename = '{}.{}'.format(basename, file['type'])
     return basename
+
+
+def path_contains(path, regex):
+    """Return `True` iff an element in `path` matches `regex`."""
+    while True:
+        parent, name = path.parent, path.name
+        if re.fullmatch(regex, name):
+            return True
+        elif parent == path:
+            return False
+        else:
+            path = parent
