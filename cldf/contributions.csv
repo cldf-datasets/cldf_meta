@@ -1,4 +1,49 @@
 ID,Name,Description,Version,Creators,Contributors,DOI,Concept_DOI,Date,Communities,License,Zenodo_Link,Zenodo_ID,Parent_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+8248752,Phlorest phylogeny derived from Birchall et al. 2016 'A combined comparative and phylogenetic analysis of the Chapacuran language family',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Birchall, Joshua, Michael Dunn, and Simon J. Greenhill. 2016. A combined comparative and phylogenetic analysis of the Chapacuran language family. International Journal of American Linguistics 82 (3): 255–84. doi: 10.1086/687383</p>
+</blockquote>",v1.0,Joshua Birchall ; Michael Dunn ; Simon J. Greenhill,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.8248752,10.5281/zenodo.8248751,,phlorest,other-open,https://zenodo.org/record/8248752,8248752,8248751,,dataset,
+8248653,"CLDF dataset derived from Greenhill's ""TransNewGuinea.org"" from 2015","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Greenhill, Simon J. (2015): TransNewGuinea.org: An Online Database of New Guinea Languages. PLoS ONE 10.10: e0141563.</p>
+</blockquote>",v3.1,Simon J. Greenhill,Robert Forkel ; Tiago Tresoldi,10.5281/zenodo.8248653,10.5281/zenodo.2634949,,lexibank,CC-BY-4.0,https://zenodo.org/record/8248653,8248653,2634949,,dataset,
+5141620,"CLDF dataset derived from Greenhill's ""TransNewGuinea.org"" from 2015","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Greenhill, Simon J. (2015): TransNewGuinea.org: An Online Database of New Guinea Languages. PLoS ONE 10.10: e0141563.</p>
+</blockquote>",v3.0,Simon J. Greenhill,Robert Forkel ; Tiago Tresoldi,10.5281/zenodo.5141620,10.5281/zenodo.2634949,,lexibank,CC-BY-4.0,https://zenodo.org/record/5141620,5141620,2634949,,dataset,
+3537646,"CLDF dataset derived from Greenhill's ""TransNewGuinea.org"" from 2015","<p>Cite the source dataset as</p>
+
+<blockquote>
+<p>Greenhill SJ. 2015. TransNewGuinea.org: An Online Database of New Guinea Languages. PLoS ONE 10(10): e0141563. <a href=""http://transnewguinea.org"">http://transnewguinea.org</a>.</p>
+</blockquote>",v2.0,Simon J. Greenhill ; Robert Forkel ; Tiago Tresoldi,,10.5281/zenodo.3537646,10.5281/zenodo.2634949,,lexibank,other-open,https://zenodo.org/record/3537646,3537646,2634949,,dataset,
+8248389,Phlorest phylogeny derived from Atkinson 2006 'From Species to Languages: a phylogenetic approach to human prehistory',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Atkinson, Quentin D. 2006. From Species to Languages: a phylogenetic approach to human prehistory. PhD Thesis, University of Auckland, New Zealand.</p>
+</blockquote>",v1.0,Quentin D. Atkinson,Simon J. Greenhill,10.5281/zenodo.8248389,10.5281/zenodo.8248388,,dplace;phlorest,other-open,https://zenodo.org/record/8248389,8248389,8248388,,dataset,
+8238983,"CLDF dataset derived from Heath et al's ""Dogon Comparative Wordlist"" from 2016","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Moran, Steven &amp; Forkel, Robert &amp; Heath, Jeffrey (eds.) 2016. Dogon and Bangime Linguistics. Jena: Max Planck Institute for the Science of Human History. (Available online at http://dogonlanguages.org, Accessed on 2023-08-10.)</p>
+</blockquote>",v0.1,Jeffrey Heath ; Laura McPherson ; Kirill Prokhorov ; Steven Moran,Abbie Hantgan ; Johann-Mattis List,10.5281/zenodo.8238983,10.5281/zenodo.8238982,,,other-open,https://zenodo.org/record/8238983,8238983,8238982,,dataset,
+8038975,CLDF dataset of the Enggano word list from 1895 in Stokhof and Almanar's (1987) Holle List,"<p>This repository contains the digitised Enggano word list (from 1895; see Stokhof and Almanar 1987 for the original source) that has been matched with the <a href=""https://engganolang.github.io/digitised-holle-list/"">digitised Holle List</a> (Rajeg 2023a; cf. Stokhof 1980), providing the English glosses for the Enggano forms. The data set conforms to the Cross-Linguistic Data Format (<a href=""https://cldf.clld.org/"">CLDF</a>) (Forkel et al. 2018).</p>
+
+<p><em>The work in this repository is part of the <a href=""https://gtr.ukri.org/project/8AB0C3DC-F1C9-4CFA-BB4D-5BE748213372"">AHRC-funded project</a> on Lexical resources for Enggano, a threatened language of Indonesia (central webpage of the Enggano project: <a href=""https://enggano.ling-phil.ox.ac.uk/"">https://enggano.ling-phil.ox.ac.uk/</a>)</em></p>
+
+<p><strong>References</strong></p>
+
+<p>Forkel, Robert, Johann-Mattis List, Simon J. Greenhill, Christoph Rzymski, Sebastian Bank, Michael Cysouw, Harald Hammarstr&ouml;m, Martin Haspelmath, Gereon A. Kaiping &amp; Russell D. Gray. 2018. Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics. Scientific Data. Nature Publishing Group 5(1). 180205. <a href=""https://doi.org/10.1038/sdata.2018.205"">https://doi.org/10.1038/sdata.2018.205</a>.</p>
+
+<p>Rajeg, Gede Primahadi Wijaya. 2023a. Digitised, Searchable Holle List in Stokhof (1980) [Data set]. (1.3.0). Zenodo. <a href=""https://doi.org/10.5281/ZENODO.7972273"">https://doi.org/10.5281/ZENODO.7972273</a>. <a href=""https://engganolang.github.io/digitised-holle-list/"">https://engganolang.github.io/digitised-holle-list/</a>. <a href=""https://ora.ox.ac.uk/objects/uuid:a511951b-86fb-4019-94d4-280efa83de02"">https://ora.ox.ac.uk/objects/uuid:a511951b-86fb-4019-94d4-280efa83de02</a></p>
+
+<p>Rajeg, Gede Primahadi Wijaya. 2023b. CLDF dataset of the Enggano word list from 1895 in Stokhof and Almanar&#39;s (1987) Holle List [Data set]. <a href=""https://github.com/engganolang/holle-list-enggano-1895"">https://github.com/engganolang/holle-list-enggano-1895</a></p>
+
+<p>Stokhof, W. A. L., ed. 1980. Holle Lists, Vocabularies in Languages of Indonesia, Vol. 1: Introductory Volume. Vol. Materials in Languages of Indonesia. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. <a href=""https://core.ac.uk/reader/159464813"">https://core.ac.uk/reader/159464813</a>.</p>
+
+<p>Stokhof, W. A. L., and Alma E. Almanar. 1987. Holle Lists, Vocabularies in Languages of Indonesia, Vol. 10/3: Islands Off the West Coast of Sumatra. Vol. Materials in Languages of Indonesia. Pacific Linguistics (Series d) 76. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. <a href=""http://hdl.handle.net/1885/144589"">http://hdl.handle.net/1885/144589</a>.</p>",1.0.0,"Rajeg, Gede Primahadi Wijaya",,10.5281/zenodo.8038975,10.5281/zenodo.8038974,,lexibank,CC-BY-SA-4.0,https://zenodo.org/record/8038975,8038975,8038974,,dataset,
 8177536,"CLDF dataset derived from Walker and Ribeiro's ""Bayesian Phylogeography of the Arawak expansion"" from 2011","<p>Cite the source of the dataset as:</p>
 
 <blockquote>
@@ -89,21 +134,6 @@ ID,Name,Description,Version,Creators,Contributors,DOI,Concept_DOI,Date,Communiti
 <blockquote>
 <p>Byron W. Bender, Ward H. Goodenough, Frederick H. Jackson, Jeffrey C. Marck, Kenneth L. Rehg, Ho-min Sohn, Stephen Trussel, and Judith W. Wang. 2003. Proto-Micronesian Reconstructions—1. Oceanic Linguistics Vol. 42(1), 1-110, DOI: 10.2307/3623449</p>
 </blockquote>",v1.0,Byron W. Bender ; Ward H. Goodenough ; Frederick H. Jackson ; Jeffrey C. Marck ; Kenneth L. Rehg ; Ho-min Sohn ; Stephen Trussel ; Judith W. Wang,Robert Forkel ; Lev Blumenfeld,10.5281/zenodo.7973420,10.5281/zenodo.7973419,,lexibank,CC-BY-4.0,https://zenodo.org/record/7973420,7973420,7973419,,dataset,
-8038975,CLDF dataset of the Enggano word list from 1895 in Stokhof and Almanar's (1987) Holle List,"<p>This repository contains the digitised Enggano word list (from 1895; see Stokhof and Almanar 1987 for the original source) that has been matched with the <a href=""https://engganolang.github.io/digitised-holle-list/"">digitised Holle List</a> (Rajeg 2023a; cf. Stokhof 1980), providing the English glosses for the Enggano forms. The data set conforms to the Cross-Linguistic Data Format (<a href=""https://cldf.clld.org/"">CLDF</a>) (Forkel et al. 2018).</p>
-
-<p><em>The work in this repository is part of the <a href=""https://gtr.ukri.org/project/8AB0C3DC-F1C9-4CFA-BB4D-5BE748213372"">AHRC-funded project</a> on Lexical resources for Enggano, a threatened language of Indonesia (central webpage of the Enggano project: <a href=""https://enggano.ling-phil.ox.ac.uk/"">https://enggano.ling-phil.ox.ac.uk/</a>)</em></p>
-
-<p><strong>References</strong></p>
-
-<p>Forkel, Robert, Johann-Mattis List, Simon J. Greenhill, Christoph Rzymski, Sebastian Bank, Michael Cysouw, Harald Hammarstr&ouml;m, Martin Haspelmath, Gereon A. Kaiping &amp; Russell D. Gray. 2018. Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics. Scientific Data. Nature Publishing Group 5(1). 180205. <a href=""https://doi.org/10.1038/sdata.2018.205"">https://doi.org/10.1038/sdata.2018.205</a>.</p>
-
-<p>Rajeg, Gede Primahadi Wijaya. 2023a. Digitised, Searchable Holle List in Stokhof (1980) [Data set]. (1.3.0). Zenodo. <a href=""https://doi.org/10.5281/ZENODO.7972273"">https://doi.org/10.5281/ZENODO.7972273</a>. <a href=""https://engganolang.github.io/digitised-holle-list/"">https://engganolang.github.io/digitised-holle-list/</a>. <a href=""https://ora.ox.ac.uk/objects/uuid:a511951b-86fb-4019-94d4-280efa83de02"">https://ora.ox.ac.uk/objects/uuid:a511951b-86fb-4019-94d4-280efa83de02</a></p>
-
-<p>Rajeg, Gede Primahadi Wijaya. 2023b. CLDF dataset of the Enggano word list from 1895 in Stokhof and Almanar&#39;s (1987) Holle List [Data set]. <a href=""https://github.com/engganolang/holle-list-enggano-1895"">https://github.com/engganolang/holle-list-enggano-1895</a></p>
-
-<p>Stokhof, W. A. L., ed. 1980. Holle Lists, Vocabularies in Languages of Indonesia, Vol. 1: Introductory Volume. Vol. Materials in Languages of Indonesia. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. <a href=""https://core.ac.uk/reader/159464813"">https://core.ac.uk/reader/159464813</a>.</p>
-
-<p>Stokhof, W. A. L., and Alma E. Almanar. 1987. Holle Lists, Vocabularies in Languages of Indonesia, Vol. 10/3: Islands Off the West Coast of Sumatra. Vol. Materials in Languages of Indonesia. Pacific Linguistics (Series d) 76. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. <a href=""http://hdl.handle.net/1885/144589"">http://hdl.handle.net/1885/144589</a>.</p>",1.0.0,"Rajeg, Gede Primahadi Wijaya",,10.5281/zenodo.8038975,10.5281/zenodo.8038974,,lexibank,CC-BY-SA-4.0,https://zenodo.org/record/8038975,8038975,8038974,,dataset,
 8058801,"CLDF dataset derived from Oliveira's ""Contribuições para a Reconstrução do Protopáno"" from 2014","<p>Cite the source of the dataset as:</p>
 
 <blockquote>
@@ -119,6 +149,69 @@ ID,Name,Description,Version,Creators,Contributors,DOI,Concept_DOI,Date,Communiti
 <blockquote>
 <p>Frederic Blum, Carlos Barrientos, Adriano Ingunza, Damian E. Blasi &amp; Roberto Zariquiey. (2023). CLDF dataset for `Grammars Analyzed Across Time` (GATA) (v0.2).</p>
 </blockquote>",v0.2.1,Frederic Blum ; Carlos Barrientos ; Adriano Ingunza ; Damián E. Blasi ; Roberto Zariquiey,,10.5281/zenodo.8026861,10.5281/zenodo.7294752,,,other-open,https://zenodo.org/record/8026861,8026861,7294752,,dataset,
+7976754,The AUTOTYP database,"<p>AUTOTYP&nbsp;is a large-scale research program with goals in both quantitative and qualitative typology. This release contains the full raw data from the AUTOTYP databases along with metadata, aggregated datasets and aggregation scripts.&nbsp;</p>
+
+<p>Please cite as:</p>
+
+<p>Bickel, Balthasar, Nichols, Johanna, Zakharko, Taras, Witzlack-Makarevich, Alena, Hildebrandt, Kristine, Rie&szlig;ler, Michael, Bierkandt, Lennart, Z&uacute;&ntilde;iga, Fernando &amp; Lowe, John B. 2022. The AUTOTYP database (v1.1.1).&nbsp;https://doi.org/10.5281/zenodo.7976754</p>
+
+<p><strong>Release 1.1.1&nbsp;summary</strong></p>
+
+<p>-&nbsp;Improved CLDF export for the dataset `MaximallyInflectedVerbSynthesis`</p>
+
+<p>Many thanks to Robert Forkel for this contribution!&nbsp;</p>",v1.1.1,"Bickel, Balthasar ; Nichols, Johanna ; Zakharko, Taras ; Witzlack-Makarevich, Alena ; Hildebrandt, Kristine ; Rießler, Michael ; Bierkandt, Lennart ; Zúñiga, Fernando ; Lowe, John B.",,10.5281/zenodo.7976754,10.5281/zenodo.3899803,,autotyp,CC-BY-4.0,https://zenodo.org/record/7976754,7976754,3899803,,dataset,
+6793367,The AUTOTYP database,"<p>AUTOTYP&nbsp;is a large-scale research program with goals in both quantitative and qualitative typology. This release contains the full raw data from the AUTOTYP databases along with metadata, aggregated datasets and aggregation scripts.&nbsp;</p>
+
+<p>Please cite as:</p>
+
+<p>Bickel, Balthasar, Nichols, Johanna, Zakharko, Taras, Witzlack-Makarevich, Alena, Hildebrandt, Kristine, Rie&szlig;ler, Michael, Bierkandt, Lennart, Z&uacute;&ntilde;iga, Fernando &amp; Lowe, John B. 2022. The AUTOTYP database (v1.1).&nbsp;https://doi.org/10.5281/zenodo.6793367</p>
+
+<p><strong>Release 1.1.0 summary</strong></p>
+
+<p>The main changes in this release are:</p>
+
+<ul>
+	<li>A new&nbsp;<a href=""https://cldf.clld.org/"">CLDF</a>&nbsp;export, kindly contributed by Robert Forkel</li>
+	<li>Revamp of the verb synthesis datasets which has been renamed to<br>
+	<code>MaximallyInflectedVerbSynthesis</code>&nbsp;(see below)</li>
+	<li>Enhancements to&nbsp;<code>GrammaticalRelations</code></li>
+</ul>
+
+<p>Important: this release introduces breaking changes to the Morphology module. Important changes are listed below. Refer to the changelog for a more detailed list.&nbsp;</p>
+
+<p><strong>CLDF export</strong></p>
+
+<p>A CLDF export of AUTOTYP database was one of the most requested features since the new release.<br>
+We are very thankful to Robert Forkel for writing the code that generates a CLDF dataset of<br>
+AUTOTYP data. Starting from AUTOTYP 1.1.0 there is a CLDF dataset in&nbsp;<code>data</code>. The accompanying<br>
+Python scripts used to generate this export can be found in the repository<br>
+<a href=""https://github.com/autotyp/autotyp-cldf-scripts"">autotyp/autotyp-cldf-scripts</a></p>
+
+<p><strong>Revamp of verb synthesis datasets in the Morphology module</strong></p>
+
+<p>We wanted to clarify that the verb synthesis dataset in the Morphology module describes<br>
+maximally inflected verb forms only rather than all attested verb forms. To make this more<br>
+obvious we have renamed the affected datasets to include the phrase&nbsp;<code>MaximallyInflected</code>&nbsp;as well as<br>
+updated the variable metadata to clarify this point. Thus:</p>
+
+<ul>
+	<li><code>VerbSynthesis</code>&nbsp;becomes&nbsp;<code>MaximallyInflectedVerbSynthesis</code></li>
+	<li><code>VerbInflectionAndAgreementCountsByPosition</code>&nbsp;becomes&nbsp;<code>MaximallyInflectedVerbInflectionAndAgreementCountsByPosition</code></li>
+	<li><code>VerbAgreementAggregatedByMarkerPosition</code>&nbsp;becomes&nbsp;<code>MaximallyInflectedVerbAgreementAggregatedByMarkerPosition</code></li>
+	<li><code>VerbInflectionCategoriesAggregatedByMarkerPosition</code>&nbsp;becomes&nbsp;<code>MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerPosition</code></li>
+	<li>etc.</li>
+</ul>
+
+<p>This is a breaking change.</p>
+
+<p><strong>Enhancements to&nbsp;<code>GrammaticalRelations</code></strong></p>
+
+<p>Multiple new variables that describe properties of grammatical relations have been added to<br>
+<code>GrammaticalRelations</code>&nbsp;dataset. Please refer to the list of changes below.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>",v1.1.0,"Bickel, Balthasar ; Nichols, Johanna ; Zakharko, Taras ; Witzlack-Makarevich, Alena ; Hildebrandt, Kristine ; Rießler, Michael ; Bierkandt, Lennart ; Zúñiga, Fernando ; Lowe, John B.",,10.5281/zenodo.6793367,10.5281/zenodo.3899803,,autotyp,CC-BY-4.0,https://zenodo.org/record/6793367,6793367,3899803,,dataset,
 7866796,Lexical Data for the Historical Comparison of Rgyalrongic Languages,"<p>Cite the source of the dataset as:</p>
 
 <blockquote>
@@ -312,65 +405,6 @@ ID,Name,Description,Version,Creators,Contributors,DOI,Concept_DOI,Date,Communiti
 <blockquote>
 <p>Barbieri et al. 2022. A global analysis of matches and mismatches between human genetic and linguistic histories. PNAS. DOI: 10.1073/pnas.2122084119</p>
 </blockquote>",v1.0,Chiara Barbieri ; Damián Blasi ; Robert Forkel,Chiara Barbieri ; Damián Blasi ; Robert Forkel ; Epifanía Arango-Isaza ; Alexandros G. Sotiropoulos ; Harald Hammarström ; Søren Wichmann ; Simon J. Greenhill ; Russell D. Gray ; Balthasar Bickel ; Kentaro K. Shimizu,10.5281/zenodo.7233267,10.5281/zenodo.7233266,,,CC-BY-NC-4.0,https://zenodo.org/record/7233267,7233267,7233266,,dataset,
-7212584,pylingdocs,Create data-rich linguistic documents.,0.0.10,"Matter, Florian",,10.5281/zenodo.7212584,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/7212584,7212584,6567304,,software,
-7094985,pylingdocs,"<p><a href=""https://doi.org/10.5281/zenodo.6567304""></a>
-
-<a href=""https://pylingdocs.readthedocs.io/en/latest/?badge=latest""></a>
-<a href=""https://github.com/fmatter/pylingdocs/actions/workflows/tests.yml""></a>
-<a href=""https://github.com/fmatter/pylingdocs/actions/workflows/lint.yml""></a>
-<a href=""https://app.codecov.io/gh/fmatter/pylingdocs/""></a>
-<a href=""https://pypi.org/project/pylingdocs""></a>
-</p>
-<p>The main functionalities of <code>pylingdocs</code> are showcased in the demo, where <a href=""https://github.com/fmatter/pylingdocs/blob/main/docs/demo.txt"">this text</a>, using <a href=""https://github.com/fmatter/pylingdocs/tree/main/tests/data/cldf"">this dataset</a>, is turned into a <a href=""https://raw.githubusercontent.com/fmatter/pylingdocs/main/docs/demo.pdf"">PDF file</a>.
-Integration into CLLD web apps is possible with <a href=""https://github.com/clld/clld-markdown-plugin/"">clld-markdown-plugin</a>, optionally combined with <a href=""https://github.com/fmatter/clld-document-plugin/"">clld-document-plugin</a>; an example can be inspected <a href=""https://fl.mt/yawarana-sketch"">here</a>.</p>
-<p>Installation:</p>
-<p><code>pip install pylingdocs</code></p>
-<p>For further instructions check out the documentation at <a href=""https://pylingdocs.readthedocs.io"">pylingdocs.readthedocs.io</a>.</p>
-<p>Rudimentary GUI editor:</p>
-<p><code>pip install pylingdocs-gui</code></p>",0.0.9,"Matter, Florian",,10.5281/zenodo.7094985,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/7094985,7094985,6567304,,software,
-7016300,pylingdocs,Create data-rich linguistic documents.,0.0.8,"Matter, Florian",,10.5281/zenodo.7016300,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/7016300,7016300,6567304,,software,
-7011989,pylingdocs,Create data-rich linguistic documents.,0.0.7,"Matter, Florian",,10.5281/zenodo.7011989,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/7011989,7011989,6567304,,software,
-7011944,pylingdocs,Create data-rich linguistic documents.,0.0.6,"Matter, Florian",,10.5281/zenodo.7011944,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/7011944,7011944,6567304,,software,
-6877453,pylingdocs,Create data-rich linguistic documents.,0.0.5,"Matter, Florian",,10.5281/zenodo.6877453,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/6877453,6877453,6567304,,software,
-6612557,pylingdocs,"<p>Version 0.0.4 of <a href=""https://github.com/fmatter/pylingdocs/"">pylingdocs</a> (<a href=""https://github.com/fmatter/pylingdocs/compare/0.0.4...0.0.4"">full changelog</a>).</p>",0.0.4,"Matter, Florian",,10.5281/zenodo.6612557,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/6612557,6612557,6567304,,software,
-6587763,pylingdocs,"<p>Version 0.0.3 of <a href=""https://github.com/fmatter/pylingdocs/"">pylingdocs</a> (<a href=""https://github.com/fmatter/pylingdocs/compare/0.0.2...0.0.3"">full changelog</a>).</p>",0.0.3,"Matter, Florian",,10.5281/zenodo.6587763,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/6587763,6587763,6567304,,software,
-6567305,pylingdocs,"Added
-<ul>
-<li>generate data for the <a href=""https://github.com/fmatter/pylingdocs-sublime/"">Sublime Text plugin</a> with <code>pylingdocs sublime</code></li>
-<li>create a new project with <code>pylingdocs new</code></li>
-<li>prettier plaintext example rendering</li>
-<li>use pandoc throughout</li>
-<li>expanded demo document</li>
-<li>multicite (LaTeX only, WIP)</li>
-<li>new options:<ul>
-<li><code>readme</code></li>
-<li><code>citation_cff</code></li>
-</ul>
-</li>
-<li>new default models:<ul>
-<li>Form</li>
-<li>Cognateset</li>
-</ul>
-</li>
-<li>new templates:<ul>
-<li>LaTeX <code>handout</code></li>
-</ul>
-</li>
-<li><code>--latex</code> option for the <code>build</code> and <code>preview</code> commands</li>
-<li><code>--release</code> option for better citability</li>
-<li>better HTML</li>
-<li><a href=""https://github.com/fmatter/expex-acro/"">expex-acro</a> in LaTeX templates</li>
-</ul>
-Removed
-<ul>
-<li>various bugs</li>
-<li>CITATION.CFF</li>
-<li>some CLDF metadata (now in <a href=""https://github.com/fmatter/clld-morphology-plugin"">clld-morphology-plugin</a>)</li>
-</ul>
-Changed
-<ul>
-<li>if the <code>structure_file</code> and <code>table_md</code> paths are only files, they are assumed to be in the content and tables folders, respectively </li>
-</ul>",0.0.2,"Matter, Florian",,10.5281/zenodo.6567305,10.5281/zenodo.6567304,,,Apache-2.0,https://zenodo.org/record/6567305,6567305,6567304,,software,
 7097819,"CLDF dataset derived from Barlow's ""Numerals of the Pacific"" from 2022","<p>Cite the source of the dataset as:</p>
 
 <blockquote>
@@ -497,8 +531,6 @@ Changed
 <blockquote>
 <p>Líu, L.; Wáng, H.; Bǎi, Y. (2007): Xiàndài Hànyǔ fāngyán héxīncí, tèzhēng cíjí 现代汉语方言核心词·特征词集 [Collection of basic vocabulary words and characteristic dialect words in modern Chinese dialects]. Nánjīng: Fènghuáng.</p>
 </blockquote>",v1.0,Liú Lìlǐ ; Wáng Hóngzhōng ; Bǎi Yíng,Liú Lìlǐ ; Liú Lìlǐ ; Wáng Hóngzhōng ; Wáng Hóngzhōng ; Bǎi Yíng ; Bǎi Yíng ; Johann-Mattis List,10.5281/zenodo.5131413,10.5281/zenodo.5131412,,lexibank,CC-BY-4.0,https://zenodo.org/record/5131413,5131413,5131412,,dataset,
-6611616,A New Framework for Fast Automated Phonological Reconstruction Using Trimmed Alignments and Sound Correspondence Patterns,<p>No description provided.</p>,v1.1,Johann-Mattis List ; Robert Forkel ; Nathan W. Hill,Clément Besner,10.5281/zenodo.6611616,10.5281/zenodo.6426073,,calc;digling,CC-BY-4.0,https://zenodo.org/record/6611616,6611616,6426073,,software,
-6426074,A New Framework for Fast Automated Phonological Reconstruction Using Trimmed Alignments and Sound Correspondence Patterns,No description provided.,v1.0,Johann-Mattis List ; Robert Forkel ; Nathan W. Hill,,10.5281/zenodo.6426074,10.5281/zenodo.6426073,,calc;digling,CC-BY-4.0,https://zenodo.org/record/6426074,6426074,6426073,,software,
 6602060,"CLDF dataset accompanying Yang's ""Phonetic Tone Change"" from 2022","<p>Cite the source of the dataset as:</p>
 
 <blockquote>
@@ -737,16 +769,6 @@ Changed
 <blockquote>
 <p>List, Johann-Mattis, Thomas Mayer, Anselm Terhalle, and Matthias Urban (2014). CLICS: Database of Cross-Linguistic Colexifications. Marburg: Forschungszentrum Deutscher Sprachatlas (Version 1.0).</p>
 </blockquote>",v4.0,Johann-Mattis List,,10.5281/zenodo.5141379,10.5281/zenodo.2630809,,lexibank,CC-BY-4.0,https://zenodo.org/record/5141379,5141379,2630809,,dataset,
-5141620,"CLDF dataset derived from Greenhill's ""TransNewGuinea.org"" from 2015","<p>Cite the source of the dataset as:</p>
-
-<blockquote>
-<p>Greenhill, Simon J. (2015): TransNewGuinea.org: An Online Database of New Guinea Languages. PLoS ONE 10.10: e0141563.</p>
-</blockquote>",v3.0,Simon J. Greenhill,Robert Forkel ; Tiago Tresoldi,10.5281/zenodo.5141620,10.5281/zenodo.2634949,,lexibank,CC-BY-4.0,https://zenodo.org/record/5141620,5141620,2634949,,dataset,
-3537646,"CLDF dataset derived from Greenhill's ""TransNewGuinea.org"" from 2015","<p>Cite the source dataset as</p>
-
-<blockquote>
-<p>Greenhill SJ. 2015. TransNewGuinea.org: An Online Database of New Guinea Languages. PLoS ONE 10(10): e0141563. <a href=""http://transnewguinea.org"">http://transnewguinea.org</a>.</p>
-</blockquote>",v2.0,Simon J. Greenhill ; Robert Forkel ; Tiago Tresoldi,,10.5281/zenodo.3537646,10.5281/zenodo.2634949,,lexibank,other-open,https://zenodo.org/record/3537646,3537646,2634949,,dataset,
 3534903,Database of Cross-Linguistic Colexifications (Version 1.0),"<p>Cite the source dataset as</p>
 
 <blockquote>

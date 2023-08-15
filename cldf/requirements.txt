@@ -4,6 +4,7 @@ Babel==2.12.1
 bs4==0.0.1
 certifi==2023.7.22
 cldfbench==1.13.0
+-e git+https://github.com/cldf-datasets/clld_meta.git@550ab9dca37122471247798cd5b9993b3083bf4d#egg=cldfbench_clld_meta
 cldfcatalog==1.5.1
 cldfzenodo==1.1.0
 clldutils==3.19.0
@@ -17,9 +18,9 @@ html5lib==1.1
 idna==3.4
 iniconfig==2.0.0
 isodate==0.6.1
-jsonschema==4.18.4
+jsonschema==4.19.0
 lxml==4.9.3
-Markdown==3.4.3
+Markdown==3.4.4
 nameparser==1.1.2
 newick==1.9.0
 packaging==23.1
@@ -33,8 +34,8 @@ pylatexenc==2.10
 pytest==7.4.0
 python-dateutil==2.8.2
 pytz==2023.3
-rdflib==6.3.2
-referencing==0.30.0
+rdflib==7.0.0
+referencing==0.30.2
 requests==2.31.0
 rfc3986==1.5.0
 six==1.16.0
