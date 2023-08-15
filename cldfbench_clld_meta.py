@@ -350,8 +350,8 @@ class Dataset(BaseDataset):
         print('assembling dataset tables...', file=sys.stderr, flush=True)
 
         # # XXX how idempotent is this?
-        datasets = {
-            dataset_id(stats['record_no']): {
+        datasets = [
+            {
                 'ID': dataset_id(stats['record_no']),
                 'Contribution_ID': stats['record_no'],
                 'Module': stats['module'],
@@ -359,7 +359,7 @@ class Dataset(BaseDataset):
                 'Value_Count': stats['value_count'],
                 'Glottocode_Count': stats['glottocode_count'],
             }
-            for stats in dataset_stats}
+            for stats in dataset_stats]
 
         dataset_languages = [
             {
@@ -372,9 +372,10 @@ class Dataset(BaseDataset):
                 'Entry_Count': stats['lang_entries'].get(lid, 0),
                 'Example_Count': stats['lang_examples'].get(lid, 0),
             }
-            for ds, stats in zip(datasets.values(), dataset_stats)
+            for ds, stats in zip(datasets, dataset_stats)
             for lid in stats['langs']]
 
+        contribution_ids = {ds['Contribution_ID'] for ds in datasets}
         contributions = [
             {
                 'ID': rec['id'],
@@ -401,7 +402,7 @@ class Dataset(BaseDataset):
                 'Zenodo_Type': rec['metadata']['resource_type']['type'],
             }
             for rec in records
-            if rec['id'] in datasets]
+            if rec['id'] in contribution_ids]
 
         # Write CLDF data
 
@@ -456,7 +457,7 @@ class Dataset(BaseDataset):
 
         args.writer.objects['LanguageTable'] = languages
         args.writer.objects['contributions.csv'] = contributions
-        args.writer.objects['datasets.csv'] = datasets.values()
+        args.writer.objects['datasets.csv'] = datasets
         args.writer.objects['dataset-languages.csv'] = dataset_languages
 
     def cmd_readme(self, args):

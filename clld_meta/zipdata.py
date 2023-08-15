@@ -24,6 +24,24 @@ def get_cldf_json(f):
         return None
 
 
+def rename_columns(column_specs, column_names, raw_rows):
+    col_urls = {f'{TERMS_URL}#{col}': col for col in column_names}
+    name_map = {
+        col['name']: col_urls[purl]
+        for col in column_specs
+        if (purl := col.get('propertyUrl')) and purl in col_urls}
+
+    row_i = iter(raw_rows)
+    header = [
+        name_map.get(orig_name, orig_name)
+        for orig_name in next(row_i, ())]
+    for row in row_i:
+        yield {
+            colname: cell
+            for colname, cell in zip(header, row)
+            if colname and cell and colname in column_names}
+
+
 class ZipDataReader:
     def __init__(self, zip_file, zip_infos, md_root, cldf_md):
         self._zip_file = zip_file
@@ -42,21 +60,11 @@ class ZipDataReader:
         else:
             raise ValueError('table not found: {}'.format(name_or_url))
 
-    def iterrows(self, table, *columns):
+    def iterrows(self, table, *column_names):
         try:
             table = self.get_table(table)
         except ValueError:
             return
-        col_urls = {'{}#{}'.format(TERMS_URL, col): col for col in columns}
-
-        def get_colname(spec):
-            purl = spec.get('propertyUrl')
-            if purl in col_urls:
-                return col_urls[purl]
-            else:
-                return None
-
-        col_names = list(map(get_colname, table['tableSchema']['columns']))
 
         relpath = table['url']
         root = self._md_root
@@ -80,10 +88,7 @@ class ZipDataReader:
                     for info in internal_zip.infolist()
                     if info.filename.endswith(Path(relpath).name)][0]
                 csv_f = withs.enter_context(internal_zip.open(internal_info))
-            decoder = io.TextIOWrapper(csv_f, encoding='utf-8')
+            decoder = io.TextIOWrapper(csv_f, encoding='utf-8-sig')
             rdr = csv.reader(decoder)
-            for row in islice(rdr, 1, None):
-                yield {
-                    colname: cell
-                    for colname, cell in zip(col_names, row)
-                    if colname and cell}
+            yield from rename_columns(
+                table['tableSchema']['columns'], column_names, rdr)
