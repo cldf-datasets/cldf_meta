@@ -205,14 +205,18 @@ def updatemd(dataset, args):
         for hits in map(download_records_paginated, doi_urls):
             yield from hits
 
-    records.update(loggable_progress(
-        (hit['id'], hit)
-        for hits in chain(
-            download_records_paginated(keyword_url),
-            download_records_paginated(community_url),
-            _download_individual_dois(doi_urls))
-        for hit in hits
-        if is_valid(hit)))
+    try:
+        records.update(loggable_progress(
+            (hit['id'], hit)
+            for hits in chain(
+                download_records_paginated(keyword_url),
+                download_records_paginated(community_url),
+                _download_individual_dois(doi_urls))
+            for hit in hits
+            if is_valid(hit)))
+    except IOError as err:
+        print(err, file=sys.stderr)
+        sys.exit(74)
 
     # We don't need Zenodo's view/download stats; they just create unnecessary
     # diffs.

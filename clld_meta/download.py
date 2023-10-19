@@ -80,15 +80,13 @@ def download_or_wait(url):
                 wait_until(max(limit_reset, time_secs() + retry_after))
             else:
                 print(
-                    'Unexpected http response:', e.code,
-                    '\nRetrying (attempt', attempt + 1,
-                    'of', '%s)...' % retries,
-                    file=sys.stderr, flush=True)
+                    f'Unexpected http response: {e.code}',
+                    e.read().decode('utf-8').strip(),
+                    f'Attempt {attempt + 1} of {retries}; retrying...',
+                    sep='\n', file=sys.stderr, flush=True)
     else:
-        print(
-            'Tried', retries, 'times to no avail.  Giving up...',
-            file=sys.stderr)
-        return
+        raise IOError(
+            f'Tried {retries} times to no avail.  Giving up...')
 
 
 def download_all(urls):
@@ -114,15 +112,13 @@ def download_all(urls):
                     wait_until(max(limit_reset, time_secs() + retry_after))
                 else:
                     print(
-                        'Unexpected http response:', e.code,
-                        '\nRetrying (attempt', attempt + 1,
-                        'of', '%s)...' % retries,
-                        file=sys.stderr, flush=True)
+                        f'Unexpected http response: {e.code}',
+                        e.read().decode('utf-8').strip(),
+                        f'Attempt {attempt + 1} of {retries}; retrying...',
+                        sep='\n', file=sys.stderr, flush=True)
         else:
-            print(
-                'Tried', retries, 'times to no avail.  Giving up...',
-                file=sys.stderr, flush=True)
-            return
+            raise IOError(
+                f'Tried {retries} times to no avail.  Giving up...')
 
 
 def validate_checksum(checksum, data):
