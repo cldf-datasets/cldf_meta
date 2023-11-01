@@ -87,7 +87,7 @@ def build_search_url(params):
     param_str = '&'.join(
         '{}={}'.format(quote(k, safe=''), quote(v, safe=''))
         for k, v in params)
-    return '{api}/{entity}/{param_prefix}{params}'.format(
+    return '{api}/{entity}{param_prefix}{params}'.format(
         api=api, entity=entity,
         param_prefix='?' if param_str else '',
         params=param_str)
@@ -100,7 +100,6 @@ def build_doi_url(access_token, doi):
         ('all_versions', 'true'),
         ('q', query_doi),
         ('status', 'published'),
-        ('size', '100'),
     ]
     if access_token:
         params_doi.append(('access_token', access_token))
@@ -108,11 +107,20 @@ def build_doi_url(access_token, doi):
 
 
 def download_records_paginated(url):
-    while url:
-        raw_data = dl.download_or_wait(url)
+    chunk_size = 100
+    page = 1
+    record_total = None
+    record_count = 0
+    while record_total is None or record_count < record_total:
+        the_url = f'{url}&size={chunk_size}&page={page}'
+        raw_data = dl.download_or_wait(the_url)
         json_data = json.loads(raw_data)
-        yield json_data['hits']['hits']
-        url = json_data['links'].get('next')
+        if record_total is None:
+            record_total = json_data['hits']['total']
+        hits = json_data['hits']['hits']
+        record_count += len(hits)
+        page += 1
+        yield hits
 
 
 def register(parser):
@@ -178,7 +186,6 @@ def updatemd(dataset, args):
         ('q', query_kw),
         ('type', 'dataset'),
         ('status', 'published'),
-        ('size', '100'),
     ]
     if access_token:
         params_kw.append(('access_token', access_token))
@@ -190,7 +197,6 @@ def updatemd(dataset, args):
         ('all_versions', 'true'),
         ('q', query_comm),
         ('status', 'published'),
-        ('size', '100'),
     ]
     if access_token:
         params_comm.append(('access_token', access_token))
