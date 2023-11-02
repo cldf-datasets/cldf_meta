@@ -24,8 +24,8 @@ def file_basename(file):
         r'/([^/]+?)(?:\?[^/]*)?(?:#[^/]*)?$',
         file['links']['self']).group(1)
     assert basename
-    if not basename.endswith('.{}'.format(file['type'])):
-        basename = '{}.{}'.format(basename, file['type'])
+    if (type_ := file.get('type')) and not basename.endswith(f'.{type_}'):
+        basename = f'{basename}.{type_}'
     return basename
 
 

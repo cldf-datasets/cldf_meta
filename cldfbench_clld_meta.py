@@ -40,9 +40,13 @@ def _is_blacklisted(blacklist, record):
         or record.get('conceptdoi') in blacklist)
 
 
+def _might_be_zip(file):
+    return file.get('type') == 'zip' or file.get('key', '').endswith('.zip')
+
+
 def _has_zip(record):
     """Return True if a record might contain a cldf dataset."""
-    return any(file['type'] == 'zip' for file in record.get('files', ()))
+    return any(_might_be_zip(file) for file in record.get('files', ()))
 
 
 # FIXME not happy with that function name
@@ -219,7 +223,7 @@ class Dataset(BaseDataset):
             (str(rec['id']), file)
             for rec in records
             for file in rec.get('files', ())
-            if file['type'] == 'zip'
+            if _might_be_zip(file)
             and (str(rec['id']), file_basename(file)) not in files_without_cldf]
 
         if file_urls:

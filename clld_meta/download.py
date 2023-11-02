@@ -85,8 +85,7 @@ def download_or_wait(url):
                     f'Attempt {attempt + 1} of {retries}; retrying...',
                     sep='\n', file=sys.stderr, flush=True)
     else:
-        raise IOError(
-            f'Tried {retries} times to no avail.  Giving up...')
+        raise IOError(f'Tried {retries} times to no avail.  Giving up...')
 
 
 def download_all(urls):
@@ -117,8 +116,7 @@ def download_all(urls):
                         f'Attempt {attempt + 1} of {retries}; retrying...',
                         sep='\n', file=sys.stderr, flush=True)
         else:
-            raise IOError(
-                f'Tried {retries} times to no avail.  Giving up...')
+            raise IOError(f'Tried {retries} times to no avail.  Giving up...')
 
 
 def validate_checksum(checksum, data):
