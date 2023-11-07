@@ -5,12 +5,14 @@ Update Zenodo metadata in `raw/zenodo-metadata.json`.
 from itertools import chain, islice
 import csv
 import json
+import pprint
 import re
 import sys
 from urllib.parse import quote
 
 from cldfbench.cli_util import add_dataset_spec, with_dataset
 
+from cerberus import Validator
 from clld_meta import download as dl
 from clld_meta.util import loggable_progress
 
@@ -80,6 +82,114 @@ TITLE_BLACKLIST_REGEX = r'''
 '''
 
 
+ZENODO_METADATA_SCHEMA = {
+    'title': {'type': 'string'},
+    'description': {'type': 'string'},
+    'version': {'type': 'string'},
+    'access_right': {'type': 'string'},
+    'publication_date': {'type': 'string'},
+    'relations': {
+        'type': 'dict',
+        'schema': {
+            'version': {
+                'type': 'list',
+                'schema': {
+                    'type': 'dict',
+                    'schema': {
+                        'index': {'type': 'integer'},
+                        'is_last': {'type': 'boolean'},
+                        'parent': {
+                            'type': 'dict',
+                            'schema': {
+                                'pid_type': {'type': 'string'},
+                                'pid_value': {'type': 'string'},
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    },
+    'related_identifiers': {
+        'type': 'list',
+        'schema': {
+            'type': 'dict',
+            'schema': {
+                'identifier': {'type': 'string'},
+                'relation': {'type': 'string'},
+            },
+        },
+    },
+    'license': {'type': 'dict', 'schema': {'id': {'type': 'string'}}},
+    'keywords': {'type': 'list', 'schema': {'type': 'string'}},
+    'creators': {
+        'type': 'list',
+        'schema': {
+            'type': 'dict',
+            'schema': {
+                'affiliation': {
+                    'type': 'string',
+                    'nullable': True,
+                },
+                'name': {'type': 'string'},
+            },
+        },
+    },
+    'contributors': {
+        'type': 'list',
+        'schema': {
+            'type': 'dict',
+            'schema': {
+                'affiliation': {
+                    'type': 'string',
+                    'nullable': True,
+                },
+                'name': {'type': 'string'},
+                'type': {'type': 'string'},
+            },
+        },
+    },
+}
+
+ZENODO_FILE_SCHEMA = {
+    'type': 'dict',
+    'schema': {
+        'key': {'type': 'string'},
+        'checksum': {'type': 'string'},
+        'links': {'type': 'dict', 'schema': {'self': {'type': 'string'}}},
+    },
+}
+
+ZENODO_RECORD_SCHEMA = {
+    'id': {'type': 'integer'},
+    'doi': {'type': 'string'},
+    'conceptrecid': {'type': 'string'},
+    'conceptdoi': {'type': 'string'},
+    'created': {'type': 'string'},
+    'updated': {'type': 'string'},
+    'modified': {'type': 'string'},
+    'metadata': {'type': 'dict', 'schema': ZENODO_METADATA_SCHEMA},
+    'files': {'type': 'list', 'schema': ZENODO_FILE_SCHEMA},
+}
+
+ZENODO_JSON_SCHEMA = {
+    'hits': {
+        'type': 'dict',
+        'schema': {
+            'hits': {
+                'type': 'list',
+                'schema': {'type': 'dict', 'schema': ZENODO_RECORD_SCHEMA},
+            },
+            'total': {'type': 'integer'},
+        },
+    },
+}
+
+ZENODO_JSON_VALIDATOR = Validator(
+    schema=ZENODO_JSON_SCHEMA,
+    allow_unknown=True)
+
+
 def build_search_url(params):
     """Build url for downloading record metadata from Zenodo."""
     entity = 'records'
@@ -115,6 +225,9 @@ def download_records_paginated(url):
         the_url = f'{url}&size={chunk_size}&page={page}'
         raw_data = dl.download_or_wait(the_url)
         json_data = json.loads(raw_data)
+        if not ZENODO_JSON_VALIDATOR.validate(json_data):
+            msg = pprint.pformat(ZENODO_JSON_VALIDATOR.errors)
+            raise ValueError(f"Zenodo's response has changed\n{msg}")
         if record_total is None:
             record_total = json_data['hits']['total']
         hits = json_data['hits']['hits']
