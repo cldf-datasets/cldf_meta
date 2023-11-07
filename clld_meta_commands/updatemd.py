@@ -140,10 +140,7 @@ ZENODO_METADATA_SCHEMA = {
         'schema': {
             'type': 'dict',
             'schema': {
-                'affiliation': {
-                    'type': 'string',
-                    'nullable': True,
-                },
+                'affiliation': {'type': 'string', 'nullable': True},
                 'name': {'type': 'string'},
                 'type': {'type': 'string'},
             },
@@ -236,6 +233,50 @@ def download_records_paginated(url):
         yield hits
 
 
+def flatten_structure(record):
+    github_link = None
+    for relid in record['related_identifiers']:
+        id_ = relid['identifier']
+        if re.match(r'https?://github\.com', id_):
+            if github_link is None:
+                github_link = id_
+            else:
+                msg = 'WARN {}: multiple github links: {} {}'.format(
+                    record['id'], github_link, id_)
+                print(msg, file=sys.stderr)
+        else:
+            msg = 'WARN {}: unknown relative id {}'.format(record['id'], id_)
+            print(msg, file=sys.stderr)
+    return {
+        'id': record['id'],
+        'doi': record['doi'],
+        'conceptid': record['conceptrecid'],
+        'conceptdoi': record['conceptdoi'],
+        'created': record['created'],
+        'updated': record['updated'],
+        'modified': record['modified'],
+        'title': record['metadata']['title'],
+        'description': record['metadata']['description'],
+        'version': record['metadata']['version'],
+        'access_right': record['metadata']['access_right'],
+        'publication_date': record['metadata']['publication_date'],
+        'license': record['metadata']['license']['id'],
+        'keywords': record['metadata']['keywords'],
+        'creators': record['metadata']['creators'],
+        'contributors': record['metadata']['contributors'],
+        'github_link': github_link,
+        'files': list(map(flatten_file, record['files'])),
+    }
+
+
+def flatten_file(file):
+    return {
+        'file_path': file['key'],
+        'checksum': file['checksum'],
+        'link': file['links']['self'],
+    }
+
+
 def register(parser):
     add_dataset_spec(parser)
 
@@ -326,7 +367,7 @@ def updatemd(dataset, args):
 
     try:
         records.update(loggable_progress(
-            (hit['id'], hit)
+            (hit['id'], flatten_structure(hit))
             for hits in chain(
                 download_records_paginated(keyword_url),
                 download_records_paginated(community_url),
