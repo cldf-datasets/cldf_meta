@@ -112,6 +112,7 @@ ZENODO_METADATA_SCHEMA = {
     },
     'related_identifiers': {
         'type': 'list',
+        'required': False,
         'schema': {
             'type': 'dict',
             'schema': {
@@ -121,7 +122,16 @@ ZENODO_METADATA_SCHEMA = {
         },
     },
     'license': {'type': 'dict', 'schema': {'id': {'type': 'string'}}},
-    'keywords': {'type': 'list', 'schema': {'type': 'string'}},
+    'resource_type': {
+        'type': 'dict',
+        'required': False,
+        'schema': {'type': {'type': 'string'}},
+    },
+    'keywords': {
+        'type': 'list',
+        'required': False,
+        'schema': {'type': 'string'},
+    },
     'creators': {
         'type': 'list',
         'schema': {
@@ -137,6 +147,7 @@ ZENODO_METADATA_SCHEMA = {
     },
     'contributors': {
         'type': 'list',
+        'required': False,
         'schema': {
             'type': 'dict',
             'schema': {
@@ -184,6 +195,7 @@ ZENODO_JSON_SCHEMA = {
 
 ZENODO_JSON_VALIDATOR = Validator(
     schema=ZENODO_JSON_SCHEMA,
+    require_all=True,
     allow_unknown=True)
 
 
@@ -233,21 +245,8 @@ def download_records_paginated(url):
         yield hits
 
 
-def flatten_structure(record):
-    github_link = None
-    for relid in record['related_identifiers']:
-        id_ = relid['identifier']
-        if re.match(r'https?://github\.com', id_):
-            if github_link is None:
-                github_link = id_
-            else:
-                msg = 'WARN {}: multiple github links: {} {}'.format(
-                    record['id'], github_link, id_)
-                print(msg, file=sys.stderr)
-        else:
-            msg = 'WARN {}: unknown relative id {}'.format(record['id'], id_)
-            print(msg, file=sys.stderr)
-    return {
+def make_flat_record(record):
+    new_record = {
         'id': record['id'],
         'doi': record['doi'],
         'conceptid': record['conceptrecid'],
@@ -261,12 +260,19 @@ def flatten_structure(record):
         'access_right': record['metadata']['access_right'],
         'publication_date': record['metadata']['publication_date'],
         'license': record['metadata']['license']['id'],
-        'keywords': record['metadata']['keywords'],
-        'creators': record['metadata']['creators'],
-        'contributors': record['metadata']['contributors'],
-        'github_link': github_link,
+        'creators': list(map(drop_nulls, record['metadata']['creators'])),
         'files': list(map(flatten_file, record['files'])),
     }
+    type_struct = record['metadata'].get('resource_type')
+    if type_struct and (type_ := type_struct.get('type')):
+        new_record['resource_type'] = type_
+    if (keywords := record['metadata'].get('keywords')):
+        new_record['keywords'] = keywords
+    if (contributors := record['metadata'].get('contributors')):
+        new_record['contributors'] = list(map(drop_nulls, contributors))
+    if (vcs_link := retrieve_vcs_link(record)):
+        new_record['vcs_link'] = vcs_link
+    return new_record
 
 
 def flatten_file(file):
@@ -277,11 +283,34 @@ def flatten_file(file):
     }
 
 
+def drop_nulls(mapping):
+    return {k: v for k, v in mapping.items() if k and v}
+
+
+def retrieve_vcs_link(record):
+    # I've only seen github so far but I want to at least check for these
+    hosts = (
+        'bitbucket.org', 'codeberg.org', 'gitlab.', 'sr.ht', 'github.com')
+    vcs_links = [
+        relid['identifier']
+        for relid in record['metadata'].get('related_identifiers', ())
+        if any(host in relid['identifier'] for host in hosts)]
+    if len(vcs_links) < 1:
+        return None
+    elif len(vcs_links) == 1:
+        return vcs_links[0]
+    else:
+        msg = 'WARN {}: multiple vcs links: {}'.format(
+            record['id'], ', '.join(vcs_links))
+        print(msg, file=sys.stderr)
+        return vcs_links[0]
+
+
 def register(parser):
     add_dataset_spec(parser)
 
 
-def is_valid(record):
+def might_have_cldf_in_it(record):
     """Filter for possible CLDF datasets.
 
      1. Ignore non-data entries (posters, books, videos, etc.).
@@ -294,12 +323,11 @@ def is_valid(record):
         if int(match.group(1)) < 2018:
             return False
 
-    md = record.get('metadata') or {}
-    if (type_ := md.get('resource_type', {}).get('type')):
+    if (type_ := record.get('resource_type')):
         if type_ in TYPE_BLACKLIST:
             return False
 
-    if (title := md.get('title')):
+    if (title := record.get('title')):
         if re.search(TITLE_BLACKLIST_REGEX, title, re.VERBOSE):
             return False
         elif re.match(r'(?:\S*?)glottolog(?:\S*?):', title.strip()):
@@ -367,22 +395,16 @@ def updatemd(dataset, args):
 
     try:
         records.update(loggable_progress(
-            (hit['id'], flatten_structure(hit))
+            (record['id'], record)
             for hits in chain(
                 download_records_paginated(keyword_url),
                 download_records_paginated(community_url),
                 _download_individual_dois(doi_urls))
             for hit in hits
-            if is_valid(hit)))
+            if might_have_cldf_in_it((record := make_flat_record(hit)))))
     except IOError as err:
         print(err, file=sys.stderr)
         sys.exit(74)
-
-    # We don't need Zenodo's view/download stats; they just create unnecessary
-    # diffs.
-    for record in records.values():
-        if 'stats' in record:
-            del record['stats']
 
     new_metadata = {
         'records': sorted(
