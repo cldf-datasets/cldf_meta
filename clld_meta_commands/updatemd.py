@@ -279,7 +279,7 @@ def flatten_file(file):
     return {
         'file_path': file['key'],
         'checksum': file['checksum'],
-        'link': file['links']['self'],
+        'url': file['links']['self'],
     }
 
 

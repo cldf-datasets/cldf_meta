@@ -13,40 +13,41 @@ from clld_meta import download as dl, zipdata
 from clld_meta.util import loggable_progress, file_basename, path_contains
 
 CLDFError = namedtuple('CLDFError', 'record_no file reason')
+Download = namedtuple('Download', 'url destination checksum')
 
 
-def _download_datasets(raw_dir, files, access_token=None):
-    urls = (file['links']['self'] for _, file in files)
+def make_download_path(data_dir, record_no, file_path):
+    output_folder = (data_dir / record_no).resolve()
+    output_file = (output_folder / file_path).resolve()
+    # make sure we don't leave the designated download area
+    assert data_dir.resolve() in output_file.parents
+    return output_file
+
+
+def download_datasets(downloads, access_token=None):
+    urls = (download.url for download in downloads)
     if access_token:
         urls = (dl.add_access_token(url, access_token) for url in urls)
     dls = dl.download_all(loggable_progress(urls, file=sys.stderr))
-    for raw_data, (id_, file) in zip(dls, files):
-        dl.validate_checksum(file['checksum'], raw_data)
-        basename = file_basename(file)
-        output_folder = raw_dir / id_
-        output_folder.mkdir(parents=True, exist_ok=True)
-        output_file = output_folder / basename
-        output_file.write_bytes(raw_data)
+    for raw_data, download in zip(dls, downloads):
+        dl.validate_checksum(download.checksum, raw_data)
+        download.destination.parent.mkdir(parents=True, exist_ok=True)
+        download.destination.write_bytes(raw_data)
 
 
-def _has_downloaded_data(datadir, record):
-    record_dir = datadir.joinpath(str(record['id']))
-    return record_dir.exists() and any(record_dir.iterdir())
-
-
-def _is_blacklisted(blacklist, record):
+def is_blacklisted(blacklist, record):
     return (
         record.get('doi') in blacklist
         or record.get('conceptdoi') in blacklist)
 
 
-def _might_be_zip(file):
-    return file.get('type') == 'zip' or file.get('key', '').endswith('.zip')
+def might_be_zip(file):
+    return file['file_path'].endswith('.zip')
 
 
-def _has_zip(record):
+def might_have_zip(record):
     """Return True if a record might contain a cldf dataset."""
-    return any(_might_be_zip(file) for file in record.get('files', ()))
+    return any(might_be_zip(file) for file in record.get('files', ()))
 
 
 # FIXME not happy with that function name
@@ -205,32 +206,38 @@ class Dataset(BaseDataset):
             for record_no, file, _ in islice(
                 self.etc_dir.read_csv('not-cldf.csv'), 1, None)}
 
-        datadir = self.raw_dir / 'datasets'
-        # only download if raw/<id> folder is missing or empty
-
         # TODO: add 'All Versions' DOI for the meta database itself, once we have one.
         with open(self.etc_dir / 'blacklist.csv', encoding='utf-8') as f:
             rdr = csv.reader(f)
             blacklist = {doi for doi, _ in islice(rdr, 1, None) if doi}
 
-        records = [
-            rec
-            for rec in records
-            if not _has_downloaded_data(datadir, rec)
-            and not _is_blacklisted(blacklist, rec)]
-        # XXX how will I know if someone packages a cldf dataset as a tarball…?
-        file_urls = [
-            (str(rec['id']), file)
+        data_dir = self.raw_dir / 'datasets'
+
+        records = (
+            record
+            for record in records
+            if not is_blacklisted(blacklist, record))
+        downloads = (
+            Download(
+                url=file['url'],
+                destination=make_download_path(
+                    data_dir, str(rec['id']), file['file_path']),
+                checksum=file['checksum'])
             for rec in records
             for file in rec.get('files', ())
-            if _might_be_zip(file)
-            and (str(rec['id']), file_basename(file)) not in files_without_cldf]
+            # XXX what if someone sends a tarball?
+            if might_be_zip(file)
+            and (str(rec['id']), file['file_path']) not in files_without_cldf)
+        downloads = [
+            download
+            for download in downloads
+            if not download.destination.exists()]
 
-        if file_urls:
+        if downloads:
             print(
-                'downloading', len(file_urls), 'datasets...',
+                'downloading', len(downloads), 'datasets...',
                 file=sys.stderr, flush=True)
-            _download_datasets(datadir, file_urls, access_token=access_token)
+            download_datasets(downloads, access_token)
         else:
             print(
                 'Datasets already up-to-date.',
@@ -251,8 +258,8 @@ class Dataset(BaseDataset):
         records = [
             rec
             for rec in self.raw_dir.read_json('zenodo-metadata.json')['records']
-            if _has_zip(rec)
-            and not _is_blacklisted(blacklist, rec)]
+            if might_have_zip(rec)
+            and not is_blacklisted(blacklist, rec)]
         not_cldf_full = [
             CLDFError(*row)
             for row in islice(self.etc_dir.read_csv('not-cldf.csv'), 1, None)]
