@@ -10,13 +10,14 @@ from cldfbench import Dataset as BaseDataset
 from cldfbench.cldf import CLDFSpec
 
 from clld_meta import download as dl, zipdata
-from clld_meta.util import loggable_progress, file_basename, path_contains
+from clld_meta.util import loggable_progress, path_contains
 
 CLDFError = namedtuple('CLDFError', 'record_no file reason')
+DataArchive = namedtuple('DataArchive', 'record_no file_id path')
 Download = namedtuple('Download', 'url destination checksum')
 
 
-def make_download_path(data_dir, record_no, file_path):
+def download_path(data_dir, record_no, file_path):
     output_folder = (data_dir / record_no).resolve()
     output_file = (output_folder / file_path).resolve()
     # make sure we don't leave the designated download area
@@ -43,11 +44,6 @@ def is_blacklisted(blacklist, record):
 
 def might_be_zip(file):
     return file['file_path'].endswith('.zip')
-
-
-def might_have_zip(record):
-    """Return True if a record might contain a cldf dataset."""
-    return any(might_be_zip(file) for file in record.get('files', ()))
 
 
 # FIXME not happy with that function name
@@ -100,8 +96,8 @@ def collect_dataset_stats(record_no, zipreader):
     }
 
 
-def _stats_from_zip(args):
-    record_no, zip_path = args
+def _stats_from_zip(data_archive):
+    record_no, file_id, zip_path = data_archive
     found_data = False
     with zipfile.ZipFile(zip_path) as zip:
         file_tree = {Path(info.filename): info for info in zip.infolist()}
@@ -120,11 +116,11 @@ def _stats_from_zip(args):
             found_data = True
             yield collect_dataset_stats(record_no, zipreader), None
     if not found_data:
-        yield None, CLDFError(record_no, zip_path.name, 'nocldf')
+        yield None, CLDFError(record_no, file_id, 'nocldf')
 
 
-def stats_from_zip(args):
-    return list(_stats_from_zip(args))
+def stats_from_zip(data_archive):
+    return list(_stats_from_zip(data_archive))
 
 
 def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
@@ -220,7 +216,7 @@ class Dataset(BaseDataset):
         downloads = (
             Download(
                 url=file['url'],
-                destination=make_download_path(
+                destination=download_path(
                     data_dir, str(rec['id']), file['file_path']),
                 checksum=file['checksum'])
             for rec in records
@@ -251,39 +247,51 @@ class Dataset(BaseDataset):
         """
         # Prepare metadata
 
+        not_cldf_full = [
+            CLDFError(*row)
+            for row in islice(self.etc_dir.read_csv('not-cldf.csv'), 1, None)]
+
         with open(self.etc_dir / 'blacklist.csv', encoding='utf-8') as f:
             rdr = csv.reader(f)
             blacklist = {doi for doi, _ in islice(rdr, 1, None) if doi}
 
-        records = [
-            rec
-            for rec in self.raw_dir.read_json('zenodo-metadata.json')['records']
-            if might_have_zip(rec)
-            and not is_blacklisted(blacklist, rec)]
-        not_cldf_full = [
-            CLDFError(*row)
-            for row in islice(self.etc_dir.read_csv('not-cldf.csv'), 1, None)]
+        try:
+            records = self.raw_dir.read_json('zenodo-metadata.json')['records']
+            records = [
+                record
+                for record in records
+                if not is_blacklisted(blacklist, record)]
+        except IOError:
+            args.log.error(
+                'No zenodo metadata found.'
+                '  Run `cldfbench clld-meta.updatemd cldfbench_clld_meta.py`'
+                '  to download the metadata.')
+            return
 
         # Read CLDF data
 
         print('finding cldf datasets..', file=sys.stderr, flush=True)
         not_cldf = {(err.record_no, err.file) for err in not_cldf_full}
+        data_dir = self.raw_dir / 'datasets'
         data_archives = [
-            (rec['id'], self.raw_dir / 'datasets' / str(rec['id']) / fname)
+            DataArchive(
+                record_no=rec['id'],
+                file_id=file['file_path'],
+                path=download_path(data_dir, str(rec['id']), file['file_path']))
             for rec in records
-            for fname in map(file_basename, rec['files'])
-            if fname.endswith('.zip')
-            and (str(rec['id']), fname) not in not_cldf]
+            for file in rec.get('files', ())
+            if might_be_zip(file)
+            and (str(rec['id']), file['file_path']) not in not_cldf]
 
         missing_files = [
-            (record_no, path)
-            for record_no, path in data_archives
-            if not path.is_file()]
+            archive
+            for archive in data_archives
+            if not archive.path.is_file()]
         if missing_files:
             print(
                 '\n'.join(
-                    '{}:{}: file not found'.format(record_no, path.name)
-                    for record_no, path in missing_files),
+                    f'{archive.record_no}:{archive.file_id}: file not found'
+                    for archive in missing_files),
                 file=sys.stderr)
             print(
                 'ERROR: Some datasets seem to be missing in raw/.',
@@ -390,27 +398,28 @@ class Dataset(BaseDataset):
         contributions = [
             {
                 'ID': rec['id'],
-                'Name': rec['metadata']['title'],
-                'Description': rec['metadata']['description'],
-                'Version': rec['metadata']['version'],
+                'Name': rec['title'],
+                'Description': rec['description'],
+                'Version': rec['version'],
                 'Creators': [
-                    c['name'] for c in rec['metadata']['creators']],
+                    c['name'] for c in rec['creators']],
                 'Contributors': [
-                    c['name'] for c in rec['metadata'].get('contributors', ())],
+                    c['name'] for c in rec.get('contributors', ())],
                 'DOI': rec['doi'],
                 'Concept_DOI': rec['conceptdoi'],
-                'Parent_ID': rec['conceptrecid'],
-                # TODO: extract github link somehow...
-                # 'GitHub_Link': contrib_md['github-link'],
+                'Parent_ID': rec['conceptid'],
+                'GitHub_Link': rec.get('git-link'),
                 'Date_Created': rec['created'],
                 'Date_Updated': rec['updated'],
+                # TODO: Communities are not extracted from the zenodo response
                 'Communities': [
-                    c['id'] for c in rec['metadata'].get('communities', ())],
-                'License': rec['metadata']['license']['id'],
+                    c['id'] for c in rec.get('communities', ())],
+                'License': rec['license'],
                 'Zenodo_ID': rec['id'],
-                'Zenodo_Link': rec['links']['html'],
-                'Zenodo_Keywords': rec['metadata'].get('keywords', ()),
-                'Zenodo_Type': rec['metadata']['resource_type']['type'],
+                'Zenodo_Link': 'https://zenodo.org/records/{}'.format(
+                    rec['id']),
+                'Zenodo_Keywords': rec.get('keywords', ()),
+                'Zenodo_Type': rec['resource_type'],
             }
             for rec in records
             if rec['id'] in contribution_ids]

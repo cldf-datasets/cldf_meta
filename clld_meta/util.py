@@ -19,16 +19,6 @@ def loggable_progress(things, file=sys.stderr):
     print('done.', file=file, flush=True)
 
 
-def file_basename(file):
-    basename = re.search(
-        r'/([^/]+?)(?:\?[^/]*)?(?:#[^/]*)?$',
-        file['links']['self']).group(1)
-    assert basename
-    if (type_ := file.get('type')) and not basename.endswith(f'.{type_}'):
-        basename = f'{basename}.{type_}'
-    return basename
-
-
 def path_contains(path, regex):
     """Return `True` iff an element in `path` matches `regex`."""
     while True:

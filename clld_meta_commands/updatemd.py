@@ -270,8 +270,8 @@ def make_flat_record(record):
         new_record['keywords'] = keywords
     if (contributors := record['metadata'].get('contributors')):
         new_record['contributors'] = list(map(drop_nulls, contributors))
-    if (vcs_link := retrieve_vcs_link(record)):
-        new_record['vcs_link'] = vcs_link
+    if (git_link := retrieve_git_link(record)):
+        new_record['git-link'] = git_link
     return new_record
 
 
@@ -287,23 +287,23 @@ def drop_nulls(mapping):
     return {k: v for k, v in mapping.items() if k and v}
 
 
-def retrieve_vcs_link(record):
+def retrieve_git_link(record):
     # I've only seen github so far but I want to at least check for these
     hosts = (
         'bitbucket.org', 'codeberg.org', 'gitlab.', 'sr.ht', 'github.com')
-    vcs_links = [
+    git_links = [
         relid['identifier']
         for relid in record['metadata'].get('related_identifiers', ())
         if any(host in relid['identifier'] for host in hosts)]
-    if len(vcs_links) < 1:
+    if len(git_links) < 1:
         return None
-    elif len(vcs_links) == 1:
-        return vcs_links[0]
+    elif len(git_links) == 1:
+        return git_links[0]
     else:
-        msg = 'WARN {}: multiple vcs links: {}'.format(
-            record['id'], ', '.join(vcs_links))
+        msg = 'WARN {}: multiple git links: {}'.format(
+            record['id'], ', '.join(git_links))
         print(msg, file=sys.stderr)
-        return vcs_links[0]
+        return git_links[0]
 
 
 def register(parser):
