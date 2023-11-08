@@ -145,6 +145,7 @@ akkk1240,Ak,Papunesia,-3.57026,141.784,akkk1240,akq
 akla1240,Aklanon,Papunesia,11.55432,122.35413,akla1240,akl
 akla1241,Kailibo Aklanon,Papunesia,11.5543,122.354,akla1241,
 akol1237,Akolet,Papunesia,-6.22711,150.182,akol1237,akt
+akoo1247,Ako,Eurasia,,,akoo1247,
 akoo1248,Akoose,Africa,4.9243,9.65522,akoo1248,bss
 akoy1238,Akoye,Papunesia,-7.66067,145.669,akoy1238,miw
 akpe1248,Akpes,Africa,7.50256,5.95559,akpe1248,ibe
@@ -675,6 +676,7 @@ bamu1254,Bamukumbit,Africa,5.87292,10.3537,bamu1254,bqt
 bamu1256,Bamunka,Africa,6.00203,10.5127,bamu1256,bvm
 bamu1257,Bamu,Papunesia,-7.93818,143.545,bamu1257,bcf
 bamw1238,Bamwe,Africa,2.16773,19.1644,bamw1238,bmg
+bana1281,Banaphari,Eurasia,,,bana1281,
 bana1283,Banai,Eurasia,25.8,90.2,bana1283,
 bana1287,Banaban,Papunesia,,,bana1287,
 bana1288,Banao Itneg,Papunesia,17.5643,121.05,bana1288,bjx
@@ -958,6 +960,7 @@ bilb1241,Bilibil,Papunesia,-5.26505,145.764,bilb1241,brz
 bilb1242,Bilba,Papunesia,-10.6503,123.307,bilb1242,bpz
 bile1244,Bile,Africa,8.90052,11.1907,bile1244,bil
 bile1245,Bileki,Papunesia,,,bile1245,
+bili1249,Bilichi,Eurasia,,,bili1249,
 bili1250,Bilinarra,Australia,-16.868771,130.533991,bili1250,
 bili1252,Biliau,Papunesia,,,bili1252,
 bili1260,Bilin,Africa,15.7833,38.3917,bili1260,byn
@@ -1409,6 +1412,7 @@ chag1248,Kilimanjaro Bantu,,,,chag1248,
 chah1242,Chahi,Africa,,,chah1242,
 chah1248,Chaha,Africa,,,chah1248,
 chai1253,Chaima,South America,9.21256,-63.1034,chai1253,ciy
+chai1254,Chairel,Eurasia,24.30438,93.866431,chai1254,
 chak1266,Chakma,Eurasia,23.00148,92.339,chak1266,ccp
 chak1270,Chak,Eurasia,21.4134,92.5953,chak1270,ckh
 chak1271,Chakali,Africa,9.83446,-1.90181,chak1271,cli
@@ -1418,11 +1422,13 @@ chal1267,Chalikha,Eurasia,27.3231,91.262,chal1267,tgf
 chal1269,Chala,Africa,8.00089,0.50896,chal1269,cll
 chal1275,Chaldean Neo-Aramaic,Eurasia,37.0972,43.5027,chal1275,cld
 cham1307,Chambeali,Eurasia,32.5476,76.1796,cham1307,cdh
+cham1308,Chamba-Lahuli,Eurasia,,,cham1308,
 cham1309,Chamalal,Eurasia,42.5024,45.995,cham1309,cji
 cham1312,Chamorro,Papunesia,13.438011,144.74474,cham1312,cha
 cham1313,Chambri,Papunesia,-4.27831,143.097,cham1313,can
 cham1315,Chamacoco,South America,-20.5899,-58.2005,cham1315,ceg
 cham1318,Chamicuro,South America,-5.1149,-75.6778,cham1318,ccc
+cham1328,Cham,,,,cham1328,
 cham1329,Chamari,Eurasia,21.3532,79.6232,cham1329,cdg
 chan1309,Changthang,Eurasia,34.0662,78.2389,chan1309,cna
 chan1310,Chantyal,Eurasia,28.684,83.4488,chan1310,chx
@@ -1469,6 +1475,7 @@ chhi1245,Chintang,Eurasia,26.961,87.1899,chhi1245,ctn
 chhu1238,Chhulung,Eurasia,26.9107,87.2133,chhu1238,cur
 chia1237,Chiangmai Sign Language,Eurasia,18.8629,99.039,chia1237,csd
 chia1262,Chiapanec,North America,16.6562,-91.9417,chia1262,cip
+chib1247,Chibhali,Eurasia,,,chib1247,
 chib1248,Chiba,Eurasia,,,chib1248,
 chib1270,Chibcha,South America,6.24999,-74.1666,chib1270,chb
 chic1269,Chichibu,Eurasia,,,chic1269,
@@ -1732,6 +1739,7 @@ dann1241,Dan,Africa,7.22812,-8.24535,dann1241,daf
 dano1240,Dano,Papunesia,-5.92188,145.254,dano1240,aso
 dans1239,Chaari,Africa,10.00982,9.20784,dans1239,cxh
 dans1240,Danster !Ui,Africa,-28.11,24.86,dans1240,gku
+danu1251,Danu,Eurasia,,,danu1251,dnv
 daof1238,Rtau,Eurasia,,,daof1238,
 daon1243,Daonda,Papunesia,-3.31443,141.22,daon1243,dnd
 daoo1238,Dao,Papunesia,-3.28643,136.421,daoo1238,daz
@@ -1779,7 +1787,6 @@ dehu1237,Dehu,Papunesia,-20.8892,167.229,dehu1237,dhv
 dein1238,Deing,Papunesia,,,dein1238,
 deir1239,Deirate,Papunesia,,,deir1239,
 dela1251,Dela-Oenale,Papunesia,-10.8469,122.852,dela1251,row
-dela1252,Dela,Papunesia,,,dela1252,
 delo1240,Delo,Africa,7.90997,0.59728,delo1240,ntr
 demi1242,Demisa,Papunesia,-2.54564,136.694,demi1242,dei
 demm1245,Dem,Papunesia,-3.72183,137.632,demm1245,dem
@@ -1798,6 +1805,7 @@ dera1245,Dera (Indonesia),Papunesia,-3.52309,140.947,dera1245,kbv
 dera1248,Dera (Nigeria),Africa,10.072,12.0256,dera1248,kna
 dere1243,Derebai,Papunesia,,,dere1243,
 derg1234,Derge (Dege),Eurasia,,,derg1234,
+derm1238,Dermuha,Eurasia,,,derm1238,
 desa1247,Desano,South America,0.58157,-69.4955,desa1247,des
 desi1235,Desiya,Eurasia,18.965,82.646,desi1235,dso
 dewo1238,Dewoin,Africa,6.56113,-10.9076,dewo1238,dee
@@ -1823,6 +1831,7 @@ dhun1239,Dhungaloo,Australia,,,dhun1239,dhx
 dhur1239,Dhurga,Australia,-35.412,150.134,dhur1239,dhu
 dhuw1248,Dhuwal-Dhuwala,,,,dhuw1248,
 dhuw1249,Dhuwal,Australia,-12.7825,136.008,dhuw1249,duj
+dhuw1250,Dhuwaya,Australia,,,dhuw1250,dwy
 diaa1238,Alu-Sinagen,Papunesia,-3.38837,142.248,diaa1238,dia
 diah1239,Diahói,South America,-7.9939,-62.1936,diah1239,
 diba1242,Dibabawon Manobo,Papunesia,7.85664,126.018,diba1242,mbd
@@ -2019,6 +2028,7 @@ east2352,Eastern Magar,Eurasia,27.4135166667,87.06171,east2352,mgp
 east2354,Eastern Parbate Kham,Eurasia,28.5259,82.9523,east2354,kif
 east2357,Eastern Meohang,Eurasia,27.5103,87.1134,east2357,emg
 east2363,Eastern Hongshuihe Zhuang,Eurasia,23.7,109.0,east2363,zeh
+east2369,East Hmongic,,,,east2369,
 east2370,Eastern Qiandong Miao,Eurasia,26.4966,109.046,east2370,hmq
 east2371,Eastern Xiangxi Miao,Eurasia,28.7318,109.756,east2371,muq
 east2379,Eastern Arrernte,Australia,-23.3583,135.046,east2379,aer
@@ -2057,6 +2067,7 @@ east2563,Eastern Cham,Eurasia,11.2853,108.49,east2563,cjm
 east2652,Eastern Oromo,Africa,8.67428,41.4395,east2652,hae
 east2690,Eastern Egyptian Bedawi Arabic,Eurasia,29.6742,33.6113,east2690,avl
 east2694,Eastern Subanen,Papunesia,8.2475,123.5234,east2694,sfe
+east2744,Eastern Bengali,,,,east2744,
 east2767,East Sogeram,,,,east2767,
 east2773,Eastern Newari,Eurasia,27.576985,86.033964,east2773,
 east2774,East Khanty,,59.97339,74.44,east2774,
@@ -2143,6 +2154,7 @@ enga1251,Engan,,,,enga1251,
 enga1252,Enga,Papunesia,-5.45619,143.685,enga1252,enq
 enge1239,Egene,Africa,5.11931,6.37339,enge1239,enn
 engg1245,Enggano,Papunesia,-5.38846,102.245,engg1245,eno
+ennn1242,En (China),Eurasia,,,ennn1242,
 ennn1243,En,Eurasia,22.8386,106.167,ennn1243,enc
 enqi1234,Enqi Bai,Eurasia,,,enqi1234,
 enre1239,Enrekang,Papunesia,-3.53848,119.66,enre1239,ptt
@@ -2155,7 +2167,6 @@ epig1241,Epigraphic Mayan,North America,18.993121,-88.768865,epig1241,emy
 epii1237,Epi,,,,epii1237,
 erav1242,Eravallan,Eurasia,10.8003,76.8389,erav1242,era
 erav1244,Erave,Papunesia,-6.55011,143.918,erav1244,kjy
-eray1237,Eray,Papunesia,,,eray1237,
 eree1240,Ere (China),Eurasia,,,eree1240,
 eree1241,Ere,Papunesia,-2.15569,147.083,eree1241,twp
 erit1239,Eritai,Papunesia,-2.71182,138.053,erit1239,ert
@@ -2280,7 +2291,6 @@ fuku1241,Fukui,Eurasia,,,fuku1241,
 fuku1243,Fukushima,Eurasia,,,fuku1243,
 fuli1240,Fuliiru,Africa,-3.04022,28.9865,fuli1240,flr
 fuln1247,Fulniô,South America,-9.02591,-37.1402,fuln1247,fun
-funa1237,Funai,Papunesia,,,funa1237,
 fung1245,Fungwa,Africa,10.5021,6.59138,fung1245,ula
 fung1247,Fungom,Africa,,,fung1247,
 furr1244,Fur,Africa,12.0455,23.6401,furr1244,fvr
@@ -2307,6 +2317,7 @@ gadd1242,Gaddi,Eurasia,32.36,76.5713,gadd1242,gbk
 gadd1244,Gaddang,Papunesia,16.5468,121.177,gadd1244,gad
 gade1236,Gade Lohar,Eurasia,25.8583,78.2187,gade1236,gda
 gade1242,Gade,Africa,8.71139,7.49869,gade1242,ged
+gadi1238,Gadi Chameali,Eurasia,,,gadi1238,
 gadj1243,Gajirrabeng,Australia,-15.4786,129.156,gadj1243,gdh
 gads1258,Gadsup,Papunesia,-6.31631,145.997,gads1258,gaj
 gaee1238,Gae,Papunesia,,,gaee1238,
@@ -2981,6 +2992,7 @@ inor1238,Inoric,Africa,7.94883,37.7968,inor1238,ior
 inor1240,Inor,Africa,,,inor1240,
 inpu1234,Inpui Naga,Eurasia,24.8761,93.8096,inpu1234,nkf
 inte1259,International Sign,Eurasia,44.95,11.4,inte1259,ils
+inth1239,Intha,Eurasia,,,inth1239,
 inui1246,Inuit,,,,inui1246,
 inui1247,Inuit Sign Language,North America,63.748611,-68.519722,inui1247,iks
 inup1234,Alaskan Inupiaq,North America,68.3217,-133.532,inup1234,ipk
@@ -3098,6 +3110,7 @@ jama1262,Jamaican Creole English,North America,18.13,-77.2612,jama1262,jam
 jama1265,Jamaican English,Eurasia,,,jama1265,
 jamb1236,Jambi Malay,Papunesia,-2.6469,103.13,jamb1236,jax
 jami1235,Jamiltepec Mixtec,North America,16.2279,-97.8417,jami1235,mxt
+jami1236,Jaminjung,Australia,,,jami1236,
 jams1239,Jamsay Dogon,Africa,14.1794,-2.57999,jams1239,djm
 jand1248,Jandai,Australia,-27.56865,153.46239,jand1248,jan
 jang1254,Jangshung,Eurasia,31.5666,78.4344,jang1254,jna
@@ -3121,6 +3134,7 @@ jaun1243,Jaunsari,Eurasia,30.5587,77.9084,jaun1243,jns
 java1254,Javanese,Papunesia,-7.001,109.287,java1254,jav
 javi1237,Javindo,Papunesia,-7.032902,110.419809,javi1237,jvd
 jawe1237,Jawe,Papunesia,-20.6648,164.676,jawe1237,jaz
+jawi1238,Jawi,Australia,,,jawi1238,
 jaya1242,Jaya,Africa,12.3707,17.9415,jaya1242,jyy
 jebe1250,Jebero,South America,-5.40317,-76.4103,jebe1250,jeb
 jebl1238,Jebli,Africa,,,jebl1238,
@@ -3256,6 +3270,7 @@ kaia1245,Kaian,Papunesia,-4.06543,144.756,kaia1245,kct
 kaib1244,Kaibobo,Papunesia,-3.1603,128.211,kaib1244,kzb
 kaid1239,Kaidipang,Papunesia,0.85641,123.217,kaid1239,kzp
 kaie1237,Kaiep,Papunesia,-3.70524,143.884,kaie1237,kbw
+kaik1244,Kaikadi,Eurasia,18.3859,76.0003,kaik1244,kep
 kaik1246,Kaike,Eurasia,28.853,83.1384,kaik1246,kzq
 kaim1241,Kaimbulawa,Papunesia,-5.65447,122.538,kaim1241,zka
 kain1272,Kaingang,South America,-27.7671,-52.5394,kain1272,kgp
@@ -3303,7 +3318,6 @@ kala1400,Central Kalapuya,North America,44.9861,-123.925,kala1400,kyl
 kala1401,Kalaamaya,Australia,-30.245,120.223,kala1401,lkm
 kale1246,Kalenjin,Africa,-0.02158,35.92363,kale1246,kln
 kali1299,Kaliai,Papunesia,,,kali1299,
-kali1300,Kalikasa,Papunesia,,,kali1300,
 kali1308,Kalispel-Pend d'Oreille,North America,47.5825,-114.19,kali1308,fla
 kali1309,Kalispel,North America,,,kali1309,
 kalk1245,Kalkoti,Eurasia,35.3651,72.0533,kalk1245,xka
@@ -3347,6 +3361,7 @@ kamu1258,Kamu,Australia,-13.5393,131.098,kamu1258,xmu
 kamu1260,Kamula,Papunesia,-7.28798,142.639,kamu1260,xla
 kamv1242,Kamviri,Eurasia,35.409908,71.338778,kamv1242,xvi
 kamw1239,Kamwe,Africa,10.646,13.5136,kamw1239,hig
+kana1281,Kanauji,Eurasia,27.1074,79.2883,kana1281,bjj
 kana1283,Kanashi,Eurasia,32.2843,77.1553,kana1283,xns
 kana1286,Kanakanavu,Papunesia,23.3235,120.887,kana1286,xnb
 kana1288,Kanasi,Papunesia,-10.1658,149.751,kana1288,soq
@@ -3473,6 +3488,7 @@ katb1237,Avava,Papunesia,-16.2701,167.484,katb1237,tmb
 katc1249,Katcha-Kadugli-Miri,Africa,10.8423,29.4914,katc1249,xtc
 katc1250,Katcha,Africa,,,katc1250,
 kate1253,Kâte,Papunesia,-6.4795,147.757,kate1253,kmg
+kath1249,Kathiyawadi,Eurasia,,,kath1249,
 kath1250,Kathoriya Tharu,Eurasia,28.5867,80.8931,kath1250,tkt
 kath1251,Thou-Kathu,Eurasia,24.2,105.1,kath1251,ykt
 kath1253,Kathlamet,North America,46.197,-123.56,kath1253,
@@ -3588,7 +3604,9 @@ khal1275,Khaling,Eurasia,27.3912,87.5053,khal1275,klr
 kham1281,Khamnigan Mongol,Eurasia,49.0,117.0,kham1281,ykh
 kham1282,Khams Tibetan,Eurasia,31.9313,91.7062,kham1282,khg
 kham1283,Khamba,Eurasia,28.9930167,94.89439116,kham1283,kbg
+kham1284,Khami,Eurasia,,,kham1284,
 kham1286,Kham,,,,kham1286,
+kham1288,Khambu (Kulung),Eurasia,,,kham1288,
 kham1290,Khamti,Eurasia,27.6653,97.0359,kham1290,kht
 kham1291,Khamyang,Eurasia,26.88946,93.99325,kham1291,ksu
 khan1272,Khandesi,Eurasia,21.3181,74.142,khan1272,khn
@@ -3598,6 +3616,7 @@ khan1277,Southern Tangkhul Naga,Eurasia,25.74,94.25,khan1277,
 khan1278,Khana,Africa,4.70908,7.44363,khan1278,ogo
 khao1244,Khao,Eurasia,21.4543,103.467,khao1244,xao
 khap1242,Kha Phong,Eurasia,18.25,105.0,khap1242,
+khar1282,Kharwa,Eurasia,,,khar1282,
 khar1283,Kharia Thar,Eurasia,22.245,83.799,khar1283,ksy
 khar1285,Kharmangi,Eurasia,,,khar1285,
 khar1287,Kharia,Eurasia,22.3571,84.3922,khar1287,khr
@@ -3615,6 +3634,7 @@ khin1240,Khinalug,Eurasia,41.1801,48.0571,khin1240,kjj
 khir1237,Khirwar,Eurasia,23.7062,82.9615,khir1237,kwx
 khis1238,Khisa,Africa,9.72099,-4.05416,khis1238,kqm
 khit1238,Khithaulhu,South America,,,khit1238,
+khmu1255,Khmu',,,,khmu1255,
 khmu1256,Khmu,Eurasia,20.2463,101.671,khmu1256,kjg
 khoc1238,Khocharkhotin,Eurasia,,,khoc1238,
 khoe1241,Khoe,,,,khoe1241,
@@ -3634,6 +3654,7 @@ khuf1238,Khufi,Eurasia,37.8595,71.60373,khuf1238,
 khum1248,Khumi Chin,Eurasia,22.87125,92.9894633333,khum1248,cnk
 khun1255,Khunsaric,Eurasia,36.6963,49.3742,khun1255,kfm
 khun1259,Khün,Eurasia,19.6062,99.3363,khun1259,kkh
+khur1238,Khurai,Eurasia,,,khur1238,
 khuz1234,Khuzestani,Eurasia,,,khuz1234,
 khva1239,Khwarshi-Inkhoqwari,Eurasia,42.2743,45.9977,khva1239,khv
 khwa1238,Khwarezmian,Eurasia,41.68,60.75,khwa1238,xco
@@ -3683,6 +3704,7 @@ kiry1234,Kirya-Konzel,Africa,10.48,13.36,kiry1234,fkk
 kisa1261,Kisan (Dravidian),Eurasia,,,kisa1261,xis
 kisa1263,Kisa,Africa,0.1529,34.5708,kisa1263,lks
 kisa1266,Kisar,Papunesia,-8.05122,127.18,kisa1266,kje
+kish1245,Kishtwari,Eurasia,,,kish1245,
 kisi1243,Kisi,Africa,-9.93,34.4825,kisi1243,kiz
 kiss1245,Kissi,,,,kiss1245,
 kiss1246,Kis,Papunesia,-3.83909,143.96,kiss1246,kis
@@ -3695,10 +3717,12 @@ kitj1240,Kitja,Australia,-17.5758,127.392,kitj1240,gia
 kits1249,Kitsai,North America,31.83,-96.5,kits1249,kii
 kitu1245,Kituba (Congo),Africa,-4.15654,14.5648,kitu1245,mkw
 kitu1246,Kituba (Democratic Republic of Congo),Africa,-2.29601,17.1548,kitu1246,ktu
+kiun1241,Kiunthali,Eurasia,,,kiun1241,
 kjac1234,Chinese Pidgin Russian,Eurasia,,,kjac1234,
 klam1254,Klamath-Modoc,North America,42.5861,-121.704,klam1254,kla
 klao1243,Klao,Africa,5.05,-8.85,klao1243,klu
 klik1240,Klikitat,North America,,,klik1240,
+kllu1238,Kullui,Eurasia,,,kllu1238,
 koal1240,Koalib-Rere,Africa,11.69648,30.47166,koal1240,kib
 koas1236,Koasati,North America,30.4096,-92.709,koas1236,cku
 koba1240,Koba,Papunesia,-6.47901,134.61,koba1240,kpd
@@ -3747,6 +3771,7 @@ kola1285,Kola,Papunesia,-5.48833,134.592,kola1285,kvv
 kolb1240,Kolbila,Africa,8.26797,13.2707,kolb1240,klc
 kolb1241,Kol (Bangladesh),Eurasia,24.5318,88.337,kolb1241,ekl
 kolc1235,Kol (Cameroon),Africa,3.65994,12.8574,kolc1235,biw
+kolh1240,Kolhreng,Eurasia,,,kolh1240,
 koli1253,Kolibugan Subanon,Papunesia,7.77212,122.567,koli1253,skn
 kolo1267,Kolom,Papunesia,-5.57832,146.212,kolo1267,klm
 kolp1236,Kol (Papua New Guinea),Papunesia,-5.21042,151.583,kolp1236,kol
@@ -3833,7 +3858,6 @@ kota1272,Kotafon Gbe,Africa,6.64027,1.72346,kota1272,kqk
 kota1274,Kota (Gabon),Africa,1.016,13.97,kota1274,koq
 kota1275,Kota Bangun Kutai Malay,Papunesia,-0.27049,116.297,kota1275,mqg
 koti1238,Koti,Africa,-16.4823,39.7602,koti1238,eko
-koto1251,Kotos,Papunesia,,,koto1251,
 kott1239,Kott-Assan,Eurasia,55.0,94.0,kott1239,zko
 koty1238,Kotya,Africa,,,koty1238,
 kotz1238,Kotzebue Sound Inupiatun,North America,,,kotz1238,
@@ -4153,6 +4177,7 @@ lard1243,Lardil,Australia,-16.56152,139.4343,lard1243,lbz
 lare1249,Larevat,Papunesia,-16.1971,167.387,lare1249,lrv
 larg1235,Diandongbei-Large Flowery Miao,Eurasia,27.8682,104.06,larg1235,hmd
 lari1253,Larestani,Eurasia,27.6436,54.63449,lari1253,lrl
+lari1254,Lari (Sindhi),Eurasia,,,lari1254,
 lari1255,Larike-Wakasihu,Papunesia,-3.76522,127.956,lari1255,alo
 laro1243,Laru (North Sudan),Africa,11.3915,30.3824,laro1243,lro
 lart1238,Larteh,Africa,5.9367,-0.07822,lart1238,lar
@@ -4887,6 +4912,7 @@ megl1237,Megleno Romanian,Eurasia,41.1174,22.3782,megl1237,ruq
 mehe1243,Mehek,Papunesia,-3.70927,142.498,mehe1243,nux
 mehi1240,Mehináku,South America,-12.5364,-53.521,mehi1240,mmh
 mehr1241,Mehri,Eurasia,16.793,52.473,mehr1241,gdq
+meit1246,Meitei,Eurasia,,,meit1246,
 meje1239,Meje,Africa,,,meje1239,
 meke1243,Mekeo,Papunesia,-8.23853,146.586,meke1243,mek
 mekk1240,Mek,,,,mekk1240,
@@ -5195,6 +5221,7 @@ mula1253,Mulam,Eurasia,24.8151,108.928,mula1253,mlm
 mula1254,Mulaha,Papunesia,-9.68333,147.45,mula1254,mfw
 mull1237,Mullukmulluk,Australia,-13.427,130.664,mull1237,mpb
 mull1244,Mullu Kurumba,Eurasia,11.29,76.7,mull1244,kpb
+mult1243,Multani,Eurasia,,,mult1243,
 mulu1243,Muluridyi,Australia,-17.0601,145.329,mulu1243,vmu
 mumm1238,Mum,Papunesia,-4.83462,145.059,mumm1238,kqa
 muna1247,Muna,Papunesia,-5.40419,122.541,muna1247,mnb
@@ -5472,7 +5499,6 @@ ngad1257,Ngadjuri,Australia,-32.930160660336,139.08123163651,ngad1257,jui
 ngad1258,Ngadjunmaya,Australia,-32.02447,124.46601,ngad1258,nju
 ngad1260,Ngadjan,Australia,,,ngad1260,
 ngad1261,Ngad'a,Papunesia,-8.79508,120.976,ngad1261,nxg
-ngad1267,Ngada,,,,ngad1267,
 ngai1241,Ngaing,Papunesia,-5.6513,146.343,ngai1241,nnf
 ngaj1237,Ngaju,Papunesia,-1.58463,112.794,ngaj1237,nij
 ngal1291,Nga La,Eurasia,23.312,92.83,ngal1291,hlt
@@ -5495,7 +5521,6 @@ ngan1299,Ngangam,Africa,10.2523,0.70509,ngan1299,gng
 ngan1300,Ngandyera,Africa,-16.6359,21.1928,ngan1300,nne
 ngan1302,Ngando-Lalia,Africa,-0.14363,22.6231,ngan1302,nxd
 ngan1304,Ngando (Central African Republic),Africa,3.71666,17.6499,ngan1304,ngd
-ngao1245,Nga'o,Papunesia,,,ngao1245,
 ngar1235,Ngarinman,Australia,-15.4661,130.651,ngar1235,nbj
 ngar1283,Ngarnka,Australia,-17.42,134.73,ngar1283,nji
 ngar1284,Ngarinyin,Australia,-16.4006,126.433,ngar1284,ung
@@ -5582,7 +5607,9 @@ niks1238,Niksek,Papunesia,-4.82581,142.45,niks1238,gbe
 nila1242,Nilamba,Africa,-4.50002,34.3068,nila1242,nim
 nila1244,Nila,Papunesia,-6.734956,129.512131,nila1244,nil
 nilo1247,Nilotic,,,,nilo1247,
+nima1243,Nimadi,Eurasia,22.1263,76.1264,nima1243,noe
 nima1245,Nimanbur,Australia,-17.374,123.228,nima1245,nmp
+nima1246,Nimai,Papunesia,,,nima1246,
 nimb1256,Nimbari,Africa,9.67581,13.8266,nimb1256,nmr
 nimi1240,Nimi,Papunesia,-6.34065,146.679,nimi1240,nis
 nimo1246,Nimoa,Papunesia,-11.2297,153.158,nimo1246,nmw
@@ -5665,6 +5692,7 @@ nort2646,Northern Pashto,Eurasia,34.0,71.33,nort2646,pbu
 nort2647,Northwestern Pakhto,Eurasia,,,nort2647,
 nort2649,Northern Munji,Eurasia,,,nort2649,
 nort2655,North Russian Romani,Eurasia,,,nort2655,
+nort2656,Northern Standard Bhojpuri,Eurasia,,,nort2656,
 nort2662,Northern Hindko,Eurasia,34.3202,73.3844,nort2662,hno
 nort2663,Northern Chitral Kalasha,Eurasia,,,nort2663,
 nort2664,North Khowar,Eurasia,,,nort2664,
@@ -5675,6 +5703,7 @@ nort2671,North Saami,Eurasia,68.725,22.1113,nort2671,sme
 nort2673,Northern Karelian,Eurasia,,,nort2673,
 nort2676,North Udmurt,Eurasia,,,nort2676,
 nort2677,Sosva Mansi,Eurasia,,,nort2677,
+nort2682,North Aslian,,,,nort2682,
 nort2683,Northern Vietnamese,Eurasia,,,nort2683,
 nort2684,Northern Khmer,Eurasia,14.4674,103.863,nort2684,kxm
 nort2686,Northern Altai,Eurasia,50.8998,88.0672,nort2686,atv
@@ -6146,6 +6175,7 @@ paca1245,Pacaraos Quechua,South America,-11.14278,-76.73046,paca1245,qvp
 paca1246,Pacahuara,South America,-11.9968,-65.5568,paca1246,pcp
 paci1278,Pacific Gulf Yupik,North America,60.4238,-148.043,paci1278,ems
 paco1243,Pacoh,Eurasia,16.3353,107.094,paco1243,pac
+pada1256,Padari,Eurasia,,,pada1256,
 pada1257,Padam,Eurasia,28.2463,95.3668,pada1257,
 padi1241,Pa Di,Eurasia,26.3112,103.486,padi1241,pdi
 pado1242,Padoe,Papunesia,-2.60642,121.236,pado1242,pdo
@@ -6206,6 +6236,7 @@ pana1306,Panao Huánuco Quechua,South America,-9.85887,-75.4382,pana1306,qxh
 pana1307,Panará,South America,-10.58,-53.0,pana1307,kre
 pana1308,Panamanian Sign Language,North America,8.966667,-79.533333,pana1308,lsp
 pana1310,Pa Na,Eurasia,26.263819,110.096687,pana1310,
+panc1246,Panchpargania,Eurasia,23.447,85.7966,panc1246,tdb
 panc1247,Pancana,Papunesia,-5.29587,122.968,panc1247,pnp
 pand1262,Pandong,Eurasia,,,pand1262,
 pand1264,Pande,Africa,3.57935,16.22754,pand1264,bkj
@@ -6317,6 +6348,7 @@ peta1245,Petats,Papunesia,-5.34068,154.593,peta1245,pex
 pete1237,Peterara,Papunesia,,,pete1237,
 petj1238,Petjo,Papunesia,-6.16593,106.8,petj1238,pey
 peve1243,Peve,Africa,9.16111,14.441,peve1243,lme
+phad1238,Phadang,Eurasia,,,phad1238,
 phai1238,Prai,Eurasia,19.0383,101.218,phai1238,prt
 phak1238,Phake,Eurasia,27.8197,95.8131,phak1238,phk
 phal1254,Palula,Eurasia,35.5096,71.8421,phal1254,phl
@@ -6387,6 +6419,7 @@ pitc1234,Pitcairn-Norfolk,Papunesia,-24.379858,-128.324075,pitc1234,pih
 pite1240,Pite Saami,Eurasia,66.4011,17.4261,pite1240,sje
 piti1243,Piti,Africa,10.1361,8.47037,piti1243,pcn
 pitj1243,Pitjantjatjara,Australia,-26.9704,131.357,pitj1243,pjt
+pitt1246,Pitta-Pitta,,,,pitt1246,
 pitt1247,Pitta Pitta,Australia,-22.7952,139.983,pitt1247,pit
 piuu1237,Piu,Papunesia,-6.96694,146.455,piuu1237,pix
 piya1245,Piya-Kwonci,Africa,9.31975,10.8379,piya1245,piy
@@ -6403,6 +6436,7 @@ poch1244,Pochutec,North America,15.735073,-96.468076,poch1244,xpo
 poco1241,Poqom,,,,poco1241,
 poda1239,Podari,Papunesia,,,poda1239,
 pogo1243,Pogolo,Africa,-8.72283,36.4148,pogo1243,poy
+pogu1238,Poguli,Eurasia,,,pogu1238,
 pohn1238,Pohnpeian,Papunesia,6.87212,158.223,pohn1238,pon
 poit1240,Poitevin,Eurasia,46.0579,-0.5493,poit1240,
 poju1239,Pöjulu,Africa,,,poju1239,
@@ -6446,6 +6480,7 @@ poto1254,Potou-Tano,,,,poto1254,
 pott1240,Pottangi Ollar Gadaba,Eurasia,18.5968,82.7586,pott1240,gdb
 poum1235,Poumei Naga,Eurasia,25.1944,94.4618,poum1235,pmx
 pouy1238,Pouye,Papunesia,-3.72704,141.864,pouy1238,bye
+powa1246,Powari,Eurasia,21.797,79.239,powa1246,pwr
 powh1243,Powhatan,North America,36.99422,-77.20752,powh1243,pim
 poya1241,Poyanáwa,South America,-7.46909,-73.0758,poya1241,pyn
 pras1239,Prasun,Eurasia,35.420531,70.922783,pras1239,prn
@@ -6482,6 +6517,7 @@ puna1268,Punan Merah,Papunesia,0.50763,115.588,puna1268,puf
 puna1274,Punan Merap,Papunesia,3.10143,116.251,puna1274,puc
 puna1275,Punan Bah-Biau,Papunesia,2.27377,113.156,puna1275,pna
 puna1278,Punan Batu 1,Papunesia,2.65327,113.93,puna1278,pnm
+punc1239,Punchhi,Eurasia,,,punc1239,
 puni1238,Punial,Eurasia,,,puni1238,
 puni1241,Punic,Africa,36.527295,10.356444,puni1241,xpu
 puno1238,Puno Quechua,South America,-14.608,-70.2084,puno1238,qxp
@@ -6491,7 +6527,6 @@ puoc1238,Ksingmul,Eurasia,20.8862,103.931,puoc1238,puo
 puqu1242,Puquina,South America,-15.8992,-69.9611,puqu1242,puq
 pura1253,Puragi,Papunesia,-2.05779,132.304,pura1253,pru
 pura1257,Purari,Papunesia,-7.59133,145.036,pura1257,iar
-pura1258,North-Northwest Pura,Papunesia,,,pura1258,
 pure1242,Purepecha,North America,19.2467,-101.631,pure1242,tsz
 pure1243,Pure Fiji English,Eurasia,,,pure1243,
 puri1258,Purik-Sham-Nubra,Eurasia,34.3386,76.0127,puri1258,prx
@@ -6562,6 +6597,7 @@ rali1241,Rälik,Papunesia,,,rali1241,
 ralt1242,Ralte,Eurasia,25.0201,94.7381,ralt1242,ral
 ralu1237,Raluana,Papunesia,,,ralu1237,
 rama1270,Rama,North America,11.5007,-83.8571,rama1270,rma
+ramb1240,Rambani,Eurasia,,,ramb1240,
 ramk1239,Ramkokamekra,South America,,,ramk1239,
 ramo1243,Ramo,Eurasia,28.2463,95.3668,ramo1243,
 ramo1244,Ramoaaina,Papunesia,-4.17306,152.451,ramo1244,rai
@@ -6640,6 +6676,7 @@ rohi1238,Rohingya,Eurasia,20.833082,92.393968,rohi1238,rhg
 roma1326,Romansh,Eurasia,46.5538,9.92812,roma1326,roh
 roma1327,Romanian,Eurasia,46.3913,24.2256,roma1327,ron
 roma1328,Romagnol,Eurasia,44.2349,11.7189,roma1328,rgn
+roma1329,Romani,Eurasia,,,roma1329,rom
 roma1331,Romam,Eurasia,14.34,107.447,roma1331,rmx
 roma1332,Roma,Papunesia,-7.58643,127.428,roma1332,rmm
 roma1334,Romance,,,,roma1334,
@@ -6708,6 +6745,7 @@ sabe1248,Old Sabellic,Eurasia,43.538,13.463,sabe1248,qhr
 sabu1253,Sabüm,Eurasia,5.34694,101.065,sabu1253,sbo
 sabu1255,Hawu,Papunesia,-10.5522,121.847,sabu1255,hvn
 saca1238,Sacapulteco,North America,15.274,-91.109,saca1238,quv
+sada1242,India-Nepal-Bangladesh Sadri,,,,sada1242,
 sado1237,Sado,Eurasia,,,sado1237,
 sadr1248,Sadri,Eurasia,23.6585,84.8114,sadr1248,sck
 sadu1234,Sadu,Eurasia,24.3,102.0,sadu1234,
@@ -6918,7 +6956,6 @@ sazi1238,Sazin,Eurasia,,,sazi1238,
 scan1238,East Danish,Eurasia,55.52,13.04,scan1238,
 scot1243,Scots,Eurasia,55.886945,-3.710133,scot1243,sco
 scot1245,Scottish Gaelic,Eurasia,56.7574,-5.24366,scot1245,gla
-seba1248,Seba (Indonesia),Papunesia,,,seba1248,
 seba1251,Sebat Bet Gurage,Africa,8.11879,37.9891,seba1251,sgw
 sebe1242,Seberuang,Papunesia,-0.02463,111.212,sebe1242,sbx
 sebe1243,Sebe,Papunesia,,,sebe1243,
@@ -6978,6 +7015,7 @@ seng1284,Sengo,Papunesia,-4.02247,142.956,seng1284,spk
 seng1285,Senggi,Papunesia,-3.41983,140.77,seng1285,snu
 seng1286,Sengwer,Africa,,,seng1286,
 senh1238,Senhaja De Srair,Africa,34.9992,-4.51293,senh1238,sjs
+seno1278,Senoic,,,,seno1278,
 sens1242,Sensi,South America,-7.24999,-74.9166,sens1242,sni
 sent1241,Sentinel,Eurasia,11.553,92.2534,sent1241,std
 sent1260,Senthang Chin,Eurasia,21.8936,93.8087,sent1260,sez
@@ -7154,9 +7192,11 @@ siny1243,Sinyar,Africa,12.1895,22.5278,siny1243,sys
 sion1247,Siona-Tetete,South America,0.31733,-76.0237,sion1247,snn
 sioo1240,Sio,Papunesia,-5.96037,147.353,sioo1240,xsi
 sipa1247,Sipacapense,North America,15.23054,-91.7041,sipa1247,qum
+sira1264,Siraji of Doda,Eurasia,,,sira1264,
 sira1266,Sira,Africa,-1.78084,10.4635,sira1266,swj
 sira1267,Sirayaic,Papunesia,22.9777,120.315,sira1267,fos
 sire1246,Old Sirenik,Eurasia,64.5192,-173.925,sire1246,ysr
+siri1268,Siripuria,Eurasia,,,siri1268,
 siri1273,Sirionó,South America,-15.5298,-63.9688,siri1273,srq
 siri1274,Siriano,South America,0.436515,-70.184,siri1274,sri
 siri1278,Siri,Africa,10.764,9.66743,siri1278,sir
@@ -7216,6 +7256,7 @@ song1313,Songlai Chin,Eurasia,,,song1313,csj
 sonh1238,Sonha,Eurasia,28.77817,81.21849,sonh1238,soi
 soni1259,Soninke,Africa,13.1273,-11.7178,soni1259,snk
 soni1260,Sonia,Papunesia,-6.42736,142.589,soni1260,siq
+sonn1238,Son,Eurasia,,,sonn1238,
 sons1242,Sonsorol,Papunesia,5.328596,132.221282,sons1242,sov
 sons1243,Sonsorolese,Papunesia,,,sons1243,
 sooo1254,Sô,Eurasia,16.9081,105.001,sooo1254,sss
@@ -7241,6 +7282,7 @@ sout2642,Southern Balochi,Eurasia,26.0,64.0,sout2642,bcc
 sout2645,Fars Dialects,Eurasia,29.746,52.267,sout2645,fay
 sout2647,Southern Luri,Eurasia,30.4669,50.8382,sout2647,luz
 sout2649,Southern Pashto,Eurasia,31.5,65.7,sout2649,pbt
+sout2661,Southern Standard Bhojpuri,Eurasia,,,sout2661,
 sout2668,Southern Hindko,Eurasia,33.2122,72.1702,sout2668,hnd
 sout2671,Southwest Pashayi,Eurasia,34.8478,69.8734,sout2671,psh
 sout2672,Southeast Pashayi,Eurasia,34.66597,70.592042,sout2672,psi
@@ -7302,7 +7344,6 @@ sout2877,South Watut,Papunesia,-7.03751,146.409,sout2877,mcy
 sout2883,Southeast Babar,Papunesia,-7.94359,129.8,sout2883,vbb
 sout2895,South Nuaulu,Papunesia,-3.23411,129.148,sout2895,nxl
 sout2896,Eastern Atadei,Papunesia,-8.49783,123.531,sout2896,lmf
-sout2898,Southern Tetun,Papunesia,,,sout2898,
 sout2905,Southern Alta,Papunesia,15.1841,121.054,sout2905,agy
 sout2908,Bangad,Papunesia,17.2936,121.068,sout2908,ksc
 sout2912,Coastal-Virac Bikol,Papunesia,13.6989,124.29,sout2912,bln
@@ -7560,6 +7601,7 @@ taki1248,Takia,Papunesia,-4.69057,145.975,taki1248,tbc
 taki1251,Takivatan,Papunesia,,,taki1251,
 taki1253,Takituduh,Papunesia,,,taki1253,
 taku1257,Takuu,Papunesia,-4.773094,157.032085,taku1257,nho
+taku1258,Takuuic,,,,taku1258,
 takw1238,Takwane,Africa,-16.2276,36.249,takw1238,tke
 tala1279,Telengit,Eurasia,,,tala1279,
 tala1285,Talaud,Papunesia,4.11846,126.795,tala1285,tld
@@ -7597,7 +7639,6 @@ tamp1251,Tampuan,Eurasia,13.56447,107.24544,tamp1251,tpu
 tamp1252,Tampulma,Africa,9.75577,-1.35467,tamp1252,tpm
 tamp1254,Tampias Lobu,Papunesia,5.72467,116.789,tamp1254,low
 tana1281,Tanapag,Papunesia,15.237,145.757,tana1281,tpv
-tana1283,Tana Ai,Papunesia,,,tana1283,
 tana1285,Tañala,Africa,,,tana1285,
 tana1288,Tanahmerah,Papunesia,-2.5523,133.18,tana1288,tcm
 tana1289,Dena'ina,North America,60.4712,-150.759,tana1289,tfn
@@ -7658,6 +7699,7 @@ tatu1247,Tatuyo,South America,0.55582,-70.5327,tatu1247,tav
 taua1242,Tauade,Papunesia,-8.3486,147.094,taua1242,ttd
 taul1251,Taulil,Papunesia,-4.44425,152.095,taul1251,tuh
 taul1252,Taurepang-Arekuna,South America,,,taul1252,
+taun1248,Taungyo,Eurasia,20.4104,96.7401,taun1248,tco
 taup1242,Taupota,Papunesia,-10.2275,150.373,taup1242,tpa
 taus1251,Tausug,Papunesia,5.12236,118.88,taus1251,tsg
 taus1252,Tause,Papunesia,-2.8406,136.899,taus1252,tad
@@ -7665,6 +7707,7 @@ taus1253,Taushiro,South America,-3.22497,-75.5603,taus1253,trr
 taut1234,Taut Batu,Papunesia,8.88129,117.673091,taut1234,
 tauy1241,Tauya,Papunesia,-5.74255,145.366,tauy1241,tya
 tave1240,Taveta,Africa,-3.41822,37.7061,tave1240,tvs
+tavo1242,Tavoyan,Eurasia,14.1078,98.194,tavo1242,tvn
 tavr1235,Tavringer Romani,Eurasia,62.2313,14.4036,tavr1235,rmu
 tawa1270,Tawara,Africa,-16.0167,31.621,tawa1270,twl
 tawa1275,Tawala,Papunesia,-10.3115,150.644,tawa1275,tbo
@@ -7786,10 +7829,12 @@ thai1259,Thai Song,Eurasia,13.2136,99.8651,thai1259,soa
 thai1261,Thai,Eurasia,14.192,100.671,thai1261,tha
 thai1262,Thaipum Chin,Eurasia,,,thai1262,cth
 thak1245,Thakali,Eurasia,28.7014,83.6466,thak1245,ths
+thal1241,Thali,Eurasia,,,thal1241,
 than1255,Thangal Naga,Eurasia,25.3472,93.8396,than1255,nki
 than1259,Thangmi,Eurasia,28.7554,85.7657,than1259,thf
 thao1240,Thao,Papunesia,23.8333,120.93,thao1240,ssf
 thar1283,Tharaka,Africa,-0.13221,38.073,thar1283,thk
+thay1247,Thayetmyo,Eurasia,,,thay1247,
 thay1248,Thaypan,Australia,-14.8292,143.324,thay1248,typ
 thay1249,Thayore,Australia,-14.8159,142.034,thay1249,thd
 thii1234,Thiin,Australia,-23.71156576435,116.68011572516,thii1234,iin
@@ -8528,6 +8573,7 @@ west2370,Western Wakhi,Eurasia,,,west2370,
 west2372,Western Kataviri,Eurasia,35.432631,70.347372,west2372,
 west2375,Western Gujari,Eurasia,,,west2375,
 west2376,West Slovakian Romani,Eurasia,,,west2376,
+west2380,Western Maithili,Eurasia,,,west2380,
 west2386,Western Panjabi,Eurasia,30.0948,75.3474,west2386,pnb
 west2391,West Vod,Eurasia,,,west2391,
 west2392,Western Mari,Eurasia,56.22,46.569,west2392,mrj
@@ -8565,7 +8611,6 @@ west2515,West Futuna,Papunesia,,,west2515,
 west2516,West Uvean,Papunesia,-20.4145,166.589,west2516,uve
 west2519,Western Viti Levu-Yasawas Fijian,Papunesia,-17.8355,177.657,west2519,wyy
 west2538,West Tarangan,Papunesia,-6.62046,134.168,west2538,txn
-west2547,Kemak-Tukudede,,,,west2547,
 west2548,West Damar,Papunesia,-7.12065,128.585,west2548,drn
 west2555,Western Bukidnon Manobo,Papunesia,7.6682,124.825,west2555,mbb
 west2557,Western Subanon,Papunesia,7.79964,122.341,west2557,suc
@@ -8601,6 +8646,7 @@ west2878,West Yacouba Dan,Africa,,,west2878,
 west2927,Western Hungarian Vend,Eurasia,,,west2927,
 weta1242,Dorig,Papunesia,-14.366666,167.545897,weta1242,wwo
 weta1243,Wetan,Papunesia,,,weta1243,
+wewa1238,Wewaw,Eurasia,19.020577,96.540526,wewa1238,wea
 whit1266,White Lachi,Eurasia,22.726,104.66,whit1266,lwh
 whit1267,Duoluo Gelao,Eurasia,23.0196,105.07,whit1267,giw
 whit1269,Whitesands,Papunesia,-19.5019,169.381,whit1269,tnp
@@ -8652,6 +8698,7 @@ woly1239,Wolyamidi,Australia,-15.557223,126.22155,woly1239,
 womn1235,Wom (Nigeria),Africa,8.92708,12.4533,womn1235,wom
 womo1238,Womo-Sumararu,Papunesia,-2.92,141.83,womo1238,wmx
 womp1235,Wom (Papua New Guinea),Papunesia,-3.5332,142.87,womp1235,wmo
+wona1238,Wonarua,Australia,,,wona1238,
 wong1246,Wangkumara,Australia,-27.10149,143.19619,wong1246,xwk
 wong1247,Wongo,Africa,-5.73837,20.5054,wong1247,won
 woni1239,Wonie,Papunesia,,,woni1239,
@@ -8806,6 +8853,7 @@ yang1307,Yangjiang,Eurasia,21.7895612,111.966667,yang1307,
 yang1309,Yangon Myanmar Sign Language,Eurasia,16.78599,96.13867,yang1309,ysm
 yank1247,Yankunytjatjara,Australia,-26.4064,133.577,yank1247,kdd
 yann1237,Nhangu,Australia,-12.0853,134.877,yann1237,jay
+yann1238,Yan-nhangu,Australia,,,yann1238,
 yano1261,Yanomamö,South America,1.67967,-64.8781,yano1261,guu
 yano1262,Yanomám,South America,2.48999,-62.8522,yano1262,wca
 yans1239,Yansi,Africa,-3.8231,18.2341,yans1239,yns

@@ -2,9 +2,10 @@ appdirs==1.4.4
 attrs==23.1.0
 Babel==2.12.1
 bs4==0.0.1
+Cerberus==1.3.5
 certifi==2023.7.22
 cldfbench==1.13.0
--e git+https://github.com/cldf-datasets/clld_meta.git@550ab9dca37122471247798cd5b9993b3083bf4d#egg=cldfbench_clld_meta
+-e git+https://github.com/cldf-datasets/clld_meta.git@bbacbfe704b35090d8c627fcc143b0e8e89b08b3#egg=cldfbench_clld_meta
 cldfcatalog==1.5.1
 cldfzenodo==1.1.0
 clldutils==3.19.0
