@@ -56,22 +56,26 @@ def collect_dataset_stats(record_no, zipreader):
     lang_values = Counter(l for l, _ in values)
     # XXX: count parameters and concepts separately?
     #  if so -- how?
-    lang_features = Counter((l, p) for l, p in values if p)
+    # # FIXME: tbqh I don't remember what this is for?
+    # lang_features = Counter((l, p) for l, p in values if p)
 
+    forms = list(zipreader.iterrows('FormTable', 'languageReference'))
     lang_forms = Counter(
         r['languageReference']
-        for r in zipreader.iterrows('FormTable', 'languageReference')
+        for r in forms
         if r.get('languageReference'))
 
+    entries = list(zipreader.iterrows('EntryTable', 'languageReference'))
     lang_entries = Counter(
         r['languageReference']
-        for r in zipreader.iterrows('EntryTable', 'languageReference')
+        for r in entries
         if r.get('languageReference'))
 
+    examples = list(zipreader.iterrows('ExampleTable', 'languageReference'))
     lang_examples = Counter(
-        r['languageReference']
-        for r in zipreader.iterrows('ExampleTable', 'languageReference')
-        if r.get('languageReference'))
+        lid
+        for ex in examples
+        if (lid := ex.get('languageReference')))
 
     lang_iter = chain(lang_values, lang_forms, lang_examples, lang_entries)
     langtable = {
@@ -82,14 +86,19 @@ def collect_dataset_stats(record_no, zipreader):
     langs = {v: (langtable.get(v) or v) for v in lang_iter}
 
     # TODO count concepticon ids?
+    parameter_count = sum(1 for _ in zipreader.iterrows('ParameterTable', 'id'))
 
     return {
         'record_no': record_no,
         'module': zipreader.cldf_module(),
         'value_count': len(values),
+        'form_count': len(forms),
+        'entry_count': len(entries),
+        'parameter_count': parameter_count,
+        'example_count': len(examples),
         'langs': langs,
         'lang_values': lang_values,
-        'lang_features': lang_features,
+        # 'lang_features': lang_features,
         'lang_forms': lang_forms,
         'lang_entries': lang_entries,
         'lang_examples': lang_examples,
@@ -131,18 +140,22 @@ def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
     return {
         'record_no': stats['record_no'],
         'module': stats['module'],
-        'value_count': stats['value_count'],
         'lang_count': len(stats['langs']),
         'glottocode_count': len(lang_map),
+        'value_count': stats['value_count'],
+        'form_count': stats['value_count'],
+        'entry_count': stats['entry_count'],
+        'parameter_count': stats['parameter_count'],
+        'example_count': stats['example_count'],
         'langs': sorted(set(lang_map.values())),
         'lang_values': {
             lang_map[l]: c
             for l, c in stats['lang_values'].items()
             if l in lang_map},
-        'lang_features': {
-            lang_map[l]: c
-            for l, c in stats['lang_features'].items()
-            if l in lang_map},
+        # 'lang_features': {
+        #     lang_map[l]: c
+        #     for l, c in stats['lang_features'].items()
+        #     if l in lang_map},
         'lang_forms': {
             lang_map[l]: c
             for l, c in stats['lang_forms'].items()
@@ -375,8 +388,12 @@ class Dataset(BaseDataset):
                 'Contribution_ID': stats['record_no'],
                 'Module': stats['module'],
                 'Language_Count': len(stats['langs']),
-                'Value_Count': stats['value_count'],
                 'Glottocode_Count': stats['glottocode_count'],
+                'Parameter_Count': stats['parameter_count'],
+                'Value_Count': stats['value_count'],
+                'Form_Count': stats['parameter_count'],
+                'Entry_Count': stats['parameter_count'],
+                'Example_Count': stats['example_count'],
             }
             for stats in dataset_stats]
 
@@ -385,8 +402,8 @@ class Dataset(BaseDataset):
                 'ID': '{}-{}'.format(ds['ID'], lid),
                 'Language_ID': lid,
                 'Dataset_ID': ds['ID'],
+                # 'Parameter_Count': stats['lang_features'].get(lid, 0),
                 'Value_Count': stats['lang_values'].get(lid, 0),
-                'Parameter_Count': stats['lang_features'].get(lid, 0),
                 'Form_Count': stats['lang_forms'].get(lid, 0),
                 'Entry_Count': stats['lang_entries'].get(lid, 0),
                 'Example_Count': stats['lang_examples'].get(lid, 0),
@@ -456,8 +473,12 @@ class Dataset(BaseDataset):
             'Contribution_ID',
             'Module',
             {'name': 'Language_Count', 'datatype': 'integer'},
+            {'name': 'Glottocode_Count', 'datatype': 'integer'},
+            {'name': 'Parameter_Count', 'datatype': 'integer'},
             {'name': 'Value_Count', 'datatype': 'integer'},
-            {'name': 'Glottocode_Count', 'datatype': 'integer'})
+            {'name': 'Form_Count', 'datatype': 'integer'},
+            {'name': 'Entry_Count', 'datatype': 'integer'},
+            {'name': 'Example_Count', 'datatype': 'integer'})
         args.writer.cldf.add_foreign_key(
             'datasets.csv', 'Contribution_ID', 'contributions.csv', 'ID')
 
@@ -466,8 +487,8 @@ class Dataset(BaseDataset):
             'http://cldf.clld.org/v1.0/terms.rdf#id',
             'Dataset_ID',
             'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
+            # {'name': 'Parameter_Count', 'datatype': 'integer'},
             {'name': 'Value_Count', 'datatype': 'integer'},
-            {'name': 'Parameter_Count', 'datatype': 'integer'},
             {'name': 'Form_Count', 'datatype': 'integer'},
             {'name': 'Entry_Count', 'datatype': 'integer'},
             {'name': 'Example_Count', 'datatype': 'integer'})
