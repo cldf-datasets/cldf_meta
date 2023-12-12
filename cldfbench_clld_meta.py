@@ -447,11 +447,8 @@ class Dataset(BaseDataset):
 
         args.writer.cldf.add_component('LanguageTable')
 
-        args.writer.cldf.add_table(
-            'contributions.csv',
-            'http://cldf.clld.org/v1.0/terms.rdf#id',
-            'http://cldf.clld.org/v1.0/terms.rdf#name',
-            'http://cldf.clld.org/v1.0/terms.rdf#description',
+        args.writer.cldf.add_component(
+            'ContributionTable',
             'Version',
             {'name': 'Creators', 'separator': ' ; '},
             {'name': 'Contributors', 'separator': ' ; '},
@@ -470,7 +467,7 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_table(
             'datasets.csv',
             'http://cldf.clld.org/v1.0/terms.rdf#id',
-            'Contribution_ID',
+            'http://cldf.clld.org/v1.0/terms.rdf#contributionReference',
             'Module',
             {'name': 'Language_Count', 'datatype': 'integer'},
             {'name': 'Glottocode_Count', 'datatype': 'integer'},
@@ -479,8 +476,6 @@ class Dataset(BaseDataset):
             {'name': 'Form_Count', 'datatype': 'integer'},
             {'name': 'Entry_Count', 'datatype': 'integer'},
             {'name': 'Example_Count', 'datatype': 'integer'})
-        args.writer.cldf.add_foreign_key(
-            'datasets.csv', 'Contribution_ID', 'contributions.csv', 'ID')
 
         args.writer.cldf.add_table(
             'dataset-languages.csv',
@@ -497,7 +492,7 @@ class Dataset(BaseDataset):
             'datasets.csv', 'ID')
 
         args.writer.objects['LanguageTable'] = languages
-        args.writer.objects['contributions.csv'] = contributions
+        args.writer.objects['ContributionTable'] = contributions
         args.writer.objects['datasets.csv'] = datasets
         args.writer.objects['dataset-languages.csv'] = dataset_languages
 
