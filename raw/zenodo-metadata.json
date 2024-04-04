@@ -1,6 +1,4301 @@
 {
   "records": [
     {
+      "id": 10821732,
+      "doi": "10.5281/zenodo.10821732",
+      "conceptid": "4309140",
+      "conceptdoi": "10.5281/zenodo.4309140",
+      "created": "2024-03-15T11:58:48.820519+00:00",
+      "updated": "2024-04-02T13:05:26.557265+00:00",
+      "modified": "2024-04-02T13:05:26.557265+00:00",
+      "title": "Vanuatu Voices",
+      "description": "<p>Available online at https://vanuatuvoices.clld.org</p>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2024-03-15",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Lana Takau"
+        },
+        {
+          "name": "Mary Walworth"
+        },
+        {
+          "name": "Aviva Shimelman"
+        },
+        {
+          "name": "Sandrine Bessis"
+        },
+        {
+          "name": "Tom Ennever"
+        },
+        {
+          "name": "Iveth Rodriguez"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        },
+        {
+          "name": "Daria D\u00ebrmaku"
+        },
+        {
+          "name": "Murray Garde"
+        },
+        {
+          "name": "Marie-France Duhamel"
+        },
+        {
+          "name": "Giovanni Abete"
+        },
+        {
+          "name": "Laura W\u00e4gerle"
+        },
+        {
+          "name": "Kaitip W. Kami"
+        },
+        {
+          "name": "Russell Gray"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/vanuatuvoices-v1.1.zip",
+          "checksum": "md5:d3bfc98bd1e8038a6db8d6c4342792d5",
+          "url": "https://zenodo.org/api/records/10821732/files/lexibank/vanuatuvoices-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        },
+        {
+          "name": "Tihomir Rangelov",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/vanuatuvoices/tree/v1.1"
+    },
+    {
+      "id": 10907516,
+      "doi": "10.5281/zenodo.10907516",
+      "conceptid": "4518506",
+      "conceptdoi": "10.5281/zenodo.4518506",
+      "created": "2024-04-02T10:00:22.009840+00:00",
+      "updated": "2024-04-02T10:00:22.212917+00:00",
+      "modified": "2024-04-02T10:00:22.212917+00:00",
+      "title": "Kalamang IDS wordlist by Eline Visser",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Eline Visser. 2021. Kalamang dictionary. In: Key, Mary Ritchie &amp; Comrie, Bernard (eds.) The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://ids.clld.org/)</p>\n</blockquote>",
+      "version": "v2.1",
+      "access_right": "open",
+      "publication_date": "2024-04-02",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Eline Visser"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "intercontinental-dictionary-series/visserkalamang-v2.1.zip",
+          "checksum": "md5:5d3bd233e10948f7af33bc3306b49a7b",
+          "url": "https://zenodo.org/api/records/10907516/files/intercontinental-dictionary-series/visserkalamang-v2.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/intercontinental-dictionary-series/visserkalamang/tree/v2.1"
+    },
+    {
+      "id": 10907379,
+      "doi": "10.5281/zenodo.10907379",
+      "conceptid": "4280602",
+      "conceptdoi": "10.5281/zenodo.4280602",
+      "created": "2024-04-02T09:27:25.837103+00:00",
+      "updated": "2024-04-02T09:27:26.055412+00:00",
+      "modified": "2024-04-02T09:27:26.055412+00:00",
+      "title": "Ende (Papua New Guinea) IDS wordlist by Kate Lynn Lindsey",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kate Lynn Lindsey. 2020. Ende (Papua New Guinea) dictionary. In: Key, Mary Ritchie &amp; Comrie, Bernard (eds.) The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://ids.clld.org/)</p>\n</blockquote>",
+      "version": "v2.1",
+      "access_right": "open",
+      "publication_date": "2024-04-02",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Kate Lynn Lindsey"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "intercontinental-dictionary-series/lindseyende-v2.1.zip",
+          "checksum": "md5:7994e2e90ac3bdeae7b996eae0ccd509",
+          "url": "https://zenodo.org/api/records/10907379/files/intercontinental-dictionary-series/lindseyende-v2.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/intercontinental-dictionary-series/lindseyende/tree/v2.1"
+    },
+    {
+      "id": 10843349,
+      "doi": "10.5281/zenodo.10843349",
+      "conceptid": "10843348",
+      "conceptdoi": "10.5281/zenodo.10843348",
+      "created": "2024-03-20T10:25:30.342488+00:00",
+      "updated": "2024-03-20T10:25:30.608770+00:00",
+      "modified": "2024-03-20T10:25:30.608770+00:00",
+      "title": "CLDF dataset derived from Carroll et al. \"Yamfinder: The Southern New Guinea Lexical Database\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Carroll, Matthew J., Barth, Wolfgang, Nicholas Evans, I Wayan Arka, Christian D\u00f6hler, Eri Kashima, Volker Gast, Tina Gregor, Kate L. Lindsey, Julia Miller, Emil Mittag, Bruno Olsson, Dineke Schokkin, Jeff Siegel, Charlotte van Tongeren, Kyla Quinn. [DATE ACCESSED]. Yamfinder: Southern New Guinea Lexical Database. Available online at: http://www.yamfinder.com</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2024-03-20",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Mae Carroll"
+        },
+        {
+          "name": "Wolfgang Barth"
+        },
+        {
+          "name": "Nicholas Evans"
+        },
+        {
+          "name": "I Wayan Arka"
+        },
+        {
+          "name": "Christian D\u00f6hler"
+        },
+        {
+          "name": "Eri Kashima"
+        },
+        {
+          "name": "Volker Gast"
+        },
+        {
+          "name": "Tina Gregor"
+        },
+        {
+          "name": "Kate L. Lindsey"
+        },
+        {
+          "name": "Julia Miller"
+        },
+        {
+          "name": "Emil Mittag"
+        },
+        {
+          "name": "Bruno Olsson"
+        },
+        {
+          "name": "Dineke Schokkin"
+        },
+        {
+          "name": "Jeff Siegel"
+        },
+        {
+          "name": "Charlotte van Tongeren"
+        },
+        {
+          "name": "Kyla Quinn"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/yamfinder-v1.0.zip",
+          "checksum": "md5:69af52d38b482741dc0b1c34c4659b2e",
+          "url": "https://zenodo.org/api/records/10843349/files/lexibank/yamfinder-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Mae Carroll",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Wolfgang Barth",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Nicholas Evans",
+          "type": "DataCollector"
+        },
+        {
+          "name": "I Wayan Arka",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Christian D\u00f6hler",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Eri Kashima",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Volker Gast",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Tina Gregor",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kate L. Lindsey",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Julia Miller",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Emil Mittag",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Bruno Olsson",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Dineke Schokkin",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Jeff Siegel",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Charlotte van Tongeren",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kyla Quinn",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Don Daniels",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Samuel Kirkpatrick",
+          "type": "Other"
+        },
+        {
+          "name": "Petra Gulicher",
+          "type": "Other"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/yamfinder/tree/v1.0"
+    },
+    {
+      "id": 10794044,
+      "doi": "10.5281/zenodo.10794044",
+      "conceptid": "7871166",
+      "conceptdoi": "10.5281/zenodo.7871166",
+      "created": "2024-03-07T14:26:12.053531+00:00",
+      "updated": "2024-03-07T14:26:12.596749+00:00",
+      "modified": "2024-03-07T14:26:12.596749+00:00",
+      "title": "The Catalogue of Endangered Languages as CLDF dataset",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Catalogue of Endangered Languages. 2023. University of Hawaii at Manoa. http://www.endangeredlanguages.com</p>\n</blockquote>",
+      "version": "v2024",
+      "access_right": "open",
+      "publication_date": "2024-03-07",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lyle Campbell"
+        },
+        {
+          "name": "Gary Holton"
+        },
+        {
+          "name": "Anna Belew"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/elcat-v2024.zip",
+          "checksum": "md5:817c3cfa7916b47cb03af6b67f2a3c2d",
+          "url": "https://zenodo.org/api/records/10794044/files/cldf-datasets/elcat-v2024.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Lyle Campbell",
+          "type": "Editor"
+        },
+        {
+          "name": "Lyle Campbell",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Lyle Campbell",
+          "type": "Researcher"
+        },
+        {
+          "name": "Gary Holton",
+          "type": "ProjectManager"
+        },
+        {
+          "name": "Gary Holton",
+          "type": "Editor"
+        },
+        {
+          "name": "Anna Belew",
+          "type": "Editor"
+        },
+        {
+          "name": "Anna Belew",
+          "type": "ProjectManager"
+        },
+        {
+          "name": "Sean Simpson",
+          "type": "DataCollector"
+        },
+        {
+          "name": "John Van Way",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Amy Brunett",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Jacob Collard",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kristen Dunkinson",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Raina Heaton",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Uliana Kazagasheva",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Huiying Nala Lee",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Lwin Moe",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Eve Okura",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kaori Ueki",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Brent Woo",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Willem F.H. Adelaar",
+          "type": "Researcher"
+        },
+        {
+          "name": "Greg Anderson",
+          "type": "Researcher"
+        },
+        {
+          "name": "I. Wayan Arka",
+          "type": "Researcher"
+        },
+        {
+          "name": "Habib Borjian",
+          "type": "Researcher"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Researcher"
+        },
+        {
+          "name": "David Bradley",
+          "type": "Researcher"
+        },
+        {
+          "name": "Matthias Brenzinger",
+          "type": "Researcher"
+        },
+        {
+          "name": "Charles H\u00e4berl",
+          "type": "Researcher"
+        },
+        {
+          "name": "Alice C. Harris",
+          "type": "Researcher"
+        },
+        {
+          "name": "Juha Janhunen",
+          "type": "Researcher"
+        },
+        {
+          "name": "Brian Joseph",
+          "type": "Researcher"
+        },
+        {
+          "name": "Martin Maiden",
+          "type": "Researcher"
+        },
+        {
+          "name": "Bill Palmer",
+          "type": "Researcher"
+        },
+        {
+          "name": "Keren Rice",
+          "type": "Researcher"
+        },
+        {
+          "name": "David Solnit",
+          "type": "Researcher"
+        },
+        {
+          "name": "George Van Driem",
+          "type": "Researcher"
+        },
+        {
+          "name": "James Woodward",
+          "type": "Researcher"
+        },
+        {
+          "name": "Carolina Aragon",
+          "type": "Other"
+        },
+        {
+          "name": "Katie Butler",
+          "type": "Other"
+        },
+        {
+          "name": "Joelle Kirtley",
+          "type": "Other"
+        },
+        {
+          "name": "Stephanie Locke",
+          "type": "Other"
+        },
+        {
+          "name": "Colleen O'Brien",
+          "type": "Other"
+        },
+        {
+          "name": "Melody Ann Ross-Nathaniel",
+          "type": "Other"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/elcat/tree/v2024"
+    },
+    {
+      "id": 10694170,
+      "doi": "10.5281/zenodo.10694170",
+      "conceptid": "7294752",
+      "conceptdoi": "10.5281/zenodo.7294752",
+      "created": "2024-02-22T16:02:36.062265+00:00",
+      "updated": "2024-02-22T16:02:36.264843+00:00",
+      "modified": "2024-02-22T16:02:36.264843+00:00",
+      "title": "CLDF dataset for the GATA (Grammars Across Time Analyzed) dataset",
+      "description": "<p>Cite the dataset as:</p>\n\n<blockquote>\n<p>Frederic Blum, Carlos Barrientos, Adriano Ingunza, Damian E. Blasi &amp; Roberto Zariquiey. (2023). CLDF dataset for `Grammars Analyzed Across Time` (GATA).</p>\n</blockquote>",
+      "version": "v.1.1.0",
+      "access_right": "open",
+      "publication_date": "2024-02-22",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Frederic Blum"
+        },
+        {
+          "name": "Carlos Barrientos"
+        },
+        {
+          "name": "Adriano Ingunza"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi"
+        },
+        {
+          "name": "Roberto Zariquiey"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/gata-v.1.1.0.zip",
+          "checksum": "md5:b42f8ef9810e4aefdcf3635fbd26ec8e",
+          "url": "https://zenodo.org/api/records/10694170/files/cldf-datasets/gata-v.1.1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics",
+        "language obsolescence"
+      ],
+      "git-link": "https://github.com/cldf-datasets/gata/tree/v.1.1.0"
+    },
+    {
+      "id": 10678876,
+      "doi": "10.5281/zenodo.10678876",
+      "conceptid": "8089433",
+      "conceptdoi": "10.5281/zenodo.8089433",
+      "created": "2024-02-19T11:19:50.240407+00:00",
+      "updated": "2024-02-19T11:19:50.376893+00:00",
+      "modified": "2024-02-19T11:19:50.376893+00:00",
+      "title": "CLDF dataset derived from Heggarty, Paul & Anderson, Cormac & Scarborough, Matthew's \"Indo-European Cognate Relationships database\" ([IE-CoR version 1.0](https://github.com/lexibank/iecor/releases/tag/v1.0)) from 2019",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Heggarty, Paul &amp; Anderson, Cormac &amp; Scarborough, Matthew 2024. Indo-European Cognate Relationships database (IE-CoR version 1.1). Leipzig: Max Planck Institute for Evolutionary Anthropology</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2024-02-19",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Paul Heggarty"
+        },
+        {
+          "name": "Cormac Anderson"
+        },
+        {
+          "name": "Matthew Scarborough"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/iecor-v1.1.zip",
+          "checksum": "md5:77eace250dc0ed9448268dce3e7516de",
+          "url": "https://zenodo.org/api/records/10678876/files/lexibank/iecor-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Paul Heggarty",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Paul Heggarty",
+          "type": "Editor"
+        },
+        {
+          "name": "Cormac Anderson",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Cormac Anderson",
+          "type": "Editor"
+        },
+        {
+          "name": "Matthew Scarborough",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Matthew Scarborough",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/iecor/tree/v1.1"
+    },
+    {
+      "id": 10555859,
+      "doi": "10.5281/zenodo.10555859",
+      "conceptid": "7096349",
+      "conceptdoi": "10.5281/zenodo.7096349",
+      "created": "2024-01-23T12:17:18.637691+00:00",
+      "updated": "2024-01-23T12:17:18.823898+00:00",
+      "modified": "2024-01-23T12:17:18.823898+00:00",
+      "title": "The Tsez Annotated Corpus Project",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Abdulaev, A.K. &amp; I. K. Abdullaev. 2010. Cezyas folklor/Dido (Tsez) folklore/Didojskij (cezskij) fol\u00b4klor. Leipzig\u2013Makhachkala: \"Lotos\".</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2024-01-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "A.K. Abdulaev"
+        },
+        {
+          "name": "I.K. Abdullaev"
+        },
+        {
+          "name": "Andr\u00e9 M\u00fcller"
+        },
+        {
+          "name": "Evgeniya Zhivotova"
+        },
+        {
+          "name": "Bernard Comrie"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/tsezacp-v2.0.zip",
+          "checksum": "md5:7089d6e54cf2353d77afe82f3d258dd9",
+          "url": "https://zenodo.org/api/records/10555859/files/cldf-datasets/tsezacp-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Dictionary",
+        "cldf:TextCorpus",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Bernard Comrie",
+          "type": "Editor"
+        },
+        {
+          "name": "Ilya Khait",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/tsezacp/tree/v2.0"
+    },
+    {
+      "id": 10555488,
+      "doi": "10.5281/zenodo.10555488",
+      "conceptid": "10555487",
+      "conceptdoi": "10.5281/zenodo.10555487",
+      "created": "2024-01-23T11:22:14.840335+00:00",
+      "updated": "2024-01-23T11:22:15.308209+00:00",
+      "modified": "2024-01-23T11:22:15.308209+00:00",
+      "title": "Speaker areas for Uralic languages as CLDF dataset derived from Rantanen et al. \"Geographical database of the Uralic languages\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Rantanen, Timo, Vesakoski, Outi, Ylikoski, Jussi, &amp; Tolvanen, Harri. (2021). Geographical database of the Uralic languages (Version v1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4784188</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2024-01-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Timo Rantanen"
+        },
+        {
+          "name": "Miina Norvik"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/rantanenurageo-v1.0.zip",
+          "checksum": "md5:87c5d6150e7189a231b1fa89f72f1c5e",
+          "url": "https://zenodo.org/api/records/10555488/files/cldf-datasets/rantanenurageo-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/cldf-datasets/rantanenurageo/tree/v1.0"
+    },
+    {
+      "id": 10522847,
+      "doi": "10.5281/zenodo.10522847",
+      "conceptid": "10177060",
+      "conceptdoi": "10.5281/zenodo.10177060",
+      "created": "2024-01-17T14:10:38.731195+00:00",
+      "updated": "2024-01-17T14:10:38.909875+00:00",
+      "modified": "2024-01-17T14:10:38.909875+00:00",
+      "title": "D-PLACE dataset derived from Murdock et al. 1999 'Ethnographic Atlas'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Murdock, G. P., R. Textor, H. Barry, III, D. R. White, J. P. Gray, and W. T. Divale. 1999. Ethnographic Atlas. World Cultures 10:24-136 (codebook)</p>\n</blockquote>",
+      "version": "v3.0.1",
+      "access_right": "open",
+      "publication_date": "2024-01-17",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Murdock, G. P."
+        },
+        {
+          "name": "R. Textor"
+        },
+        {
+          "name": "H. Barry, III"
+        },
+        {
+          "name": "D. R. White"
+        },
+        {
+          "name": "J. P. Gray"
+        },
+        {
+          "name": "W. T. Divale"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-ea-v3.0.1.zip",
+          "checksum": "md5:d29e029276e0e121a2d7cfbef214b328",
+          "url": "https://zenodo.org/api/records/10522847/files/D-PLACE/dplace-dataset-ea-v3.0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-ea/tree/v3.0.1"
+    },
+    {
+      "id": 10495417,
+      "doi": "10.5281/zenodo.10495417",
+      "conceptid": "5596346",
+      "conceptdoi": "10.5281/zenodo.5596346",
+      "created": "2024-01-12T09:40:35.199077+00:00",
+      "updated": "2024-01-12T09:40:35.375009+00:00",
+      "modified": "2024-01-12T09:40:35.375009+00:00",
+      "title": "CLDF dataset derived from Barlow's \"Numerals of the Pacific\" from 2024",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Barlow, Russell (ed.). 2024. Numerals of the Pacific: A collection of numeral terms in Austronesian and Papuan languages.</p>\n</blockquote>",
+      "version": "v1.5",
+      "access_right": "open",
+      "publication_date": "2024-01-12",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/barlowpacific-v1.5.zip",
+          "checksum": "md5:814ffa40851a2f4d3df81eebd51a20b9",
+          "url": "https://zenodo.org/api/records/10495417/files/numeralbank/barlowpacific-v1.5.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/numeralbank/barlowpacific/tree/v1.5"
+    },
+    {
+      "id": 10201382,
+      "doi": "10.5281/zenodo.10201382",
+      "conceptid": "10201381",
+      "conceptdoi": "10.5281/zenodo.10201381",
+      "created": "2023-11-23T15:29:32.528812+00:00",
+      "updated": "2024-01-04T09:34:07.785813+00:00",
+      "modified": "2024-01-04T09:34:07.785813+00:00",
+      "title": "D-PLACE dataset derived from Bertolo et al. 2023 'Cross-cultural music corpus: The Expanded Natural History of Song Discography'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Mila Bertolo, Martynas Snarskis, Manvir Singh, &amp; Samuel Mehr. (2023, August 8). Cross-cultural music corpus: The Expanded Natural History of Song Discography. Zenodo. https://doi.org/10.5281/zenodo.8378337</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Mila Bertolo"
+        },
+        {
+          "name": "Martynas Snarskis"
+        },
+        {
+          "name": "Manvir Singh"
+        },
+        {
+          "name": "Samuel Mehr"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-ccmc-v3.0.zip",
+          "checksum": "md5:6f2c1d50084e1fcad86a26dd4a765cd7",
+          "url": "https://zenodo.org/api/records/10201382/files/D-PLACE/dplace-dataset-ccmc-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Martynas Snarskis",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-ccmc/tree/v3.0"
+    },
+    {
+      "id": 10453887,
+      "doi": "10.5281/zenodo.10453887",
+      "conceptid": "3935419",
+      "conceptdoi": "10.5281/zenodo.3935419",
+      "created": "2024-01-03T10:21:00.786953+00:00",
+      "updated": "2024-01-03T10:21:00.949502+00:00",
+      "modified": "2024-01-03T10:21:00.949502+00:00",
+      "title": "D-PLACE aggregated dataset",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kathryn R. Kirby, Russell D. Gray, Simon J. Greenhill, Fiona M. Jordan, Stephanie Gomes-Ng, Hans-J\u00f6rg Bibiko, Dami\u00e1n E. Blasi, Carlos A. Botero, Claire Bowern, Carol R. Ember, Dan Leehr, Bobbi S. Low, Joe McCarter, William Divale, and Michael C. Gavin. (2016). D-PLACE: A Global Database of Cultural, Linguistic and Environmental Diversity. PLoS ONE, 11(7): e0158391. doi:10.1371/journal.pone.0158391.</p>\n</blockquote>",
+      "version": "v3.0.0",
+      "access_right": "open",
+      "publication_date": "2024-01-03",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Kathryn R. Kirby"
+        },
+        {
+          "name": "Russell D. Gray"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        },
+        {
+          "name": "Fiona M. Jordan"
+        },
+        {
+          "name": "Stephanie Gomes-Ng"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi"
+        },
+        {
+          "name": "Carlos A. Botero"
+        },
+        {
+          "name": "Claire Bowern"
+        },
+        {
+          "name": "Carol R. Ember"
+        },
+        {
+          "name": "Dan Leehr"
+        },
+        {
+          "name": "Bobbi S. Low"
+        },
+        {
+          "name": "Joe McCarter"
+        },
+        {
+          "name": "William Divale"
+        },
+        {
+          "name": "Michael C. Gavin"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-cldf-v3.0.0.zip",
+          "checksum": "md5:f59b6f83b2190f9f02104da8d6bf9faa",
+          "url": "https://zenodo.org/api/records/10453887/files/D-PLACE/dplace-cldf-v3.0.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-cldf/tree/v3.0.0"
+    },
+    {
+      "id": 10450408,
+      "doi": "10.5281/zenodo.10450408",
+      "conceptid": "10054440",
+      "conceptdoi": "10.5281/zenodo.10054440",
+      "created": "2024-01-02T09:39:38.639781+00:00",
+      "updated": "2024-01-02T09:39:38.785603+00:00",
+      "modified": "2024-01-02T09:39:38.785603+00:00",
+      "title": "CLDF dataset derived from Blum et al.'s \"A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America (forthcoming).",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Blum, Frederic and Barrientos, Carlos and Zariquiey, Roberto and List, Johann-Mattis. Forthcoming. A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America.</p>\n</blockquote>",
+      "version": "v0.2",
+      "access_right": "open",
+      "publication_date": "2024-01-02",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Frederic Blum"
+        },
+        {
+          "name": "Carlos M. B. Ugarte"
+        },
+        {
+          "name": "Roberto Zariquiey"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "pano-tacanan-history/blumpanotacana-v0.2.zip",
+          "checksum": "md5:9ab74b82ac921a590d4ee5fe090d263c",
+          "url": "https://zenodo.org/api/records/10450408/files/pano-tacanan-history/blumpanotacana-v0.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/pano-tacanan-history/blumpanotacana/tree/v0.2"
+    },
+    {
+      "id": 10417784,
+      "doi": "10.5281/zenodo.10417784",
+      "conceptid": "1312845",
+      "conceptdoi": "10.5281/zenodo.1312845",
+      "created": "2023-12-21T10:20:36.181354+00:00",
+      "updated": "2023-12-21T10:20:36.350727+00:00",
+      "modified": "2023-12-21T10:20:36.350727+00:00",
+      "title": "CLDF dataset derived from Nurse and Philippson's \"Tanzania Language Survey\" from 1975",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Nurse, Derek and G\u00e9rard Philippson (1975). The Tanzanian Language Survey. Department of Foreign Languages and Linguistics of the University of Dar es Salaam: Dar es Salaam.</p>\n</blockquote>",
+      "version": "v4.1.1",
+      "access_right": "open",
+      "publication_date": "2023-12-21",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Derek Nurse"
+        },
+        {
+          "name": "Gerard Philippson"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/tls-v4.1.1.zip",
+          "checksum": "md5:06257d12fb1767844c51135ee768c2cf",
+          "url": "https://zenodo.org/api/records/10417784/files/lexibank/tls-v4.1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Tiago Tresoldi",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/tls/tree/v4.1.1"
+    },
+    {
+      "id": 10417719,
+      "doi": "10.5281/zenodo.10417719",
+      "conceptid": "5126740",
+      "conceptdoi": "10.5281/zenodo.5126740",
+      "created": "2023-12-21T09:57:42.675052+00:00",
+      "updated": "2023-12-21T09:57:42.802326+00:00",
+      "modified": "2023-12-21T09:57:42.802326+00:00",
+      "title": "CLDF dataset derived from Bowern et al.'s \"Hunter - Gatherer Language Database\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bowern, Claire, Patience Epps, Jane Hill, and Patrick McConvell. Hunter - Gatherer Language Database. https://huntergatherer.la.utexas.edu/ Accessed 2021-04-27.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-12-21",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Claire Bowern"
+        },
+        {
+          "name": "Patience Epps"
+        },
+        {
+          "name": "Jane Hill"
+        },
+        {
+          "name": "Patrick McConvell"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/huntergatherer-v1.1.zip",
+          "checksum": "md5:00b6a95c576465e0f25a29664fb6d143",
+          "url": "https://zenodo.org/api/records/10417719/files/lexibank/huntergatherer-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Patience Epps",
+          "type": "Editor"
+        },
+        {
+          "name": "Jane Hill",
+          "type": "Editor"
+        },
+        {
+          "name": "Patrick McConvell",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Other"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/huntergatherer/tree/v1.1"
+    },
+    {
+      "id": 10404395,
+      "doi": "10.5281/zenodo.10404395",
+      "conceptid": "10404394",
+      "conceptdoi": "10.5281/zenodo.10404394",
+      "created": "2023-12-19T08:34:52.682749+00:00",
+      "updated": "2023-12-19T08:34:52.931722+00:00",
+      "modified": "2023-12-19T08:34:52.931722+00:00",
+      "title": "CLDF dataset accompanying List's \"Inference of Partial Colexifications\" from 2023 building on Key and Comrie's \"Intercontinental Dictionary Series\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Key, Mary Ritchie &amp; Comrie, Bernard (eds.) 2021. The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology. DOI: https://doi.org/10.5281/zenodo.5547908</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2023-12-19",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Key, M. R"
+        },
+        {
+          "name": "Comrie, B."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "intercontinental-dictionary-series/idssegmented-v1.0.zip",
+          "checksum": "md5:30caa7e3df58e52eecf6bc61c742ce91",
+          "url": "https://zenodo.org/api/records/10404395/files/intercontinental-dictionary-series/idssegmented-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Key, M. R",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Comrie, B.",
+          "type": "DataCollector"
+        }
+      ],
+      "git-link": "https://github.com/intercontinental-dictionary-series/idssegmented/tree/v1.0"
+    },
+    {
+      "id": 10404266,
+      "doi": "10.5281/zenodo.10404266",
+      "conceptid": "10404265",
+      "conceptdoi": "10.5281/zenodo.10404265",
+      "created": "2023-12-19T07:56:27.497201+00:00",
+      "updated": "2023-12-19T07:56:27.715117+00:00",
+      "modified": "2023-12-19T07:56:27.715117+00:00",
+      "title": "CLDF dataset derived from Oskolskaya et al.'s \"A Bayesian approach to the classification of Tungusic languages\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Oskolskaya, S., Koile, E., &amp; Robbeets, M. (2021). A Bayesian approach to the classification of Tungusic languages. Diachronica, 39(1), 128\u2013158. https://doi.org/10.1075/dia.20010.osk</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2023-12-19",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Sofia Oskolskaya"
+        },
+        {
+          "name": "Ezequiel Koile"
+        },
+        {
+          "name": "Martine Robbeets"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/oskolskayatungusic-v1.0.zip",
+          "checksum": "md5:2fb0af13a636ffa5631731162e9d5af1",
+          "url": "https://zenodo.org/api/records/10404266/files/lexibank/oskolskayatungusic-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/oskolskayatungusic/tree/v1.0"
+    },
+    {
+      "id": 10404244,
+      "doi": "10.5281/zenodo.10404244",
+      "conceptid": "10404243",
+      "conceptdoi": "10.5281/zenodo.10404243",
+      "created": "2023-12-19T07:47:13.165054+00:00",
+      "updated": "2023-12-19T07:47:13.398894+00:00",
+      "modified": "2023-12-19T07:47:13.398894+00:00",
+      "title": "CLDF dataset derived from Lama's \"Subgrouping of Nisoic (Yi) Languages\" from 2012",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lama, Ziwo Q.-F. (2012). Subgrouping of Nisoic (Yi) Languages: A Study from the Perspectives of Shared Innovation and Phylogenetic Estimation. Ph.D. Thesis. The University of Texas at Arlington.</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2023-12-19",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lama, Ziwo Q.-F."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/lamanisoic-v1.0.zip",
+          "checksum": "md5:f08c03b5baf644ef9cecf5dacefe8f3c",
+          "url": "https://zenodo.org/api/records/10404244/files/lexibank/lamanisoic-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Nathan W. Hill",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/lamanisoic/tree/v1.0"
+    },
+    {
+      "id": 10404212,
+      "doi": "10.5281/zenodo.10404212",
+      "conceptid": "10404211",
+      "conceptdoi": "10.5281/zenodo.10404211",
+      "created": "2023-12-19T07:34:51.092959+00:00",
+      "updated": "2023-12-19T07:34:51.233019+00:00",
+      "modified": "2023-12-19T07:34:51.233019+00:00",
+      "title": "CLDF dataset derived from Othaniel's \"Jen Cluster Comparative Wordlist\" from 2017",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Othaniel, Nlabephee Kefas. 2017. A phonological comparative study of the Jen language cluster. (MA thesis, Jos: Theological College of Northern Nigeria; 1\u201383pp.)</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2023-12-19",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Nlabephee Kefas Othaniel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/othanieljen-v1.0.zip",
+          "checksum": "md5:998791cf30d7c1d47c579a9d9e289c23",
+          "url": "https://zenodo.org/api/records/10404212/files/lexibank/othanieljen-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Nlabephee Kefas Othaniel",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kristina-Pianykh",
+          "type": "Editor"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/othanieljen/tree/v1.0"
+    },
+    {
+      "id": 10401967,
+      "doi": "10.5281/zenodo.10401967",
+      "conceptid": "10401966",
+      "conceptdoi": "10.5281/zenodo.10401966",
+      "created": "2023-12-18T14:30:00.491651+00:00",
+      "updated": "2023-12-18T14:30:00.706262+00:00",
+      "modified": "2023-12-18T14:30:00.706262+00:00",
+      "title": "CLDF dataset derived from the DoReCo core corpus",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Seifart, Frank, Ludger Paschen &amp; Matthew Stave (eds.). 2022. Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). DOI:10.34847/nkl.7cbfq779</p>\n</blockquote>\n<p>Please note that when citing this dataset, it is NOT sufficient to refer to DoReCo as a whole, but the full citation for each individual corpus must be provided, including the name(s) of the creator(s) of each corpus.</p>\n\n<blockquote>Ozerov, Pavel. 2022. Anal DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/anal1239. DOI:10.34847/nkl.0dbazp8m</blockquote>\n\n<blockquote>Riesberg, Sonja. 2022. Yali (Apahapsili) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/apah1238. DOI:10.34847/nkl.9d91nkq2</blockquote>\n\n<blockquote>Cowell, Andrew. 2022. Arapaho DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/arap1274. DOI:10.34847/nkl.36f5r1b6</blockquote>\n\n<blockquote>Cobbinah, Alexander Yao. 2022. Ba\u00efnounk Gub\u00ebeher DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/bain1259. DOI:10.34847/nkl.a332abw8</blockquote>\n\n<blockquote>Vanhove, Martine. 2022. Beja DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/beja1238. DOI:10.34847/nkl.edd011t1</blockquote>\n\n<blockquote>Seifart, Frank. 2022. Bora DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/bora1263. DOI:10.34847/nkl.6eaf5laq</blockquote>\n\n<blockquote>Reiter, Sabine. 2022. Cashinahua DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/cash1254. DOI:10.34847/nkl.a8f9q2f1</blockquote>\n\n<blockquote>D\u00e4britz, Chris Lasse and Kudryakova, Nina and Stapert, Eug\u00e9nie and Arkhipov, Alexandre. 2022. Dolgan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/dolg1241. DOI:10.34847/nkl.f09eikq3</blockquote>\n\n<blockquote>Kazakevich, Olga and Klyachko, Elena. 2022. Evenki DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/even1259. DOI:10.34847/nkl.5e0d27cu</blockquote>\n\n<blockquote>Hellwig, Birgit. 2022. Goemai DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/goem1240. DOI:10.34847/nkl.b93664ml</blockquote>\n\n<blockquote>Harvey, Andrew. 2022. Gorwaa DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/goro1270. DOI:10.34847/nkl.a4b4ijj2</blockquote>\n\n<blockquote>Burenhult, Niclas. 2022. Jahai DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/jeha1242. DOI:10.34847/nkl.6a71xp0p</blockquote>\n\n<blockquote>Kim, Soung-U. 2022. Jejuan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/jeju1234. DOI:10.34847/nkl.06ebrk38</blockquote>\n\n<blockquote>Vydrina, Alexandra. 2022. Kakabe DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/kaka1265. DOI:10.34847/nkl.d5aeu9t6</blockquote>\n\n<blockquote>Gusev, Valentin and Klooster, Tiina and Wagner-Nagy, Be\u00e1ta and Arkhipov, Alexandre. 2022. Kamas DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/kama1351. DOI:10.34847/nkl.cdd8177b</blockquote>\n\n<blockquote>Hellwig, Birgit and Schneider-Blum, Gertrud and Ismail, Khaleel Bakheet Khaleel. 2022. Tabaq (Karko) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/kark1256. DOI:10.34847/nkl.eea8144j</blockquote>\n\n<blockquote>D\u00f6hler, Christian. 2022. Komnzo DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/komn1238. DOI:10.34847/nkl.c5e6dudv</blockquote>\n\n<blockquote>Bartels, Hauke and Szczepa\u0144ski, Marcin. 2022. Lower Sorbian DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/lowe1385. DOI:10.34847/nkl.6c6e4e9k</blockquote>\n\n<blockquote>Haude, Katharina. 2022. Movima DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/movi1243. DOI:10.34847/nkl.da42xf67</blockquote>\n\n<blockquote>Ponsonnet, Ma\u00efa. 2022. Dalabon DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/ngal1292. DOI:10.34847/nkl.fae299ug</blockquote>\n\n<blockquote>G\u00fcldemann, Tom and Ernszt, Martina and Siegmund, Sven and Witzlack-Makarevich, Alena. 2022. N\u01c1ng DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/nngg1234. DOI:10.34847/nkl.f6c37fi0</blockquote>\n\n<blockquote>Haig, Geoff and Vollmer, Maria and Thiele, Hanna. 2022. Northern Kurdish (Kurmanji) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/nort2641. DOI:10.34847/nkl.ca10ez5t</blockquote>\n\n<blockquote>Franjieh, Michael. 2022. Fanbyak DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/orko1234. DOI:10.34847/nkl.02084446</blockquote>\n\n<blockquote>Ring, Hiram. 2022. Pnar DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/pnar1238. DOI:10.34847/nkl.5ba1062k</blockquote>\n\n<blockquote>Krifka, Manfred. 2022. Daakie DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/port1286. DOI:10.34847/nkl.efeav5l9</blockquote>\n\n<blockquote>Seifart, Frank. 2022. Res\u00edgaro DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/resi1247. DOI:10.34847/nkl.ffb96lo8</blockquote>\n\n<blockquote>Witzlack-Makarevich, Alena and Namyalo, Saudah and Kiriggwajjo, Anatol and Molochieva, Zarina. 2022. Ruuli DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/ruul1235. DOI:10.34847/nkl.fde4pp1u</blockquote>\n\n<blockquote>Xu, Xianming and Bai, Bibo. 2022. Sadu DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sadu1234. DOI:10.34847/nkl.3db4u59d</blockquote>\n\n<blockquote>Forker, Diana and Schiborr, Nils Norman. 2022. Sanzhi Dargwa DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sanz1248. DOI:10.34847/nkl.81934177</blockquote>\n\n<blockquote>Wegener, Claudia. 2022. Savosavo DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/savo1255. DOI:10.34847/nkl.b74d1b33</blockquote>\n\n<blockquote>Thieberger, Nick. 2022. Nafsan (South Efate) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sout2856. DOI:10.34847/nkl.ba4f760l</blockquote>\n\n<blockquote>Schiborr, Nils Norman. 2022. English (Southern England) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sout3282. DOI:10.34847/nkl.9c271u5g</blockquote>\n\n<blockquote>Avanzi, Mathieu and B\u00e9guelin, Marie-Jos\u00e9 and Corminboeuf, Gilles and Di\u00e9moz, Federica and Johnsen, Laure Anne. 2022. French (Swiss) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/stan1290. DOI:10.34847/nkl.3520l685</blockquote>\n\n<blockquote>Teo, Amos. 2022. S\u00fcmi DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sumi1235. DOI:10.34847/nkl.5ad4t01p</blockquote>\n\n<blockquote>Gippert, Jost. 2022. Svan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/svan1243. DOI:10.34847/nkl.9ba054c3</blockquote>\n\n<blockquote>Bogomolova, Natalia and Ganenkov, Dmitry and Schiborr, Nils Norman. 2022. Tabasaran DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/taba1259. DOI:10.34847/nkl.ad7f97xr</blockquote>\n\n<blockquote>Mosel, Ulrike. 2022. Teop DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/teop1238. DOI:10.34847/nkl.9322sdf2</blockquote>\n\n<blockquote>Wichmann, S\u00f8ren. 2022. Texistepec Popoluca DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/texi1237. DOI:10.34847/nkl.c50ck58f</blockquote>\n\n<blockquote>Rose, Fran\u00e7oise. 2022. Moje\u00f1o Trinitario DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/trin1278. DOI:10.34847/nkl.cbc3b4xr</blockquote>\n\n<blockquote>Griscom, Richard. 2022. Asimjeeg Datooga DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/tsim1256. DOI:10.34847/nkl.f77c7m72</blockquote>\n\n<blockquote>Schnell, Stefan. 2022. Vera&#x27;a DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/vera1241. DOI:10.34847/nkl.3e2cu8c4</blockquote>\n\n<blockquote>Michaud, Alexis. 2022. Yongning Na DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/yong1270. DOI:10.34847/nkl.abe65p95</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2023-12-18",
+      "license": "cc-zero",
+      "creators": [
+        {
+          "name": "Frank Seifart"
+        },
+        {
+          "name": "Ludger Paschen"
+        },
+        {
+          "name": "Matthew Stave"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/doreco-v1.2.zip",
+          "checksum": "md5:a922139d31d495b136da8fe53ba5454a",
+          "url": "https://zenodo.org/api/records/10401967/files/cldf-datasets/doreco-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/cldf-datasets/doreco/tree/v1.2"
+    },
+    {
+      "id": 10392172,
+      "doi": "10.5281/zenodo.10392172",
+      "conceptid": "6538459",
+      "conceptdoi": "10.5281/zenodo.6538459",
+      "created": "2023-12-15T16:54:41.214082+00:00",
+      "updated": "2023-12-15T16:54:41.441886+00:00",
+      "modified": "2023-12-15T16:54:41.441886+00:00",
+      "title": "CLDF dataset derived from Luangthongkum's \"Proto-Karen Phonology and Lexicon\" from 2019",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Luangthongkum, T. (2019). A View on Proto-Karen Phonology and Lexicon, Journal of Southest Asian Linguistics Society, 12.1, i-lii. doi: http://hdl.handle.net/10524/52441</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2023-12-15",
+      "license": "cc-by-nc-nd-4.0",
+      "creators": [
+        {
+          "name": "Luangthongkum, T."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/luangthongkumkaren-v1.0.zip",
+          "checksum": "md5:ab6d0dde4b647209f44f17c2410e87fc",
+          "url": "https://zenodo.org/api/records/10392172/files/lexibank/luangthongkumkaren-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/luangthongkumkaren/tree/v1.0"
+    },
+    {
+      "id": 10245745,
+      "doi": "10.5281/zenodo.10245745",
+      "conceptid": "10245744",
+      "conceptdoi": "10.5281/zenodo.10245744",
+      "created": "2023-12-01T11:57:09.945362+00:00",
+      "updated": "2023-12-01T11:57:10.090794+00:00",
+      "modified": "2023-12-01T11:57:10.090794+00:00",
+      "title": "CLDF dataset derived from the Leipzig Glossing Rules",
+      "description": "The Leipzig Glossing Rules",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2023-12-01",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Bernard Comrie"
+        },
+        {
+          "name": "Martin Haspelmath"
+        },
+        {
+          "name": "Balthasar Bickel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/lgr-v1.0.zip",
+          "checksum": "md5:c2bcb47c55a12e7b82a5546f37980a6d",
+          "url": "https://zenodo.org/api/records/10245745/files/cldf-datasets/lgr-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/lgr/tree/v1.0"
+    },
+    {
+      "id": 10214016,
+      "doi": "10.5281/zenodo.10214016",
+      "conceptid": "8058800",
+      "conceptdoi": "10.5281/zenodo.8058800",
+      "created": "2023-11-28T15:35:06.092045+00:00",
+      "updated": "2023-11-28T15:35:06.518039+00:00",
+      "modified": "2023-11-28T15:35:06.518039+00:00",
+      "title": "CLDF dataset derived from Oliveira's \"Contribui\u00e7\u00f5es para a Reconstru\u00e7\u00e3o do Protop\u00e1no\" from 2014",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Oliveira, Sanderson Castro Soares de. 2014. Contribui\u00e7\u00f5es para a reconstru\u00e7\u00e3o do Protop\u00e1no. Universidade de Bras\u00edlia, Bras\u00edlia.</p>\n</blockquote>",
+      "version": "v1.2.0",
+      "access_right": "open",
+      "publication_date": "2023-11-28",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Oliveira, Sanderson"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "pano-tacanan-history/oliveiraprotopanoan-v1.2.0.zip",
+          "checksum": "md5:87c1e8b13f6174641d8694bafb800929",
+          "url": "https://zenodo.org/api/records/10214016/files/pano-tacanan-history/oliveiraprotopanoan-v1.2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Frederic Blum",
+          "type": "Other"
+        },
+        {
+          "name": "Carlos M. B. Ugarte",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/pano-tacanan-history/oliveiraprotopanoan/tree/v1.2.0"
+    },
+    {
+      "id": 10212485,
+      "doi": "10.5281/zenodo.10212485",
+      "conceptid": "10212484",
+      "conceptdoi": "10.5281/zenodo.10212484",
+      "created": "2023-11-28T08:23:05.209940+00:00",
+      "updated": "2023-11-28T08:23:05.335402+00:00",
+      "modified": "2023-11-28T08:23:05.335402+00:00",
+      "title": "CLDF dataset derived from Girard's \"Proto-Takanan Phonology\" from 1971",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Girard, Victor (1971): Proto-Takanan Phonology. University of California Press, Berkeley.</p>\n</blockquote>",
+      "version": "v1.0.0",
+      "access_right": "open",
+      "publication_date": "2023-11-28",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Victor Girard"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "pano-tacanan-history/girardprototakanan-v1.0.0.zip",
+          "checksum": "md5:521bf6d5a3c00ba19cc2ed4ef21f75fd",
+          "url": "https://zenodo.org/api/records/10212485/files/pano-tacanan-history/girardprototakanan-v1.0.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Frederic Blum",
+          "type": "Other"
+        },
+        {
+          "name": "Carlos M. B. Ugarte",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/pano-tacanan-history/girardprototakanan/tree/v1.0.0"
+    },
+    {
+      "id": 10212481,
+      "doi": "10.5281/zenodo.10212481",
+      "conceptid": "10212480",
+      "conceptdoi": "10.5281/zenodo.10212480",
+      "created": "2023-11-28T08:22:57.897432+00:00",
+      "updated": "2023-11-28T08:22:58.018559+00:00",
+      "modified": "2023-11-28T08:22:58.018559+00:00",
+      "title": "CLDF dataset derived from Valenzuela, Pilar and Roberto Zariquiey's \" Language classification in Western Amazonia: advances in favor of the Pano-Takana Hypothesis\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Valenzuela, Pilar and Zariquiey, Roberto (2023). Language classification in Western Amazonia: advances in favor of the Pano-Takana Hypothesis. LIAMES: L\u00ednguas Ind\u00edgenas Americanas, Campinas, SP. https://doi.org/10.20396/liames.v23i00.8670150</p>\n</blockquote>",
+      "version": "v1.0.0",
+      "access_right": "open",
+      "publication_date": "2023-11-28",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Pilar Valenzuela"
+        },
+        {
+          "name": "Roberto Zariquiey"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "pano-tacanan-history/valenzuelazariquieypanotakana-v1.0.0.zip",
+          "checksum": "md5:7a963fbb62c6f094e7e09aaf99f32f12",
+          "url": "https://zenodo.org/api/records/10212481/files/pano-tacanan-history/valenzuelazariquieypanotakana-v1.0.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Frederic Blum",
+          "type": "Other"
+        },
+        {
+          "name": "Carlos M. B. Ugarte",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/pano-tacanan-history/valenzuelazariquieypanotakana/tree/v1.0.0"
+    },
+    {
+      "id": 10201125,
+      "doi": "10.5281/zenodo.10201125",
+      "conceptid": "10171857",
+      "conceptdoi": "10.5281/zenodo.10171857",
+      "created": "2023-11-23T14:03:28.268657+00:00",
+      "updated": "2023-11-23T14:03:28.444611+00:00",
+      "modified": "2023-11-23T14:03:28.444611+00:00",
+      "title": "D-PLACE dataset derived from Binford 2001 'Constructing Frames of Reference'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Binford, L. 2001. Constructing Frames of Reference: An Analytical Method for Archaeological Theory Building Using Hunter-gatherer and Environmental Data Sets. University of California Press</p>\n</blockquote>",
+      "version": "v3.0.1",
+      "access_right": "open",
+      "publication_date": "2023-11-23",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Lewis R. Binford"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-binford-v3.0.1.zip",
+          "checksum": "md5:a0eeb39213d88bb07159b7d3cf78da41",
+          "url": "https://zenodo.org/api/records/10201125/files/D-PLACE/dplace-dataset-binford-v3.0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-binford/tree/v3.0.1"
+    },
+    {
+      "id": 10201104,
+      "doi": "10.5281/zenodo.10201104",
+      "conceptid": "10201103",
+      "conceptdoi": "10.5281/zenodo.10201103",
+      "created": "2023-11-23T13:58:19.600991+00:00",
+      "updated": "2023-11-23T13:58:20.497798+00:00",
+      "modified": "2023-11-23T13:58:20.497798+00:00",
+      "title": "D-PLACE dataset derived from Jorgensen 1980 'Western Indians'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Jorgensen, JG. 1980. Western Indians: Comparative Environments, Languages, and Cultures of 172 Western American Indian Tribes. San Francisco: W.H. Freeman and Company.</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-23",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Jorgensen, JG"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-wnai-v3.0.zip",
+          "checksum": "md5:192ef1bab64066dd49100331e694df50",
+          "url": "https://zenodo.org/api/records/10201104/files/D-PLACE/dplace-dataset-wnai-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-wnai/tree/v3.0"
+    },
+    {
+      "id": 10201087,
+      "doi": "10.5281/zenodo.10201087",
+      "conceptid": "10201086",
+      "conceptdoi": "10.5281/zenodo.10201086",
+      "created": "2023-11-23T13:54:18.384178+00:00",
+      "updated": "2023-11-23T13:54:18.664351+00:00",
+      "modified": "2023-11-23T13:54:18.664351+00:00",
+      "title": "D-PLACE dataset derived from Olson et al. 2001 'Terrestrial Ecoregions of the World'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., D&#x27;Amico, J. A., Itoua, I., Strand, H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H., Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., Kassem, K. R. 2001. Terrestrial ecoregions of the world: a new map of life on Earth. Bioscience 51(11):933-938.</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-23",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Olson, D. M."
+        },
+        {
+          "name": "Dinerstein, E."
+        },
+        {
+          "name": "Wikramanayake, E. D."
+        },
+        {
+          "name": "Burgess, N. D."
+        },
+        {
+          "name": "Powell, G. V. N."
+        },
+        {
+          "name": "Underwood, E. C."
+        },
+        {
+          "name": "D'Amico, J. A."
+        },
+        {
+          "name": "Itoua, I."
+        },
+        {
+          "name": "Strand, H. E."
+        },
+        {
+          "name": "Morrison, J. C."
+        },
+        {
+          "name": "Loucks, C. J."
+        },
+        {
+          "name": "Allnutt, T. F."
+        },
+        {
+          "name": "Ricketts, T. H."
+        },
+        {
+          "name": "Kura, Y."
+        },
+        {
+          "name": "Lamoreux, J. F."
+        },
+        {
+          "name": "Wettengel, W. W."
+        },
+        {
+          "name": "Hedao, P."
+        },
+        {
+          "name": "Kassem, K. R."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-teow-v3.0.zip",
+          "checksum": "md5:dcbb157ab9eb2c36348ff423e3472447",
+          "url": "https://zenodo.org/api/records/10201087/files/D-PLACE/dplace-dataset-teow-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-teow/tree/v3.0"
+    },
+    {
+      "id": 10201075,
+      "doi": "10.5281/zenodo.10201075",
+      "conceptid": "10201074",
+      "conceptdoi": "10.5281/zenodo.10201074",
+      "created": "2023-11-23T13:51:39.625241+00:00",
+      "updated": "2023-11-23T13:51:40.329587+00:00",
+      "modified": "2023-11-23T13:51:40.329587+00:00",
+      "title": "D-PLACE dataset derived from Murdock and White 1969 'Standard Cross-Cultural Sample'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Murdock GP &amp; White DR. 1969. Standard Cross-Cultural Sample. Ethnology. 9:329\u2013369.</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-23",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Murdock, George P."
+        },
+        {
+          "name": "White, Douglas R."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-sccs-v3.0.zip",
+          "checksum": "md5:97a701d7023580c1b95b73135c6163bc",
+          "url": "https://zenodo.org/api/records/10201075/files/D-PLACE/dplace-dataset-sccs-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-sccs/tree/v3.0"
+    },
+    {
+      "id": 10183957,
+      "doi": "10.5281/zenodo.10183957",
+      "conceptid": "10183956",
+      "conceptdoi": "10.5281/zenodo.10183956",
+      "created": "2023-11-22T07:50:12.806388+00:00",
+      "updated": "2023-11-22T07:50:13.007789+00:00",
+      "modified": "2023-11-22T07:50:13.007789+00:00",
+      "title": "D-PLACE dataset derived from NASA TERRA/MODIS 'Net Primary Productivity'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>NASA. Net Primary Productivity (1 month - TERRA/MODIS)</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-22",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "NASA TERRA/MODIS"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-modis-v3.0.zip",
+          "checksum": "md5:5eec2ae1888a871d888aa8f6dfbe71b6",
+          "url": "https://zenodo.org/api/records/10183957/files/D-PLACE/dplace-dataset-modis-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-modis/tree/v3.0"
+    },
+    {
+      "id": 10182361,
+      "doi": "10.5281/zenodo.10182361",
+      "conceptid": "10182360",
+      "conceptdoi": "10.5281/zenodo.10182360",
+      "created": "2023-11-21T17:35:29.961158+00:00",
+      "updated": "2023-11-21T17:35:30.082884+00:00",
+      "modified": "2023-11-21T17:35:30.082884+00:00",
+      "title": "D-PLACE dataset derived from Kreft and Jetz 2007 'Global patterns and determinants of vascular plant diversity'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kreft H, Jetz W. Global patterns and determinants of vascular plant diversity. Proc Natl Acad Sci. 2007;104: 5925\u20135930.</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-21",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Kreft H."
+        },
+        {
+          "name": "Jetz W."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-kreft-v3.0.zip",
+          "checksum": "md5:2b40d2086002baa4b8dcafa373b5709a",
+          "url": "https://zenodo.org/api/records/10182361/files/D-PLACE/dplace-dataset-kreft-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-kreft/tree/v3.0"
+    },
+    {
+      "id": 10182356,
+      "doi": "10.5281/zenodo.10182356",
+      "conceptid": "10182355",
+      "conceptdoi": "10.5281/zenodo.10182355",
+      "created": "2023-11-21T17:33:12.449545+00:00",
+      "updated": "2023-11-21T17:33:12.720203+00:00",
+      "modified": "2023-11-21T17:33:12.720203+00:00",
+      "title": "D-PLACE dataset derived from Jenkins et al. 2013 'Global patterns of terrestrial vertebrate diversity and conservation'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Jenkins CN, Pimm SL, Joppa LN. Global patterns of terrestrial vertebrate diversity and conservation. Proc Natl Acad Sci. 2013;110: E2602\u2013E2610.</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-21",
+      "license": "cc-by-3.0",
+      "creators": [
+        {
+          "name": "Jenkins, CN"
+        },
+        {
+          "name": "SL Pimm"
+        },
+        {
+          "name": "LN Joppa"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-jenkins-v3.0.zip",
+          "checksum": "md5:3274871abde062c55d59034495220761",
+          "url": "https://zenodo.org/api/records/10182356/files/D-PLACE/dplace-dataset-jenkins-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-jenkins/tree/v3.0"
+    },
+    {
+      "id": 10182319,
+      "doi": "10.5281/zenodo.10182319",
+      "conceptid": "10182307",
+      "conceptdoi": "10.5281/zenodo.10182307",
+      "created": "2023-11-21T17:21:05.805470+00:00",
+      "updated": "2023-11-21T17:21:06.226802+00:00",
+      "modified": "2023-11-21T17:21:06.226802+00:00",
+      "title": "D-PLACE dataset derived from Wessel and Smith 2015 'Global Self-consistent, Hierarchical, High-resolution Geography Database'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Wessel, P., and W. H. F. Smith (1996), A global, self-consistent, hierarchical, high-resolution shoreline database, J. Geophys. Res., 101(B4), 8741\u20138743, doi:10.1029/96JB00104.\n\nWessel P, Smith, W. H. F. Global Self-consistent, Hierarchical, High-resolution Geography Database (GSHHS) v2.3.4 [Internet]. 2015. Available: https://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html</p>\n</blockquote>",
+      "version": "v3.0.1",
+      "access_right": "open",
+      "publication_date": "2023-11-21",
+      "license": "lgpl-3.0",
+      "creators": [
+        {
+          "name": "P. Wessel"
+        },
+        {
+          "name": "W. H. F. Smith"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-gshhs-v3.0.1.zip",
+          "checksum": "md5:6b233d9bdb63011c692f1a1eb81a4a24",
+          "url": "https://zenodo.org/api/records/10182319/files/D-PLACE/dplace-dataset-gshhs-v3.0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-gshhs/tree/v3.0.1"
+    },
+    {
+      "id": 10182308,
+      "doi": "10.5281/zenodo.10182308",
+      "conceptid": "10182307",
+      "conceptdoi": "10.5281/zenodo.10182307",
+      "created": "2023-11-21T17:12:14.752763+00:00",
+      "updated": "2023-11-21T17:12:14.892739+00:00",
+      "modified": "2023-11-21T17:12:14.892739+00:00",
+      "title": "D-PLACE dataset derived from Wessel and Smith 2015 'Global Self-consistent, Hierarchical, High-resolution Geography Database'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Wessel, P., and W. H. F. Smith (1996), A global, self-consistent, hierarchical, high-resolution shoreline database, J. Geophys. Res., 101(B4), 8741\u20138743, doi:10.1029/96JB00104.\n\nWessel P, Smith, W. H. F. Global Self-consistent, Hierarchical, High-resolution Geography Database (GSHHS) v2.3.4 [Internet]. 2015. Available: https://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-21",
+      "license": "lgpl-3.0",
+      "creators": [
+        {
+          "name": "P. Wessel"
+        },
+        {
+          "name": "W. H. F. Smith"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-gshhs-v3.0.zip",
+          "checksum": "md5:628bbf8692b7dbb4939d9323e0fe7b18",
+          "url": "https://zenodo.org/api/records/10182308/files/D-PLACE/dplace-dataset-gshhs-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-gshhs/tree/v3.0"
+    },
+    {
+      "id": 10180043,
+      "doi": "10.5281/zenodo.10180043",
+      "conceptid": "10180042",
+      "conceptdoi": "10.5281/zenodo.10180042",
+      "created": "2023-11-21T16:21:34.301569+00:00",
+      "updated": "2023-11-21T16:21:34.430497+00:00",
+      "modified": "2023-11-21T16:21:34.430497+00:00",
+      "title": "D-PLACE dataset derived from 'Global Multi-resolution Terrain Elevation Data 2010'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Global Multi-resolution Terrain Elevation Data courtesy of the U.S. Geological Survey (Downloaded 14 Jul 2014)</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-21",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Earth Resources Observation and Science (EROS) Center"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-gmted2010-v3.0.zip",
+          "checksum": "md5:33e0389d718348737d61cce3430bc659",
+          "url": "https://zenodo.org/api/records/10180043/files/D-PLACE/dplace-dataset-gmted2010-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-gmted2010/tree/v3.0"
+    },
+    {
+      "id": 10179301,
+      "doi": "10.5281/zenodo.10179301",
+      "conceptid": "10179300",
+      "conceptdoi": "10.5281/zenodo.10179300",
+      "created": "2023-11-21T16:07:56.730805+00:00",
+      "updated": "2023-11-21T16:07:56.937772+00:00",
+      "modified": "2023-11-21T16:07:56.937772+00:00",
+      "title": "D-PLACE dataset derived from Lima-Ribeiro et al. 2015 'ecoClimate'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lima-Ribeiro MS; Varela S; Gonz\u00e1lez-Hern\u00e1ndez J; Oliveira G; Diniz-Filho JAF; Terribile LC. 2015. ecoClimate: a database of climate data from multiple models for past, present, and future for Macroecologists and Biogeographers Biodiversity Informatics 10, 1-21. DOI: 10.17161/bi.v10i0.4955\n\nLima-Ribeiro MS; Varela S; Gonz\u00e1lez-Hern\u00e1ndez J; Oliveira G; Diniz-Filho JAF; Peterson AT; Terribile LC. The ecoClimate Database, http://ecoclimate.org</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-21",
+      "license": "cc-by-nc-sa-4.0",
+      "creators": [
+        {
+          "name": "Lima-Ribeiro MS"
+        },
+        {
+          "name": "Varela S"
+        },
+        {
+          "name": "Gonz\u00e1lez-Hern\u00e1ndez J"
+        },
+        {
+          "name": "Oliveira G"
+        },
+        {
+          "name": "Diniz-Filho JAF"
+        },
+        {
+          "name": "Peterson AT"
+        },
+        {
+          "name": "Terribile LC"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-ecoclimate-v3.0.zip",
+          "checksum": "md5:a3d43c950b26cc69066f313ae10fa1fc",
+          "url": "https://zenodo.org/api/records/10179301/files/D-PLACE/dplace-dataset-ecoclimate-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-ecoclimate/tree/v3.0"
+    },
+    {
+      "id": 10177061,
+      "doi": "10.5281/zenodo.10177061",
+      "conceptid": "10177060",
+      "conceptdoi": "10.5281/zenodo.10177060",
+      "created": "2023-11-21T15:27:37.843341+00:00",
+      "updated": "2023-11-21T15:27:38.008499+00:00",
+      "modified": "2023-11-21T15:27:38.008499+00:00",
+      "title": "D-PLACE dataset derived from Murdock et al. 1999 'Ethnographic Atlas'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Murdock, G. P., R. Textor, H. Barry, III, D. R. White, J. P. Gray, and W. T. Divale. 1999. Ethnographic Atlas. World Cultures 10:24-136 (codebook)</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-21",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Murdock, G. P."
+        },
+        {
+          "name": "R. Textor"
+        },
+        {
+          "name": "H. Barry, III"
+        },
+        {
+          "name": "D. R. White"
+        },
+        {
+          "name": "J. P. Gray"
+        },
+        {
+          "name": "W. T. Divale"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-ea-v3.0.zip",
+          "checksum": "md5:7aacd86a81a12ab4557e8cbeafd5aef7",
+          "url": "https://zenodo.org/api/records/10177061/files/D-PLACE/dplace-dataset-ea-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-ea/tree/v3.0"
+    },
+    {
+      "id": 10171858,
+      "doi": "10.5281/zenodo.10171858",
+      "conceptid": "10171857",
+      "conceptdoi": "10.5281/zenodo.10171857",
+      "created": "2023-11-21T13:54:56.989907+00:00",
+      "updated": "2023-11-21T13:54:57.249930+00:00",
+      "modified": "2023-11-21T13:54:57.249930+00:00",
+      "title": "D-PLACE dataset derived from Binford 2001 'Constructing Frames of Reference'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Binford, L. 2001. Constructing Frames of Reference: An Analytical Method for Archaeological Theory Building Using Hunter-gatherer and Environmental Data Sets. University of California Press</p>\n</blockquote>",
+      "version": "v3.0",
+      "access_right": "open",
+      "publication_date": "2023-11-21",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Lewis R. Binford"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-binford-v3.0.zip",
+          "checksum": "md5:3eca2381390fdd9ddad3c25660de7abb",
+          "url": "https://zenodo.org/api/records/10171858/files/D-PLACE/dplace-dataset-binford-v3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-binford/tree/v3.0"
+    },
+    {
+      "id": 10149910,
+      "doi": "10.5281/zenodo.10149910",
+      "conceptid": "8250323",
+      "conceptdoi": "10.5281/zenodo.8250323",
+      "created": "2023-11-17T15:59:32.255415+00:00",
+      "updated": "2023-11-17T15:59:32.419441+00:00",
+      "modified": "2023-11-17T15:59:32.419441+00:00",
+      "title": "Phlorest phylogeny derived from Zhang et al 2019 'Phylogenetic evidence for Sino-Tibetan origin in northern China in the Late Neolithic'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Zhang M, Yan S, Pan W, &amp; Jin L. 2019. Phylogenetic evidence for Sino-Tibetan origin in northern China in the Late Neolithic. Nature, 569, 112\u2013115.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Menghan Zhang"
+        },
+        {
+          "name": "Shi Yan"
+        },
+        {
+          "name": "Wuyun Pan"
+        },
+        {
+          "name": "Li Jin"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/zhang_et_al2019-v1.1.zip",
+          "checksum": "md5:7bdabf8de6536f053ca564e361da509a",
+          "url": "https://zenodo.org/api/records/10149910/files/phlorest/zhang_et_al2019-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/zhang_et_al2019/tree/v1.1"
+    },
+    {
+      "id": 10149891,
+      "doi": "10.5281/zenodo.10149891",
+      "conceptid": "8250306",
+      "conceptdoi": "10.5281/zenodo.8250306",
+      "created": "2023-11-17T15:48:52.669915+00:00",
+      "updated": "2023-11-17T15:48:52.804611+00:00",
+      "modified": "2023-11-17T15:48:52.804611+00:00",
+      "title": "Phlorest phylogeny derived from Walker & Ribeiro 2011 'Bayesian phylogeography of the Arawak expansion in lowland South America'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Walker, R. S., &amp; Ribeiro, L. A. (2011). Bayesian phylogeography of the Arawak expansion in lowland South America. Proceedings of the Royal Society B: Biological Sciences, 278(1718), 2562\u20132567.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "R. S. Walker"
+        },
+        {
+          "name": "L. A. Ribeiro"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/walker_and_ribeiro2011-v1.1.zip",
+          "checksum": "md5:f79010531aa4f59d6e2c88433fdad4ef",
+          "url": "https://zenodo.org/api/records/10149891/files/phlorest/walker_and_ribeiro2011-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/walker_and_ribeiro2011/tree/v1.1"
+    },
+    {
+      "id": 10149871,
+      "doi": "10.5281/zenodo.10149871",
+      "conceptid": "8250302",
+      "conceptdoi": "10.5281/zenodo.8250302",
+      "created": "2023-11-17T15:45:26.831875+00:00",
+      "updated": "2023-11-17T15:45:27.027497+00:00",
+      "modified": "2023-11-17T15:45:27.027497+00:00",
+      "title": "Phlorest phylogeny derived from Sicoli & Holton 2014 'Linguistic phylogenies support back-migration from Beringia to Asia'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Sicoli MA &amp; Holton G (2014) Linguistic phylogenies support back-migration from Beringia to Asia. PLoS One 9(3):e91722.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Sicoli, Mark A."
+        },
+        {
+          "name": "Holton, Gary"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/sicoli_and_holton2014-v1.1.zip",
+          "checksum": "md5:57c227b796fc100b19b0d0dfbda85fff",
+          "url": "https://zenodo.org/api/records/10149871/files/phlorest/sicoli_and_holton2014-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/sicoli_and_holton2014/tree/v1.1"
+    },
+    {
+      "id": 10149865,
+      "doi": "10.5281/zenodo.10149865",
+      "conceptid": "8250294",
+      "conceptdoi": "10.5281/zenodo.8250294",
+      "created": "2023-11-17T15:41:16.247543+00:00",
+      "updated": "2023-11-17T15:41:16.409603+00:00",
+      "modified": "2023-11-17T15:41:16.409603+00:00",
+      "title": "Phlorest phylogeny derived from Sagart et al. 2019 'Dated language phylogenies shed light on the ancestry of Sino-Tibetan'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Sagart L, Jacques G, Lai Y, Ryder RJ, Thouzeau V, Greenhill SJ, List J- M. 2019 Dated language phylogenies shed light on the ancestry of Sino-Tibetan. Proceedings of the National Academy of Sciences, 201817972.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Sagart, Laurent"
+        },
+        {
+          "name": "Jacques, Guillaume"
+        },
+        {
+          "name": "Lai, Yunfan"
+        },
+        {
+          "name": "Ryder, Robin J."
+        },
+        {
+          "name": "Thouzeau, Valentin"
+        },
+        {
+          "name": "List, Johann-Mattis"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/sagart_et_al2019-v1.1.zip",
+          "checksum": "md5:dc09b2cee094cc5710411cc20fdb78b2",
+          "url": "https://zenodo.org/api/records/10149865/files/phlorest/sagart_et_al2019-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/sagart_et_al2019/tree/v1.1"
+    },
+    {
+      "id": 10149839,
+      "doi": "10.5281/zenodo.10149839",
+      "conceptid": "8250285",
+      "conceptdoi": "10.5281/zenodo.8250285",
+      "created": "2023-11-17T15:29:30.909233+00:00",
+      "updated": "2023-11-17T15:29:31.073970+00:00",
+      "modified": "2023-11-17T15:29:31.073970+00:00",
+      "title": "Phlorest phylogeny derived from Robinson and Holton 2012 'Internal Classification of the Alor-Pantar Language Family Using Computational Methods Applied to the Lexicon'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Robinson, L. C., &amp; Holton, G. (2012). Internal Classification of the Alor-Pantar Language Family Using Computational Methods Applied to the Lexicon. Language Dynamics and Change, 2(2), 123-149. doi:10.1163/22105832-20120201</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Laura C. Robinson"
+        },
+        {
+          "name": "Gary Holton"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/robinson_and_holton2012-v1.1.zip",
+          "checksum": "md5:5202fb439f5f6f90d25e22bd55012638",
+          "url": "https://zenodo.org/api/records/10149839/files/phlorest/robinson_and_holton2012-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/robinson_and_holton2012/tree/v1.1"
+    },
+    {
+      "id": 10149825,
+      "doi": "10.5281/zenodo.10149825",
+      "conceptid": "8250179",
+      "conceptdoi": "10.5281/zenodo.8250179",
+      "created": "2023-11-17T15:26:30.946404+00:00",
+      "updated": "2023-11-17T15:26:31.144884+00:00",
+      "modified": "2023-11-17T15:26:31.144884+00:00",
+      "title": "Phlorest phylogeny derived from Lee & Hasegawa 2013 'Evolution of the Ainu Language in Space and Time'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee S, Hasegawa T (2013) Evolution of the Ainu Language in Space and Time. PLoS ONE 8(4): e62243. doi: 10.1371/journal.pone.0062243</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Sean Lee"
+        },
+        {
+          "name": "Toshikazu Hasegawa"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/lee_and_hasegawa2013-v1.1.zip",
+          "checksum": "md5:2cf0f98c3b5f049208cce1d997767079",
+          "url": "https://zenodo.org/api/records/10149825/files/phlorest/lee_and_hasegawa2013-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/lee_and_hasegawa2013/tree/v1.1"
+    },
+    {
+      "id": 10149812,
+      "doi": "10.5281/zenodo.10149812",
+      "conceptid": "8250162",
+      "conceptdoi": "10.5281/zenodo.8250162",
+      "created": "2023-11-17T15:21:16.113246+00:00",
+      "updated": "2023-11-17T15:21:16.278273+00:00",
+      "modified": "2023-11-17T15:21:16.278273+00:00",
+      "title": "Phlorest phylogeny derived from Lee 2015 'A Sketch of Language History in the Korean Peninsula'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee S (2015) A Sketch of Language History in the Korean Peninsula. PLoS ONE 10(5): e0128448. doi:10.1371/journal.pone.0128448</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lee, Sean"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/lee2015-v1.1.zip",
+          "checksum": "md5:508e668789e4c80b949c3a34e3790db3",
+          "url": "https://zenodo.org/api/records/10149812/files/phlorest/lee2015-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/lee2015/tree/v1.1"
+    },
+    {
+      "id": 10149769,
+      "doi": "10.5281/zenodo.10149769",
+      "conceptid": "8250129",
+      "conceptdoi": "10.5281/zenodo.8250129",
+      "created": "2023-11-17T15:06:54.145875+00:00",
+      "updated": "2023-11-17T15:06:54.349886+00:00",
+      "modified": "2023-11-17T15:06:54.349886+00:00",
+      "title": "Phlorest phylogeny derived from Kolipakam et al. 2018 'A Bayesian phylogenetic study of the Dravidian language family'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kolipakam V, Jordan FM, Dunn M, Greenhill SJ, Bouckaert R, Gray RD &amp; Verkerk A. 2018. A Bayesian phylogenetic study of the Dravidian language family. R. Soc. Open Sci. 5: 171504.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Kolipakam, Vishnupriya"
+        },
+        {
+          "name": "Jordan, Fiona M."
+        },
+        {
+          "name": "Dunn, Michael"
+        },
+        {
+          "name": "Bouckaert, Remco"
+        },
+        {
+          "name": "Gray, Russell D."
+        },
+        {
+          "name": "Verkerk, Annemarie"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/kolipakam_et_al2018-v1.1.zip",
+          "checksum": "md5:7c0220951251438e7956ebb3ee1dd817",
+          "url": "https://zenodo.org/api/records/10149769/files/phlorest/kolipakam_et_al2018-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/kolipakam_et_al2018/tree/v1.1"
+    },
+    {
+      "id": 10149760,
+      "doi": "10.5281/zenodo.10149760",
+      "conceptid": "8250115",
+      "conceptdoi": "10.5281/zenodo.8250115",
+      "created": "2023-11-17T15:02:45.974918+00:00",
+      "updated": "2023-11-17T15:02:46.184166+00:00",
+      "modified": "2023-11-17T15:02:46.184166+00:00",
+      "title": "Phlorest phylogeny derived from Kitchen et al. 2009 'Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kitchen A, Ehret C, Assefa S &amp; Mulligan CJ. 2009. Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Proceedings of the Royal Society B: Biological Sciences, 270(1668), 2703-2710.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "A. Kitchen"
+        },
+        {
+          "name": "C. Ehret"
+        },
+        {
+          "name": "S. Assefa"
+        },
+        {
+          "name": "C. J. Mulligan"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/kitchen_et_al2009-v1.1.zip",
+          "checksum": "md5:2bda927b8592783edfe8e43dc57a8500",
+          "url": "https://zenodo.org/api/records/10149760/files/phlorest/kitchen_et_al2009-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/kitchen_et_al2009/tree/v1.1"
+    },
+    {
+      "id": 10149695,
+      "doi": "10.5281/zenodo.10149695",
+      "conceptid": "8250105",
+      "conceptdoi": "10.5281/zenodo.8250105",
+      "created": "2023-11-17T14:44:21.300066+00:00",
+      "updated": "2023-11-17T14:44:21.469058+00:00",
+      "modified": "2023-11-17T14:44:21.469058+00:00",
+      "title": "Phlorest phylogeny derived from Hruschka et al. 2015 'Detecting regular sound changes in linguistics as events of concerted evolution'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Hruschka, D. J., Branford, S., Smith, E. D., Wilkins, J., Meade, A., Pagel, M., &amp; Bhattacharya, T. (2015). Detecting regular sound changes in linguistics as events of concerted evolution. Current Biology, 25(1), 1-9.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Daniel J. Hruschka"
+        },
+        {
+          "name": "Simon Branford"
+        },
+        {
+          "name": "Eric D. Smith"
+        },
+        {
+          "name": "Jon Wilkins"
+        },
+        {
+          "name": "Andrew Meade"
+        },
+        {
+          "name": "Mark Pagel"
+        },
+        {
+          "name": "Tanmoy Bhattacharya"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/hruschka_et_al2015-v1.1.zip",
+          "checksum": "md5:569a188a37d6542976ba4231e6d901e8",
+          "url": "https://zenodo.org/api/records/10149695/files/phlorest/hruschka_et_al2015-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/hruschka_et_al2015/tree/v1.1"
+    },
+    {
+      "id": 10149686,
+      "doi": "10.5281/zenodo.10149686",
+      "conceptid": "8250097",
+      "conceptdoi": "10.5281/zenodo.8250097",
+      "created": "2023-11-17T14:42:32.542250+00:00",
+      "updated": "2023-11-17T14:42:32.739232+00:00",
+      "modified": "2023-11-17T14:42:32.739232+00:00",
+      "title": "Phlorest phylogeny derived from Honkola et al. 2013 'Cultural and climatic changes shape the evolutionary history of the Uralic languages'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Honkola T, Vesakoski O, Korhonen K, Lehtinen J, Syrj\u00e4nen K &amp; Wahlberg N. 2013. Cultural and climatic changes shape the evolutionary history of the Uralic languages. Journal of Evolutionary Biology, 26(6):1244\u20131253.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Honkola, T"
+        },
+        {
+          "name": "Vesakoski, O"
+        },
+        {
+          "name": "Korhonen, K"
+        },
+        {
+          "name": "Lehtinen, J"
+        },
+        {
+          "name": "Syrj\u00e4nen, K"
+        },
+        {
+          "name": "Wahlberg, N"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/honkola_et_al2013-v1.1.zip",
+          "checksum": "md5:8e5b12509758f14d5c9b82d3a54084f2",
+          "url": "https://zenodo.org/api/records/10149686/files/phlorest/honkola_et_al2013-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/honkola_et_al2013/tree/v1.1"
+    },
+    {
+      "id": 10149683,
+      "doi": "10.5281/zenodo.10149683",
+      "conceptid": "8250088",
+      "conceptdoi": "10.5281/zenodo.8250088",
+      "created": "2023-11-17T14:39:58.655650+00:00",
+      "updated": "2023-11-17T14:39:58.849958+00:00",
+      "modified": "2023-11-17T14:39:58.849958+00:00",
+      "title": "Phlorest phylogeny derived from Grollemund et al. 2015 'Bantu expansion shows habitat alters the route and pace of human dispersals'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Grollemund R, Branford S, Bostoen K, Meade A, Venditti C &amp; Pagel M. 2015. Bantu expansion shows habitat alters the route and pace of human dispersals. Proceedings of the National Academy of Sciences of the USA, 112(43), 13296-13301.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Rebecca Grollemund"
+        },
+        {
+          "name": "Simon Branford"
+        },
+        {
+          "name": "Koen Bostoen"
+        },
+        {
+          "name": "Andrew Meade"
+        },
+        {
+          "name": "Chris Venditti"
+        },
+        {
+          "name": "Mark Pagel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/grollemund_et_al2015-v1.1.zip",
+          "checksum": "md5:8237de2cc81677f4a5b046cb84aef9bb",
+          "url": "https://zenodo.org/api/records/10149683/files/phlorest/grollemund_et_al2015-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/grollemund_et_al2015/tree/v1.1"
+    },
+    {
+      "id": 10149678,
+      "doi": "10.5281/zenodo.10149678",
+      "conceptid": "8250076",
+      "conceptdoi": "10.5281/zenodo.8250076",
+      "created": "2023-11-17T14:37:33.637392+00:00",
+      "updated": "2023-11-17T14:37:33.828814+00:00",
+      "modified": "2023-11-17T14:37:33.828814+00:00",
+      "title": "Phlorest phylogeny derived from Greenhill 2015 'TransNewGuinea.org: An Online Database of New Guinea Languages'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Greenhill, S. J. (2015). TransNewGuinea.org: An Online Database of New Guinea Languages. PLOS ONE, 10(10), e0141563. doi:10.1371/journal.pone.0141563</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/greenhill2015-v1.1.zip",
+          "checksum": "md5:005083642564156dbadc9dd01e452d49",
+          "url": "https://zenodo.org/api/records/10149678/files/phlorest/greenhill2015-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/greenhill2015/tree/v1.1"
+    },
+    {
+      "id": 10149668,
+      "doi": "10.5281/zenodo.10149668",
+      "conceptid": "8250067",
+      "conceptdoi": "10.5281/zenodo.8250067",
+      "created": "2023-11-17T14:34:56.699048+00:00",
+      "updated": "2023-11-17T14:34:56.886630+00:00",
+      "modified": "2023-11-17T14:34:56.886630+00:00",
+      "title": "Phlorest phylogeny derived from Gray et al. 2009 'Language phylogenies reveal expansion pulses and pauses in Pacific settlement'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Gray RD, Drummond AJ, &amp; Greenhill SJ 2009. Language phylogenies reveal expansion pulses and pauses in Pacific settlement. Science, 323(5913), 479-483.</p>\n</blockquote>",
+      "version": "v1.1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell D. Gray"
+        },
+        {
+          "name": "Alexei J. Drummond"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/gray_et_al2009-v1.1.1.zip",
+          "checksum": "md5:5c925dd43ec7c4036e105c77bfd3487f",
+          "url": "https://zenodo.org/api/records/10149668/files/phlorest/gray_et_al2009-v1.1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/gray_et_al2009/tree/v1.1.1"
+    },
+    {
+      "id": 10149635,
+      "doi": "10.5281/zenodo.10149635",
+      "conceptid": "8250067",
+      "conceptdoi": "10.5281/zenodo.8250067",
+      "created": "2023-11-17T14:25:00.408309+00:00",
+      "updated": "2023-11-17T14:25:00.601916+00:00",
+      "modified": "2023-11-17T14:25:00.601916+00:00",
+      "title": "Phlorest phylogeny derived from Gray et al. 2009 'Language phylogenies reveal expansion pulses and pauses in Pacific settlement'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Gray RD, Drummond AJ, &amp; Greenhill SJ 2009. Language phylogenies reveal expansion pulses and pauses in Pacific settlement. Science, 323(5913), 479-483.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell D. Gray"
+        },
+        {
+          "name": "Alexei J. Drummond"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/gray_et_al2009-v1.1.zip",
+          "checksum": "md5:3951222d71497e64dfde69b5d057fe17",
+          "url": "https://zenodo.org/api/records/10149635/files/phlorest/gray_et_al2009-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/gray_et_al2009/tree/v1.1"
+    },
+    {
+      "id": 10149621,
+      "doi": "10.5281/zenodo.10149621",
+      "conceptid": "8250052",
+      "conceptdoi": "10.5281/zenodo.8250052",
+      "created": "2023-11-17T14:21:06.960277+00:00",
+      "updated": "2023-11-17T14:21:07.133445+00:00",
+      "modified": "2023-11-17T14:21:07.133445+00:00",
+      "title": "Phlorest phylogeny derived from Dunn et al. 2011 'Evolved structure of language shows lineage-specific trends in word-order universals'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dunn M, Greenhill SJ, Levinson SC &amp; Gray RD. 2011. Evolved structure of language shows lineage-specific trends in word-order universals. Nature, 473(7345), 79-82.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Michael Dunn"
+        },
+        {
+          "name": "S.C. Levinson"
+        },
+        {
+          "name": "Russell D. Gray"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/dunn_et_al2011-v1.1.zip",
+          "checksum": "md5:05186cfbb7266dbb673fde0b3ff87b5c",
+          "url": "https://zenodo.org/api/records/10149621/files/phlorest/dunn_et_al2011-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/dunn_et_al2011/tree/v1.1"
+    },
+    {
+      "id": 10149579,
+      "doi": "10.5281/zenodo.10149579",
+      "conceptid": "8250038",
+      "conceptdoi": "10.5281/zenodo.8250038",
+      "created": "2023-11-17T14:11:31.787473+00:00",
+      "updated": "2023-11-17T14:11:31.939152+00:00",
+      "modified": "2023-11-17T14:11:31.939152+00:00",
+      "title": "Phlorest phylogeny derived from De Filippo et al. 2012 'Bringing together linguistic and genetic evidence to test the Bantu expansion'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>De Filippo, C., Bostoen, K., Stoneking, M., &amp; Pakendorf, B. (2012). Bringing together linguistic and genetic evidence to test the Bantu expansion. Proceedings of the Royal Society B: Biological Sciences, 279(1741), 3256\u20133263. doi:10.1098/rspb.2012.0318</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Cesare de Filippo"
+        },
+        {
+          "name": "Koen Bostoen"
+        },
+        {
+          "name": "Mark Stoneking"
+        },
+        {
+          "name": "Brigitte Pakendorf"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/defilippo_et_al2012-v1.1.zip",
+          "checksum": "md5:ececff89c329e3f68fd37f37003f27c0",
+          "url": "https://zenodo.org/api/records/10149579/files/phlorest/defilippo_et_al2012-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/defilippo_et_al2012/tree/v1.1"
+    },
+    {
+      "id": 10149561,
+      "doi": "10.5281/zenodo.10149561",
+      "conceptid": "8250014",
+      "conceptdoi": "10.5281/zenodo.8250014",
+      "created": "2023-11-17T14:06:24.540125+00:00",
+      "updated": "2023-11-17T14:06:24.681324+00:00",
+      "modified": "2023-11-17T14:06:24.681324+00:00",
+      "title": "Phlorest phylogeny derived from Chang et al. 2015 'Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Chang W, Cathcart C, Hall D, &amp; Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. Language, 91(1):194-244.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Chang, Will"
+        },
+        {
+          "name": "Cathcart, Chundra"
+        },
+        {
+          "name": "Hall, David"
+        },
+        {
+          "name": "Garrett, Andrew"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/chang_et_al2015-v1.1.zip",
+          "checksum": "md5:1619c1e1d7bb3532b4041a4212d3f106",
+          "url": "https://zenodo.org/api/records/10149561/files/phlorest/chang_et_al2015-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/chang_et_al2015/tree/v1.1"
+    },
+    {
+      "id": 10149552,
+      "doi": "10.5281/zenodo.10149552",
+      "conceptid": "8249988",
+      "conceptdoi": "10.5281/zenodo.8249988",
+      "created": "2023-11-17T14:01:23.696982+00:00",
+      "updated": "2023-11-17T14:01:23.845061+00:00",
+      "modified": "2023-11-17T14:01:23.845061+00:00",
+      "title": "Phlorest phylogeny derived from Chacon & List 2015 'Improved computational models of sound change shed light on the history of the Tukanoan languages'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Chacon TC, List J-M (2015) Improved computational models of sound change shed light on the history of the Tukanoan languages. Journal of Language Relationship, 3:177\u2013203.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Chacon, Thiago Costa"
+        },
+        {
+          "name": "List, Johann-Mattis"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/chacon_and_list2015-v1.1.zip",
+          "checksum": "md5:d0566e3870e9285122edd60193ea1253",
+          "url": "https://zenodo.org/api/records/10149552/files/phlorest/chacon_and_list2015-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/chacon_and_list2015/tree/v1.1"
+    },
+    {
+      "id": 10149544,
+      "doi": "10.5281/zenodo.10149544",
+      "conceptid": "8249977",
+      "conceptdoi": "10.5281/zenodo.8249977",
+      "created": "2023-11-17T13:58:46.855919+00:00",
+      "updated": "2023-11-17T13:58:47.016298+00:00",
+      "modified": "2023-11-17T13:58:47.016298+00:00",
+      "title": "Phlorest phylogeny derived from Bowern & Atkinson 2012 'Computational phylogenetics and the internal structure of Pama-Nyungan'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bowern C &amp; Atkinson QD. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language, 88(4), 817-845.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Claire Bowern"
+        },
+        {
+          "name": "Quentin Atkinson"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/bowern_and_atkinson2012-v1.1.zip",
+          "checksum": "md5:85c10e76e8b11876455b4ec5aab39b97",
+          "url": "https://zenodo.org/api/records/10149544/files/phlorest/bowern_and_atkinson2012-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/bowern_and_atkinson2012/tree/v1.1"
+    },
+    {
+      "id": 10149537,
+      "doi": "10.5281/zenodo.10149537",
+      "conceptid": "8249941",
+      "conceptdoi": "10.5281/zenodo.8249941",
+      "created": "2023-11-17T13:56:49.648565+00:00",
+      "updated": "2023-11-17T13:56:49.815598+00:00",
+      "modified": "2023-11-17T13:56:49.815598+00:00",
+      "title": "Phlorest phylogeny derived from Bouckaert et al. 2018 'The origin and expansion of Pama\u2013Nyungan languages across Australia'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bouckaert RR, Bowern C &amp; Atkinson QD. 2018. The origin and expansion of Pama\u2013Nyungan languages across Australia. Nature Ecology and Evolution. 2: 741\u2013749</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Bouckaert, Remco R."
+        },
+        {
+          "name": "Bowern, Claire"
+        },
+        {
+          "name": "Atkinson, Quentin D."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/bouckaert_et_al2018-v1.1.zip",
+          "checksum": "md5:3ebefca0966a4d9a82fc1a1c43982027",
+          "url": "https://zenodo.org/api/records/10149537/files/phlorest/bouckaert_et_al2018-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/bouckaert_et_al2018/tree/v1.1"
+    },
+    {
+      "id": 10149518,
+      "doi": "10.5281/zenodo.10149518",
+      "conceptid": "8249915",
+      "conceptdoi": "10.5281/zenodo.8249915",
+      "created": "2023-11-17T13:50:44.992434+00:00",
+      "updated": "2023-11-17T13:50:45.102408+00:00",
+      "modified": "2023-11-17T13:50:45.102408+00:00",
+      "title": "Phlorest phylogeny derived from Bouckaert et al. 2012 'Mapping the Origins and Expansion of the Indo-European Language Family'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bouckaert RR, Lemey P, Dunn M, Greenhill SJ, Alekseyenko AV, Drummond AJ, Gray RD, Suchard MA &amp; Atkinson QD. 2012. Mapping the Origins and Expansion of the Indo-European Language Family. Science, 337(6097), 957-960.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "R. Bouckaert"
+        },
+        {
+          "name": "P. Lemey"
+        },
+        {
+          "name": "M. Dunn"
+        },
+        {
+          "name": "A. V. Alekseyenko"
+        },
+        {
+          "name": "A. J. Drummond"
+        },
+        {
+          "name": "R. D. Gray"
+        },
+        {
+          "name": "M. A. Suchard"
+        },
+        {
+          "name": "Q. D. Atkinson"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/bouckaert_et_al2012-v1.1.zip",
+          "checksum": "md5:10f72d3458147b818ba85e4a83ebd53c",
+          "url": "https://zenodo.org/api/records/10149518/files/phlorest/bouckaert_et_al2012-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/bouckaert_et_al2012/tree/v1.1"
+    },
+    {
+      "id": 10149510,
+      "doi": "10.5281/zenodo.10149510",
+      "conceptid": "8248751",
+      "conceptdoi": "10.5281/zenodo.8248751",
+      "created": "2023-11-17T13:45:34.975813+00:00",
+      "updated": "2023-11-17T13:45:35.126895+00:00",
+      "modified": "2023-11-17T13:45:35.126895+00:00",
+      "title": "Phlorest phylogeny derived from Birchall et al. 2016 'A combined comparative and phylogenetic analysis of the Chapacuran language family'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Birchall, Joshua, Michael Dunn, and Simon J. Greenhill. 2016. A combined comparative and phylogenetic analysis of the Chapacuran language family. International Journal of American Linguistics 82 (3): 255\u201384. doi: 10.1086/687383</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Joshua Birchall"
+        },
+        {
+          "name": "Michael Dunn"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/birchall_et_al2016-v1.1.zip",
+          "checksum": "md5:ce77e425564e9efa8cde1298a527b463",
+          "url": "https://zenodo.org/api/records/10149510/files/phlorest/birchall_et_al2016-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/birchall_et_al2016/tree/v1.1"
+    },
+    {
+      "id": 10149488,
+      "doi": "10.5281/zenodo.10149488",
+      "conceptid": "8248388",
+      "conceptdoi": "10.5281/zenodo.8248388",
+      "created": "2023-11-17T13:39:32.003021+00:00",
+      "updated": "2023-11-17T13:39:32.140899+00:00",
+      "modified": "2023-11-17T13:39:32.140899+00:00",
+      "title": "Phlorest phylogeny derived from Atkinson 2006 'From Species to Languages: a phylogenetic approach to human prehistory'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Atkinson, Quentin D. 2006. From Species to Languages: a phylogenetic approach to human prehistory. PhD Thesis, University of Auckland, New Zealand.</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-zero",
+      "creators": [
+        {
+          "name": "Quentin D. Atkinson"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/atkinson2006-v1.2.zip",
+          "checksum": "md5:3afa057bcd1f1ee0edc3bdfea66e6204",
+          "url": "https://zenodo.org/api/records/10149488/files/phlorest/atkinson2006-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/atkinson2006/tree/v1.2"
+    },
+    {
+      "id": 10149409,
+      "doi": "10.5281/zenodo.10149409",
+      "conceptid": "8250174",
+      "conceptdoi": "10.5281/zenodo.8250174",
+      "created": "2023-11-17T13:27:49.389285+00:00",
+      "updated": "2023-11-17T13:27:49.534139+00:00",
+      "modified": "2023-11-17T13:27:49.534139+00:00",
+      "title": "Phlorest phylogeny derived from Lee & Hasegawa 2011 'Bayesian phylogenetic analysis supports an agricultural origin of Japonic languages'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee S, Hasegawa T (2011) Bayesian phylogenetic analysis supports an agricultural origin of Japonic languages. Proceedings of the Royal Society B: Biological Sciences, 278(1725):3662\u20139.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lee, Sean"
+        },
+        {
+          "name": "Hasegawa, Toshikazu"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phlorest/lee_and_hasegawa2011-v1.1.zip",
+          "checksum": "md5:871a49e2ba2e1d4c076f6d11cfa2a4d5",
+          "url": "https://zenodo.org/api/records/10149409/files/phlorest/lee_and_hasegawa2011-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phlorest/lee_and_hasegawa2011/tree/v1.1"
+    },
+    {
+      "id": 10113016,
+      "doi": "10.5281/zenodo.10113016",
+      "conceptid": "7371911",
+      "conceptdoi": "10.5281/zenodo.7371911",
+      "created": "2023-11-11T11:44:11.613976+00:00",
+      "updated": "2023-11-11T11:44:11.779907+00:00",
+      "modified": "2023-11-11T11:44:11.779907+00:00",
+      "title": "IMTVault",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kr\u00e4mer, Thomas, and Sebastian Nordhoff. 2022. &quot;IMTVault: Extracting and Enriching Low-resource Language Interlinear Glossed Text from Grammatical Descriptions and Typological Survey Articles: Proceedings of The 8th Workshop on Linked Data in Linguistics within the 13th Language Resources and Evaluation Conference.&quot; 13th Language Resources and Evaluation Conference lREC 2022, LREC 2022, Marseille, 24.06.2022.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2023-11-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Sebastian Nordhoff"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/imtvault-v1.1.zip",
+          "checksum": "md5:51f3553f76be7bdc6b140bbf94d27c8c",
+          "url": "https://zenodo.org/api/records/10113016/files/cldf-datasets/imtvault-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/cldf-datasets/imtvault/tree/v1.1"
+    },
+    {
       "id": 10054441,
       "doi": "10.5281/zenodo.10054441",
       "conceptid": "10054440",
