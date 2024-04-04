@@ -31,9 +31,9 @@ def add_access_token(url, token):
 
     o = urlparse(url)
     if o.query:
-        o = o._replace(query='{}&access_token={}'.format(o.query, token))
+        o = o._replace(query=f'{o.query}&access_token={token}')
     else:
-        o = o._replace(query='access_token={}'.format(token))
+        o = o._replace(query=f'access_token={token}')
 
     return o.geturl()
 
@@ -47,13 +47,13 @@ def fmt_time_period(secs):
     hrs, mins = mins // 60, mins % 60
     days, hrs = hrs // 24, hrs % 24
     if days:
-        return '{}d{}h{}m{}s'.format(days, hrs, mins, secs)
+        return f'{days}d{hrs}h{mins}m{secs}s'
     elif hrs:
-        return '{}h{}m{}s'.format(hrs, mins, secs)
+        return f'{hrs}h{mins}m{secs}s'
     elif mins:
-        return '{}m{}s'.format(mins, secs)
+        return f'{mins}m{secs}s'
     else:
-        return '{}s'.format(secs)
+        return f'{secs}s'
 
 
 def wait_until(secs_since_epoch):

@@ -12,9 +12,9 @@ def loggable_progress(things, file=sys.stderr):
 
     Yields elements in `things`.
     """
-    for index, thing in enumerate(things):
-        if (index + 1) % 10 == 0:
-            print(index + 1, '....', sep='', end='', file=file, flush=True)
+    for ord, thing in enumerate(things, 1):
+        if ord % 10 == 0:
+            print(ord, '....', sep='', end='', file=file, flush=True)
         yield thing
     print('done.', file=file, flush=True)
 

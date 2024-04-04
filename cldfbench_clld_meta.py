@@ -1,10 +1,10 @@
-from collections import Counter, namedtuple
 import csv
+import sys
+import zipfile
+from collections import Counter, namedtuple
 from itertools import chain, islice
 from multiprocessing import Pool
 from pathlib import Path
-import sys
-import zipfile
 
 from cldfbench import Dataset as BaseDataset
 from cldfbench.cldf import CLDFSpec
@@ -53,11 +53,11 @@ def collect_dataset_stats(record_no, zipreader):
         for r in zipreader.iterrows(
             'ValueTable', 'languageReference', 'parameterReference')
         if r.get('languageReference')]
-    lang_values = Counter(l for l, _ in values)
+    lang_values = Counter(lg for lg, _ in values)
     # XXX: count parameters and concepts separately?
     #  if so -- how?
     # # FIXME: tbqh I don't remember what this is for?
-    # lang_features = Counter((l, p) for l, p in values if p)
+    # lang_features = Counter((lg, p) for lg, p in values if p)
 
     forms = list(zipreader.iterrows('FormTable', 'languageReference'))
     lang_forms = Counter(
@@ -149,25 +149,25 @@ def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
         'example_count': stats['example_count'],
         'langs': sorted(set(lang_map.values())),
         'lang_values': {
-            lang_map[l]: c
-            for l, c in stats['lang_values'].items()
-            if l in lang_map},
+            lang_map[lg]: c
+            for lg, c in stats['lang_values'].items()
+            if lg in lang_map},
         # 'lang_features': {
-        #     lang_map[l]: c
-        #     for l, c in stats['lang_features'].items()
-        #     if l in lang_map},
+        #     lang_map[lg]: c
+        #     for lg, c in stats['lang_features'].items()
+        #     if lg in lang_map},
         'lang_forms': {
-            lang_map[l]: c
-            for l, c in stats['lang_forms'].items()
-            if l in lang_map},
+            lang_map[lg]: c
+            for lg, c in stats['lang_forms'].items()
+            if lg in lang_map},
         'lang_entries': {
-            lang_map[l]: c
-            for l, c in stats['lang_entries'].items()
-            if l in lang_map},
+            lang_map[lg]: c
+            for lg, c in stats['lang_entries'].items()
+            if lg in lang_map},
         'lang_examples': {
-            lang_map[l]: c
-            for l, c in stats['lang_examples'].items()
-            if l in lang_map},
+            lang_map[lg]: c
+            for lg, c in stats['lang_examples'].items()
+            if lg in lang_map},
     }
 
 
@@ -325,7 +325,7 @@ class Dataset(BaseDataset):
         if cldf_errors.errors:
             print(
                 '\n'.join(
-                    '{}:{}: no cldf data found'.format(err.record_no, err.file)
+                    f'{err.record_no}:{err.file}: no cldf data found'
                     for err in cldf_errors.errors),
                 file=sys.stderr)
             not_cldf_full.extend(cldf_errors.errors)
@@ -339,8 +339,8 @@ class Dataset(BaseDataset):
         print(
             'loading language info from glottolog...',
             file=sys.stderr, flush=True)
-        by_glottocode = {l.id: l for l in args.glottolog.api.languoids()}
-        by_isocode = {l.iso: l for l in by_glottocode.values() if l.iso}
+        by_glottocode = {lg.id: lg for lg in args.glottolog.api.languoids()}
+        by_isocode = {lg.iso: lg for lg in by_glottocode.values() if lg.iso}
 
         dataset_stats = [
             raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode)
@@ -355,8 +355,8 @@ class Dataset(BaseDataset):
             for stats in dataset_stats
             for lid in stats['langs']})
 
-        def macroarea(l):
-            m = l.macroareas
+        def macroarea(lg):
+            m = lg.macroareas
             return m[0].name if m else ''
         languages = [
             {
@@ -424,7 +424,7 @@ class Dataset(BaseDataset):
                     c['name'] for c in rec.get('contributors', ())],
                 'DOI': rec['doi'],
                 'Concept_DOI': rec['conceptdoi'],
-                'Parent_ID': rec['conceptid'],
+                'Concept_ID': rec['conceptid'],
                 'GitHub_Link': rec.get('git-link'),
                 'Date_Created': rec['created'],
                 'Date_Updated': rec['updated'],
@@ -440,6 +440,10 @@ class Dataset(BaseDataset):
             }
             for rec in records
             if rec['id'] in contribution_ids]
+        # just checking my assumptions
+        assert all(
+            row['Concept_DOI'].split('.')[-1] == row['Concept_ID']
+            for row in contributions)
 
         # Write CLDF data
 
@@ -454,12 +458,12 @@ class Dataset(BaseDataset):
             {'name': 'Contributors', 'separator': ' ; '},
             'DOI',
             'Concept_DOI',
+            'Concept_ID',
             'Date',
             {'name': 'Communities', 'separator': ';'},
             'License',
             'Zenodo_Link',
             'Zenodo_ID',
-            'Parent_ID',
             {'name': 'Zenodo_Keyword', 'separator': ';'},
             'Zenodo_Type',
             'GitHub_Link')
@@ -500,4 +504,4 @@ class Dataset(BaseDataset):
         autogenerated = super().cmd_readme(args)
         snippet_path = self.etc_dir / 'readme-snippet.md'
         custom = snippet_path.read_text(encoding='utf-8')
-        return '{}\n{}'.format(autogenerated, custom)
+        return f'{autogenerated}\n{custom}'

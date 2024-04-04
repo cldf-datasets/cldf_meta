@@ -2,12 +2,12 @@
 Update Zenodo metadata in `raw/zenodo-metadata.json`.
 """
 
-from itertools import chain, islice
 import csv
 import json
 import pprint
 import re
 import sys
+from itertools import chain, islice
 from urllib.parse import quote
 
 from cldfbench.cli_util import add_dataset_spec, with_dataset
@@ -213,7 +213,7 @@ def build_search_url(params):
 
 
 def build_doi_url(access_token, doi):
-    query_doi = 'doi:"{0}" OR conceptdoi:"{0}"'.format(doi)
+    query_doi = f'doi:"{doi}" OR conceptdoi:"{doi}"'
     params_doi = [
         ('sort', 'mostrecent'),
         ('all_versions', 'true'),
@@ -319,7 +319,7 @@ def might_have_cldf_in_it(record):
     """
     if (date := record.get('created')):
         match = re.match(r'(\d\d\d\d)-(\d\d)-(\d\d)', date)
-        assert match, '`date` needs to be YYYY-MM-DD, not {}'.format(repr(date))
+        assert match, '`date` needs to be YYYY-MM-DD, not {repr(date)}'
         if int(match.group(1)) < 2018:
             return False
 
@@ -361,7 +361,7 @@ def updatemd(dataset, args):
     print('downloading records...', file=sys.stderr, flush=True)
 
     query_kw = 'keywords:({})'.format(
-        ' OR '.join('"{}"'.format(kw) for kw in SEARCH_KEYWORDS))
+        ' OR '.join(f'"{kw}"' for kw in SEARCH_KEYWORDS))
     params_kw = [
         ('sort', 'mostrecent'),
         ('all_versions', 'true'),
@@ -373,7 +373,7 @@ def updatemd(dataset, args):
         params_kw.append(('access_token', access_token))
 
     query_comm = 'communities:({})'.format(
-        ' OR '.join('"{}"'.format(kw) for kw in SEARCH_COMMUNITIES))
+        ' OR '.join(f'"{kw}"' for kw in SEARCH_COMMUNITIES))
     params_comm = [
         ('sort', 'mostrecent'),
         ('all_versions', 'true'),

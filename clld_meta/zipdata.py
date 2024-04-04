@@ -3,10 +3,9 @@
 import contextlib
 import csv
 import io
-from itertools import islice
 import json
-from pathlib import Path
 import zipfile
+from pathlib import Path
 
 from pycldf.terms import URL as TERMS_URL
 
@@ -53,12 +52,12 @@ class ZipDataReader:
         return self._cldf_md['dc:conformsTo'].split('#')[-1]
 
     def get_table(self, name_or_url):
-        url = '{}#{}'.format(TERMS_URL, name_or_url)
+        url = f'{TERMS_URL}#{name_or_url}'
         for table in self._cldf_md['tables']:
             if table.get('dc:conformsTo', '') == url:
                 return table
         else:
-            raise ValueError('table not found: {}'.format(name_or_url))
+            raise ValueError(f'table not found: {name_or_url}')
 
     def iterrows(self, table, *column_names):
         try:
@@ -70,7 +69,7 @@ class ZipDataReader:
         root = self._md_root
         while relpath.startswith('../'):
             relpath, root = relpath[3:], root.parent
-        relpath_zip = '{}.zip'.format(relpath)
+        relpath_zip = f'{relpath}.zip'
 
         zip_info = (
             self._zip_infos.get(root / relpath_zip)
@@ -83,10 +82,10 @@ class ZipDataReader:
             csv_f = withs.enter_context(self._zip_file.open(zip_info))
             if zip_info.filename.endswith('.zip'):
                 internal_zip = withs.enter_context(zipfile.ZipFile(csv_f))
-                internal_info = [
+                internal_info = next(
                     info
                     for info in internal_zip.infolist()
-                    if info.filename.endswith(Path(relpath).name)][0]
+                    if info.filename.endswith(Path(relpath).name))
                 csv_f = withs.enter_context(internal_zip.open(internal_info))
             decoder = io.TextIOWrapper(csv_f, encoding='utf-8-sig')
             rdr = csv.reader(decoder)

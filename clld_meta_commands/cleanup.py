@@ -4,8 +4,8 @@ Cleanup data download folder in `raw/datasets/`.
 Removes all downloaded datasets that are listed in `etc/not-cldf.csv`.
 """
 
-from itertools import islice
 import sys
+from itertools import islice
 
 from cldfbench.cli_util import add_dataset_spec, with_dataset
 
