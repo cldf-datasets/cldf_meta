@@ -145,7 +145,7 @@ def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
         'lang_count': len(stats['langs']),
         'glottocode_count': len(lang_map),
         'value_count': stats['value_count'],
-        'form_count': stats['value_count'],
+        'form_count': stats['form_count'],
         'entry_count': stats['entry_count'],
         'parameter_count': stats['parameter_count'],
         'example_count': stats['example_count'],
@@ -227,8 +227,8 @@ def datasets_from_dataset_stats(dataset_stats):
             'Glottocode_Count': stats['glottocode_count'],
             'Parameter_Count': stats['parameter_count'],
             'Value_Count': stats['value_count'],
-            'Form_Count': stats['parameter_count'],
-            'Entry_Count': stats['parameter_count'],
+            'Form_Count': stats['form_count'],
+            'Entry_Count': stats['entry_count'],
             'Example_Count': stats['example_count'],
         }
         for stats in dataset_stats]
