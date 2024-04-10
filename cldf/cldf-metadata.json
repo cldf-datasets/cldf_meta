@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/clld_meta",
             "rdf:type": "prov:Entity",
-            "dc:created": "131934e",
+            "dc:created": "caeb601",
             "dc:title": "Repository"
         },
         {
@@ -230,6 +230,10 @@
                     {
                         "datatype": "string",
                         "name": "Module"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CLDF_ID"
                     },
                     {
                         "datatype": "integer",
