@@ -183,6 +183,102 @@ class ErrorFilter:
                 yield val
 
 
+def languages_from_dataset_stats(dataset_stats, languoids_by_id):
+    all_glottocodes = sorted({
+        lid
+        for stats in dataset_stats
+        for lid in stats['langs']})
+
+    def macroarea(lg):
+        m = lg.macroareas
+        return m[0].name if m else ''
+
+    return [
+        {
+            'ID': lid,
+            'Name': languoids_by_id[lid].name,
+            'Macroarea': macroarea(languoids_by_id[lid]),
+            'Latitude': languoids_by_id[lid].latitude,
+            'Longitude': languoids_by_id[lid].longitude,
+            'Glottocode': lid,
+            'ISO639P3code': (languoids_by_id[lid].iso or ''),
+        }
+        for lid in all_glottocodes]
+
+
+def datasets_from_dataset_stats(dataset_stats):
+    datasets_per_contrib = Counter()
+
+    def dataset_id(record_no):
+        datasets_per_contrib[record_no] += 1
+        dataset_count = datasets_per_contrib[record_no]
+        return f'{record_no}-{dataset_count}'
+
+    # XXX: how idempotent is this?
+    return [
+        {
+            'ID': dataset_id(stats['record_no']),
+            'Contribution_ID': stats['record_no'],
+            'Module': stats['module'],
+            'Language_Count': len(stats['langs']),
+            'Glottocode_Count': stats['glottocode_count'],
+            'Parameter_Count': stats['parameter_count'],
+            'Value_Count': stats['value_count'],
+            'Form_Count': stats['parameter_count'],
+            'Entry_Count': stats['parameter_count'],
+            'Example_Count': stats['example_count'],
+        }
+        for stats in dataset_stats]
+
+
+def dataset_languages_from_dataset_stats(dataset_stats, datasets):
+    return [
+        {
+            'ID': '{}-{}'.format(ds['ID'], lid),
+            'Language_ID': lid,
+            'Dataset_ID': ds['ID'],
+            # 'Parameter_Count': stats['lang_features'].get(lid, 0),
+            'Value_Count': stats['lang_values'].get(lid, 0),
+            'Form_Count': stats['lang_forms'].get(lid, 0),
+            'Entry_Count': stats['lang_entries'].get(lid, 0),
+            'Example_Count': stats['lang_examples'].get(lid, 0),
+        }
+        for ds, stats in zip(datasets, dataset_stats)
+        for lid in stats['langs']]
+
+
+def contributions_from_records(records, datasets):
+    contribution_ids = {ds['Contribution_ID'] for ds in datasets}
+    return [
+        {
+            'ID': rec['id'],
+            'Name': rec['title'],
+            'Description': rec['description'],
+            'Version': rec['version'],
+            'Creators': [
+                c['name'] for c in rec['creators']],
+            'Contributors': [
+                c['name'] for c in rec.get('contributors', ())],
+            'DOI': rec['doi'],
+            'Concept_DOI': rec['conceptdoi'],
+            'Concept_ID': rec['conceptid'],
+            'GitHub_Link': rec.get('git-link'),
+            'Date_Created': rec['created'],
+            'Date_Updated': rec['updated'],
+            # TODO: Communities are not extracted from the zenodo response
+            'Communities': [
+                c['id'] for c in rec.get('communities', ())],
+            'License': rec['license'],
+            'Zenodo_ID': rec['id'],
+            'Zenodo_Link': 'https://zenodo.org/records/{}'.format(
+                rec['id']),
+            'Zenodo_Keywords': rec.get('keywords', ()),
+            'Zenodo_Type': rec['resource_type'],
+        }
+        for rec in records
+        if rec['id'] in contribution_ids]
+
+
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "clld_meta"
@@ -349,97 +445,16 @@ class Dataset(BaseDataset):
         # Create CLDF tables
 
         print('assembling language table...', file=sys.stderr, flush=True)
-
-        all_glottocodes = sorted({
-            lid
-            for stats in dataset_stats
-            for lid in stats['langs']})
-
-        def macroarea(lg):
-            m = lg.macroareas
-            return m[0].name if m else ''
-        languages = [
-            {
-                'ID': lid,
-                'Name': by_glottocode[lid].name,
-                'Macroarea': macroarea(by_glottocode[lid]),
-                'Latitude': by_glottocode[lid].latitude,
-                'Longitude': by_glottocode[lid].longitude,
-                'Glottocode': lid,
-                'ISO639P3code': (by_glottocode[lid].iso or ''),
-            }
-            for lid in all_glottocodes]
+        languages = languages_from_dataset_stats(dataset_stats, by_glottocode)
 
         # TODO count all teh things! o/
 
-        datasets_per_contrib = Counter()
-
-        def dataset_id(record_no):
-            datasets_per_contrib[record_no] += 1
-            dataset_count = datasets_per_contrib[record_no]
-            return f'{record_no}-{dataset_count}'
-
         print('assembling dataset tables...', file=sys.stderr, flush=True)
 
-        # # XXX how idempotent is this?
-        datasets = [
-            {
-                'ID': dataset_id(stats['record_no']),
-                'Contribution_ID': stats['record_no'],
-                'Module': stats['module'],
-                'Language_Count': len(stats['langs']),
-                'Glottocode_Count': stats['glottocode_count'],
-                'Parameter_Count': stats['parameter_count'],
-                'Value_Count': stats['value_count'],
-                'Form_Count': stats['parameter_count'],
-                'Entry_Count': stats['parameter_count'],
-                'Example_Count': stats['example_count'],
-            }
-            for stats in dataset_stats]
-
-        dataset_languages = [
-            {
-                'ID': '{}-{}'.format(ds['ID'], lid),
-                'Language_ID': lid,
-                'Dataset_ID': ds['ID'],
-                # 'Parameter_Count': stats['lang_features'].get(lid, 0),
-                'Value_Count': stats['lang_values'].get(lid, 0),
-                'Form_Count': stats['lang_forms'].get(lid, 0),
-                'Entry_Count': stats['lang_entries'].get(lid, 0),
-                'Example_Count': stats['lang_examples'].get(lid, 0),
-            }
-            for ds, stats in zip(datasets, dataset_stats)
-            for lid in stats['langs']]
-
-        contribution_ids = {ds['Contribution_ID'] for ds in datasets}
-        contributions = [
-            {
-                'ID': rec['id'],
-                'Name': rec['title'],
-                'Description': rec['description'],
-                'Version': rec['version'],
-                'Creators': [
-                    c['name'] for c in rec['creators']],
-                'Contributors': [
-                    c['name'] for c in rec.get('contributors', ())],
-                'DOI': rec['doi'],
-                'Concept_DOI': rec['conceptdoi'],
-                'Concept_ID': rec['conceptid'],
-                'GitHub_Link': rec.get('git-link'),
-                'Date_Created': rec['created'],
-                'Date_Updated': rec['updated'],
-                # TODO: Communities are not extracted from the zenodo response
-                'Communities': [
-                    c['id'] for c in rec.get('communities', ())],
-                'License': rec['license'],
-                'Zenodo_ID': rec['id'],
-                'Zenodo_Link': 'https://zenodo.org/records/{}'.format(
-                    rec['id']),
-                'Zenodo_Keywords': rec.get('keywords', ()),
-                'Zenodo_Type': rec['resource_type'],
-            }
-            for rec in records
-            if rec['id'] in contribution_ids]
+        datasets = datasets_from_dataset_stats(dataset_stats)
+        dataset_languages = dataset_languages_from_dataset_stats(
+            dataset_stats, datasets)
+        contributions = contributions_from_records(records, datasets)
         # just checking my assumptions
         assert all(
             row['Concept_DOI'].split('.')[-1] == row['Concept_ID']
