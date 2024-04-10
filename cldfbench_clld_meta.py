@@ -91,6 +91,7 @@ def collect_dataset_stats(record_no, zipreader):
     return {
         'record_no': record_no,
         'module': zipreader.cldf_module(),
+        'cldf_id': zipreader.cldf_id(),
         'value_count': len(values),
         'form_count': len(forms),
         'entry_count': len(entries),
@@ -140,6 +141,7 @@ def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
     return {
         'record_no': stats['record_no'],
         'module': stats['module'],
+        'cldf_id': stats['cldf_id'],
         'lang_count': len(stats['langs']),
         'glottocode_count': len(lang_map),
         'value_count': stats['value_count'],
@@ -220,6 +222,7 @@ def datasets_from_dataset_stats(dataset_stats):
             'ID': dataset_id(stats['record_no']),
             'Contribution_ID': stats['record_no'],
             'Module': stats['module'],
+            'CLDF_ID': stats['cldf_id'],
             'Language_Count': len(stats['langs']),
             'Glottocode_Count': stats['glottocode_count'],
             'Parameter_Count': stats['parameter_count'],
@@ -488,6 +491,7 @@ class Dataset(BaseDataset):
             'http://cldf.clld.org/v1.0/terms.rdf#id',
             'http://cldf.clld.org/v1.0/terms.rdf#contributionReference',
             'Module',
+            'CLDF_ID',
             {'name': 'Language_Count', 'datatype': 'integer'},
             {'name': 'Glottocode_Count', 'datatype': 'integer'},
             {'name': 'Parameter_Count', 'datatype': 'integer'},

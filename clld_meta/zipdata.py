@@ -51,6 +51,9 @@ class ZipDataReader:
     def cldf_module(self):
         return self._cldf_md['dc:conformsTo'].split('#')[-1]
 
+    def cldf_id(self):
+        return self._cldf_md.get('rdf:ID') or ''
+
     def get_table(self, name_or_url):
         url = f'{TERMS_URL}#{name_or_url}'
         for table in self._cldf_md['tables']:
