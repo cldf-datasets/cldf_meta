@@ -134,6 +134,8 @@ def stats_from_zip(data_archive):
 
 
 def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
+    # FIXME: does this account for the fact that several languages might
+    # share a glottocode?
     lang_map = {
         lid: (by_glottocode.get(guess) or by_isocode[guess]).id
         for lid, guess in stats['langs'].items()
@@ -223,7 +225,7 @@ def datasets_from_dataset_stats(dataset_stats):
             'Contribution_ID': stats['record_no'],
             'Module': stats['module'],
             'CLDF_ID': stats['cldf_id'],
-            'Language_Count': len(stats['langs']),
+            'Language_Count': stats['lang_count'],
             'Glottocode_Count': stats['glottocode_count'],
             'Parameter_Count': stats['parameter_count'],
             'Value_Count': stats['value_count'],
