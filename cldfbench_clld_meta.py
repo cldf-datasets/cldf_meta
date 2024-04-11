@@ -134,44 +134,42 @@ def stats_from_zip(data_archive):
 
 
 def raw_stats_to_glottocode_stats(stats, by_glottocode, by_isocode):
-    # FIXME: does this account for the fact that several languages might
-    # share a glottocode?
-    lang_map = {
+    original_language_count = len(stats['langs'])
+
+    lid_to_glottocode = {
         lid: (by_glottocode.get(guess) or by_isocode[guess]).id
         for lid, guess in stats['langs'].items()
         if guess in by_glottocode or guess in by_isocode}
+
+    glottocode_to_lids = {}
+    for lid, glottocode in lid_to_glottocode.items():
+        if glottocode not in glottocode_to_lids:
+            glottocode_to_lids[glottocode] = []
+        glottocode_to_lids[glottocode].append(lid)
+
+    def accumulate_counts(count_map):
+        return {
+            glottocode: sum_of_counts
+            for glottocode, lids in glottocode_to_lids.items()
+            if (sum_of_counts := sum(count_map.get(lid, 0) for lid in lids)) != 0}
+
     return {
         'record_no': stats['record_no'],
         'module': stats['module'],
         'cldf_id': stats['cldf_id'],
-        'lang_count': len(stats['langs']),
-        'glottocode_count': len(lang_map),
+        'lang_count': original_language_count,
+        'glottocode_count': len(glottocode_to_lids),
         'value_count': stats['value_count'],
         'form_count': stats['form_count'],
         'entry_count': stats['entry_count'],
         'parameter_count': stats['parameter_count'],
         'example_count': stats['example_count'],
-        'langs': sorted(set(lang_map.values())),
-        'lang_values': {
-            lang_map[lg]: c
-            for lg, c in stats['lang_values'].items()
-            if lg in lang_map},
-        # 'lang_features': {
-        #     lang_map[lg]: c
-        #     for lg, c in stats['lang_features'].items()
-        #     if lg in lang_map},
-        'lang_forms': {
-            lang_map[lg]: c
-            for lg, c in stats['lang_forms'].items()
-            if lg in lang_map},
-        'lang_entries': {
-            lang_map[lg]: c
-            for lg, c in stats['lang_entries'].items()
-            if lg in lang_map},
-        'lang_examples': {
-            lang_map[lg]: c
-            for lg, c in stats['lang_examples'].items()
-            if lg in lang_map},
+        'langs': list(glottocode_to_lids),
+        'glottocode_values': accumulate_counts(stats['lang_values']),
+        # 'glottocode_features': accumulate_counts(stats['lang_features']),
+        'glottocode_forms': accumulate_counts(stats['lang_forms']),
+        'glottocode_entries': accumulate_counts(stats['lang_entries']),
+        'glottocode_examples': accumulate_counts(stats['lang_examples']),
     }
 
 
@@ -242,11 +240,11 @@ def dataset_languages_from_dataset_stats(dataset_stats, datasets):
             'ID': '{}-{}'.format(ds['ID'], lid),
             'Language_ID': lid,
             'Dataset_ID': ds['ID'],
-            # 'Parameter_Count': stats['lang_features'].get(lid, 0),
-            'Value_Count': stats['lang_values'].get(lid, 0),
-            'Form_Count': stats['lang_forms'].get(lid, 0),
-            'Entry_Count': stats['lang_entries'].get(lid, 0),
-            'Example_Count': stats['lang_examples'].get(lid, 0),
+            # 'Parameter_Count': stats['glottocode_features'].get(lid, 0),
+            'Value_Count': stats['glottocode_values'].get(lid, 0),
+            'Form_Count': stats['glottocode_forms'].get(lid, 0),
+            'Entry_Count': stats['glottocode_entries'].get(lid, 0),
+            'Example_Count': stats['glottocode_examples'].get(lid, 0),
         }
         for ds, stats in zip(datasets, dataset_stats)
         for lid in stats['langs']]
