@@ -5,6 +5,8 @@ import csv
 import io
 import json
 import zipfile
+from collections import ChainMap
+from itertools import islice
 from pathlib import Path
 
 from pycldf.terms import URL as TERMS_URL
@@ -12,7 +14,9 @@ from pycldf.terms import URL as TERMS_URL
 
 def get_cldf_json(f):
     try:
-        if not f.read(10).lstrip().startswith(b'{'):
+        # bytes([123]) is a single opening curly brace, which messes up the
+        # automatic indentation of my editor for some reason.  It is what it is.
+        if not f.read(10).lstrip().startswith(bytes([123])):
             return None
         f.seek(0)
         json_data = json.load(f, encoding='utf-8')
@@ -21,6 +25,38 @@ def get_cldf_json(f):
         return json_data
     except Exception:
         return None
+
+
+def skip_rows(rows, skip_count):
+    if skip_count > 0:
+        return islice(rows, skip_count, None)
+    else:
+        return rows
+
+
+def trim_column_ends(rows):
+    return (row.rstrip() for row in rows)
+
+
+def skip_blank_rows(rows):
+    return (row for row in rows if any(row))
+
+
+def skip_comments(rows, comment_str):
+    if comment_str:
+        return (
+            row
+            for row in rows
+            if not row or not row[0].startswith(comment_str))
+    else:
+        return rows
+
+
+def skip_columns(rows, skip_count):
+    if skip_count > 0:
+        return (row[skip_count:] for row in rows)
+    else:
+        return rows
 
 
 def rename_columns(column_specs, column_names, raw_rows):
@@ -68,6 +104,52 @@ class ZipDataReader:
         except ValueError:
             return
 
+        default_dialect = {
+            'commentPrefix': '#',
+            'delimiter': ',',
+            'doubleQuote': True,
+            'encoding': 'utf-8',
+            'header': True,
+            # `headerRowCount` left blank for `header`
+            # `lineTerminators` left blank, because csv.reader ignores it anyways
+            'quoteChar': '"',
+            'skipBlankRows': False,
+            'skipColumns': 0,
+            'skipRows': 0,
+            'skipInitialSpace': False,
+            # `trim` left blank for `skipInitialSpace`
+        }
+        dataset_dialect = self._cldf_md.get('dialect') or {}
+        dialect = ChainMap(
+            table.get('dialect', {}), dataset_dialect, default_dialect)
+
+        # We'll cross these bridges when we get to them
+        assert dialect.get('header'), 'dataset without header detected'
+        assert (hrc := dialect.get('headerRowCount')) is None or hrc != 1, 'dataset with odd header detected'
+
+        # we don't want to get BOM'd
+        if dialect['encoding'] == 'utf-8':
+            encoding = 'utf-8-sig'
+        else:
+            encoding = dialect['encoding']
+
+        if (trim := dialect.get('trim')) is not None:
+            trim_left = trim in {True, 'true', 'start'}
+            trim_rght = trim in {True, 'true', 'end'}
+        else:
+            trim_left = dialect['skipInitialSpace']
+            trim_rght = False
+
+        if dialect['quoteChar'] is None:
+            escapechar = None
+        elif dialect['doubleQuote']:
+            # `escapechar` needs to be None here.
+            # I tried to set it to '"' and then the parser was unable to finish
+            # quoted fields.
+            escapechar = None
+        else:
+            escapechar = '\\'
+
         relpath = table['url']
         root = self._md_root
         while relpath.startswith('../'):
@@ -90,7 +172,19 @@ class ZipDataReader:
                     for info in internal_zip.infolist()
                     if info.filename.endswith(Path(relpath).name))
                 csv_f = withs.enter_context(internal_zip.open(internal_info))
-            decoder = io.TextIOWrapper(csv_f, encoding='utf-8-sig')
-            rdr = csv.reader(decoder)
+            decoder = io.TextIOWrapper(csv_f, encoding=encoding)
+            rdr = csv.reader(
+                decoder,
+                doublequote=dialect['doubleQuote'],
+                delimiter=dialect['delimiter'],
+                skipinitialspace=trim_left,
+                escapechar=escapechar)
+            rows = skip_rows(rdr, dialect['skipRows'])
+            if trim_rght:
+                rows = trim_column_ends(rows)
+            if dialect['skipBlankRows']:
+                rows = skip_blank_rows(rows)
+            rows = skip_comments(rows, dialect['commentPrefix'])
+            rows = skip_columns(rows, dialect['skipColumns'])
             yield from rename_columns(
-                table['tableSchema']['columns'], column_names, rdr)
+                table['tableSchema']['columns'], column_names, rows)
