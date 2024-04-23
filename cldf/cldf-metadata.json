@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/clld_meta",
             "rdf:type": "prov:Entity",
-            "dc:created": "c8d6427",
+            "dc:created": "cac477b",
             "dc:title": "Repository"
         },
         {
@@ -39,7 +39,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 9198,
+            "dc:extent": 9324,
             "tableSchema": {
                 "columns": [
                     {
@@ -111,7 +111,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 454,
+            "dc:extent": 462,
             "tableSchema": {
                 "columns": [
                     {
@@ -211,7 +211,7 @@
             "url": "contributions.csv"
         },
         {
-            "dc:extent": 468,
+            "dc:extent": 476,
             "tableSchema": {
                 "columns": [
                     {
@@ -230,10 +230,6 @@
                     {
                         "datatype": "string",
                         "name": "Module"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "CLDF_ID"
                     },
                     {
                         "datatype": "integer",
@@ -284,7 +280,7 @@
             "url": "datasets.csv"
         },
         {
-            "dc:extent": 146206,
+            "dc:extent": 150566,
             "tableSchema": {
                 "columns": [
                     {

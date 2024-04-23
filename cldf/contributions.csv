@@ -1,4 +1,125 @@
 ID,Name,Description,Contributor,Citation,Version,Creators,Contributors,DOI,Concept_DOI,Concept_ID,Date,Communities,License,Zenodo_Link,Zenodo_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+11044861,"CLDF dataset with phoneme inventories from the ""Journal of the IPA"", aggregated by Baird et al. (2021)","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Baird, L., Evans, N., &amp; Greenhill, S. J. (2021). Blowing in the wind: Using &#x27;North Wind and the Sun&#x27; texts to sample phoneme inventories. Journal of the International Phonetic Association, 1–42. doi:10.1017/s002510032000033x</p>
+</blockquote>",,,v1.0,Louise Baird ; Nicholas Evans ; Simon J. Greenhill,Tiago Tresoldi ; Johann-Mattis List ; Robert Forkel,10.5281/zenodo.11044861,10.5281/zenodo.11044860,11044860,,,cc-zero,https://zenodo.org/records/11044861,11044861,,dataset,https://github.com/cldf-datasets/jipa/tree/v1.0
+11041625,"CLDF dataset derived Zalizniak et al.'s ""Database of Semantic Shifts"" from 2024","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 05.02.2024]</p>
+</blockquote>",,,v1.1rc,Anna Zalizniak ; Anna Smirnitskaya ; Maksim Russo (Rousseau) ; Ilya Gruntov ; Timur Maisak ; Dmitry Ganenkov ; Maria Bulakh ; Maria Orlova ; Marina Bobrik-Fremke ; Oksana Dereza ; Tatiana Mikhailova ; Maria Bibaeva ; Mikhail Voronov,Johann-Mattis List ; Christoph Rzymski,10.5281/zenodo.11041625,10.5281/zenodo.11004149,11004149,,,cc-by-4.0,https://zenodo.org/records/11041625,11041625,,dataset,https://github.com/lexibank/datsemshift/tree/v1.1rc
+11004150,"CLDF dataset derived Zalizniak et al.'s ""Database of Semantic Shifts"" from 2024","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 05.02.2024]</p>
+</blockquote>",,,v.1.0.rc,Anna Zalizniak ; Anna Smirnitskaya ; Maksim Russo (Rousseau) ; Ilya Gruntov ; Timur Maisak ; Dmitry Ganenkov ; Maria Bulakh ; Maria Orlova ; Marina Bobrik-Fremke ; Oksana Dereza ; Tatiana Mikhailova ; Maria Bibaeva ; Mikhail Voronov,Johann-Mattis List,10.5281/zenodo.11004150,10.5281/zenodo.11004149,11004149,,,cc-by-4.0,https://zenodo.org/records/11004150,11004150,,dataset,https://github.com/lexibank/datsemshift/tree/v.1.0.rc
+10990565,CLDF dataset derived from the DoReCo core corpus,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Seifart, Frank, Ludger Paschen &amp; Matthew Stave (eds.). 2022. Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). DOI:10.34847/nkl.7cbfq779</p>
+</blockquote>
+<p>Please note that when citing this dataset, it is NOT sufficient to refer to DoReCo as a whole, but the full citation for each individual corpus must be provided, including the name(s) of the creator(s) of each corpus.</p>
+
+<blockquote>Ozerov, Pavel. 2022. Anal DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/anal1239. DOI:10.34847/nkl.0dbazp8m</blockquote>
+
+<blockquote>Riesberg, Sonja. 2022. Yali (Apahapsili) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/apah1238. DOI:10.34847/nkl.9d91nkq2</blockquote>
+
+<blockquote>Cowell, Andrew. 2022. Arapaho DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/arap1274. DOI:10.34847/nkl.36f5r1b6</blockquote>
+
+<blockquote>Cobbinah, Alexander Yao. 2022. Baïnounk Gubëeher DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/bain1259. DOI:10.34847/nkl.a332abw8</blockquote>
+
+<blockquote>Vanhove, Martine. 2022. Beja DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/beja1238. DOI:10.34847/nkl.edd011t1</blockquote>
+
+<blockquote>Seifart, Frank. 2022. Bora DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/bora1263. DOI:10.34847/nkl.6eaf5laq</blockquote>
+
+<blockquote>Reiter, Sabine. 2022. Cashinahua DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/cash1254. DOI:10.34847/nkl.a8f9q2f1</blockquote>
+
+<blockquote>Däbritz, Chris Lasse and Kudryakova, Nina and Stapert, Eugénie and Arkhipov, Alexandre. 2022. Dolgan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/dolg1241. DOI:10.34847/nkl.f09eikq3</blockquote>
+
+<blockquote>Kazakevich, Olga and Klyachko, Elena. 2022. Evenki DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/even1259. DOI:10.34847/nkl.5e0d27cu</blockquote>
+
+<blockquote>Hellwig, Birgit. 2022. Goemai DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/goem1240. DOI:10.34847/nkl.b93664ml</blockquote>
+
+<blockquote>Harvey, Andrew. 2022. Gorwaa DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/goro1270. DOI:10.34847/nkl.a4b4ijj2</blockquote>
+
+<blockquote>Burenhult, Niclas. 2022. Jahai DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/jeha1242. DOI:10.34847/nkl.6a71xp0p</blockquote>
+
+<blockquote>Kim, Soung-U. 2022. Jejuan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/jeju1234. DOI:10.34847/nkl.06ebrk38</blockquote>
+
+<blockquote>Vydrina, Alexandra. 2022. Kakabe DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/kaka1265. DOI:10.34847/nkl.d5aeu9t6</blockquote>
+
+<blockquote>Gusev, Valentin and Klooster, Tiina and Wagner-Nagy, Beáta and Arkhipov, Alexandre. 2022. Kamas DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/kama1351. DOI:10.34847/nkl.cdd8177b</blockquote>
+
+<blockquote>Hellwig, Birgit and Schneider-Blum, Gertrud and Ismail, Khaleel Bakheet Khaleel. 2022. Tabaq (Karko) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/kark1256. DOI:10.34847/nkl.eea8144j</blockquote>
+
+<blockquote>Döhler, Christian. 2022. Komnzo DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/komn1238. DOI:10.34847/nkl.c5e6dudv</blockquote>
+
+<blockquote>Bartels, Hauke and Szczepański, Marcin. 2022. Lower Sorbian DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/lowe1385. DOI:10.34847/nkl.6c6e4e9k</blockquote>
+
+<blockquote>Haude, Katharina. 2022. Movima DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/movi1243. DOI:10.34847/nkl.da42xf67</blockquote>
+
+<blockquote>Ponsonnet, Maïa. 2022. Dalabon DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/ngal1292. DOI:10.34847/nkl.fae299ug</blockquote>
+
+<blockquote>Güldemann, Tom and Ernszt, Martina and Siegmund, Sven and Witzlack-Makarevich, Alena. 2022. Nǁng DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/nngg1234. DOI:10.34847/nkl.f6c37fi0</blockquote>
+
+<blockquote>Haig, Geoff and Vollmer, Maria and Thiele, Hanna. 2022. Northern Kurdish (Kurmanji) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/nort2641. DOI:10.34847/nkl.ca10ez5t</blockquote>
+
+<blockquote>Franjieh, Michael. 2022. Fanbyak DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/orko1234. DOI:10.34847/nkl.02084446</blockquote>
+
+<blockquote>Ring, Hiram. 2022. Pnar DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/pnar1238. DOI:10.34847/nkl.5ba1062k</blockquote>
+
+<blockquote>Krifka, Manfred. 2022. Daakie DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/port1286. DOI:10.34847/nkl.efeav5l9</blockquote>
+
+<blockquote>Seifart, Frank. 2022. Resígaro DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/resi1247. DOI:10.34847/nkl.ffb96lo8</blockquote>
+
+<blockquote>Witzlack-Makarevich, Alena and Namyalo, Saudah and Kiriggwajjo, Anatol and Molochieva, Zarina. 2022. Ruuli DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/ruul1235. DOI:10.34847/nkl.fde4pp1u</blockquote>
+
+<blockquote>Xu, Xianming and Bai, Bibo. 2022. Sadu DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/sadu1234. DOI:10.34847/nkl.3db4u59d</blockquote>
+
+<blockquote>Forker, Diana and Schiborr, Nils Norman. 2022. Sanzhi Dargwa DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/sanz1248. DOI:10.34847/nkl.81934177</blockquote>
+
+<blockquote>Wegener, Claudia. 2022. Savosavo DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/savo1255. DOI:10.34847/nkl.b74d1b33</blockquote>
+
+<blockquote>Thieberger, Nick. 2022. Nafsan (South Efate) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/sout2856. DOI:10.34847/nkl.ba4f760l</blockquote>
+
+<blockquote>Schiborr, Nils Norman. 2022. English (Southern England) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/sout3282. DOI:10.34847/nkl.9c271u5g</blockquote>
+
+<blockquote>Avanzi, Mathieu and Béguelin, Marie-José and Corminboeuf, Gilles and Diémoz, Federica and Johnsen, Laure Anne. 2022. French (Swiss) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/stan1290. DOI:10.34847/nkl.3520l685</blockquote>
+
+<blockquote>Teo, Amos. 2022. Sümi DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/sumi1235. DOI:10.34847/nkl.5ad4t01p</blockquote>
+
+<blockquote>Gippert, Jost. 2022. Svan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/svan1243. DOI:10.34847/nkl.9ba054c3</blockquote>
+
+<blockquote>Bogomolova, Natalia and Ganenkov, Dmitry and Schiborr, Nils Norman. 2022. Tabasaran DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/taba1259. DOI:10.34847/nkl.ad7f97xr</blockquote>
+
+<blockquote>Mosel, Ulrike. 2022. Teop DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/teop1238. DOI:10.34847/nkl.9322sdf2</blockquote>
+
+<blockquote>Wichmann, Søren. 2022. Texistepec Popoluca DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/texi1237. DOI:10.34847/nkl.c50ck58f</blockquote>
+
+<blockquote>Rose, Françoise. 2022. Mojeño Trinitario DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/trin1278. DOI:10.34847/nkl.cbc3b4xr</blockquote>
+
+<blockquote>Griscom, Richard. 2022. Asimjeeg Datooga DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/tsim1256. DOI:10.34847/nkl.f77c7m72</blockquote>
+
+<blockquote>Schnell, Stefan. 2022. Vera&#x27;a DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/vera1241. DOI:10.34847/nkl.3e2cu8c4</blockquote>
+
+<blockquote>Michaud, Alexis. 2022. Yongning Na DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 1.2. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Université Lyon 2). https://doreco.huma-num.fr/languages/yong1270. DOI:10.34847/nkl.abe65p95</blockquote>",,,v1.2.1,Frank Seifart ; Ludger Paschen ; Matthew Stave ; Robert Forkel ; Frederic Blum,,10.5281/zenodo.10990565,10.5281/zenodo.10401966,10401966,,,cc-zero,https://zenodo.org/records/10990565,10990565,,dataset,https://github.com/cldf-datasets/doreco/tree/v1.2.1
+10988938,"CLDF dataset reflecting Zariquiey, Blum et al.'s ""Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin"", work in progress.","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Zariquiey, Roberto and Blum, Frederic and Valenzuela, Pilar and Koile, Ezequiel and Blasi, Damian and Gray, Russell and List, Johann-Mattis. &quot;Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin&quot; (work in progress).</p>
+</blockquote>",,,v0.1,Roberto Zariquiey ; Frederic Blum ; Johann-Mattis List,,10.5281/zenodo.10988938,10.5281/zenodo.10988937,10988937,,,cc-by-4.0,https://zenodo.org/records/10988938,10988938,,dataset,https://github.com/pano-tacanan-history/zariquieypano/tree/v0.1
+10955934,CLDF dataset on Body Part Colexifications,CLDF dataset on Body Part Colexifications,,,v1.0,"Tjuka, Annika ; Forkel, Robert ; List, Johann-Mattis",,10.5281/zenodo.10955934,10.5281/zenodo.10955933,10955933,,,cc-by-4.0,https://zenodo.org/records/10955934,10955934,,dataset,https://github.com/clics/clicsbp/tree/v1.0
+10940165,"CLDF dataset derived from Blum et al.'s (2024) ""A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Blum, Frederic and Barrientos, Carlos and Zariquiey, Roberto and List, Johann-Mattis. 2024. A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America. *Scientific Data* 11(92). https://doi.org/10.1038/s41597-024-02928-7</p>
+</blockquote>",,,v1.0.1,Frederic Blum ; Carlos M. B. Ugarte ; Roberto Zariquiey ; Johann-Mattis List,,10.5281/zenodo.10940165,10.5281/zenodo.10054440,10054440,,,cc-by-4.0,https://zenodo.org/records/10940165,10940165,,dataset,https://github.com/pano-tacanan-history/blumpanotacana/tree/v1.0.1
+10940158,"CLDF dataset derived from Blum et al.'s (2024) ""A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Blum, Frederic and Barrientos, Carlos and Zariquiey, Roberto and List, Johann-Mattis. 2024. A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America. *Scientific Data* 11(92). https://doi.org/10.1038/s41597-024-02928-7</p>
+</blockquote>",,,v1.0.0,Frederic Blum ; Carlos M. B. Ugarte ; Roberto Zariquiey ; Johann-Mattis List,,10.5281/zenodo.10940158,10.5281/zenodo.10054440,10054440,,,cc-by-4.0,https://zenodo.org/records/10940158,10940158,,dataset,https://github.com/pano-tacanan-history/blumpanotacana/tree/v1.0.0
 10821732,Vanuatu Voices,<p>Available online at https://vanuatuvoices.clld.org</p>,,,v1.1,Lana Takau ; Mary Walworth ; Aviva Shimelman ; Sandrine Bessis ; Tom Ennever ; Iveth Rodriguez ; Hans-Jörg Bibiko ; Daria Dërmaku ; Murray Garde ; Marie-France Duhamel ; Giovanni Abete ; Laura Wägerle ; Kaitip W. Kami ; Russell Gray,Robert Forkel ; Johann-Mattis List ; Tihomir Rangelov,10.5281/zenodo.10821732,10.5281/zenodo.4309140,4309140,,,cc-by-nc-4.0,https://zenodo.org/records/10821732,10821732,,dataset,https://github.com/lexibank/vanuatuvoices/tree/v1.1
 10907516,Kalamang IDS wordlist by Eline Visser,"<p>Cite the source of the dataset as:</p>
 
