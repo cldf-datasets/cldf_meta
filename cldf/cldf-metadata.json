@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/clld_meta",
             "rdf:type": "prov:Entity",
-            "dc:created": "cac477b",
+            "dc:created": "28bdae6",
             "dc:title": "Repository"
         },
         {
