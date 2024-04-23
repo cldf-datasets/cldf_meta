@@ -19,7 +19,7 @@ Creating the meta database is a three-step process:
  1. Download metadata for existing datasets from Zenodo.  This will update the
    metadata in `raw/zenodo-metadata.json`.
 
-    $ cldfbench updatemd cldfbench_clld_meta.py
+    $ cldfbench clld-meta.updatemd cldfbench_clld_meta.py
 
  2. Download the datasets themselves.  They will be downloaded into the
    `raw/datasets/` folder.
