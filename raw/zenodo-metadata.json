@@ -1,6 +1,250 @@
 {
   "records": [
     {
+      "id": 12672853,
+      "doi": "10.5281/zenodo.12672853",
+      "conceptid": "12672852",
+      "conceptdoi": "10.5281/zenodo.12672852",
+      "created": "2024-07-06T13:34:18.742245+00:00",
+      "updated": "2024-07-06T13:41:12.619082+00:00",
+      "modified": "2024-07-06T13:41:12.619082+00:00",
+      "title": "CLDF dataset derived from von Rosenberg's \"De Mentawei-Eilanden en Hunne Bewoners\" from 1853",
+      "description": "<p>Cite the source of the dataset as:</p>\n<blockquote>\n<p>Rosenberg, Carl Benjamin Hermann von. 1853. De Mentawei-Eilanden en Hunne Bewoners. <em>Tijdschrift voor Indische Taal-, Land- en Volkenkunde</em> 1. 403&ndash;440. Available online at <a href=\"https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451\" target=\"_blank\" rel=\"noopener\">https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451</a></p>\n</blockquote>",
+      "version": "1.0.0",
+      "access_right": "open",
+      "publication_date": "2024-07-06",
+      "license": "cc-by-nc-sa-4.0",
+      "creators": [
+        {
+          "name": "Rajeg, Gede Primahadi Wijaya",
+          "affiliation": "University of Oxford",
+          "orcid": "0000-0002-2047-8621"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "complexico/mentawai-word-list-1853-1.0.0.zip",
+          "checksum": "md5:45d4385798dc467c5792c69e94034df7",
+          "url": "https://zenodo.org/api/records/12672853/files/complexico/mentawai-word-list-1853-1.0.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics",
+        "Mentawai"
+      ],
+      "git-link": "https://github.com/complexico/mentawai-word-list-1853/tree/1.0.0"
+    },
+    {
+      "id": 12543015,
+      "doi": "10.5281/zenodo.12543015",
+      "conceptid": "11046587",
+      "conceptdoi": "10.5281/zenodo.11046587",
+      "created": "2024-06-26T08:24:57.729686+00:00",
+      "updated": "2024-06-26T08:37:15.179532+00:00",
+      "modified": "2024-06-26T08:37:15.179532+00:00",
+      "title": "CLDF dataset derived from the ECAI digitization of Wurm and Hattori's \"Language Atlas of the Pacific Area\" from 1981 and 1983",
+      "description": "<p>Cite the source of the dataset as:</p>\n<blockquote>\n<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981).</p>\n<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983).</p>\n<p>Registered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2024-06-26",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Stephen Wurm"
+        },
+        {
+          "name": "Shir\u00f4 Hattori"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/languageatlasofthepacificarea-v2.0.zip",
+          "checksum": "md5:6aa2d446ebaa8264da341340dcfa3ef5",
+          "url": "https://zenodo.org/api/records/12543015/files/cldf-datasets/languageatlasofthepacificarea-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "David Blundell",
+          "type": "Editor"
+        },
+        {
+          "name": "Lawrence Crissman",
+          "type": "Editor"
+        },
+        {
+          "name": "Jeanette Zerneke",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "affiliation": "Max Planck Institute for Evolutionary Anthropology",
+          "type": "Editor",
+          "orcid": "0000-0003-1081-086X"
+        },
+        {
+          "name": "Harald Hammarstr\u00f6m",
+          "affiliation": "Uppsala University",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/v2.0"
+    },
+    {
+      "id": 12304366,
+      "doi": "10.5281/zenodo.12304366",
+      "conceptid": "12304365",
+      "conceptdoi": "10.5281/zenodo.12304365",
+      "created": "2024-06-22T12:57:00.146952+00:00",
+      "updated": "2024-06-22T12:57:00.452661+00:00",
+      "modified": "2024-06-22T12:57:00.452661+00:00",
+      "title": "CLDF dataset derived from MaJeLeD (Macro-Je Lexical Database)",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Gerardi, F. F., Tresoldi, T. (2024)</p>\n</blockquote>",
+      "version": "v0.1-pre",
+      "access_right": "open",
+      "publication_date": "2024-06-22",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Gerardi, Fabr\u00edcio Ferraz",
+          "affiliation": "Universit\u00e4t T\u00fcbingen"
+        },
+        {
+          "name": "Tresoldi, Tiago"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "tresoldi/macro-je-v0.1-pre.zip",
+          "checksum": "md5:11a2ac690cd1d2b04ea42424e4b2a904",
+          "url": "https://zenodo.org/api/records/12304366/files/tresoldi/macro-je-v0.1-pre.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/tresoldi/macro-je/tree/v0.1-pre"
+    },
+    {
+      "id": 11203768,
+      "doi": "10.5281/zenodo.11203768",
+      "conceptid": "8238982",
+      "conceptdoi": "10.5281/zenodo.8238982",
+      "created": "2024-05-16T11:59:34.818190+00:00",
+      "updated": "2024-05-16T11:59:35.021581+00:00",
+      "modified": "2024-05-16T11:59:35.021581+00:00",
+      "title": "CLDF dataset derived from Heath et al's \"Dogon Comparative Wordlist\" from 2016",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Moran, Steven &amp; Forkel, Robert &amp; Heath, Jeffrey (eds.) 2016. Dogon and Bangime Linguistics. Jena: Max Planck Institute for the Science of Human History. (Available online at http://dogonlanguages.org, Accessed on 2023-08-10.)</p>\n</blockquote>",
+      "version": "v0.2.alpha",
+      "access_right": "open",
+      "publication_date": "2024-05-16",
+      "license": "cc-zero",
+      "creators": [
+        {
+          "name": "Jeffrey Heath"
+        },
+        {
+          "name": "Laura McPherson"
+        },
+        {
+          "name": "Kirill Prokhorov"
+        },
+        {
+          "name": "Steven Moran"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "languageorphans/heathdogon-v0.2.alpha.zip",
+          "checksum": "md5:d030138c93ef3514bb55f955c499c435",
+          "url": "https://zenodo.org/api/records/11203768/files/languageorphans/heathdogon-v0.2.alpha.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Abbie Hantgan",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/languageorphans/heathdogon/tree/v0.2.alpha"
+    },
+    {
+      "id": 11046588,
+      "doi": "10.5281/zenodo.11046588",
+      "conceptid": "11046587",
+      "conceptdoi": "10.5281/zenodo.11046587",
+      "created": "2024-04-23T10:20:41.878166+00:00",
+      "updated": "2024-04-23T10:20:42.092023+00:00",
+      "modified": "2024-04-23T10:20:42.092023+00:00",
+      "title": "CLDF Geo data derived from the ECAI digitization of Wurm and Hattori \"Language Atlas of the Pacific Area\" from 1981 and 1983",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Language Atlas of the Pacific Geo-Registered - GIS Dataset</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2024-04-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Stephen Wurm"
+        },
+        {
+          "name": "Shir\u00f4 Hattori"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/languageatlasofthepacificarea-v1.0.zip",
+          "checksum": "md5:11a6371fee1d2fe647f77e2b16e55176",
+          "url": "https://zenodo.org/api/records/11046588/files/cldf-datasets/languageatlasofthepacificarea-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "David Blundell",
+          "type": "Editor"
+        },
+        {
+          "name": "Lawrence Crissman",
+          "type": "Editor"
+        },
+        {
+          "name": "Jeanette Zerneke",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        },
+        {
+          "name": "Harald Hammarstr\u00f6m",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/v1.0"
+    },
+    {
       "id": 11044861,
       "doi": "10.5281/zenodo.11044861",
       "conceptid": "11044860",
