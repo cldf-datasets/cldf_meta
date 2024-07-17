@@ -1,4 +1,29 @@
 ID,Name,Description,Contributor,Citation,Version,Creators,Contributors,DOI,Concept_DOI,Concept_ID,Date,Communities,License,Zenodo_Link,Zenodo_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+12672853,"CLDF dataset derived from von Rosenberg's ""De Mentawei-Eilanden en Hunne Bewoners"" from 1853","<p>Cite the source of the dataset as:</p>
+<blockquote>
+<p>Rosenberg, Carl Benjamin Hermann von. 1853. De Mentawei-Eilanden en Hunne Bewoners. <em>Tijdschrift voor Indische Taal-, Land- en Volkenkunde</em> 1. 403&ndash;440. Available online at <a href=""https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451"" target=""_blank"" rel=""noopener"">https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451</a></p>
+</blockquote>",,,1.0.0,"Rajeg, Gede Primahadi Wijaya",,10.5281/zenodo.12672853,10.5281/zenodo.12672852,12672852,,,cc-by-nc-sa-4.0,https://zenodo.org/records/12672853,12672853,,dataset,https://github.com/complexico/mentawai-word-list-1853/tree/1.0.0
+12543015,"CLDF dataset derived from the ECAI digitization of Wurm and Hattori's ""Language Atlas of the Pacific Area"" from 1981 and 1983","<p>Cite the source of the dataset as:</p>
+<blockquote>
+<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981).</p>
+<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983).</p>
+<p>Registered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).</p>
+</blockquote>",,,v2.0,Stephen Wurm ; Shirô Hattori,David Blundell ; Lawrence Crissman ; Jeanette Zerneke ; Robert Forkel ; Harald Hammarström,10.5281/zenodo.12543015,10.5281/zenodo.11046587,11046587,,,cc-by-nc-4.0,https://zenodo.org/records/12543015,12543015,,dataset,https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/v2.0
+12304366,CLDF dataset derived from MaJeLeD (Macro-Je Lexical Database),"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Gerardi, F. F., Tresoldi, T. (2024)</p>
+</blockquote>",,,v0.1-pre,"Gerardi, Fabrício Ferraz ; Tresoldi, Tiago",,10.5281/zenodo.12304366,10.5281/zenodo.12304365,12304365,,,cc-by-4.0,https://zenodo.org/records/12304366,12304366,,dataset,https://github.com/tresoldi/macro-je/tree/v0.1-pre
+11203768,"CLDF dataset derived from Heath et al's ""Dogon Comparative Wordlist"" from 2016","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Moran, Steven &amp; Forkel, Robert &amp; Heath, Jeffrey (eds.) 2016. Dogon and Bangime Linguistics. Jena: Max Planck Institute for the Science of Human History. (Available online at http://dogonlanguages.org, Accessed on 2023-08-10.)</p>
+</blockquote>",,,v0.2.alpha,Jeffrey Heath ; Laura McPherson ; Kirill Prokhorov ; Steven Moran,Abbie Hantgan ; Johann-Mattis List,10.5281/zenodo.11203768,10.5281/zenodo.8238982,8238982,,,cc-zero,https://zenodo.org/records/11203768,11203768,,dataset,https://github.com/languageorphans/heathdogon/tree/v0.2.alpha
+11046588,"CLDF Geo data derived from the ECAI digitization of Wurm and Hattori ""Language Atlas of the Pacific Area"" from 1981 and 1983","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Language Atlas of the Pacific Geo-Registered - GIS Dataset</p>
+</blockquote>",,,v1.0,Stephen Wurm ; Shirô Hattori,David Blundell ; Lawrence Crissman ; Jeanette Zerneke ; Robert Forkel ; Harald Hammarström,10.5281/zenodo.11046588,10.5281/zenodo.11046587,11046587,,,cc-by-4.0,https://zenodo.org/records/11046588,11046588,,dataset,https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/v1.0
 11044861,"CLDF dataset with phoneme inventories from the ""Journal of the IPA"", aggregated by Baird et al. (2021)","<p>Cite the source of the dataset as:</p>
 
 <blockquote>
