@@ -1,4 +1,338 @@
 ID,Name,Description,Contributor,Citation,Version,Creators,Contributors,DOI,Concept_DOI,Concept_ID,Date,Communities,License,Zenodo_Link,Zenodo_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+15287258,"Glottography dataset derived from Asher and Moseley 2007 ""Atlas of the World's Languages""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Asher, R. E. &amp; Christopher J. Moseley (eds.) 2007. Atlas of the World&#x27;s Languages. 2nd edn. Routledge.</p>
+</blockquote>",,,v1.0.0,The Glottography Consortium,,10.5281/zenodo.15287258,10.5281/zenodo.15287257,15287257,,,cc-by-4.0,https://zenodo.org/records/15287258,15287258,,dataset,https://github.com/Glottography/asher2007world/tree/v1.0.0
+15239866,"CLDF dataset with data and supplements for Barlow ""Loss of colexification of 'hand' and 'five' in Austronesian languages""","CLDF dataset with data and supplements for Barlow ""Loss of colexification of 'hand' and 'five' in Austronesian languages""",,,v1.3,Russell Barlow ; Robert Forkel,,10.5281/zenodo.15239866,10.5281/zenodo.13889023,13889023,,,cc-by-4.0,https://zenodo.org/records/15239866,15239866,,dataset,https://github.com/cldf-datasets/barlowhandandfive/tree/v1.3
+15196305,GramAdapt Crosslinguistic Social Contact Dataset,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Eri Kashima, Francesca Di Garbo, Oona Raatikainen, Rosnátaly Avelino, Sacha Beck, Anna Berge, Ana Blanco, Ross Bowden, Nicolás Brid, Joseph M Brincat, María Belén Carpio, Alexander Cobbinah, Paola Cúneo, Anne-Maria Fehn, Saloumeh Gholami, Arun Ghosh, Hannah Gibson, Elizabeth Hall, Katja Hannß, Hannah Haynie, Jerry Jacka, Matias Jenny, Richard Kowalik, Sonal Kulkarni-Joshi, Maarten Mous, Marcela Mendoza, Cristina Messineo, Francesca Moro, Hank Nater, Michelle A Ocasio, Bruno Olsson, Ana María Ospina Bozzi, Agustina Paredes, Admire Phiri, Nicolas Quint, Erika Sandman, Dineke Schokkin, Ruth Singer, Ellen Smith-Dennis, Lameen Souag, Yunus Sulistyono, Yvonne Treis, Matthias Urban, Jill Vaughan, Deginet Wotango Doyiso, Georg Ziegelmeyer, Veronika Zikmundová. (2023). GramAdapt Crosslinguistic Social Contact Dataset. (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7508054</p>
+</blockquote>",,,v1.2,Eri Kashima ; Francesca Di Garbo ; Oona Raatikainen ; Kaius Sinnemäki ; Ricardo Napoleão de Souza ; Anu Hyvönen ; Kayleigh Karinen ; Rosnátaly Avelino ; Sacha Beck ; Anna Berge ; Ana Blanco ; Ross Bowden ; Nicolás Brid ; Joseph Brincat ; María Belén Carpio ; Alexander Cobbinah ; Paola Cúneo ; Anne-Maria Fehn ; Saloumeh Gholami ; Arun Ghosh ; Hannah Gibson ; Elizabeth Hall ; Katja Hannß ; Hannah Haynie ; Jerry Jacka ; Matias Jenny ; Richard Kowalik ; Sonal Kulkarni-Joshi ; Maarten Mous ; Marcela Mendoza ; Cristina Messineo ; Francesca Moro ; Hank Nater ; Michelle Ocasio ; Bruno Olsson ; Ana María Ospina Bozzi ; Agustina Paredes ; Admire Phiri ; Nicolas Quint ; Erika Sandman ; Dineke Schokkin ; Ruth Singer ; Ellen Smith-Dennis ; Lameen Souag ; Yunus Sulistyono ; Yvonne Treis ; Matthias Urban ; Jill Vaughan ; Deginet Wotango Doyiso ; Georg Ziegelmeyer ; Veronika Zikmundová ; Robert Forkel,Eri Kashima ; Francesca Di Garbo ; Oona Raatikainen ; Kaius Sinnemäki ; Robert Forkel,10.5281/zenodo.15196305,10.5281/zenodo.14872293,14872293,,,cc-by-4.0,https://zenodo.org/records/15196305,15196305,,dataset,https://github.com/cldf-datasets/gramadapt/tree/v1.2
+15194559,Lexibank Analysed,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank²: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v2.1,Frederic Blum ; Carlos Barrientos ; Johannes Englisch ; Robert Forkel ; Russell D. Gray ; Simon J. Greenhill ; Christoph Rzymski ; Johann-Mattis List,,10.5281/zenodo.15194559,10.5281/zenodo.5227817,5227817,,,cc-by-4.0,https://zenodo.org/records/15194559,15194559,,dataset,https://github.com/lexibank/lexibank-analysed/tree/v2.1
+15183865,"CLDF dataset derived from the ECAI digitization of Wurm and Hattori's ""Language Atlas of the Pacific Area"" from 1981 and 1983","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981).
+Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983).
+Registered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).</p>
+</blockquote>",,,v2.1,Stephen Wurm ; Shirô Hattori,David Blundell ; Lawrence Crissman ; Jeanette Zerneke ; Robert Forkel ; Harald Hammarström,10.5281/zenodo.15183865,10.5281/zenodo.11046587,11046587,,,cc-by-nc-4.0,https://zenodo.org/records/15183865,15183865,,dataset,https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/v2.1
+15161504,"CLDF dataset derived from von Rosenberg's ""De Mentawei-Eilanden en Hunne Bewoners"" from 1853 for comparative numeral data","<p>Cite the source of the dataset as:</p>
+<blockquote>
+<p>Von Rosenberg, Carl Benjamin Hermann. 1853. De Mentawei-Eilanden en Hunne Bewoners. Tijdschrift voor Indische Taal-, Land- en Volkenkunde 1. 403&ndash;440. <a href=""https://www.digitale-sammlungen.de/en/view/bsb10433845?page=424,425"" target=""_blank"" rel=""noopener"">https://www.digitale-sammlungen.de/en/view/bsb10433845?page=424,425</a></p>
+</blockquote>
+<p>Cite the particular released version of this dataset as:</p>
+<blockquote>
+<p>Rajeg, Gede Primahadi Wijaya (2025). CLDF dataset derived from von Rosenberg's ""De Mentawei-Eilanden en Hunne Bewoners"" from 1853 for comparative numeral data. University of Oxford &amp; Zenodo. Dataset. <a title=""Oxford SDS release"" href=""https://doi.org/10.25446/oxford.28358708"" target=""_blank"" rel=""noopener"">https://doi.org/10.25446/oxford.28358708</a> <a title=""Zenodo release (v2.0.0)"" href=""https://doi.org/10.5281/zenodo.15161504"" target=""_blank"" rel=""noopener"">https://doi.org/10.5281/zenodo.15161504</a></p>
+</blockquote>
+<p>Notes for the updates in version 2.0.0 are available on the <a title=""Version 2.0.0"" href=""https://github.com/complexico/vrosenberg1853-numeral/releases/tag/2.0.0"" target=""_blank"" rel=""noopener"">releases page</a>.</p>",,,2.0.0,"Rajeg, Gede Primahadi Wijaya",,10.5281/zenodo.15161504,10.5281/zenodo.15161503,15161503,,,cc-by-nc-sa-4.0,https://zenodo.org/records/15161504,15161504,,dataset,https://github.com/complexico/vrosenberg1853-numeral/tree/2.0.0
+14794542,"Digitised, searchable Holle List in Stokhof (1980)","<p>This repository contains the digitised Holle List in Stokhof (<a href=""https://core.ac.uk/reader/159464813"">1980</a>). Details and the interactive web version of the list can be accessed via <a title=""Digitised, searchable Holle List"" href=""https://engganolang.github.io/digitised-holle-list/"" target=""_blank"" rel=""noopener"">https://engganolang.github.io/digitised-holle-list/</a> (Rajeg 2023).</p>
+<p>The work in this repository is part of the <a href=""https://gtr.ukri.org/projects?ref=AH%2FW007290%2F1"">AHRC-funded research</a> on <a title=""Lexical resources for Enggano"" href=""https://portal.sds.ox.ac.uk/Lexical_resources_for_Enggano"" target=""_blank"" rel=""noopener""><em>Lexical resources for Enggano, a threatened language of Indonesia</em></a> (central webpage of the Enggano project: <a title=""Enggano research"" href=""https://enggano.ling-phil.ox.ac.uk/"" target=""_blank"" rel=""noopener"">https://enggano.ling-phil.ox.ac.uk/</a>)</p>
+<h2>Updates in version 1.4.1</h2>
+<ul>
+<li>Adding the Transcription table (Stokhof 1980: 75-77, &sect;6.2) on the interactive webpage version (see <a title=""Transcription Symbols"" href=""https://engganolang.github.io/digitised-holle-list/#:~:text=Transcription%20Symbols"" target=""_blank"" rel=""noopener"">Table 4 ""Transcription Symbols""</a>)</li>
+<li>Adding an update on the potential for the list to be included in the <em>Concepticon</em> (cf. the note&nbsp;<a href=""https://github.com/concepticon/concepticon-data/issues/1324"">here</a>)</li>
+<li>Adding reference to <em>EnoLEX</em>, a diachronic lexical database for the Enggano language (cf. <a href=""https://doi.org/10.25446/oxford.28282169"">here</a>)</li>
+</ul>
+<h2>References</h2>
+<p>Forkel, Robert, Johann-Mattis List, Simon J. Greenhill, Christoph Rzymski, Sebastian Bank, Michael Cysouw, Harald Hammarstr&ouml;m, Martin Haspelmath, Gereon A. Kaiping &amp; Russell D. Gray. 2018. Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics. Scientific Data. Nature Publishing Group 5(1). 180205. <a href=""https://doi.org/10.1038/sdata.2018.205"" target=""_blank"" rel=""noopener"">https://doi.org/10.1038/sdata.2018.205</a>.</p>
+<p>Krau&szlig;e, Daniel; Rajeg, Gede Primahadi Wijaya; Pramartha, Cokorda Rai Adi; Zobel, Erik; Nothofer, Bernd; Hemmings, Charlotte; et al. (2024). EnoLEX: A diachronic lexical database for the Enggano language. University of Oxford. Online database. <a title=""EnoLEX metadata record"" href=""https://doi.org/10.25446/oxford.28282169"" target=""_blank"" rel=""noopener"">https://doi.org/10.25446/oxford.28282169</a>.</p>
+<p>Rajeg, Gede Primahadi Wijaya. 2023. Digitised, searchable Holle List in Stokhof (1980). Dataset. University of Oxford. <a href=""https://doi.org/10.25446/oxford.23205173"" target=""_blank"" rel=""noopener"">https://doi.org/10.25446/oxford.23205173</a></p>
+<p>Stokhof, W. A. L. (ed.). 1980. Holle lists, vocabularies in languages of Indonesia, vol. 1: Introductory volume. Vol. Materials in Languages of Indonesia. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. <a title=""Source Holle List in PDF"" href=""https://core.ac.uk/reader/159464813"" target=""_blank"" rel=""noopener"">https://core.ac.uk/reader/159464813</a>.</p>",,,1.4.1,"Rajeg, Gede Primahadi Wijaya","Koemba, Fitriani Putri ; Dalrymple, Mary ; Arka, I Wayan",10.5281/zenodo.14794542,10.5281/zenodo.7972273,7972273,,,cc-by-sa-4.0,https://zenodo.org/records/14794542,14794542,,dataset,https://github.com/engganolang/digitised-holle-list/tree/1.4.1
+15131172,CLDF dataset of the Enggano word list from 1895 in Stokhof and Almanar's (1987) Holle List,"<p>The repository for the digitised Enggano word list from 1895 (see Stokhof and Almanar 1987 for the original source) that has been matched with the <a href=""https://engganolang.github.io/digitised-holle-list/"">digitised Holle List</a> (Rajeg 2023a; cf. Stokhof 1980), providing the English and Indonesian glosses for the Enggano forms. The data set <a href=""https://github.com/engganolang/holle-list-enggano-1895/actions/workflows/cldf-validation.yml"">conforms</a> to the Wordlist module of the Cross-Linguistic Data Format (<a href=""https://cldf.clld.org/"">CLDF</a>) (Forkel et al. 2018).</p>
+<p><em>The work in this repository is part of the <a href=""https://gtr.ukri.org/project/8AB0C3DC-F1C9-4CFA-BB4D-5BE748213372"">AHRC-funded research</a> on <strong>Lexical resources for Enggano, a threatened language of Indonesia</strong> (visit the <a href=""https://enggano.ling-phil.ox.ac.uk/"">central webpage of the Enggano research</a> and the specific repository of the <a href=""https://portal.sds.ox.ac.uk/Lexical_resources_for_Enggano"">Lexical Resources for Enggano</a> project as well the <a href=""https://portal.sds.ox.ac.uk/Enggano/groups"">main Enggano repository</a> on the University of Oxford's Sustainable Digital Scholarship (SDS))</em></p>
+<h1>Updates in version 2.0.0</h1>
+<p>The following items summarise the major updates in version 2.0.0:</p>
+<ul>
+<li>
+<p><strong>Adding <a href=""https://github.com/engganolang/holle-list-enggano-1895/blob/main/cldf/media.csv"">MediaTable</a></strong> to accommodate <a href=""https://github.com/engganolang/holle-list-enggano-1895/tree/main/img"">images</a> in/for note ID &lt;26&gt; (commits <a href=""https://github.com/engganolang/holle-list-enggano-1895/commit/dab95401f128bd4203a81294f2e9f4620d45b145"">dab9540</a> &amp; <a href=""https://github.com/engganolang/holle-list-enggano-1895/commit/a0040038e2577cb37ff8ad3ac68e8bbdedc26291"">a004003</a> <a href=""https://github.com/engganolang/holle-list-enggano-1895/blob/a0040038e2577cb37ff8ad3ac68e8bbdedc26291/code/Enggano-Holle-List-with-NBL.R#L229-L232"">at this line</a> and <a href=""https://github.com/engganolang/holle-list-enggano-1895/blob/2aab3ab385fc82c0613de2aacb5947ca4981b417/code/Enggano-Holle-List-with-NBL.R#L370-L397"">these lines</a>)</p>
+</li>
+<li>
+<p><strong>Splitting multiple forms in a cell</strong> into their own rows, both for the original list and the forms in the Notes (commit <a href=""https://github.com/engganolang/holle-list-enggano-1895/commit/39cdc663843b265aa8f3c5bbdcb11628fcc17b5e"">39cdc66</a> at <a href=""https://github.com/engganolang/holle-list-enggano-1895/commit/39cdc663843b265aa8f3c5bbdcb11628fcc17b5e#diff-ac46f8a3edb85868970d77f55bb86c5f0449feb25c37295895c4a9e560564301R83"">this line</a> and <a href=""https://github.com/engganolang/holle-list-enggano-1895/commit/39cdc663843b265aa8f3c5bbdcb11628fcc17b5e#diff-ac46f8a3edb85868970d77f55bb86c5f0449feb25c37295895c4a9e560564301R83"">this line</a>, and commit <a href=""https://github.com/engganolang/holle-list-enggano-1895/commit/a0040038e2577cb37ff8ad3ac68e8bbdedc26291"">a004003</a> at <a href=""https://github.com/engganolang/holle-list-enggano-1895/commit/a0040038e2577cb37ff8ad3ac68e8bbdedc26291#diff-5b59e4a74b953f80c8867a60c422bd8405c9d6236bd61239a0d3f20b0d582b78R69"">this line</a>)</p>
+</li>
+<li>
+<p><strong>Orthography transliteration</strong> into Enggano's common orthography and IPA (across several commits and [closed] issues [#1 #3 #4 #5 #7], but see <a href=""https://github.com/engganolang/holle-list-enggano-1895/blob/2aab3ab385fc82c0613de2aacb5947ca4981b417/code/Enggano-Holle-List-with-NBL.R#L32-L93"">these lines</a> for retrieving the existing orthography profile and doing the editing, and <a href=""https://github.com/engganolang/holle-list-enggano-1895/blob/2aab3ab385fc82c0613de2aacb5947ca4981b417/code/Enggano-Holle-List-with-NBL.R#L220-L306"">these lines</a> for running the transliteration using the <a href=""https://cran.r-project.org/web/packages/qlcData/index.html"">qlcData</a> R package [Moran &amp; Cysouw 2018; Cysouw 2024])</p>
+<ul>
+<li>In the <a href=""https://github.com/engganolang/holle-list-enggano-1895/blob/main/cldf/forms.csv"">FormTable</a>, the <code>Form</code> column contains the Enggano forms in their common orthography; the <code>Value</code> column contains their original transcription/orthography, with their tokenised/segmented formats available under the <code>Graphemes</code> column; the <code>Segments</code> column, finally, contains the segmented IPA transliteration of the Enggano forms (cf. #6 ). The <code>Comment</code> column is derived from the contents of the Notes. It includes, if any, Enggano forms in their original transcription followed by their segmented/tokenised forms in IPA in square brackets, their glosses in English (<strong>EN</strong>) and/or Indonesian (<strong>ID</strong>) inside the bracket, and finally the ID of the Notes in the original document inside angular brackets. The <code>English</code> and <code>Indonesian</code> columns respectively are glosses of the given language from the master/main Holle List (Stokhof 1980) that has been digitised (Rajeg 2023a).</li>
+<li>The output files of the orthography profiling and transliteration (commit <a href=""https://github.com/engganolang/holle-list-enggano-1895/commit/2aab3ab385fc82c0613de2aacb5947ca4981b417"">2aab3ab</a>) are available in <a href=""https://github.com/engganolang/holle-list-enggano-1895/tree/main/data-raw"">data-raw</a> with the file names prefixed with <code>ortho-...</code>.</li>
+</ul>
+</li>
+</ul>
+<h2>References</h2>
+<p>Cysouw, Michael. 2024. qlcData: Processing Data for Quantitative Language Comparison. https://cran.r-project.org/web/packages/qlcData/index.html. (25 December, 2024). Version 0.3</p>
+<p>Forkel, Robert, Johann-Mattis List, Simon J. Greenhill, Christoph Rzymski, Sebastian Bank, Michael Cysouw, Harald Hammarstr&ouml;m, Martin Haspelmath, Gereon A. Kaiping &amp; Russell D. Gray. 2018. Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics. Scientific Data. Nature Publishing Group 5(1). 180205. https://doi.org/10.1038/sdata.2018.205.</p>
+<p>Moran, Steven &amp; Michael Cysouw. 2018. The Unicode cookbook for linguists: Managing writing systems using orthography profiles (Translation and Multilingual Natural Language Processing 10). Berlin: Language Science Press. https://doi.org/10.5281/zenodo.1296780.</p>
+<p>Rajeg, Gede Primahadi Wijaya. 2023a. Digitised, Searchable Holle List in Stokhof (1980) [Data set]. (1.3.0). Zenodo. https://doi.org/10.5281/ZENODO.7972273. https://engganolang.github.io/digitised-holle-list/. https://ora.ox.ac.uk/objects/uuid:a511951b-86fb-4019-94d4-280efa83de02</p>
+<p>Rajeg, Gede Primahadi Wijaya. 2023b. CLDF dataset of the Enggano word list from 1895 in Stokhof and Almanar's (1987) Holle List [Data set]. https://github.com/engganolang/holle-list-enggano-1895 https://doi.org/10.25446/oxford.23515788</p>
+<p>Stokhof, W. A. L., ed. 1980. Holle Lists, Vocabularies in Languages of Indonesia, Vol. 1: Introductory Volume. Vol. Materials in Languages of Indonesia. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. https://core.ac.uk/reader/159464813.</p>
+<p>Stokhof, W. A. L., and Alma E. Almanar. 1987. Holle Lists, Vocabularies in Languages of Indonesia, Vol. 10/3: Islands Off the West Coast of Sumatra. Vol. Materials in Languages of Indonesia. Pacific Linguistics (Series d) 76. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. http://hdl.handle.net/1885/144589.</p>",,,2.0.0,"Rajeg, Gede Primahadi Wijaya","Pamphila, Utei Charaleghy ; Dalrymple, Mary ; Arka, I Wayan",10.5281/zenodo.15131172,10.5281/zenodo.8038974,8038974,,,cc-by-sa-4.0,https://zenodo.org/records/15131172,15131172,,dataset,https://github.com/engganolang/holle-list-enggano-1895/tree/2.0.0
+15094175,"CLDF dataset derived from Deepadung et al.'s ""Lexical Comparison of Palaung Dialects"" from 2015","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Deepadung, Sujaritlak; Buakaw, Supakit; and Rattanapitak, Ampica (2015): A lexical comparison of the Palaung dialects spoken in China, Myanmar, and Thailand. Mon-Khmer Studies 44. 19-38.</p>
+</blockquote>",,,v1.3,"Deepadung, Sujaritlak ; Buakaw, Supakit ; Rattanapitak, Ampika","Johann-Mattis List ; Dan Briggs ; Deepadung, Sujaritlak ; Buakaw, Supakit ; Rattanapitak, Ampika",10.5281/zenodo.15094175,10.5281/zenodo.5121401,5121401,,,cc-by-4.0,https://zenodo.org/records/15094175,15094175,,dataset,https://github.com/lexibank/deepadungpalaung/tree/v1.3
+15076306,"CLDF dataset derived from Grollemund et al.'s ""Bantu expansion shows habitat alters the route and pace of human dispersals"" from 2015","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Grollemund, Rebecca, Branford, Simon, Bostoen, Koen, Meade, Andrew, Venditti, Chris, &amp; Pagel, Mark (2015) Bantu expansion shows habitat alters the route and pace of human dispersals. Proc Natl Acad Sci USA. doi:10.1073/pnas.1503793112.</p>
+</blockquote>",,,v1.1,lexibank,Robert Forkel ; Tiago Tresoldi ; Johann-Mattis List ; Rebecca Grollemund ; Mark Pagel,10.5281/zenodo.15076306,10.5281/zenodo.3755518,3755518,,,cc-by-nc-4.0,https://zenodo.org/records/15076306,15076306,,dataset,https://github.com/lexibank/grollemundbantu/tree/v1.1
+14982997,"Geographic data for Australian languages in CLDF derived from Bowern ""Files for Australian Language Locations""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bowern, Claire. (2021). Files for Australian Language Locations [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4898185</p>
+</blockquote>",,,v1.0,Claire Bowern,Robert Forkel ; Robert Forkel,10.5281/zenodo.14982997,10.5281/zenodo.14982996,14982996,,,cc-by-nc-4.0,https://zenodo.org/records/14982997,14982997,,dataset,https://github.com/cldf-datasets/bowernpnygeo/tree/v1.0
+14925245,"Database of Cross-Linguistic Norms, Ratings, and Relations for Words and Concepts as CLDF dataset","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Tjuka, Annika, Robert Forkel, and Johann-Mattis List. 2022. Linking Norms, Ratings, and Relations of Words and Concepts Across Multiple Language Varieties. Behavior Research Methods 54. 864–884. DOI: 10.3758/s13428-021-01650-1</p>
+</blockquote>",,,v1.1,Annika Tjuka ; Robert Forkel ; Johann-Mattis List,,10.5281/zenodo.14925245,10.5281/zenodo.7312926,7312926,,,cc-by-4.0,https://zenodo.org/records/14925245,14925245,,dataset,https://github.com/concepticon/norare-cldf/tree/v1.1
+14887395,"CLDF dataset derived from Oudemans' ""Woordenlijst van de Talen van Enggano, Mentawei en Nias"" from 1879","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Oudemans, Jean Abraham Chrétien. 1879. Woordenlijst van de Talen van Enggano, Mentawei en Nias. Tijdschrift voor Indische Taal-, Land- en Volkenkunde XXV(5–6). 484–488.</p>
+</blockquote>",,,1.0.0,"Rajeg, Gede Primahadi Wijaya",Gede Primahadi Wijaya Rajeg ; Daniel Krauße ; I Wayan Arka ; Mary Dalrymple,10.5281/zenodo.14887395,10.5281/zenodo.14887394,14887394,,,cc-by-nc-4.0,https://zenodo.org/records/14887395,14887395,,dataset,https://github.com/engganolang/oudemans-1879/tree/1.0.0
+14872294,GramAdapt Crosslinguistic Social Contact Dataset,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Eri Kashima, Francesca Di Garbo, Oona Raatikainen, Rosnátaly Avelino, Sacha Beck, Anna Berge, Ana Blanco, Ross Bowden, Nicolás Brid, Joseph M Brincat, María Belén Carpio, Alexander Cobbinah, Paola Cúneo, Anne-Maria Fehn, Saloumeh Gholami, Arun Ghosh, Hannah Gibson, Elizabeth Hall, Katja Hannß, Hannah Haynie, Jerry Jacka, Matias Jenny, Richard Kowalik, Sonal Kulkarni-Joshi, Maarten Mous, Marcela Mendoza, Cristina Messineo, Francesca Moro, Hank Nater, Michelle A Ocasio, Bruno Olsson, Ana María Ospina Bozzi, Agustina Paredes, Admire Phiri, Nicolas Quint, Erika Sandman, Dineke Schokkin, Ruth Singer, Ellen Smith-Dennis, Lameen Souag, Yunus Sulistyono, Yvonne Treis, Matthias Urban, Jill Vaughan, Deginet Wotango Doyiso, Georg Ziegelmeyer, Veronika Zikmundová. (2023). GramAdapt Crosslinguistic Social Contact Dataset. (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7508054</p>
+</blockquote>",,,v1.1,Eri Kashima ; Francesca Di Garbo ; Oona Raatikainen ; Kaius Sinnemäki ; Ricardo Napoleão de Souza ; Anu Hyvönen ; Kayleigh Karinen ; Rosnátaly Avelino ; Sacha Beck ; Anna Berge ; Ana Blanco ; Ross Bowden ; Nicolás Brid ; Joseph Brincat ; María Belén Carpio ; Alexander Cobbinah ; Paola Cúneo ; Anne-Maria Fehn ; Saloumeh Gholami ; Arun Ghosh ; Hannah Gibson ; Elizabeth Hall ; Katja Hannß ; Hannah Haynie ; Jerry Jacka ; Matias Jenny ; Richard Kowalik ; Sonal Kulkarni-Joshi ; Maarten Mous ; Marcela Mendoza ; Cristina Messineo ; Francesca Moro ; Hank Nater ; Michelle Ocasio ; Bruno Olsson ; Ana María Ospina Bozzi ; Agustina Paredes ; Admire Phiri ; Nicolas Quint ; Erika Sandman ; Dineke Schokkin ; Ruth Singer ; Ellen Smith-Dennis ; Lameen Souag ; Yunus Sulistyono ; Yvonne Treis ; Matthias Urban ; Jill Vaughan ; Deginet Wotango Doyiso ; Georg Ziegelmeyer ; Veronika Zikmundová ; Robert Forkel,Eri Kashima ; Francesca Di Garbo ; Oona Raatikainen ; Kaius Sinnemäki ; Robert Forkel,10.5281/zenodo.14872294,10.5281/zenodo.14872293,14872293,,,cc-by-4.0,https://zenodo.org/records/14872294,14872294,,dataset,https://github.com/cldf-datasets/gramadapt/tree/v1.1
+14800315,Lexibank Analysed,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank²: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v2.0,Frederic Blum ; Carlos Barrientos ; Johannes Englisch ; Robert Forkel ; Russell D. Gray ; Simon J. Greenhill ; Christoph Rzymski ; Johann-Mattis List,,10.5281/zenodo.14800315,10.5281/zenodo.5227817,5227817,,,cc-by-4.0,https://zenodo.org/records/14800315,14800315,,dataset,https://github.com/lexibank/lexibank-analysed/tree/v2.0
+14777803,TuLeD. Tupían Lexical Database,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Fabrício Ferraz Gerardi, Stanislav Reichert, Carolina Aragon, Johann-Mattis List, &amp; Tim Wientzek. (2021). TuLeD: Tupían lexical database. Max Planck Institute for Evolutionary Anthropology: Leipzig</p>
+</blockquote>",,,v1.0,Fabrício Ferraz Gerardi ; Stanislav Reichert ; Carolina Aragon ; Tim Wientzek ; Johann-Mattis List ; Robert Forkel,Agnaldo Makuráp ; Denny Moore ; Françoise Rose ; Gustavo Godoy ; Iram Káv Sona Gavião ; Nilson Gabas Júnior ; Swintha Danielsen ; Wolf Dietrich ; Zachary O'Hagan ; Tiago Tresoldi,10.5281/zenodo.14777803,10.5281/zenodo.14777802,14777802,,,cc-by-4.0,https://zenodo.org/records/14777803,14777803,,dataset,https://github.com/lexibank/tuled/tree/v1.0
+14619055,"CLDF Dataset accompanying Greenhill et al.'s ""Origin of Uto-Aztecan"" from 2022","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Greenhill, Simon J., Hannah J. Haynie, Robert M. Ross, Angela M. Chira, List, Johann-Mattis, Lyle Campbell, Carlos A. Botero, and Russell D. Gray (2022): A recent northern origin for the Uto-Aztecan family. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v1.4,"Greenhill, Simon J. ; Hannah J. Haynie ; Robert M. Ross ; Angela M. Chira ; List, Johann-Mattis ; Lyle Campbell ; Carlos A. Botero ; Russell D. Gray","Greenhill, Simon J. ; List, Johann-Mattis",10.5281/zenodo.14619055,10.5281/zenodo.4691101,4691101,,,cc-by-4.0,https://zenodo.org/records/14619055,14619055,,dataset,https://github.com/lexibank/utoaztecan/tree/v1.4
+14614178,Vanuatu Voices,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lana Takau, Mary Walworth, Aviva Shimelman, Sandrine Bessis, Tom Ennever, Iveth Rodriguez, Hans-Jörg Bibiko, Daria Dërmaku, Murray Garde, Marie-France Duhamel, Giovanni Abete, Laura Wägerle, Kaitip W. Kami, Russell Gray. 2024. Vanuatu Voices.</p>
+</blockquote>",,,v1.3,Lana Takau ; Mary Walworth ; Aviva Shimelman ; Sandrine Bessis ; Tom Ennever ; Iveth Rodriguez ; Hans-Jörg Bibiko ; Daria Dërmaku ; Murray Garde ; Marie-France Duhamel ; Giovanni Abete ; Laura Wägerle ; Kaitip W. Kami ; Russell Gray,Robert Forkel ; Johann-Mattis List ; Tihomir Rangelov,10.5281/zenodo.14614178,10.5281/zenodo.4309140,4309140,,,cc-by-nc-4.0,https://zenodo.org/records/14614178,14614178,,dataset,https://github.com/lexibank/vanuatuvoices/tree/v1.3
+14614177,"CLDF dataset derived from Robbeets et al.'s ""Triangulation of Transeurasian Languages"" from 2021","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Robbeets, M., Bouckaert, R., Conte, M. et al. Triangulation supports agricultural spread of the Transeurasian languages. Nature 599, 616–621 (2021). https://doi.org/10.1038/s41586-021-04108-8</p>
+</blockquote>",,,v0.3,Martine Robbeets,,10.5281/zenodo.14614177,10.5281/zenodo.14506168,14506168,,,cc-by-4.0,https://zenodo.org/records/14614177,14614177,,dataset,https://github.com/lexibank/robbeetstriangulation/tree/v0.3
+14610312,Papuan Voices,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Yusuf Sawaki, Jeanete Lekeneny, Apriani Arilaha, Jimmi Kirihio, Emanuel Tutorop, Boas Wabia, Infak Mayor, Simon Tabuni, Stevani Karesina, Paul Heggarty, Darja Dërmaku-Appelganz (2020). Papuan Voices.</p>
+</blockquote>",,,v1.2,Yusuf Sawaki ; Jeanete Lekeneny ; Apriani Arilaha ; Jimmi Kirihio ; Emanuel Tutorop ; Boas Wabia ; Infak Mayor ; Simon Tabuni ; Stevani Karesina ; Paul Heggarty ; Darja Dërmaku-Appelganz ; Russell Gray,Hans-Jörg Bibiko,10.5281/zenodo.14610312,10.5281/zenodo.4350690,4350690,,,cc-by-nc-4.0,https://zenodo.org/records/14610312,14610312,,dataset,https://github.com/lexibank/papuanvoices/tree/v1.2
+14609827,Papuan Voices,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Yusuf Sawaki, Jeanete Lekeneny, Apriani Arilaha, Jimmi Kirihio, Emanuel Tutorop, Boas Wabia, Infak Mayor, Simon Tabuni, Stevani Karesina, Paul Heggarty, Darja Dërmaku-Appelganz (2020). Papuan Voices.</p>
+</blockquote>",,,v1.2,Yusuf Sawaki ; Jeanete Lekeneny ; Apriani Arilaha ; Jimmi Kirihio ; Emanuel Tutorop ; Boas Wabia ; Infak Mayor ; Simon Tabuni ; Stevani Karesina ; Paul Heggarty ; Darja Dërmaku-Appelganz ; Russell Gray,Hans-Jörg Bibiko,10.5281/zenodo.14609827,10.5281/zenodo.4350690,4350690,,,cc-by-nc-4.0,https://zenodo.org/records/14609827,14609827,,dataset,https://github.com/lexibank/papuanvoices/tree/v1.2
+14608975,Austronesian Comparative Dictionary,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Robert Blust and Stephen Trussel 2020. The Austronesian Comparative Dictionary. Web edition</p>
+</blockquote>",,,v2.0,Robert Blust ; Stephen Trussel ; Robert Forkel ; Alexander D. Smith,Robert Forkel,10.5281/zenodo.14608975,10.5281/zenodo.7737547,7737547,,,cc-by-4.0,https://zenodo.org/records/14608975,14608975,,dataset,https://github.com/lexibank/acd/tree/v2.0
+14608119,"CLDF Dataset derived from Bender et al. 2003 ""Proto-Micronesian Reconstructions""","<p>Cite the source of the dataset as:</p>
+<blockquote>
+<p>Byron W. Bender, Ward H. Goodenough, Frederick H. Jackson, Jeffrey C. Marck, Kenneth L. Rehg, Ho-min Sohn, Stephen Trussel, and Judith W. Wang. 2003. Proto-Micronesian Reconstructions&mdash;1. Oceanic Linguistics Vol. 42(1),&nbsp;1-110, DOI: 10.2307/3623449</p>
+<p>Byron W. Bender, Ward H. Goodenough, Frederick H. Jackson, Jeffrey C. Marck, Kenneth L. Rehg, Ho-min Sohn, Stephen Trussel, and Judith W. Wang. 2003. Proto-Micronesian Reconstructions&mdash;2. Oceanic Linguistics Vol. 42(2), 271-358, DOI: 10.2307/3623243</p>
+</blockquote>",,,v2.0,Byron W. Bender ; Ward H. Goodenough ; Frederick H. Jackson ; Jeffrey C. Marck ; Kenneth L. Rehg ; Ho-min Sohn ; Stephen Trussel ; Judith W. Wang,Robert Forkel ; Robert Forkel ; Lev Blumenfeld ; Lev Blumenfeld,10.5281/zenodo.14608119,10.5281/zenodo.7973419,7973419,,,cc-by-4.0,https://zenodo.org/records/14608119,14608119,,dataset,https://github.com/lexibank/mcd/tree/v2.0
+14602182,Vanuatu Voices,Sound-Comparisons Vanuatu,,,v1.2,Lana Takau ; Mary Walworth ; Aviva Shimelman ; Sandrine Bessis ; Tom Ennever ; Iveth Rodriguez ; Hans-Jörg Bibiko ; Daria Dërmaku ; Murray Garde ; Marie-France Duhamel ; Giovanni Abete ; Laura Wägerle ; Kaitip W. Kami ; Russell Gray,Robert Forkel ; Johann-Mattis List ; Tihomir Rangelov,10.5281/zenodo.14602182,10.5281/zenodo.4309140,4309140,,,cc-by-nc-4.0,https://zenodo.org/records/14602182,14602182,,dataset,https://github.com/lexibank/vanuatuvoices/tree/v1.2
+14602173,"CLDF dataset derived from Barlow and Killian's ""Tomoip Wordlist"" from 2023","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Barlow, Russell &amp; Killian, Don. 2023. Tomoip wordlist: Based on elicitation sessions with Simon Mangil from Milim village, recorded in Kokopo, East New Britain, October to November 2022. https://doi.org/10.5281/zenodo.8435080</p>
+</blockquote>",,,v1.2,Russell Barlow ; Don Killian,Christoph Rzymski,10.5281/zenodo.14602173,10.5281/zenodo.10016899,10016899,,,cc-by-4.0,https://zenodo.org/records/14602173,14602173,,dataset,https://github.com/lexibank/barlowkilliantomoip/tree/v1.2
+14602162,"CLDF dataset derived from Barlow and Killian's ""Tomoip Wordlist"" from 2023","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Barlow, Russell &amp; Killian, Don. 2023. Tomoip wordlist: Based on elicitation sessions with Simon Mangil from Milim village, recorded in Kokopo, East New Britain, October to November 2022. https://doi.org/10.5281/zenodo.8435080</p>
+</blockquote>",,,v1.3.0,Russell Barlow ; Don Killian,Christoph Rzymski,10.5281/zenodo.14602162,10.5281/zenodo.10016899,10016899,,,cc-by-4.0,https://zenodo.org/records/14602162,14602162,,dataset,https://github.com/lexibank/barlowkilliantomoip/tree/v1.3.0
+14602159,"CLDF dataset derived from Barlow and Killian's ""Tomoip Wordlist"" from 2023","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Barlow, Russell &amp; Killian, Don. 2023. Tomoip wordlist: Based on elicitation sessions with Simon Mangil from Milim village, recorded in Kokopo, East New Britain, October to November 2022. https://doi.org/10.5281/zenodo.8435080</p>
+</blockquote>",,,v1.0.3,Russell Barlow ; Don Killian,Christoph Rzymski,10.5281/zenodo.14602159,10.5281/zenodo.10016899,10016899,,,cc-by-4.0,https://zenodo.org/records/14602159,14602159,,dataset,https://github.com/lexibank/barlowkilliantomoip/tree/v1.0.3
+14602150,"CLDF dataset derived from Barlow and Killian's ""Tomoip Wordlist"" from 2023","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Barlow, Russell &amp; Killian, Don. 2023. Tomoip wordlist: Based on elicitation sessions with Simon Mangil from Milim village, recorded in Kokopo, East New Britain, October to November 2022. https://doi.org/10.5281/zenodo.8435080</p>
+</blockquote>",,,v1.1,Russell Barlow ; Don Killian,Christoph Rzymski,10.5281/zenodo.14602150,10.5281/zenodo.10016899,10016899,,,cc-by-4.0,https://zenodo.org/records/14602150,14602150,,dataset,https://github.com/lexibank/barlowkilliantomoip/tree/v1.1
+14602137,"CLDF Dataset accompanying Greenhill et al.'s ""Origin of Uto-Aztecan"" from 2022","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Greenhill, Simon J., Hannah J. Haynie, Robert M. Ross, Angela M. Chira, List, Johann-Mattis, Lyle Campbell, Carlos A. Botero, and Russell D. Gray (2022): A recent northern origin for the Uto-Aztecan family. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v1.3,"Greenhill, Simon J. ; Hannah J. Haynie ; Robert M. Ross ; Angela M. Chira ; List, Johann-Mattis ; Lyle Campbell ; Carlos A. Botero ; Russell D. Gray","Greenhill, Simon J. ; List, Johann-Mattis",10.5281/zenodo.14602137,10.5281/zenodo.4691101,4691101,,,cc-by-4.0,https://zenodo.org/records/14602137,14602137,,dataset,https://github.com/lexibank/utoaztecan/tree/v1.3
+14602119,"CLDF dataset derived from Lee and Hasegawa's ""Evolution of the Ainu Language in Space and Time"" from 2013","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lee Sean, Hasegawa Toshikazu (2013). Evolution of the Ainu Language in Space and Time. PLOS ONE 8(4): e62243. https://doi.org/10.1371/journal.pone.0062243</p>
+</blockquote>",,,v1.2,"Lee, Sean ; Hasegawa, Toshikazu",Christoph Rzymski,10.5281/zenodo.14602119,10.5281/zenodo.5126889,5126889,,,cc-by-4.0,https://zenodo.org/records/14602119,14602119,,dataset,https://github.com/lexibank/leeainu/tree/v1.2
+14602106,"CLDF dataset derived from Ugarte et al.'s ""NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru (forthcoming).","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Ugarte, Carlos and Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Peña, Jaime. Forthcoming. NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru.</p>
+</blockquote>",,,v0.2,Carlos Ugarte ; Frederic Blum ; Adriano Ingunza ; Rosa Gonzales ; Jaime Peña,Carlos Ugarte ; Frederic Blum,10.5281/zenodo.14602106,10.5281/zenodo.13269802,13269802,,,cc-by-4.0,https://zenodo.org/records/14602106,14602106,,dataset,https://github.com/lexibank/northperulex/tree/v0.2
+14601765,Papuan Voices,No description provided.,,,v1.1,Yusuf Sawaki ; Jeanete Lekeneny ; Apriani Arilaha ; Jimmi Kirihio ; Emanuel Tutorop ; Boas Wabia ; Infak Mayor ; Simon Tabuni ; Stevani Karesina ; Paul Heggarty ; Darja Dërmaku-Appelganz ; Russell Gray,Hans-Jörg Bibiko,10.5281/zenodo.14601765,10.5281/zenodo.4350690,4350690,,,cc-by-nc-4.0,https://zenodo.org/records/14601765,14601765,,dataset,https://github.com/lexibank/papuanvoices/tree/v1.1
+14601745,"CLDF dataset derived from Berry and Berry's ""Survey of some West Papuan phylum languages"" from 1987","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Berry, Christine and Berry, Keith (1987): A survey of some West Papuan Phylum languages. Workpapers in Indonesian Languages and Cultures. 4. 25-80. https://www.sil.org/resources/archives/37738</p>
+</blockquote>",,,v0.1,"Berry, Christine ; Berry, Keith",David Kamholz ; Anne van Schie ; Allahverdi Verdizade ; Maria Zielenbach ; Antoinette Schapper ; Johann-Mattis List,10.5281/zenodo.14601745,10.5281/zenodo.14601744,14601744,,,cc-by-4.0,https://zenodo.org/records/14601745,14601745,,dataset,https://github.com/lexibank/berrywestpapuan/tree/v0.1
+14599868,"CLDF dataset derived from Douanla Taffre's ""Étude comparative des dialectes du nda'nda'"" from 2021","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Douanla Taffre, Angèle Vanessa. Etude comparative du point de vue lexicostatistique et morphologique des dialectes du nda'nda'. MA thesis. University of Yaounde 1.</p>
+</blockquote>",,,v1.1,Angèle Taffre,Abbie Hantgan ; Johann-Mattis List,10.5281/zenodo.14599868,10.5281/zenodo.14589544,14589544,,,cc-by-4.0,https://zenodo.org/records/14599868,14599868,,dataset,https://github.com/kpaam-cam/ndanda/tree/v1.1
+14597363,"CLDF dataset derived from Liu et al.'s ""Comparative Wordlist of Newari Varieties"" from 2023","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Liu, Zhenyang; Jacques, Guillaume; List, Johann-Mattis (2023): Creating a Standardized Comparative Wordlist of Newari Varieties. (26/07/2023), URL: https://calc.hypotheses.org/6269.</p>
+</blockquote>",,,v1.1,Zhenyang Liu ; Guillaume Jacques ; Johann-Mattis List,,10.5281/zenodo.14597363,10.5281/zenodo.8169352,8169352,,,cc-by-4.0,https://zenodo.org/records/14597363,14597363,,dataset,https://github.com/lexibank/liunewari/tree/v1.1
+14591833,"CLDF dataset derived from Barlow's ""Numerals of the Pacific"" from 2025","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Barlow, Russell (ed.). 2025. Numerals of the Pacific: A collection of numeral terms in Austronesian and Papuan languages.</p>
+</blockquote>",,,v1.7,Russell Barlow,Christoph Rzymski,10.5281/zenodo.14591833,10.5281/zenodo.5596346,5596346,,,cc-by-4.0,https://zenodo.org/records/14591833,14591833,,dataset,https://github.com/numeralbank/barlowpacific/tree/v1.7
+14591604,"CLDF dataset derived from Barlow's ""Lote Wordlist"" from 2025","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Barlow, Russell. 2025. Lote wordlist: Based on elicitation sessions with Leo Lang from Uvol village, recorded in Kokopo, East New Britain, November 2022. https://doi.org/10.5281/zenodo.14505729.</p>
+</blockquote>",,,v1.1,Russell Barlow,Christoph Rzymski,10.5281/zenodo.14591604,10.5281/zenodo.14505729,14505729,,,cc-by-4.0,https://zenodo.org/records/14591604,14591604,,dataset,https://github.com/lexibank/barlowlote/tree/v1.1
+14506169,"CLDF dataset derived from Robbeets et al.'s ""Triangulation of Transeurasian Languages"" from 2021","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Robbeets, M., Bouckaert, R., Conte, M. et al. Triangulation supports agricultural spread of the Transeurasian languages. Nature 599, 616–621 (2021). https://doi.org/10.1038/s41586-021-04108-8</p>
+</blockquote>",,,v0.2,Martine Robbeets,,10.5281/zenodo.14506169,10.5281/zenodo.14506168,14506168,,,cc-by-4.0,https://zenodo.org/records/14506169,14506169,,dataset,https://github.com/lexibank/robbeetstriangulation/tree/v0.2
+14505927,Maltese IDS wordlist by Michael Spagnol and Bernard Comrie,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Michael Spagnol and Bernard Comrie. 2020. Maltese dictionary. In: Key, Mary Ritchie &amp; Comrie, Bernard (eds.) The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://ids.clld.org/)</p>
+</blockquote>",,,v1.1,Michael Spagnol ; Bernard Comrie ; Hans-Jörg Bibiko,Michael Spagnol ; Robert Forkel ; Johann-Mattis List ; Jessica Nieder,10.5281/zenodo.14505927,10.5281/zenodo.4280595,4280595,,,cc-by-4.0,https://zenodo.org/records/14505927,14505927,,dataset,https://github.com/intercontinental-dictionary-series/spagnolmaltese/tree/v1.1
+14505730,"CLDF dataset derived from Barlow's ""Lote Wordlist"" from 2023","<p>Cite the source of the dataset as:</p>
+<blockquote>
+<p>Barlow, Russell. 2024. Lote wordlist: Based on elicitation sessions with Leo Lang from Uvol village, recorded in Kokopo, East New Britain, November 2022. <a href=""https://doi.org/10.5281/zenodo.14505729"" rel=""nofollow"">https://doi.org/10.5281/zenodo.14505729</a>.</p>
+</blockquote>",,,v1.0,Russell Barlow,Christoph Rzymski,10.5281/zenodo.14505730,10.5281/zenodo.14505729,14505729,,,cc-by-4.0,https://zenodo.org/records/14505730,14505730,,dataset,https://github.com/lexibank/barlowlote/tree/v1.0
+14281745,"CLDF dataset with data and supplements for Barlow ""Loss of colexification of 'hand' and 'five' in Austronesian languages""","CLDF dataset with data and supplements for Barlow ""Loss of colexification of 'hand' and 'five' in Austronesian languages""",,,v1.2,Russell Barlow ; Robert Forkel,,10.5281/zenodo.14281745,10.5281/zenodo.13889023,13889023,,,cc-by-4.0,https://zenodo.org/records/14281745,14281745,,dataset,https://github.com/cldf-datasets/barlowhandandfive/tree/v1.2
+14162587,"CLDF dataset derived from Greenhill's ""TransNewGuinea.org"" from 2015","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Greenhill, Simon J. (2015): TransNewGuinea.org: An Online Database of New Guinea Languages. PLoS ONE 10.10: e0141563.</p>
+</blockquote>",,,v3.2,Simon J. Greenhill,Simon J. Greenhill ; Robert Forkel ; Tiago Tresoldi ; Johann-Mattis List,10.5281/zenodo.14162587,10.5281/zenodo.2634949,2634949,,,cc-by-4.0,https://zenodo.org/records/14162587,14162587,,dataset,https://github.com/lexibank/transnewguineaorg/tree/v3.2
+14044192,IMTVault,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Krämer, Thomas, and Sebastian Nordhoff. 2022. &quot;IMTVault: Extracting and Enriching Low-resource Language Interlinear Glossed Text from Grammatical Descriptions and Typological Survey Articles: Proceedings of The 8th Workshop on Linked Data in Linguistics within the 13th Language Resources and Evaluation Conference.&quot; 13th Language Resources and Evaluation Conference lREC 2022, LREC 2022, Marseille, 24.06.2022.</p>
+</blockquote>",,,v1.2,Sebastian Nordhoff ; Robert Forkel,,10.5281/zenodo.14044192,10.5281/zenodo.7371911,7371911,,,cc-by-4.0,https://zenodo.org/records/14044192,14044192,,dataset,https://github.com/cldf-datasets/imtvault/tree/v1.2
+14024635,dictionaria/diidxaza: La Ventosa Diidxazá Lexico-Botanical Dictionary,"Pérez Báez, Gabriela and Kaufman, Terrence. 2018. La Ventosa Diidxazá Lexico-Botanical Dictionary. Dictionaria 5. 1-952 (Available online at https://dictionaria.clld.org/contributions/diidxaza)",,,v1.3,Gabriela Pérez Báez ; Terrence Kaufman,,10.5281/zenodo.14024635,10.5281/zenodo.3451856,3451856,,,cc-by-4.0,https://zenodo.org/records/14024635,14024635,,dataset,https://github.com/dictionaria/diidxaza/tree/v1.3
+14001762,"CLDF dataset derived from Lai and List's ""Comparison of Rgyalrongic Languages"" from 2023","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lai, Yunfan and List, Johann-Mattis (2023): Lexical Data for the Historical Comparison of Rgyalrongic Languages [Dataset, Version 1.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v0.4,Yunfan Lai ; Johann-Mattis List,Johann-Mattis List,10.5281/zenodo.14001762,10.5281/zenodo.7866795,7866795,,,cc-by-4.0,https://zenodo.org/records/14001762,14001762,,dataset,https://github.com/lexibank/lairgyalrong/tree/v0.4
+14001750,"CLDF dataset derived from the Johansson et al.'s ""The typology of sound symbolism"" from 2020","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Erben Johansson, N., Anikin, A., Carling, G., &amp; Holmer, A. (2020). The typology of sound symbolism: Defining macro-concepts via their semantic and phonetic features, Linguistic Typology , 24(2), 253-310. doi: https://doi.org/10.1515/lingty-2020-2034</p>
+</blockquote>",,,v1.3,Niklas Erben Johansson,Sacha Beniamine ; Kristina Pianykh ; Johann-Mattis List,10.5281/zenodo.14001750,10.5281/zenodo.5127130,5127130,,,cc-by-4.0,https://zenodo.org/records/14001750,14001750,,dataset,https://github.com/lexibank/johanssonsoundsymbolic/tree/v1.3
+14001737,"CLDF dataset derived from the Johansson et al.'s ""The typology of sound symbolism"" from 2020","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Erben Johansson, N., Anikin, A., Carling, G., &amp; Holmer, A. (2020). The typology of sound symbolism: Defining macro-concepts via their semantic and phonetic features, Linguistic Typology , 24(2), 253-310. doi: https://doi.org/10.1515/lingty-2020-2034</p>
+</blockquote>",,,v1.2,Niklas Erben Johansson,Sacha Beniamine ; Kristina Pianykh ; Johann-Mattis List,10.5281/zenodo.14001737,10.5281/zenodo.5127130,5127130,,,cc-by-4.0,https://zenodo.org/records/14001737,14001737,,dataset,https://github.com/lexibank/johanssonsoundsymbolic/tree/v1.2
+14001726,"CLDF dataset underlying the study ""First steps towards the detection of contact layers in Bangime: a multi-disciplinary, computer-assisted approach"" from 2022","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Hantgan, Abbie and Babiker, Hiba and List, Johann-Mattis (2022): First steps towards the detection of contact layers in Bangime: a multi-disciplinary, computer-assisted approach [version 2; peer review: 2 approved]. Open Research Europe 2022, 2:10.</p>
+</blockquote>",,,v1.2,Abbie Hantgan ; Hiba Babiker ; Johann-Mattis List,Johann-Mattis List,10.5281/zenodo.14001726,10.5281/zenodo.5751225,5751225,,,cc-by-4.0,https://zenodo.org/records/14001726,14001726,,dataset,https://github.com/lexibank/baf2/tree/v1.2
+14001610,"CLDF dataset accompanying Auderset et al.'s ""Subgrouping in a dialect continuum"" from 2023","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Auderset, Sandra, Simon J. Greenhill, Christian T. DiCanio, Eric W. Campbell. (2023) &quot;Subgrouping in a `dialect continuum&#x27;: A Bayesian phylogenetic analysis of the Mixtecan language family&quot;. Journal of Language Evolution 8 (1). 33–-63. DOI: https://doi.org/10.1093/jole/lzad004.</p>
+</blockquote>",,,v0.4,Sandra Auderset ; Simon J. Greenhill,Johann-Mattis List ; Johannes English ; Christoph Rzymski ; Eric W. Campbell ; Christian T. DiCanio ; Simon J. Greenhill,10.5281/zenodo.14001610,10.5281/zenodo.7642970,7642970,,,cc-by-4.0,https://zenodo.org/records/14001610,14001610,,dataset,https://github.com/lexibank/mixtecansubgrouping/tree/v0.4
+13950591,The World Atlas of Language Structures Online,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Dryer, Matthew S. &amp; Haspelmath, Martin (eds.) 2013. The World Atlas of Language Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://wals.info)</p>
+</blockquote>",,,v2020.4,Matthew Dryer ; Martin Haspelmath,Matthew Dryer ; Martin Haspelmath ; Robert Forkel,10.5281/zenodo.13950591,10.5281/zenodo.3606197,3606197,,,cc-by-4.0,https://zenodo.org/records/13950591,13950591,,dataset,https://github.com/cldf-datasets/wals/tree/v2020.4
+13946786,The Catalogue of Endangered Languages as CLDF dataset,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Catalogue of Endangered Languages. 2023. University of Hawaii at Manoa. http://www.endangeredlanguages.com</p>
+</blockquote>",,,v2024.1,Lyle Campbell ; Gary Holton ; Anna Belew,Lyle Campbell ; Lyle Campbell ; Lyle Campbell ; Gary Holton ; Gary Holton ; Anna Belew ; Anna Belew ; Sean Simpson ; John Van Way ; Amy Brunett ; Jacob Collard ; Kristen Dunkinson ; Raina Heaton ; Uliana Kazagasheva ; Huiying Nala Lee ; Lwin Moe ; Eve Okura ; Kaori Ueki ; Brent Woo ; Willem F.H. Adelaar ; Greg Anderson ; I. Wayan Arka ; Habib Borjian ; Claire Bowern ; David Bradley ; Matthias Brenzinger ; Charles Häberl ; Alice C. Harris ; Juha Janhunen ; Brian Joseph ; Martin Maiden ; Bill Palmer ; Keren Rice ; David Solnit ; George Van Driem ; James Woodward ; Carolina Aragon ; Katie Butler ; Joelle Kirtley ; Stephanie Locke ; Colleen O'Brien ; Melody Ann Ross-Nathaniel ; Robert Forkel,10.5281/zenodo.13946786,10.5281/zenodo.7871166,7871166,,,cc-by-4.0,https://zenodo.org/records/13946786,13946786,,dataset,https://github.com/cldf-datasets/elcat/tree/v2024.1
+13913267,"CLDF dataset with data and supplements for Barlow ""Loss of colexification of 'hand' and 'five' in Austronesian languages""","CLDF dataset with data and supplements for Barlow ""Loss of colexification of 'hand' and 'five' in Austronesian languages""",,,v1.1,Russell Barlow ; Robert Forkel,,10.5281/zenodo.13913267,10.5281/zenodo.13889023,13889023,,,cc-by-4.0,https://zenodo.org/records/13913267,13913267,,dataset,https://github.com/cldf-datasets/barlowhandandfive/tree/v1.1
+13889024,CLDF dataset with data and supplements for Barlow 'Loss of colexification of 'hand' and 'five' in Austronesian languages',No description provided.,,,v1.0,Russell Barlow,Robert Forkel,10.5281/zenodo.13889024,10.5281/zenodo.13889023,13889023,,,cc-by-4.0,https://zenodo.org/records/13889024,13889024,,dataset,https://github.com/cldf-datasets/barlowhandandfive/tree/v1.0
+13868534,"CLDF dataset derived from Dhakal et al.'s ""South-Western Tibetic"" from 2024","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Dhakal, D. N., List, J.-M., Roberts, S. G.(2024) A Phylogenetic Study of South-Western Tibetic. Journal of Language Evolution. https://doi.org/10.1093/jole/lzae008</p>
+</blockquote>",,,v1.0,Dubi Nanda Dhakal ; Johann-Mattis List ; Sean Roberts,,10.5281/zenodo.13868534,10.5281/zenodo.13868533,13868533,,,cc-by-4.0,https://zenodo.org/records/13868534,13868534,,dataset,https://github.com/lexibank/dhakalsouthwesttibetic/tree/v1.0
+13861321,"CLDF dataset derived from Haspelmath and Tadmor's ""World Loanword Database"" from 2009","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Haspelmath, Martin &amp; Tadmor, Uri (eds.) 2009. World Loanword Database. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://wold.clld.org)</p>
+</blockquote>",,,v4.1,Martin Haspelmath ; Uri Tadmor,Tiago Tresoldi ; Robert Forkel ; Johann-Mattis List ; Natalia Morozova,10.5281/zenodo.13861321,10.5281/zenodo.1299889,1299889,,,cc-by-4.0,https://zenodo.org/records/13861321,13861321,,dataset,https://github.com/lexibank/wold/tree/v4.1
+13841415,"CLDF dataset derived from Gerardi and Reichert's ""The Tupí-Guaraní Language Family: A Phylogenetic Classification"" from 2021","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Ferraz Gerardi, Fabrício and Reichert, Stanislav (2021) The Tupí-Guaraní Language Family: A Phylogenetic Classification. Diachronica 38(2). 151--188. DOI: https://doi.org/10.1075/dia.18032.fer.</p>
+</blockquote>",,,v2.1,"Ferraz Gerardi, F. ; Reichert, S.",Johann-Mattis List ; Tiago Tresoldi,10.5281/zenodo.13841415,10.5281/zenodo.4094079,4094079,,,cc-by-4.0,https://zenodo.org/records/13841415,13841415,,dataset,https://github.com/lexibank/gerarditupi/tree/v2.1
+13832130,"CLDF dataset accompanying List's ""Inference of Partial Colexifications"" from 2023 building on Key and Comrie's ""Intercontinental Dictionary Series"" from 2021","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>List, J.-M. (2023): Inference of partial colexifications from multilingual wordlists. Frontiers in Psychology 14.1156540. 1-10.</p>
+</blockquote>",,,v1.2,"Key, M. R ; Comrie, B.","Johann-Mattis List ; Key, M. R ; Comrie, B.",10.5281/zenodo.13832130,10.5281/zenodo.10404394,10404394,,,cc-by-4.0,https://zenodo.org/records/13832130,13832130,,dataset,https://github.com/intercontinental-dictionary-series/idssegmented/tree/v1.2
+13832124,"CLDF dataset derived from Kraft's ""Chadic Wordlists"" from 1981","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kraft, Charles H. 1981. Chadic wordlists. Berlin: Dietrich Reimer.</p>
+</blockquote>",,,v4.1,"Kraft, Charles H.",Tiago Tresoldi ; Johann-Mattis List ; Michael Cysouw ; Peter Bouda,10.5281/zenodo.13832124,10.5281/zenodo.1312959,1312959,,,cc-by-4.0,https://zenodo.org/records/13832124,13832124,,dataset,https://github.com/lexibank/kraftchadic/tree/v4.1
+13832119,"CLDF dataset derived from Bowern et al.'s ""Hunter - Gatherer Language Database"" from 2021","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bowern, Claire, Patience Epps, Jane Hill, and Patrick McConvell. Hunter - Gatherer Language Database. https://huntergatherer.la.utexas.edu/ Accessed 2021-04-27.</p>
+</blockquote>",,,v2.1,Claire Bowern ; Patience Epps ; Jane Hill ; Patrick McConvell,Robert Forkel ; Christoph Rzymski ; Johann-Mattis List ; Carlos Barrientos,10.5281/zenodo.13832119,10.5281/zenodo.5126740,5126740,,,cc-by-4.0,https://zenodo.org/records/13832119,13832119,,dataset,https://github.com/lexibank/huntergatherer/tree/v2.1
+13831931,CLDF version for Nichols 1992: Linguistic diversity in space and time,"<p>Cite the CLDF dataset as
+<a href=""https://doi.org/10.5281/zenodo.13605418""></a></p>",,,v1.0.1,Johanna Nichols,Johannes Englisch ; Martin Haspelmath,10.5281/zenodo.13831931,10.5281/zenodo.13605417,13605417,,,cc-by-4.0,https://zenodo.org/records/13831931,13831931,,dataset,https://github.com/cldf-datasets/nicholsdiversity/tree/v1.0.1
+13829628,"CLDF dataset derived from Kleinewillinghöfer's ""Bikwin-Jen Comparative Wordlist"" from 2015","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kleinewillinghöfer, Ulrich (2015). Bikwin-Jen Group. https://www.blogs.uni-mainz.de/fb07-adamawa/adamawa-languages/bikwin-jen-group/. Accessed on: 2020-04-15.</p>
+</blockquote>",,,v1.2,Ulrich Kleinewillinghöfer,Ulrich Kleinewillinghöfer ; Kristina-Pianykh ; Christoph Rzymski,10.5281/zenodo.13829628,10.5281/zenodo.5127403,5127403,,,cc-by-4.0,https://zenodo.org/records/13829628,13829628,,dataset,https://github.com/lexibank/kleinewillinghoeferbikwinjen/tree/v1.2
+13829625,"CLDF dataset derived from Othaniel's ""Jen Cluster Comparative Wordlist"" from 2017","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Othaniel, Nlabephee Kefas. 2017. A phonological comparative study of the Jen language cluster. (MA thesis, Jos: Theological College of Northern Nigeria; 1–83pp.)</p>
+</blockquote>",,,v1.2,Nlabephee Kefas Othaniel,Nlabephee Kefas Othaniel ; Kristina-Pianykh ; Christoph Rzymski ; Johann-Mattis List,10.5281/zenodo.13829625,10.5281/zenodo.10404211,10404211,,,cc-by-4.0,https://zenodo.org/records/13829625,13829625,,dataset,https://github.com/lexibank/othanieljen/tree/v1.2
+13829541,"CLDF dataset derived from Bremer's ""Sociolinguistic Survey of Six Berta Speech Varieties in Ethiopia"" from 2016","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bremer, Nate D. (2016): A Sociolinguistic Survey of Six Berta Speech Varieties in Ethiopia. SIL Electronic Survey Reports 2016-007. Dallas: SIL International.</p>
+</blockquote>",,,v1.3,Nate D. Bremer,Christoph Rzymski ; Johann-Mattis List ; Kristina Pianykh,10.5281/zenodo.13829541,10.5281/zenodo.5126756,5126756,,,cc-by-4.0,https://zenodo.org/records/13829541,13829541,,dataset,https://github.com/lexibank/bremerberta/tree/v1.3
+13829479,"CLDF dataset derived from Duong et al.'s ""Language of the La Chí People"" from 2020","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Duong, Thu Hang and Nguyen, Thu Quynh and Nguyen, Van Loi (2021): The Language of the La Chí People in Bản Díu Commune, Xín Mần District, Hà Giang Province, Vietnam. In: Studies in the Anthropology of Language in Mainland Southeast Asia. Ed. by N. J. Enfield, Jack Sidnell, and Charles H. P. Zuckermann. University of Hawaii Press: Honolulu. 124-138</p>
+</blockquote>",,,v1.2,"Duong, Thu Hang ; Nguyen, Thu Quynh ; Nguyen, Van Loi",Johann-Mattis List ; Kristina Pianykh,10.5281/zenodo.13829479,10.5281/zenodo.5121662,5121662,,,cc-by-4.0,https://zenodo.org/records/13829479,13829479,,dataset,https://github.com/lexibank/duonglachi/tree/v1.2
+13766733,"CLDF dataset derived from Barlow's ""Numerals of the Pacific"" from 2024","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Barlow, Russell (ed.). 2024. Numerals of the Pacific: A collection of numeral terms in Austronesian and Papuan languages.</p>
+</blockquote>",,,v1.6,Russell Barlow,Christoph Rzymski,10.5281/zenodo.13766733,10.5281/zenodo.5596346,5596346,,,cc-by-4.0,https://zenodo.org/records/13766733,13766733,,dataset,https://github.com/numeralbank/barlowpacific/tree/v1.6
+13684237,"CLDF dataset accompanying Brid et al.'s ""Comparative Wordlist for the Languages of the Gran Chaco Area"" from 2022","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Brid, Nicolás, Cristina Messineo, and Johann-Mattis List (2022): A Comparative Wordlist for the Languages of the Gran Chaco Area. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v0.3,Nicolás Brid ; Cristina Messineo,Johann-Mattis List,10.5281/zenodo.13684237,10.5281/zenodo.6656483,6656483,,,cc-by-4.0,https://zenodo.org/records/13684237,13684237,,dataset,https://github.com/lexibank/chacolanguages/tree/v0.3
 13606202,Negative existentials: A cross-linguistic study,Negative existentials: A cross-linguistic study,,,v1.0,Ljuba Veselinova,Robert Forkel ; Johannes Englisch ; Martin Haspelmath,10.5281/zenodo.13606202,10.5281/zenodo.13606201,13606201,,,cc-by-4.0,https://zenodo.org/records/13606202,13606202,,dataset,https://github.com/cldf-datasets/veselinovanegex/tree/v1.0
 13606075,Zero marking and the order of core arguments,CLDF version of Sinnemäki 2010's dataset on zero marking and word order,,,v1.0,Kaius Sinnamäki ; Noora Ahola,Johannes Englisch ; Martin Haspelmath,10.5281/zenodo.13606075,10.5281/zenodo.13606074,13606074,,,cc-by-4.0,https://zenodo.org/records/13606075,13606075,,dataset,https://github.com/cldf-datasets/sinnemakizeromarking/tree/v1.0
 13605939,The 'give' event in Papuan languages,The 'give' event in Papuan languages,,,v1.0,Gerard P. Reesink,Johannes Englisch ; Martin Haspelmath,10.5281/zenodo.13605939,10.5281/zenodo.13605938,13605938,,,cc-by-4.0,https://zenodo.org/records/13605939,13605939,,dataset,https://github.com/cldf-datasets/reesinkgive/tree/v1.0
