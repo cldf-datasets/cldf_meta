@@ -1,6 +1,3819 @@
 {
   "records": [
     {
+      "id": 15287258,
+      "doi": "10.5281/zenodo.15287258",
+      "conceptid": "15287257",
+      "conceptdoi": "10.5281/zenodo.15287257",
+      "created": "2025-04-26T12:18:41.531936+00:00",
+      "updated": "2025-04-26T12:18:41.723077+00:00",
+      "modified": "2025-04-26T12:18:41.723077+00:00",
+      "title": "Glottography dataset derived from Asher and Moseley 2007 \"Atlas of the World's Languages\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Asher, R. E. &amp; Christopher J. Moseley (eds.) 2007. Atlas of the World&#x27;s Languages. 2nd edn. Routledge.</p>\n</blockquote>",
+      "version": "v1.0.0",
+      "access_right": "open",
+      "publication_date": "2025-04-26",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/asher2007world-v1.0.0.zip",
+          "checksum": "md5:df344d64dd87b4f40f56ad0cae0a89f8",
+          "url": "https://zenodo.org/api/records/15287258/files/Glottography/asher2007world-v1.0.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/asher2007world/tree/v1.0.0"
+    },
+    {
+      "id": 15239866,
+      "doi": "10.5281/zenodo.15239866",
+      "conceptid": "13889023",
+      "conceptdoi": "10.5281/zenodo.13889023",
+      "created": "2025-04-18T07:18:24.785226+00:00",
+      "updated": "2025-04-18T07:18:24.914509+00:00",
+      "modified": "2025-04-18T07:18:24.914509+00:00",
+      "title": "CLDF dataset with data and supplements for Barlow \"Loss of colexification of 'hand' and 'five' in Austronesian languages\"",
+      "description": "CLDF dataset with data and supplements for Barlow \"Loss of colexification of 'hand' and 'five' in Austronesian languages\"",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2025-04-18",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/barlowhandandfive-v1.3.zip",
+          "checksum": "md5:f572b3818fcc35f406f6aa3eef2ad17a",
+          "url": "https://zenodo.org/api/records/15239866/files/cldf-datasets/barlowhandandfive-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/cldf-datasets/barlowhandandfive/tree/v1.3"
+    },
+    {
+      "id": 15196305,
+      "doi": "10.5281/zenodo.15196305",
+      "conceptid": "14872293",
+      "conceptdoi": "10.5281/zenodo.14872293",
+      "created": "2025-04-11T13:19:32.408481+00:00",
+      "updated": "2025-04-11T13:19:32.542002+00:00",
+      "modified": "2025-04-11T13:19:32.542002+00:00",
+      "title": "GramAdapt Crosslinguistic Social Contact Dataset",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Eri Kashima, Francesca Di Garbo, Oona Raatikainen, Rosn\u00e1taly Avelino, Sacha Beck, Anna Berge, Ana Blanco, Ross Bowden, Nicol\u00e1s Brid, Joseph M Brincat, Mar\u00eda Bel\u00e9n Carpio, Alexander Cobbinah, Paola C\u00faneo, Anne-Maria Fehn, Saloumeh Gholami, Arun Ghosh, Hannah Gibson, Elizabeth Hall, Katja Hann\u00df, Hannah Haynie, Jerry Jacka, Matias Jenny, Richard Kowalik, Sonal Kulkarni-Joshi, Maarten Mous, Marcela Mendoza, Cristina Messineo, Francesca Moro, Hank Nater, Michelle A Ocasio, Bruno Olsson, Ana Mar\u00eda Ospina Bozzi, Agustina Paredes, Admire Phiri, Nicolas Quint, Erika Sandman, Dineke Schokkin, Ruth Singer, Ellen Smith-Dennis, Lameen Souag, Yunus Sulistyono, Yvonne Treis, Matthias Urban, Jill Vaughan, Deginet Wotango Doyiso, Georg Ziegelmeyer, Veronika Zikmundov\u00e1. (2023). GramAdapt Crosslinguistic Social Contact Dataset. (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7508054</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2025-04-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Eri Kashima"
+        },
+        {
+          "name": "Francesca Di Garbo"
+        },
+        {
+          "name": "Oona Raatikainen"
+        },
+        {
+          "name": "Kaius Sinnem\u00e4ki"
+        },
+        {
+          "name": "Ricardo Napole\u00e3o de Souza"
+        },
+        {
+          "name": "Anu Hyv\u00f6nen"
+        },
+        {
+          "name": "Kayleigh Karinen"
+        },
+        {
+          "name": "Rosn\u00e1taly Avelino"
+        },
+        {
+          "name": "Sacha Beck"
+        },
+        {
+          "name": "Anna Berge"
+        },
+        {
+          "name": "Ana Blanco"
+        },
+        {
+          "name": "Ross Bowden"
+        },
+        {
+          "name": "Nicol\u00e1s Brid"
+        },
+        {
+          "name": "Joseph Brincat"
+        },
+        {
+          "name": "Mar\u00eda Bel\u00e9n Carpio"
+        },
+        {
+          "name": "Alexander Cobbinah"
+        },
+        {
+          "name": "Paola C\u00faneo"
+        },
+        {
+          "name": "Anne-Maria Fehn"
+        },
+        {
+          "name": "Saloumeh Gholami"
+        },
+        {
+          "name": "Arun Ghosh"
+        },
+        {
+          "name": "Hannah Gibson"
+        },
+        {
+          "name": "Elizabeth Hall"
+        },
+        {
+          "name": "Katja Hann\u00df"
+        },
+        {
+          "name": "Hannah Haynie"
+        },
+        {
+          "name": "Jerry Jacka"
+        },
+        {
+          "name": "Matias Jenny"
+        },
+        {
+          "name": "Richard Kowalik"
+        },
+        {
+          "name": "Sonal Kulkarni-Joshi"
+        },
+        {
+          "name": "Maarten Mous"
+        },
+        {
+          "name": "Marcela Mendoza"
+        },
+        {
+          "name": "Cristina Messineo"
+        },
+        {
+          "name": "Francesca Moro"
+        },
+        {
+          "name": "Hank Nater"
+        },
+        {
+          "name": "Michelle Ocasio"
+        },
+        {
+          "name": "Bruno Olsson"
+        },
+        {
+          "name": "Ana Mar\u00eda Ospina Bozzi"
+        },
+        {
+          "name": "Agustina Paredes"
+        },
+        {
+          "name": "Admire Phiri"
+        },
+        {
+          "name": "Nicolas Quint"
+        },
+        {
+          "name": "Erika Sandman"
+        },
+        {
+          "name": "Dineke Schokkin"
+        },
+        {
+          "name": "Ruth Singer"
+        },
+        {
+          "name": "Ellen Smith-Dennis"
+        },
+        {
+          "name": "Lameen Souag"
+        },
+        {
+          "name": "Yunus Sulistyono"
+        },
+        {
+          "name": "Yvonne Treis"
+        },
+        {
+          "name": "Matthias Urban"
+        },
+        {
+          "name": "Jill Vaughan"
+        },
+        {
+          "name": "Deginet Wotango Doyiso"
+        },
+        {
+          "name": "Georg Ziegelmeyer"
+        },
+        {
+          "name": "Veronika Zikmundov\u00e1"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/gramadapt-v1.2.zip",
+          "checksum": "md5:3aa27237cb7c7c5311aaa591c677d3c4",
+          "url": "https://zenodo.org/api/records/15196305/files/cldf-datasets/gramadapt-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Eri Kashima",
+          "type": "Editor"
+        },
+        {
+          "name": "Francesca Di Garbo",
+          "type": "Editor"
+        },
+        {
+          "name": "Oona Raatikainen",
+          "type": "Editor"
+        },
+        {
+          "name": "Kaius Sinnem\u00e4ki",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/gramadapt/tree/v1.2"
+    },
+    {
+      "id": 15194559,
+      "doi": "10.5281/zenodo.15194559",
+      "conceptid": "5227817",
+      "conceptdoi": "10.5281/zenodo.5227817",
+      "created": "2025-04-11T09:22:17.334942+00:00",
+      "updated": "2025-04-11T09:22:17.509343+00:00",
+      "modified": "2025-04-11T09:22:17.509343+00:00",
+      "title": "Lexibank Analysed",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank\u00b2: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+      "version": "v2.1",
+      "access_right": "open",
+      "publication_date": "2025-04-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Frederic Blum"
+        },
+        {
+          "name": "Carlos Barrientos"
+        },
+        {
+          "name": "Johannes Englisch"
+        },
+        {
+          "name": "Robert Forkel"
+        },
+        {
+          "name": "Russell D. Gray"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        },
+        {
+          "name": "Christoph Rzymski"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/lexibank-analysed-v2.1.zip",
+          "checksum": "md5:7cf6688fd3633df7477773ccb755aba4",
+          "url": "https://zenodo.org/api/records/15194559/files/lexibank/lexibank-analysed-v2.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v2.1"
+    },
+    {
+      "id": 15183865,
+      "doi": "10.5281/zenodo.15183865",
+      "conceptid": "11046587",
+      "conceptdoi": "10.5281/zenodo.11046587",
+      "created": "2025-04-09T15:37:09.415935+00:00",
+      "updated": "2025-04-09T15:37:09.536528+00:00",
+      "modified": "2025-04-09T15:37:09.536528+00:00",
+      "title": "CLDF dataset derived from the ECAI digitization of Wurm and Hattori's \"Language Atlas of the Pacific Area\" from 1981 and 1983",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981).\nWurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983).\nRegistered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).</p>\n</blockquote>",
+      "version": "v2.1",
+      "access_right": "open",
+      "publication_date": "2025-04-09",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Stephen Wurm"
+        },
+        {
+          "name": "Shir\u00f4 Hattori"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/languageatlasofthepacificarea-v2.1.zip",
+          "checksum": "md5:544b9244088f74f66c7e8e09f6b78883",
+          "url": "https://zenodo.org/api/records/15183865/files/cldf-datasets/languageatlasofthepacificarea-v2.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "David Blundell",
+          "type": "Editor"
+        },
+        {
+          "name": "Lawrence Crissman",
+          "type": "Editor"
+        },
+        {
+          "name": "Jeanette Zerneke",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        },
+        {
+          "name": "Harald Hammarstr\u00f6m",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/v2.1"
+    },
+    {
+      "id": 15161504,
+      "doi": "10.5281/zenodo.15161504",
+      "conceptid": "15161503",
+      "conceptdoi": "10.5281/zenodo.15161503",
+      "created": "2025-04-06T02:27:45.525938+00:00",
+      "updated": "2025-04-06T02:39:36.720923+00:00",
+      "modified": "2025-04-06T02:39:36.720923+00:00",
+      "title": "CLDF dataset derived from von Rosenberg's \"De Mentawei-Eilanden en Hunne Bewoners\" from 1853 for comparative numeral data",
+      "description": "<p>Cite the source of the dataset as:</p>\n<blockquote>\n<p>Von Rosenberg, Carl Benjamin Hermann. 1853. De Mentawei-Eilanden en Hunne Bewoners. Tijdschrift voor Indische Taal-, Land- en Volkenkunde 1. 403&ndash;440. <a href=\"https://www.digitale-sammlungen.de/en/view/bsb10433845?page=424,425\" target=\"_blank\" rel=\"noopener\">https://www.digitale-sammlungen.de/en/view/bsb10433845?page=424,425</a></p>\n</blockquote>\n<p>Cite the particular released version of this dataset as:</p>\n<blockquote>\n<p>Rajeg, Gede Primahadi Wijaya (2025). CLDF dataset derived from von Rosenberg's \"De Mentawei-Eilanden en Hunne Bewoners\" from 1853 for comparative numeral data. University of Oxford &amp; Zenodo. Dataset. <a title=\"Oxford SDS release\" href=\"https://doi.org/10.25446/oxford.28358708\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.25446/oxford.28358708</a> <a title=\"Zenodo release (v2.0.0)\" href=\"https://doi.org/10.5281/zenodo.15161504\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.5281/zenodo.15161504</a></p>\n</blockquote>\n<p>Notes for the updates in version 2.0.0 are available on the <a title=\"Version 2.0.0\" href=\"https://github.com/complexico/vrosenberg1853-numeral/releases/tag/2.0.0\" target=\"_blank\" rel=\"noopener\">releases page</a>.</p>",
+      "version": "2.0.0",
+      "access_right": "open",
+      "publication_date": "2025-04-06",
+      "license": "cc-by-nc-sa-4.0",
+      "creators": [
+        {
+          "name": "Rajeg, Gede Primahadi Wijaya",
+          "affiliation": "University of Oxford",
+          "orcid": "0000-0002-2047-8621"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "complexico/vrosenberg1853-numeral-2.0.0.zip",
+          "checksum": "md5:d34c38d6113f730784e7bfc7e3e6a8d0",
+          "url": "https://zenodo.org/api/records/15161504/files/complexico/vrosenberg1853-numeral-2.0.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics",
+        "barrier islands languages",
+        "Indonesian languages",
+        "Sumatran languages"
+      ],
+      "git-link": "https://github.com/complexico/vrosenberg1853-numeral/tree/2.0.0"
+    },
+    {
+      "id": 14794542,
+      "doi": "10.5281/zenodo.14794542",
+      "conceptid": "7972273",
+      "conceptdoi": "10.5281/zenodo.7972273",
+      "created": "2025-02-03T13:10:16.782082+00:00",
+      "updated": "2025-04-04T01:28:08.438206+00:00",
+      "modified": "2025-04-04T01:28:08.438206+00:00",
+      "title": "Digitised, searchable Holle List in Stokhof (1980)",
+      "description": "<p>This repository contains the digitised Holle List in Stokhof (<a href=\"https://core.ac.uk/reader/159464813\">1980</a>). Details and the interactive web version of the list can be accessed via <a title=\"Digitised, searchable Holle List\" href=\"https://engganolang.github.io/digitised-holle-list/\" target=\"_blank\" rel=\"noopener\">https://engganolang.github.io/digitised-holle-list/</a> (Rajeg 2023).</p>\n<p>The work in this repository is part of the <a href=\"https://gtr.ukri.org/projects?ref=AH%2FW007290%2F1\">AHRC-funded research</a> on <a title=\"Lexical resources for Enggano\" href=\"https://portal.sds.ox.ac.uk/Lexical_resources_for_Enggano\" target=\"_blank\" rel=\"noopener\"><em>Lexical resources for Enggano, a threatened language of Indonesia</em></a> (central webpage of the Enggano project: <a title=\"Enggano research\" href=\"https://enggano.ling-phil.ox.ac.uk/\" target=\"_blank\" rel=\"noopener\">https://enggano.ling-phil.ox.ac.uk/</a>)</p>\n<h2>Updates in version 1.4.1</h2>\n<ul>\n<li>Adding the Transcription table (Stokhof 1980: 75-77, &sect;6.2) on the interactive webpage version (see <a title=\"Transcription Symbols\" href=\"https://engganolang.github.io/digitised-holle-list/#:~:text=Transcription%20Symbols\" target=\"_blank\" rel=\"noopener\">Table 4 \"Transcription Symbols\"</a>)</li>\n<li>Adding an update on the potential for the list to be included in the <em>Concepticon</em> (cf. the note&nbsp;<a href=\"https://github.com/concepticon/concepticon-data/issues/1324\">here</a>)</li>\n<li>Adding reference to <em>EnoLEX</em>, a diachronic lexical database for the Enggano language (cf. <a href=\"https://doi.org/10.25446/oxford.28282169\">here</a>)</li>\n</ul>\n<h2>References</h2>\n<p>Forkel, Robert, Johann-Mattis List, Simon J. Greenhill, Christoph Rzymski, Sebastian Bank, Michael Cysouw, Harald Hammarstr&ouml;m, Martin Haspelmath, Gereon A. Kaiping &amp; Russell D. Gray. 2018. Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics. Scientific Data. Nature Publishing Group 5(1). 180205. <a href=\"https://doi.org/10.1038/sdata.2018.205\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1038/sdata.2018.205</a>.</p>\n<p>Krau&szlig;e, Daniel; Rajeg, Gede Primahadi Wijaya; Pramartha, Cokorda Rai Adi; Zobel, Erik; Nothofer, Bernd; Hemmings, Charlotte; et al. (2024). EnoLEX: A diachronic lexical database for the Enggano language. University of Oxford. Online database. <a title=\"EnoLEX metadata record\" href=\"https://doi.org/10.25446/oxford.28282169\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.25446/oxford.28282169</a>.</p>\n<p>Rajeg, Gede Primahadi Wijaya. 2023. Digitised, searchable Holle List in Stokhof (1980). Dataset. University of Oxford. <a href=\"https://doi.org/10.25446/oxford.23205173\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.25446/oxford.23205173</a></p>\n<p>Stokhof, W. A. L. (ed.). 1980. Holle lists, vocabularies in languages of Indonesia, vol. 1: Introductory volume. Vol. Materials in Languages of Indonesia. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. <a title=\"Source Holle List in PDF\" href=\"https://core.ac.uk/reader/159464813\" target=\"_blank\" rel=\"noopener\">https://core.ac.uk/reader/159464813</a>.</p>",
+      "version": "1.4.1",
+      "access_right": "open",
+      "publication_date": "2025-02-03",
+      "license": "cc-by-sa-4.0",
+      "creators": [
+        {
+          "name": "Rajeg, Gede Primahadi Wijaya",
+          "affiliation": "University of Oxford",
+          "orcid": "0000-0002-2047-8621"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "engganolang/digitised-holle-list-1.4.1.zip",
+          "checksum": "md5:89bdfb2676382a5de87a992e5727829e",
+          "url": "https://zenodo.org/api/records/14794542/files/engganolang/digitised-holle-list-1.4.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "holle-list",
+        "word-list",
+        "Holle-list",
+        "language-documentation",
+        "lexical-database",
+        "Holle List",
+        "Cross-Linguistic Data Format",
+        "CLDF",
+        "Digital Humanities",
+        "Indonesian Languages",
+        "Legacy Material",
+        "Wordlist"
+      ],
+      "contributors": [
+        {
+          "name": "Koemba, Fitriani Putri",
+          "affiliation": "Udayana University",
+          "type": "Editor"
+        },
+        {
+          "name": "Dalrymple, Mary",
+          "affiliation": "University of Oxford",
+          "type": "ProjectLeader",
+          "orcid": "0000-0001-5723-5722"
+        },
+        {
+          "name": "Arka, I Wayan",
+          "affiliation": "Australian National University",
+          "type": "ProjectLeader",
+          "orcid": "0000-0002-2819-6186"
+        }
+      ],
+      "git-link": "https://github.com/engganolang/digitised-holle-list/tree/1.4.1"
+    },
+    {
+      "id": 15131172,
+      "doi": "10.5281/zenodo.15131172",
+      "conceptid": "8038974",
+      "conceptdoi": "10.5281/zenodo.8038974",
+      "created": "2025-04-03T12:52:41.528427+00:00",
+      "updated": "2025-04-04T01:07:58.310888+00:00",
+      "modified": "2025-04-04T01:07:58.310888+00:00",
+      "title": "CLDF dataset of the Enggano word list from 1895 in Stokhof and Almanar's (1987) Holle List",
+      "description": "<p>The repository for the digitised Enggano word list from 1895 (see Stokhof and Almanar 1987 for the original source) that has been matched with the <a href=\"https://engganolang.github.io/digitised-holle-list/\">digitised Holle List</a> (Rajeg 2023a; cf. Stokhof 1980), providing the English and Indonesian glosses for the Enggano forms. The data set <a href=\"https://github.com/engganolang/holle-list-enggano-1895/actions/workflows/cldf-validation.yml\">conforms</a> to the Wordlist module of the Cross-Linguistic Data Format (<a href=\"https://cldf.clld.org/\">CLDF</a>) (Forkel et al. 2018).</p>\n<p><em>The work in this repository is part of the <a href=\"https://gtr.ukri.org/project/8AB0C3DC-F1C9-4CFA-BB4D-5BE748213372\">AHRC-funded research</a> on <strong>Lexical resources for Enggano, a threatened language of Indonesia</strong> (visit the <a href=\"https://enggano.ling-phil.ox.ac.uk/\">central webpage of the Enggano research</a> and the specific repository of the <a href=\"https://portal.sds.ox.ac.uk/Lexical_resources_for_Enggano\">Lexical Resources for Enggano</a> project as well the <a href=\"https://portal.sds.ox.ac.uk/Enggano/groups\">main Enggano repository</a> on the University of Oxford's Sustainable Digital Scholarship (SDS))</em></p>\n<h1>Updates in version 2.0.0</h1>\n<p>The following items summarise the major updates in version 2.0.0:</p>\n<ul>\n<li>\n<p><strong>Adding <a href=\"https://github.com/engganolang/holle-list-enggano-1895/blob/main/cldf/media.csv\">MediaTable</a></strong> to accommodate <a href=\"https://github.com/engganolang/holle-list-enggano-1895/tree/main/img\">images</a> in/for note ID &lt;26&gt; (commits <a href=\"https://github.com/engganolang/holle-list-enggano-1895/commit/dab95401f128bd4203a81294f2e9f4620d45b145\">dab9540</a> &amp; <a href=\"https://github.com/engganolang/holle-list-enggano-1895/commit/a0040038e2577cb37ff8ad3ac68e8bbdedc26291\">a004003</a> <a href=\"https://github.com/engganolang/holle-list-enggano-1895/blob/a0040038e2577cb37ff8ad3ac68e8bbdedc26291/code/Enggano-Holle-List-with-NBL.R#L229-L232\">at this line</a> and <a href=\"https://github.com/engganolang/holle-list-enggano-1895/blob/2aab3ab385fc82c0613de2aacb5947ca4981b417/code/Enggano-Holle-List-with-NBL.R#L370-L397\">these lines</a>)</p>\n</li>\n<li>\n<p><strong>Splitting multiple forms in a cell</strong> into their own rows, both for the original list and the forms in the Notes (commit <a href=\"https://github.com/engganolang/holle-list-enggano-1895/commit/39cdc663843b265aa8f3c5bbdcb11628fcc17b5e\">39cdc66</a> at <a href=\"https://github.com/engganolang/holle-list-enggano-1895/commit/39cdc663843b265aa8f3c5bbdcb11628fcc17b5e#diff-ac46f8a3edb85868970d77f55bb86c5f0449feb25c37295895c4a9e560564301R83\">this line</a> and <a href=\"https://github.com/engganolang/holle-list-enggano-1895/commit/39cdc663843b265aa8f3c5bbdcb11628fcc17b5e#diff-ac46f8a3edb85868970d77f55bb86c5f0449feb25c37295895c4a9e560564301R83\">this line</a>, and commit <a href=\"https://github.com/engganolang/holle-list-enggano-1895/commit/a0040038e2577cb37ff8ad3ac68e8bbdedc26291\">a004003</a> at <a href=\"https://github.com/engganolang/holle-list-enggano-1895/commit/a0040038e2577cb37ff8ad3ac68e8bbdedc26291#diff-5b59e4a74b953f80c8867a60c422bd8405c9d6236bd61239a0d3f20b0d582b78R69\">this line</a>)</p>\n</li>\n<li>\n<p><strong>Orthography transliteration</strong> into Enggano's common orthography and IPA (across several commits and [closed] issues [#1 #3 #4 #5 #7], but see <a href=\"https://github.com/engganolang/holle-list-enggano-1895/blob/2aab3ab385fc82c0613de2aacb5947ca4981b417/code/Enggano-Holle-List-with-NBL.R#L32-L93\">these lines</a> for retrieving the existing orthography profile and doing the editing, and <a href=\"https://github.com/engganolang/holle-list-enggano-1895/blob/2aab3ab385fc82c0613de2aacb5947ca4981b417/code/Enggano-Holle-List-with-NBL.R#L220-L306\">these lines</a> for running the transliteration using the <a href=\"https://cran.r-project.org/web/packages/qlcData/index.html\">qlcData</a> R package [Moran &amp; Cysouw 2018; Cysouw 2024])</p>\n<ul>\n<li>In the <a href=\"https://github.com/engganolang/holle-list-enggano-1895/blob/main/cldf/forms.csv\">FormTable</a>, the <code>Form</code> column contains the Enggano forms in their common orthography; the <code>Value</code> column contains their original transcription/orthography, with their tokenised/segmented formats available under the <code>Graphemes</code> column; the <code>Segments</code> column, finally, contains the segmented IPA transliteration of the Enggano forms (cf. #6 ). The <code>Comment</code> column is derived from the contents of the Notes. It includes, if any, Enggano forms in their original transcription followed by their segmented/tokenised forms in IPA in square brackets, their glosses in English (<strong>EN</strong>) and/or Indonesian (<strong>ID</strong>) inside the bracket, and finally the ID of the Notes in the original document inside angular brackets. The <code>English</code> and <code>Indonesian</code> columns respectively are glosses of the given language from the master/main Holle List (Stokhof 1980) that has been digitised (Rajeg 2023a).</li>\n<li>The output files of the orthography profiling and transliteration (commit <a href=\"https://github.com/engganolang/holle-list-enggano-1895/commit/2aab3ab385fc82c0613de2aacb5947ca4981b417\">2aab3ab</a>) are available in <a href=\"https://github.com/engganolang/holle-list-enggano-1895/tree/main/data-raw\">data-raw</a> with the file names prefixed with <code>ortho-...</code>.</li>\n</ul>\n</li>\n</ul>\n<h2>References</h2>\n<p>Cysouw, Michael. 2024. qlcData: Processing Data for Quantitative Language Comparison. https://cran.r-project.org/web/packages/qlcData/index.html. (25 December, 2024). Version 0.3</p>\n<p>Forkel, Robert, Johann-Mattis List, Simon J. Greenhill, Christoph Rzymski, Sebastian Bank, Michael Cysouw, Harald Hammarstr&ouml;m, Martin Haspelmath, Gereon A. Kaiping &amp; Russell D. Gray. 2018. Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics. Scientific Data. Nature Publishing Group 5(1). 180205. https://doi.org/10.1038/sdata.2018.205.</p>\n<p>Moran, Steven &amp; Michael Cysouw. 2018. The Unicode cookbook for linguists: Managing writing systems using orthography profiles (Translation and Multilingual Natural Language Processing 10). Berlin: Language Science Press. https://doi.org/10.5281/zenodo.1296780.</p>\n<p>Rajeg, Gede Primahadi Wijaya. 2023a. Digitised, Searchable Holle List in Stokhof (1980) [Data set]. (1.3.0). Zenodo. https://doi.org/10.5281/ZENODO.7972273. https://engganolang.github.io/digitised-holle-list/. https://ora.ox.ac.uk/objects/uuid:a511951b-86fb-4019-94d4-280efa83de02</p>\n<p>Rajeg, Gede Primahadi Wijaya. 2023b. CLDF dataset of the Enggano word list from 1895 in Stokhof and Almanar's (1987) Holle List [Data set]. https://github.com/engganolang/holle-list-enggano-1895 https://doi.org/10.25446/oxford.23515788</p>\n<p>Stokhof, W. A. L., ed. 1980. Holle Lists, Vocabularies in Languages of Indonesia, Vol. 1: Introductory Volume. Vol. Materials in Languages of Indonesia. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. https://core.ac.uk/reader/159464813.</p>\n<p>Stokhof, W. A. L., and Alma E. Almanar. 1987. Holle Lists, Vocabularies in Languages of Indonesia, Vol. 10/3: Islands Off the West Coast of Sumatra. Vol. Materials in Languages of Indonesia. Pacific Linguistics (Series d) 76. Canberra, A.C.T., Australia: Dept. of Linguistics, Research School of Pacific Studies, The Australian National University. http://hdl.handle.net/1885/144589.</p>",
+      "version": "2.0.0",
+      "access_right": "open",
+      "publication_date": "2025-04-03",
+      "license": "cc-by-sa-4.0",
+      "creators": [
+        {
+          "name": "Rajeg, Gede Primahadi Wijaya",
+          "affiliation": "University of Oxford",
+          "orcid": "0000-0002-2047-8621"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "engganolang/holle-list-enggano-1895-2.0.0.zip",
+          "checksum": "md5:0632b4f79d08d90038f777f14838dec5",
+          "url": "https://zenodo.org/api/records/15131172/files/engganolang/holle-list-enggano-1895-2.0.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "Enggano",
+        "Holle List",
+        "Lexical database",
+        "Cross-Linguistic Data Format",
+        "CLDF",
+        "Austronesian",
+        "Digital Humanities",
+        "Legacy Material",
+        "Old Enggano",
+        "Indonesian Languages",
+        "Digital Scholarship"
+      ],
+      "contributors": [
+        {
+          "name": "Pamphila, Utei Charaleghy",
+          "affiliation": "SIT Graduate Institute",
+          "type": "Editor"
+        },
+        {
+          "name": "Dalrymple, Mary",
+          "affiliation": "University of Oxford",
+          "type": "ProjectLeader",
+          "orcid": "0000-0001-5723-5722"
+        },
+        {
+          "name": "Arka, I Wayan",
+          "affiliation": "Australian National University",
+          "type": "ProjectLeader",
+          "orcid": "0000-0002-2819-6186"
+        }
+      ],
+      "git-link": "https://github.com/engganolang/holle-list-enggano-1895/tree/2.0.0"
+    },
+    {
+      "id": 15094175,
+      "doi": "10.5281/zenodo.15094175",
+      "conceptid": "5121401",
+      "conceptdoi": "10.5281/zenodo.5121401",
+      "created": "2025-03-27T08:07:13.509985+00:00",
+      "updated": "2025-03-27T08:07:13.884656+00:00",
+      "modified": "2025-03-27T08:07:13.884656+00:00",
+      "title": "CLDF dataset derived from Deepadung et al.'s \"Lexical Comparison of Palaung Dialects\" from 2015",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Deepadung, Sujaritlak; Buakaw, Supakit; and Rattanapitak, Ampica (2015): A lexical comparison of the Palaung dialects spoken in China, Myanmar, and Thailand. Mon-Khmer Studies 44. 19-38.</p>\n</blockquote>",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2025-03-27",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Deepadung, Sujaritlak"
+        },
+        {
+          "name": "Buakaw, Supakit"
+        },
+        {
+          "name": "Rattanapitak, Ampika"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/deepadungpalaung-v1.3.zip",
+          "checksum": "md5:21f741d1d79f7ef68d005af1843474fa",
+          "url": "https://zenodo.org/api/records/15094175/files/lexibank/deepadungpalaung-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Briggs",
+          "type": "Other"
+        },
+        {
+          "name": "Deepadung, Sujaritlak",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Buakaw, Supakit",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Rattanapitak, Ampika",
+          "type": "DataCollector"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/deepadungpalaung/tree/v1.3"
+    },
+    {
+      "id": 15076306,
+      "doi": "10.5281/zenodo.15076306",
+      "conceptid": "3755518",
+      "conceptdoi": "10.5281/zenodo.3755518",
+      "created": "2025-03-24T12:39:23.544044+00:00",
+      "updated": "2025-03-24T12:39:23.706757+00:00",
+      "modified": "2025-03-24T12:39:23.706757+00:00",
+      "title": "CLDF dataset derived from Grollemund et al.'s \"Bantu expansion shows habitat alters the route and pace of human dispersals\" from 2015",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Grollemund, Rebecca, Branford, Simon, Bostoen, Koen, Meade, Andrew, Venditti, Chris, &amp; Pagel, Mark (2015) Bantu expansion shows habitat alters the route and pace of human dispersals. Proc Natl Acad Sci USA. doi:10.1073/pnas.1503793112.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-03-24",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "lexibank"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/grollemundbantu-v1.1.zip",
+          "checksum": "md5:c756a082d8f1786de34f8649187969d0",
+          "url": "https://zenodo.org/api/records/15076306/files/lexibank/grollemundbantu-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        },
+        {
+          "name": "Tiago Tresoldi",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Rebecca Grollemund",
+          "type": "Distributor"
+        },
+        {
+          "name": "Mark Pagel",
+          "type": "Distributor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/grollemundbantu/tree/v1.1"
+    },
+    {
+      "id": 14982997,
+      "doi": "10.5281/zenodo.14982997",
+      "conceptid": "14982996",
+      "conceptdoi": "10.5281/zenodo.14982996",
+      "created": "2025-03-06T15:42:07.813992+00:00",
+      "updated": "2025-03-07T07:37:49.057053+00:00",
+      "modified": "2025-03-07T07:37:49.057053+00:00",
+      "title": "Geographic data for Australian languages in CLDF derived from Bowern \"Files for Australian Language Locations\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bowern, Claire. (2021). Files for Australian Language Locations [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4898185</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2025-03-06",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Claire Bowern"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/bowernpnygeo-v1.0.zip",
+          "checksum": "md5:bd0eca25d9adac17f909335be342debf",
+          "url": "https://zenodo.org/api/records/14982997/files/cldf-datasets/bowernpnygeo-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/bowernpnygeo/tree/v1.0"
+    },
+    {
+      "id": 14925245,
+      "doi": "10.5281/zenodo.14925245",
+      "conceptid": "7312926",
+      "conceptdoi": "10.5281/zenodo.7312926",
+      "created": "2025-02-25T14:50:27.212872+00:00",
+      "updated": "2025-02-25T14:50:27.330590+00:00",
+      "modified": "2025-02-25T14:50:27.330590+00:00",
+      "title": "Database of Cross-Linguistic Norms, Ratings, and Relations for Words and Concepts as CLDF dataset",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Tjuka, Annika, Robert Forkel, and Johann-Mattis List. 2022. Linking Norms, Ratings, and Relations of Words and Concepts Across Multiple Language Varieties. Behavior Research Methods 54. 864\u2013884. DOI: 10.3758/s13428-021-01650-1</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-02-25",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Annika Tjuka"
+        },
+        {
+          "name": "Robert Forkel"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "concepticon/norare-cldf-v1.1.zip",
+          "checksum": "md5:35ede98e5a1078e2d2eaaa12eda518b3",
+          "url": "https://zenodo.org/api/records/14925245/files/concepticon/norare-cldf-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/concepticon/norare-cldf/tree/v1.1"
+    },
+    {
+      "id": 14887395,
+      "doi": "10.5281/zenodo.14887395",
+      "conceptid": "14887394",
+      "conceptdoi": "10.5281/zenodo.14887394",
+      "created": "2025-02-18T12:20:26.098222+00:00",
+      "updated": "2025-02-18T12:32:30.183626+00:00",
+      "modified": "2025-02-18T12:32:30.183626+00:00",
+      "title": "CLDF dataset derived from Oudemans' \"Woordenlijst van de Talen van Enggano, Mentawei en Nias\" from 1879",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Oudemans, Jean Abraham Chr\u00e9tien. 1879. Woordenlijst van de Talen van Enggano, Mentawei en Nias. Tijdschrift voor Indische Taal-, Land- en Volkenkunde XXV(5\u20136). 484\u2013488.</p>\n</blockquote>",
+      "version": "1.0.0",
+      "access_right": "open",
+      "publication_date": "2025-02-18",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Rajeg, Gede Primahadi Wijaya",
+          "affiliation": "University of Oxford",
+          "orcid": "0000-0002-2047-8621"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "engganolang/oudemans-1879-1.0.0.zip",
+          "checksum": "md5:8936d87102b801eb8446cc7fdf6b6da7",
+          "url": "https://zenodo.org/api/records/14887395/files/engganolang/oudemans-1879-1.0.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Gede Primahadi Wijaya Rajeg",
+          "type": "Editor"
+        },
+        {
+          "name": "Daniel Krau\u00dfe",
+          "type": "Other"
+        },
+        {
+          "name": "I Wayan Arka",
+          "type": "Other"
+        },
+        {
+          "name": "Mary Dalrymple",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/engganolang/oudemans-1879/tree/1.0.0"
+    },
+    {
+      "id": 14872294,
+      "doi": "10.5281/zenodo.14872294",
+      "conceptid": "14872293",
+      "conceptdoi": "10.5281/zenodo.14872293",
+      "created": "2025-02-14T16:45:25.449556+00:00",
+      "updated": "2025-02-14T16:50:12.300119+00:00",
+      "modified": "2025-02-14T16:50:12.300119+00:00",
+      "title": "GramAdapt Crosslinguistic Social Contact Dataset",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Eri Kashima, Francesca Di Garbo, Oona Raatikainen, Rosn\u00e1taly Avelino, Sacha Beck, Anna Berge, Ana Blanco, Ross Bowden, Nicol\u00e1s Brid, Joseph M Brincat, Mar\u00eda Bel\u00e9n Carpio, Alexander Cobbinah, Paola C\u00faneo, Anne-Maria Fehn, Saloumeh Gholami, Arun Ghosh, Hannah Gibson, Elizabeth Hall, Katja Hann\u00df, Hannah Haynie, Jerry Jacka, Matias Jenny, Richard Kowalik, Sonal Kulkarni-Joshi, Maarten Mous, Marcela Mendoza, Cristina Messineo, Francesca Moro, Hank Nater, Michelle A Ocasio, Bruno Olsson, Ana Mar\u00eda Ospina Bozzi, Agustina Paredes, Admire Phiri, Nicolas Quint, Erika Sandman, Dineke Schokkin, Ruth Singer, Ellen Smith-Dennis, Lameen Souag, Yunus Sulistyono, Yvonne Treis, Matthias Urban, Jill Vaughan, Deginet Wotango Doyiso, Georg Ziegelmeyer, Veronika Zikmundov\u00e1. (2023). GramAdapt Crosslinguistic Social Contact Dataset. (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7508054</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Eri Kashima"
+        },
+        {
+          "name": "Francesca Di Garbo"
+        },
+        {
+          "name": "Oona Raatikainen"
+        },
+        {
+          "name": "Kaius Sinnem\u00e4ki"
+        },
+        {
+          "name": "Ricardo Napole\u00e3o de Souza"
+        },
+        {
+          "name": "Anu Hyv\u00f6nen"
+        },
+        {
+          "name": "Kayleigh Karinen"
+        },
+        {
+          "name": "Rosn\u00e1taly Avelino"
+        },
+        {
+          "name": "Sacha Beck"
+        },
+        {
+          "name": "Anna Berge"
+        },
+        {
+          "name": "Ana Blanco"
+        },
+        {
+          "name": "Ross Bowden"
+        },
+        {
+          "name": "Nicol\u00e1s Brid"
+        },
+        {
+          "name": "Joseph Brincat"
+        },
+        {
+          "name": "Mar\u00eda Bel\u00e9n Carpio"
+        },
+        {
+          "name": "Alexander Cobbinah"
+        },
+        {
+          "name": "Paola C\u00faneo"
+        },
+        {
+          "name": "Anne-Maria Fehn"
+        },
+        {
+          "name": "Saloumeh Gholami"
+        },
+        {
+          "name": "Arun Ghosh"
+        },
+        {
+          "name": "Hannah Gibson"
+        },
+        {
+          "name": "Elizabeth Hall"
+        },
+        {
+          "name": "Katja Hann\u00df"
+        },
+        {
+          "name": "Hannah Haynie"
+        },
+        {
+          "name": "Jerry Jacka"
+        },
+        {
+          "name": "Matias Jenny"
+        },
+        {
+          "name": "Richard Kowalik"
+        },
+        {
+          "name": "Sonal Kulkarni-Joshi"
+        },
+        {
+          "name": "Maarten Mous"
+        },
+        {
+          "name": "Marcela Mendoza"
+        },
+        {
+          "name": "Cristina Messineo"
+        },
+        {
+          "name": "Francesca Moro"
+        },
+        {
+          "name": "Hank Nater"
+        },
+        {
+          "name": "Michelle Ocasio"
+        },
+        {
+          "name": "Bruno Olsson"
+        },
+        {
+          "name": "Ana Mar\u00eda Ospina Bozzi"
+        },
+        {
+          "name": "Agustina Paredes"
+        },
+        {
+          "name": "Admire Phiri"
+        },
+        {
+          "name": "Nicolas Quint"
+        },
+        {
+          "name": "Erika Sandman"
+        },
+        {
+          "name": "Dineke Schokkin"
+        },
+        {
+          "name": "Ruth Singer"
+        },
+        {
+          "name": "Ellen Smith-Dennis"
+        },
+        {
+          "name": "Lameen Souag"
+        },
+        {
+          "name": "Yunus Sulistyono"
+        },
+        {
+          "name": "Yvonne Treis"
+        },
+        {
+          "name": "Matthias Urban"
+        },
+        {
+          "name": "Jill Vaughan"
+        },
+        {
+          "name": "Deginet Wotango Doyiso"
+        },
+        {
+          "name": "Georg Ziegelmeyer"
+        },
+        {
+          "name": "Veronika Zikmundov\u00e1"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/gramadapt-v1.1.zip",
+          "checksum": "md5:c4407614f9be65f2ddcf72de7b764e84",
+          "url": "https://zenodo.org/api/records/14872294/files/cldf-datasets/gramadapt-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Eri Kashima",
+          "type": "Editor"
+        },
+        {
+          "name": "Francesca Di Garbo",
+          "type": "Editor"
+        },
+        {
+          "name": "Oona Raatikainen",
+          "type": "Editor"
+        },
+        {
+          "name": "Kaius Sinnem\u00e4ki",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/gramadapt/tree/v1.1"
+    },
+    {
+      "id": 14800315,
+      "doi": "10.5281/zenodo.14800315",
+      "conceptid": "5227817",
+      "conceptdoi": "10.5281/zenodo.5227817",
+      "created": "2025-02-04T08:40:47.740293+00:00",
+      "updated": "2025-02-04T08:40:47.940376+00:00",
+      "modified": "2025-02-04T08:40:47.940376+00:00",
+      "title": "Lexibank Analysed",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Blum, Frederic; Barrientos, Carlos; Englisch, Johannes; Forkel, Robert; Gray, Russell D.; Greenhill, Simon J.; Rzymski, Christoph and List, Johann-Mattis (2025): Lexibank\u00b2: Precomputed Features for Large-Scale Lexical Data [Dataset, Version 2.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2025-02-04",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Frederic Blum"
+        },
+        {
+          "name": "Carlos Barrientos"
+        },
+        {
+          "name": "Johannes Englisch"
+        },
+        {
+          "name": "Robert Forkel"
+        },
+        {
+          "name": "Russell D. Gray"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        },
+        {
+          "name": "Christoph Rzymski"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/lexibank-analysed-v2.0.zip",
+          "checksum": "md5:0f00f51d1ff418d2b418a48eb1de06c8",
+          "url": "https://zenodo.org/api/records/14800315/files/lexibank/lexibank-analysed-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v2.0"
+    },
+    {
+      "id": 14777803,
+      "doi": "10.5281/zenodo.14777803",
+      "conceptid": "14777802",
+      "conceptdoi": "10.5281/zenodo.14777802",
+      "created": "2025-01-31T08:38:40.696865+00:00",
+      "updated": "2025-01-31T08:38:40.850934+00:00",
+      "modified": "2025-01-31T08:38:40.850934+00:00",
+      "title": "TuLeD. Tup\u00edan Lexical Database",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Fabr\u00edcio Ferraz Gerardi, Stanislav Reichert, Carolina Aragon, Johann-Mattis List, &amp; Tim Wientzek. (2021). TuLeD: Tup\u00edan lexical database. Max Planck Institute for Evolutionary Anthropology: Leipzig</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2025-01-31",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Fabr\u00edcio Ferraz Gerardi",
+          "affiliation": "Universit\u00e4t T\u00fcbingen"
+        },
+        {
+          "name": "Stanislav Reichert",
+          "affiliation": "Universit\u00e4t T\u00fcbingen"
+        },
+        {
+          "name": "Carolina Aragon",
+          "affiliation": "UFPB"
+        },
+        {
+          "name": "Tim Wientzek",
+          "affiliation": "Universit\u00e4t T\u00fcbingen"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "affiliation": "Max-Planck-Institute for the Science of Human History"
+        },
+        {
+          "name": "Robert Forkel",
+          "affiliation": "Max-Planck-Institute for Evolutionary Anthropology"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/tuled-v1.0.zip",
+          "checksum": "md5:09467950faed08e6396926ae0ffbe8a8",
+          "url": "https://zenodo.org/api/records/14777803/files/lexibank/tuled-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Agnaldo Makur\u00e1p",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Denny Moore",
+          "affiliation": "Museu Paraense Em\u00edlio Goeldi",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Fran\u00e7oise Rose",
+          "affiliation": "Universit\u00e9 de Lyon",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Gustavo Godoy",
+          "affiliation": "Ppgas UFRJ",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Iram K\u00e1v Sona Gavi\u00e3o",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Nilson Gabas J\u00fanior",
+          "affiliation": "University of California",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Swintha Danielsen",
+          "affiliation": "Universit\u00e4t Leipzig",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Wolf Dietrich",
+          "affiliation": "Universit\u00e4t M\u00fcnster",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Zachary O'Hagan",
+          "affiliation": "University of California",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Tiago Tresoldi",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/tuled/tree/v1.0"
+    },
+    {
+      "id": 14619055,
+      "doi": "10.5281/zenodo.14619055",
+      "conceptid": "4691101",
+      "conceptdoi": "10.5281/zenodo.4691101",
+      "created": "2025-01-09T02:21:29.213380+00:00",
+      "updated": "2025-01-09T02:21:29.343113+00:00",
+      "modified": "2025-01-09T02:21:29.343113+00:00",
+      "title": "CLDF Dataset accompanying Greenhill et al.'s \"Origin of Uto-Aztecan\" from 2022",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Greenhill, Simon J., Hannah J. Haynie, Robert M. Ross, Angela M. Chira, List, Johann-Mattis, Lyle Campbell, Carlos A. Botero, and Russell D. Gray (2022): A recent northern origin for the Uto-Aztecan family. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+      "version": "v1.4",
+      "access_right": "open",
+      "publication_date": "2025-01-09",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Greenhill, Simon J."
+        },
+        {
+          "name": "Hannah J. Haynie"
+        },
+        {
+          "name": "Robert M. Ross"
+        },
+        {
+          "name": "Angela M. Chira"
+        },
+        {
+          "name": "List, Johann-Mattis"
+        },
+        {
+          "name": "Lyle Campbell"
+        },
+        {
+          "name": "Carlos A. Botero"
+        },
+        {
+          "name": "Russell D. Gray"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/utoaztecan-v1.4.zip",
+          "checksum": "md5:9de46281eb5bcf5b53767170cbad6112",
+          "url": "https://zenodo.org/api/records/14619055/files/lexibank/utoaztecan-v1.4.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Greenhill, Simon J.",
+          "type": "Editor"
+        },
+        {
+          "name": "List, Johann-Mattis",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/utoaztecan/tree/v1.4"
+    },
+    {
+      "id": 14614178,
+      "doi": "10.5281/zenodo.14614178",
+      "conceptid": "4309140",
+      "conceptdoi": "10.5281/zenodo.4309140",
+      "created": "2025-01-08T07:23:20.098567+00:00",
+      "updated": "2025-01-08T07:23:20.249425+00:00",
+      "modified": "2025-01-08T07:23:20.249425+00:00",
+      "title": "Vanuatu Voices",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lana Takau, Mary Walworth, Aviva Shimelman, Sandrine Bessis, Tom Ennever, Iveth Rodriguez, Hans-J\u00f6rg Bibiko, Daria D\u00ebrmaku, Murray Garde, Marie-France Duhamel, Giovanni Abete, Laura W\u00e4gerle, Kaitip W. Kami, Russell Gray. 2024. Vanuatu Voices.</p>\n</blockquote>",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2025-01-08",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Lana Takau"
+        },
+        {
+          "name": "Mary Walworth"
+        },
+        {
+          "name": "Aviva Shimelman"
+        },
+        {
+          "name": "Sandrine Bessis"
+        },
+        {
+          "name": "Tom Ennever"
+        },
+        {
+          "name": "Iveth Rodriguez"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        },
+        {
+          "name": "Daria D\u00ebrmaku"
+        },
+        {
+          "name": "Murray Garde"
+        },
+        {
+          "name": "Marie-France Duhamel"
+        },
+        {
+          "name": "Giovanni Abete"
+        },
+        {
+          "name": "Laura W\u00e4gerle"
+        },
+        {
+          "name": "Kaitip W. Kami"
+        },
+        {
+          "name": "Russell Gray"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/vanuatuvoices-v1.3.zip",
+          "checksum": "md5:ed350ce064d35f5d0efdc649da13ece8",
+          "url": "https://zenodo.org/api/records/14614178/files/lexibank/vanuatuvoices-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        },
+        {
+          "name": "Tihomir Rangelov",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/vanuatuvoices/tree/v1.3"
+    },
+    {
+      "id": 14614177,
+      "doi": "10.5281/zenodo.14614177",
+      "conceptid": "14506168",
+      "conceptdoi": "10.5281/zenodo.14506168",
+      "created": "2025-01-08T07:23:18.984751+00:00",
+      "updated": "2025-01-08T07:23:19.072408+00:00",
+      "modified": "2025-01-08T07:23:19.072408+00:00",
+      "title": "CLDF dataset derived from Robbeets et al.'s \"Triangulation of Transeurasian Languages\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Robbeets, M., Bouckaert, R., Conte, M. et al. Triangulation supports agricultural spread of the Transeurasian languages. Nature 599, 616\u2013621 (2021). https://doi.org/10.1038/s41586-021-04108-8</p>\n</blockquote>",
+      "version": "v0.3",
+      "access_right": "open",
+      "publication_date": "2025-01-08",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Martine Robbeets"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/robbeetstriangulation-v0.3.zip",
+          "checksum": "md5:9f70faffe6f34ffec125fce4fb707e0a",
+          "url": "https://zenodo.org/api/records/14614177/files/lexibank/robbeetstriangulation-v0.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/lexibank/robbeetstriangulation/tree/v0.3"
+    },
+    {
+      "id": 14610312,
+      "doi": "10.5281/zenodo.14610312",
+      "conceptid": "4350690",
+      "conceptdoi": "10.5281/zenodo.4350690",
+      "created": "2025-01-07T16:06:23.157910+00:00",
+      "updated": "2025-01-07T16:06:23.266513+00:00",
+      "modified": "2025-01-07T16:06:23.266513+00:00",
+      "title": "Papuan Voices",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Yusuf Sawaki, Jeanete Lekeneny, Apriani Arilaha, Jimmi Kirihio, Emanuel Tutorop, Boas Wabia, Infak Mayor, Simon Tabuni, Stevani Karesina, Paul Heggarty, Darja D\u00ebrmaku-Appelganz (2020). Papuan Voices.</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2025-01-07",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Yusuf Sawaki"
+        },
+        {
+          "name": "Jeanete Lekeneny"
+        },
+        {
+          "name": "Apriani Arilaha"
+        },
+        {
+          "name": "Jimmi Kirihio"
+        },
+        {
+          "name": "Emanuel Tutorop"
+        },
+        {
+          "name": "Boas Wabia"
+        },
+        {
+          "name": "Infak Mayor"
+        },
+        {
+          "name": "Simon Tabuni"
+        },
+        {
+          "name": "Stevani Karesina"
+        },
+        {
+          "name": "Paul Heggarty"
+        },
+        {
+          "name": "Darja D\u00ebrmaku-Appelganz"
+        },
+        {
+          "name": "Russell Gray"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/papuanvoices-v1.2.zip",
+          "checksum": "md5:70972dc9ff0490bc9c25c9a216b2a4d9",
+          "url": "https://zenodo.org/api/records/14610312/files/lexibank/papuanvoices-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/papuanvoices/tree/v1.2"
+    },
+    {
+      "id": 14609827,
+      "doi": "10.5281/zenodo.14609827",
+      "conceptid": "4350690",
+      "conceptdoi": "10.5281/zenodo.4350690",
+      "created": "2025-01-07T14:22:33.612533+00:00",
+      "updated": "2025-01-07T14:22:33.735887+00:00",
+      "modified": "2025-01-07T14:22:33.735887+00:00",
+      "title": "Papuan Voices",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Yusuf Sawaki, Jeanete Lekeneny, Apriani Arilaha, Jimmi Kirihio, Emanuel Tutorop, Boas Wabia, Infak Mayor, Simon Tabuni, Stevani Karesina, Paul Heggarty, Darja D\u00ebrmaku-Appelganz (2020). Papuan Voices.</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2025-01-07",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Yusuf Sawaki"
+        },
+        {
+          "name": "Jeanete Lekeneny"
+        },
+        {
+          "name": "Apriani Arilaha"
+        },
+        {
+          "name": "Jimmi Kirihio"
+        },
+        {
+          "name": "Emanuel Tutorop"
+        },
+        {
+          "name": "Boas Wabia"
+        },
+        {
+          "name": "Infak Mayor"
+        },
+        {
+          "name": "Simon Tabuni"
+        },
+        {
+          "name": "Stevani Karesina"
+        },
+        {
+          "name": "Paul Heggarty"
+        },
+        {
+          "name": "Darja D\u00ebrmaku-Appelganz"
+        },
+        {
+          "name": "Russell Gray"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/papuanvoices-v1.2.zip",
+          "checksum": "md5:70972dc9ff0490bc9c25c9a216b2a4d9",
+          "url": "https://zenodo.org/api/records/14609827/files/lexibank/papuanvoices-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/papuanvoices/tree/v1.2"
+    },
+    {
+      "id": 14608975,
+      "doi": "10.5281/zenodo.14608975",
+      "conceptid": "7737547",
+      "conceptdoi": "10.5281/zenodo.7737547",
+      "created": "2025-01-07T11:21:49.744072+00:00",
+      "updated": "2025-01-07T11:21:49.886576+00:00",
+      "modified": "2025-01-07T11:21:49.886576+00:00",
+      "title": "Austronesian Comparative Dictionary",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Robert Blust and Stephen Trussel 2020. The Austronesian Comparative Dictionary. Web edition</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2025-01-07",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Robert Blust"
+        },
+        {
+          "name": "Stephen Trussel"
+        },
+        {
+          "name": "Robert Forkel"
+        },
+        {
+          "name": "Alexander D. Smith"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/acd-v2.0.zip",
+          "checksum": "md5:e867ce81354cf82370d2a4fa147f7f5b",
+          "url": "https://zenodo.org/api/records/14608975/files/lexibank/acd-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/acd/tree/v2.0"
+    },
+    {
+      "id": 14608119,
+      "doi": "10.5281/zenodo.14608119",
+      "conceptid": "7973419",
+      "conceptdoi": "10.5281/zenodo.7973419",
+      "created": "2025-01-07T08:23:20.020019+00:00",
+      "updated": "2025-01-07T10:23:54.025667+00:00",
+      "modified": "2025-01-07T10:23:54.025667+00:00",
+      "title": "CLDF Dataset derived from Bender et al. 2003 \"Proto-Micronesian Reconstructions\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n<blockquote>\n<p>Byron W. Bender, Ward H. Goodenough, Frederick H. Jackson, Jeffrey C. Marck, Kenneth L. Rehg, Ho-min Sohn, Stephen Trussel, and Judith W. Wang. 2003. Proto-Micronesian Reconstructions&mdash;1. Oceanic Linguistics Vol. 42(1),&nbsp;1-110, DOI: 10.2307/3623449</p>\n<p>Byron W. Bender, Ward H. Goodenough, Frederick H. Jackson, Jeffrey C. Marck, Kenneth L. Rehg, Ho-min Sohn, Stephen Trussel, and Judith W. Wang. 2003. Proto-Micronesian Reconstructions&mdash;2. Oceanic Linguistics Vol. 42(2), 271-358, DOI: 10.2307/3623243</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2025-01-07",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Byron W. Bender"
+        },
+        {
+          "name": "Ward H. Goodenough"
+        },
+        {
+          "name": "Frederick H. Jackson"
+        },
+        {
+          "name": "Jeffrey C. Marck"
+        },
+        {
+          "name": "Kenneth L. Rehg"
+        },
+        {
+          "name": "Ho-min Sohn"
+        },
+        {
+          "name": "Stephen Trussel"
+        },
+        {
+          "name": "Judith W. Wang"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/mcd-v2.0.zip",
+          "checksum": "md5:e6814a687f1201c9a3ca0002f8b05f63",
+          "url": "https://zenodo.org/api/records/14608119/files/lexibank/mcd-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        },
+        {
+          "name": "Lev Blumenfeld",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Lev Blumenfeld",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/mcd/tree/v2.0"
+    },
+    {
+      "id": 14602182,
+      "doi": "10.5281/zenodo.14602182",
+      "conceptid": "4309140",
+      "conceptdoi": "10.5281/zenodo.4309140",
+      "created": "2025-01-05T19:31:34.168278+00:00",
+      "updated": "2025-01-05T19:31:34.345172+00:00",
+      "modified": "2025-01-05T19:31:34.345172+00:00",
+      "title": "Vanuatu Voices",
+      "description": "Sound-Comparisons Vanuatu",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Lana Takau"
+        },
+        {
+          "name": "Mary Walworth"
+        },
+        {
+          "name": "Aviva Shimelman"
+        },
+        {
+          "name": "Sandrine Bessis"
+        },
+        {
+          "name": "Tom Ennever"
+        },
+        {
+          "name": "Iveth Rodriguez"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        },
+        {
+          "name": "Daria D\u00ebrmaku"
+        },
+        {
+          "name": "Murray Garde"
+        },
+        {
+          "name": "Marie-France Duhamel"
+        },
+        {
+          "name": "Giovanni Abete"
+        },
+        {
+          "name": "Laura W\u00e4gerle"
+        },
+        {
+          "name": "Kaitip W. Kami"
+        },
+        {
+          "name": "Russell Gray"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/vanuatuvoices-v1.2.zip",
+          "checksum": "md5:c1d802514466dccff5c639fbbdedd81f",
+          "url": "https://zenodo.org/api/records/14602182/files/lexibank/vanuatuvoices-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        },
+        {
+          "name": "Tihomir Rangelov",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/vanuatuvoices/tree/v1.2"
+    },
+    {
+      "id": 14602173,
+      "doi": "10.5281/zenodo.14602173",
+      "conceptid": "10016899",
+      "conceptdoi": "10.5281/zenodo.10016899",
+      "created": "2025-01-05T19:29:27.323519+00:00",
+      "updated": "2025-01-05T19:29:27.421156+00:00",
+      "modified": "2025-01-05T19:29:27.421156+00:00",
+      "title": "CLDF dataset derived from Barlow and Killian's \"Tomoip Wordlist\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Barlow, Russell &amp; Killian, Don. 2023. Tomoip wordlist: Based on elicitation sessions with Simon Mangil from Milim village, recorded in Kokopo, East New Britain, October to November 2022. https://doi.org/10.5281/zenodo.8435080</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        },
+        {
+          "name": "Don Killian"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/barlowkilliantomoip-v1.2.zip",
+          "checksum": "md5:1ab94ea576e02633c980f58a9bc42c59",
+          "url": "https://zenodo.org/api/records/14602173/files/lexibank/barlowkilliantomoip-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/barlowkilliantomoip/tree/v1.2"
+    },
+    {
+      "id": 14602162,
+      "doi": "10.5281/zenodo.14602162",
+      "conceptid": "10016899",
+      "conceptdoi": "10.5281/zenodo.10016899",
+      "created": "2025-01-05T19:26:25.313277+00:00",
+      "updated": "2025-01-05T19:26:25.399702+00:00",
+      "modified": "2025-01-05T19:26:25.399702+00:00",
+      "title": "CLDF dataset derived from Barlow and Killian's \"Tomoip Wordlist\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Barlow, Russell &amp; Killian, Don. 2023. Tomoip wordlist: Based on elicitation sessions with Simon Mangil from Milim village, recorded in Kokopo, East New Britain, October to November 2022. https://doi.org/10.5281/zenodo.8435080</p>\n</blockquote>",
+      "version": "v1.3.0",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        },
+        {
+          "name": "Don Killian"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/barlowkilliantomoip-v1.3.0.zip",
+          "checksum": "md5:ea80be16504695a08e882dd9275f82fe",
+          "url": "https://zenodo.org/api/records/14602162/files/lexibank/barlowkilliantomoip-v1.3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/barlowkilliantomoip/tree/v1.3.0"
+    },
+    {
+      "id": 14602159,
+      "doi": "10.5281/zenodo.14602159",
+      "conceptid": "10016899",
+      "conceptdoi": "10.5281/zenodo.10016899",
+      "created": "2025-01-05T19:23:30.862895+00:00",
+      "updated": "2025-01-05T19:23:30.997597+00:00",
+      "modified": "2025-01-05T19:23:30.997597+00:00",
+      "title": "CLDF dataset derived from Barlow and Killian's \"Tomoip Wordlist\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Barlow, Russell &amp; Killian, Don. 2023. Tomoip wordlist: Based on elicitation sessions with Simon Mangil from Milim village, recorded in Kokopo, East New Britain, October to November 2022. https://doi.org/10.5281/zenodo.8435080</p>\n</blockquote>",
+      "version": "v1.0.3",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        },
+        {
+          "name": "Don Killian"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/barlowkilliantomoip-v1.0.3.zip",
+          "checksum": "md5:1ab94ea576e02633c980f58a9bc42c59",
+          "url": "https://zenodo.org/api/records/14602159/files/lexibank/barlowkilliantomoip-v1.0.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/barlowkilliantomoip/tree/v1.0.3"
+    },
+    {
+      "id": 14602150,
+      "doi": "10.5281/zenodo.14602150",
+      "conceptid": "10016899",
+      "conceptdoi": "10.5281/zenodo.10016899",
+      "created": "2025-01-05T19:19:23.323164+00:00",
+      "updated": "2025-01-05T19:19:23.435148+00:00",
+      "modified": "2025-01-05T19:19:23.435148+00:00",
+      "title": "CLDF dataset derived from Barlow and Killian's \"Tomoip Wordlist\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Barlow, Russell &amp; Killian, Don. 2023. Tomoip wordlist: Based on elicitation sessions with Simon Mangil from Milim village, recorded in Kokopo, East New Britain, October to November 2022. https://doi.org/10.5281/zenodo.8435080</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        },
+        {
+          "name": "Don Killian"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/barlowkilliantomoip-v1.1.zip",
+          "checksum": "md5:37d77a6478f8691f4b114f6854221ec8",
+          "url": "https://zenodo.org/api/records/14602150/files/lexibank/barlowkilliantomoip-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/barlowkilliantomoip/tree/v1.1"
+    },
+    {
+      "id": 14602137,
+      "doi": "10.5281/zenodo.14602137",
+      "conceptid": "4691101",
+      "conceptdoi": "10.5281/zenodo.4691101",
+      "created": "2025-01-05T19:10:19.349018+00:00",
+      "updated": "2025-01-05T19:10:19.459640+00:00",
+      "modified": "2025-01-05T19:10:19.459640+00:00",
+      "title": "CLDF Dataset accompanying Greenhill et al.'s \"Origin of Uto-Aztecan\" from 2022",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Greenhill, Simon J., Hannah J. Haynie, Robert M. Ross, Angela M. Chira, List, Johann-Mattis, Lyle Campbell, Carlos A. Botero, and Russell D. Gray (2022): A recent northern origin for the Uto-Aztecan family. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Greenhill, Simon J."
+        },
+        {
+          "name": "Hannah J. Haynie"
+        },
+        {
+          "name": "Robert M. Ross"
+        },
+        {
+          "name": "Angela M. Chira"
+        },
+        {
+          "name": "List, Johann-Mattis"
+        },
+        {
+          "name": "Lyle Campbell"
+        },
+        {
+          "name": "Carlos A. Botero"
+        },
+        {
+          "name": "Russell D. Gray"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/utoaztecan-v1.3.zip",
+          "checksum": "md5:094d24954208c06111221a5676ac3253",
+          "url": "https://zenodo.org/api/records/14602137/files/lexibank/utoaztecan-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Greenhill, Simon J.",
+          "type": "Editor"
+        },
+        {
+          "name": "List, Johann-Mattis",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/utoaztecan/tree/v1.3"
+    },
+    {
+      "id": 14602119,
+      "doi": "10.5281/zenodo.14602119",
+      "conceptid": "5126889",
+      "conceptdoi": "10.5281/zenodo.5126889",
+      "created": "2025-01-05T18:58:45.775112+00:00",
+      "updated": "2025-01-05T18:58:45.992293+00:00",
+      "modified": "2025-01-05T18:58:45.992293+00:00",
+      "title": "CLDF dataset derived from Lee and Hasegawa's \"Evolution of the Ainu Language in Space and Time\" from 2013",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee Sean, Hasegawa Toshikazu (2013). Evolution of the Ainu Language in Space and Time. PLOS ONE 8(4): e62243. https://doi.org/10.1371/journal.pone.0062243</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lee, Sean"
+        },
+        {
+          "name": "Hasegawa, Toshikazu"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/leeainu-v1.2.zip",
+          "checksum": "md5:60eee1df101038df8e02c13332887417",
+          "url": "https://zenodo.org/api/records/14602119/files/lexibank/leeainu-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/leeainu/tree/v1.2"
+    },
+    {
+      "id": 14602106,
+      "doi": "10.5281/zenodo.14602106",
+      "conceptid": "13269802",
+      "conceptdoi": "10.5281/zenodo.13269802",
+      "created": "2025-01-05T18:54:39.956626+00:00",
+      "updated": "2025-01-05T18:54:40.060196+00:00",
+      "modified": "2025-01-05T18:54:40.060196+00:00",
+      "title": "CLDF dataset derived from Ugarte et al.'s \"NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru (forthcoming).",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Ugarte, Carlos and Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Pe\u00f1a, Jaime. Forthcoming. NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru.</p>\n</blockquote>",
+      "version": "v0.2",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Carlos Ugarte"
+        },
+        {
+          "name": "Frederic Blum"
+        },
+        {
+          "name": "Adriano Ingunza"
+        },
+        {
+          "name": "Rosa Gonzales"
+        },
+        {
+          "name": "Jaime Pe\u00f1a"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/northperulex-v0.2.zip",
+          "checksum": "md5:86c92e315f223ff02ce61dc2883a22e3",
+          "url": "https://zenodo.org/api/records/14602106/files/lexibank/northperulex-v0.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Carlos Ugarte",
+          "type": "Editor"
+        },
+        {
+          "name": "Frederic Blum",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/northperulex/tree/v0.2"
+    },
+    {
+      "id": 14601765,
+      "doi": "10.5281/zenodo.14601765",
+      "conceptid": "4350690",
+      "conceptdoi": "10.5281/zenodo.4350690",
+      "created": "2025-01-05T15:52:03.501831+00:00",
+      "updated": "2025-01-05T15:52:03.684456+00:00",
+      "modified": "2025-01-05T15:52:03.684456+00:00",
+      "title": "Papuan Voices",
+      "description": "No description provided.",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Yusuf Sawaki"
+        },
+        {
+          "name": "Jeanete Lekeneny"
+        },
+        {
+          "name": "Apriani Arilaha"
+        },
+        {
+          "name": "Jimmi Kirihio"
+        },
+        {
+          "name": "Emanuel Tutorop"
+        },
+        {
+          "name": "Boas Wabia"
+        },
+        {
+          "name": "Infak Mayor"
+        },
+        {
+          "name": "Simon Tabuni"
+        },
+        {
+          "name": "Stevani Karesina"
+        },
+        {
+          "name": "Paul Heggarty"
+        },
+        {
+          "name": "Darja D\u00ebrmaku-Appelganz"
+        },
+        {
+          "name": "Russell Gray"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/papuanvoices-v1.1.zip",
+          "checksum": "md5:7c8c524fe7423b79f7aad438cf1ac066",
+          "url": "https://zenodo.org/api/records/14601765/files/lexibank/papuanvoices-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/papuanvoices/tree/v1.1"
+    },
+    {
+      "id": 14601745,
+      "doi": "10.5281/zenodo.14601745",
+      "conceptid": "14601744",
+      "conceptdoi": "10.5281/zenodo.14601744",
+      "created": "2025-01-05T15:42:09.501866+00:00",
+      "updated": "2025-01-05T15:42:09.621403+00:00",
+      "modified": "2025-01-05T15:42:09.621403+00:00",
+      "title": "CLDF dataset derived from Berry and Berry's \"Survey of some West Papuan phylum languages\" from 1987",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Berry, Christine and Berry, Keith (1987): A survey of some West Papuan Phylum languages. Workpapers in Indonesian Languages and Cultures. 4. 25-80. https://www.sil.org/resources/archives/37738</p>\n</blockquote>",
+      "version": "v0.1",
+      "access_right": "open",
+      "publication_date": "2025-01-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Berry, Christine"
+        },
+        {
+          "name": "Berry, Keith"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/berrywestpapuan-v0.1.zip",
+          "checksum": "md5:cc2c9c7e7cf18d631f7e0b5d57321448",
+          "url": "https://zenodo.org/api/records/14601745/files/lexibank/berrywestpapuan-v0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "David Kamholz",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Anne van Schie",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Allahverdi Verdizade",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Maria Zielenbach",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Antoinette Schapper",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/berrywestpapuan/tree/v0.1"
+    },
+    {
+      "id": 14599868,
+      "doi": "10.5281/zenodo.14599868",
+      "conceptid": "14589544",
+      "conceptdoi": "10.5281/zenodo.14589544",
+      "created": "2025-01-04T20:08:30.361471+00:00",
+      "updated": "2025-01-04T20:08:30.444941+00:00",
+      "modified": "2025-01-04T20:08:30.444941+00:00",
+      "title": "CLDF dataset derived from Douanla Taffre's \"\u00c9tude comparative des dialectes du nda'nda'\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Douanla Taffre, Ang\u00e8le Vanessa. Etude comparative du point de vue lexicostatistique et morphologique des dialectes du nda'nda'. MA thesis. University of Yaounde 1.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-01-04",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Ang\u00e8le Taffre"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "kpaam-cam/ndanda-v1.1.zip",
+          "checksum": "md5:f1c52812f28f5e95fb8bb59c414bc5a2",
+          "url": "https://zenodo.org/api/records/14599868/files/kpaam-cam/ndanda-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Abbie Hantgan",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/kpaam-cam/ndanda/tree/v1.1"
+    },
+    {
+      "id": 14597363,
+      "doi": "10.5281/zenodo.14597363",
+      "conceptid": "8169352",
+      "conceptdoi": "10.5281/zenodo.8169352",
+      "created": "2025-01-03T20:56:21.208244+00:00",
+      "updated": "2025-01-03T20:56:21.408944+00:00",
+      "modified": "2025-01-03T20:56:21.408944+00:00",
+      "title": "CLDF dataset derived from Liu et al.'s \"Comparative Wordlist of Newari Varieties\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Liu, Zhenyang; Jacques, Guillaume; List, Johann-Mattis (2023): Creating a Standardized Comparative Wordlist of Newari Varieties. (26/07/2023), URL: https://calc.hypotheses.org/6269.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-01-03",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Zhenyang Liu"
+        },
+        {
+          "name": "Guillaume Jacques"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/liunewari-v1.1.zip",
+          "checksum": "md5:920996f77b1b12ddae0d9663a38b1aaf",
+          "url": "https://zenodo.org/api/records/14597363/files/lexibank/liunewari-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/lexibank/liunewari/tree/v1.1"
+    },
+    {
+      "id": 14591833,
+      "doi": "10.5281/zenodo.14591833",
+      "conceptid": "5596346",
+      "conceptdoi": "10.5281/zenodo.5596346",
+      "created": "2025-01-03T11:25:49.875834+00:00",
+      "updated": "2025-01-03T11:25:50.027843+00:00",
+      "modified": "2025-01-03T11:25:50.027843+00:00",
+      "title": "CLDF dataset derived from Barlow's \"Numerals of the Pacific\" from 2025",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Barlow, Russell (ed.). 2025. Numerals of the Pacific: A collection of numeral terms in Austronesian and Papuan languages.</p>\n</blockquote>",
+      "version": "v1.7",
+      "access_right": "open",
+      "publication_date": "2025-01-03",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/barlowpacific-v1.7.zip",
+          "checksum": "md5:1e30fdacc151133815f5ac5fd6e80bcb",
+          "url": "https://zenodo.org/api/records/14591833/files/numeralbank/barlowpacific-v1.7.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/numeralbank/barlowpacific/tree/v1.7"
+    },
+    {
+      "id": 14591604,
+      "doi": "10.5281/zenodo.14591604",
+      "conceptid": "14505729",
+      "conceptdoi": "10.5281/zenodo.14505729",
+      "created": "2025-01-03T10:25:06.131859+00:00",
+      "updated": "2025-01-03T10:25:06.287452+00:00",
+      "modified": "2025-01-03T10:25:06.287452+00:00",
+      "title": "CLDF dataset derived from Barlow's \"Lote Wordlist\" from 2025",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Barlow, Russell. 2025. Lote wordlist: Based on elicitation sessions with Leo Lang from Uvol village, recorded in Kokopo, East New Britain, November 2022. https://doi.org/10.5281/zenodo.14505729.</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-01-03",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/barlowlote-v1.1.zip",
+          "checksum": "md5:b4efd6870fad8ea6f7dcef105da24039",
+          "url": "https://zenodo.org/api/records/14591604/files/lexibank/barlowlote-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/barlowlote/tree/v1.1"
+    },
+    {
+      "id": 14506169,
+      "doi": "10.5281/zenodo.14506169",
+      "conceptid": "14506168",
+      "conceptdoi": "10.5281/zenodo.14506168",
+      "created": "2024-12-17T10:52:56.543999+00:00",
+      "updated": "2024-12-17T10:52:56.698541+00:00",
+      "modified": "2024-12-17T10:52:56.698541+00:00",
+      "title": "CLDF dataset derived from Robbeets et al.'s \"Triangulation of Transeurasian Languages\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Robbeets, M., Bouckaert, R., Conte, M. et al. Triangulation supports agricultural spread of the Transeurasian languages. Nature 599, 616\u2013621 (2021). https://doi.org/10.1038/s41586-021-04108-8</p>\n</blockquote>",
+      "version": "v0.2",
+      "access_right": "open",
+      "publication_date": "2024-12-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Martine Robbeets"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/robbeetstriangulation-v0.2.zip",
+          "checksum": "md5:7badd90be5508fa2edf795f669f2baa0",
+          "url": "https://zenodo.org/api/records/14506169/files/lexibank/robbeetstriangulation-v0.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/lexibank/robbeetstriangulation/tree/v0.2"
+    },
+    {
+      "id": 14505927,
+      "doi": "10.5281/zenodo.14505927",
+      "conceptid": "4280595",
+      "conceptdoi": "10.5281/zenodo.4280595",
+      "created": "2024-12-17T10:22:12.199355+00:00",
+      "updated": "2024-12-17T10:22:12.369671+00:00",
+      "modified": "2024-12-17T10:22:12.369671+00:00",
+      "title": "Maltese IDS wordlist by Michael Spagnol and Bernard Comrie",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Michael Spagnol and Bernard Comrie. 2020. Maltese dictionary. In: Key, Mary Ritchie &amp; Comrie, Bernard (eds.) The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://ids.clld.org/)</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2024-12-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Michael Spagnol"
+        },
+        {
+          "name": "Bernard Comrie"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "intercontinental-dictionary-series/spagnolmaltese-v1.1.zip",
+          "checksum": "md5:02de6d2a422c653e90cfa1cf9467d917",
+          "url": "https://zenodo.org/api/records/14505927/files/intercontinental-dictionary-series/spagnolmaltese-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Michael Spagnol",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        },
+        {
+          "name": "Jessica Nieder",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/intercontinental-dictionary-series/spagnolmaltese/tree/v1.1"
+    },
+    {
+      "id": 14505730,
+      "doi": "10.5281/zenodo.14505730",
+      "conceptid": "14505729",
+      "conceptdoi": "10.5281/zenodo.14505729",
+      "created": "2024-12-17T09:44:14.800374+00:00",
+      "updated": "2024-12-17T09:47:10.174497+00:00",
+      "modified": "2024-12-17T09:47:10.174497+00:00",
+      "title": "CLDF dataset derived from Barlow's \"Lote Wordlist\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n<blockquote>\n<p>Barlow, Russell. 2024. Lote wordlist: Based on elicitation sessions with Leo Lang from Uvol village, recorded in Kokopo, East New Britain, November 2022. <a href=\"https://doi.org/10.5281/zenodo.14505729\" rel=\"nofollow\">https://doi.org/10.5281/zenodo.14505729</a>.</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2024-12-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/barlowlote-v1.0.zip",
+          "checksum": "md5:6ab61dea8ef234e4a34086d3ed6c482b",
+          "url": "https://zenodo.org/api/records/14505730/files/lexibank/barlowlote-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/barlowlote/tree/v1.0"
+    },
+    {
+      "id": 14281745,
+      "doi": "10.5281/zenodo.14281745",
+      "conceptid": "13889023",
+      "conceptdoi": "10.5281/zenodo.13889023",
+      "created": "2024-12-05T10:27:33.276457+00:00",
+      "updated": "2024-12-05T10:27:33.393074+00:00",
+      "modified": "2024-12-05T10:27:33.393074+00:00",
+      "title": "CLDF dataset with data and supplements for Barlow \"Loss of colexification of 'hand' and 'five' in Austronesian languages\"",
+      "description": "CLDF dataset with data and supplements for Barlow \"Loss of colexification of 'hand' and 'five' in Austronesian languages\"",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2024-12-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/barlowhandandfive-v1.2.zip",
+          "checksum": "md5:fdd84f382da1fc1651287a7cd2869b54",
+          "url": "https://zenodo.org/api/records/14281745/files/cldf-datasets/barlowhandandfive-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/cldf-datasets/barlowhandandfive/tree/v1.2"
+    },
+    {
+      "id": 14162587,
+      "doi": "10.5281/zenodo.14162587",
+      "conceptid": "2634949",
+      "conceptdoi": "10.5281/zenodo.2634949",
+      "created": "2024-11-14T12:43:17.514013+00:00",
+      "updated": "2024-11-14T12:43:17.783258+00:00",
+      "modified": "2024-11-14T12:43:17.783258+00:00",
+      "title": "CLDF dataset derived from Greenhill's \"TransNewGuinea.org\" from 2015",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Greenhill, Simon J. (2015): TransNewGuinea.org: An Online Database of New Guinea Languages. PLoS ONE 10.10: e0141563.</p>\n</blockquote>",
+      "version": "v3.2",
+      "access_right": "open",
+      "publication_date": "2024-11-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/transnewguineaorg-v3.2.zip",
+          "checksum": "md5:834f051f293e8d6780d6a5fe3ab0e860",
+          "url": "https://zenodo.org/api/records/14162587/files/lexibank/transnewguineaorg-v3.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Other"
+        },
+        {
+          "name": "Tiago Tresoldi",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/transnewguineaorg/tree/v3.2"
+    },
+    {
+      "id": 14044192,
+      "doi": "10.5281/zenodo.14044192",
+      "conceptid": "7371911",
+      "conceptdoi": "10.5281/zenodo.7371911",
+      "created": "2024-11-06T08:32:19.286433+00:00",
+      "updated": "2024-11-06T08:32:19.406052+00:00",
+      "modified": "2024-11-06T08:32:19.406052+00:00",
+      "title": "IMTVault",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kr\u00e4mer, Thomas, and Sebastian Nordhoff. 2022. &quot;IMTVault: Extracting and Enriching Low-resource Language Interlinear Glossed Text from Grammatical Descriptions and Typological Survey Articles: Proceedings of The 8th Workshop on Linked Data in Linguistics within the 13th Language Resources and Evaluation Conference.&quot; 13th Language Resources and Evaluation Conference lREC 2022, LREC 2022, Marseille, 24.06.2022.</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2024-11-06",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Sebastian Nordhoff"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/imtvault-v1.2.zip",
+          "checksum": "md5:3eb496ef61492bbdb593964fae39bc89",
+          "url": "https://zenodo.org/api/records/14044192/files/cldf-datasets/imtvault-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/cldf-datasets/imtvault/tree/v1.2"
+    },
+    {
+      "id": 14024635,
+      "doi": "10.5281/zenodo.14024635",
+      "conceptid": "3451856",
+      "conceptdoi": "10.5281/zenodo.3451856",
+      "created": "2024-11-01T11:29:39.836894+00:00",
+      "updated": "2024-11-01T11:29:40.085051+00:00",
+      "modified": "2024-11-01T11:29:40.085051+00:00",
+      "title": "dictionaria/diidxaza: La Ventosa Diidxaz\u00e1 Lexico-Botanical Dictionary",
+      "description": "P\u00e9rez B\u00e1ez, Gabriela and Kaufman, Terrence. 2018. La Ventosa Diidxaz\u00e1 Lexico-Botanical Dictionary. Dictionaria 5. 1-952 (Available online at https://dictionaria.clld.org/contributions/diidxaza)",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2024-11-01",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Gabriela P\u00e9rez B\u00e1ez"
+        },
+        {
+          "name": "Terrence Kaufman"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "dictionaria/diidxaza-v1.3.zip",
+          "checksum": "md5:2a231076113d3d9e1b20b39e0723bcb3",
+          "url": "https://zenodo.org/api/records/14024635/files/dictionaria/diidxaza-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Dictionary",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.3"
+    },
+    {
+      "id": 14001762,
+      "doi": "10.5281/zenodo.14001762",
+      "conceptid": "7866795",
+      "conceptdoi": "10.5281/zenodo.7866795",
+      "created": "2024-10-28T12:24:16.178089+00:00",
+      "updated": "2024-10-28T12:24:16.325814+00:00",
+      "modified": "2024-10-28T12:24:16.325814+00:00",
+      "title": "CLDF dataset derived from Lai and List's \"Comparison of Rgyalrongic Languages\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lai, Yunfan and List, Johann-Mattis (2023): Lexical Data for the Historical Comparison of Rgyalrongic Languages [Dataset, Version 1.0]. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+      "version": "v0.4",
+      "access_right": "open",
+      "publication_date": "2024-10-28",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Yunfan Lai"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/lairgyalrong-v0.4.zip",
+          "checksum": "md5:a565b0f64fb1cf76532c359ca74cf13e",
+          "url": "https://zenodo.org/api/records/14001762/files/lexibank/lairgyalrong-v0.4.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/lairgyalrong/tree/v0.4"
+    },
+    {
+      "id": 14001750,
+      "doi": "10.5281/zenodo.14001750",
+      "conceptid": "5127130",
+      "conceptdoi": "10.5281/zenodo.5127130",
+      "created": "2024-10-28T12:22:59.982683+00:00",
+      "updated": "2024-10-28T12:23:00.089396+00:00",
+      "modified": "2024-10-28T12:23:00.089396+00:00",
+      "title": "CLDF dataset derived from the Johansson et al.'s \"The typology of sound symbolism\" from 2020",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Erben Johansson, N., Anikin, A., Carling, G., &amp; Holmer, A. (2020). The typology of sound symbolism: Defining macro-concepts via their semantic and phonetic features, Linguistic Typology , 24(2), 253-310. doi: https://doi.org/10.1515/lingty-2020-2034</p>\n</blockquote>",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2024-10-28",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Niklas Erben Johansson"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/johanssonsoundsymbolic-v1.3.zip",
+          "checksum": "md5:b41e5fbc4a1fbaed4ee96e6c6cf961b5",
+          "url": "https://zenodo.org/api/records/14001750/files/lexibank/johanssonsoundsymbolic-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Sacha Beniamine",
+          "type": "Other"
+        },
+        {
+          "name": "Kristina Pianykh",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/johanssonsoundsymbolic/tree/v1.3"
+    },
+    {
+      "id": 14001737,
+      "doi": "10.5281/zenodo.14001737",
+      "conceptid": "5127130",
+      "conceptdoi": "10.5281/zenodo.5127130",
+      "created": "2024-10-28T12:22:05.437446+00:00",
+      "updated": "2024-10-28T12:22:05.545317+00:00",
+      "modified": "2024-10-28T12:22:05.545317+00:00",
+      "title": "CLDF dataset derived from the Johansson et al.'s \"The typology of sound symbolism\" from 2020",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Erben Johansson, N., Anikin, A., Carling, G., &amp; Holmer, A. (2020). The typology of sound symbolism: Defining macro-concepts via their semantic and phonetic features, Linguistic Typology , 24(2), 253-310. doi: https://doi.org/10.1515/lingty-2020-2034</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2024-10-28",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Niklas Erben Johansson"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/johanssonsoundsymbolic-v1.2.zip",
+          "checksum": "md5:b03373226e98ecc17ecc57b4c218c953",
+          "url": "https://zenodo.org/api/records/14001737/files/lexibank/johanssonsoundsymbolic-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Sacha Beniamine",
+          "type": "Other"
+        },
+        {
+          "name": "Kristina Pianykh",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/johanssonsoundsymbolic/tree/v1.2"
+    },
+    {
+      "id": 14001726,
+      "doi": "10.5281/zenodo.14001726",
+      "conceptid": "5751225",
+      "conceptdoi": "10.5281/zenodo.5751225",
+      "created": "2024-10-28T12:19:58.474298+00:00",
+      "updated": "2024-10-28T12:19:58.616306+00:00",
+      "modified": "2024-10-28T12:19:58.616306+00:00",
+      "title": "CLDF dataset underlying the study \"First steps towards the detection of contact layers in Bangime: a multi-disciplinary, computer-assisted approach\" from 2022",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Hantgan, Abbie and Babiker, Hiba and List, Johann-Mattis (2022): First steps towards the detection of contact layers in Bangime: a multi-disciplinary, computer-assisted approach [version 2; peer review: 2 approved]. Open Research Europe 2022, 2:10.</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2024-10-28",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Abbie Hantgan"
+        },
+        {
+          "name": "Hiba Babiker"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/baf2-v1.2.zip",
+          "checksum": "md5:5e5e0871ca5199be88b59b3cf6d050b8",
+          "url": "https://zenodo.org/api/records/14001726/files/lexibank/baf2-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/baf2/tree/v1.2"
+    },
+    {
+      "id": 14001610,
+      "doi": "10.5281/zenodo.14001610",
+      "conceptid": "7642970",
+      "conceptdoi": "10.5281/zenodo.7642970",
+      "created": "2024-10-28T12:05:34.102004+00:00",
+      "updated": "2024-10-28T12:05:34.245893+00:00",
+      "modified": "2024-10-28T12:05:34.245893+00:00",
+      "title": "CLDF dataset accompanying Auderset et al.'s \"Subgrouping in a dialect continuum\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Auderset, Sandra, Simon J. Greenhill, Christian T. DiCanio, Eric W. Campbell. (2023) &quot;Subgrouping in a `dialect continuum&#x27;: A Bayesian phylogenetic analysis of the Mixtecan language family&quot;. Journal of Language Evolution 8 (1). 33\u2013-63. DOI: https://doi.org/10.1093/jole/lzad004.</p>\n</blockquote>",
+      "version": "v0.4",
+      "access_right": "open",
+      "publication_date": "2024-10-28",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Sandra Auderset"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/mixtecansubgrouping-v0.4.zip",
+          "checksum": "md5:0c47c4f4760905b604d2e3891d07c537",
+          "url": "https://zenodo.org/api/records/14001610/files/lexibank/mixtecansubgrouping-v0.4.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Johannes English",
+          "type": "Editor"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "Editor"
+        },
+        {
+          "name": "Eric W. Campbell",
+          "type": "Other"
+        },
+        {
+          "name": "Christian T. DiCanio",
+          "type": "Other"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/mixtecansubgrouping/tree/v0.4"
+    },
+    {
+      "id": 13950591,
+      "doi": "10.5281/zenodo.13950591",
+      "conceptid": "3606197",
+      "conceptdoi": "10.5281/zenodo.3606197",
+      "created": "2024-10-18T09:56:32.981245+00:00",
+      "updated": "2024-10-18T09:56:33.685774+00:00",
+      "modified": "2024-10-18T09:56:33.685774+00:00",
+      "title": "The World Atlas of Language Structures Online",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dryer, Matthew S. &amp; Haspelmath, Martin (eds.) 2013. The World Atlas of Language Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://wals.info)</p>\n</blockquote>",
+      "version": "v2020.4",
+      "access_right": "open",
+      "publication_date": "2024-10-18",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Matthew Dryer"
+        },
+        {
+          "name": "Martin Haspelmath"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/wals-v2020.4.zip",
+          "checksum": "md5:a855fce200080d18fd27bc5d571b0f56",
+          "url": "https://zenodo.org/api/records/13950591/files/cldf-datasets/wals-v2020.4.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Matthew Dryer",
+          "type": "Editor"
+        },
+        {
+          "name": "Martin Haspelmath",
+          "type": "Editor"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "DataManager"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/wals/tree/v2020.4"
+    },
+    {
+      "id": 13946786,
+      "doi": "10.5281/zenodo.13946786",
+      "conceptid": "7871166",
+      "conceptdoi": "10.5281/zenodo.7871166",
+      "created": "2024-10-17T15:07:42.112682+00:00",
+      "updated": "2024-10-17T15:07:42.249890+00:00",
+      "modified": "2024-10-17T15:07:42.249890+00:00",
+      "title": "The Catalogue of Endangered Languages as CLDF dataset",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Catalogue of Endangered Languages. 2023. University of Hawaii at Manoa. http://www.endangeredlanguages.com</p>\n</blockquote>",
+      "version": "v2024.1",
+      "access_right": "open",
+      "publication_date": "2024-10-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lyle Campbell"
+        },
+        {
+          "name": "Gary Holton"
+        },
+        {
+          "name": "Anna Belew"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/elcat-v2024.1.zip",
+          "checksum": "md5:af194168ab0d0b2f4743c86d3619cddc",
+          "url": "https://zenodo.org/api/records/13946786/files/cldf-datasets/elcat-v2024.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Lyle Campbell",
+          "type": "Editor"
+        },
+        {
+          "name": "Lyle Campbell",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Lyle Campbell",
+          "type": "Researcher"
+        },
+        {
+          "name": "Gary Holton",
+          "type": "ProjectManager"
+        },
+        {
+          "name": "Gary Holton",
+          "type": "Editor"
+        },
+        {
+          "name": "Anna Belew",
+          "type": "Editor"
+        },
+        {
+          "name": "Anna Belew",
+          "type": "ProjectManager"
+        },
+        {
+          "name": "Sean Simpson",
+          "type": "DataCollector"
+        },
+        {
+          "name": "John Van Way",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Amy Brunett",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Jacob Collard",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kristen Dunkinson",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Raina Heaton",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Uliana Kazagasheva",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Huiying Nala Lee",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Lwin Moe",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Eve Okura",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kaori Ueki",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Brent Woo",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Willem F.H. Adelaar",
+          "type": "Researcher"
+        },
+        {
+          "name": "Greg Anderson",
+          "type": "Researcher"
+        },
+        {
+          "name": "I. Wayan Arka",
+          "type": "Researcher"
+        },
+        {
+          "name": "Habib Borjian",
+          "type": "Researcher"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Researcher"
+        },
+        {
+          "name": "David Bradley",
+          "type": "Researcher"
+        },
+        {
+          "name": "Matthias Brenzinger",
+          "type": "Researcher"
+        },
+        {
+          "name": "Charles H\u00e4berl",
+          "type": "Researcher"
+        },
+        {
+          "name": "Alice C. Harris",
+          "type": "Researcher"
+        },
+        {
+          "name": "Juha Janhunen",
+          "type": "Researcher"
+        },
+        {
+          "name": "Brian Joseph",
+          "type": "Researcher"
+        },
+        {
+          "name": "Martin Maiden",
+          "type": "Researcher"
+        },
+        {
+          "name": "Bill Palmer",
+          "type": "Researcher"
+        },
+        {
+          "name": "Keren Rice",
+          "type": "Researcher"
+        },
+        {
+          "name": "David Solnit",
+          "type": "Researcher"
+        },
+        {
+          "name": "George Van Driem",
+          "type": "Researcher"
+        },
+        {
+          "name": "James Woodward",
+          "type": "Researcher"
+        },
+        {
+          "name": "Carolina Aragon",
+          "type": "Other"
+        },
+        {
+          "name": "Katie Butler",
+          "type": "Other"
+        },
+        {
+          "name": "Joelle Kirtley",
+          "type": "Other"
+        },
+        {
+          "name": "Stephanie Locke",
+          "type": "Other"
+        },
+        {
+          "name": "Colleen O'Brien",
+          "type": "Other"
+        },
+        {
+          "name": "Melody Ann Ross-Nathaniel",
+          "type": "Other"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/elcat/tree/v2024.1"
+    },
+    {
+      "id": 13913267,
+      "doi": "10.5281/zenodo.13913267",
+      "conceptid": "13889023",
+      "conceptdoi": "10.5281/zenodo.13889023",
+      "created": "2024-10-10T14:05:28.940674+00:00",
+      "updated": "2024-10-10T14:05:29.105726+00:00",
+      "modified": "2024-10-10T14:05:29.105726+00:00",
+      "title": "CLDF dataset with data and supplements for Barlow \"Loss of colexification of 'hand' and 'five' in Austronesian languages\"",
+      "description": "CLDF dataset with data and supplements for Barlow \"Loss of colexification of 'hand' and 'five' in Austronesian languages\"",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2024-10-10",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        },
+        {
+          "name": "Robert Forkel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/barlowhandandfive-v1.1.zip",
+          "checksum": "md5:fb28cdbb215076ee7cbe3725b12382cb",
+          "url": "https://zenodo.org/api/records/13913267/files/cldf-datasets/barlowhandandfive-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/cldf-datasets/barlowhandandfive/tree/v1.1"
+    },
+    {
+      "id": 13889024,
+      "doi": "10.5281/zenodo.13889024",
+      "conceptid": "13889023",
+      "conceptdoi": "10.5281/zenodo.13889023",
+      "created": "2024-10-04T07:17:54.567516+00:00",
+      "updated": "2024-10-04T07:17:54.685495+00:00",
+      "modified": "2024-10-04T07:17:54.685495+00:00",
+      "title": "CLDF dataset with data and supplements for Barlow 'Loss of colexification of 'hand' and 'five' in Austronesian languages'",
+      "description": "No description provided.",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2024-10-04",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/barlowhandandfive-v1.0.zip",
+          "checksum": "md5:646b7f5dbe567d50c12da68ee7433278",
+          "url": "https://zenodo.org/api/records/13889024/files/cldf-datasets/barlowhandandfive-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/barlowhandandfive/tree/v1.0"
+    },
+    {
+      "id": 13868534,
+      "doi": "10.5281/zenodo.13868534",
+      "conceptid": "13868533",
+      "conceptdoi": "10.5281/zenodo.13868533",
+      "created": "2024-10-01T11:58:25.510351+00:00",
+      "updated": "2024-10-01T11:58:25.636512+00:00",
+      "modified": "2024-10-01T11:58:25.636512+00:00",
+      "title": "CLDF dataset derived from Dhakal et al.'s \"South-Western Tibetic\" from 2024",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dhakal, D. N., List, J.-M., Roberts, S. G.(2024) A Phylogenetic Study of South-Western Tibetic. Journal of Language Evolution. https://doi.org/10.1093/jole/lzae008</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2024-10-01",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Dubi Nanda Dhakal"
+        },
+        {
+          "name": "Johann-Mattis List"
+        },
+        {
+          "name": "Sean Roberts"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/dhakalsouthwesttibetic-v1.0.zip",
+          "checksum": "md5:bcff59405928569062050daca4d7d053",
+          "url": "https://zenodo.org/api/records/13868534/files/lexibank/dhakalsouthwesttibetic-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/lexibank/dhakalsouthwesttibetic/tree/v1.0"
+    },
+    {
+      "id": 13861321,
+      "doi": "10.5281/zenodo.13861321",
+      "conceptid": "1299889",
+      "conceptdoi": "10.5281/zenodo.1299889",
+      "created": "2024-09-30T11:50:08.905383+00:00",
+      "updated": "2024-09-30T11:50:09.150723+00:00",
+      "modified": "2024-09-30T11:50:09.150723+00:00",
+      "title": "CLDF dataset derived from Haspelmath and Tadmor's \"World Loanword Database\" from 2009",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Haspelmath, Martin &amp; Tadmor, Uri (eds.) 2009. World Loanword Database. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://wold.clld.org)</p>\n</blockquote>",
+      "version": "v4.1",
+      "access_right": "open",
+      "publication_date": "2024-09-30",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Martin Haspelmath"
+        },
+        {
+          "name": "Uri Tadmor"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/wold-v4.1.zip",
+          "checksum": "md5:5a7dc1fdf8eac8747af0c7cf9063c1d5",
+          "url": "https://zenodo.org/api/records/13861321/files/lexibank/wold-v4.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Tiago Tresoldi",
+          "type": "Other"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Natalia Morozova",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/wold/tree/v4.1"
+    },
+    {
+      "id": 13841415,
+      "doi": "10.5281/zenodo.13841415",
+      "conceptid": "4094079",
+      "conceptdoi": "10.5281/zenodo.4094079",
+      "created": "2024-09-26T05:33:20.359270+00:00",
+      "updated": "2024-09-26T05:33:20.509399+00:00",
+      "modified": "2024-09-26T05:33:20.509399+00:00",
+      "title": "CLDF dataset derived from Gerardi and Reichert's \"The Tup\u00ed-Guaran\u00ed Language Family: A Phylogenetic Classification\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Ferraz Gerardi, Fabr\u00edcio and Reichert, Stanislav (2021) The Tup\u00ed-Guaran\u00ed Language Family: A Phylogenetic Classification. Diachronica 38(2). 151--188. DOI: https://doi.org/10.1075/dia.18032.fer.</p>\n</blockquote>",
+      "version": "v2.1",
+      "access_right": "open",
+      "publication_date": "2024-09-26",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Ferraz Gerardi, F."
+        },
+        {
+          "name": "Reichert, S."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/gerarditupi-v2.1.zip",
+          "checksum": "md5:3c5f99c0ae0e682d05911d9d77ed7441",
+          "url": "https://zenodo.org/api/records/13841415/files/lexibank/gerarditupi-v2.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Tiago Tresoldi",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/gerarditupi/tree/v2.1"
+    },
+    {
+      "id": 13832130,
+      "doi": "10.5281/zenodo.13832130",
+      "conceptid": "10404394",
+      "conceptdoi": "10.5281/zenodo.10404394",
+      "created": "2024-09-24T08:03:39.847708+00:00",
+      "updated": "2024-09-24T08:03:40.441482+00:00",
+      "modified": "2024-09-24T08:03:40.441482+00:00",
+      "title": "CLDF dataset accompanying List's \"Inference of Partial Colexifications\" from 2023 building on Key and Comrie's \"Intercontinental Dictionary Series\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>List, J.-M. (2023): Inference of partial colexifications from multilingual wordlists. Frontiers in Psychology 14.1156540. 1-10.</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2024-09-24",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Key, M. R"
+        },
+        {
+          "name": "Comrie, B."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "intercontinental-dictionary-series/idssegmented-v1.2.zip",
+          "checksum": "md5:bcd744fbf31b1474569a83271cc19e0a",
+          "url": "https://zenodo.org/api/records/13832130/files/intercontinental-dictionary-series/idssegmented-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Key, M. R",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Comrie, B.",
+          "type": "DataCollector"
+        }
+      ],
+      "git-link": "https://github.com/intercontinental-dictionary-series/idssegmented/tree/v1.2"
+    },
+    {
+      "id": 13832124,
+      "doi": "10.5281/zenodo.13832124",
+      "conceptid": "1312959",
+      "conceptdoi": "10.5281/zenodo.1312959",
+      "created": "2024-09-24T08:02:59.905105+00:00",
+      "updated": "2024-09-24T08:03:00.022621+00:00",
+      "modified": "2024-09-24T08:03:00.022621+00:00",
+      "title": "CLDF dataset derived from Kraft's \"Chadic Wordlists\" from 1981",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kraft, Charles H. 1981. Chadic wordlists. Berlin: Dietrich Reimer.</p>\n</blockquote>",
+      "version": "v4.1",
+      "access_right": "open",
+      "publication_date": "2024-09-24",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Kraft, Charles H."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/kraftchadic-v4.1.zip",
+          "checksum": "md5:c30798832a46c627af0b57c9f25adf53",
+          "url": "https://zenodo.org/api/records/13832124/files/lexibank/kraftchadic-v4.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Tiago Tresoldi",
+          "type": "Other"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael Cysouw",
+          "type": "Other"
+        },
+        {
+          "name": "Peter Bouda",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/kraftchadic/tree/v4.1"
+    },
+    {
+      "id": 13832119,
+      "doi": "10.5281/zenodo.13832119",
+      "conceptid": "5126740",
+      "conceptdoi": "10.5281/zenodo.5126740",
+      "created": "2024-09-24T08:02:13.756767+00:00",
+      "updated": "2024-09-24T08:02:13.905352+00:00",
+      "modified": "2024-09-24T08:02:13.905352+00:00",
+      "title": "CLDF dataset derived from Bowern et al.'s \"Hunter - Gatherer Language Database\" from 2021",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bowern, Claire, Patience Epps, Jane Hill, and Patrick McConvell. Hunter - Gatherer Language Database. https://huntergatherer.la.utexas.edu/ Accessed 2021-04-27.</p>\n</blockquote>",
+      "version": "v2.1",
+      "access_right": "open",
+      "publication_date": "2024-09-24",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Claire Bowern"
+        },
+        {
+          "name": "Patience Epps"
+        },
+        {
+          "name": "Jane Hill"
+        },
+        {
+          "name": "Patrick McConvell"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/huntergatherer-v2.1.zip",
+          "checksum": "md5:2f783e784b59748f377fe31b7d054d61",
+          "url": "https://zenodo.org/api/records/13832119/files/lexibank/huntergatherer-v2.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "Editor"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos Barrientos",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/huntergatherer/tree/v2.1"
+    },
+    {
+      "id": 13831931,
+      "doi": "10.5281/zenodo.13831931",
+      "conceptid": "13605417",
+      "conceptdoi": "10.5281/zenodo.13605417",
+      "created": "2024-09-24T07:11:08.018528+00:00",
+      "updated": "2024-09-24T07:11:08.234902+00:00",
+      "modified": "2024-09-24T07:11:08.234902+00:00",
+      "title": "CLDF version for Nichols 1992: Linguistic diversity in space and time",
+      "description": "<p>Cite the CLDF dataset as\n<a href=\"https://doi.org/10.5281/zenodo.13605418\"></a></p>",
+      "version": "v1.0.1",
+      "access_right": "open",
+      "publication_date": "2024-09-24",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Johanna Nichols"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/nicholsdiversity-v1.0.1.zip",
+          "checksum": "md5:25fd35214cbae60d6f3eb3ab2ac55137",
+          "url": "https://zenodo.org/api/records/13831931/files/cldf-datasets/nicholsdiversity-v1.0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johannes Englisch",
+          "type": "Other"
+        },
+        {
+          "name": "Martin Haspelmath",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/nicholsdiversity/tree/v1.0.1"
+    },
+    {
+      "id": 13829628,
+      "doi": "10.5281/zenodo.13829628",
+      "conceptid": "5127403",
+      "conceptdoi": "10.5281/zenodo.5127403",
+      "created": "2024-09-23T14:34:07.069056+00:00",
+      "updated": "2024-09-23T14:34:07.195077+00:00",
+      "modified": "2024-09-23T14:34:07.195077+00:00",
+      "title": "CLDF dataset derived from Kleinewillingh\u00f6fer's \"Bikwin-Jen Comparative Wordlist\" from 2015",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kleinewillingh\u00f6fer, Ulrich (2015). Bikwin-Jen Group. https://www.blogs.uni-mainz.de/fb07-adamawa/adamawa-languages/bikwin-jen-group/. Accessed on: 2020-04-15.</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2024-09-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Ulrich Kleinewillingh\u00f6fer"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/kleinewillinghoeferbikwinjen-v1.2.zip",
+          "checksum": "md5:fb7a38eec62963233fd69d3340c456d0",
+          "url": "https://zenodo.org/api/records/13829628/files/lexibank/kleinewillinghoeferbikwinjen-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Ulrich Kleinewillingh\u00f6fer",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kristina-Pianykh",
+          "type": "Other"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/kleinewillinghoeferbikwinjen/tree/v1.2"
+    },
+    {
+      "id": 13829625,
+      "doi": "10.5281/zenodo.13829625",
+      "conceptid": "10404211",
+      "conceptdoi": "10.5281/zenodo.10404211",
+      "created": "2024-09-23T14:33:48.800239+00:00",
+      "updated": "2024-09-23T14:33:48.929944+00:00",
+      "modified": "2024-09-23T14:33:48.929944+00:00",
+      "title": "CLDF dataset derived from Othaniel's \"Jen Cluster Comparative Wordlist\" from 2017",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Othaniel, Nlabephee Kefas. 2017. A phonological comparative study of the Jen language cluster. (MA thesis, Jos: Theological College of Northern Nigeria; 1\u201383pp.)</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2024-09-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Nlabephee Kefas Othaniel"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/othanieljen-v1.2.zip",
+          "checksum": "md5:acacf62a5f89d1c4ce03f552e3c958f1",
+          "url": "https://zenodo.org/api/records/13829625/files/lexibank/othanieljen-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Nlabephee Kefas Othaniel",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kristina-Pianykh",
+          "type": "Editor"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/othanieljen/tree/v1.2"
+    },
+    {
+      "id": 13829541,
+      "doi": "10.5281/zenodo.13829541",
+      "conceptid": "5126756",
+      "conceptdoi": "10.5281/zenodo.5126756",
+      "created": "2024-09-23T14:16:14.993402+00:00",
+      "updated": "2024-09-23T14:16:15.159672+00:00",
+      "modified": "2024-09-23T14:16:15.159672+00:00",
+      "title": "CLDF dataset derived from Bremer's \"Sociolinguistic Survey of Six Berta Speech Varieties in Ethiopia\" from 2016",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bremer, Nate D. (2016): A Sociolinguistic Survey of Six Berta Speech Varieties in Ethiopia. SIL Electronic Survey Reports 2016-007. Dallas: SIL International.</p>\n</blockquote>",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2024-09-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Nate D. Bremer"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/bremerberta-v1.3.zip",
+          "checksum": "md5:29348d68b8fb93021a7ddcff7abd0af3",
+          "url": "https://zenodo.org/api/records/13829541/files/lexibank/bremerberta-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        },
+        {
+          "name": "Kristina Pianykh",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/bremerberta/tree/v1.3"
+    },
+    {
+      "id": 13829479,
+      "doi": "10.5281/zenodo.13829479",
+      "conceptid": "5121662",
+      "conceptdoi": "10.5281/zenodo.5121662",
+      "created": "2024-09-23T14:06:50.325979+00:00",
+      "updated": "2024-09-23T14:06:50.528228+00:00",
+      "modified": "2024-09-23T14:06:50.528228+00:00",
+      "title": "CLDF dataset derived from Duong et al.'s \"Language of the La Ch\u00ed People\" from 2020",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Duong, Thu Hang and Nguyen, Thu Quynh and Nguyen, Van Loi (2021): The Language of the La Ch\u00ed People in B\u1ea3n D\u00edu Commune, X\u00edn M\u1ea7n District, H\u00e0 Giang Province, Vietnam. In: Studies in the Anthropology of Language in Mainland Southeast Asia. Ed. by N. J. Enfield, Jack Sidnell, and Charles H. P. Zuckermann. University of Hawaii Press: Honolulu. 124-138</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2024-09-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Duong, Thu Hang"
+        },
+        {
+          "name": "Nguyen, Thu Quynh"
+        },
+        {
+          "name": "Nguyen, Van Loi"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/duonglachi-v1.2.zip",
+          "checksum": "md5:97447279cb7078493c292f005d65bafd",
+          "url": "https://zenodo.org/api/records/13829479/files/lexibank/duonglachi-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Kristina Pianykh",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/duonglachi/tree/v1.2"
+    },
+    {
+      "id": 13766733,
+      "doi": "10.5281/zenodo.13766733",
+      "conceptid": "5596346",
+      "conceptdoi": "10.5281/zenodo.5596346",
+      "created": "2024-09-16T06:37:39.464224+00:00",
+      "updated": "2024-09-16T06:37:39.638174+00:00",
+      "modified": "2024-09-16T06:37:39.638174+00:00",
+      "title": "CLDF dataset derived from Barlow's \"Numerals of the Pacific\" from 2024",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Barlow, Russell (ed.). 2024. Numerals of the Pacific: A collection of numeral terms in Austronesian and Papuan languages.</p>\n</blockquote>",
+      "version": "v1.6",
+      "access_right": "open",
+      "publication_date": "2024-09-16",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Russell Barlow"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/barlowpacific-v1.6.zip",
+          "checksum": "md5:75c647837fde51d01161ceedb0b67af8",
+          "url": "https://zenodo.org/api/records/13766733/files/numeralbank/barlowpacific-v1.6.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/numeralbank/barlowpacific/tree/v1.6"
+    },
+    {
+      "id": 13684237,
+      "doi": "10.5281/zenodo.13684237",
+      "conceptid": "6656483",
+      "conceptdoi": "10.5281/zenodo.6656483",
+      "created": "2024-09-04T13:24:20.974731+00:00",
+      "updated": "2024-09-04T13:24:21.135664+00:00",
+      "modified": "2024-09-04T13:24:21.135664+00:00",
+      "title": "CLDF dataset accompanying Brid et al.'s \"Comparative Wordlist for the Languages of the Gran Chaco Area\" from 2022",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Brid, Nicol\u00e1s, Cristina Messineo, and Johann-Mattis List (2022): A Comparative Wordlist for the Languages of the Gran Chaco Area. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+      "version": "v0.3",
+      "access_right": "open",
+      "publication_date": "2024-09-04",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Nicol\u00e1s Brid"
+        },
+        {
+          "name": "Cristina Messineo"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/chacolanguages-v0.3.zip",
+          "checksum": "md5:213ca1671d575a56174dd5a8cd063eba",
+          "url": "https://zenodo.org/api/records/13684237/files/lexibank/chacolanguages-v0.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/chacolanguages/tree/v0.3"
+    },
+    {
       "id": 13606202,
       "doi": "10.5281/zenodo.13606202",
       "conceptid": "13606201",
