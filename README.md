@@ -1,4 +1,4 @@
-# CLLD Meta
+# CLDF-Meta: A catalogue of CLDF datasets
 
 ## How to cite
 
@@ -19,18 +19,18 @@ Creating the meta database is a three-step process:
  1. Download metadata for existing datasets from Zenodo.  This will update the
    metadata in `raw/zenodo-metadata.json`.
 
-    $ cldfbench clld-meta.updatemd cldfbench_clld_meta.py
+    $ cldfbench cldf-meta.updatemd cldfbench_cldf_meta.py
 
  2. Download the datasets themselves.  They will be downloaded into the
    `raw/datasets/` folder.
 
-    $ cldfbench download cldfbench_clld_meta.py
+    $ cldfbench download cldfbench_cldf_meta.py
 
  3. Look through the datasets and create the meta database.  This will update
    the CLDF dataset in `cldf/` and also add files that don't contain any CLDF
    data to `etc/not-cldf.csv`, so they can be avoided in the future.
 
-    $ cldfbench makecldf cldfbench_clld_meta.py
+    $ cldfbench makecldf cldfbench_cldf_meta.py
 
 ## Important files
 
@@ -54,11 +54,11 @@ chance that the `updatemd` or `download` commands might hit [the rate limits for
 Zenodo's API][zenodo-lim].
 
 If you need to extend the rate limit, you can [set up a Personal Access
-Token][zenodo-pat] and add it to the `$CLLD_META_ACCESS_TOKEN` environment
+Token][zenodo-pat] and add it to the `$CLDF_META_ACCESS_TOKEN` environment
 variable before running `cldfbench`:
 
-    $ export CLLD_META_ACCESS_TOKEN=AbCdEfG[…]
-    $ cldfbench download cldfbench_clld_meta.py
+    $ export CLDF_META_ACCESS_TOKEN=AbCdEfG[…]
+    $ cldfbench download cldfbench_cldf_meta.py
 
 [zenodo-lim]: https://developers.zenodo.org/#rate-limiting
 [zenodo-pat]: https://developers.zenodo.org/#authentication

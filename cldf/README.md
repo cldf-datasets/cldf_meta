@@ -1,6 +1,6 @@
 <a name="ds-cldfmetadatajson"> </a>
 
-# Generic CLLD Meta
+# Generic CLDF-Meta: A catalogue of CLDF datasets
 
 **CLDF Metadata**: [cldf-metadata.json](./cldf-metadata.json)
 
@@ -9,10 +9,10 @@ property | value
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Generic](http://cldf.clld.org/v1.0/terms.rdf#Generic)
 [dc:identifier](http://purl.org/dc/terms/identifier) | meta.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
-[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/clld_meta
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/clld_meta/tree/cefe501">cldf-datasets/clld_meta cefe501</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/cldf_meta
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/cldf_meta/tree/112eb8e">cldf-datasets/cldf_meta 112eb8e</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.19</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
-[rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | clld_meta
+[rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | cldf_meta
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
@@ -21,7 +21,7 @@ property | value
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 9452
+[dc:extent](http://purl.org/dc/terms/extent) | 9516
 
 
 ### Columns
@@ -41,7 +41,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ContributionTable](http://cldf.clld.org/v1.0/terms.rdf#ContributionTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 622
+[dc:extent](http://purl.org/dc/terms/extent) | 688
 
 
 ### Columns
@@ -72,7 +72,7 @@ Name/Property | Datatype | Description
 
 property | value
  --- | ---
-[dc:extent](http://purl.org/dc/terms/extent) | 641
+[dc:extent](http://purl.org/dc/terms/extent) | 714
 
 
 ### Columns
@@ -94,7 +94,7 @@ Name/Property | Datatype | Description
 
 property | value
  --- | ---
-[dc:extent](http://purl.org/dc/terms/extent) | 166110
+[dc:extent](http://purl.org/dc/terms/extent) | 207576
 
 
 ### Columns

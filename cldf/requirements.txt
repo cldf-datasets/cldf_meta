@@ -5,7 +5,7 @@ bs4==0.0.2
 Cerberus==1.3.7
 certifi==2025.4.26
 cldfbench==1.14.1
--e git+https://github.com/cldf-datasets/clld_meta.git@1c798d302498eec44cdaaf15d8516fc7ae72d393#egg=cldfbench_clld_meta
+-e git+https://github.com/cldf-datasets/cldf_meta.git@112eb8e6e0d322984a40343e11fe1109ea61b7f2#egg=cldfbench_cldf_meta
 cldfcatalog==1.6.0
 cldfzenodo==2.1.2
 clldutils==3.24.2
