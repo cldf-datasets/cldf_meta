@@ -9,8 +9,8 @@ from pathlib import Path
 from cldfbench import Dataset as BaseDataset
 from cldfbench.cldf import CLDFSpec
 
-from clld_meta import download as dl, zipdata
-from clld_meta.util import loggable_progress, path_contains
+from cldf_meta import download as dl, zipdata
+from cldf_meta.util import loggable_progress, path_contains
 
 CLDFError = namedtuple('CLDFError', 'record_no file reason')
 DataArchive = namedtuple('DataArchive', 'record_no file_id path')
@@ -281,7 +281,7 @@ def contributions_from_records(records, datasets):
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
-    id = "clld_meta"
+    id = "cldf_meta"
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return CLDFSpec(
@@ -302,7 +302,7 @@ class Dataset(BaseDataset):
         except IOError:
             args.log.error(
                 'No zenodo metadata found.'
-                '  Run `cldfbench clld-meta.updatemd cldfbench_clld_meta.py`'
+                '  Run `cldfbench cldf-meta.updatemd cldfbench_cldf_meta.py`'
                 '  to download the metadata.')
             return
 
@@ -373,7 +373,7 @@ class Dataset(BaseDataset):
         except IOError:
             args.log.error(
                 'No zenodo metadata found.'
-                '  Run `cldfbench clld-meta.updatemd cldfbench_clld_meta.py`'
+                '  Run `cldfbench cldf-meta.updatemd cldfbench_cldf_meta.py`'
                 '  to download the metadata.')
             return
 

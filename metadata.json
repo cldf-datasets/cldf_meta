@@ -1,6 +1,6 @@
 {
-    "id": "clld_meta",
-    "title": "CLLD Meta",
+    "id": "cldf_meta",
+    "title": "CLDF-Meta: A catalogue of CLDF datasets",
     "description": null,
     "license": "CC-BY-4.0",
     "url": "meta.clld.org",

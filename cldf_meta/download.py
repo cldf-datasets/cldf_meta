@@ -12,9 +12,9 @@ from urllib.parse import urlparse
 def retrieve_access_token():
     """Get access token from environment.
 
-    Uses the `CLLD_META_ACCESS_TOKEN` environment variable.
+    Uses the `CLDF_META_ACCESS_TOKEN` environment variable.
     """
-    access_token = os.environ.get('CLLD_META_ACCESS_TOKEN') or ''
+    access_token = os.environ.get('CLDF_META_ACCESS_TOKEN') or ''
     if access_token:
         print('NOTE: Access token detected.', file=sys.stderr, flush=True)
     else:

@@ -1,4 +1,4 @@
-"""Utility functions for clld_meta."""
+"""Utility functions for cldf_meta."""
 
 import re
 import sys

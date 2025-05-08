@@ -1,8 +1,8 @@
 import unittest
 from pathlib import Path
 
-from clld_meta.util import path_contains
-from clld_meta.zipdata import rename_columns
+from cldf_meta.util import path_contains
+from cldf_meta.zipdata import rename_columns
 
 
 def test_valid(cldf_dataset, cldf_logger):

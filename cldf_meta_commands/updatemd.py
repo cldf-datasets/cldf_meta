@@ -13,8 +13,8 @@ from urllib.parse import quote
 from cldfbench.cli_util import add_dataset_spec, with_dataset
 
 from cerberus import Validator
-from clld_meta import download as dl
-from clld_meta.util import loggable_progress
+from cldf_meta import download as dl
+from cldf_meta.util import loggable_progress
 
 
 SEARCH_KEYWORDS = [
