@@ -1,4 +1,64 @@
 ID,Name,Description,Contributor,Citation,Version,Creators,Contributors,DOI,Concept_DOI,Concept_ID,Date,Communities,License,Zenodo_Link,Zenodo_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+15779678,"CLDF dataset derived from Kitchen et al.'s ""Bayesian phylogenetic analysis of Semitic languages"" from 2009","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Andrew Kitchen, Christopher Ehret, Shiferaw Assefa, Connie J. Mulligan. Proc. R. Soc. B 2009 -; DOI: 10.1098/rspb.2009.0408. Published 29 April 2009</p>
+</blockquote>",,,v2.0,Andrew Kitchen ; Christopher Ehret ; Shiferaw Assefa ; Connie J. Mulligan,Ben Sapirstein ; Johann-Mattis List ; Simon Greenhill,10.5281/zenodo.15779678,10.5281/zenodo.8171664,8171664,,,cc-by-nc-4.0,https://zenodo.org/records/15779678,15779678,,dataset,https://github.com/lexibank/kitchensemitic/tree/v2.0
+15719681,"CLDF dataset derived from Alekseeva et al's ""Atlas of Rutul Dialects"" from 2025","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>A. Alekseeva, N. Beklemishev, M. Daniel, N. Dobrushina, K. Filatov, A. Ivanova, T. Maisak, M. Melenchenko, G. Moroz, I. Netkachev, I. Sadakov. 2025. Atlas of Rutul dialects. Moscow: Linguistic Convergence Laboratory, HSE University. https://lingconlab.github.io/rutul_dialectology/index.html</p>
+</blockquote>",,,v0.2,A. Alekseeva ; N. Beklemishev ; M. Daniel ; N. Dobrushina ; K. Filatov ; A. Ivanova ; T. Maisak ; M. Melenchenko ; G. Moroz ; I. Netkachev ; I. Sadakov,Johann-Mattis List,10.5281/zenodo.15719681,10.5281/zenodo.15711274,15711274,,,cc-by-4.0,https://zenodo.org/records/15719681,15719681,,dataset,https://github.com/lexibank/rutulbasiclexicon/tree/v0.2
+15711275,"CLDF dataset derived from Aleseeva's's ""Atlas of Rutul Dailects"" from 2025","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>A. Alekseeva, N. Beklemishev, M. Daniel, N. Dobrushina, K. Filatov, A. Ivanova, T. Maisak, M. Melenchenko, G. Moroz, I. Netkachev, I. Sadakov. 2025. Atlas of Rutul dialects. Moscow: Linguistic Convergence Laboratory, HSE University. https://lingconlab.github.io/rutul_dialectology/index.html</p>
+</blockquote>",,,v0.1,A. Alekseeva ; N. Beklemishev ; M. Daniel ; N. Dobrushina ; K. Filatov ; A. Ivanova ; T. Maisak ; M. Melenchenko ; G. Moroz ; I. Netkachev ; I. Sadakov,Johann-Mattis List,10.5281/zenodo.15711275,10.5281/zenodo.15711274,15711274,,,cc-by-4.0,https://zenodo.org/records/15711275,15711275,,dataset,https://github.com/lexibank/rutulbasiclexicon/tree/v0.1
+15687121,"CLDF dataset derived from Lee's ""Phonological Features of Caijia"" from 2023","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lee, Man Hei (2023): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee</p>
+</blockquote>",,,v1.3,"Lee, Man Hei",Johann-Mattis List,10.5281/zenodo.15687121,10.5281/zenodo.13253593,13253593,,,cc-by-4.0,https://zenodo.org/records/15687121,15687121,,dataset,https://github.com/lexibank/leecaijia/tree/v1.3
+15687074,Pulotu: Database of Austronesian Religions,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Watts J., Sheehan O., Greenhill S.J., Gomes-Ng S., Atkinson Q.D., Bulbulia J., Gray R.D. (2015). Pulotu: Database of Austronesian Supernatural Beliefs and Practices. PLoS ONE 10(9). DOI: https://doi.org/10.1371/journal.pone.0136783</p>
+</blockquote>",,,v1.3,Joseph Watts ; Oliver Sheehan ; Simon Greenhill ; Stephanie Gomes-Ng ; Quentin Atkinson ; Joseph Bulbulia ; Russell Gray,Carlos Botero ; Carlos Botero ; Angeline Song ; Angeline Song ; Joanne Ong ; Joanne Ong ; Sam Passmore ; Sam Passmore ; Kirsty Maurits ; Kirsty Maurits ; Goldie Hamilton ; Goldie Hamilton ; Kelsey Buntain ; Kelsey Buntain ; Alex Thomson ; Alex Thomson ; Robert Forkel,10.5281/zenodo.15687074,10.5281/zenodo.5669235,5669235,,,cc-by-4.0,https://zenodo.org/records/15687074,15687074,,dataset,https://github.com/D-PLACE/dplace-dataset-pulotu/tree/v1.3
+15686941,"CLDF dataset derived from Lee's ""Phonological Features of Caijia"" from 2022","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee</p>
+</blockquote>",,,v1.2,"Lee, Man Hei",Johann-Mattis List,10.5281/zenodo.15686941,10.5281/zenodo.13253593,13253593,,,cc-by-4.0,https://zenodo.org/records/15686941,15686941,,dataset,https://github.com/lexibank/leecaijia/tree/v1.2
+15682950,"CLDF dataset derived from Lee's ""Phonological Features of Caijia"" from 2022","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee</p>
+</blockquote>",,,v1.1,"Lee, Man Hei",Johann-Mattis List,10.5281/zenodo.15682950,10.5281/zenodo.13253593,13253593,,,cc-by-4.0,https://zenodo.org/records/15682950,15682950,,dataset,https://github.com/lexibank/leecaijia/tree/v1.1
+15656420,"CLDF Dataset presenting Rubehn et al.'s ""Compositional Structures in Numeral Systems Across Languages"" from 2025","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Rubehn, A., C. Rzymski, L. Ciucci, K. van Dam, A. Kučerová, K. Bocklage, D. Snee, A. Stephen, and J.-M. List (forthcoming): Annotating and Inferring Compositional Structures in Numeral Systems Across Languages. In: Proceedings of the 7th Workshop on Research in Computational Linguistic Typology and Multilingual NLP (SIGTYP 2025). 1-13. https://doi.org/10.48550/arXiv.2503.01625</p>
+</blockquote>",,,v1.1,Arne Rubehn ; Christoph Rzymski ; Luca Ciucci ; Katja Bocklage ; Alžběta Kučerová ; David Snee ; Kellen Parker van Dam ; Johann-Mattis List,,10.5281/zenodo.15656420,10.5281/zenodo.15654140,15654140,,,cc-by-4.0,https://zenodo.org/records/15656420,15656420,,dataset,https://github.com/numeralbank/cosinus/tree/v1.1
+15654191,"CLDF dataset derived from Chan's ""Numeral Systems of the World's Languages."" from 2019","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Chan, Eugene (eds.) 2019. Numeral Systems of the World&#x27;s Languages. Accessed: 2019-09-30</p>
+</blockquote>",,,v1.0.2,Eugene Chan,Eugene Chan ; Hans-Jörg Bibiko ; Hans-Jörg Bibiko ; Christoph Rzymski ; Robert Forkel,10.5281/zenodo.15654191,10.5281/zenodo.3475911,3475911,,,cc-by-4.0,https://zenodo.org/records/15654191,15654191,,dataset,https://github.com/numeralbank/channumerals/tree/v1.0.2
+15654141,"CLDF Dataset presenting Rubehn et al.'s ""Compositional Structures in Numeral Systems Across Languages"" from 2025","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Rubehn, A., C. Rzymski, L. Ciucci, K. van Dam, A. Kučerová, K. Bocklage, D. Snee, A. Stephen, and J.-M. List (forthcoming): Annotating and Inferring Compositional Structures in Numeral Systems Across Languages. In: Proceedings of the 7th Workshop on Research in Computational Linguistic Typology and Multilingual NLP (SIGTYP 2025). 1-13. https://doi.org/10.48550/arXiv.2503.01625</p>
+</blockquote>",,,v1.0,Arne Rubehn ; Christoph Rzymski ; Luca Ciucci ; Katja Bocklage ; Alžběta Kučerová ; David Snee ; Kellen Parker van Dam ; Johann-Mattis List,,10.5281/zenodo.15654141,10.5281/zenodo.15654140,15654140,,,cc-by-4.0,https://zenodo.org/records/15654141,15654141,,dataset,https://github.com/numeralbank/cosinus/tree/v1.0
+15649312,"CLDF dataset derived from Chan's ""Numeral Systems of the World's Languages."" from 2019","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Chan, Eugene (eds.) 2019. Numeral Systems of the World&#x27;s Languages. https://mpi-lingweb.shh.mpg.de/numeral - accessed: 2019-09-30</p>
+</blockquote>",,,v1.0.1,Eugene Chan ; Hans-Jörg Bibiko ; Christoph Rzymski,Eugene Chan ; Hans-Jörg Bibiko ; Hans-Jörg Bibiko ; Christoph Rzymski ; Robert Forkel,10.5281/zenodo.15649312,10.5281/zenodo.3475911,3475911,,,cc-by-4.0,https://zenodo.org/records/15649312,15649312,,dataset,https://github.com/numeralbank/channumerals/tree/v1.0.1
+15463198,"CLDF dataset derived from Mamta's ""South Asian Numerals Database"" from 2024","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Mamta, K. (2024): South Asian Numerals Database (SAND). Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v1.0,Mamta Kumari,Johann-Mattis List ; Christoph Rzymski,10.5281/zenodo.15463198,10.5281/zenodo.10033150,10033150,,,cc-by-4.0,https://zenodo.org/records/15463198,15463198,,dataset,https://github.com/numeralbank/sand/tree/v1.0
 15287258,"Glottography dataset derived from Asher and Moseley 2007 ""Atlas of the World's Languages""","<p>Cite the source of the dataset as:</p>
 
 <blockquote>
