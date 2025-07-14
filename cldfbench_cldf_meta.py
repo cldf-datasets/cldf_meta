@@ -46,7 +46,7 @@ def might_be_zip(file):
     return file['file_path'].endswith('.zip')
 
 
-# FIXME not happy with that function name
+# FIXME(johannes): not happy with that function name
 def collect_dataset_stats(record_no, zipreader):
     values = [
         (r['languageReference'], r.get('parameterReference'))
@@ -85,7 +85,7 @@ def collect_dataset_stats(record_no, zipreader):
         if r.get('id')}
     langs = {v: (langtable.get(v) or v) for v in lang_iter}
 
-    # TODO count concepticon ids?
+    # TODO(johannes): count concepticon ids?
     parameter_count = sum(1 for _ in zipreader.iterrows('ParameterTable', 'id'))
 
     return {
@@ -108,20 +108,20 @@ def collect_dataset_stats(record_no, zipreader):
 def _stats_from_zip(data_archive):
     record_no, file_id, zip_path = data_archive
     found_data = False
-    with zipfile.ZipFile(zip_path) as zip:
-        file_tree = {Path(info.filename): info for info in zip.infolist()}
+    with zipfile.ZipFile(zip_path) as zipf:
+        file_tree = {Path(info.filename): info for info in zipf.infolist()}
         for path, info in file_tree.items():
             if path.suffix != '.json':
                 continue
             # Filter out test suites and raw upstream data in cldfbenches.
             if path_contains(path, 'raw|tests?'):
                 continue
-            with zip.open(info) as f:
+            with zipf.open(info) as f:
                 cldf_md = zipdata.get_cldf_json(f)
             if cldf_md is None:
                 continue
             zipreader = zipdata.ZipDataReader(
-                zip, file_tree, path.parent, cldf_md)
+                zipf, file_tree, path.parent, cldf_md)
             found_data = True
             yield collect_dataset_stats(record_no, zipreader), None
     if not found_data:
@@ -299,7 +299,7 @@ class Dataset(BaseDataset):
 
         try:
             records = self.raw_dir.read_json('zenodo-metadata.json')['records']
-        except IOError:
+        except OSError:
             args.log.error(
                 'No zenodo metadata found.'
                 '  Run `cldfbench cldf-meta.updatemd cldfbench_cldf_meta.py`'
@@ -330,7 +330,7 @@ class Dataset(BaseDataset):
                 checksum=file['checksum'])
             for rec in records
             for file in rec.get('files', ())
-            # XXX what if someone sends a tarball?
+            # XXX(johannes): what if someone sends a tarball?
             if might_be_zip(file)
             and (str(rec['id']), file['file_path']) not in files_without_cldf)
         downloads = [
@@ -370,7 +370,7 @@ class Dataset(BaseDataset):
                 record
                 for record in records
                 if not is_blacklisted(blacklist, record)]
-        except IOError:
+        except OSError:
             args.log.error(
                 'No zenodo metadata found.'
                 '  Run `cldfbench cldf-meta.updatemd cldfbench_cldf_meta.py`'
@@ -447,7 +447,7 @@ class Dataset(BaseDataset):
         print('assembling language table...', file=sys.stderr, flush=True)
         languages = languages_from_dataset_stats(dataset_stats, by_glottocode)
 
-        # TODO count all teh things! o/
+        # TODO(johannes): count all teh things! o/
 
         print('assembling dataset tables...', file=sys.stderr, flush=True)
 

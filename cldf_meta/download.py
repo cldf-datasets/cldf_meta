@@ -84,8 +84,7 @@ def download_or_wait(url):
                     e.read().decode('utf-8').strip(),
                     f'Attempt {attempt + 1} of {retries}; retrying...',
                     sep='\n', file=sys.stderr, flush=True)
-    else:
-        raise IOError(f'Tried {retries} times to no avail.  Giving up...')
+    raise OSError(f'Tried {retries} times to no avail.  Giving up...')
 
 
 def download_all(urls):
@@ -116,7 +115,7 @@ def download_all(urls):
                         f'Attempt {attempt + 1} of {retries}; retrying...',
                         sep='\n', file=sys.stderr, flush=True)
         else:
-            raise IOError(f'Tried {retries} times to no avail.  Giving up...')
+            raise OSError(f'Tried {retries} times to no avail.  Giving up...')
 
 
 def validate_checksum(checksum, data):
@@ -131,8 +130,7 @@ def validate_checksum(checksum, data):
 
     algo, expected_sum = fields
     if algo not in hashlib.algorithms_available:
-        raise ValueError(
-            "Hashing algorithm '%s' not available in hashlib" % algo)
+        raise ValueError(f"Hashing algorithm '{algo}' not available in hashlib")
 
     h = hashlib.new(algo)
     h.update(data)
@@ -141,4 +139,4 @@ def validate_checksum(checksum, data):
     if real_sum != expected_sum:
         raise ValueError(
             'Checksum validation failed: '
-            "Expected %s sum '%s'; got '%s'." % (algo, expected_sum, real_sum))
+            f"Expected {algo} sum '{expected_sum}'; got '{real_sum}'.")

@@ -51,7 +51,7 @@ TYPE_BLACKLIST = {
     'publication-softwaredocumentation',
     'video',
 }
-TITLE_BLACKLIST_REGEX = r'''
+TITLE_BLACKLIST_REGEX = r"""
     ^Glottolog\ database
     | ^Cross-Linguistic\ Transcription\ Systems:\ Final\ Version
     | ^CLTS\.\ Cross-Linguistic\ Transcription\ Systems
@@ -79,7 +79,7 @@ TITLE_BLACKLIST_REGEX = r'''
     | ^paceofchange:
     | ^PoePy\.\ A\ Python\ library
     | ^PyBor:\ A\ Python\ library
-'''
+"""
 
 
 ZENODO_METADATA_SCHEMA = {
@@ -323,9 +323,8 @@ def might_have_cldf_in_it(record):
         if int(match.group(1)) < 2018:
             return False
 
-    if (type_ := record.get('resource_type')):
-        if type_ in TYPE_BLACKLIST:
-            return False
+    if (type_ := record.get('resource_type')) and type_ in TYPE_BLACKLIST:
+        return False
 
     if (title := record.get('title')):
         if re.search(TITLE_BLACKLIST_REGEX, title, re.VERBOSE):
@@ -340,7 +339,7 @@ def might_have_cldf_in_it(record):
     return True
 
 
-def updatemd(dataset, args):
+def updatemd(dataset, _args):
     access_token = dl.retrieve_access_token()
 
     print('reading existing zenodo metadata...', file=sys.stderr, flush=True)
@@ -402,7 +401,7 @@ def updatemd(dataset, args):
                 _download_individual_dois(doi_urls))
             for hit in hits
             if might_have_cldf_in_it((record := make_flat_record(hit)))))
-    except IOError as err:
+    except OSError as err:
         print(err, file=sys.stderr)
         sys.exit(74)
 

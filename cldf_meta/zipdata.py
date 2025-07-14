@@ -20,10 +20,11 @@ def get_cldf_json(f):
             return None
         f.seek(0)
         json_data = json.load(f, encoding='utf-8')
-        if not json_data.get('dc:conformsTo', '').startswith(TERMS_URL):
+        if json_data.get('dc:conformsTo', '').startswith(TERMS_URL):
+            return json_data
+        else:
             return None
-        return json_data
-    except Exception:
+    except Exception:  # noqa
         return None
 
 

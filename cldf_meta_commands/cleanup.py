@@ -14,7 +14,7 @@ def register(parser):
     add_dataset_spec(parser)
 
 
-def cleanup(dataset, args):
+def cleanup(dataset, _args):
     download_dir = dataset.raw_dir / 'datasets'
     not_cldf = islice(dataset.etc_dir.read_csv('not-cldf.csv'), 1, None)
     not_cldf = [
