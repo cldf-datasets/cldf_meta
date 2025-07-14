@@ -1,6 +1,713 @@
 {
   "records": [
     {
+      "id": 15779678,
+      "doi": "10.5281/zenodo.15779678",
+      "conceptid": "8171664",
+      "conceptdoi": "10.5281/zenodo.8171664",
+      "created": "2025-07-01T05:23:59.386697+00:00",
+      "updated": "2025-07-01T05:23:59.604674+00:00",
+      "modified": "2025-07-01T05:23:59.604674+00:00",
+      "title": "CLDF dataset derived from Kitchen et al.'s \"Bayesian phylogenetic analysis of Semitic languages\" from 2009",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Andrew Kitchen, Christopher Ehret, Shiferaw Assefa, Connie J. Mulligan. Proc. R. Soc. B 2009 -; DOI: 10.1098/rspb.2009.0408. Published 29 April 2009</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2025-07-01",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Andrew Kitchen"
+        },
+        {
+          "name": "Christopher Ehret"
+        },
+        {
+          "name": "Shiferaw Assefa"
+        },
+        {
+          "name": "Connie J. Mulligan"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/kitchensemitic-v2.0.zip",
+          "checksum": "md5:c7a286479088ef6675f27f16f0195dc9",
+          "url": "https://zenodo.org/api/records/15779678/files/lexibank/kitchensemitic-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Ben Sapirstein",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon Greenhill",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/kitchensemitic/tree/v2.0"
+    },
+    {
+      "id": 15719681,
+      "doi": "10.5281/zenodo.15719681",
+      "conceptid": "15711274",
+      "conceptdoi": "10.5281/zenodo.15711274",
+      "created": "2025-06-23T08:59:59.624529+00:00",
+      "updated": "2025-06-23T08:59:59.819482+00:00",
+      "modified": "2025-06-23T08:59:59.819482+00:00",
+      "title": "CLDF dataset derived from Alekseeva et al's \"Atlas of Rutul Dialects\" from 2025",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>A. Alekseeva, N. Beklemishev, M. Daniel, N. Dobrushina, K. Filatov, A. Ivanova, T. Maisak, M. Melenchenko, G. Moroz, I. Netkachev, I. Sadakov. 2025. Atlas of Rutul dialects. Moscow: Linguistic Convergence Laboratory, HSE University. https://lingconlab.github.io/rutul_dialectology/index.html</p>\n</blockquote>",
+      "version": "v0.2",
+      "access_right": "open",
+      "publication_date": "2025-06-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "A. Alekseeva"
+        },
+        {
+          "name": "N. Beklemishev"
+        },
+        {
+          "name": "M. Daniel"
+        },
+        {
+          "name": "N. Dobrushina"
+        },
+        {
+          "name": "K. Filatov"
+        },
+        {
+          "name": "A. Ivanova"
+        },
+        {
+          "name": "T. Maisak"
+        },
+        {
+          "name": "M. Melenchenko"
+        },
+        {
+          "name": "G. Moroz"
+        },
+        {
+          "name": "I. Netkachev"
+        },
+        {
+          "name": "I. Sadakov"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/rutulbasiclexicon-v0.2.zip",
+          "checksum": "md5:33ce8289b2dc436ffedb42e95c0ec2d5",
+          "url": "https://zenodo.org/api/records/15719681/files/lexibank/rutulbasiclexicon-v0.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/rutulbasiclexicon/tree/v0.2"
+    },
+    {
+      "id": 15711275,
+      "doi": "10.5281/zenodo.15711275",
+      "conceptid": "15711274",
+      "conceptdoi": "10.5281/zenodo.15711274",
+      "created": "2025-06-21T13:25:57.966363+00:00",
+      "updated": "2025-06-21T13:25:58.103308+00:00",
+      "modified": "2025-06-21T13:25:58.103308+00:00",
+      "title": "CLDF dataset derived from Aleseeva's's \"Atlas of Rutul Dailects\" from 2025",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>A. Alekseeva, N. Beklemishev, M. Daniel, N. Dobrushina, K. Filatov, A. Ivanova, T. Maisak, M. Melenchenko, G. Moroz, I. Netkachev, I. Sadakov. 2025. Atlas of Rutul dialects. Moscow: Linguistic Convergence Laboratory, HSE University. https://lingconlab.github.io/rutul_dialectology/index.html</p>\n</blockquote>",
+      "version": "v0.1",
+      "access_right": "open",
+      "publication_date": "2025-06-21",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "A. Alekseeva"
+        },
+        {
+          "name": "N. Beklemishev"
+        },
+        {
+          "name": "M. Daniel"
+        },
+        {
+          "name": "N. Dobrushina"
+        },
+        {
+          "name": "K. Filatov"
+        },
+        {
+          "name": "A. Ivanova"
+        },
+        {
+          "name": "T. Maisak"
+        },
+        {
+          "name": "M. Melenchenko"
+        },
+        {
+          "name": "G. Moroz"
+        },
+        {
+          "name": "I. Netkachev"
+        },
+        {
+          "name": "I. Sadakov"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/rutulbasiclexicon-v0.1.zip",
+          "checksum": "md5:08614078e980dfba24d2a438cf9d1c62",
+          "url": "https://zenodo.org/api/records/15711275/files/lexibank/rutulbasiclexicon-v0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/rutulbasiclexicon/tree/v0.1"
+    },
+    {
+      "id": 15687121,
+      "doi": "10.5281/zenodo.15687121",
+      "conceptid": "13253593",
+      "conceptdoi": "10.5281/zenodo.13253593",
+      "created": "2025-06-18T05:22:08.008289+00:00",
+      "updated": "2025-06-18T05:22:08.151072+00:00",
+      "modified": "2025-06-18T05:22:08.151072+00:00",
+      "title": "CLDF dataset derived from Lee's \"Phonological Features of Caijia\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee, Man Hei (2023): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee</p>\n</blockquote>",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2025-06-18",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lee, Man Hei"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/leecaijia-v1.3.zip",
+          "checksum": "md5:30c03fa316a2430320e04a0b64daa57a",
+          "url": "https://zenodo.org/api/records/15687121/files/lexibank/leecaijia-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/leecaijia/tree/v1.3"
+    },
+    {
+      "id": 15687074,
+      "doi": "10.5281/zenodo.15687074",
+      "conceptid": "5669235",
+      "conceptdoi": "10.5281/zenodo.5669235",
+      "created": "2025-06-18T05:15:49.749901+00:00",
+      "updated": "2025-06-18T05:15:49.930266+00:00",
+      "modified": "2025-06-18T05:15:49.930266+00:00",
+      "title": "Pulotu: Database of Austronesian Religions",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Watts J., Sheehan O., Greenhill S.J., Gomes-Ng S., Atkinson Q.D., Bulbulia J., Gray R.D. (2015). Pulotu: Database of Austronesian Supernatural Beliefs and Practices. PLoS ONE 10(9). DOI: https://doi.org/10.1371/journal.pone.0136783</p>\n</blockquote>",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2025-06-18",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Joseph Watts",
+          "affiliation": "University of Otago"
+        },
+        {
+          "name": "Oliver Sheehan",
+          "affiliation": "University of Auckland"
+        },
+        {
+          "name": "Simon Greenhill",
+          "affiliation": "Max Planck Institute for the Science of Human History"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "affiliation": "University of Auckland"
+        },
+        {
+          "name": "Quentin Atkinson",
+          "affiliation": "University of Auckland"
+        },
+        {
+          "name": "Joseph Bulbulia",
+          "affiliation": "Victoria University of Wellington"
+        },
+        {
+          "name": "Russell Gray",
+          "affiliation": "Max Planck Institute for Evolutionary Anthropology"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-pulotu-v1.3.zip",
+          "checksum": "md5:a52ef01ac37356e7780934d4a8fa5016",
+          "url": "https://zenodo.org/api/records/15687074/files/D-PLACE/dplace-dataset-pulotu-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Carlos Botero",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Carlos Botero",
+          "type": "Researcher"
+        },
+        {
+          "name": "Angeline Song",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Angeline Song",
+          "type": "Researcher"
+        },
+        {
+          "name": "Joanne Ong",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Joanne Ong",
+          "type": "Researcher"
+        },
+        {
+          "name": "Sam Passmore",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Sam Passmore",
+          "type": "Researcher"
+        },
+        {
+          "name": "Kirsty Maurits",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kirsty Maurits",
+          "type": "Researcher"
+        },
+        {
+          "name": "Goldie Hamilton",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Goldie Hamilton",
+          "type": "Researcher"
+        },
+        {
+          "name": "Kelsey Buntain",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kelsey Buntain",
+          "type": "Researcher"
+        },
+        {
+          "name": "Alex Thomson",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Alex Thomson",
+          "type": "Researcher"
+        },
+        {
+          "name": "Robert Forkel",
+          "affiliation": "Max Planck Institute for Evolutionary Anthropology",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-pulotu/tree/v1.3"
+    },
+    {
+      "id": 15686941,
+      "doi": "10.5281/zenodo.15686941",
+      "conceptid": "13253593",
+      "conceptdoi": "10.5281/zenodo.13253593",
+      "created": "2025-06-18T04:53:23.737598+00:00",
+      "updated": "2025-06-18T04:53:23.916695+00:00",
+      "modified": "2025-06-18T04:53:23.916695+00:00",
+      "title": "CLDF dataset derived from Lee's \"Phonological Features of Caijia\" from 2022",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee</p>\n</blockquote>",
+      "version": "v1.2",
+      "access_right": "open",
+      "publication_date": "2025-06-18",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lee, Man Hei"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/leecaijia-v1.2.zip",
+          "checksum": "md5:55528d5460351d371619ae8f37aed815",
+          "url": "https://zenodo.org/api/records/15686941/files/lexibank/leecaijia-v1.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/leecaijia/tree/v1.2"
+    },
+    {
+      "id": 15682950,
+      "doi": "10.5281/zenodo.15682950",
+      "conceptid": "13253593",
+      "conceptdoi": "10.5281/zenodo.13253593",
+      "created": "2025-06-17T13:11:21.978602+00:00",
+      "updated": "2025-06-17T13:11:22.176290+00:00",
+      "modified": "2025-06-17T13:11:22.176290+00:00",
+      "title": "CLDF dataset derived from Lee's \"Phonological Features of Caijia\" from 2022",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-06-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Lee, Man Hei"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/leecaijia-v1.1.zip",
+          "checksum": "md5:2f1e36197cac7e8a248ee344d6f389df",
+          "url": "https://zenodo.org/api/records/15682950/files/lexibank/leecaijia-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/leecaijia/tree/v1.1"
+    },
+    {
+      "id": 15656420,
+      "doi": "10.5281/zenodo.15656420",
+      "conceptid": "15654140",
+      "conceptdoi": "10.5281/zenodo.15654140",
+      "created": "2025-06-13T10:48:50.815729+00:00",
+      "updated": "2025-06-13T10:48:50.994847+00:00",
+      "modified": "2025-06-13T10:48:50.994847+00:00",
+      "title": "CLDF Dataset presenting Rubehn et al.'s \"Compositional Structures in Numeral Systems Across Languages\" from 2025",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Rubehn, A., C. Rzymski, L. Ciucci, K. van Dam, A. Ku\u010derov\u00e1, K. Bocklage, D. Snee, A. Stephen, and J.-M. List (forthcoming): Annotating and Inferring Compositional Structures in Numeral Systems Across Languages. In: Proceedings of the 7th Workshop on Research in Computational Linguistic Typology and Multilingual NLP (SIGTYP 2025). 1-13. https://doi.org/10.48550/arXiv.2503.01625</p>\n</blockquote>",
+      "version": "v1.1",
+      "access_right": "open",
+      "publication_date": "2025-06-13",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Arne Rubehn"
+        },
+        {
+          "name": "Christoph Rzymski"
+        },
+        {
+          "name": "Luca Ciucci"
+        },
+        {
+          "name": "Katja Bocklage"
+        },
+        {
+          "name": "Al\u017eb\u011bta Ku\u010derov\u00e1"
+        },
+        {
+          "name": "David Snee"
+        },
+        {
+          "name": "Kellen Parker van Dam"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/cosinus-v1.1.zip",
+          "checksum": "md5:adb724948f58048f40a8c52d31880a76",
+          "url": "https://zenodo.org/api/records/15656420/files/numeralbank/cosinus-v1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/numeralbank/cosinus/tree/v1.1"
+    },
+    {
+      "id": 15654191,
+      "doi": "10.5281/zenodo.15654191",
+      "conceptid": "3475911",
+      "conceptdoi": "10.5281/zenodo.3475911",
+      "created": "2025-06-13T04:53:00.974925+00:00",
+      "updated": "2025-06-13T04:53:01.144053+00:00",
+      "modified": "2025-06-13T04:53:01.144053+00:00",
+      "title": "CLDF dataset derived from Chan's \"Numeral Systems of the World's Languages.\" from 2019",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Chan, Eugene (eds.) 2019. Numeral Systems of the World&#x27;s Languages. Accessed: 2019-09-30</p>\n</blockquote>",
+      "version": "v1.0.2",
+      "access_right": "open",
+      "publication_date": "2025-06-13",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Eugene Chan"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/channumerals-v1.0.2.zip",
+          "checksum": "md5:befa133af611e17fbabba97ce7b6485c",
+          "url": "https://zenodo.org/api/records/15654191/files/numeralbank/channumerals-v1.0.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Eugene Chan",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/numeralbank/channumerals/tree/v1.0.2"
+    },
+    {
+      "id": 15654141,
+      "doi": "10.5281/zenodo.15654141",
+      "conceptid": "15654140",
+      "conceptdoi": "10.5281/zenodo.15654140",
+      "created": "2025-06-13T04:45:04.332838+00:00",
+      "updated": "2025-06-13T04:45:04.445080+00:00",
+      "modified": "2025-06-13T04:45:04.445080+00:00",
+      "title": "CLDF Dataset presenting Rubehn et al.'s \"Compositional Structures in Numeral Systems Across Languages\" from 2025",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Rubehn, A., C. Rzymski, L. Ciucci, K. van Dam, A. Ku\u010derov\u00e1, K. Bocklage, D. Snee, A. Stephen, and J.-M. List (forthcoming): Annotating and Inferring Compositional Structures in Numeral Systems Across Languages. In: Proceedings of the 7th Workshop on Research in Computational Linguistic Typology and Multilingual NLP (SIGTYP 2025). 1-13. https://doi.org/10.48550/arXiv.2503.01625</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2025-06-13",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Arne Rubehn"
+        },
+        {
+          "name": "Christoph Rzymski"
+        },
+        {
+          "name": "Luca Ciucci"
+        },
+        {
+          "name": "Katja Bocklage"
+        },
+        {
+          "name": "Al\u017eb\u011bta Ku\u010derov\u00e1"
+        },
+        {
+          "name": "David Snee"
+        },
+        {
+          "name": "Kellen Parker van Dam"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/cosinus-v1.0.zip",
+          "checksum": "md5:d4e6711e52f3c27c499ddf8a48408ed5",
+          "url": "https://zenodo.org/api/records/15654141/files/numeralbank/cosinus-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/numeralbank/cosinus/tree/v1.0"
+    },
+    {
+      "id": 15649312,
+      "doi": "10.5281/zenodo.15649312",
+      "conceptid": "3475911",
+      "conceptdoi": "10.5281/zenodo.3475911",
+      "created": "2025-06-12T13:30:13.845592+00:00",
+      "updated": "2025-06-12T13:30:14.020265+00:00",
+      "modified": "2025-06-12T13:30:14.020265+00:00",
+      "title": "CLDF dataset derived from Chan's \"Numeral Systems of the World's Languages.\" from 2019",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Chan, Eugene (eds.) 2019. Numeral Systems of the World&#x27;s Languages. https://mpi-lingweb.shh.mpg.de/numeral - accessed: 2019-09-30</p>\n</blockquote>",
+      "version": "v1.0.1",
+      "access_right": "open",
+      "publication_date": "2025-06-12",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Eugene Chan"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        },
+        {
+          "name": "Christoph Rzymski"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/channumerals-v1.0.1.zip",
+          "checksum": "md5:dd36cc15ee1afad1288d35bb6265d878",
+          "url": "https://zenodo.org/api/records/15649312/files/numeralbank/channumerals-v1.0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Eugene Chan",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/numeralbank/channumerals/tree/v1.0.1"
+    },
+    {
+      "id": 15463198,
+      "doi": "10.5281/zenodo.15463198",
+      "conceptid": "10033150",
+      "conceptdoi": "10.5281/zenodo.10033150",
+      "created": "2025-05-19T10:48:13.208969+00:00",
+      "updated": "2025-05-19T10:48:13.330647+00:00",
+      "modified": "2025-05-19T10:48:13.330647+00:00",
+      "title": "CLDF dataset derived from Mamta's \"South Asian Numerals Database\" from 2024",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Mamta, K. (2024): South Asian Numerals Database (SAND). Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2025-05-19",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Mamta Kumari"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/sand-v1.0.zip",
+          "checksum": "md5:cd55e93c3b9bdeff754c178361e260bb",
+          "url": "https://zenodo.org/api/records/15463198/files/numeralbank/sand-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        },
+        {
+          "name": "Christoph Rzymski",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/numeralbank/sand/tree/v1.0"
+    },
+    {
       "id": 15287258,
       "doi": "10.5281/zenodo.15287258",
       "conceptid": "15287257",
