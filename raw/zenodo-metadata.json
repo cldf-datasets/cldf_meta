@@ -1,6 +1,52 @@
 {
   "records": [
     {
+      "id": 13606075,
+      "doi": "10.5281/zenodo.13606075",
+      "conceptid": "13606074",
+      "conceptdoi": "10.5281/zenodo.13606074",
+      "created": "2024-08-30T11:26:54.997302+00:00",
+      "updated": "2025-07-18T08:55:31.748430+00:00",
+      "modified": "2025-07-18T08:55:31.748430+00:00",
+      "title": "Zero marking and the order of core arguments",
+      "description": "CLDF version of Sinnem\u00e4ki 2010's dataset on zero marking and word order",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2024-08-30",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Kaius Sinnem\u00e4ki"
+        },
+        {
+          "name": "Noora Ahola"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/sinnemakizeromarking-v1.0.zip",
+          "checksum": "md5:d8a05e2ab672dc083f542a39f6ef3ef0",
+          "url": "https://zenodo.org/api/records/13606075/files/cldf-datasets/sinnemakizeromarking-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Johannes Englisch",
+          "type": "Other"
+        },
+        {
+          "name": "Martin Haspelmath",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/cldf-datasets/sinnemakizeromarking/tree/v1.0"
+    },
+    {
       "id": 15779678,
       "doi": "10.5281/zenodo.15779678",
       "conceptid": "8171664",
@@ -4566,52 +4612,6 @@
         }
       ],
       "git-link": "https://github.com/cldf-datasets/veselinovanegex/tree/v1.0"
-    },
-    {
-      "id": 13606075,
-      "doi": "10.5281/zenodo.13606075",
-      "conceptid": "13606074",
-      "conceptdoi": "10.5281/zenodo.13606074",
-      "created": "2024-08-30T11:26:54.997302+00:00",
-      "updated": "2024-08-30T11:26:55.135437+00:00",
-      "modified": "2024-08-30T11:26:55.135437+00:00",
-      "title": "Zero marking and the order of core arguments",
-      "description": "CLDF version of Sinnem\u00e4ki 2010's dataset on zero marking and word order",
-      "version": "v1.0",
-      "access_right": "open",
-      "publication_date": "2024-08-30",
-      "license": "cc-by-4.0",
-      "creators": [
-        {
-          "name": "Kaius Sinnam\u00e4ki"
-        },
-        {
-          "name": "Noora Ahola"
-        }
-      ],
-      "files": [
-        {
-          "file_path": "cldf-datasets/sinnemakizeromarking-v1.0.zip",
-          "checksum": "md5:d8a05e2ab672dc083f542a39f6ef3ef0",
-          "url": "https://zenodo.org/api/records/13606075/files/cldf-datasets/sinnemakizeromarking-v1.0.zip/content"
-        }
-      ],
-      "resource_type": "dataset",
-      "keywords": [
-        "cldf:StructureDataset",
-        "linguistics"
-      ],
-      "contributors": [
-        {
-          "name": "Johannes Englisch",
-          "type": "Other"
-        },
-        {
-          "name": "Martin Haspelmath",
-          "type": "Other"
-        }
-      ],
-      "git-link": "https://github.com/cldf-datasets/sinnemakizeromarking/tree/v1.0"
     },
     {
       "id": 13605939,
