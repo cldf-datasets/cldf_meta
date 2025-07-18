@@ -1,4 +1,5 @@
 ID,Contribution_ID,Module,Language_Count,Glottocode_Count,Parameter_Count,Value_Count,Form_Count,Entry_Count,Example_Count
+13606075-1,13606075,StructureDataset,895,892,7,5961,0,0,0
 15779678-1,15779678,Wordlist,25,25,95,0,2468,0,0
 15719681-1,15719681,Wordlist,12,4,207,0,2472,0,0
 15711275-1,15711275,Wordlist,12,4,207,0,2472,0,0
@@ -85,7 +86,6 @@ ID,Contribution_ID,Module,Language_Count,Glottocode_Count,Parameter_Count,Value_
 13766733-1,13766733,Wordlist,2783,1401,212,0,37092,0,0
 13684237-1,13684237,Wordlist,26,24,323,0,7088,0,0
 13606202-1,13606202,StructureDataset,241,241,3,723,0,0,0
-13606075-1,13606075,StructureDataset,895,892,7,5961,0,0,0
 13605939-1,13605939,StructureDataset,72,72,5,360,0,0,0
 13605418-1,13605418,StructureDataset,174,174,42,4061,0,0,0
 13604622-1,13604622,StructureDataset,425,421,14,425,0,0,2071
