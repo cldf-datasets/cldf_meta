@@ -19,7 +19,8 @@ def get_cldf_json(f):
         if not f.read(10).lstrip().startswith(bytes([123])):
             return None
         f.seek(0)
-        json_data = json.load(f, encoding='utf-8')
+        decoder = io.TextIOWrapper(f, encoding='utf-8')
+        json_data = json.load(decoder)
         if json_data.get('dc:conformsTo', '').startswith(TERMS_URL):
             return json_data
         else:
