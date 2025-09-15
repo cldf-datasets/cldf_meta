@@ -17,6 +17,12 @@ DataArchive = namedtuple('DataArchive', 'record_no file_id path')
 Download = namedtuple('Download', 'url destination checksum')
 
 
+ERROR_MESSAGES = {
+    'nocldf': 'no cldf data found',
+    'badcsv': 'failed to read csv data',
+}
+
+
 def download_path(data_dir, record_no, file_path):
     output_folder = (data_dir / record_no).resolve()
     output_file = (output_folder / file_path).resolve()
@@ -123,7 +129,10 @@ def _stats_from_zip(data_archive):
             zipreader = zipdata.ZipDataReader(
                 zipf, file_tree, path.parent, cldf_md)
             found_data = True
-            yield collect_dataset_stats(record_no, zipreader), None
+            try:
+                yield collect_dataset_stats(record_no, zipreader), None
+            except csv.Error:
+                yield None, CLDFError(record_no, file_id, 'badcsv')
     if not found_data:
         yield None, CLDFError(record_no, file_id, 'nocldf')
 
@@ -379,6 +388,9 @@ class Dataset(BaseDataset):
 
         # Read CLDF data
 
+        # Extend the field size limit for clics4 v0.5
+        csv.field_size_limit(256 * 1024)
+
         print('finding cldf datasets..', file=sys.stderr, flush=True)
         not_cldf = {(err.record_no, err.file) for err in not_cldf_full}
         data_dir = self.raw_dir / 'datasets'
@@ -421,7 +433,7 @@ class Dataset(BaseDataset):
         if cldf_errors.errors:
             print(
                 '\n'.join(
-                    f'{err.record_no}:{err.file}: no cldf data found'
+                    f'{err.record_no}:{err.file}: {ERROR_MESSAGES[err.reason]}'
                     for err in cldf_errors.errors),
                 file=sys.stderr)
             not_cldf_full.extend(cldf_errors.errors)
