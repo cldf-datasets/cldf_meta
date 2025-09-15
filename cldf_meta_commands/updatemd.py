@@ -357,7 +357,7 @@ def updatemd(dataset, _args):
         rdr = csv.reader(f)
         whitelist = [doi for doi, _ in islice(rdr, 1, None) if doi]
 
-    print('downloading records...', file=sys.stderr, flush=True)
+    print('downloading metadata for individual records...', file=sys.stderr, flush=True)
 
     query_kw = 'keywords:({})'.format(
         ' OR '.join(f'"{kw}"' for kw in SEARCH_KEYWORDS))
