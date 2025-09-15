@@ -1,6 +1,343 @@
 {
   "records": [
     {
+      "id": 16900180,
+      "doi": "10.5281/zenodo.16900180",
+      "conceptid": "16900179",
+      "conceptdoi": "10.5281/zenodo.16900179",
+      "created": "2025-08-19T06:19:33.497897+00:00",
+      "updated": "2025-08-19T06:19:33.717419+00:00",
+      "modified": "2025-08-19T06:19:33.717419+00:00",
+      "title": "CLICS 4",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Tjuka, Annika; Forkel, Robert; Rzymski, Christoph; and List, Johann-Mattis (2025): CLICS 4: An Improved Database of Cross-Linguistic Colexifications [Dataset, Version 0.5]. Passau: MCL Chair at the University of Passau.</p>\n</blockquote>",
+      "version": "v0.5",
+      "access_right": "open",
+      "publication_date": "2025-08-19",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Annika Tjuka"
+        },
+        {
+          "name": "Robert Forkel"
+        },
+        {
+          "name": "Christoph Rzymski"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "clics/clics4-v0.5.zip",
+          "checksum": "md5:9ed4a0f41fd84dcba265be0d9a99f8f2",
+          "url": "https://zenodo.org/api/records/16900180/files/clics/clics4-v0.5.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/clics/clics4/tree/v0.5"
+    },
+    {
+      "id": 16736409,
+      "doi": "10.5281/zenodo.16736409",
+      "conceptid": "3835822",
+      "conceptdoi": "10.5281/zenodo.3835822",
+      "created": "2025-08-04T07:57:57.589854+00:00",
+      "updated": "2025-08-04T08:23:26.342201+00:00",
+      "modified": "2025-08-04T08:23:26.342201+00:00",
+      "title": "CLDF dataset derived from Wichmann et al.'s \"ASJP Database\" v21 from 2025",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Wichmann, S\u00f8ren, Eric W. Holman, Cecil H. Brown, Matthew S. Dryer, and Qibin Ran (eds.). 2025. The ASJP Database (version 21).</p>\n</blockquote>",
+      "version": "v21",
+      "access_right": "open",
+      "publication_date": "2025-08-04",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "S\u00f8ren Wichmann"
+        },
+        {
+          "name": "Eric W. Holman"
+        },
+        {
+          "name": "Cecil H. Brown"
+        },
+        {
+          "name": "Dryer, Matthew S."
+        },
+        {
+          "name": "Ran, Qibin"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/asjp-v21.zip",
+          "checksum": "md5:06d94e74db44d4ec5f312da355b7ceb2",
+          "url": "https://zenodo.org/api/records/16736409/files/lexibank/asjp-v21.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "S\u00f8ren Wichmann",
+          "type": "Distributor"
+        },
+        {
+          "name": "S\u00f8ren Wichmann",
+          "type": "DataCurator"
+        },
+        {
+          "name": "S\u00f8ren Wichmann",
+          "type": "Editor"
+        },
+        {
+          "name": "S\u00f8ren Wichmann",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Andr\u00e9 M\u00fcller",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Ann-Katrin Wett",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Viveka Velupillai",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Julia Bischoffberger",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Eric W. Holman",
+          "type": "Editor"
+        },
+        {
+          "name": "Cecil H. Brown",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Cecil H. Brown",
+          "type": "Editor"
+        },
+        {
+          "name": "Sebastian Sauppe",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Zarina Molochieva",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Pamela Brown",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Oleg Belyaev",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Dmitry Egorov",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Matthias Urban",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Robert Mailhammer",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Agustina Carrizo",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Matthew S. Dryer",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Evgenia Korovina",
+          "type": "DataCollector"
+        },
+        {
+          "name": "David Beck",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Helen Geyer",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Patience Epps",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Anthony Grant",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Arjan Mossel",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Darja Appelganz",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Dickson Pagente",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Danli Wu",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Guillaume Segerer",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Ke Xu",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Mark Donohue",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Matthias Pache",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Pengfei Chen",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Paul Sidwell",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Qibin Ran",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Tessa de Mol-van Valen",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Yuzhu Liang",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Yue Sun",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "Other"
+        },
+        {
+          "name": "Tiago Tresoldi",
+          "type": "Other"
+        },
+        {
+          "name": "Jiang, Di",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Wang, Guilin",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Deng, Hongli",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Li, Huachen",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Wang, Hongyu",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Ding, Jun",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Song, Jiening",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Han, Lulu",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Deng, Qiuling",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Steinke, Robin",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Wang, Shuai",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Smirnova, Viktoria",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Ma, Xinyi",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Liu, Yanting",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Lin, Yifan",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Ma, Yanxia",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Zhang, Yanyong",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Zhao, Zhijing",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Dryer, Matthew S.",
+          "type": "Editor"
+        },
+        {
+          "name": "Ran, Qibin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/asjp/tree/v21"
+    },
+    {
       "id": 13606075,
       "doi": "10.5281/zenodo.13606075",
       "conceptid": "13606074",
