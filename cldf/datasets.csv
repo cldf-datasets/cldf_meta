@@ -1,4 +1,7 @@
 ID,Contribution_ID,Module,Language_Count,Glottocode_Count,Parameter_Count,Value_Count,Form_Count,Entry_Count,Example_Count
+16900180-1,16900180,StructureDataset,3432,2152,51539,7210588,0,0,0
+16900180-2,16900180,Wordlist,3432,2152,1730,0,1445845,0,0
+16736409-1,16736409,Wordlist,11540,6126,100,0,568820,0,0
 13606075-1,13606075,StructureDataset,895,892,7,5961,0,0,0
 15779678-1,15779678,Wordlist,25,25,95,0,2468,0,0
 15719681-1,15719681,Wordlist,12,4,207,0,2472,0,0
