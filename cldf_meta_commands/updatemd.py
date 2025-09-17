@@ -35,6 +35,7 @@ SEARCH_COMMUNITIES = [
     'user-dighl',
     'user-digling',
     'user-tular',
+    'user-glottography',
 ]
 
 TYPE_BLACKLIST = {
