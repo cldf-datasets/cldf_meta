@@ -1,4 +1,159 @@
 ID,Name,Description,Contributor,Citation,Version,Creators,Contributors,DOI,Concept_DOI,Concept_ID,Date,Communities,License,Zenodo_Link,Zenodo_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+17417888,CLDF Numeralbank Analysed,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bibiko, H.-H.; Koile, E.; Barlow, R.; Mamta, K.; Korobzow, N.; Appiah Tieku, E.; Rzymski, C.; List, J.-M.; Gray, R. D. (2025): Numeralbank. A Collection of Numeral Systems of the World&#x27;s Languages. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v0.9,Russell Barlow ; Hans-Jörg Bibiko ; Ezequiel Koile ; Mamta Kumari ; Johann-Mattis List ; Natalie Korobzow ; Christoph Rzymski ; Enock Appiah Tieku ; Russell D. Gray,Johannes Englisch,10.5281/zenodo.17417888,10.5281/zenodo.10033171,10033171,,,cc-by-4.0,https://zenodo.org/records/17417888,17417888,,dataset,https://github.com/numeralbank/numeralbank-analysed/tree/v0.9
+17407434,Vanuatu Voices,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lana Takau, Mary Walworth, Aviva Shimelman, Sandrine Bessis, Tom Ennever, Iveth Rodriguez, Hans-Jörg Bibiko, Daria Dërmaku, Murray Garde, Marie-France Duhamel, Giovanni Abete, Laura Wägerle, Kaitip W. Kami, Tihomir Rangelov, Russell Gray. 2025. Vanuatu Voices.</p>
+</blockquote>",,,v1.4,Lana Takau ; Tom Fitzpatrick ; Mary Walworth ; Aviva Shimelman ; Sandrine Bessis ; Tom Ennever ; Iveth Rodriguez ; Hans-Jörg Bibiko ; Daria Dërmaku ; Murray Garde ; Marie-France Duhamel ; Giovanni Abete ; Laura Wägerle ; Kaitip W. Kami ; Tihomir Rangelov ; Russell Gray,Robert Forkel ; Johann-Mattis List,10.5281/zenodo.17407434,10.5281/zenodo.4309140,4309140,,,cc-by-nc-4.0,https://zenodo.org/records/17407434,17407434,,dataset,https://github.com/lexibank/vanuatuvoices/tree/v1.4
+17342211,"Glottography dataset derived from Zucchi 2017 ""Arqueología de los llanos occidentales y el Orinoco""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Zucchi, Alberta. 2017. Arqueología de los llanos occidentales y el Orinoco. (Collección clásicos de la arqueología Venezolana.) Caracas: Centro Nacional de Estudios Históricos.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17342211,10.5281/zenodo.17342210,17342210,,,cc-by-4.0,https://zenodo.org/records/17342211,17342211,,dataset,https://github.com/Glottography/zucchi2017arqueologia/tree/v1.0
+17342180,"Glottography dataset derived from Wurm and Hattori 1981/83 ""Language atlas of the pacific area""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981). Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983). Registered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17342180,10.5281/zenodo.17342179,17342179,,,cc-by-nc-4.0,https://zenodo.org/records/17342180,17342180,,dataset,https://github.com/Glottography/wurm1981pacific/tree/v1.0
+17342116,"Glottography dataset derived from Wikipedia contributors 2024 ""List of official languages by country and territory --- Wikipedia, The Free Encyclopedia""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>{Wikipedia contributors}. 2024. List of official languages by country and territory --- Wikipedia, The Free Encyclopedia. ([Online; accessed 18-November-2024]).</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17342116,10.5281/zenodo.17342115,17342115,,,cc-by-4.0,https://zenodo.org/records/17342116,17342116,,dataset,https://github.com/Glottography/wikipedia2024officiallang/tree/v1.0
+17342060,"Glottography dataset derived from Walker and Ribeiro 2011 ""Bayesian Phylogeography of the Arawak Expansion in Lowland South America""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Walker, Robert S. &amp; Lincoln A. Ribeiro. 2011. Bayesian Phylogeography of the Arawak Expansion in Lowland South America. 278(1718). 2562–2567. doi: 10.1098/rspb.2010.2579. Royal Society.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17342060,10.5281/zenodo.17342059,17342059,,,cc-by-4.0,https://zenodo.org/records/17342060,17342060,,dataset,https://github.com/Glottography/walker2011bayesian/tree/v1.0
+17342021,"Glottography dataset derived from Vuillermet 2012 ""A Grammar of Ese Ejja, a Takanan language of the Bolivian Amazon""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Vuillermet, Marine. 2012. A Grammar of Ese Ejja, a Takanan language of the Bolivian Amazon. Université Lumière Lyon 2 dissertation. (xvi+736pp.)</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17342021,10.5281/zenodo.17342020,17342020,,,cc-by-4.0,https://zenodo.org/records/17342021,17342021,,dataset,https://github.com/Glottography/vuillermet2012grammar/tree/v1.0
+17341986,"Glottography dataset derived from Tarble de Scaramelli and Zucchi 1984 ""Nuevos Datos sobre la Arqueología Tardia del Orinoco: La Serie Valloide""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Scaramelli, Kay Tarble de &amp; A. Zucchi. 1984. Nuevos Datos sobre la Arqueología Tardia del Orinoco: La Serie Valloide. Acta Científica Venezolana 35. 434-445.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17341986,10.5281/zenodo.17341985,17341985,,,cc-by-4.0,https://zenodo.org/records/17341986,17341986,,dataset,https://github.com/Glottography/tarble1984nuevos/tree/v1.0
+17341948,"Glottography dataset derived from Suttles and Suttles 1985 ""Native languages of the northwest coast""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Suttles, Wayne &amp; Cameron Suttles. 1985. Native languages of the northwest coast. The Press of the Oregon Historical Society.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17341948,10.5281/zenodo.17341947,17341947,,,cc-by-4.0,https://zenodo.org/records/17341948,17341948,,dataset,https://github.com/Glottography/suttles1985northwest/tree/v1.0
+17341914,"Glottography dataset derived from Steever 2019 ""The Dravidian Languages""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Steever, S.B. 2019. The Dravidian Languages. (Routledge Language Family Series.) Taylor \&amp; Francis.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17341914,10.5281/zenodo.17341913,17341913,,,cc-by-4.0,https://zenodo.org/records/17341914,17341914,,dataset,https://github.com/Glottography/steever2019dravidian/tree/v1.0
+17341890,"Glottography dataset derived from Schapper 2020 ""1. Introduction to The Papuan languages of Timor, Alor and Pantar. Volume 3""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Schapper, Antoinette. 2020. 1. Introduction to The Papuan languages of Timor, Alor and Pantar. Volume 3. In  Schapper, Antoinette (ed.) 1–52. Berlin, Boston: De Gruyter Mouton. doi: doi:10.1515/9781501511158-001.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17341890,10.5281/zenodo.17341889,17341889,,,cc-by-4.0,https://zenodo.org/records/17341890,17341890,,dataset,https://github.com/Glottography/schapper2020papuan/tree/v1.0
+17341268,"Glottography dataset derived from Rantanen et al. 2021 ""Geographical database of the Uralic languages""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Rantanen, T., Vesakoski, O., Ylikoski, J., &amp; Tolvanen, H. (2021). Geographical database of the Uralic languages (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4784188</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17341268,10.5281/zenodo.17341267,17341267,,,cc-by-4.0,https://zenodo.org/records/17341268,17341268,,dataset,https://github.com/Glottography/rantanen2021uralic/tree/v1.0
+17341026,"Glottography dataset derived from Queixalos and Renault-Lescure 2000 ""As línguas amazônicas hoje""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Queixalos, Francisco &amp; Odile Renault-Lescure. 2000. As línguas amazônicas hoje. In  Queixalós, Francisco and Renault-Lescure, Odile (eds.) São Paulo: IRD/Instituto Socioambiental/MPEG. 432pp.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17341026,10.5281/zenodo.17341025,17341025,,,cc-by-4.0,https://zenodo.org/records/17341026,17341026,,dataset,https://github.com/Glottography/queixalos2000linguas/tree/v1.0
+17340812,"Glottography dataset derived from Ministerio de Educación, Ciencia y Tecnología de la Nación and Programa Nacional Mapa Educativo 2009 ""República Argentina – Pueblos Indígenas""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Ministerio de Educación, Ciencia y Tecnología de la Nación &amp; Programa Nacional Mapa Educativo (eds.) 2009. República Argentina – Pueblos Indígenas.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17340812,10.5281/zenodo.17340811,17340811,,,cc-by-4.0,https://zenodo.org/records/17340812,17340812,,dataset,https://github.com/Glottography/ministerio2009pueblos/tree/v1.0
+17340771,"Glottography dataset derived from Messineo 2011 ""Aproximación tipológica a las lenguas indígenas del Gran Chaco. Rasgos compartidos entre toba (familia guaycurú) y maká (familia mataco-mataguayo)""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Messineo, Cristina. 2011. Aproximación tipológica a las lenguas indígenas del Gran Chaco. Rasgos compartidos entre toba (familia guaycurú) y maká (familia mataco-mataguayo). Indiana. 183-225.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17340771,10.5281/zenodo.17340770,17340770,,,cc-by-4.0,https://zenodo.org/records/17340771,17340771,,dataset,https://github.com/Glottography/messineo2011aproximacion/tree/v1.0
+17340654,"Glottography dataset derived from Matsumae et al. 2021 ""Exploring correlations in genetic and cultural variation across language families in northeast Asia""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Matsumae, Hiromi, Peter Ranacher, Patrick E. Savage, Damián E. Blasi, Thomas E. Currie, Kae Koganebuchi, Nao Nishida, Takehiro Sato, Hideyuki Tanabe, Atsushi Tajima, Steven Brown, Mark Stoneking, Kentaro K. Shimizu, Hiroki Oota &amp; Balthasar Bickel. 2021. Exploring correlations in genetic and cultural variation across language families in northeast Asia. Science Advances 7(34). eabd9223. doi: 10.1126/sciadv.abd9223.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17340654,10.5281/zenodo.17340653,17340653,,,cc-by-4.0,https://zenodo.org/records/17340654,17340654,,dataset,https://github.com/Glottography/matsumae2021exploring/tree/v1.0
+17340571,"Glottography dataset derived from Hochstetler et al. 2004 ""Sociolinguistic survey of the Dogon language area""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Hochstetler, J Lee &amp; Evelin IK Durieux Jude A and Durieux-Boon. 2004. Sociolinguistic survey of the Dogon language area. SIL International. Citeseer.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17340571,10.5281/zenodo.17340570,17340570,,,cc-by-4.0,https://zenodo.org/records/17340571,17340571,,dataset,https://github.com/Glottography/hochstetler2004sociolinguistic/tree/v1.0
+17340247,"Glottography dataset derived from Haynie and Gavin 2019 ""Modern language range mapping for the study of language diversity""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Haynie, Hannah J. &amp; Michael C. Gavin. 2019. Modern language range mapping for the study of language diversity. doi: 10.31235/osf.io/9fu7g.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17340247,10.5281/zenodo.17340246,17340246,,,cc-by-nc-4.0,https://zenodo.org/records/17340247,17340247,,dataset,https://github.com/Glottography/haynie2019modern/tree/v1.0
+17340138,Glottography dataset derived from Grierson's Linguistic Survey of India,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Linguistic survey of India / [compiled and edited] by George Abraham Grierson. Calcutta : Office of the Superintendent of Government Printing, India, 1903-1928. 11 v. in 20 : maps (part fold.) ; 36 cm.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17340138,10.5281/zenodo.17340137,17340137,,,cc-by-4.0,https://zenodo.org/records/17340138,17340138,,dataset,https://github.com/Glottography/grierson1903lsi/tree/v1.0
+17339338,"Glottography dataset derived from Goddard 1999 ""Native Languages and Language Families of North America""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Goddard, Ives. 1999. Native Languages and Language Families of North America. (Studies in the Anthropology of North American Indians Series.) In  Smithsonian Institution (ed.) Revised and enlarged edition, with additions and corrections edn. University of Nebraska Press. Sheet map, foldedpp.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17339338,10.5281/zenodo.17339337,17339337,,,cc-by-4.0,https://zenodo.org/records/17339338,17339338,,dataset,https://github.com/Glottography/goddard1999native/tree/v1.0
+17339172,"Glottography dataset derived from Figueira n.d. ""Atlas total de la República Argentina""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Figueira, Ricardo. 1982. Atlas total de la República Argentina. In  Chiozza, Elena (ed.) Centro Editor de América Latina.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17339172,10.5281/zenodo.17339171,17339171,,,cc-by-4.0,https://zenodo.org/records/17339172,17339172,,dataset,https://github.com/Glottography/figueira1982atlastotalargentina/tree/v1.0
+17339139,"Glottography dataset derived from Eriksen 2011 ""Nature and Culture in Prehistoric Amazonia Using G.I.S. to reconstruct ancient ethnogenetic processes from archaeology, linguistics, geography, and ethnohistory""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Eriksen, Love. 2011. Nature and Culture in Prehistoric Amazonia Using G.I.S. to reconstruct ancient ethnogenetic processes from archaeology, linguistics, geography, and ethnohistory. In.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17339139,10.5281/zenodo.17339138,17339138,,,cc-by-4.0,https://zenodo.org/records/17339139,17339139,,dataset,https://github.com/Glottography/eriksen2011nature/tree/v1.0
+17338066,"Glottography dataset derived from Edwards 2020 ""Metathesis and unmetathesis in Amarasi""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Edwards, Owen D. 2020. Metathesis and unmetathesis in Amarasi. Berlin: Language Science Press. doi: 10.5281/zenodo.3700413.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17338066,10.5281/zenodo.17338065,17338065,,,cc-by-4.0,https://zenodo.org/records/17338066,17338066,,dataset,https://github.com/Glottography/edwards2020metathesis/tree/v1.0
+17334281,"Glottography dataset derived from Denevan 1966 ""The aboriginal cultural geography of the Llanos de Mojos of Bolivia""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Denevan, William M. 1966. The aboriginal cultural geography of the Llanos de Mojos of Bolivia. (Ibero-Americana, 48.) Berkeley: University of California Press.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17334281,10.5281/zenodo.17334280,17334280,,,cc-by-4.0,https://zenodo.org/records/17334281,17334281,,dataset,https://github.com/Glottography/denevan1966aboriginal/tree/v1.0
+17334236,"Glottography dataset derived from Dedio et al. 2019 ""Evidence for Britain and Ireland as a Linguistic Area""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Dedio, Stefan, Peter Ranacher &amp; Paul Widmer. 2019. Evidence for Britain and Ireland as a Linguistic Area. Language 95(3). 498–522. doi: 10.1353/lan.2019.0054.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17334236,10.5281/zenodo.17334235,17334235,,,cc-by-4.0,https://zenodo.org/records/17334236,17334236,,dataset,https://github.com/Glottography/dedio2019britain/tree/v1.0
+17334192,Glottography dataset derived from the Geographical Presences in the DiACL/TITUS Polygon Archive,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Carling, Gerd &amp; Jost Gippert (eds.) 2025. DiACL/TITUS Polygon Archive. Frankfurt am Main: Goethe University (URL: https://diacl.uni-frankfurt.de/GeographicalPresence/Index)</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17334192,10.5281/zenodo.17334191,17334191,,,cc-by-4.0,https://zenodo.org/records/17334192,17334192,,dataset,https://github.com/Glottography/carling2025diacl/tree/v1.0
+17334090,"Glottography dataset derived from Bowern 2021 ""Files for Australian Language Locations""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bowern, C. (2021). Files for Australian Language Locations [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4898185</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17334090,10.5281/zenodo.17334089,17334089,,,cc-by-nc-4.0,https://zenodo.org/records/17334090,17334090,,dataset,https://github.com/Glottography/bowern2021australia/tree/v1.0
+17333460,"Glottography dataset derived from Bowern and Atkinson 2012 ""Computational phylogenetics and the internal structure of Pama-Nyungan""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bowern, Claire &amp; Quentin Atkinson. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language 88. 817-845. doi: 10.2307/23357554.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17333460,10.5281/zenodo.17333459,17333459,,,cc-by-4.0,https://zenodo.org/records/17333460,17333460,,dataset,https://github.com/Glottography/bowern2012pamanyungan/tree/v1.0
+17333413,"Glottography dataset derived from Bouckaert et al. 2012 ""Mapping the origins and expansion of the Indo-European language family""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bouckaert, Remco, Philippe Lemey, Michael Dunn, Simon J Greenhill, Alexander V Alekseyenko, Alexei J Drummond, Russell D Gray &amp; Quentin D Suchard Marc A and Atkinson. 2012. Mapping the origins and expansion of the Indo-European language family. Science 337(6097). 957–960. American Association for the Advancement of Science.</p>
+</blockquote>",,,v1.0,The Glottography Consortium,,10.5281/zenodo.17333413,10.5281/zenodo.17333412,17333412,,,cc-by-4.0,https://zenodo.org/records/17333413,17333413,,dataset,https://github.com/Glottography/bouckaert2012indoeuropean/tree/v1.0
+17333165,"Glottography dataset derived from Allen et al. 2016 ""Resource scarcity drives lethal aggression among prehistoric hunter-gatherers in central California""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>M.W. Allen, R.L. Bettinger, B.F. Codding, T.L. Jones, A.W. Schwitalla, Resource scarcity drives lethal aggression among prehistoric hunter-gatherers in central California, Proc. Natl. Acad. Sci. U.S.A. 113 (43) 12120-12125, https://doi.org/10.1073/pnas.1607996113 (2016).</p>
+</blockquote>",,,v1.0,The Glottography Consortium,The Glottography Consortium,10.5281/zenodo.17333165,10.5281/zenodo.17333164,17333164,,,cc-by-4.0,https://zenodo.org/records/17333165,17333165,,dataset,https://github.com/Glottography/allen2016resource/tree/v1.0
+10033312,CLDF Numeralbank Analysed,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bibiko, H.-H.; Koile, E.; Barlow, R.; Mamta, K.; Appiah Tieku, E.; Rzymski, C.; List, J.-M.; Gray, R. D. (2023): Numeralbank. A Collection of Numeral Systems of the World&#x27;s Languages. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v0.8.1,Hans-Jörg Bibiko ; Ezequiel Koile ; Russell Barlow ; Mamta Kumari ; Enock Appiah Tieku ; Christoph Rzymski ; Johann-Mattis List ; Russell D. Gray,,10.5281/zenodo.10033312,10.5281/zenodo.10033171,10033171,,,cc-by-4.0,https://zenodo.org/records/10033312,10033312,,dataset,https://github.com/numeralbank/numeralbank-analysed/tree/v0.8.1
 16900180,CLICS 4,"<p>Cite the source of the dataset as:</p>
 
 <blockquote>
