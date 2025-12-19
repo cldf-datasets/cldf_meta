@@ -1,4 +1,281 @@
 ID,Name,Description,Contributor,Citation,Version,Creators,Contributors,DOI,Concept_DOI,Concept_ID,Date,Communities,License,Zenodo_Link,Zenodo_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+17986360,Wanukaka Dictionary,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Leif Asplund, Tomas Tagu Dodu, and Allahverdi Verdizade. 2025. Wanukaka Dictionary. Dictionaria 16. 1-3791 (Available online at https://dictionaria.clld.org/contributions/wanukaka)</p>
+</blockquote>",,,v1.0,Leif Asplund ; Tomas Tagu Dodu ; Allahverdi Verdizade,Johannes Englisch ; Iren Hartmann ; Barbara Stiebels ; Martin Haspelmath,10.5281/zenodo.17986360,10.5281/zenodo.17986359,17986359,,,cc-by-4.0,https://zenodo.org/records/17986360,17986360,,dataset,https://github.com/dictionaria/wanukaka/tree/v1.0
+17986053,Sinitic between Altaic and Mainland Southeast Asia,Szeto &amp; Yurayong: Sinitic between Altaic and Mainland Southeast Asia,,,v1.0,Pui Yiu Szeto ; Chingduang Yuradong,Johannes Englisch ; Martin Haspelmath,10.5281/zenodo.17986053,10.5281/zenodo.17986052,17986052,,,cc-by-4.0,https://zenodo.org/records/17986053,17986053,,dataset,https://github.com/cldf-datasets/siniticbetween/tree/v1.0
+17985734,Differential object marking in symmetrical voice languages,CLDF dataset based on Bonmann et al. (2024) 'Differential object marking in Western Malayo-Polynesian symmetrical voice languages',,,v1.0,Svenja Bonmann ; Sonja Riesberg ; Nikolaus P. Himmelmann,Johannes Englisch ; Martin Haspelmath,10.5281/zenodo.17985734,10.5281/zenodo.17985733,17985733,,,cc-by-4.0,https://zenodo.org/records/17985734,17985734,,dataset,https://github.com/cldf-datasets/bonmannsymmetrical/tree/v1.0
+17985722,Special numerals in South Asian languages,Special numerals in South Asian languages,,,v1.0,Kumari Mamta,Johannes Englisch ; Martin Haspelmath,10.5281/zenodo.17985722,10.5281/zenodo.17985721,17985721,,,cc-by-4.0,https://zenodo.org/records/17985722,17985722,,dataset,https://github.com/cldf-datasets/mamtasouthasia/tree/v1.0
+17985706,Indefinite pronoun markers,Haspelmath (1997): 'Indefinite Pronouns',,,v1.0,Martin Haspelmath,Johannes Englisch,10.5281/zenodo.17985706,10.5281/zenodo.17985705,17985705,,,cc-by-4.0,https://zenodo.org/records/17985706,17985706,,dataset,https://github.com/cldf-datasets/haspelmathindefpro/tree/v1.0
+17985692,Adverbial subordinators in European languages,Kortmann 1997 on Adverbial Subordination,,,v1.0,Bernd Kortmann,Johannes Englisch ; Martin Haspelmath,10.5281/zenodo.17985692,10.5281/zenodo.17985691,17985691,,,cc-by-4.0,https://zenodo.org/records/17985692,17985692,,dataset,https://github.com/cldf-datasets/kortmannadverbial/tree/v1.0
+17984267,D-PLACE dataset derived from Murdock et al. 1999 'Ethnographic Atlas',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Murdock, G. P., R. Textor, H. Barry, III, D. R. White, J. P. Gray, and W. T. Divale. 1999. Ethnographic Atlas. World Cultures 10:24-136 (codebook)</p>
+</blockquote>",,,v3.3,"Murdock, G. P. ; R. Textor ; H. Barry, III ; D. R. White ; J. P. Gray ; W. T. Divale",Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17984267,10.5281/zenodo.10177060,10177060,,,cc-by-nc-4.0,https://zenodo.org/records/17984267,17984267,,dataset,https://github.com/D-PLACE/dplace-dataset-ea/tree/v3.3
+17973868,"CLDF dataset derived from Kim et al's ""The Tripura of Bangladesh: A Sociolinguistic Survey"" from 2011","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kim, Amy and Roy, Palash and Sangma, Mridul and Kim, Seung (2011) The Tripura of Bangladesh: A Sociolinguistic Survey. Journal of Language Survey Reports. Dallas: SIL International</p>
+</blockquote>",,,v1.0.0,"Kim, Amy ; Roy, Palash ; Sangma, Mridul ; Kim, Seung","van Dam, Kellen Parker ; Johann-Mattis List",10.5281/zenodo.17973868,10.5281/zenodo.17973867,17973867,,,cc-by-4.0,https://zenodo.org/records/17973868,17973868,,dataset,https://github.com/phonemica/kimkokborok/tree/v1.0.0
+17617220,D-PLACE aggregated dataset,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kathryn R. Kirby, Russell D. Gray, Simon J. Greenhill, Fiona M. Jordan, Stephanie Gomes-Ng, Hans-Jörg Bibiko, Damián E. Blasi, Carlos A. Botero, Claire Bowern, Carol R. Ember, Dan Leehr, Bobbi S. Low, Joe McCarter, William Divale, and Michael C. Gavin. (2016). D-PLACE: A Global Database of Cultural, Linguistic and Environmental Diversity. PLoS ONE, 11(7): e0158391. doi:10.1371/journal.pone.0158391.</p>
+</blockquote>",,,v3.2.1,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin ; Václav Hrnčíř,Robert Forkel,10.5281/zenodo.17617220,10.5281/zenodo.3935419,3935419,,,cc-by-nc-4.0,https://zenodo.org/records/17617220,17617220,,dataset,https://github.com/D-PLACE/dplace-cldf/tree/v3.2.1
+17610140,D-PLACE aggregated dataset,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kathryn R. Kirby, Russell D. Gray, Simon J. Greenhill, Fiona M. Jordan, Stephanie Gomes-Ng, Hans-Jörg Bibiko, Damián E. Blasi, Carlos A. Botero, Claire Bowern, Carol R. Ember, Dan Leehr, Bobbi S. Low, Joe McCarter, William Divale, and Michael C. Gavin. (2016). D-PLACE: A Global Database of Cultural, Linguistic and Environmental Diversity. PLoS ONE, 11(7): e0158391. doi:10.1371/journal.pone.0158391.</p>
+</blockquote>",,,v3.2.0,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin ; Václav Hrnčíř,Robert Forkel,10.5281/zenodo.17610140,10.5281/zenodo.3935419,3935419,,,cc-by-nc-4.0,https://zenodo.org/records/17610140,17610140,,dataset,https://github.com/D-PLACE/dplace-cldf/tree/v3.2.0
+17607789,D-PLACE dataset derived from Robert L. Carneiro's Dataset (4th Edition),"<p>Cite the D-PLACE dataset as</p>
+<p>DOI</p>",,,v1.0.1,Robert L. Carneiro,Václav Hrnčíř ; Václav Hrnčíř ; Robert Forkel ; Robert Forkel,10.5281/zenodo.17607789,10.5281/zenodo.17599042,17599042,,,cc-by-4.0,https://zenodo.org/records/17607789,17607789,,dataset,https://github.com/D-PLACE/dplace-dataset-carneiro4/tree/v1.0.1
+17607723,D-PLACE dataset derived from Robert L. Carneiro's Dataset (6th edition),"<p>Cite the D-PLACE dataset as</p>
+<p>DOI</p>",,,v1.0.1,Robert L. Carneiro,Václav Hrnčíř ; Václav Hrnčíř ; Robert Forkel ; Robert Forkel,10.5281/zenodo.17607723,10.5281/zenodo.17600554,17600554,,,cc-by-4.0,https://zenodo.org/records/17607723,17607723,,dataset,https://github.com/D-PLACE/dplace-dataset-carneiro6/tree/v1.0.1
+17602181,D-PLACE dataset derived from Murdock et al. 1999 'Ethnographic Atlas',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Murdock, G. P., R. Textor, H. Barry, III, D. R. White, J. P. Gray, and W. T. Divale. 1999. Ethnographic Atlas. World Cultures 10:24-136 (codebook)</p>
+</blockquote>",,,v3.2.1,"Murdock, G. P. ; R. Textor ; H. Barry, III ; D. R. White ; J. P. Gray ; W. T. Divale",Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17602181,10.5281/zenodo.10177060,10177060,,,cc-by-nc-4.0,https://zenodo.org/records/17602181,17602181,,dataset,https://github.com/D-PLACE/dplace-dataset-ea/tree/v3.2.1
+17602055,D-PLACE dataset derived from Jorgensen 1980 'Western Indians',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Jorgensen, JG. 1980. Western Indians: Comparative Environments, Languages, and Cultures of 172 Western American Indian Tribes. San Francisco: W.H. Freeman and Company.</p>
+</blockquote>",,,v3.2,"Jorgensen, JG",Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17602055,10.5281/zenodo.10201103,10201103,,,cc-by-nc-4.0,https://zenodo.org/records/17602055,17602055,,dataset,https://github.com/D-PLACE/dplace-dataset-wnai/tree/v3.2
+17601927,D-PLACE dataset derived from Olson et al. 2001 'Terrestrial Ecoregions of the World',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., D&#x27;Amico, J. A., Itoua, I., Strand, H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H., Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., Kassem, K. R. 2001. Terrestrial ecoregions of the world: a new map of life on Earth. Bioscience 51(11):933-938.</p>
+</blockquote>",,,v3.2,"Olson, D. M. ; Dinerstein, E. ; Wikramanayake, E. D. ; Burgess, N. D. ; Powell, G. V. N. ; Underwood, E. C. ; D'Amico, J. A. ; Itoua, I. ; Strand, H. E. ; Morrison, J. C. ; Loucks, C. J. ; Allnutt, T. F. ; Ricketts, T. H. ; Kura, Y. ; Lamoreux, J. F. ; Wettengel, W. W. ; Hedao, P. ; Kassem, K. R.",Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601927,10.5281/zenodo.10201086,10201086,,,cc-by-nc-4.0,https://zenodo.org/records/17601927,17601927,,dataset,https://github.com/D-PLACE/dplace-dataset-teow/tree/v3.2
+17601873,D-PLACE dataset derived from Murdock and White 1969 'Standard Cross-Cultural Sample',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Murdock GP &amp; White DR. 1969. Standard Cross-Cultural Sample. Ethnology. 9:329–369.</p>
+</blockquote>",,,v3.2,"Murdock, George P. ; White, Douglas R.",Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601873,10.5281/zenodo.10201074,10201074,,,cc-by-nc-4.0,https://zenodo.org/records/17601873,17601873,,dataset,https://github.com/D-PLACE/dplace-dataset-sccs/tree/v3.2
+17601800,D-PLACE dataset derived from NASA TERRA/MODIS 'Net Primary Productivity',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>NASA. Net Primary Productivity (1 month - TERRA/MODIS)</p>
+</blockquote>",,,v3.2,NASA TERRA/MODIS,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601800,10.5281/zenodo.10183956,10183956,,,cc-by-nc-4.0,https://zenodo.org/records/17601800,17601800,,dataset,https://github.com/D-PLACE/dplace-dataset-modis/tree/v3.2
+17601737,D-PLACE dataset derived from Kreft and Jetz 2007 'Global patterns and determinants of vascular plant diversity',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kreft H, Jetz W. Global patterns and determinants of vascular plant diversity. Proc Natl Acad Sci. 2007;104: 5925–5930.</p>
+</blockquote>",,,v3.2,Kreft H. ; Jetz W.,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601737,10.5281/zenodo.10182360,10182360,,,cc-by-nc-4.0,https://zenodo.org/records/17601737,17601737,,dataset,https://github.com/D-PLACE/dplace-dataset-kreft/tree/v3.2
+17601675,D-PLACE dataset derived from Jenkins et al. 2013 'Global patterns of terrestrial vertebrate diversity and conservation',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Jenkins CN, Pimm SL, Joppa LN. Global patterns of terrestrial vertebrate diversity and conservation. Proc Natl Acad Sci. 2013;110: E2602–E2610.</p>
+</blockquote>",,,v3.2,"Jenkins, CN ; SL Pimm ; LN Joppa",Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601675,10.5281/zenodo.10182355,10182355,,,cc-by-3.0,https://zenodo.org/records/17601675,17601675,,dataset,https://github.com/D-PLACE/dplace-dataset-jenkins/tree/v3.2
+17601634,"D-PLACE dataset derived from Wessel and Smith 2015 'Global Self-consistent, Hierarchical, High-resolution Geography Database'","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Wessel, P., and W. H. F. Smith (1996), A global, self-consistent, hierarchical, high-resolution shoreline database, J. Geophys. Res., 101(B4), 8741–8743, doi:10.1029/96JB00104.
+
+Wessel P, Smith, W. H. F. Global Self-consistent, Hierarchical, High-resolution Geography Database (GSHHS) v2.3.4 [Internet]. 2015. Available: https://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html</p>
+</blockquote>",,,v3.2,P. Wessel ; W. H. F. Smith,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601634,10.5281/zenodo.10182307,10182307,,,lgpl-3.0,https://zenodo.org/records/17601634,17601634,,dataset,https://github.com/D-PLACE/dplace-dataset-gshhs/tree/v3.2
+17601586,D-PLACE dataset derived from 'Global Multi-resolution Terrain Elevation Data 2010',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Global Multi-resolution Terrain Elevation Data courtesy of the U.S. Geological Survey (Downloaded 14 Jul 2014)</p>
+</blockquote>",,,v3.2,Earth Resources Observation and Science (EROS) Center,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601586,10.5281/zenodo.10180042,10180042,,,cc-by-nc-4.0,https://zenodo.org/records/17601586,17601586,,dataset,https://github.com/D-PLACE/dplace-dataset-gmted2010/tree/v3.2
+17601193,D-PLACE dataset derived from Lima-Ribeiro et al. 2015 'ecoClimate',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lima-Ribeiro MS; Varela S; González-Hernández J; Oliveira G; Diniz-Filho JAF; Terribile LC. 2015. ecoClimate: a database of climate data from multiple models for past, present, and future for Macroecologists and Biogeographers Biodiversity Informatics 10, 1-21. DOI: 10.17161/bi.v10i0.4955
+
+Lima-Ribeiro MS; Varela S; González-Hernández J; Oliveira G; Diniz-Filho JAF; Peterson AT; Terribile LC. The ecoClimate Database, http://ecoclimate.org</p>
+</blockquote>",,,v3.2,Lima-Ribeiro MS ; Varela S ; González-Hernández J ; Oliveira G ; Diniz-Filho JAF ; Peterson AT ; Terribile LC,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601193,10.5281/zenodo.10179300,10179300,,,cc-by-nc-sa-4.0,https://zenodo.org/records/17601193,17601193,,dataset,https://github.com/D-PLACE/dplace-dataset-ecoclimate/tree/v3.2
+17601108,D-PLACE dataset derived from Murdock et al. 1999 'Ethnographic Atlas',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Murdock, G. P., R. Textor, H. Barry, III, D. R. White, J. P. Gray, and W. T. Divale. 1999. Ethnographic Atlas. World Cultures 10:24-136 (codebook)</p>
+</blockquote>",,,v3.2,"Murdock, G. P. ; R. Textor ; H. Barry, III ; D. R. White ; J. P. Gray ; W. T. Divale",Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17601108,10.5281/zenodo.10177060,10177060,,,cc-by-nc-4.0,https://zenodo.org/records/17601108,17601108,,dataset,https://github.com/D-PLACE/dplace-dataset-ea/tree/v3.2
+17600888,D-PLACE dataset derived from Bertolo et al. 2023 'Cross-cultural music corpus: The Expanded Natural History of Song Discography',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Mila Bertolo, Martynas Snarskis, Manvir Singh, &amp; Samuel Mehr. (2023, August 8). Cross-cultural music corpus: The Expanded Natural History of Song Discography. Zenodo. https://doi.org/10.5281/zenodo.8378337</p>
+</blockquote>",,,v3.2,Mila Bertolo ; Martynas Snarskis ; Manvir Singh ; Samuel Mehr,Martynas Snarskis ; Robert Forkel ; Robert Forkel,10.5281/zenodo.17600888,10.5281/zenodo.10201381,10201381,,,cc-by-4.0,https://zenodo.org/records/17600888,17600888,,dataset,https://github.com/D-PLACE/dplace-dataset-ccmc/tree/v3.2
+17600555,D-PLACE dataset derived from Robert L. Carneiro's Dataset (6th edition),"<p>Cite the D-PLACE dataset as</p>
+<p>DOI</p>",,,v1.0,Robert L. Carneiro,Václav Hrnčíř ; Václav Hrnčíř ; Robert Forkel ; Robert Forkel,10.5281/zenodo.17600555,10.5281/zenodo.17600554,17600554,,,cc-by-4.0,https://zenodo.org/records/17600555,17600555,,dataset,https://github.com/D-PLACE/dplace-dataset-carneiro6/tree/v1.0
+17599043,D-PLACE dataset derived from Robert L. Carneiro's Dataset (4th Edition),,,,v1.0,"Carneiro, Robert L.","Hrnčíř, Václav ; Forkel, Robert",10.5281/zenodo.17599043,10.5281/zenodo.17599042,17599042,,,cc-by-4.0,https://zenodo.org/records/17599043,17599043,,dataset,https://github.com/D-PLACE/dplace-dataset-carneiro4/tree/v1.0
+17597468,CLDF Numeralbank Analysed,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bibiko, H.-H.; Koile, E.; Barlow, R.; Mamta, K.; Korobzow, N.; Appiah Tieku, E.; Rzymski, C.; List, J.-M.; Gray, R. D. (2025): Numeralbank. A Collection of Numeral Systems of the World&#x27;s Languages. Leipzig: Max Planck Institute for Evolutionary Anthropology.</p>
+</blockquote>",,,v0.9.1,Russell Barlow ; Hans-Jörg Bibiko ; Ezequiel Koile ; Mamta Kumari ; Johann-Mattis List ; Natalie Korobzow ; Christoph Rzymski ; Enock Appiah Tieku ; Russell D. Gray,Johannes Englisch,10.5281/zenodo.17597468,10.5281/zenodo.10033171,10033171,,,cc-by-4.0,https://zenodo.org/records/17597468,17597468,,dataset,https://github.com/numeralbank/numeralbank-analysed/tree/v0.9.1
+17591786,Phlorest phylogeny derived from Zhang et al 2019 'Phylogenetic evidence for Sino-Tibetan origin in northern China in the Late Neolithic',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Zhang M, Yan S, Pan W, &amp; Jin L. 2019. Phylogenetic evidence for Sino-Tibetan origin in northern China in the Late Neolithic. Nature, 569, 112–115.</p>
+</blockquote>",,,v1.2,Menghan Zhang ; Shi Yan ; Wuyun Pan ; Li Jin,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17591786,10.5281/zenodo.8250323,8250323,,,cc-by-4.0,https://zenodo.org/records/17591786,17591786,,dataset,https://github.com/phlorest/zhang_et_al2019/tree/v1.2
+17591444,Phlorest phylogeny derived from Walker & Ribeiro 2011 'Bayesian phylogeography of the Arawak expansion in lowland South America',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Walker, R. S., &amp; Ribeiro, L. A. (2011). Bayesian phylogeography of the Arawak expansion in lowland South America. Proceedings of the Royal Society B: Biological Sciences, 278(1718), 2562–2567.</p>
+</blockquote>",,,v1.2,R. S. Walker ; L. A. Ribeiro,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17591444,10.5281/zenodo.8250306,8250306,,,cc-by-4.0,https://zenodo.org/records/17591444,17591444,,dataset,https://github.com/phlorest/walker_and_ribeiro2011/tree/v1.2
+17591308,Phlorest phylogeny derived from Sicoli & Holton 2014 'Linguistic phylogenies support back-migration from Beringia to Asia',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Sicoli MA &amp; Holton G (2014) Linguistic phylogenies support back-migration from Beringia to Asia. PLoS One 9(3):e91722.</p>
+</blockquote>",,,v1.2,"Sicoli, Mark A. ; Holton, Gary",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17591308,10.5281/zenodo.8250302,8250302,,,cc-by-4.0,https://zenodo.org/records/17591308,17591308,,dataset,https://github.com/phlorest/sicoli_and_holton2014/tree/v1.2
+17591022,Phlorest phylogeny derived from Sagart et al. 2019 'Dated language phylogenies shed light on the ancestry of Sino-Tibetan',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Sagart L, Jacques G, Lai Y, Ryder RJ, Thouzeau V, Greenhill SJ, List J- M. 2019 Dated language phylogenies shed light on the ancestry of Sino-Tibetan. Proceedings of the National Academy of Sciences, 201817972.</p>
+</blockquote>",,,v1.2,"Sagart, Laurent ; Jacques, Guillaume ; Lai, Yunfan ; Ryder, Robin J. ; Thouzeau, Valentin ; List, Johann-Mattis ; Simon J. Greenhill",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17591022,10.5281/zenodo.8250294,8250294,,,cc-by-4.0,https://zenodo.org/records/17591022,17591022,,dataset,https://github.com/phlorest/sagart_et_al2019/tree/v1.2
+17590954,Phlorest phylogeny derived from Robinson and Holton 2012 'Internal Classification of the Alor-Pantar Language Family Using Computational Methods Applied to the Lexicon',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Robinson, L. C., &amp; Holton, G. (2012). Internal Classification of the Alor-Pantar Language Family Using Computational Methods Applied to the Lexicon. Language Dynamics and Change, 2(2), 123-149. doi:10.1163/22105832-20120201</p>
+</blockquote>",,,v1.2,Laura C. Robinson ; Gary Holton,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17590954,10.5281/zenodo.8250285,8250285,,,cc-by-4.0,https://zenodo.org/records/17590954,17590954,,dataset,https://github.com/phlorest/robinson_and_holton2012/tree/v1.2
+17589994,"CLDF dataset derived from Barlow's ""Numerals of the Pacific"" from 2025","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Barlow, Russell (ed.). 2025. Numerals of the Pacific: A collection of numeral terms in Austronesian and Papuan languages.</p>
+</blockquote>",,,v1.8,Russell Barlow,Christoph Rzymski,10.5281/zenodo.17589994,10.5281/zenodo.5596346,5596346,,,cc-by-4.0,https://zenodo.org/records/17589994,17589994,,dataset,https://github.com/numeralbank/barlowpacific/tree/v1.8
+17589886,ideobank,<p>First release for ideobank</p>,,,v0.1,Roberto Zariquiey ; Jaime Montoya ; Frederic Blum,,10.5281/zenodo.17589886,10.5281/zenodo.17589885,17589885,,,cc-by-4.0,https://zenodo.org/records/17589886,17589886,,dataset,https://github.com/lexibank/ideobank/tree/v0.1
+17589029,Phlorest phylogeny derived from Lee & Hasegawa 2013 'Evolution of the Ainu Language in Space and Time',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lee S, Hasegawa T (2013) Evolution of the Ainu Language in Space and Time. PLoS ONE 8(4): e62243. doi: 10.1371/journal.pone.0062243</p>
+</blockquote>",,,v1.2,Sean Lee ; Toshikazu Hasegawa,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17589029,10.5281/zenodo.8250179,8250179,,,cc-by-4.0,https://zenodo.org/records/17589029,17589029,,dataset,https://github.com/phlorest/lee_and_hasegawa2013/tree/v1.2
+17588983,Phlorest phylogeny derived from Lee & Hasegawa 2011 'Bayesian phylogenetic analysis supports an agricultural origin of Japonic languages',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lee S, Hasegawa T (2011) Bayesian phylogenetic analysis supports an agricultural origin of Japonic languages. Proceedings of the Royal Society B: Biological Sciences, 278(1725):3662–9.</p>
+</blockquote>",,,v1.2,"Lee, Sean ; Hasegawa, Toshikazu",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17588983,10.5281/zenodo.8250174,8250174,,,cc-by-4.0,https://zenodo.org/records/17588983,17588983,,dataset,https://github.com/phlorest/lee_and_hasegawa2011/tree/v1.2
+17588865,Phlorest phylogeny derived from Lee 2015 'A Sketch of Language History in the Korean Peninsula',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lee S (2015) A Sketch of Language History in the Korean Peninsula. PLoS ONE 10(5): e0128448. doi:10.1371/journal.pone.0128448</p>
+</blockquote>",,,v1.2,"Lee, Sean",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17588865,10.5281/zenodo.8250162,8250162,,,cc-by-4.0,https://zenodo.org/records/17588865,17588865,,dataset,https://github.com/phlorest/lee2015/tree/v1.2
+17588770,Phlorest phylogeny derived from Kolipakam et al. 2018 'A Bayesian phylogenetic study of the Dravidian language family',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kolipakam V, Jordan FM, Dunn M, Greenhill SJ, Bouckaert R, Gray RD &amp; Verkerk A. 2018. A Bayesian phylogenetic study of the Dravidian language family. R. Soc. Open Sci. 5: 171504.</p>
+</blockquote>",,,v1.2,"Kolipakam, Vishnupriya ; Jordan, Fiona M. ; Dunn, Michael ; Bouckaert, Remco ; Gray, Russell D. ; Verkerk, Annemarie ; Simon J. Greenhill",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17588770,10.5281/zenodo.8250129,8250129,,,cc-by-4.0,https://zenodo.org/records/17588770,17588770,,dataset,https://github.com/phlorest/kolipakam_et_al2018/tree/v1.2
+17588546,Phlorest phylogeny derived from Kitchen et al. 2009 'Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kitchen A, Ehret C, Assefa S &amp; Mulligan CJ. 2009. Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Proceedings of the Royal Society B: Biological Sciences, 270(1668), 2703-2710.</p>
+</blockquote>",,,v1.2,A. Kitchen ; C. Ehret ; S. Assefa ; C. J. Mulligan,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17588546,10.5281/zenodo.8250115,8250115,,,cc-by-4.0,https://zenodo.org/records/17588546,17588546,,dataset,https://github.com/phlorest/kitchen_et_al2009/tree/v1.2
+17587592,Phlorest phylogeny derived from Hruschka et al. 2015 'Detecting regular sound changes in linguistics as events of concerted evolution',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Hruschka, D. J., Branford, S., Smith, E. D., Wilkins, J., Meade, A., Pagel, M., &amp; Bhattacharya, T. (2015). Detecting regular sound changes in linguistics as events of concerted evolution. Current Biology, 25(1), 1-9.</p>
+</blockquote>",,,v1.2,Daniel J. Hruschka ; Simon Branford ; Eric D. Smith ; Jon Wilkins ; Andrew Meade ; Mark Pagel ; Tanmoy Bhattacharya,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17587592,10.5281/zenodo.8250105,8250105,,,cc-by-4.0,https://zenodo.org/records/17587592,17587592,,dataset,https://github.com/phlorest/hruschka_et_al2015/tree/v1.2
+17587191,Phlorest phylogeny derived from Honkola et al. 2013 'Cultural and climatic changes shape the evolutionary history of the Uralic languages',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Honkola T, Vesakoski O, Korhonen K, Lehtinen J, Syrjänen K &amp; Wahlberg N. 2013. Cultural and climatic changes shape the evolutionary history of the Uralic languages. Journal of Evolutionary Biology, 26(6):1244–1253.</p>
+</blockquote>",,,v1.2,"Honkola, T ; Vesakoski, O ; Korhonen, K ; Lehtinen, J ; Syrjänen, K ; Wahlberg, N",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17587191,10.5281/zenodo.8250097,8250097,,,cc-by-4.0,https://zenodo.org/records/17587191,17587191,,dataset,https://github.com/phlorest/honkola_et_al2013/tree/v1.2
+17583936,Phlorest phylogeny derived from Grollemund et al. 2015 'Bantu expansion shows habitat alters the route and pace of human dispersals',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Grollemund R, Branford S, Bostoen K, Meade A, Venditti C &amp; Pagel M. 2015. Bantu expansion shows habitat alters the route and pace of human dispersals. Proceedings of the National Academy of Sciences of the USA, 112(43), 13296-13301.</p>
+</blockquote>",,,v1.2,Rebecca Grollemund ; Simon Branford ; Koen Bostoen ; Andrew Meade ; Chris Venditti ; Mark Pagel,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17583936,10.5281/zenodo.8250088,8250088,,,cc-by-4.0,https://zenodo.org/records/17583936,17583936,,dataset,https://github.com/phlorest/grollemund_et_al2015/tree/v1.2
+17583895,Phlorest phylogeny derived from Greenhill 2015 'TransNewGuinea.org: An Online Database of New Guinea Languages',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Greenhill, S. J. (2015). TransNewGuinea.org: An Online Database of New Guinea Languages. PLOS ONE, 10(10), e0141563. doi:10.1371/journal.pone.0141563</p>
+</blockquote>",,,v1.2,Simon J. Greenhill,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17583895,10.5281/zenodo.8250076,8250076,,,cc-by-4.0,https://zenodo.org/records/17583895,17583895,,dataset,https://github.com/phlorest/greenhill2015/tree/v1.2
+17583742,Phlorest phylogeny derived from Gray et al. 2009 'Language phylogenies reveal expansion pulses and pauses in Pacific settlement',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Gray RD, Drummond AJ, &amp; Greenhill SJ 2009. Language phylogenies reveal expansion pulses and pauses in Pacific settlement. Science, 323(5913), 479-483.</p>
+</blockquote>",,,v1.2,Russell D. Gray ; Alexei J. Drummond ; Simon J. Greenhill,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17583742,10.5281/zenodo.8250067,8250067,,,cc-by-4.0,https://zenodo.org/records/17583742,17583742,,dataset,https://github.com/phlorest/gray_et_al2009/tree/v1.2
+17583660,Phlorest phylogeny derived from Dunn et al. 2011 'Evolved structure of language shows lineage-specific trends in word-order universals',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Dunn M, Greenhill SJ, Levinson SC &amp; Gray RD. 2011. Evolved structure of language shows lineage-specific trends in word-order universals. Nature, 473(7345), 79-82.</p>
+</blockquote>",,,v1.2,Michael Dunn ; S.C. Levinson ; Russell D. Gray ; Simon J. Greenhill,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17583660,10.5281/zenodo.8250052,8250052,,,cc-by-4.0,https://zenodo.org/records/17583660,17583660,,dataset,https://github.com/phlorest/dunn_et_al2011/tree/v1.2
+17583636,Phlorest phylogeny derived from De Filippo et al. 2012 'Bringing together linguistic and genetic evidence to test the Bantu expansion',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>De Filippo, C., Bostoen, K., Stoneking, M., &amp; Pakendorf, B. (2012). Bringing together linguistic and genetic evidence to test the Bantu expansion. Proceedings of the Royal Society B: Biological Sciences, 279(1741), 3256–3263. doi:10.1098/rspb.2012.0318</p>
+</blockquote>",,,v1.2,Cesare de Filippo ; Koen Bostoen ; Mark Stoneking ; Brigitte Pakendorf,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17583636,10.5281/zenodo.8250038,8250038,,,cc-by-4.0,https://zenodo.org/records/17583636,17583636,,dataset,https://github.com/phlorest/defilippo_et_al2012/tree/v1.2
+17583531,Phlorest phylogeny derived from Chang et al. 2015 'Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Chang W, Cathcart C, Hall D, &amp; Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. Language, 91(1):194-244.</p>
+</blockquote>",,,v1.2,"Chang, Will ; Cathcart, Chundra ; Hall, David ; Garrett, Andrew",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17583531,10.5281/zenodo.8250014,8250014,,,cc-by-4.0,https://zenodo.org/records/17583531,17583531,,dataset,https://github.com/phlorest/chang_et_al2015/tree/v1.2
+17582630,Phlorest phylogeny derived from Chacon & List 2015 'Improved computational models of sound change shed light on the history of the Tukanoan languages',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Chacon TC, List J-M (2015) Improved computational models of sound change shed light on the history of the Tukanoan languages. Journal of Language Relationship, 3:177–203.</p>
+</blockquote>",,,v1.2,"Chacon, Thiago Costa ; List, Johann-Mattis",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17582630,10.5281/zenodo.8249988,8249988,,,cc-by-4.0,https://zenodo.org/records/17582630,17582630,,dataset,https://github.com/phlorest/chacon_and_list2015/tree/v1.2
+17582392,Phlorest phylogeny derived from Bowern & Atkinson 2012 'Computational phylogenetics and the internal structure of Pama-Nyungan',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bowern C &amp; Atkinson QD. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language, 88(4), 817-845.</p>
+</blockquote>",,,v1.2,Claire Bowern ; Quentin Atkinson,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17582392,10.5281/zenodo.8249977,8249977,,,cc-by-4.0,https://zenodo.org/records/17582392,17582392,,dataset,https://github.com/phlorest/bowern_and_atkinson2012/tree/v1.2
+17581679,Phlorest phylogeny derived from Bouckaert et al. 2018 'The origin and expansion of Pama–Nyungan languages across Australia',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bouckaert RR, Bowern C &amp; Atkinson QD. 2018. The origin and expansion of Pama–Nyungan languages across Australia. Nature Ecology and Evolution. 2: 741–749</p>
+</blockquote>",,,v1.2,"Bouckaert, Remco R. ; Bowern, Claire ; Atkinson, Quentin D.",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17581679,10.5281/zenodo.8249941,8249941,,,cc-by-4.0,https://zenodo.org/records/17581679,17581679,,dataset,https://github.com/phlorest/bouckaert_et_al2018/tree/v1.2
+17581594,Phlorest phylogeny derived from Bouckaert et al. 2012 'Mapping the Origins and Expansion of the Indo-European Language Family',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bouckaert RR, Lemey P, Dunn M, Greenhill SJ, Alekseyenko AV, Drummond AJ, Gray RD, Suchard MA &amp; Atkinson QD. 2012. Mapping the Origins and Expansion of the Indo-European Language Family. Science, 337(6097), 957-960.</p>
+</blockquote>",,,v1.2,R. Bouckaert ; P. Lemey ; M. Dunn ; A. V. Alekseyenko ; A. J. Drummond ; R. D. Gray ; M. A. Suchard ; Q. D. Atkinson ; Simon J. Greenhill,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17581594,10.5281/zenodo.8249915,8249915,,,cc-by-4.0,https://zenodo.org/records/17581594,17581594,,dataset,https://github.com/phlorest/bouckaert_et_al2012/tree/v1.2
+17581525,Phlorest phylogeny derived from Birchall et al. 2016 'A combined comparative and phylogenetic analysis of the Chapacuran language family',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Birchall, Joshua, Michael Dunn, and Simon J. Greenhill. 2016. A combined comparative and phylogenetic analysis of the Chapacuran language family. International Journal of American Linguistics 82 (3): 255–84. doi: 10.1086/687383</p>
+</blockquote>",,,v1.2,Joshua Birchall ; Michael Dunn ; Simon J. Greenhill,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17581525,10.5281/zenodo.8248751,8248751,,,cc-by-4.0,https://zenodo.org/records/17581525,17581525,,dataset,https://github.com/phlorest/birchall_et_al2016/tree/v1.2
+17581426,Phlorest phylogeny derived from Atkinson 2006 'From Species to Languages: a phylogenetic approach to human prehistory',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Atkinson, Quentin D. 2006. From Species to Languages: a phylogenetic approach to human prehistory. PhD Thesis, University of Auckland, New Zealand.</p>
+</blockquote>",,,v1.3,Quentin D. Atkinson,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17581426,10.5281/zenodo.8248388,8248388,,,cc-zero,https://zenodo.org/records/17581426,17581426,,dataset,https://github.com/phlorest/atkinson2006/tree/v1.3
+17580172,D-PLACE dataset derived from Binford 2001 'Constructing Frames of Reference',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Binford, L. 2001. Constructing Frames of Reference: An Analytical Method for Archaeological Theory Building Using Hunter-gatherer and Environmental Data Sets. University of California Press</p>
+</blockquote>",,,v3.2,Lewis R. Binford,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.17580172,10.5281/zenodo.10171857,10171857,,,cc-by-nc-4.0,https://zenodo.org/records/17580172,17580172,,dataset,https://github.com/D-PLACE/dplace-dataset-binford/tree/v3.2
+17579490,Phlorest phylogeny derived from Rexová et al. 2006 'Cladistic analysis of Bantu languages: a new tree based on combined lexical and grammatical data',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Rexová, K., Bastin, Y., &amp; Frynta, D. (2006). Cladistic analysis of Bantu languages: a new tree based on combined lexical and grammatical data. Naturwissenschaften, 93(4), 189–194. https://doi.org/10.1007/s00114-006-0088-z</p>
+</blockquote>",,,v1.0,"Rexová, Kateřina ; Bastin, Yvonne ; Frynta, Daniel","Greenhill, Simon ; Forkel, Robert",10.5281/zenodo.17579490,10.5281/zenodo.17579489,17579489,,,cc-by-4.0,https://zenodo.org/records/17579490,17579490,,dataset,https://github.com/phlorest/rexova_et_al2006/tree/v1.0
+17578947,Phlorest phylogeny derived from Michael et al. 2015 'A Bayesian Phylogenetic Classification of Tupi-Guarani',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Michael L, Chousou-Polydouri N, Bartolomei K, Donnelly E, Wauters V, Meira S &amp; O&#x27;Hagan Z. 2015. A Bayesian Phylogenetic Classification of Tupi-Guarani. LIAMES 15(2):1–36.</p>
+</blockquote>",,,v1.1,"Michael, Lev ; Chousou-polydouri, Natalia ; Bartolomei, Keith ; Donnelly, Erin ; Wauters, Vivian ; Hagan, Zachary O",Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17578947,10.5281/zenodo.8250218,8250218,,,cc-by-4.0,https://zenodo.org/records/17578947,17578947,,dataset,https://github.com/phlorest/michael_et_al2015/tree/v1.1
+17578733,Phlorest phylogeny derived from Holden et al. 2005 'Comparison of Maximum Parsimony and Bayesian Bantu Language trees',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Holden CJ, Meade A, &amp; Pagel M. 2005. Comparison of Maximum Parsimony and Bayesian Bantu Language trees. In R Mace, CJ Holden &amp; SJ Shennan (Eds.) The Evolution of Cultural Diversity: A Phylogenetic Approach (pp. 53–66). UCL Press.</p>
+</blockquote>",,,v1.0,Claire J. Holden ; Andrew Meade ; Mark Pagel,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17578733,10.5281/zenodo.17578732,17578732,,,cc-by-4.0,https://zenodo.org/records/17578733,17578733,,dataset,https://github.com/phlorest/holden_et_al2005/tree/v1.0
+17578198,Phlorest phylogeny derived from Hartmann & Walkden 2024 'The strength of the phylogenetic signal in syntactic data',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Hartmann, F. &amp; Walkden, G. (2024) The strength of the phylogenetic signal in syntactic data, Glossa: a journal of general linguistics 9(1). doi: https://doi.org/10.16995/glossa.10598</p>
+</blockquote>",,,v1.0,Frederik Hartmann ; George Walkden,Simon J. Greenhill ; Robert Forkel,10.5281/zenodo.17578198,10.5281/zenodo.17578197,17578197,,,cc-by-4.0,https://zenodo.org/records/17578198,17578198,,dataset,https://github.com/phlorest/hartmann_and_walkden2024/tree/v1.0
+17572679,"Phlorest phylogeny derived from Greenhill, Haynie et al. 2023 'Uto-Aztecan (Greenhill, Haynie et al.)'","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Greenhill, S., Haynie, H., Ross, R., Chira, A., List, J.-M., Campbell, L., Botero, C., &amp; Gray, R. (2023). A recent northern origin for the Uto-Aztecan family. Language. https://doi.org/10.1353/lan.0.0276</p>
+</blockquote>",,,v1.0,Hannah J. Haynie ; Robert M. Ross ; Angela M. Chira ; Johann-Mattis List ; Lyle Campbell ; Carlos A. Botero ; Russell D. Gray ; Simon J. Greenhill,Simon J. Greenhill,10.5281/zenodo.17572679,10.5281/zenodo.17572678,17572678,,,cc-zero,https://zenodo.org/records/17572679,17572679,,dataset,https://github.com/phlorest/greenhill_et_al2023/tree/v1.0
+17510140,"CLDF dataset derived from Kitchen et al.'s ""Bayesian phylogenetic analysis of Semitic languages"" from 2009","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Andrew Kitchen, Christopher Ehret, Shiferaw Assefa, Connie J. Mulligan. Proc. R. Soc. B 2009 -; DOI: 10.1098/rspb.2009.0408. Published 29 April 2009</p>
+</blockquote>",,,v2.1,Andrew Kitchen ; Christopher Ehret ; Shiferaw Assefa ; Connie J. Mulligan,Ben Sapirstein ; Johann-Mattis List ; Simon Greenhill,10.5281/zenodo.17510140,10.5281/zenodo.8171664,8171664,,,cc-by-nc-4.0,https://zenodo.org/records/17510140,17510140,,dataset,https://github.com/lexibank/kitchensemitic/tree/v2.1
+17472996,CLDF dataset for Pano languages.,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Zariquiey, Roberto and Blum, Frederic and Greenhill, Simon J. and List, Johann-Mattis. Cognate-annotated CLDF dataset for Pano languages (work in progress).</p>
+</blockquote>",,,v0.2,Roberto Zariquiey ; Frederic Blum ; Johann-Mattis List ; Simon J. Greenhill,,10.5281/zenodo.17472996,10.5281/zenodo.10988937,10988937,,,cc-by-4.0,https://zenodo.org/records/17472996,17472996,,dataset,https://github.com/pano-takanan-history/zariquieypano/tree/v0.2
+17471548,Vanuatu Voices,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Lana Takau, Tom Fitzpatrick, Mary Walworth, Aviva Shimelman, Sandrine Bessis, Tom Ennever, Iveth Rodriguez, Hans-Jörg Bibiko, Daria Dërmaku, Murray Garde, Marie-France Duhamel, Giovanni Abete, Laura Wägerle, Kaitip W. Kami, Tihomir Rangelov, &amp; Russell Gray. (2025). Vanuatu Voices (v1.4.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4309140</p>
+</blockquote>",,,v1.4.1,Lana Takau ; Tom Fitzpatrick ; Mary Walworth ; Aviva Shimelman ; Sandrine Bessis ; Tom Ennever ; Iveth Rodriguez ; Hans-Jörg Bibiko ; Daria Dërmaku ; Murray Garde ; Marie-France Duhamel ; Giovanni Abete ; Laura Wägerle ; Kaitip W. Kami ; Tihomir Rangelov ; Russell Gray,Robert Forkel ; Johann-Mattis List,10.5281/zenodo.17471548,10.5281/zenodo.4309140,4309140,,,cc-by-nc-4.0,https://zenodo.org/records/17471548,17471548,,dataset,https://github.com/lexibank/vanuatuvoices/tree/v1.4.1
 17417888,CLDF Numeralbank Analysed,"<p>Cite the source of the dataset as:</p>
 
 <blockquote>
