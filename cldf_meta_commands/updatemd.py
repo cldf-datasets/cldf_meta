@@ -25,17 +25,17 @@ SEARCH_KEYWORDS = [
     'cldf:Generic',
 ]
 SEARCH_COMMUNITIES = [
-    'user-lexibank',
-    'user-dictionaria',
-    'user-calc',
-    'user-cldf-datasets',
-    'user-clics',
-    'user-clld',
-    'user-diachronica',
-    'user-dighl',
-    'user-digling',
-    'user-tular',
-    'user-glottography',
+    'lexibank',
+    'dictionaria',
+    'calc',
+    'cldf-datasets',
+    'clics',
+    'clld',
+    'diachronica',
+    'dighl',
+    'digling',
+    'tular',
+    'glottography',
 ]
 
 TYPE_BLACKLIST = {
