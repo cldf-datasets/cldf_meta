@@ -225,8 +225,8 @@ def build_doi_url(access_token, doi):
     return build_search_url(params_doi)
 
 
-def download_records_paginated(url):
-    chunk_size = 100
+def download_records_paginated(url, is_authenticated):
+    chunk_size = 100 if is_authenticated else 25
     page = 1
     record_total = None
     record_count = 0
@@ -388,17 +388,17 @@ def updatemd(dataset, _args):
         build_doi_url(access_token, doi)
         for doi in whitelist]
 
-    def _download_individual_dois(doi_urls):
-        for hits in map(download_records_paginated, doi_urls):
-            yield from hits
+    def _download_individual_dois(doi_urls, is_authenticated):
+        for doi_url in doi_urls:
+            yield from download_records_paginated(doi_url, is_authenticated)
 
     try:
         records.update(loggable_progress(
             (record['id'], record)
             for hits in chain(
-                download_records_paginated(keyword_url),
-                download_records_paginated(community_url),
-                _download_individual_dois(doi_urls))
+                download_records_paginated(keyword_url, bool(access_token)),
+                download_records_paginated(community_url, bool(access_token)),
+                _download_individual_dois(doi_urls, bool(access_token)))
             for hit in hits
             if might_have_cldf_in_it((record := make_flat_record(hit)))))
     except OSError as err:

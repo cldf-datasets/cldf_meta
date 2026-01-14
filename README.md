@@ -63,6 +63,12 @@ variable before running `cldfbench`:
 [zenodo-lim]: https://developers.zenodo.org/#rate-limiting
 [zenodo-pat]: https://developers.zenodo.org/#authentication
 
+*Update 2026-01-14:*
+Recently Zenodo limited the number of search results per request from 100 to 25,
+which means *updatemd* will make four times as many requests to the Zenodo API to
+fetch the same data.  Therefore using an access token is *highly recommended* to
+reduce the number of requests to the server and reduce the likelihood of hitting
+the rate limit.
 
 ## CLDF Datasets
 
