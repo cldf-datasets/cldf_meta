@@ -1,6 +1,298 @@
 {
   "records": [
     {
+      "id": 18229037,
+      "doi": "10.5281/zenodo.18229037",
+      "conceptid": "3935419",
+      "conceptdoi": "10.5281/zenodo.3935419",
+      "created": "2026-01-13T07:13:08.408627+00:00",
+      "updated": "2026-01-13T07:13:08.579447+00:00",
+      "modified": "2026-01-13T07:13:08.579447+00:00",
+      "title": "D-PLACE aggregated dataset",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kathryn R. Kirby, Russell D. Gray, Simon J. Greenhill, Fiona M. Jordan, Stephanie Gomes-Ng, Hans-J\u00f6rg Bibiko, Dami\u00e1n E. Blasi, Carlos A. Botero, Claire Bowern, Carol R. Ember, Dan Leehr, Bobbi S. Low, Joe McCarter, William Divale, and Michael C. Gavin. (2016). D-PLACE: A Global Database of Cultural, Linguistic and Environmental Diversity. PLoS ONE, 11(7): e0158391. doi:10.1371/journal.pone.0158391.</p>\n</blockquote>",
+      "version": "v3.3.0",
+      "access_right": "open",
+      "publication_date": "2026-01-13",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Kathryn R. Kirby"
+        },
+        {
+          "name": "Russell D. Gray"
+        },
+        {
+          "name": "Simon J. Greenhill"
+        },
+        {
+          "name": "Fiona M. Jordan"
+        },
+        {
+          "name": "Stephanie Gomes-Ng"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi"
+        },
+        {
+          "name": "Carlos A. Botero"
+        },
+        {
+          "name": "Claire Bowern"
+        },
+        {
+          "name": "Carol R. Ember"
+        },
+        {
+          "name": "Dan Leehr"
+        },
+        {
+          "name": "Bobbi S. Low"
+        },
+        {
+          "name": "Joe McCarter"
+        },
+        {
+          "name": "William Divale"
+        },
+        {
+          "name": "Michael C. Gavin"
+        },
+        {
+          "name": "V\u00e1clav Hrn\u010d\u00ed\u0159"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-cldf-v3.3.0.zip",
+          "checksum": "md5:52d0406d2a8272661fa7e66c778b29f8",
+          "url": "https://zenodo.org/api/records/18229037/files/D-PLACE/dplace-cldf-v3.3.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-cldf/tree/v3.3.0"
+    },
+    {
+      "id": 18223072,
+      "doi": "10.5281/zenodo.18223072",
+      "conceptid": "10201074",
+      "conceptdoi": "10.5281/zenodo.10201074",
+      "created": "2026-01-12T14:36:42.668360+00:00",
+      "updated": "2026-01-12T14:36:42.885960+00:00",
+      "modified": "2026-01-12T14:36:42.885960+00:00",
+      "title": "D-PLACE dataset derived from Murdock and White 1969 'Standard Cross-Cultural Sample'",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Murdock GP &amp; White DR. 1969. Standard Cross-Cultural Sample. Ethnology. 9:329\u2013369.</p>\n</blockquote>",
+      "version": "v3.3",
+      "access_right": "open",
+      "publication_date": "2026-01-12",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "Murdock, George P."
+        },
+        {
+          "name": "White, Douglas R."
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-sccs-v3.3.zip",
+          "checksum": "md5:ff3f0f2becd412799e4371ad7f0d0b95",
+          "url": "https://zenodo.org/api/records/18223072/files/D-PLACE/dplace-dataset-sccs-v3.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Kathryn R. Kirby",
+          "type": "Editor"
+        },
+        {
+          "name": "Russell D. Gray",
+          "type": "Editor"
+        },
+        {
+          "name": "Simon J. Greenhill",
+          "type": "Editor"
+        },
+        {
+          "name": "Fiona M. Jordan",
+          "type": "Editor"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "type": "Editor"
+        },
+        {
+          "name": "Hans-J\u00f6rg Bibiko",
+          "type": "Editor"
+        },
+        {
+          "name": "Dami\u00e1n E. Blasi",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos A. Botero",
+          "type": "Editor"
+        },
+        {
+          "name": "Claire Bowern",
+          "type": "Editor"
+        },
+        {
+          "name": "Carol R. Ember",
+          "type": "Editor"
+        },
+        {
+          "name": "Dan Leehr",
+          "type": "Editor"
+        },
+        {
+          "name": "Bobbi S. Low",
+          "type": "Editor"
+        },
+        {
+          "name": "Joe McCarter",
+          "type": "Editor"
+        },
+        {
+          "name": "William Divale",
+          "type": "Editor"
+        },
+        {
+          "name": "Michael C. Gavin",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-sccs/tree/v3.3"
+    },
+    {
+      "id": 18099159,
+      "doi": "10.5281/zenodo.18099159",
+      "conceptid": "13269802",
+      "conceptdoi": "10.5281/zenodo.13269802",
+      "created": "2025-12-30T18:15:20.367922+00:00",
+      "updated": "2025-12-30T18:15:20.551541+00:00",
+      "modified": "2025-12-30T18:15:20.551541+00:00",
+      "title": "CLDF dataset derived from Ugarte et al.'s \"NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru (forthcoming).",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Ugarte, Carlos and Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Pe\u00f1a, Jaime. Forthcoming. NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru.</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2025-12-30",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Carlos Ugarte"
+        },
+        {
+          "name": "Frederic Blum"
+        },
+        {
+          "name": "Adriano Ingunza"
+        },
+        {
+          "name": "Rosa Gonzales"
+        },
+        {
+          "name": "Jaime Pe\u00f1a"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/northperulex-v1.0.zip",
+          "checksum": "md5:2ad9306362d1e7c53ddb08e5c99413f6",
+          "url": "https://zenodo.org/api/records/18099159/files/lexibank/northperulex-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Carlos Ugarte",
+          "type": "Editor"
+        },
+        {
+          "name": "Frederic Blum",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/northperulex/tree/v1.0"
+    },
+    {
+      "id": 18087900,
+      "doi": "10.5281/zenodo.18087900",
+      "conceptid": "13269802",
+      "conceptdoi": "10.5281/zenodo.13269802",
+      "created": "2025-12-29T16:35:34.223584+00:00",
+      "updated": "2025-12-29T16:35:34.414093+00:00",
+      "modified": "2025-12-29T16:35:34.414093+00:00",
+      "title": "CLDF dataset derived from Ugarte et al.'s \"NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru (forthcoming).",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Ugarte, Carlos and Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Pe\u00f1a, Jaime. Forthcoming. NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru.</p>\n</blockquote>",
+      "version": "v1.0",
+      "access_right": "open",
+      "publication_date": "2025-12-29",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Carlos Ugarte"
+        },
+        {
+          "name": "Frederic Blum"
+        },
+        {
+          "name": "Adriano Ingunza"
+        },
+        {
+          "name": "Rosa Gonzales"
+        },
+        {
+          "name": "Jaime Pe\u00f1a"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/northperulex-v1.0.zip",
+          "checksum": "md5:2ad9306362d1e7c53ddb08e5c99413f6",
+          "url": "https://zenodo.org/api/records/18087900/files/lexibank/northperulex-v1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Carlos Ugarte",
+          "type": "Editor"
+        },
+        {
+          "name": "Frederic Blum",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/northperulex/tree/v1.0"
+    },
+    {
       "id": 17986360,
       "doi": "10.5281/zenodo.17986360",
       "conceptid": "17986359",
