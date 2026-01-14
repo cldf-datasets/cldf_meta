@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/cldf_meta",
             "rdf:type": "prov:Entity",
-            "dc:created": "473b99d",
+            "dc:created": "61240ca",
             "dc:title": "Repository"
         },
         {
@@ -111,7 +111,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 795,
+            "dc:extent": 799,
             "tableSchema": {
                 "columns": [
                     {
@@ -211,7 +211,7 @@
             "url": "contributions.csv"
         },
         {
-            "dc:extent": 822,
+            "dc:extent": 826,
             "tableSchema": {
                 "columns": [
                     {
@@ -280,7 +280,7 @@
             "url": "datasets.csv"
         },
         {
-            "dc:extent": 252532,
+            "dc:extent": 254359,
             "tableSchema": {
                 "columns": [
                     {

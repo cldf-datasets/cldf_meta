@@ -1,4 +1,24 @@
 ID,Name,Description,Contributor,Citation,Version,Creators,Contributors,DOI,Concept_DOI,Concept_ID,Date,Communities,License,Zenodo_Link,Zenodo_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+18229037,D-PLACE aggregated dataset,"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Kathryn R. Kirby, Russell D. Gray, Simon J. Greenhill, Fiona M. Jordan, Stephanie Gomes-Ng, Hans-Jörg Bibiko, Damián E. Blasi, Carlos A. Botero, Claire Bowern, Carol R. Ember, Dan Leehr, Bobbi S. Low, Joe McCarter, William Divale, and Michael C. Gavin. (2016). D-PLACE: A Global Database of Cultural, Linguistic and Environmental Diversity. PLoS ONE, 11(7): e0158391. doi:10.1371/journal.pone.0158391.</p>
+</blockquote>",,,v3.3.0,Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin ; Václav Hrnčíř,Robert Forkel,10.5281/zenodo.18229037,10.5281/zenodo.3935419,3935419,,,cc-by-nc-4.0,https://zenodo.org/records/18229037,18229037,,dataset,https://github.com/D-PLACE/dplace-cldf/tree/v3.3.0
+18223072,D-PLACE dataset derived from Murdock and White 1969 'Standard Cross-Cultural Sample',"<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Murdock GP &amp; White DR. 1969. Standard Cross-Cultural Sample. Ethnology. 9:329–369.</p>
+</blockquote>",,,v3.3,"Murdock, George P. ; White, Douglas R.",Kathryn R. Kirby ; Russell D. Gray ; Simon J. Greenhill ; Fiona M. Jordan ; Stephanie Gomes-Ng ; Hans-Jörg Bibiko ; Damián E. Blasi ; Carlos A. Botero ; Claire Bowern ; Carol R. Ember ; Dan Leehr ; Bobbi S. Low ; Joe McCarter ; William Divale ; Michael C. Gavin,10.5281/zenodo.18223072,10.5281/zenodo.10201074,10201074,,,cc-by-nc-4.0,https://zenodo.org/records/18223072,18223072,,dataset,https://github.com/D-PLACE/dplace-dataset-sccs/tree/v3.3
+18099159,"CLDF dataset derived from Ugarte et al.'s ""NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru (forthcoming).","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Ugarte, Carlos and Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Peña, Jaime. Forthcoming. NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru.</p>
+</blockquote>",,,v1.0,Carlos Ugarte ; Frederic Blum ; Adriano Ingunza ; Rosa Gonzales ; Jaime Peña,Carlos Ugarte ; Frederic Blum,10.5281/zenodo.18099159,10.5281/zenodo.13269802,13269802,,,cc-by-4.0,https://zenodo.org/records/18099159,18099159,,dataset,https://github.com/lexibank/northperulex/tree/v1.0
+18087900,"CLDF dataset derived from Ugarte et al.'s ""NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru (forthcoming).","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Ugarte, Carlos and Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Peña, Jaime. Forthcoming. NorthPeruLex - A Lexical Dataset of Small Language Families and Isolates from Northern Peru.</p>
+</blockquote>",,,v1.0,Carlos Ugarte ; Frederic Blum ; Adriano Ingunza ; Rosa Gonzales ; Jaime Peña,Carlos Ugarte ; Frederic Blum,10.5281/zenodo.18087900,10.5281/zenodo.13269802,13269802,,,cc-by-4.0,https://zenodo.org/records/18087900,18087900,,dataset,https://github.com/lexibank/northperulex/tree/v1.0
 17986360,Wanukaka Dictionary,"<p>Cite the source of the dataset as:</p>
 
 <blockquote>
