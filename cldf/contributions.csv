@@ -1,4 +1,104 @@
 ID,Name,Description,Contributor,Citation,Version,Creators,Contributors,DOI,Concept_DOI,Concept_ID,Date,Communities,License,Zenodo_Link,Zenodo_ID,Zenodo_Keyword,Zenodo_Type,GitHub_Link
+18439527,"Glottography dataset derived from Rantanen et al. 2021 ""Geographical database of the Uralic languages""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Rantanen, T., Vesakoski, O., Ylikoski, J., &amp; Tolvanen, H. (2021). Geographical database of the Uralic languages (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4784188</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439527,10.5281/zenodo.17341267,17341267,,,cc-by-4.0,https://zenodo.org/records/18439527,18439527,,dataset,https://github.com/Glottography/rantanen2021uralic/tree/v1.0.1
+18439506,"Glottography dataset derived from Asher and Moseley 2007 ""Atlas of the World's Languages""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Asher, R. E. &amp; Christopher J. Moseley (eds.) 2007. Atlas of the World&#x27;s Languages. 2nd edn. Routledge.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439506,10.5281/zenodo.15287257,15287257,,,cc-by-4.0,https://zenodo.org/records/18439506,18439506,,dataset,https://github.com/Glottography/asher2007world/tree/v1.0.1
+18439497,"Glottography dataset derived from Tarble de Scaramelli and Zucchi 1984 ""Nuevos Datos sobre la Arqueología Tardia del Orinoco: La Serie Valloide""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Scaramelli, Kay Tarble de &amp; A. Zucchi. 1984. Nuevos Datos sobre la Arqueología Tardia del Orinoco: La Serie Valloide. Acta Científica Venezolana 35. 434-445.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439497,10.5281/zenodo.17341985,17341985,,,cc-by-4.0,https://zenodo.org/records/18439497,18439497,,dataset,https://github.com/Glottography/tarble1984nuevos/tree/v1.0.1
+18439437,"Glottography dataset derived from Suttles and Suttles 1985 ""Native languages of the northwest coast""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Suttles, Wayne &amp; Cameron Suttles. 1985. Native languages of the northwest coast. The Press of the Oregon Historical Society.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439437,10.5281/zenodo.17341947,17341947,,,cc-by-4.0,https://zenodo.org/records/18439437,18439437,,dataset,https://github.com/Glottography/suttles1985northwest/tree/v1.0.1
+18439377,"Glottography dataset derived from Hochstetler et al. 2004 ""Sociolinguistic survey of the Dogon language area""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Hochstetler, J Lee &amp; Evelin IK Durieux Jude A and Durieux-Boon. 2004. Sociolinguistic survey of the Dogon language area. SIL International. Citeseer.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439377,10.5281/zenodo.17340570,17340570,,,cc-by-4.0,https://zenodo.org/records/18439377,18439377,,dataset,https://github.com/Glottography/hochstetler2004sociolinguistic/tree/v1.0.1
+18439251,"Glottography dataset derived from Haynie and Gavin 2019 ""Modern language range mapping for the study of language diversity""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Haynie, Hannah J. &amp; Michael C. Gavin. 2019. Modern language range mapping for the study of language diversity. doi: 10.31235/osf.io/9fu7g.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439251,10.5281/zenodo.17340246,17340246,,,cc-by-nc-4.0,https://zenodo.org/records/18439251,18439251,,dataset,https://github.com/Glottography/haynie2019modern/tree/v1.0.1
+18439221,"Glottography dataset derived from Goddard 1999 ""Native Languages and Language Families of North America""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Goddard, Ives. 1999. Native Languages and Language Families of North America. (Studies in the Anthropology of North American Indians Series.) In  Smithsonian Institution (ed.) Revised and enlarged edition, with additions and corrections edn. University of Nebraska Press. Sheet map, foldedpp.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439221,10.5281/zenodo.17339337,17339337,,,cc-by-4.0,https://zenodo.org/records/18439221,18439221,,dataset,https://github.com/Glottography/goddard1999native/tree/v1.0.1
+18439153,"Glottography dataset derived from Zucchi 2017 ""Arqueología de los llanos occidentales y el Orinoco""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Zucchi, Alberta. 2017. Arqueología de los llanos occidentales y el Orinoco. (Collección clásicos de la arqueología Venezolana.) Caracas: Centro Nacional de Estudios Históricos.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439153,10.5281/zenodo.17342210,17342210,,,cc-by-4.0,https://zenodo.org/records/18439153,18439153,,dataset,https://github.com/Glottography/zucchi2017arqueologia/tree/v1.0.1
+18439140,"Glottography dataset derived from Wurm and Hattori 1981/83 ""Language atlas of the pacific area""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981). Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983). Registered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439140,10.5281/zenodo.17342179,17342179,,,cc-by-nc-4.0,https://zenodo.org/records/18439140,18439140,,dataset,https://github.com/Glottography/wurm1981pacific/tree/v1.0.1
+18439091,"Glottography dataset derived from Wikipedia contributors 2024 ""List of official languages by country and territory --- Wikipedia, The Free Encyclopedia""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>{Wikipedia contributors}. 2024. List of official languages by country and territory --- Wikipedia, The Free Encyclopedia. ([Online; accessed 18-November-2024]).</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439091,10.5281/zenodo.17342115,17342115,,,cc-by-4.0,https://zenodo.org/records/18439091,18439091,,dataset,https://github.com/Glottography/wikipedia2024officiallang/tree/v1.0.1
+18439071,"Glottography dataset derived from Vuillermet 2012 ""A Grammar of Ese Ejja, a Takanan language of the Bolivian Amazon""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Vuillermet, Marine. 2012. A Grammar of Ese Ejja, a Takanan language of the Bolivian Amazon. Université Lumière Lyon 2 dissertation. (xvi+736pp.)</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439071,10.5281/zenodo.17342020,17342020,,,cc-by-4.0,https://zenodo.org/records/18439071,18439071,,dataset,https://github.com/Glottography/vuillermet2012grammar/tree/v1.0.1
+18439062,"Glottography dataset derived from Schapper 2020 ""1. Introduction to The Papuan languages of Timor, Alor and Pantar. Volume 3""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Schapper, Antoinette. 2020. 1. Introduction to The Papuan languages of Timor, Alor and Pantar. Volume 3. In  Schapper, Antoinette (ed.) 1–52. Berlin, Boston: De Gruyter Mouton. doi: doi:10.1515/9781501511158-001.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439062,10.5281/zenodo.17341889,17341889,,,cc-by-4.0,https://zenodo.org/records/18439062,18439062,,dataset,https://github.com/Glottography/schapper2020papuan/tree/v1.0.1
+18439035,"Glottography dataset derived from Queixalos and Renault-Lescure 2000 ""As línguas amazônicas hoje""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Queixalos, Francisco &amp; Odile Renault-Lescure. 2000. As línguas amazônicas hoje. In  Queixalós, Francisco and Renault-Lescure, Odile (eds.) São Paulo: IRD/Instituto Socioambiental/MPEG. 432pp.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18439035,10.5281/zenodo.17341025,17341025,,,cc-by-4.0,https://zenodo.org/records/18439035,18439035,,dataset,https://github.com/Glottography/queixalos2000linguas/tree/v1.0.1
+18438995,"Glottography dataset derived from Ministerio de Educación, Ciencia y Tecnología de la Nación and Programa Nacional Mapa Educativo 2009 ""República Argentina – Pueblos Indígenas""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Ministerio de Educación, Ciencia y Tecnología de la Nación &amp; Programa Nacional Mapa Educativo (eds.) 2009. República Argentina – Pueblos Indígenas.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18438995,10.5281/zenodo.17340811,17340811,,,cc-by-4.0,https://zenodo.org/records/18438995,18438995,,dataset,https://github.com/Glottography/ministerio2009pueblos/tree/v1.0.1
+18438949,"Glottography dataset derived from Messineo 2011 ""Aproximación tipológica a las lenguas indígenas del Gran Chaco. Rasgos compartidos entre toba (familia guaycurú) y maká (familia mataco-mataguayo)""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Messineo, Cristina. 2011. Aproximación tipológica a las lenguas indígenas del Gran Chaco. Rasgos compartidos entre toba (familia guaycurú) y maká (familia mataco-mataguayo). Indiana. 183-225.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18438949,10.5281/zenodo.17340770,17340770,,,cc-by-4.0,https://zenodo.org/records/18438949,18438949,,dataset,https://github.com/Glottography/messineo2011aproximacion/tree/v1.0.1
+18438931,"Glottography dataset derived from Eriksen 2011 ""Nature and Culture in Prehistoric Amazonia Using G.I.S. to reconstruct ancient ethnogenetic processes from archaeology, linguistics, geography, and ethnohistory""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Eriksen, Love. 2011. Nature and Culture in Prehistoric Amazonia Using G.I.S. to reconstruct ancient ethnogenetic processes from archaeology, linguistics, geography, and ethnohistory. In.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18438931,10.5281/zenodo.17339138,17339138,,,cc-by-4.0,https://zenodo.org/records/18438931,18438931,,dataset,https://github.com/Glottography/eriksen2011nature/tree/v1.0.1
+18436588,"Glottography dataset derived from Dedio et al. 2019 ""Evidence for Britain and Ireland as a Linguistic Area""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Dedio, Stefan, Peter Ranacher &amp; Paul Widmer. 2019. Evidence for Britain and Ireland as a Linguistic Area. Language 95(3). 498–522. doi: 10.1353/lan.2019.0054.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18436588,10.5281/zenodo.17334235,17334235,,,cc-by-4.0,https://zenodo.org/records/18436588,18436588,,dataset,https://github.com/Glottography/dedio2019britain/tree/v1.0.1
+18436586,"Glottography dataset derived from Edwards 2020 ""Metathesis and unmetathesis in Amarasi""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Edwards, Owen D. 2020. Metathesis and unmetathesis in Amarasi. Berlin: Language Science Press. doi: 10.5281/zenodo.3700413.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18436586,10.5281/zenodo.17338065,17338065,,,cc-by-4.0,https://zenodo.org/records/18436586,18436586,,dataset,https://github.com/Glottography/edwards2020metathesis/tree/v1.0.1
+18436258,"Glottography dataset derived from Bouckaert et al. 2012 ""Mapping the origins and expansion of the Indo-European language family""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bouckaert, Remco, Philippe Lemey, Michael Dunn, Simon J Greenhill, Alexander V Alekseyenko, Alexei J Drummond, Russell D Gray &amp; Quentin D Suchard Marc A and Atkinson. 2012. Mapping the origins and expansion of the Indo-European language family. Science 337(6097). 957–960. American Association for the Advancement of Science.</p>
+</blockquote>",,,v1.0.1,The Glottography Consortium,,10.5281/zenodo.18436258,10.5281/zenodo.17333412,17333412,,,cc-by-4.0,https://zenodo.org/records/18436258,18436258,,dataset,https://github.com/Glottography/bouckaert2012indoeuropean/tree/v1.0.1
+18434736,"Glottography dataset derived from Bowern 2021 ""Files for Australian Language Locations""","<p>Cite the source of the dataset as:</p>
+
+<blockquote>
+<p>Bowern, C. (2021). Files for Australian Language Locations [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4898185</p>
+</blockquote>",,,v1.01,The Glottography Consortium,,10.5281/zenodo.18434736,10.5281/zenodo.17334089,17334089,,,cc-by-nc-4.0,https://zenodo.org/records/18434736,18434736,,dataset,https://github.com/Glottography/bowern2021australia/tree/v1.01
 18229037,D-PLACE aggregated dataset,"<p>Cite the source of the dataset as:</p>
 
 <blockquote>
