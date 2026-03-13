@@ -14,13 +14,13 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/cldf_meta",
             "rdf:type": "prov:Entity",
-            "dc:created": "9119d02",
+            "dc:created": "a86b297",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.2",
+            "dc:created": "v5.3",
             "dc:title": "Glottolog"
         }
     ],
@@ -39,7 +39,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 9721,
+            "dc:extent": 9723,
             "tableSchema": {
                 "columns": [
                     {
@@ -111,7 +111,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 819,
+            "dc:extent": 857,
             "tableSchema": {
                 "columns": [
                     {
@@ -211,7 +211,7 @@
             "url": "contributions.csv"
         },
         {
-            "dc:extent": 847,
+            "dc:extent": 894,
             "tableSchema": {
                 "columns": [
                     {
@@ -280,7 +280,7 @@
             "url": "datasets.csv"
         },
         {
-            "dc:extent": 254359,
+            "dc:extent": 255715,
             "tableSchema": {
                 "columns": [
                     {
