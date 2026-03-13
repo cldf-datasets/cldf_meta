@@ -263,7 +263,7 @@ def contributions_from_records(records, datasets):
             'ID': rec['id'],
             'Name': rec['title'],
             'Description': rec['description'],
-            'Version': rec['version'],
+            'Version': rec.get('version'),
             'Creators': [
                 c['name'] for c in rec['creators']],
             'Contributors': [

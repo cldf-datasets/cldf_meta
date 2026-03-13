@@ -85,7 +85,10 @@ TITLE_BLACKLIST_REGEX = r"""
 
 ZENODO_METADATA_SCHEMA = {
     'title': {'type': 'string'},
-    'version': {'type': 'string'},
+    'version': {
+        'type': 'string',
+        'required': False,
+    },
     'access_right': {'type': 'string'},
     'publication_date': {'type': 'string'},
     'relations': {
@@ -256,7 +259,7 @@ def make_flat_record(record):
         'modified': record['modified'],
         'title': record['metadata']['title'],
         'description': record['metadata'].get('description') or '',
-        'version': record['metadata']['version'],
+        'version': record['metadata'].get('version') or '',
         'access_right': record['metadata']['access_right'],
         'publication_date': record['metadata']['publication_date'],
         'license': record['metadata']['license']['id'],
