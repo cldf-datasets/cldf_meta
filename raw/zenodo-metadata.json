@@ -1,6 +1,1393 @@
 {
   "records": [
     {
+      "id": 18777605,
+      "doi": "10.5281/zenodo.18777605",
+      "conceptid": "17334089",
+      "conceptdoi": "10.5281/zenodo.17334089",
+      "created": "2026-02-25T22:11:00.803536+00:00",
+      "updated": "2026-02-25T22:11:01.030374+00:00",
+      "modified": "2026-02-25T22:11:01.030374+00:00",
+      "title": "Glottography dataset derived from Bowern 2021 \"Files for Australian Language Locations\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bowern, C. (2021). Files for Australian Language Locations [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4898185</p>\n</blockquote>",
+      "version": "v2.0.2",
+      "access_right": "open",
+      "publication_date": "2026-02-25",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/bowern2021australia-v2.0.2.zip",
+          "checksum": "md5:9fe4647dfca5dc851952efb777bfdcc5",
+          "url": "https://zenodo.org/api/records/18777605/files/Glottography/bowern2021australia-v2.0.2.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/bowern2021australia/tree/v2.0.2"
+    },
+    {
+      "id": 18773606,
+      "doi": "10.5281/zenodo.18773606",
+      "conceptid": "17334089",
+      "conceptdoi": "10.5281/zenodo.17334089",
+      "created": "2026-02-25T15:24:13.368595+00:00",
+      "updated": "2026-02-25T15:24:15.262587+00:00",
+      "modified": "2026-02-25T15:24:15.262587+00:00",
+      "title": "Glottography dataset derived from Bowern 2021 \"Files for Australian Language Locations\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bowern, C. (2021). Files for Australian Language Locations [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4898185</p>\n</blockquote>",
+      "version": "v2.0.1",
+      "access_right": "open",
+      "publication_date": "2026-02-25",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/bowern2021australia-v2.0.1.zip",
+          "checksum": "md5:c40b7fcfc574230f63917fc8131c862c",
+          "url": "https://zenodo.org/api/records/18773606/files/Glottography/bowern2021australia-v2.0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/bowern2021australia/tree/v2.0.1"
+    },
+    {
+      "id": 18684984,
+      "doi": "10.5281/zenodo.18684984",
+      "conceptid": "15654140",
+      "conceptdoi": "10.5281/zenodo.15654140",
+      "created": "2026-02-18T18:55:39.472452+00:00",
+      "updated": "2026-02-18T18:55:39.706406+00:00",
+      "modified": "2026-02-18T18:55:39.706406+00:00",
+      "title": "CLDF Dataset presenting Rubehn et al.'s \"Compositional Structures in Numeral Systems Across Languages (CoSiNuS)\" from 2026",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Rubehn, A., C. Cathcart, C. Rzymski, K. Bocklage, L. Ciucci, A. Ku\u010derov\u00e1, C. Y. Meloni, D. Snee, K. P. van Dam, and J.-M. List (2026): CoSiNuS: Compositional Structures in Numeral Systems Across Languages. [Dataset, v.2.0]</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-18",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Arne Rubehn"
+        },
+        {
+          "name": "Christoph Rzymski"
+        },
+        {
+          "name": "Luca Ciucci"
+        },
+        {
+          "name": "Katja Bocklage"
+        },
+        {
+          "name": "Al\u017eb\u011bta Ku\u010derov\u00e1"
+        },
+        {
+          "name": "David Snee"
+        },
+        {
+          "name": "Kellen Parker van Dam"
+        },
+        {
+          "name": "Chundra Cathcart"
+        },
+        {
+          "name": "Carlo Meloni"
+        },
+        {
+          "name": "Johann-Mattis List"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "numeralbank/cosinus-v2.0.zip",
+          "checksum": "md5:1de807029d537215422714ba08bddc9b",
+          "url": "https://zenodo.org/api/records/18684984/files/numeralbank/cosinus-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/numeralbank/cosinus/tree/v2.0"
+    },
+    {
+      "id": 18644078,
+      "doi": "10.5281/zenodo.18644078",
+      "conceptid": "17342210",
+      "conceptdoi": "10.5281/zenodo.17342210",
+      "created": "2026-02-14T19:24:58.643727+00:00",
+      "updated": "2026-02-14T19:24:58.796661+00:00",
+      "modified": "2026-02-14T19:24:58.796661+00:00",
+      "title": "Glottography dataset derived from Zucchi 2017 \"Arqueolog\u00eda de los llanos occidentales y el Orinoco\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Zucchi, Alberta. 2017. Arqueolog\u00eda de los llanos occidentales y el Orinoco. (Collecci\u00f3n cl\u00e1sicos de la arqueolog\u00eda Venezolana.) Caracas: Centro Nacional de Estudios Hist\u00f3ricos.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/zucchi2017arqueologia-v2.0.zip",
+          "checksum": "md5:17fc0ffe4ab25c047d27882a247126b1",
+          "url": "https://zenodo.org/api/records/18644078/files/Glottography/zucchi2017arqueologia-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/zucchi2017arqueologia/tree/v2.0"
+    },
+    {
+      "id": 18643982,
+      "doi": "10.5281/zenodo.18643982",
+      "conceptid": "17342179",
+      "conceptdoi": "10.5281/zenodo.17342179",
+      "created": "2026-02-14T19:06:17.372101+00:00",
+      "updated": "2026-02-14T19:06:17.600211+00:00",
+      "modified": "2026-02-14T19:06:17.600211+00:00",
+      "title": "Glottography dataset derived from Wurm and Hattori 1981/83 \"Language atlas of the pacific area\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981). Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983). Registered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/wurm1981pacific-v2.0.zip",
+          "checksum": "md5:8426a3cdc25ad046baa8be2a905b4bd8",
+          "url": "https://zenodo.org/api/records/18643982/files/Glottography/wurm1981pacific-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/wurm1981pacific/tree/v2.0"
+    },
+    {
+      "id": 18643947,
+      "doi": "10.5281/zenodo.18643947",
+      "conceptid": "17342115",
+      "conceptdoi": "10.5281/zenodo.17342115",
+      "created": "2026-02-14T19:02:25.625762+00:00",
+      "updated": "2026-02-14T19:02:25.809523+00:00",
+      "modified": "2026-02-14T19:02:25.809523+00:00",
+      "title": "Glottography dataset derived from Wikipedia contributors 2024 \"List of official languages by country and territory --- Wikipedia, The Free Encyclopedia\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>{Wikipedia contributors}. 2024. List of official languages by country and territory --- Wikipedia, The Free Encyclopedia. ([Online; accessed 18-November-2024]).</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/wikipedia2024officiallang-v2.0.zip",
+          "checksum": "md5:e6c191480f6f0c3afc5149c35c9a95f1",
+          "url": "https://zenodo.org/api/records/18643947/files/Glottography/wikipedia2024officiallang-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/wikipedia2024officiallang/tree/v2.0"
+    },
+    {
+      "id": 18643894,
+      "doi": "10.5281/zenodo.18643894",
+      "conceptid": "17342059",
+      "conceptdoi": "10.5281/zenodo.17342059",
+      "created": "2026-02-14T18:52:32.538311+00:00",
+      "updated": "2026-02-14T18:52:32.672821+00:00",
+      "modified": "2026-02-14T18:52:32.672821+00:00",
+      "title": "Glottography dataset derived from Walker and Ribeiro 2011 \"Bayesian Phylogeography of the Arawak Expansion in Lowland South America\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Walker, Robert S. &amp; Lincoln A. Ribeiro. 2011. Bayesian Phylogeography of the Arawak Expansion in Lowland South America. 278(1718). 2562\u20132567. doi: 10.1098/rspb.2010.2579. Royal Society.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/walker2011bayesian-v2.0.zip",
+          "checksum": "md5:2e7bb58cbaaa65429db2289db3c05a5e",
+          "url": "https://zenodo.org/api/records/18643894/files/Glottography/walker2011bayesian-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/walker2011bayesian/tree/v2.0"
+    },
+    {
+      "id": 18643875,
+      "doi": "10.5281/zenodo.18643875",
+      "conceptid": "17342020",
+      "conceptdoi": "10.5281/zenodo.17342020",
+      "created": "2026-02-14T18:49:40.766378+00:00",
+      "updated": "2026-02-14T18:49:40.914339+00:00",
+      "modified": "2026-02-14T18:49:40.914339+00:00",
+      "title": "Glottography dataset derived from Vuillermet 2012 \"A Grammar of Ese Ejja, a Takanan language of the Bolivian Amazon\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Vuillermet, Marine. 2012. A Grammar of Ese Ejja, a Takanan language of the Bolivian Amazon. Universit\u00e9 Lumi\u00e8re Lyon 2 dissertation. (xvi+736pp.)</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/vuillermet2012grammar-v2.0.zip",
+          "checksum": "md5:d4c1280d0ff4db3441ab78cedc283619",
+          "url": "https://zenodo.org/api/records/18643875/files/Glottography/vuillermet2012grammar-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/vuillermet2012grammar/tree/v2.0"
+    },
+    {
+      "id": 18643863,
+      "doi": "10.5281/zenodo.18643863",
+      "conceptid": "17341985",
+      "conceptdoi": "10.5281/zenodo.17341985",
+      "created": "2026-02-14T18:46:47.240381+00:00",
+      "updated": "2026-02-14T18:46:47.427076+00:00",
+      "modified": "2026-02-14T18:46:47.427076+00:00",
+      "title": "Glottography dataset derived from Tarble de Scaramelli and Zucchi 1984 \"Nuevos Datos sobre la Arqueolog\u00eda Tardia del Orinoco: La Serie Valloide\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Scaramelli, Kay Tarble de &amp; A. Zucchi. 1984. Nuevos Datos sobre la Arqueolog\u00eda Tardia del Orinoco: La Serie Valloide. Acta Cient\u00edfica Venezolana 35. 434-445.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/tarble1984nuevos-v2.0.zip",
+          "checksum": "md5:774bc9419ec0778554424a982573adef",
+          "url": "https://zenodo.org/api/records/18643863/files/Glottography/tarble1984nuevos-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/tarble1984nuevos/tree/v2.0"
+    },
+    {
+      "id": 18643848,
+      "doi": "10.5281/zenodo.18643848",
+      "conceptid": "17341947",
+      "conceptdoi": "10.5281/zenodo.17341947",
+      "created": "2026-02-14T18:43:43.876190+00:00",
+      "updated": "2026-02-14T18:43:44.048919+00:00",
+      "modified": "2026-02-14T18:43:44.048919+00:00",
+      "title": "Glottography dataset derived from Suttles and Suttles 1985 \"Native languages of the northwest coast\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Suttles, Wayne &amp; Cameron Suttles. 1985. Native languages of the northwest coast. The Press of the Oregon Historical Society.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/suttles1985northwest-v2.0.zip",
+          "checksum": "md5:54e5dcaef44c067b1fc8c26a2ed326de",
+          "url": "https://zenodo.org/api/records/18643848/files/Glottography/suttles1985northwest-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/suttles1985northwest/tree/v2.0"
+    },
+    {
+      "id": 18643727,
+      "doi": "10.5281/zenodo.18643727",
+      "conceptid": "17341913",
+      "conceptdoi": "10.5281/zenodo.17341913",
+      "created": "2026-02-14T18:22:21.900191+00:00",
+      "updated": "2026-02-14T18:22:22.036057+00:00",
+      "modified": "2026-02-14T18:22:22.036057+00:00",
+      "title": "Glottography dataset derived from Steever 2019 \"The Dravidian Languages\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Steever, S.B. 2019. The Dravidian Languages. (Routledge Language Family Series.) Taylor \\&amp; Francis.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/steever2019dravidian-v2.0.zip",
+          "checksum": "md5:f30c87380a240767464830a2ae5dab5e",
+          "url": "https://zenodo.org/api/records/18643727/files/Glottography/steever2019dravidian-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/steever2019dravidian/tree/v2.0"
+    },
+    {
+      "id": 18643706,
+      "doi": "10.5281/zenodo.18643706",
+      "conceptid": "17341889",
+      "conceptdoi": "10.5281/zenodo.17341889",
+      "created": "2026-02-14T18:18:53.383400+00:00",
+      "updated": "2026-02-14T18:18:53.592371+00:00",
+      "modified": "2026-02-14T18:18:53.592371+00:00",
+      "title": "Glottography dataset derived from Schapper 2020 \"1. Introduction to The Papuan languages of Timor, Alor and Pantar. Volume 3\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Schapper, Antoinette. 2020. 1. Introduction to The Papuan languages of Timor, Alor and Pantar. Volume 3. In  Schapper, Antoinette (ed.) 1\u201352. Berlin, Boston: De Gruyter Mouton. doi: doi:10.1515/9781501511158-001.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/schapper2020papuan-v2.0.zip",
+          "checksum": "md5:d09bf2cf3044009a6e96db57bc964017",
+          "url": "https://zenodo.org/api/records/18643706/files/Glottography/schapper2020papuan-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/schapper2020papuan/tree/v2.0"
+    },
+    {
+      "id": 18643660,
+      "doi": "10.5281/zenodo.18643660",
+      "conceptid": "17341267",
+      "conceptdoi": "10.5281/zenodo.17341267",
+      "created": "2026-02-14T18:10:54.580297+00:00",
+      "updated": "2026-02-14T18:10:54.741259+00:00",
+      "modified": "2026-02-14T18:10:54.741259+00:00",
+      "title": "Glottography dataset derived from Rantanen et al. 2021 \"Geographical database of the Uralic languages\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Rantanen, T., Vesakoski, O., Ylikoski, J., &amp; Tolvanen, H. (2021). Geographical database of the Uralic languages (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4784188</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/rantanen2021uralic-v2.0.zip",
+          "checksum": "md5:896ee225940ea0918a60120747893e9c",
+          "url": "https://zenodo.org/api/records/18643660/files/Glottography/rantanen2021uralic-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/rantanen2021uralic/tree/v2.0"
+    },
+    {
+      "id": 18643631,
+      "doi": "10.5281/zenodo.18643631",
+      "conceptid": "17341025",
+      "conceptdoi": "10.5281/zenodo.17341025",
+      "created": "2026-02-14T18:07:48.414671+00:00",
+      "updated": "2026-02-14T18:07:48.559614+00:00",
+      "modified": "2026-02-14T18:07:48.559614+00:00",
+      "title": "Glottography dataset derived from Queixalos and Renault-Lescure 2000 \"As l\u00ednguas amaz\u00f4nicas hoje\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Queixalos, Francisco &amp; Odile Renault-Lescure. 2000. As l\u00ednguas amaz\u00f4nicas hoje. In  Queixal\u00f3s, Francisco and Renault-Lescure, Odile (eds.) S\u00e3o Paulo: IRD/Instituto Socioambiental/MPEG. 432pp.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/queixalos2000linguas-v2.0.zip",
+          "checksum": "md5:24a166f8a2ccd05d7d2c65fb3ba6909e",
+          "url": "https://zenodo.org/api/records/18643631/files/Glottography/queixalos2000linguas-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/queixalos2000linguas/tree/v2.0"
+    },
+    {
+      "id": 18643612,
+      "doi": "10.5281/zenodo.18643612",
+      "conceptid": "17340811",
+      "conceptdoi": "10.5281/zenodo.17340811",
+      "created": "2026-02-14T18:04:31.766798+00:00",
+      "updated": "2026-02-14T18:04:31.905905+00:00",
+      "modified": "2026-02-14T18:04:31.905905+00:00",
+      "title": "Glottography dataset derived from Ministerio de Educaci\u00f3n, Ciencia y Tecnolog\u00eda de la Naci\u00f3n and Programa Nacional Mapa Educativo 2009 \"Rep\u00fablica Argentina \u2013 Pueblos Ind\u00edgenas\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Ministerio de Educaci\u00f3n, Ciencia y Tecnolog\u00eda de la Naci\u00f3n &amp; Programa Nacional Mapa Educativo (eds.) 2009. Rep\u00fablica Argentina \u2013 Pueblos Ind\u00edgenas.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/ministerio2009pueblos-v2.0.zip",
+          "checksum": "md5:d04d6e10bda658db242b975dfd4c0066",
+          "url": "https://zenodo.org/api/records/18643612/files/Glottography/ministerio2009pueblos-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/ministerio2009pueblos/tree/v2.0"
+    },
+    {
+      "id": 18643516,
+      "doi": "10.5281/zenodo.18643516",
+      "conceptid": "17340770",
+      "conceptdoi": "10.5281/zenodo.17340770",
+      "created": "2026-02-14T17:52:01.977466+00:00",
+      "updated": "2026-02-14T17:52:02.707433+00:00",
+      "modified": "2026-02-14T17:52:02.707433+00:00",
+      "title": "Glottography dataset derived from Messineo 2011 \"Aproximaci\u00f3n tipol\u00f3gica a las lenguas ind\u00edgenas del Gran Chaco. Rasgos compartidos entre toba (familia guaycur\u00fa) y mak\u00e1 (familia mataco-mataguayo)\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Messineo, Cristina. 2011. Aproximaci\u00f3n tipol\u00f3gica a las lenguas ind\u00edgenas del Gran Chaco. Rasgos compartidos entre toba (familia guaycur\u00fa) y mak\u00e1 (familia mataco-mataguayo). Indiana. 183-225.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/messineo2011aproximacion-v2.0.zip",
+          "checksum": "md5:9c2cd8b1a721c1bcc2343238767188ed",
+          "url": "https://zenodo.org/api/records/18643516/files/Glottography/messineo2011aproximacion-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/messineo2011aproximacion/tree/v2.0"
+    },
+    {
+      "id": 18643489,
+      "doi": "10.5281/zenodo.18643489",
+      "conceptid": "17340653",
+      "conceptdoi": "10.5281/zenodo.17340653",
+      "created": "2026-02-14T17:48:40.427587+00:00",
+      "updated": "2026-02-14T17:48:40.573653+00:00",
+      "modified": "2026-02-14T17:48:40.573653+00:00",
+      "title": "Glottography dataset derived from Matsumae et al. 2021 \"Exploring correlations in genetic and cultural variation across language families in northeast Asia\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Matsumae, Hiromi, Peter Ranacher, Patrick E. Savage, Dami\u00e1n E. Blasi, Thomas E. Currie, Kae Koganebuchi, Nao Nishida, Takehiro Sato, Hideyuki Tanabe, Atsushi Tajima, Steven Brown, Mark Stoneking, Kentaro K. Shimizu, Hiroki Oota &amp; Balthasar Bickel. 2021. Exploring correlations in genetic and cultural variation across language families in northeast Asia. Science Advances 7(34). eabd9223. doi: 10.1126/sciadv.abd9223.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/matsumae2021exploring-v2.0.zip",
+          "checksum": "md5:c804c76aa3e6be074838f15347ec1c22",
+          "url": "https://zenodo.org/api/records/18643489/files/Glottography/matsumae2021exploring-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/matsumae2021exploring/tree/v2.0"
+    },
+    {
+      "id": 18643474,
+      "doi": "10.5281/zenodo.18643474",
+      "conceptid": "17340570",
+      "conceptdoi": "10.5281/zenodo.17340570",
+      "created": "2026-02-14T17:45:29.386537+00:00",
+      "updated": "2026-02-14T17:45:29.669842+00:00",
+      "modified": "2026-02-14T17:45:29.669842+00:00",
+      "title": "Glottography dataset derived from Hochstetler et al. 2004 \"Sociolinguistic survey of the Dogon language area\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Hochstetler, J Lee &amp; Evelin IK Durieux Jude A and Durieux-Boon. 2004. Sociolinguistic survey of the Dogon language area. SIL International. Citeseer.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/hochstetler2004sociolinguistic-v2.0.zip",
+          "checksum": "md5:2780934f29eaee5c4d49baa4b8618c85",
+          "url": "https://zenodo.org/api/records/18643474/files/Glottography/hochstetler2004sociolinguistic-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/hochstetler2004sociolinguistic/tree/v2.0"
+    },
+    {
+      "id": 18643451,
+      "doi": "10.5281/zenodo.18643451",
+      "conceptid": "17340246",
+      "conceptdoi": "10.5281/zenodo.17340246",
+      "created": "2026-02-14T17:42:16.320332+00:00",
+      "updated": "2026-02-14T17:42:16.475360+00:00",
+      "modified": "2026-02-14T17:42:16.475360+00:00",
+      "title": "Glottography dataset derived from Haynie and Gavin 2019 \"Modern language range mapping for the study of language diversity\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Haynie, Hannah J. &amp; Michael C. Gavin. 2019. Modern language range mapping for the study of language diversity. doi: 10.31235/osf.io/9fu7g.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/haynie2019modern-v2.0.zip",
+          "checksum": "md5:3a90926fc9752cec24e33a3b5d96d5b0",
+          "url": "https://zenodo.org/api/records/18643451/files/Glottography/haynie2019modern-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/haynie2019modern/tree/v2.0"
+    },
+    {
+      "id": 18643394,
+      "doi": "10.5281/zenodo.18643394",
+      "conceptid": "17340137",
+      "conceptdoi": "10.5281/zenodo.17340137",
+      "created": "2026-02-14T17:35:31.512636+00:00",
+      "updated": "2026-02-14T17:35:31.645898+00:00",
+      "modified": "2026-02-14T17:35:31.645898+00:00",
+      "title": "Glottography dataset derived from Grierson's Linguistic Survey of India",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Linguistic survey of India / [compiled and edited] by George Abraham Grierson. Calcutta : Office of the Superintendent of Government Printing, India, 1903-1928. 11 v. in 20 : maps (part fold.) ; 36 cm.</p>\n</blockquote>",
+      "version": "v2.0.1",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/grierson1903lsi-v2.0.1.zip",
+          "checksum": "md5:6e648a8d2250257c22761961b5053cf3",
+          "url": "https://zenodo.org/api/records/18643394/files/Glottography/grierson1903lsi-v2.0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/grierson1903lsi/tree/v2.0.1"
+    },
+    {
+      "id": 18643379,
+      "doi": "10.5281/zenodo.18643379",
+      "conceptid": "17340137",
+      "conceptdoi": "10.5281/zenodo.17340137",
+      "created": "2026-02-14T17:34:28.708308+00:00",
+      "updated": "2026-02-14T17:34:28.882236+00:00",
+      "modified": "2026-02-14T17:34:28.882236+00:00",
+      "title": "Glottography dataset derived from Grierson's Linguistic Survey of India",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Linguistic survey of India / [compiled and edited] by George Abraham Grierson. Calcutta : Office of the Superintendent of Government Printing, India, 1903-1928. 11 v. in 20 : maps (part fold.) ; 36 cm.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-14",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/grierson1903lsi-v2.0.zip",
+          "checksum": "md5:f0e6ed8db6d824b56a65d1b27add0363",
+          "url": "https://zenodo.org/api/records/18643379/files/Glottography/grierson1903lsi-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/grierson1903lsi/tree/v2.0"
+    },
+    {
+      "id": 18562928,
+      "doi": "10.5281/zenodo.18562928",
+      "conceptid": "18562927",
+      "conceptdoi": "10.5281/zenodo.18562927",
+      "created": "2026-02-11T20:08:17.010912+00:00",
+      "updated": "2026-02-11T20:08:17.261347+00:00",
+      "modified": "2026-02-11T20:08:17.261347+00:00",
+      "title": "CLICS\u2074 Wordlist in SQLite Format",
+      "description": "<p>This is a readily compiled wordlist in SQLite3-Format that was created from Version 0.5 of the CLICS\u2074 database (see <a href=\"https://doi.org/10.5281/zenodo.16900180\">https://doi.org/10.5281/zenodo.16900180</a>). The data reflects the original wordlist part of the CLICS\u2074 database, provided in Cross-Linguistic Data Formats.</p>",
+      "version": "",
+      "access_right": "open",
+      "publication_date": "2026-02-09",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Tjuka, Annika",
+          "affiliation": "Max Planck Institute for Evolutionary Anthropology",
+          "orcid": "0000-0003-3678-1817"
+        },
+        {
+          "name": "Rzymski, Christoph",
+          "orcid": "0000-0002-6165-0440"
+        },
+        {
+          "name": "Forkel, Robert",
+          "affiliation": "Max Planck Institute for Evolutionary Anthropology",
+          "orcid": "0000-0003-1081-086X"
+        },
+        {
+          "name": "List, Johann-Mattis",
+          "affiliation": "University of Passau",
+          "orcid": "0000-0003-2133-8919"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "clics4-wordlist.db",
+          "checksum": "md5:81409061e41ff2634bb287d4a02ff83a",
+          "url": "https://zenodo.org/api/records/18562928/files/clics4-wordlist.db/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "colexification",
+        "wordlist",
+        "SQLite",
+        "dataset",
+        "cross-linguistic data formats",
+        "CLDF"
+      ]
+    },
+    {
+      "id": 18614342,
+      "doi": "10.5281/zenodo.18614342",
+      "conceptid": "17339337",
+      "conceptdoi": "10.5281/zenodo.17339337",
+      "created": "2026-02-11T19:49:29.626463+00:00",
+      "updated": "2026-02-11T19:49:29.818073+00:00",
+      "modified": "2026-02-11T19:49:29.818073+00:00",
+      "title": "Glottography dataset derived from Goddard 1999 \"Native Languages and Language Families of North America\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Goddard, Ives. 1999. Native Languages and Language Families of North America. (Studies in the Anthropology of North American Indians Series.) In  Smithsonian Institution (ed.) Revised and enlarged edition, with additions and corrections edn. University of Nebraska Press. Sheet map, foldedpp.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/goddard1999native-v2.0.zip",
+          "checksum": "md5:23e93287713a491b5fc5ba1c736e915b",
+          "url": "https://zenodo.org/api/records/18614342/files/Glottography/goddard1999native-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/goddard1999native/tree/v2.0"
+    },
+    {
+      "id": 18614195,
+      "doi": "10.5281/zenodo.18614195",
+      "conceptid": "17339171",
+      "conceptdoi": "10.5281/zenodo.17339171",
+      "created": "2026-02-11T19:39:19.723037+00:00",
+      "updated": "2026-02-11T19:39:19.871519+00:00",
+      "modified": "2026-02-11T19:39:19.871519+00:00",
+      "title": "Glottography dataset derived from Figueira n.d. \"Atlas total de la Rep\u00fablica Argentina\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Figueira, Ricardo. 1982. Atlas total de la Rep\u00fablica Argentina. In  Chiozza, Elena (ed.) Centro Editor de Am\u00e9rica Latina.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/figueira1982atlastotalargentina-v2.0.zip",
+          "checksum": "md5:c9dfce6bb880a19856a3d36038155b5b",
+          "url": "https://zenodo.org/api/records/18614195/files/Glottography/figueira1982atlastotalargentina-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/figueira1982atlastotalargentina/tree/v2.0"
+    },
+    {
+      "id": 18614163,
+      "doi": "10.5281/zenodo.18614163",
+      "conceptid": "17339138",
+      "conceptdoi": "10.5281/zenodo.17339138",
+      "created": "2026-02-11T19:35:10.782807+00:00",
+      "updated": "2026-02-11T19:35:10.944727+00:00",
+      "modified": "2026-02-11T19:35:10.944727+00:00",
+      "title": "Glottography dataset derived from Eriksen 2011 \"Nature and Culture in Prehistoric Amazonia Using G.I.S. to reconstruct ancient ethnogenetic processes from archaeology, linguistics, geography, and ethnohistory\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Eriksen, Love. 2011. Nature and Culture in Prehistoric Amazonia Using G.I.S. to reconstruct ancient ethnogenetic processes from archaeology, linguistics, geography, and ethnohistory. In.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/eriksen2011nature-v2.0.zip",
+          "checksum": "md5:c50c7fc87bdc5b652c5e1ed234934a94",
+          "url": "https://zenodo.org/api/records/18614163/files/Glottography/eriksen2011nature-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/eriksen2011nature/tree/v2.0"
+    },
+    {
+      "id": 18614098,
+      "doi": "10.5281/zenodo.18614098",
+      "conceptid": "17338065",
+      "conceptdoi": "10.5281/zenodo.17338065",
+      "created": "2026-02-11T19:26:40.708677+00:00",
+      "updated": "2026-02-11T19:26:40.980107+00:00",
+      "modified": "2026-02-11T19:26:40.980107+00:00",
+      "title": "Glottography dataset derived from Edwards 2020 \"Metathesis and unmetathesis in Amarasi\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Edwards, Owen D. 2020. Metathesis and unmetathesis in Amarasi. Berlin: Language Science Press. doi: 10.5281/zenodo.3700413.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/edwards2020metathesis-v2.0.zip",
+          "checksum": "md5:5ab2128f092fd456e5c9c326426b9778",
+          "url": "https://zenodo.org/api/records/18614098/files/Glottography/edwards2020metathesis-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/edwards2020metathesis/tree/v2.0"
+    },
+    {
+      "id": 18614069,
+      "doi": "10.5281/zenodo.18614069",
+      "conceptid": "17334280",
+      "conceptdoi": "10.5281/zenodo.17334280",
+      "created": "2026-02-11T19:21:56.196281+00:00",
+      "updated": "2026-02-11T19:21:56.390303+00:00",
+      "modified": "2026-02-11T19:21:56.390303+00:00",
+      "title": "Glottography dataset derived from Denevan 1966 \"The aboriginal cultural geography of the Llanos de Mojos of Bolivia\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Denevan, William M. 1966. The aboriginal cultural geography of the Llanos de Mojos of Bolivia. (Ibero-Americana, 48.) Berkeley: University of California Press.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/denevan1966aboriginal-v2.0.zip",
+          "checksum": "md5:2c00924b2f5d6fe5583f1b0f95bb9e87",
+          "url": "https://zenodo.org/api/records/18614069/files/Glottography/denevan1966aboriginal-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/denevan1966aboriginal/tree/v2.0"
+    },
+    {
+      "id": 18614047,
+      "doi": "10.5281/zenodo.18614047",
+      "conceptid": "17334235",
+      "conceptdoi": "10.5281/zenodo.17334235",
+      "created": "2026-02-11T19:18:19.185620+00:00",
+      "updated": "2026-02-11T19:18:19.403291+00:00",
+      "modified": "2026-02-11T19:18:19.403291+00:00",
+      "title": "Glottography dataset derived from Dedio et al. 2019 \"Evidence for Britain and Ireland as a Linguistic Area\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dedio, Stefan, Peter Ranacher &amp; Paul Widmer. 2019. Evidence for Britain and Ireland as a Linguistic Area. Language 95(3). 498\u2013522. doi: 10.1353/lan.2019.0054.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/dedio2019britain-v2.0.zip",
+          "checksum": "md5:f78397938684a12c792a0f6ea87c2cb6",
+          "url": "https://zenodo.org/api/records/18614047/files/Glottography/dedio2019britain-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/dedio2019britain/tree/v2.0"
+    },
+    {
+      "id": 18614010,
+      "doi": "10.5281/zenodo.18614010",
+      "conceptid": "17334191",
+      "conceptdoi": "10.5281/zenodo.17334191",
+      "created": "2026-02-11T19:14:32.065069+00:00",
+      "updated": "2026-02-11T19:14:32.278352+00:00",
+      "modified": "2026-02-11T19:14:32.278352+00:00",
+      "title": "Glottography dataset derived from the Geographical Presences in the DiACL/TITUS Polygon Archive",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Carling, Gerd &amp; Jost Gippert (eds.) 2025. DiACL/TITUS Polygon Archive. Frankfurt am Main: Goethe University (URL: https://diacl.uni-frankfurt.de/GeographicalPresence/Index)</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/carling2025diacl-v2.0.zip",
+          "checksum": "md5:1ce18d032bbf872076da51c190ec118e",
+          "url": "https://zenodo.org/api/records/18614010/files/Glottography/carling2025diacl-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/carling2025diacl/tree/v2.0"
+    },
+    {
+      "id": 18613913,
+      "doi": "10.5281/zenodo.18613913",
+      "conceptid": "17334089",
+      "conceptdoi": "10.5281/zenodo.17334089",
+      "created": "2026-02-11T19:02:41.375744+00:00",
+      "updated": "2026-02-11T19:02:41.548758+00:00",
+      "modified": "2026-02-11T19:02:41.548758+00:00",
+      "title": "Glottography dataset derived from Bowern 2021 \"Files for Australian Language Locations\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bowern, C. (2021). Files for Australian Language Locations [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4898185</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-nc-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/bowern2021australia-v2.0.zip",
+          "checksum": "md5:8289c81f20c10f91a222316758527ab7",
+          "url": "https://zenodo.org/api/records/18613913/files/Glottography/bowern2021australia-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/bowern2021australia/tree/v2.0"
+    },
+    {
+      "id": 18613855,
+      "doi": "10.5281/zenodo.18613855",
+      "conceptid": "17333459",
+      "conceptdoi": "10.5281/zenodo.17333459",
+      "created": "2026-02-11T18:54:50.897556+00:00",
+      "updated": "2026-02-11T18:54:51.098995+00:00",
+      "modified": "2026-02-11T18:54:51.098995+00:00",
+      "title": "Glottography dataset derived from Bowern and Atkinson 2012 \"Computational phylogenetics and the internal structure of Pama-Nyungan\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bowern, Claire &amp; Quentin Atkinson. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language 88. 817-845. doi: 10.2307/23357554.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/bowern2012pamanyungan-v2.0.zip",
+          "checksum": "md5:855635673d8050ee4bcb327c13c46a7c",
+          "url": "https://zenodo.org/api/records/18613855/files/Glottography/bowern2012pamanyungan-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/bowern2012pamanyungan/tree/v2.0"
+    },
+    {
+      "id": 18613244,
+      "doi": "10.5281/zenodo.18613244",
+      "conceptid": "17333412",
+      "conceptdoi": "10.5281/zenodo.17333412",
+      "created": "2026-02-11T17:40:16.483540+00:00",
+      "updated": "2026-02-11T17:40:16.663003+00:00",
+      "modified": "2026-02-11T17:40:16.663003+00:00",
+      "title": "Glottography dataset derived from Bouckaert et al. 2012 \"Mapping the origins and expansion of the Indo-European language family\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bouckaert, Remco, Philippe Lemey, Michael Dunn, Simon J Greenhill, Alexander V Alekseyenko, Alexei J Drummond, Russell D Gray &amp; Quentin D Suchard Marc A and Atkinson. 2012. Mapping the origins and expansion of the Indo-European language family. Science 337(6097). 957\u2013960. American Association for the Advancement of Science.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/bouckaert2012indoeuropean-v2.0.zip",
+          "checksum": "md5:f828be240160206045b529d594ca8fc9",
+          "url": "https://zenodo.org/api/records/18613244/files/Glottography/bouckaert2012indoeuropean-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/bouckaert2012indoeuropean/tree/v2.0"
+    },
+    {
+      "id": 18613195,
+      "doi": "10.5281/zenodo.18613195",
+      "conceptid": "15287257",
+      "conceptdoi": "10.5281/zenodo.15287257",
+      "created": "2026-02-11T17:33:58.308181+00:00",
+      "updated": "2026-02-11T17:33:58.516492+00:00",
+      "modified": "2026-02-11T17:33:58.516492+00:00",
+      "title": "Glottography dataset derived from Asher and Moseley 2007 \"Atlas of the World's Languages\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Asher, R. E. &amp; Christopher J. Moseley (eds.) 2007. Atlas of the World&#x27;s Languages. 2nd edn. Routledge.</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/asher2007world-v2.0.zip",
+          "checksum": "md5:76f2a4c16a0ac2468c37a44ab2dd7fd6",
+          "url": "https://zenodo.org/api/records/18613195/files/Glottography/asher2007world-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/Glottography/asher2007world/tree/v2.0"
+    },
+    {
+      "id": 18611119,
+      "doi": "10.5281/zenodo.18611119",
+      "conceptid": "17333164",
+      "conceptdoi": "10.5281/zenodo.17333164",
+      "created": "2026-02-11T14:47:10.367694+00:00",
+      "updated": "2026-02-11T14:47:10.561748+00:00",
+      "modified": "2026-02-11T14:47:10.561748+00:00",
+      "title": "Glottography dataset derived from Allen et al. 2016 \"Resource scarcity drives lethal aggression among prehistoric hunter-gatherers in central California\"",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>M.W. Allen, R.L. Bettinger, B.F. Codding, T.L. Jones, A.W. Schwitalla, Resource scarcity drives lethal aggression among prehistoric hunter-gatherers in central California, Proc. Natl. Acad. Sci. U.S.A. 113 (43) 12120-12125, https://doi.org/10.1073/pnas.1607996113 (2016).</p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-02-11",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "The Glottography Consortium"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "Glottography/allen2016resource-v2.0.zip",
+          "checksum": "md5:666adcf3eeb70567e9399917004a7ab2",
+          "url": "https://zenodo.org/api/records/18611119/files/Glottography/allen2016resource-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "The Glottography Consortium",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/Glottography/allen2016resource/tree/v2.0"
+    },
+    {
+      "id": 4777568,
+      "doi": "10.5281/zenodo.4777568",
+      "conceptid": "1459401",
+      "conceptdoi": "10.5281/zenodo.1459401",
+      "created": "2021-05-21T06:11:59.207283+00:00",
+      "updated": "2026-02-10T14:25:32.475997+00:00",
+      "modified": "2026-02-10T14:25:32.475997+00:00",
+      "title": "Uralic basic vocabulary with cognate and loanword information",
+      "description": "<p>When you use this dataset, please also cite the following papers, introducing it:</p>\n<blockquote>\n<p>De Heer, Mervi; Rogier Blokland; Michael Dunn &amp; Outi Vesakoski. 2024. &ldquo;Loanwords in basic vocabulary as an indicator of borrowing profiles&rdquo;. Journal of Language Contact 16 (1). 54&ndash;103. https://doi.org/10.1163/19552629-bja10057.</p>\n</blockquote>\n<p>and</p>\n<blockquote>\n<p>Syrj&auml;nen, Kaj, Luke Maurits, Unni-P&auml;iv&auml; Leino, Terhi Honkola, Jadranka Rota &amp; Outi Vesakoski. 2021. &ldquo;Crouching TIGER, hidden structure: Exploring the nature of linguistic data using TIGER values&rdquo;. Journal of Language Evolution 6(2). 99&ndash;118. <a href=\"https://doi.org/10.1093/jole/lzab004\" rel=\"nofollow\">https://doi.org/10.1093/jole/lzab004</a></p>\n</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2021-05-21",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Mervi de Heer"
+        },
+        {
+          "name": "Mikko Heikkil\u00e4"
+        },
+        {
+          "name": "Kaj Syrj\u00e4nen"
+        },
+        {
+          "name": "Jyri Lehtinen"
+        },
+        {
+          "name": "Outi Vesakoski"
+        },
+        {
+          "name": "Toni, Suutari"
+        },
+        {
+          "name": "Michael Dunn"
+        },
+        {
+          "name": "Urho M\u00e4\u00e4tt\u00e4"
+        },
+        {
+          "name": "Unni-P\u00e4iv\u00e4 Leino"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/uralex-v2.0.zip",
+          "checksum": "md5:32bf3a3d0a266dcd12ad951ab6254704",
+          "url": "https://zenodo.org/api/records/4777568/files/lexibank/uralex-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "Mervi de Heer",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Mervi de Heer",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kaj Syrj\u00e4nen",
+          "type": "DataCurator"
+        },
+        {
+          "name": "Jyri Lehtinen",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Luke Maurits",
+          "type": "Other"
+        },
+        {
+          "name": "Robert Forkel",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/uralex/tree/v2.0"
+    },
+    {
+      "id": 18515583,
+      "doi": "10.5281/zenodo.18515583",
+      "conceptid": "18502760",
+      "conceptdoi": "10.5281/zenodo.18502760",
+      "created": "2026-02-07T09:50:16.355929+00:00",
+      "updated": "2026-02-07T09:50:16.481946+00:00",
+      "modified": "2026-02-07T09:50:16.481946+00:00",
+      "title": "CLDF dataset derived from Nawsawu's \"Descriptive Phonology of Makyam Naga\" from 2016",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Nawsawu (2016) Descriptive Phonology of Makyam Naga. MA thesis. Chiang Mai: Payap University</p>\n</blockquote>",
+      "version": "v0.1.1",
+      "access_right": "open",
+      "publication_date": "2026-02-07",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Nawsawu"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phonemica/nawsawumakyam-v0.1.1.zip",
+          "checksum": "md5:6e151fc34c6eb1a9b461a245794d8e6e",
+          "url": "https://zenodo.org/api/records/18515583/files/phonemica/nawsawumakyam-v0.1.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "van Dam, Kellen Parker",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phonemica/nawsawumakyam/tree/v0.1.1"
+    },
+    {
+      "id": 18502761,
+      "doi": "10.5281/zenodo.18502761",
+      "conceptid": "18502760",
+      "conceptdoi": "10.5281/zenodo.18502760",
+      "created": "2026-02-06T07:04:42.328978+00:00",
+      "updated": "2026-02-06T07:04:42.464035+00:00",
+      "modified": "2026-02-06T07:04:42.464035+00:00",
+      "title": "CLDF dataset derived from Nawsawu's \"CLDF dataset derived from Nawsawu's \"Descriptive Phonology of Makyam Naga\" from 2016\" from 2016",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Nawsawu (2016) Descriptive Phonology of Makyam Naga. MA thesis. Chiang Mai: Payap University</p>\n</blockquote>",
+      "version": "v0.1.0",
+      "access_right": "open",
+      "publication_date": "2026-02-06",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Nawsawu"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phonemica/nawsawumakyam-v0.1.0.zip",
+          "checksum": "md5:1bf723b2407b75cae3499b71bb2139a4",
+          "url": "https://zenodo.org/api/records/18502761/files/phonemica/nawsawumakyam-v0.1.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "van Dam, Kellen Parker",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/phonemica/nawsawumakyam/tree/v0.1.0"
+    },
+    {
+      "id": 18495287,
+      "doi": "10.5281/zenodo.18495287",
+      "conceptid": "17973867",
+      "conceptdoi": "10.5281/zenodo.17973867",
+      "created": "2026-02-05T13:03:17.228131+00:00",
+      "updated": "2026-02-05T13:03:17.388852+00:00",
+      "modified": "2026-02-05T13:03:17.388852+00:00",
+      "title": "CLDF dataset derived from Kim et al's \"The Tripura of Bangladesh: A Sociolinguistic Survey\" from 2011",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kim, Amy and Roy, Palash and Sangma, Mridul and Kim, Seung (2011) The Tripura of Bangladesh: A Sociolinguistic Survey. Journal of Language Survey Reports. Dallas: SIL International</p>\n</blockquote>",
+      "version": "v1.0.1",
+      "access_right": "open",
+      "publication_date": "2026-02-05",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Kim, Amy"
+        },
+        {
+          "name": "Roy, Palash"
+        },
+        {
+          "name": "Sangma, Mridul"
+        },
+        {
+          "name": "Kim, Seung"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "phonemica/kimkokborok-v1.0.1.zip",
+          "checksum": "md5:b7d199281f95d53139ca11574880ea5a",
+          "url": "https://zenodo.org/api/records/18495287/files/phonemica/kimkokborok-v1.0.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "contributors": [
+        {
+          "name": "van Dam, Kellen Parker",
+          "type": "Editor"
+        },
+        {
+          "name": "Johann-Mattis List",
+          "type": "Other"
+        }
+      ],
+      "git-link": "https://github.com/phonemica/kimkokborok/tree/v1.0.1"
+    },
+    {
       "id": 18439527,
       "doi": "10.5281/zenodo.18439527",
       "conceptid": "17341267",
@@ -7275,6 +8662,39 @@
       "git-link": "https://github.com/cldf-datasets/barlowhandandfive/tree/v1.3"
     },
     {
+      "id": 15227808,
+      "doi": "10.5281/zenodo.15227808",
+      "conceptid": "14504419",
+      "conceptdoi": "10.5281/zenodo.14504419",
+      "created": "2025-04-16T07:39:14.075001+00:00",
+      "updated": "2025-04-16T08:10:28.600720+00:00",
+      "modified": "2025-04-16T08:10:28.600720+00:00",
+      "title": "davidainman/atlas-data: The Areal Typology of Languages of the Americas",
+      "description": "<p>This is version 1.0 of the ATLAs database.</p>",
+      "version": "v2025.1",
+      "access_right": "open",
+      "publication_date": "2025-04-16",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "davidainman"
+        },
+        {
+          "name": "Natalia Chousou-Polydouri",
+          "affiliation": "Univeristy of Zurich"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "davidainman/atlas-data-v2025.1.zip",
+          "checksum": "md5:c2395e53731144209b809cf077aa8644",
+          "url": "https://zenodo.org/api/records/15227808/files/davidainman/atlas-data-v2025.1.zip/content"
+        }
+      ],
+      "resource_type": "software",
+      "git-link": "https://github.com/davidainman/atlas-data/tree/v2025.1"
+    },
+    {
       "id": 15196305,
       "doi": "10.5281/zenodo.15196305",
       "conceptid": "14872293",
@@ -9659,6 +11079,35 @@
         }
       ],
       "git-link": "https://github.com/lexibank/barlowlote/tree/v1.0"
+    },
+    {
+      "id": 14504420,
+      "doi": "10.5281/zenodo.14504420",
+      "conceptid": "14504419",
+      "conceptdoi": "10.5281/zenodo.14504419",
+      "created": "2024-12-17T05:33:37.766025+00:00",
+      "updated": "2024-12-17T05:33:38.054361+00:00",
+      "modified": "2024-12-17T05:33:38.054361+00:00",
+      "title": "davidainman/atlas-data: Prerelease 0.2",
+      "description": "<p>This is a pre-release of the ATLAs database, with the underlying data finalized, but with the metadata still being updated.</p>",
+      "version": "v2024.2",
+      "access_right": "open",
+      "publication_date": "2024-12-17",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "davidainman"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "davidainman/atlas-data-v2024.2.zip",
+          "checksum": "md5:4f0b1287c7350a3eddb4fe73905caeb8",
+          "url": "https://zenodo.org/api/records/14504420/files/davidainman/atlas-data-v2024.2.zip/content"
+        }
+      ],
+      "resource_type": "software",
+      "git-link": "https://github.com/davidainman/atlas-data/tree/v2024.2"
     },
     {
       "id": 14281745,
@@ -45062,89 +46511,6 @@
         }
       ],
       "git-link": "https://github.com/cldf-datasets/levshinadifferentialmarking/tree/v1.0.0"
-    },
-    {
-      "id": 4777568,
-      "doi": "10.5281/zenodo.4777568",
-      "conceptid": "1459401",
-      "conceptdoi": "10.5281/zenodo.1459401",
-      "created": "2021-05-21T06:11:59.207283+00:00",
-      "updated": "2021-05-21T13:48:11.241235+00:00",
-      "modified": "2021-05-21T13:48:11.241235+00:00",
-      "title": "Uralic basic vocabulary with cognate and loanword information",
-      "description": "<p>When you use this dataset, please also cite the following papers, introducing it:</p>\n\n<blockquote>\n<p>De Heer, Mervi; Blokland, Rogier; Dunn, Michael; Vesakoski, Outi. (submitted manuscript). &ldquo;Loanwords in basic vocabulary as an indicator of borrowing profiles.&rdquo;</p>\n</blockquote>\n\n<p>and</p>\n\n<blockquote>\n<p>Syrj&auml;nen, Kaj; Maurits, Luke; Leino, Unni; Honkola, Terhi; Rota, Jadranka &amp; Vesakoski, Outi. (submitted manuscript). &ldquo;Crouching TIGER, Hidden Structure: Exploring the nature of linguistic data using TIGER values.&rdquo;</p>\n</blockquote>",
-      "version": "v2.0",
-      "access_right": "open",
-      "publication_date": "2021-05-21",
-      "license": "cc-by-4.0",
-      "creators": [
-        {
-          "name": "Mervi de Heer"
-        },
-        {
-          "name": "Mikko Heikkil\u00e4"
-        },
-        {
-          "name": "Kaj Syrj\u00e4nen"
-        },
-        {
-          "name": "Jyri Lehtinen"
-        },
-        {
-          "name": "Outi Vesakoski"
-        },
-        {
-          "name": "Toni, Suutari"
-        },
-        {
-          "name": "Michael Dunn"
-        },
-        {
-          "name": "Urho M\u00e4\u00e4tt\u00e4"
-        },
-        {
-          "name": "Unni-P\u00e4iv\u00e4 Leino"
-        }
-      ],
-      "files": [
-        {
-          "file_path": "lexibank/uralex-v2.0.zip",
-          "checksum": "md5:32bf3a3d0a266dcd12ad951ab6254704",
-          "url": "https://zenodo.org/api/records/4777568/files/lexibank/uralex-v2.0.zip/content"
-        }
-      ],
-      "resource_type": "dataset",
-      "keywords": [
-        "cldf:Wordlist",
-        "linguistics"
-      ],
-      "contributors": [
-        {
-          "name": "Mervi de Heer",
-          "type": "DataCurator"
-        },
-        {
-          "name": "Mervi de Heer",
-          "type": "DataCollector"
-        },
-        {
-          "name": "Kaj Syrj\u00e4nen",
-          "type": "DataCurator"
-        },
-        {
-          "name": "Jyri Lehtinen",
-          "type": "DataCollector"
-        },
-        {
-          "name": "Luke Maurits",
-          "type": "Other"
-        },
-        {
-          "name": "Robert Forkel",
-          "type": "DataCurator"
-        }
-      ],
-      "git-link": "https://github.com/lexibank/uralex/tree/v2.0"
     },
     {
       "id": 4696262,
