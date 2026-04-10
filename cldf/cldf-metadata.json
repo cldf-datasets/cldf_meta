@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/cldf_meta",
             "rdf:type": "prov:Entity",
-            "dc:created": "a86b297",
+            "dc:created": "20be8f2",
             "dc:title": "Repository"
         },
         {
@@ -27,7 +27,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.10.19"
+            "dc:description": "3.10.20"
         },
         {
             "dc:title": "python-packages",
@@ -111,7 +111,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 857,
+            "dc:extent": 860,
             "tableSchema": {
                 "columns": [
                     {
@@ -173,7 +173,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Date"
+                        "name": "Date_Created"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Date_Updated"
                     },
                     {
                         "separator": ";",
@@ -193,7 +197,7 @@
                     },
                     {
                         "separator": ";",
-                        "name": "Zenodo_Keyword"
+                        "name": "Zenodo_Keywords"
                     },
                     {
                         "datatype": "string",
@@ -211,7 +215,7 @@
             "url": "contributions.csv"
         },
         {
-            "dc:extent": 894,
+            "dc:extent": 897,
             "tableSchema": {
                 "columns": [
                     {
@@ -280,7 +284,7 @@
             "url": "datasets.csv"
         },
         {
-            "dc:extent": 255715,
+            "dc:extent": 255917,
             "tableSchema": {
                 "columns": [
                     {
