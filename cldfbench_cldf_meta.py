@@ -274,9 +274,7 @@ def contributions_from_records(records, datasets):
             'GitHub_Link': rec.get('git-link'),
             'Date_Created': rec['created'],
             'Date_Updated': rec['updated'],
-            # TODO: Communities are not extracted from the zenodo response
-            'Communities': [
-                c['id'] for c in rec.get('communities', ())],
+            'Communities': rec.get('communities', ()),
             'License': rec['license'],
             'Zenodo_ID': rec['id'],
             'Zenodo_Link': 'https://zenodo.org/records/{}'.format(
@@ -486,12 +484,13 @@ class Dataset(BaseDataset):
             'DOI',
             'Concept_DOI',
             'Concept_ID',
-            'Date',
+            'Date_Created',
+            'Date_Updated',
             {'name': 'Communities', 'separator': ';'},
             'License',
             'Zenodo_Link',
             'Zenodo_ID',
-            {'name': 'Zenodo_Keyword', 'separator': ';'},
+            {'name': 'Zenodo_Keywords', 'separator': ';'},
             'Zenodo_Type',
             'GitHub_Link')
 
