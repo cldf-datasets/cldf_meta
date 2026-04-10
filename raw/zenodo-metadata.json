@@ -1,6 +1,242 @@
 {
   "records": [
     {
+      "id": 19366409,
+      "doi": "10.5281/zenodo.19366409",
+      "conceptid": "10401966",
+      "conceptdoi": "10.5281/zenodo.10401966",
+      "created": "2026-04-01T08:53:49.148214+00:00",
+      "updated": "2026-04-01T08:53:49.312694+00:00",
+      "modified": "2026-04-01T08:53:49.312694+00:00",
+      "title": "CLDF dataset derived from the DoReCo core corpus",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Seifart, Frank, Ludger Paschen &amp; Matthew Stave (eds.). 2022. Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). DOI:10.34847/nkl.7cbfq779</p>\n</blockquote>\n<p>Please note that when citing this dataset, it is NOT sufficient to refer to DoReCo as a whole, but the full citation for each individual corpus must be provided, including the name(s) of the creator(s) of each corpus.</p>\n\n<blockquote>Ozerov, Pavel. 2024. Anal DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/anal1239. DOI:10.34847/nkl.0dbazp8m</blockquote>\n\n<blockquote>Riesberg, Sonja. 2024. Yali (Apahapsili) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/apah1238. DOI:10.34847/nkl.9d91nkq2</blockquote>\n\n<blockquote>Cowell, Andrew. 2024. Arapaho DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/arap1274. DOI:10.34847/nkl.36f5r1b6</blockquote>\n\n<blockquote>Cobbinah, Alexander Yao. 2024. Ba\u00efnounk Gub\u00ebeher DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/bain1259. DOI:10.34847/nkl.a332abw8</blockquote>\n\n<blockquote>Vanhove, Martine. 2024. Beja DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/beja1238. DOI:10.34847/nkl.edd011t1</blockquote>\n\n<blockquote>Seifart, Frank. 2024. Bora DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/bora1263. DOI:10.34847/nkl.6eaf5laq</blockquote>\n\n<blockquote>Quesada, Juan Diego and Skopeteas, Stavros and Pasamonik, Carolina and Brokmann, Carolin and Fischer, Florian. 2024. Cab\u00e9car DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/cabe1245. DOI:10.34847/nkl.ebc4ra22</blockquote>\n\n<blockquote>Reiter, Sabine. 2024. Cashinahua DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/cash1254. DOI:10.34847/nkl.a8f9q2f1</blockquote>\n\n<blockquote>D\u00e4britz, Chris Lasse and Kudryakova, Nina and Stapert, Eug\u00e9nie and Arkhipov, Alexandre. 2024. Dolgan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/dolg1241. DOI:10.34847/nkl.f09eikq3</blockquote>\n\n<blockquote>Kazakevich, Olga and Klyachko, Elena. 2024. Evenki DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/even1259. DOI:10.34847/nkl.5e0d27cu</blockquote>\n\n<blockquote>Hellwig, Birgit. 2024. Goemai DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/goem1240. DOI:10.34847/nkl.b93664ml</blockquote>\n\n<blockquote>Harvey, Andrew. 2024. Gorwaa DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/goro1270. DOI:10.34847/nkl.a4b4ijj2</blockquote>\n\n<blockquote>Burenhult, Niclas. 2024. Jahai DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/jeha1242. DOI:10.34847/nkl.6a71xp0p</blockquote>\n\n<blockquote>Kim, Soung-U. 2024. Jejuan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/jeju1234. DOI:10.34847/nkl.06ebrk38</blockquote>\n\n<blockquote>Vydrina, Alexandra. 2024. Kakabe DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/kaka1265. DOI:10.34847/nkl.d5aeu9t6</blockquote>\n\n<blockquote>Gusev, Valentin and Klooster, Tiina and Wagner-Nagy, Be\u00e1ta and Arkhipov, Alexandre. 2024. Kamas DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/kama1351. DOI:10.34847/nkl.cdd8177b</blockquote>\n\n<blockquote>Hellwig, Birgit and Schneider-Blum, Gertrud and Ismail, Khaleel Bakheet Khaleel. 2024. Tabaq (Karko) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/kark1256. DOI:10.34847/nkl.eea8144j</blockquote>\n\n<blockquote>D\u00f6hler, Christian. 2024. Komnzo DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/komn1238. DOI:10.34847/nkl.c5e6dudv</blockquote>\n\n<blockquote>Bartels, Hauke and Szczepa\u0144ski, Marcin. 2024. Lower Sorbian DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/lowe1385. DOI:10.34847/nkl.6c6e4e9k</blockquote>\n\n<blockquote>Haude, Katharina. 2024. Movima DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/movi1243. DOI:10.34847/nkl.da42xf67</blockquote>\n\n<blockquote>Ponsonnet, Ma\u00efa. 2024. Dalabon DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/ngal1292. DOI:10.34847/nkl.fae299ug</blockquote>\n\n<blockquote>G\u00fcldemann, Tom and Ernszt, Martina and Siegmund, Sven and Witzlack-Makarevich, Alena. 2024. N\u01c1ng DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/nngg1234. DOI:10.34847/nkl.f6c37fi0</blockquote>\n\n<blockquote>Haig, Geoff and Vollmer, Maria and Thiele, Hanna. 2024. Northern Kurdish (Kurmanji) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/nort2641. DOI:10.34847/nkl.ca10ez5t</blockquote>\n\n<blockquote>Garcia-Laguia, Alexandro. 2024. Northern Alta DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/nort2875. DOI:10.34847/nkl.efea0b36</blockquote>\n\n<blockquote>Franjieh, Michael. 2024. Fanbyak DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/orko1234. DOI:10.34847/nkl.02084446</blockquote>\n\n<blockquote>Ring, Hiram. 2024. Pnar DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/pnar1238. DOI:10.34847/nkl.5ba1062k</blockquote>\n\n<blockquote>Krifka, Manfred. 2024. Daakie DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/port1286. DOI:10.34847/nkl.efeav5l9</blockquote>\n\n<blockquote>Seifart, Frank. 2024. Res\u00edgaro DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/resi1247. DOI:10.34847/nkl.ffb96lo8</blockquote>\n\n<blockquote>Witzlack-Makarevich, Alena and Namyalo, Saudah and Kiriggwajjo, Anatol and Molochieva, Zarina. 2024. Ruuli DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/ruul1235. DOI:10.34847/nkl.fde4pp1u</blockquote>\n\n<blockquote>Xu, Xianming and Bai, Bibo. 2024. Sadu DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sadu1234. DOI:10.34847/nkl.3db4u59d</blockquote>\n\n<blockquote>Forker, Diana and Schiborr, Nils Norman. 2024. Sanzhi Dargwa DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sanz1248. DOI:10.34847/nkl.81934177</blockquote>\n\n<blockquote>Wegener, Claudia. 2024. Savosavo DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/savo1255. DOI:10.34847/nkl.b74d1b33</blockquote>\n\n<blockquote>Thieberger, Nick. 2024. Nafsan (South Efate) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sout2856. DOI:10.34847/nkl.ba4f760l</blockquote>\n\n<blockquote>Schiborr, Nils Norman. 2024. English (Southern England) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sout3282. DOI:10.34847/nkl.9c271u5g</blockquote>\n\n<blockquote>Avanzi, Mathieu and B\u00e9guelin, Marie-Jos\u00e9 and Corminboeuf, Gilles and Di\u00e9moz, Federica and Johnsen, Laure Anne. 2024. French (Swiss) DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/stan1290. DOI:10.34847/nkl.3520l685</blockquote>\n\n<blockquote>Teo, Amos. 2024. S\u00fcmi DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/sumi1235. DOI:10.34847/nkl.5ad4t01p</blockquote>\n\n<blockquote>Gippert, Jost. 2024. Svan DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/svan1243. DOI:10.34847/nkl.9ba054c3</blockquote>\n\n<blockquote>Bogomolova, Natalia and Ganenkov, Dmitry and Schiborr, Nils Norman. 2024. Tabasaran DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/taba1259. DOI:10.34847/nkl.ad7f97xr</blockquote>\n\n<blockquote>Mosel, Ulrike. 2024. Teop DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/teop1238. DOI:10.34847/nkl.9322sdf2</blockquote>\n\n<blockquote>Wichmann, S\u00f8ren. 2024. Texistepec Popoluca DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/texi1237. DOI:10.34847/nkl.c50ck58f</blockquote>\n\n<blockquote>Bardaj\u00ed, Maria and Bracks, Christoph and Leto, Claudia and Hasan, Datra and Riesberg, Sonja and Alamudi, Winarno S. and Himmelmann, Nikolaus P.. 2024. Totoli DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/toto1304. DOI:10.34847/nkl.c8b6ei29</blockquote>\n\n<blockquote>Rose, Fran\u00e7oise. 2024. Moje\u00f1o Trinitario DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/trin1278. DOI:10.34847/nkl.cbc3b4xr</blockquote>\n\n<blockquote>Griscom, Richard. 2024. Asimjeeg Datooga DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/tsim1256. DOI:10.34847/nkl.f77c7m72</blockquote>\n\n<blockquote>Skopeteas, Stavros and Moisidi, Violeta and Tsetereli, Nutsa and Lorenz, Johanna and Schr\u00f6ter, Stefanie. 2024. Urum DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/urum1249. DOI:10.34847/nkl.ac166n10</blockquote>\n\n<blockquote>Schnell, Stefan. 2024. Vera&#x27;a DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/vera1241. DOI:10.34847/nkl.3e2cu8c4</blockquote>\n\n<blockquote>Michaud, Alexis. 2024. Yongning Na DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/yong1270. DOI:10.34847/nkl.abe65p95</blockquote>\n\n<blockquote>Skopeteas, Stavros and Colli Colli, Amedee and Schellenbach, Daniela and Brokmann, Carolin and Fischer, Florian and G\u00e1lvez Wimmelmann, Maya. 2024. Yucatec Maya DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Berlin &amp; Lyon: Leibniz-Zentrum Allgemeine Sprachwissenschaft &amp; laboratoire Dynamique Du Langage (UMR5596, CNRS &amp; Universit\u00e9 Lyon 2). https://doreco.huma-num.fr/languages/yuca1254. DOI:10.34847/nkl.9cbb3619</blockquote>",
+      "version": "v2.0",
+      "access_right": "open",
+      "publication_date": "2026-04-01",
+      "license": "cc-zero",
+      "creators": [
+        {
+          "name": "Frank Seifart"
+        },
+        {
+          "name": "Ludger Paschen"
+        },
+        {
+          "name": "Matthew Stave"
+        },
+        {
+          "name": "Robert Forkel"
+        },
+        {
+          "name": "Frederic Blum"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "cldf-datasets/doreco-v2.0.zip",
+          "checksum": "md5:1ddf58a5e26ccdb531c85464cae4ad8e",
+          "url": "https://zenodo.org/api/records/19366409/files/cldf-datasets/doreco-v2.0.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Generic",
+        "linguistics"
+      ],
+      "git-link": "https://github.com/cldf-datasets/doreco/tree/v2.0"
+    },
+    {
+      "id": 19184362,
+      "doi": "10.5281/zenodo.19184362",
+      "conceptid": "5497509",
+      "conceptdoi": "10.5281/zenodo.5497509",
+      "created": "2026-03-23T11:54:21.627612+00:00",
+      "updated": "2026-03-23T11:54:21.891001+00:00",
+      "modified": "2026-03-23T11:54:21.891001+00:00",
+      "title": "CLDF dataset derived from Blum et al.'s \"A phylolinguistic classification of the Quechua language family\" from 2023",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Blum, Frederic, Carlos Barrientos, Adriano Ingunza &amp; Zoe Poirier. 2023. A phylolinguistic classification of the Quechua language family. INDIANA - Anthropological Studies on Latin America and the Caribbean 40(1). 29\u2013-54. DOI: https://doi.org/10.18441/IND.V40I1.29-54.</p>\n</blockquote>",
+      "version": "v1.3",
+      "access_right": "open",
+      "publication_date": "2026-03-23",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Frederic Blum"
+        },
+        {
+          "name": "Carlos B. Ugarte"
+        },
+        {
+          "name": "Adriano Ingunza"
+        },
+        {
+          "name": "Zoe Poirier"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "lexibank/crossandean-v1.3.zip",
+          "checksum": "md5:dbe71ae2617e6ab5c9a7849bf93feebd",
+          "url": "https://zenodo.org/api/records/19184362/files/lexibank/crossandean-v1.3.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+      ],
+      "communities": [
+        "lexibank"
+      ],
+      "contributors": [
+        {
+          "name": "Frederic Blum",
+          "type": "Editor"
+        },
+        {
+          "name": "Carlos B. Ugarte",
+          "type": "Editor"
+        },
+        {
+          "name": "Mattis List",
+          "type": "Editor"
+        }
+      ],
+      "git-link": "https://github.com/lexibank/crossandean/tree/v1.3"
+    },
+    {
+      "id": 19127704,
+      "doi": "10.5281/zenodo.19127704",
+      "conceptid": "5669235",
+      "conceptdoi": "10.5281/zenodo.5669235",
+      "created": "2026-03-20T09:04:44.185137+00:00",
+      "updated": "2026-03-20T09:04:44.523677+00:00",
+      "modified": "2026-03-20T09:04:44.523677+00:00",
+      "title": "Pulotu: Database of Austronesian Religions",
+      "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Watts J., Sheehan O., Greenhill S.J., Gomes-Ng S., Atkinson Q.D., Bulbulia J., Gray R.D. (2015). Pulotu: Database of Austronesian Supernatural Beliefs and Practices. PLoS ONE 10(9). DOI: https://doi.org/10.1371/journal.pone.0136783</p>\n</blockquote>",
+      "version": "v1.3.1",
+      "access_right": "open",
+      "publication_date": "2026-03-20",
+      "license": "cc-by-4.0",
+      "creators": [
+        {
+          "name": "Joseph Watts",
+          "affiliation": "University of Otago"
+        },
+        {
+          "name": "Oliver Sheehan",
+          "affiliation": "University of Auckland"
+        },
+        {
+          "name": "Simon Greenhill",
+          "affiliation": "Max Planck Institute for the Science of Human History"
+        },
+        {
+          "name": "Stephanie Gomes-Ng",
+          "affiliation": "University of Auckland"
+        },
+        {
+          "name": "Quentin Atkinson",
+          "affiliation": "University of Auckland"
+        },
+        {
+          "name": "Joseph Bulbulia",
+          "affiliation": "Victoria University of Wellington"
+        },
+        {
+          "name": "Russell Gray",
+          "affiliation": "Max Planck Institute for Evolutionary Anthropology"
+        }
+      ],
+      "files": [
+        {
+          "file_path": "D-PLACE/dplace-dataset-pulotu-v1.3.1.zip",
+          "checksum": "md5:80b7783d9d4962fdb644444a129d4c75",
+          "url": "https://zenodo.org/api/records/19127704/files/D-PLACE/dplace-dataset-pulotu-v1.3.1.zip/content"
+        }
+      ],
+      "resource_type": "dataset",
+      "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+      ],
+      "communities": [
+        "dplace"
+      ],
+      "contributors": [
+        {
+          "name": "Carlos Botero",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Carlos Botero",
+          "type": "Researcher"
+        },
+        {
+          "name": "Angeline Song",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Angeline Song",
+          "type": "Researcher"
+        },
+        {
+          "name": "Joanne Ong",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Joanne Ong",
+          "type": "Researcher"
+        },
+        {
+          "name": "Sam Passmore",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Sam Passmore",
+          "type": "Researcher"
+        },
+        {
+          "name": "Kirsty Maurits",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kirsty Maurits",
+          "type": "Researcher"
+        },
+        {
+          "name": "Goldie Hamilton",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Goldie Hamilton",
+          "type": "Researcher"
+        },
+        {
+          "name": "Kelsey Buntain",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Kelsey Buntain",
+          "type": "Researcher"
+        },
+        {
+          "name": "Alex Thomson",
+          "type": "DataCollector"
+        },
+        {
+          "name": "Alex Thomson",
+          "type": "Researcher"
+        },
+        {
+          "name": "Robert Forkel",
+          "affiliation": "Max Planck Institute for Evolutionary Anthropology",
+          "type": "DataCurator"
+        }
+      ],
+      "git-link": "https://github.com/D-PLACE/dplace-dataset-pulotu/tree/v1.3.1"
+    },
+    {
       "id": 18777605,
       "doi": "10.5281/zenodo.18777605",
       "conceptid": "17334089",
@@ -30,6 +266,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/bowern2021australia/tree/v2.0.2"
     },
@@ -63,6 +302,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/bowern2021australia/tree/v2.0.1"
     },
@@ -157,6 +399,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/zucchi2017arqueologia/tree/v2.0"
     },
     {
@@ -189,6 +434,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/wurm1981pacific/tree/v2.0"
     },
@@ -223,6 +471,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/wikipedia2024officiallang/tree/v2.0"
     },
     {
@@ -255,6 +506,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/walker2011bayesian/tree/v2.0"
     },
@@ -289,6 +543,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/vuillermet2012grammar/tree/v2.0"
     },
     {
@@ -321,6 +578,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/tarble1984nuevos/tree/v2.0"
     },
@@ -355,6 +615,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/suttles1985northwest/tree/v2.0"
     },
     {
@@ -387,6 +650,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/steever2019dravidian/tree/v2.0"
     },
@@ -421,6 +687,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/schapper2020papuan/tree/v2.0"
     },
     {
@@ -453,6 +722,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/rantanen2021uralic/tree/v2.0"
     },
@@ -487,6 +759,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/queixalos2000linguas/tree/v2.0"
     },
     {
@@ -519,6 +794,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/ministerio2009pueblos/tree/v2.0"
     },
@@ -553,6 +831,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/messineo2011aproximacion/tree/v2.0"
     },
     {
@@ -585,6 +866,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/matsumae2021exploring/tree/v2.0"
     },
@@ -619,6 +903,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/hochstetler2004sociolinguistic/tree/v2.0"
     },
     {
@@ -651,6 +938,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/haynie2019modern/tree/v2.0"
     },
@@ -685,6 +975,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/grierson1903lsi/tree/v2.0.1"
     },
     {
@@ -717,6 +1010,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/grierson1903lsi/tree/v2.0"
     },
@@ -770,6 +1066,9 @@
         "dataset",
         "cross-linguistic data formats",
         "CLDF"
+      ],
+      "communities": [
+        "produsemy"
       ]
     },
     {
@@ -802,6 +1101,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/goddard1999native/tree/v2.0"
     },
@@ -836,6 +1138,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/figueira1982atlastotalargentina/tree/v2.0"
     },
     {
@@ -868,6 +1173,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/eriksen2011nature/tree/v2.0"
     },
@@ -902,6 +1210,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/edwards2020metathesis/tree/v2.0"
     },
     {
@@ -934,6 +1245,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/denevan1966aboriginal/tree/v2.0"
     },
@@ -968,6 +1282,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/dedio2019britain/tree/v2.0"
     },
     {
@@ -1000,6 +1317,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/carling2025diacl/tree/v2.0"
     },
@@ -1034,6 +1354,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/bowern2021australia/tree/v2.0"
     },
     {
@@ -1066,6 +1389,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/bowern2012pamanyungan/tree/v2.0"
     },
@@ -1100,6 +1426,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/bouckaert2012indoeuropean/tree/v2.0"
     },
     {
@@ -1133,6 +1462,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/asher2007world/tree/v2.0"
     },
     {
@@ -1165,6 +1497,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "contributors": [
         {
@@ -1228,6 +1563,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -1418,6 +1756,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/rantanen2021uralic/tree/v1.0.1"
     },
     {
@@ -1450,6 +1791,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/asher2007world/tree/v1.0.1"
     },
@@ -1484,6 +1828,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/tarble1984nuevos/tree/v1.0.1"
     },
     {
@@ -1516,6 +1863,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/suttles1985northwest/tree/v1.0.1"
     },
@@ -1550,6 +1900,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/hochstetler2004sociolinguistic/tree/v1.0.1"
     },
     {
@@ -1582,6 +1935,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/haynie2019modern/tree/v1.0.1"
     },
@@ -1616,6 +1972,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/goddard1999native/tree/v1.0.1"
     },
     {
@@ -1648,6 +2007,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/zucchi2017arqueologia/tree/v1.0.1"
     },
@@ -1682,6 +2044,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/wurm1981pacific/tree/v1.0.1"
     },
     {
@@ -1714,6 +2079,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/wikipedia2024officiallang/tree/v1.0.1"
     },
@@ -1748,6 +2116,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/vuillermet2012grammar/tree/v1.0.1"
     },
     {
@@ -1780,6 +2151,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/schapper2020papuan/tree/v1.0.1"
     },
@@ -1814,6 +2188,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/queixalos2000linguas/tree/v1.0.1"
     },
     {
@@ -1846,6 +2223,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/ministerio2009pueblos/tree/v1.0.1"
     },
@@ -1880,6 +2260,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/messineo2011aproximacion/tree/v1.0.1"
     },
     {
@@ -1912,6 +2295,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/eriksen2011nature/tree/v1.0.1"
     },
@@ -1946,6 +2332,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/dedio2019britain/tree/v1.0.1"
     },
     {
@@ -1978,6 +2367,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/edwards2020metathesis/tree/v1.0.1"
     },
@@ -2012,6 +2404,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/bouckaert2012indoeuropean/tree/v1.0.1"
     },
     {
@@ -2044,6 +2439,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/bowern2021australia/tree/v1.01"
     },
@@ -2123,6 +2521,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -2164,6 +2566,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -2272,6 +2677,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Carlos Ugarte",
@@ -2326,6 +2734,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -2662,6 +3073,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -2854,6 +3268,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -2938,6 +3356,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -2976,6 +3398,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -3027,6 +3452,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -3093,6 +3521,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -3188,6 +3619,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -3335,6 +3769,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -3433,6 +3870,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -3527,6 +3967,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -3625,6 +4068,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -3727,6 +4173,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -3825,6 +4274,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -3919,6 +4371,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -4033,6 +4488,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -4143,6 +4601,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -4247,6 +4708,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Martynas Snarskis",
@@ -4293,6 +4757,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -4344,6 +4811,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -4460,6 +4930,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -4506,6 +4980,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -4551,6 +5029,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -4613,6 +5095,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -4659,6 +5145,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -4701,6 +5191,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -4783,6 +5276,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -4829,6 +5326,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -4871,6 +5372,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -4933,6 +5438,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -4984,6 +5493,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -5046,6 +5559,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5103,6 +5620,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -5162,6 +5683,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5204,6 +5729,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -5253,6 +5782,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -5306,6 +5839,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5357,6 +5894,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -5410,6 +5951,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5456,6 +6001,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5501,6 +6050,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -5550,6 +6103,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -5618,6 +6175,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5667,6 +6228,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5710,6 +6275,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5752,6 +6321,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -5854,6 +6426,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Greenhill, Simon",
@@ -5912,6 +6488,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -5961,6 +6541,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -6006,6 +6590,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -6071,6 +6659,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -6118,6 +6710,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -6252,6 +6847,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -6404,6 +7002,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -6447,6 +7048,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/zucchi2017arqueologia/tree/v1.0"
     },
     {
@@ -6479,6 +7083,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/wurm1981pacific/tree/v1.0"
     },
@@ -6513,6 +7120,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/wikipedia2024officiallang/tree/v1.0"
     },
     {
@@ -6545,6 +7155,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/walker2011bayesian/tree/v1.0"
     },
@@ -6579,6 +7192,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/vuillermet2012grammar/tree/v1.0"
     },
     {
@@ -6611,6 +7227,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/tarble1984nuevos/tree/v1.0"
     },
@@ -6645,6 +7264,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/suttles1985northwest/tree/v1.0"
     },
     {
@@ -6677,6 +7299,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/steever2019dravidian/tree/v1.0"
     },
@@ -6711,6 +7336,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/schapper2020papuan/tree/v1.0"
     },
     {
@@ -6743,6 +7371,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/rantanen2021uralic/tree/v1.0"
     },
@@ -6777,6 +7408,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/queixalos2000linguas/tree/v1.0"
     },
     {
@@ -6809,6 +7443,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/ministerio2009pueblos/tree/v1.0"
     },
@@ -6843,6 +7480,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/messineo2011aproximacion/tree/v1.0"
     },
     {
@@ -6875,6 +7515,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/matsumae2021exploring/tree/v1.0"
     },
@@ -6909,6 +7552,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/hochstetler2004sociolinguistic/tree/v1.0"
     },
     {
@@ -6941,6 +7587,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/haynie2019modern/tree/v1.0"
     },
@@ -6975,6 +7624,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/grierson1903lsi/tree/v1.0"
     },
     {
@@ -7007,6 +7659,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/goddard1999native/tree/v1.0"
     },
@@ -7041,6 +7696,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/figueira1982atlastotalargentina/tree/v1.0"
     },
     {
@@ -7073,6 +7731,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/eriksen2011nature/tree/v1.0"
     },
@@ -7107,6 +7768,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/edwards2020metathesis/tree/v1.0"
     },
     {
@@ -7139,6 +7803,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/denevan1966aboriginal/tree/v1.0"
     },
@@ -7173,6 +7840,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/dedio2019britain/tree/v1.0"
     },
     {
@@ -7205,6 +7875,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/carling2025diacl/tree/v1.0"
     },
@@ -7239,6 +7912,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/bowern2021australia/tree/v1.0"
     },
     {
@@ -7271,6 +7947,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/bowern2012pamanyungan/tree/v1.0"
     },
@@ -7305,6 +7984,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "glottography"
+      ],
       "git-link": "https://github.com/Glottography/bouckaert2012indoeuropean/tree/v1.0"
     },
     {
@@ -7337,6 +8019,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "contributors": [
         {
@@ -7586,6 +8271,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -7925,6 +8613,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Ben Sapirstein",
@@ -8002,6 +8693,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -8071,6 +8765,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -8109,6 +8806,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -8173,6 +8873,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -8278,6 +8981,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -8316,6 +9022,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -8409,6 +9118,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -8525,6 +9237,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Eugene Chan",
@@ -8622,6 +9337,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "glottography"
       ],
       "git-link": "https://github.com/Glottography/asher2007world/tree/v1.0.0"
     },
@@ -8878,6 +9596,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "eu",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Eri Kashima",
@@ -8953,6 +9675,12 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu",
+        "produsemy",
+        "lexibank",
+        "calc"
       ],
       "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v2.1"
     },
@@ -9095,6 +9823,13 @@
         "Legacy Material",
         "Wordlist"
       ],
+      "communities": [
+        "dumilah-fib-unud",
+        "enggano",
+        "holle-list",
+        "lexibank",
+        "complexico"
+      ],
       "contributors": [
         {
           "name": "Koemba, Fitriani Putri",
@@ -9158,6 +9893,12 @@
         "Indonesian Languages",
         "Digital Scholarship"
       ],
+      "communities": [
+        "enggano",
+        "lexibank",
+        "complexico",
+        "holle-list"
+      ],
       "contributors": [
         {
           "name": "Pamphila, Utei Charaleghy",
@@ -9216,6 +9957,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -9270,6 +10014,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -9375,6 +10122,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "eu"
+      ],
       "git-link": "https://github.com/concepticon/norare-cldf/tree/v1.1"
     },
     {
@@ -9409,6 +10159,11 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "enggano",
+        "lexibank",
+        "complexico"
       ],
       "contributors": [
         {
@@ -9614,6 +10369,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "eu",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Eri Kashima",
@@ -9689,6 +10448,12 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu",
+        "produsemy",
+        "lexibank",
+        "calc"
       ],
       "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v2.0"
     },
@@ -9847,6 +10612,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Greenhill, Simon J.",
@@ -9928,6 +10696,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -10042,6 +10813,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Hans-J\u00f6rg Bibiko",
@@ -10114,6 +10888,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Hans-J\u00f6rg Bibiko",
@@ -10161,6 +10938,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -10221,6 +11001,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -10311,6 +11094,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -10548,6 +11334,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Greenhill, Simon J.",
@@ -10593,6 +11382,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -10644,6 +11436,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -10720,6 +11515,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -10871,6 +11669,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/liunewari/tree/v1.1"
     },
     {
@@ -10903,6 +11704,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -11020,6 +11824,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -11176,6 +11983,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -11266,6 +12076,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.3"
     },
     {
@@ -11301,6 +12116,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -11340,6 +12159,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -11387,6 +12209,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -11441,6 +12266,11 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "digling",
+        "calc",
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -11482,6 +12312,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -11545,6 +12378,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Matthew Dryer",
@@ -11597,6 +12434,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -11922,6 +12762,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -11976,6 +12819,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -12021,6 +12867,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -12068,6 +12917,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -12128,6 +12980,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -12223,6 +13078,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Ulrich Kleinewillingh\u00f6fer",
@@ -12269,6 +13127,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -12320,6 +13181,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -12374,6 +13238,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -12417,6 +13284,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -12458,6 +13328,12 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "digling",
+        "calc",
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -12818,6 +13694,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -12907,6 +13786,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -13000,6 +13882,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -13084,6 +13970,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -13122,6 +14012,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -13175,6 +14068,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Martynas Snarskis",
@@ -13221,6 +14117,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -13332,6 +14231,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -13430,6 +14332,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Abbie Hantgan",
@@ -13479,6 +14384,11 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "calc",
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -13547,6 +14457,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -13607,6 +14520,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -13702,6 +14618,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -13800,6 +14719,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -13902,6 +14824,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -14000,6 +14925,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -14094,6 +15022,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -14192,6 +15123,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -14339,6 +15273,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -14433,6 +15370,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -14529,6 +15469,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Cathryn Yang",
@@ -14580,6 +15523,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -14627,6 +15574,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -14671,6 +15621,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -14727,6 +15680,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -14774,6 +15730,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -14824,6 +15783,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -14902,6 +15864,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -14951,6 +15916,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15007,6 +15975,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Carlos Barrientos",
@@ -15049,6 +16020,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15123,6 +16097,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -15168,6 +16145,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15228,6 +16208,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -15270,6 +16253,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15318,6 +16304,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Hans-J\u00f6rg Bibiko",
@@ -15360,6 +16349,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15420,6 +16412,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -15458,6 +16453,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15503,6 +16501,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15567,6 +16568,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -15617,6 +16621,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -15655,6 +16662,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15707,6 +16717,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Ulrich Kleinewillingh\u00f6fer",
@@ -15754,6 +16767,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -15796,6 +16812,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15846,6 +16865,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -15898,6 +16921,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -15945,6 +16971,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -15996,6 +17025,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16067,6 +17099,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16143,6 +17178,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -16187,6 +17225,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16234,6 +17275,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -16275,6 +17319,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16335,6 +17382,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -16386,6 +17436,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -16432,6 +17485,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16488,6 +17544,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Thiago Chac\u00f3n",
@@ -16535,6 +17594,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -16576,6 +17638,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16627,6 +17692,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "John Miller",
@@ -16669,6 +17737,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16725,6 +17796,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -16763,6 +17837,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "diachronica"
       ],
       "contributors": [
         {
@@ -16806,6 +17884,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16853,6 +17934,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -16899,6 +17984,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16954,6 +18042,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -17008,6 +18099,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17058,6 +18152,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17096,6 +18194,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17139,6 +18240,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17191,6 +18295,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17229,6 +18336,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17272,6 +18382,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17318,6 +18431,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17378,6 +18494,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -17429,6 +18548,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17467,6 +18589,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17511,6 +18636,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17549,6 +18677,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17592,6 +18723,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17647,6 +18781,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17694,6 +18831,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17745,6 +18885,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17787,6 +18930,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17828,6 +18974,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -17872,6 +19021,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -17910,6 +19062,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -17957,6 +19113,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -18000,6 +19159,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -18041,6 +19203,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18089,6 +19254,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -18135,6 +19303,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18193,6 +19364,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon Greenhill",
@@ -18238,6 +19412,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18286,6 +19463,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "S\u00f8ren Wichmann",
@@ -18333,6 +19513,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -18375,6 +19558,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18419,6 +19605,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -18457,6 +19646,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18506,6 +19698,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -18544,6 +19740,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18587,6 +19786,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -18625,6 +19827,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18668,6 +19873,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "clics",
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -18706,6 +19915,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18749,6 +19961,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18796,6 +20011,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18849,6 +20067,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18904,6 +20125,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18964,6 +20188,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -19020,6 +20247,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Frederic Blum",
@@ -19067,6 +20297,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Frederic Blum",
@@ -19109,6 +20342,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -19156,6 +20392,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -19210,6 +20449,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -19255,6 +20497,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -19308,6 +20553,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Frederic Blum",
@@ -19357,6 +20605,11 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "digling",
+        "calc",
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -19395,6 +20648,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -19447,6 +20704,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -19497,6 +20757,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -19553,6 +20817,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -19608,6 +20875,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -19658,6 +20929,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -19707,6 +20981,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -19745,6 +21022,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -19801,6 +21081,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -19848,6 +21131,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -19907,6 +21193,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Timotheus A. Bodt",
@@ -19952,6 +21241,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -19990,6 +21282,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -20039,6 +21335,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/pano-tacanan-history/blumpanotacana/tree/v1.1"
     },
     {
@@ -20078,6 +21377,11 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "digling",
+        "calc",
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/baf2/tree/v1.0"
     },
     {
@@ -20113,6 +21417,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -20160,6 +21467,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -20213,6 +21524,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -20264,6 +21578,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "calc",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -20323,6 +21641,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Uday Raj Aaley",
@@ -20381,6 +21702,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -20423,6 +21747,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -20470,6 +21797,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -20525,6 +21856,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -20567,6 +21901,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -20617,6 +21954,10 @@
         "cldf:Wordlist",
         "linguistics",
         "Mentawai"
+      ],
+      "communities": [
+        "lexibank",
+        "complexico"
       ],
       "git-link": "https://github.com/complexico/mentawai-word-list-1853/tree/1.0.0"
     },
@@ -20757,6 +22098,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -21199,6 +22543,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/pano-tacanan-history/blumpanotacana/tree/v1.0.1"
     },
     {
@@ -21240,6 +22587,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "git-link": "https://github.com/pano-tacanan-history/blumpanotacana/tree/v1.0.0"
     },
@@ -21313,6 +22663,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -21363,6 +22716,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/intercontinental-dictionary-series/visserkalamang/tree/v2.1"
     },
     {
@@ -21398,6 +22754,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "git-link": "https://github.com/intercontinental-dictionary-series/lindseyende/tree/v2.1"
     },
@@ -21597,6 +22956,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -21860,6 +23222,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Paul Heggarty",
@@ -22033,6 +23398,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -22128,6 +23496,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -22175,6 +23546,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -22265,6 +23639,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -22313,6 +23691,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/pano-tacanan-history/blumpanotacana/tree/v0.2"
     },
     {
@@ -22348,6 +23729,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -22400,6 +23784,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -22467,6 +23854,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -22520,6 +23910,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon Greenhill",
@@ -22563,6 +23956,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Nathan W. Hill",
@@ -22605,6 +24001,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -22699,6 +24098,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -22782,6 +24184,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -22923,6 +24328,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -23017,6 +24425,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -23164,6 +24575,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -23262,6 +24676,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -23356,6 +24773,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -23454,6 +24874,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -23556,6 +24979,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -23653,6 +25079,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -23752,6 +25181,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -23846,6 +25278,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -23960,6 +25395,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -24070,6 +25508,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Kathryn R. Kirby",
@@ -24164,6 +25605,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -24269,6 +25713,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -24315,6 +25763,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -24360,6 +25812,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -24422,6 +25878,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -24467,6 +25927,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -24514,6 +25978,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -24556,6 +26024,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -24618,6 +26090,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -24669,6 +26145,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -24731,6 +26211,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -24788,6 +26272,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -24847,6 +26335,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -24889,6 +26381,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -24939,6 +26435,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -24987,6 +26487,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -25040,6 +26544,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -25091,6 +26599,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -25144,6 +26656,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -25190,6 +26706,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -25235,6 +26755,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -25284,6 +26808,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -25352,6 +26880,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -25401,6 +26933,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -25443,6 +26979,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -25489,6 +27029,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -25577,6 +27121,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "git-link": "https://github.com/pano-tacanan-history/blumpanotacana/tree/v0.1"
     },
@@ -25751,6 +27298,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -25792,6 +27342,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -25835,6 +27388,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -25873,6 +27429,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -25929,6 +27488,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Guillaume Segerer",
@@ -25983,6 +27545,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -26039,6 +27604,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -26090,6 +27658,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -26128,6 +27699,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -26168,6 +27742,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -26206,6 +27783,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -26246,6 +27826,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -26284,6 +27867,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -26325,6 +27911,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "git-link": "https://github.com/lexibank/lairgyalrong/tree/v0.2"
     },
     {
@@ -26362,6 +27952,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "eu",
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/lairgyalrong/tree/v0.1"
     },
     {
@@ -26394,6 +27988,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -26465,6 +28062,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -26516,6 +28116,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -26555,6 +28158,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "git-link": "https://github.com/LanguageStructure/KAHD_pre_release/tree/0.2"
     },
@@ -26596,6 +28202,9 @@
         "Katukinan languages",
         "Harakmbut"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/LanguageStructure/KAHD_pre_release/tree/0.1"
     },
     {
@@ -26636,6 +28245,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/tupian-language-resources/bororo/tree/v0.9.5"
     },
     {
@@ -26674,6 +28286,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -26736,6 +28352,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -26788,6 +28408,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -26833,6 +28457,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -26880,6 +28508,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -26925,6 +28557,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -26984,6 +28620,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27029,6 +28669,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -27088,6 +28732,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27130,6 +28778,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -27192,6 +28844,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27234,6 +28890,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -27280,6 +28939,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -27373,6 +29036,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27424,6 +29091,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -27477,6 +29148,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27526,6 +29201,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27572,6 +29251,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27614,6 +29297,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -27662,6 +29349,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -27715,6 +29406,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27758,6 +29453,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27800,6 +29499,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -27849,6 +29552,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -27917,6 +29624,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -27978,6 +29689,10 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "phlorest",
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -28035,6 +29750,10 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "phlorest",
+        "dplace"
       ],
       "contributors": [
         {
@@ -28125,6 +29844,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -28173,6 +29895,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/transnewguineaorg/tree/v2.0"
     },
     {
@@ -28214,6 +29939,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -28264,6 +29992,12 @@
         "CLDF",
         "Word List"
       ],
+      "communities": [
+        "complexico",
+        "holle-list",
+        "lexibank",
+        "enggano"
+      ],
       "git-link": "https://github.com/engganolang/holle-list-enggano-1895/tree/1.0.0"
     },
     {
@@ -28299,6 +30033,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -28346,6 +30083,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -28391,6 +30131,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/liunewari/tree/v1.0.0"
     },
     {
@@ -28423,6 +30166,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -28476,6 +30222,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -28536,6 +30285,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/kitchensemitic/tree/v1.0"
     },
     {
@@ -28571,6 +30323,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -28617,6 +30372,9 @@
       "keywords": [
         "linguistics",
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -28666,6 +30424,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -28710,6 +30471,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -28756,6 +30520,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -28800,6 +30567,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -29014,6 +30784,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Lyle Campbell",
@@ -29226,6 +30999,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -29440,6 +31216,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Lyle Campbell",
@@ -29647,6 +31426,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -29707,6 +31489,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -29749,6 +31534,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -29796,6 +31584,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -29865,6 +31656,9 @@
         "morphology",
         "phonology"
       ],
+      "communities": [
+        "autotyp"
+      ],
       "git-link": "https://github.com/autotyp/autotyp-data/tree/v1.1.1"
     },
     {
@@ -29926,6 +31720,9 @@
         "syntax",
         "morphology",
         "phonology"
+      ],
+      "communities": [
+        "autotyp"
       ],
       "git-link": "https://github.com/autotyp/autotyp-data/tree/v1.1.0"
     },
@@ -29989,6 +31786,9 @@
         "morphology",
         "phonology"
       ],
+      "communities": [
+        "autotyp"
+      ],
       "git-link": "https://github.com/autotyp/autotyp-data/tree/v1.0.1"
     },
     {
@@ -30051,6 +31851,9 @@
         "morphology",
         "phonology"
       ],
+      "communities": [
+        "autotyp"
+      ],
       "git-link": "https://github.com/autotyp/autotyp-data/tree/v1.0.0"
     },
     {
@@ -30104,6 +31907,9 @@
         }
       ],
       "resource_type": "software",
+      "communities": [
+        "autotyp"
+      ],
       "git-link": "https://github.com/autotyp/autotyp-data/tree/v0.1.2"
     },
     {
@@ -30165,6 +31971,9 @@
         "syntax",
         "morphology",
         "phonology"
+      ],
+      "communities": [
+        "autotyp"
       ],
       "git-link": "https://github.com/autotyp/autotyp-data/tree/v0.1.1"
     },
@@ -30235,6 +32044,9 @@
         "syntax",
         "morphology",
         "phonology"
+      ],
+      "communities": [
+        "autotyp"
       ]
     },
     {
@@ -30268,6 +32080,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -30314,6 +32129,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -30362,6 +32180,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -30419,6 +32240,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/martino-vic/gerstnerhungarian/tree/v3.1"
     },
     {
@@ -30452,6 +32276,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "git-link": "https://github.com/martino-vic/gerstnerhungarian/tree/v3"
     },
@@ -30487,6 +32314,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/martino-vic/gerstnerhungarian/tree/v1.3"
     },
     {
@@ -30520,6 +32350,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "git-link": "https://github.com/martino-vic/gerstnerhungarian/tree/v2"
     },
@@ -30556,6 +32389,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -30619,6 +32455,12 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "eu",
+        "calc",
+        "lexibank",
+        "produsemy"
+      ],
       "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v1.0"
     },
     {
@@ -30655,6 +32497,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu",
+        "calc"
       ],
       "git-link": "https://github.com/lexibank/sabor/tree/v1.0"
     },
@@ -30693,6 +32539,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu",
+        "calc"
       ],
       "git-link": "https://github.com/lexibank/sabor/tree/v1.0.0"
     },
@@ -32392,6 +34242,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -32447,6 +34300,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -32501,6 +34357,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -32558,6 +34417,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -32612,6 +34474,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/ids/tree/v3.0"
     },
     {
@@ -32644,6 +34509,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -32706,6 +34574,12 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "eu",
+        "calc",
+        "digling",
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/chacolanguages/tree/v0.2"
     },
     {
@@ -32744,6 +34618,12 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu",
+        "calc",
+        "digling",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/chacolanguages/tree/v0.1"
     },
@@ -32790,6 +34670,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/panobodyparts/tree/v1.0"
     },
     {
@@ -32831,6 +34714,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -32879,6 +34765,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -32929,6 +34818,11 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "lexibank"
+      ],
       "git-link": "https://github.com/cldf-datasets/liljegrenhindukush/tree/v1.0"
     },
     {
@@ -32964,6 +34858,10 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -33015,6 +34913,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -33057,6 +34959,10 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -33098,6 +35004,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -33142,6 +35052,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -33273,6 +35187,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu"
       ],
       "git-link": "https://github.com/concepticon/norare-cldf/tree/v1.0.0"
     },
@@ -33456,6 +35373,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -33672,6 +35592,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "S\u00f8ren Wichmann",
@@ -33878,6 +35801,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -34086,6 +36012,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "S\u00f8ren Wichmann",
@@ -34292,6 +36221,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -34566,6 +36498,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "S\u00f8ren Wichmann",
@@ -34828,6 +36763,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "S\u00f8ren Wichmann",
@@ -35087,6 +37025,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "S\u00f8ren Wichmann",
@@ -35325,6 +37266,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "S\u00f8ren Wichmann",
@@ -35560,6 +37504,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "S\u00f8ren Wichmann",
@@ -35768,6 +37715,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/utoaztecan/tree/v1.2"
     },
     {
@@ -35822,6 +37772,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/utoaztecan/tree/v1.1"
     },
     {
@@ -35855,6 +37808,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/SimonGreenhill/utoaztecan/tree/v1.0"
     },
     {
@@ -35887,6 +37843,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -35934,6 +37893,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -35972,6 +37934,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -36017,6 +37982,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -36087,6 +38055,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Li\u00fa L\u00ecl\u01d0",
@@ -36155,6 +38126,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -36225,6 +38199,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Li\u00fa L\u00ecl\u01d0",
@@ -36288,6 +38265,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "diachronica"
+      ],
       "contributors": [
         {
           "name": "Cathryn Yang",
@@ -36331,6 +38312,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "diachronica",
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Cathryn Yang",
@@ -36373,6 +38358,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "diachronica",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -36437,6 +38426,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "tular",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -36532,6 +38525,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "tular",
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -36594,6 +38591,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "tular",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -36663,6 +38664,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "tular"
+      ],
       "contributors": [
         {
           "name": "Tim Wientzek",
@@ -36728,6 +38732,9 @@
       "keywords": [
         "cldf:Generic",
         "linguistics"
+      ],
+      "communities": [
+        "tular"
       ],
       "contributors": [
         {
@@ -36795,6 +38802,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "tular"
+      ],
       "contributors": [
         {
           "name": "Tim Wientzek",
@@ -36861,6 +38871,9 @@
         "cldf:Generic",
         "linguistics"
       ],
+      "communities": [
+        "tular"
+      ],
       "contributors": [
         {
           "name": "Tim Wientzek",
@@ -36911,6 +38924,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -36949,6 +38965,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -36996,6 +39015,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -37045,6 +39067,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -37103,6 +39128,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -37148,6 +39176,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -37186,6 +39217,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -37233,6 +39267,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -37283,6 +39320,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Timotheus A. Bodth",
@@ -37331,6 +39371,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -37382,6 +39425,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -37640,6 +39686,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -37703,6 +39752,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "dplace"
       ],
       "contributors": [
         {
@@ -37833,6 +39885,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "dplace"
+      ],
       "contributors": [
         {
           "name": "Carlos Botero",
@@ -37940,6 +39995,11 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "digling",
+        "calc",
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/bdpa/tree/v1.0"
     },
     {
@@ -37972,6 +40032,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -38020,6 +40083,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -38067,6 +40133,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -38113,6 +40182,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -38181,6 +40253,11 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "calc",
+        "lexibank",
+        "digling"
+      ],
       "git-link": "https://github.com/lexibank/baf2/tree/v0.2"
     },
     {
@@ -38218,6 +40295,11 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "clics",
+        "digling",
+        "eu"
+      ],
       "git-link": "https://github.com/lingpy/language-island-paper/tree/v3.0.1"
     },
     {
@@ -38251,6 +40333,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/valpal/tree/v1.0"
     },
     {
@@ -38283,6 +40368,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/dictionaria/teanu/tree/v1.0"
     },
@@ -38360,6 +40450,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "dplace",
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -38444,6 +40538,10 @@
       "keywords": [
         "cldf:StructureDataset"
       ],
+      "communities": [
+        "dplace",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -38526,6 +40624,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "dplace",
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -38610,6 +40712,10 @@
       "keywords": [
         "cldf:StructureDataset"
       ],
+      "communities": [
+        "dplace",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -38649,6 +40755,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
+      ],
       "git-link": "https://github.com/dictionaria/palula/tree/v1.2"
     },
     {
@@ -38681,6 +40792,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/dictionaria/kalamang/tree/v1.2"
     },
@@ -38715,6 +40831,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
+      ],
       "git-link": "https://github.com/dictionaria/wersing/tree/v1.2"
     },
     {
@@ -38747,6 +40868,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/dictionaria/tseltal/tree/v1.2"
     },
@@ -38781,6 +40907,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
+      ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.3"
     },
     {
@@ -38813,6 +40944,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/dictionaria/sanzhi/tree/v1.2"
     },
@@ -38849,6 +40985,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/dictionaria/iquito/tree/v1.1"
     },
@@ -38889,6 +41030,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
+      ],
       "git-link": "https://github.com/dictionaria/medialengua/tree/v1.2"
     },
     {
@@ -38925,6 +41071,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
+      ],
       "git-link": "https://github.com/dictionaria/sidaama/tree/v1.2"
     },
     {
@@ -38957,6 +41108,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/dictionaria/teop/tree/v1.2"
     },
@@ -38997,6 +41153,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
+      ],
       "git-link": "https://github.com/dictionaria/guarayu/tree/v1.2"
     },
     {
@@ -39032,6 +41193,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.2"
     },
@@ -39081,6 +41247,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
+      ],
       "git-link": "https://github.com/dictionaria/hdi/tree/v1.3"
     },
     {
@@ -39113,6 +41284,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "dictionaria",
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.3"
     },
@@ -39147,6 +41323,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/wersing/tree/v1.1"
     },
     {
@@ -39179,6 +41360,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
       ],
       "git-link": "https://github.com/dictionaria/wersing/tree/v1.0"
     },
@@ -39213,6 +41399,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/tseltal/tree/v1.1"
     },
     {
@@ -39244,6 +41435,11 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Dictionary"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/tseltal/tree/v1.0"
     },
@@ -39278,6 +41474,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/teop/tree/v1.1"
     },
     {
@@ -39309,6 +41510,11 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Dictionary"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/teop/tree/v1.0"
     },
@@ -39346,6 +41552,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/sidaama/tree/v1.1"
     },
     {
@@ -39382,6 +41593,11 @@
       "keywords": [
         "cldf:Dictionary"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
+      ],
       "git-link": "https://github.com/dictionaria/sidaama/tree/v1.0"
     },
     {
@@ -39414,6 +41630,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
       ],
       "git-link": "https://github.com/dictionaria/sanzhi/tree/v1.1"
     },
@@ -39448,6 +41669,11 @@
       "keywords": [
         "cldf:Dictionary"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
+      ],
       "git-link": "https://github.com/dictionaria/sanzhi/tree/v1.0"
     },
     {
@@ -39480,6 +41706,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
       ],
       "git-link": "https://github.com/dictionaria/palula/tree/v1.1"
     },
@@ -39514,6 +41745,11 @@
       "keywords": [
         "cldf:Dictionary"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
+      ],
       "git-link": "https://github.com/dictionaria/palula/tree/v1.0"
     },
     {
@@ -39547,6 +41783,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.2"
     },
     {
@@ -39578,6 +41819,11 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Dictionary"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.1"
     },
@@ -39612,6 +41858,11 @@
       "keywords": [
         "linguistics",
         "CLDF"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.0"
     },
@@ -39652,6 +41903,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/medialengua/tree/v1.1"
     },
     {
@@ -39691,6 +41947,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/medialengua/tree/v1.0"
     },
     {
@@ -39724,6 +41985,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/kalamang/tree/v1.1"
     },
     {
@@ -39756,6 +42022,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
       ],
       "git-link": "https://github.com/dictionaria/kalamang/tree/v1.0"
     },
@@ -39792,6 +42063,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
       ],
       "git-link": "https://github.com/dictionaria/iquito/tree/v1.0"
     },
@@ -39841,6 +42117,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/hdi/tree/v1.2"
     },
     {
@@ -39882,6 +42163,11 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Dictionary"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
       ],
       "contributors": [
         {
@@ -39932,6 +42218,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/guarayu/tree/v1.1"
     },
     {
@@ -39970,6 +42261,11 @@
       "keywords": [
         "cldf:Dictionary"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
+      ],
       "git-link": "https://github.com/dictionaria/guarayu/tree/v1.0"
     },
     {
@@ -40005,6 +42301,11 @@
       "keywords": [
         "cldf:Dictionary",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
       ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.1"
     },
@@ -40042,6 +42343,11 @@
         "linguistics",
         "cldf:Dictionary"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
+      ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.0"
     },
     {
@@ -40075,6 +42381,11 @@
         "cldf:Dictionary",
         "linguistics"
       ],
+      "communities": [
+        "clld",
+        "dictionaria",
+        "cldf-datasets"
+      ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.2"
     },
     {
@@ -40107,6 +42418,11 @@
       "keywords": [
         "cldf:Dictionary"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
+      ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.1.1"
     },
     {
@@ -40138,6 +42454,11 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Dictionary"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.1"
     },
@@ -40223,6 +42544,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/seabor/tree/v1.1"
     },
     {
@@ -40259,6 +42583,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/seabor/tree/v1.0"
     },
     {
@@ -40291,6 +42618,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -40331,6 +42661,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -40369,6 +42702,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -40409,6 +42745,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/logos/tree/v4.0"
     },
     {
@@ -40440,6 +42779,9 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/logos/tree/v3.0"
     },
@@ -40473,6 +42815,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -40523,6 +42868,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/intercontinental-dictionary-series/yuchinese/tree/v2.0"
     },
     {
@@ -40562,6 +42910,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/intercontinental-dictionary-series/visserkalamang/tree/v2.0"
     },
     {
@@ -40597,6 +42948,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -40659,6 +43013,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/intercontinental-dictionary-series/yuchinese/tree/v1.0"
     },
     {
@@ -40696,6 +43053,9 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -40746,6 +43106,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/intercontinental-dictionary-series/visserkalamang/tree/v1.0"
     },
     {
@@ -40781,6 +43144,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -40841,6 +43207,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -40880,6 +43249,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -40918,6 +43290,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -40961,6 +43336,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41024,6 +43402,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -41063,6 +43444,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -41101,6 +43485,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41144,6 +43531,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -41182,6 +43572,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41226,6 +43620,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -41264,6 +43661,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41308,6 +43708,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -41351,6 +43754,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -41393,6 +43799,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41438,6 +43847,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Martine Robbeets",
@@ -41476,6 +43888,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41522,6 +43937,10 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "git-link": "https://github.com/lexibank/satterthwaitetb/tree/v3.0"
     },
     {
@@ -41560,6 +43979,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41600,6 +44022,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/SequenceComparison/listsamplesize/tree/v1.0"
     },
     {
@@ -41632,6 +44057,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41682,6 +44110,11 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu",
+        "calc",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41750,6 +44183,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -41791,6 +44227,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41834,6 +44273,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41892,6 +44334,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/intercontinental-dictionary-series/lindseyende/tree/v2.0"
     },
     {
@@ -41924,6 +44369,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -41971,6 +44419,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -42013,6 +44464,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42061,6 +44515,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Sacha Beniamine",
@@ -42107,6 +44564,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42155,6 +44615,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -42201,6 +44664,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -42240,6 +44706,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -42278,6 +44747,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42321,6 +44793,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42376,6 +44851,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -42414,6 +44892,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42470,6 +44951,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42533,6 +45017,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "eu",
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -42580,6 +45068,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "H\u00f3u, J\u012bngy\u012b",
@@ -42622,6 +45113,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42666,6 +45160,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42712,6 +45209,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -42762,6 +45262,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/intercontinental-dictionary-series/lindseyende/tree/v1.0"
     },
     {
@@ -42797,6 +45300,11 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "calc",
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -42868,6 +45376,11 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "calc",
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -42937,6 +45450,10 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "STEDT",
@@ -42978,6 +45495,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -43041,6 +45562,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -43123,6 +45647,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -43169,6 +45696,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -43207,6 +45737,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -43255,6 +45788,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Simon J. Greenhill",
@@ -43301,6 +45837,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -43353,6 +45892,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -43400,6 +45943,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -43446,6 +45992,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -43503,6 +46052,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "git-link": "https://github.com/lexibank/sagartst/tree/v2.0"
     },
     {
@@ -43535,6 +46088,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -43602,6 +46158,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -43651,6 +46210,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -43692,6 +46254,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -43743,6 +46309,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -43798,6 +46368,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -43857,6 +46430,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Christoph Rzymski",
@@ -43896,6 +46472,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/clics/clics1-cldf/tree/v2.0"
     },
     {
@@ -43928,6 +46507,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -43971,6 +46553,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -44018,6 +46603,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -44078,6 +46666,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Cathryn Yang",
@@ -44129,6 +46720,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -44176,6 +46770,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -44232,6 +46829,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -44278,6 +46878,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -44334,6 +46937,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -44388,6 +46994,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -44444,6 +47053,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -44499,6 +47111,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -44536,6 +47151,9 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -44582,6 +47200,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/tls/tree/v3.0"
     },
     {
@@ -44613,6 +47234,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "git-link": "https://github.com/lexibank/sohartmannchin/tree/v2.0"
     },
@@ -44649,6 +47274,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/diacl/tree/v2.0"
     },
     {
@@ -44680,6 +47308,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -44725,6 +47357,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/zgraggenmadang/tree/v3.0"
     },
     {
@@ -44759,6 +47394,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -44804,6 +47443,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/robinsonap/tree/v3.0"
     },
     {
@@ -44841,6 +47483,9 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -44884,6 +47529,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -44931,6 +47579,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/marrisonnaga/tree/v2.0"
     },
     {
@@ -44968,6 +47619,9 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -45019,6 +47673,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -45077,6 +47734,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Michael Cysouw",
@@ -45122,6 +47782,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -45173,6 +47837,10 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "git-link": "https://github.com/lexibank/hubercolumbian/tree/v3.0"
     },
     {
@@ -45208,6 +47876,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -45258,6 +47929,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -45296,6 +47970,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -45354,6 +48031,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Patience Epps",
@@ -45400,6 +48080,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -45448,6 +48131,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -45504,6 +48190,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Thiago Costa Chacon",
@@ -45559,6 +48248,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -45597,6 +48290,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -45644,6 +48341,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -45696,6 +48396,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -45738,6 +48441,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -45790,6 +48497,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -45841,6 +48552,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Tiago Tresoldi",
@@ -45885,6 +48599,9 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -45933,6 +48650,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -45971,6 +48692,10 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "git-link": "https://github.com/lexibank/beidasinitic/tree/v4.0"
     },
     {
@@ -46005,6 +48730,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -46053,6 +48782,10 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "git-link": "https://github.com/lexibank/chenhmongmien/tree/v2.0.1"
     },
     {
@@ -46085,6 +48818,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -46127,6 +48863,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -46173,6 +48912,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -46223,6 +48965,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -46292,6 +49037,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "calc",
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -46347,6 +49096,10 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank",
+        "eu"
+      ],
       "contributors": [
         {
           "name": "Johann-Mattis List",
@@ -46389,6 +49142,9 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/bantubvd/tree/v3.0"
     },
     {
@@ -46430,6 +49186,10 @@
       "keywords": [
         "cldf:Wordlist"
       ],
+      "communities": [
+        "lexibank",
+        "calc"
+      ],
       "git-link": "https://github.com/lexibank/abrahammonpa/tree/v2.0"
     },
     {
@@ -46461,6 +49221,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank",
+        "eu"
       ],
       "contributors": [
         {
@@ -46504,6 +49268,9 @@
         "cldf:StructureDataset",
         "linguistics"
       ],
+      "communities": [
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -46542,6 +49309,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -46587,6 +49357,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -46725,6 +49498,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/cldf-datasets/nts/tree/v1.0"
     },
     {
@@ -46766,6 +49542,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "contributors": [
         {
@@ -46886,6 +49665,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/cldf-datasets/mattercariban/tree/v0.1"
     },
     {
@@ -46924,6 +49706,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -46994,6 +49780,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Hans-J\u00f6rg Bibiko",
@@ -47038,6 +49827,10 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "clld",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -47120,6 +49913,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/vanuatuvoices/tree/v1.0"
     },
     {
@@ -47155,6 +49951,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -47205,6 +50004,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Leon Cosgrove",
@@ -47250,6 +50052,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "contributors": [
         {
           "name": "Michael Spagnol",
@@ -47288,6 +50093,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -47334,6 +50142,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/tppsr/tree/v1.1.1"
     },
     {
@@ -47372,6 +50183,9 @@
       "keywords": [
         "cldf:Wordlist",
         "linguistics"
+      ],
+      "communities": [
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/tppsr/tree/v1.1"
     },
@@ -47412,6 +50226,9 @@
         "cldf:Wordlist",
         "linguistics"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/tppsr/tree/v1.0"
     },
     {
@@ -47444,6 +50261,9 @@
       "keywords": [
         "cldf:StructureDataset",
         "linguistics"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -47496,6 +50316,9 @@
       "keywords": [
         "cldf:StructureDataset"
       ],
+      "communities": [
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -47535,6 +50358,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "clics",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/tryonsolomon/tree/v3.0"
     },
@@ -47585,6 +50412,9 @@
         "linguistics",
         "CLDF"
       ],
+      "communities": [
+        "lexibank"
+      ],
       "git-link": "https://github.com/lexibank/channumerals/tree/v1.0"
     },
     {
@@ -47622,6 +50452,12 @@
       "keywords": [
         "cldf:StructureDataset",
         "cldf:Wordlist"
+      ],
+      "communities": [
+        "lexibank",
+        "cldf-datasets",
+        "calc",
+        "eu"
       ],
       "git-link": "https://github.com/cldf-datasets/normansinitic/tree/v2.0"
     },
@@ -47665,6 +50501,10 @@
         "CLDF",
         "structural data in linguistic typology"
       ],
+      "communities": [
+        "cldf-datasets",
+        "eu"
+      ],
       "git-link": "https://github.com/cldf-datasets/szetosinitic/tree/v1.0"
     },
     {
@@ -47702,6 +50542,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -47746,6 +50590,10 @@
       "keywords": [
         "cldf:StructureDataset"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -47784,6 +50632,9 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -47829,6 +50680,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -47877,6 +50732,10 @@
         "linguistics",
         "CLDF"
       ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -47918,6 +50777,9 @@
       "keywords": [
         "cldf:StructureDataset"
       ],
+      "communities": [
+        "cldf-datasets"
+      ],
       "contributors": [
         {
           "name": "Robert Forkel",
@@ -47956,6 +50818,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
       ],
       "contributors": [
         {
@@ -48022,6 +50888,10 @@
       "resource_type": "dataset",
       "keywords": [
         "cldf:StructureDataset"
+      ],
+      "communities": [
+        "clld",
+        "cldf-datasets"
       ],
       "contributors": [
         {
