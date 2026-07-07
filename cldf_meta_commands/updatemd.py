@@ -124,7 +124,11 @@ ZENODO_METADATA_SCHEMA = {
             },
         },
     },
-    'license': {'type': 'dict', 'schema': {'id': {'type': 'string'}}},
+    'license': {
+        'type': 'dict',
+        'required': False,
+        'schema': {'id': {'type': 'string'}},
+    },
     'resource_type': {
         'type': 'dict',
         'required': False,
@@ -180,7 +184,9 @@ ZENODO_RECORD_SCHEMA = {
     'id': {'type': 'integer'},
     'doi': {'type': 'string'},
     'conceptrecid': {'type': 'string'},
-    'conceptdoi': {'type': 'string'},
+    # XXX: so far the only records without conceptdoi haven't been cldf
+    # and gonna end up in the black list after we got the metadata down
+    'conceptdoi': {'type': 'string', 'required': False},
     'created': {'type': 'string'},
     'updated': {'type': 'string'},
     'modified': {'type': 'string'},
@@ -244,6 +250,8 @@ def download_records_paginated(url, is_authenticated):
         json_data = json.loads(raw_data)
         if not ZENODO_JSON_VALIDATOR.validate(json_data):
             msg = pprint.pformat(ZENODO_JSON_VALIDATOR.errors)
+            with open('bad.json', 'w') as fp:
+                json.dump(json_data, fp, indent=4)
             raise ValueError(f"Zenodo's response has changed\n{msg}")
         if record_total is None:
             record_total = json_data['hits']['total']
@@ -258,7 +266,6 @@ def make_flat_record(record):
         'id': record['id'],
         'doi': record['doi'],
         'conceptid': record['conceptrecid'],
-        'conceptdoi': record['conceptdoi'],
         'created': record['created'],
         'updated': record['updated'],
         'modified': record['modified'],
@@ -267,13 +274,14 @@ def make_flat_record(record):
         'version': record['metadata'].get('version') or '',
         'access_right': record['metadata']['access_right'],
         'publication_date': record['metadata']['publication_date'],
-        'license': record['metadata']['license']['id'],
         'creators': list(map(drop_nulls, record['metadata']['creators'])),
         'files': list(map(flatten_file, record['files'])),
     }
     type_struct = record['metadata'].get('resource_type')
     if type_struct and (type_ := type_struct.get('type')):
         new_record['resource_type'] = type_
+    if (conceptdoi := record.get('conceptdoi')):
+        new_record['conceptdoi'] = conceptdoi
     if (keywords := record['metadata'].get('keywords')):
         new_record['keywords'] = keywords
     if (communities := record['metadata'].get('communities')):
@@ -282,6 +290,8 @@ def make_flat_record(record):
         new_record['contributors'] = list(map(drop_nulls, contributors))
     if (git_link := retrieve_git_link(record)):
         new_record['git-link'] = git_link
+    if (license := record['metadata'].get('license')):
+        new_record['license'] = license['id']
     return new_record
 
 
