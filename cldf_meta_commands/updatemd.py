@@ -291,6 +291,7 @@ def make_flat_record(record):
         new_record['keywords'] = keywords
     if (communities := record['metadata'].get('communities')):
         new_record['communities'] = [comm['id'] for comm in communities]
+        new_record['communities'].sort()
     if (contributors := record['metadata'].get('contributors')):
         new_record['contributors'] = list(map(drop_nulls, contributors))
     if (git_link := retrieve_git_link(record)):

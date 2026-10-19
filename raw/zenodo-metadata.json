@@ -183,8 +183,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "git-link": "https://github.com/cldf-datasets/sails/tree/v2014.1",
       "license": "cc-by-nc-nd-2.0"
@@ -1203,8 +1203,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "lexibank"
       ],
       "git-link": "https://github.com/cldf-datasets/liljegrenhindukush/tree/v1.1.0",
@@ -2382,8 +2382,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -2824,8 +2824,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -3936,8 +3936,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -3985,8 +3985,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -4290,8 +4290,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/tseltal/tree/v1.3",
@@ -4328,8 +4328,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.4",
@@ -4366,8 +4366,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/teop/tree/v1.3",
@@ -4404,8 +4404,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/sanzhi/tree/v1.3",
@@ -4448,8 +4448,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/guarayu/tree/v1.3",
@@ -4501,8 +4501,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/hdi/tree/v1.4",
@@ -4539,8 +4539,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/kalamang/tree/v1.3",
@@ -4583,8 +4583,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/medialengua/tree/v1.3",
@@ -4624,8 +4624,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.4",
@@ -4662,8 +4662,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v2.0",
@@ -5040,8 +5040,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -5393,10 +5393,10 @@
         "linguistics"
       ],
       "communities": [
-        "eu",
-        "produsemy",
         "calc",
-        "lexibank"
+        "eu",
+        "lexibank",
+        "produsemy"
       ],
       "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v2.2",
       "license": "cc-by-4.0"
@@ -5442,8 +5442,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
         "cldf-datasets",
+        "clld",
         "lexibank"
       ],
       "git-link": "https://github.com/cldf-datasets/liljegrenhindukush/tree/v1.0.1",
@@ -5913,8 +5913,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -5959,8 +5959,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -6005,8 +6005,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -6465,8 +6465,8 @@
         "bibliography"
       ],
       "communities": [
-        "digling",
-        "calc"
+        "calc",
+        "digling"
       ],
       "git-link": "https://github.com/lingpy/evobib/tree/v1.11.0",
       "license": "cc-by-4.0"
@@ -8189,10 +8189,10 @@
         "lexical-database"
       ],
       "communities": [
-        "enggano",
-        "holle-list",
         "complexico",
         "dumilah-fib-unud",
+        "enggano",
+        "holle-list",
         "lexibank"
       ],
       "contributors": [
@@ -12939,8 +12939,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -13001,8 +13001,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -13054,8 +13054,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -13104,8 +13104,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -13172,8 +13172,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -15393,8 +15393,8 @@
         "linguistics"
       ],
       "communities": [
-        "dplace",
-        "cldf-datasets"
+        "cldf-datasets",
+        "dplace"
       ],
       "contributors": [
         {
@@ -16221,8 +16221,8 @@
         "linguistics"
       ],
       "communities": [
-        "eu",
-        "cldf-datasets"
+        "cldf-datasets",
+        "eu"
       ],
       "contributors": [
         {
@@ -16302,9 +16302,9 @@
       ],
       "communities": [
         "calc",
-        "produsemy",
+        "eu",
         "lexibank",
-        "eu"
+        "produsemy"
       ],
       "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v2.1",
       "license": "cc-by-4.0"
@@ -16452,10 +16452,10 @@
       ],
       "communities": [
         "complexico",
-        "enggano",
         "dumilah-fib-unud",
-        "lexibank",
-        "holle-list"
+        "enggano",
+        "holle-list",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -16753,8 +16753,8 @@
         "linguistics"
       ],
       "communities": [
-        "eu",
-        "cldf-datasets"
+        "cldf-datasets",
+        "eu"
       ],
       "git-link": "https://github.com/concepticon/norare-cldf/tree/v1.1",
       "license": "cc-by-4.0"
@@ -16793,8 +16793,8 @@
       ],
       "communities": [
         "complexico",
-        "enggano",
         "dumilah-fib-unud",
+        "enggano",
         "lexibank"
       ],
       "contributors": [
@@ -17002,8 +17002,8 @@
         "linguistics"
       ],
       "communities": [
-        "eu",
-        "cldf-datasets"
+        "cldf-datasets",
+        "eu"
       ],
       "contributors": [
         {
@@ -17083,9 +17083,9 @@
       ],
       "communities": [
         "calc",
-        "produsemy",
+        "eu",
         "lexibank",
-        "eu"
+        "produsemy"
       ],
       "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v2.0",
       "license": "cc-by-4.0"
@@ -17233,8 +17233,8 @@
         "computer-assisted language comparison"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/digling/edictor/tree/v3.1",
       "license": "mit-license"
@@ -18785,9 +18785,9 @@
         "linguistics"
       ],
       "communities": [
-        "dictionaria",
+        "cldf-datasets",
         "clld",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.3",
       "license": "cc-by-4.0"
@@ -18826,8 +18826,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -18975,8 +18975,8 @@
         "linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "lexibank"
       ],
       "contributors": [
@@ -19087,8 +19087,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -20079,10 +20079,10 @@
         "linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
-        "lexibank",
-        "eu"
+        "digling",
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -20776,8 +20776,8 @@
         "linguistics"
       ],
       "communities": [
-        "dplace",
-        "cldf-datasets"
+        "cldf-datasets",
+        "dplace"
       ],
       "contributors": [
         {
@@ -20864,8 +20864,8 @@
         "linguistics"
       ],
       "communities": [
-        "dplace",
-        "cldf-datasets"
+        "cldf-datasets",
+        "dplace"
       ],
       "contributors": [
         {
@@ -21280,8 +21280,8 @@
       ],
       "communities": [
         "calc",
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -22417,8 +22417,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -23760,8 +23760,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -24732,8 +24732,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "diachronica"
+        "diachronica",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -24828,8 +24828,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -25046,8 +25046,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -25957,8 +25957,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -26592,8 +26592,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -26680,8 +26680,8 @@
         "Concepticon"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -26719,8 +26719,8 @@
         "phylogenetic networks"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -27578,9 +27578,9 @@
         "linguistics"
       ],
       "communities": [
+        "calc",
         "digling",
-        "lexibank",
-        "calc"
+        "lexibank"
       ],
       "contributors": [
         {
@@ -27622,8 +27622,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -28351,8 +28351,8 @@
       ],
       "communities": [
         "calc",
-        "lexibank",
-        "digling"
+        "digling",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/baf2/tree/v1.0",
       "license": "cc-by-4.0"
@@ -29092,8 +29092,8 @@
         "clics"
       ],
       "communities": [
-        "eu",
-        "calc"
+        "calc",
+        "eu"
       ],
       "license": "cc-by-4.0"
     },
@@ -29258,10 +29258,10 @@
       ],
       "communities": [
         "complexico",
-        "lexibank",
-        "holle-list",
         "dumilah-fib-unud",
-        "enggano"
+        "enggano",
+        "holle-list",
+        "lexibank"
       ],
       "git-link": "https://github.com/engganolang/digitised-holle-list/tree/1.3.1",
       "license": "cc-by-sa-4.0"
@@ -29302,10 +29302,10 @@
         "CLDF"
       ],
       "communities": [
-        "lexibank",
         "complexico",
+        "enggano",
         "holle-list",
-        "enggano"
+        "lexibank"
       ],
       "git-link": "https://github.com/engganolang/holle-list-enggano-1895/tree/1.1.0",
       "license": "cc-by-sa-4.0"
@@ -29344,8 +29344,8 @@
         "Mentawai"
       ],
       "communities": [
-        "lexibank",
-        "complexico"
+        "complexico",
+        "lexibank"
       ],
       "git-link": "https://github.com/complexico/mentawai-word-list-1853/tree/1.0.0",
       "license": "cc-by-nc-sa-4.0"
@@ -33257,8 +33257,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33307,8 +33307,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33357,8 +33357,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33422,8 +33422,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33472,8 +33472,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33522,8 +33522,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33569,8 +33569,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33634,8 +33634,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33690,8 +33690,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33755,8 +33755,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33817,8 +33817,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33879,8 +33879,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33926,8 +33926,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -33979,8 +33979,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34032,8 +34032,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34088,8 +34088,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34144,8 +34144,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34200,8 +34200,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34250,8 +34250,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34300,8 +34300,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34353,8 +34353,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34424,8 +34424,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34477,8 +34477,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34524,8 +34524,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -34574,8 +34574,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -35736,8 +35736,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/lairgyalrong/tree/v0.1",
       "license": "cc-by-4.0"
@@ -36219,8 +36219,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36275,8 +36275,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36325,8 +36325,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36375,8 +36375,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36425,8 +36425,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36487,8 +36487,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36537,8 +36537,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36599,8 +36599,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36646,8 +36646,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36711,8 +36711,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36807,8 +36807,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36903,8 +36903,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -36959,8 +36959,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37015,8 +37015,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37068,8 +37068,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37118,8 +37118,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37217,8 +37217,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37273,8 +37273,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37367,8 +37367,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37556,8 +37556,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37618,8 +37618,8 @@
         "linguistics"
       ],
       "communities": [
-        "phlorest",
-        "dplace"
+        "dplace",
+        "phlorest"
       ],
       "contributors": [
         {
@@ -37980,10 +37980,10 @@
       ],
       "communities": [
         "complexico",
-        "enggano",
         "dumilah-fib-unud",
-        "lexibank",
-        "holle-list"
+        "enggano",
+        "holle-list",
+        "lexibank"
       ],
       "git-link": "https://github.com/engganolang/digitised-holle-list/tree/1.3.0",
       "license": "cc-by-sa-4.0"
@@ -38025,10 +38025,10 @@
       ],
       "communities": [
         "complexico",
-        "enggano",
         "dumilah-fib-unud",
-        "lexibank",
-        "holle-list"
+        "enggano",
+        "holle-list",
+        "lexibank"
       ],
       "git-link": "https://github.com/engganolang/digitised-holle-list/tree/1.2.0",
       "license": "cc-by-sa-4.0"
@@ -38070,10 +38070,10 @@
       ],
       "communities": [
         "complexico",
-        "enggano",
         "dumilah-fib-unud",
-        "lexibank",
-        "holle-list"
+        "enggano",
+        "holle-list",
+        "lexibank"
       ],
       "git-link": "https://github.com/engganolang/digitised-holle-list/tree/1.1.0",
       "license": "cc-by-sa-4.0"
@@ -38114,10 +38114,10 @@
       ],
       "communities": [
         "complexico",
-        "enggano",
         "dumilah-fib-unud",
-        "lexibank",
-        "holle-list"
+        "enggano",
+        "holle-list",
+        "lexibank"
       ],
       "git-link": "https://github.com/engganolang/digitised-holle-list/tree/1.0.0",
       "license": "cc-by-sa-4.0"
@@ -40248,9 +40248,9 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.7980851",
       "communities": [
-        "produsemy",
         "digling",
-        "eu"
+        "eu",
+        "produsemy"
       ],
       "git-link": "https://github.com/lingpy/pacs/tree/v1.0",
       "license": "other-open"
@@ -40662,9 +40662,9 @@
       ],
       "communities": [
         "calc",
-        "produsemy",
+        "eu",
         "lexibank",
-        "eu"
+        "produsemy"
       ],
       "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v1.0",
       "license": "cc-by-4.0"
@@ -40717,8 +40717,8 @@
       "communities": [
         "calc",
         "eu",
-        "produsemy",
-        "lexibank"
+        "lexibank",
+        "produsemy"
       ],
       "git-link": "https://github.com/lexibank/lexibank-analysed/tree/v0.2",
       "license": "cc-by-4.0"
@@ -42604,9 +42604,9 @@
       "conceptdoi": "10.5281/zenodo.7777930",
       "communities": [
         "calc",
-        "produsemy",
         "digling",
-        "eu"
+        "eu",
+        "produsemy"
       ],
       "git-link": "https://github.com/pano-tacanan-history/trimming-paper/tree/v1.1",
       "license": "other-open"
@@ -42642,9 +42642,9 @@
       "conceptdoi": "10.5281/zenodo.7777930",
       "communities": [
         "calc",
-        "produsemy",
         "digling",
-        "eu"
+        "eu",
+        "produsemy"
       ],
       "git-link": "https://github.com/pano-tacanan-history/trimming-paper/tree/v1.0"
     },
@@ -43321,10 +43321,10 @@
         "linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
-        "lexibank",
-        "eu"
+        "digling",
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/chacolanguages/tree/v0.2",
       "license": "cc-by-4.0"
@@ -43366,10 +43366,10 @@
         "linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
-        "lexibank",
-        "eu"
+        "digling",
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/chacolanguages/tree/v0.1",
       "license": "cc-by-4.0"
@@ -43566,8 +43566,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "lexibank",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/cldf-datasets/liljegrenhindukush/tree/v1.0",
       "license": "cc-by-4.0"
@@ -43606,8 +43606,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -43660,8 +43660,8 @@
         "linguistics"
       ],
       "communities": [
-        "clld",
-        "cldf-datasets"
+        "cldf-datasets",
+        "clld"
       ],
       "contributors": [
         {
@@ -44050,8 +44050,8 @@
         "bibliography"
       ],
       "communities": [
-        "digling",
-        "calc"
+        "calc",
+        "digling"
       ],
       "git-link": "https://github.com/lingpy/evobib/tree/v1.4.0",
       "license": "cc-by-4.0"
@@ -44087,8 +44087,8 @@
         "bibliography"
       ],
       "communities": [
-        "digling",
-        "calc"
+        "calc",
+        "digling"
       ],
       "git-link": "https://github.com/lingpy/evobib/tree/v1.3.1",
       "license": "cc-by-nc-4.0"
@@ -44221,8 +44221,8 @@
         "linguistics"
       ],
       "communities": [
-        "eu",
-        "cldf-datasets"
+        "cldf-datasets",
+        "eu"
       ],
       "git-link": "https://github.com/concepticon/norare-cldf/tree/v1.0.0",
       "license": "cc-by-4.0"
@@ -44655,8 +44655,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.3610088",
       "communities": [
-        "diachronica",
-        "australianlanguages"
+        "australianlanguages",
+        "diachronica"
       ],
       "license": "cc-by-4.0"
     },
@@ -48637,8 +48637,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "diachronica"
+        "diachronica",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -48684,8 +48684,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "diachronica"
+        "diachronica",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -48971,8 +48971,8 @@
         "linguistics"
       ],
       "communities": [
-        "tular",
-        "lexibank"
+        "lexibank",
+        "tular"
       ],
       "contributors": [
         {
@@ -50621,8 +50621,8 @@
         "linguistics"
       ],
       "communities": [
-        "dplace",
-        "cldf-datasets"
+        "cldf-datasets",
+        "dplace"
       ],
       "contributors": [
         {
@@ -50754,8 +50754,8 @@
         "linguistics"
       ],
       "communities": [
-        "dplace",
-        "cldf-datasets"
+        "cldf-datasets",
+        "dplace"
       ],
       "contributors": [
         {
@@ -51020,8 +51020,8 @@
       ],
       "communities": [
         "calc",
-        "eu",
-        "digling"
+        "digling",
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/workflow-paper/tree/v1.0.0",
       "license": "cc-by-4.0"
@@ -51107,8 +51107,8 @@
         "linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "lexibank"
       ],
       "git-link": "https://github.com/lexibank/bdpa/tree/v1.0",
@@ -51370,8 +51370,8 @@
       "conceptdoi": "10.5281/zenodo.3564483",
       "communities": [
         "calc",
-        "eu",
-        "digling"
+        "digling",
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/sign-language-evolution-paper/tree/v1.0.1",
       "license": "other-open"
@@ -51411,8 +51411,8 @@
         "computational historical linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -51457,9 +51457,9 @@
         "computational historical linguistics"
       ],
       "communities": [
+        "calc",
         "digling",
-        "eu",
-        "calc"
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/evobib",
       "license": "cc-by-4.0"
@@ -51499,8 +51499,8 @@
         "computational historical linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -51540,8 +51540,8 @@
         "computational historical linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -51621,11 +51621,11 @@
         "cross-linguistic data formats"
       ],
       "communities": [
-        "digling",
-        "lexibank",
+        "calc",
         "clics",
+        "digling",
         "eu",
-        "calc"
+        "lexibank"
       ],
       "license": "cc-by-4.0"
     },
@@ -51665,11 +51665,11 @@
         "cross-linguistic data formats"
       ],
       "communities": [
-        "digling",
-        "lexibank",
+        "calc",
         "clics",
+        "digling",
         "eu",
-        "calc"
+        "lexibank"
       ],
       "license": "cc-by-4.0"
     },
@@ -51710,8 +51710,8 @@
       "communities": [
         "calc",
         "clics",
-        "eu",
         "digling",
+        "eu",
         "lexibank"
       ],
       "license": "cc-by-4.0"
@@ -51751,8 +51751,8 @@
         "word formation"
       ],
       "communities": [
-        "digling",
-        "calc"
+        "calc",
+        "digling"
       ],
       "git-link": "https://github.com/digling/word-formation-paper/tree/v1.0.3",
       "license": "other-open"
@@ -51792,8 +51792,8 @@
         "word formation"
       ],
       "communities": [
-        "digling",
-        "calc"
+        "calc",
+        "digling"
       ],
       "git-link": "https://github.com/digling/word-formation-paper/tree/v1.0.4",
       "license": "other-open"
@@ -51830,8 +51830,8 @@
         "historical linguistics, bibliographic references, reference manager, collection of quotes"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -51903,9 +51903,9 @@
         "Palawa Kani"
       ],
       "communities": [
+        "australianlanguages",
         "chirila",
-        "digling",
-        "australianlanguages"
+        "digling"
       ],
       "license": "cc-by-4.0"
     },
@@ -51990,8 +51990,8 @@
       ],
       "communities": [
         "calc",
-        "eu",
-        "digling"
+        "digling",
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/evobib",
       "license": "cc-by-4.0"
@@ -52076,8 +52076,8 @@
         "Concepticon"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -52117,8 +52117,8 @@
         "computational historical linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -52163,9 +52163,9 @@
         "computational historical linguistics"
       ],
       "communities": [
+        "calc",
         "digling",
-        "eu",
-        "calc"
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/evobib",
       "license": "cc-by-4.0"
@@ -52205,8 +52205,8 @@
         "computational historical linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -52251,8 +52251,8 @@
         "computational historical linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/evobib",
@@ -52459,9 +52459,9 @@
       "conceptdoi": "10.5281/zenodo.3564464",
       "communities": [
         "calc",
-        "lexibank",
+        "digling",
         "eu",
-        "digling"
+        "lexibank"
       ],
       "contributors": [
         {
@@ -52523,9 +52523,9 @@
         "Pama-Nyungan"
       ],
       "communities": [
+        "australianlanguages",
         "chirila",
-        "digling",
-        "australianlanguages"
+        "digling"
       ],
       "license": "cc-by-nc-4.0"
     },
@@ -52652,9 +52652,9 @@
         "cognates"
       ],
       "communities": [
+        "australianlanguages",
         "chirila",
-        "digling",
-        "australianlanguages"
+        "digling"
       ],
       "license": "cc-by-nc-4.0"
     },
@@ -52750,8 +52750,8 @@
         "phylogenetic reconstruction"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -52828,10 +52828,10 @@
         "comparative method"
       ],
       "communities": [
-        "digling",
         "calc",
-        "lexibank",
-        "diachronica"
+        "diachronica",
+        "digling",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -53037,8 +53037,8 @@
         "bibliography"
       ],
       "communities": [
-        "digling",
-        "calc"
+        "calc",
+        "digling"
       ],
       "git-link": "https://github.com/digling/cjp-data/tree/v0.1.0",
       "license": "cc-by-4.0"
@@ -53077,8 +53077,8 @@
         "linguistic reconstruction"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-4.0"
@@ -53149,8 +53149,8 @@
         "history"
       ],
       "communities": [
-        "ministerratsprotokolle",
-        "digling"
+        "digling",
+        "ministerratsprotokolle"
       ],
       "license": "cc-by-4.0"
     },
@@ -53198,8 +53198,8 @@
         "Sino-Tibetan languages"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/sino-tibetan-paper/tree/v1.0.1",
@@ -53239,8 +53239,8 @@
         "language comparison"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "license": "cc-by-sa-4.0"
@@ -53350,8 +53350,8 @@
       ],
       "communities": [
         "calc",
-        "eu",
-        "digling"
+        "digling",
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/word-tree-paper/tree/v1.0.0",
       "license": "other-open"
@@ -53424,8 +53424,8 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.3246392",
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/chinese-character-formation-paper/tree/1.0",
@@ -53502,8 +53502,8 @@
         "computer-assisted language comparison"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/predict-khobwa/tree/v1.0.1",
@@ -53565,8 +53565,8 @@
         "computational linguistics"
       ],
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/sino-tibetan-paper/tree/v1.0.3",
@@ -53610,8 +53610,8 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1465519",
       "communities": [
-        "digling",
         "calc",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/sino-tibetan-paper/tree/v1.0.2",
@@ -53854,9 +53854,9 @@
         "Timor-Alor-Pantar languages"
       ],
       "communities": [
-        "clld",
-        "clics",
         "cldf-datasets",
+        "clics",
+        "clld",
         "lexibank"
       ],
       "license": "cc-by-4.0"
@@ -53907,10 +53907,10 @@
         "Timor-Alor-Pantar languages"
       ],
       "communities": [
-        "lexibank",
         "cldf-datasets",
+        "clics",
         "clld",
-        "clics"
+        "lexibank"
       ],
       "license": "cc-by-4.0"
     },
@@ -53960,10 +53960,10 @@
         "Timor-Alor-Pantar languages"
       ],
       "communities": [
-        "lexibank",
         "cldf-datasets",
+        "clics",
         "clld",
-        "clics"
+        "lexibank"
       ],
       "license": "cc-by-4.0"
     },
@@ -54005,10 +54005,10 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1164782",
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v2.2.6",
       "license": "cc-by-4.0"
@@ -54049,10 +54049,10 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1164782",
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v2.2.5",
       "license": "cc-by-4.0"
@@ -54091,10 +54091,10 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1164782",
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v2.2.3",
       "license": "cc-by-4.0"
@@ -54145,10 +54145,10 @@
         "Timor-Alor-Pantar languages"
       ],
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -54207,10 +54207,10 @@
         "Timor-Alor-Pantar languages"
       ],
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -54267,10 +54267,10 @@
         "Timor-Alor-Pantar languages"
       ],
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -54327,10 +54327,10 @@
         "Timor-Alor-Pantar languages"
       ],
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -54391,10 +54391,10 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1164782",
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v2.1.0",
       "license": "other-open"
@@ -54445,10 +54445,10 @@
         "CLLD"
       ],
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v2.0.0",
       "license": "cc-by-4.0"
@@ -54492,10 +54492,10 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1164782",
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v1.0.0",
       "license": "cc-by-4.0"
@@ -54534,10 +54534,10 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1164782",
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v1.0.0-rc4",
       "license": "other-open"
@@ -54582,10 +54582,10 @@
         "Austronesian Languages"
       ],
       "communities": [
-        "lexibank",
         "cldf-datasets",
         "clics",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v1.0.0-rc3",
       "license": "other-open"
@@ -54637,10 +54637,10 @@
         "indonesia"
       ],
       "communities": [
-        "clld",
+        "cldf-datasets",
         "clics",
-        "lexibank",
-        "cldf-datasets"
+        "clld",
+        "lexibank"
       ],
       "git-link": "https://github.com/lessersunda/lexirumah-data/tree/v1.0.0-rc.2",
       "license": "cc-by-4.0"
@@ -54887,9 +54887,9 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1407140",
       "communities": [
-        "eu",
+        "clics",
         "digling",
-        "clics"
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/language-island-paper/tree/v4.0.0",
       "license": "other-open"
@@ -54929,9 +54929,9 @@
         "cldf:Wordlist"
       ],
       "communities": [
-        "eu",
         "clics",
-        "digling"
+        "digling",
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/language-island-paper/tree/v3.0.1",
       "license": "other-open"
@@ -54968,9 +54968,9 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1407140",
       "communities": [
-        "eu",
         "clics",
-        "digling"
+        "digling",
+        "eu"
       ],
       "git-link": "https://github.com/lingpy/language-island-paper/tree/v3.0",
       "license": "other-open"
@@ -55007,8 +55007,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1407140",
       "communities": [
-        "digling",
         "clics",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/language-island-paper/tree/v2.0.2",
@@ -55046,8 +55046,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1407140",
       "communities": [
-        "digling",
         "clics",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/language-island-paper/tree/v2.0.1",
@@ -55089,8 +55089,8 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1407140",
       "communities": [
-        "digling",
         "clics",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/language-island-paper/tree/v2.0",
@@ -55136,8 +55136,8 @@
         "computational historical linguistics"
       ],
       "communities": [
-        "digling",
         "clics",
+        "digling",
         "eu"
       ],
       "git-link": "https://github.com/lingpy/language-island-paper/tree/v1.0",
@@ -55210,9 +55210,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/teanu/tree/v1.0",
       "license": "cc-by-4.0"
@@ -55292,8 +55292,8 @@
         "cldf:StructureDataset"
       ],
       "communities": [
-        "dplace",
-        "cldf-datasets"
+        "cldf-datasets",
+        "dplace"
       ],
       "contributors": [
         {
@@ -55596,9 +55596,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/palula/tree/v1.2",
       "license": "cc-by-4.0"
@@ -55634,9 +55634,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/kalamang/tree/v1.2",
       "license": "cc-by-4.0"
@@ -55672,9 +55672,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/wersing/tree/v1.2",
       "license": "cc-by-4.0"
@@ -55710,9 +55710,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/tseltal/tree/v1.2",
       "license": "cc-by-4.0"
@@ -55748,9 +55748,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.3",
       "license": "cc-by-4.0"
@@ -55786,9 +55786,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/sanzhi/tree/v1.2",
       "license": "cc-by-4.0"
@@ -55827,9 +55827,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/iquito/tree/v1.1",
       "license": "cc-by-4.0"
@@ -55871,9 +55871,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/medialengua/tree/v1.2",
       "license": "cc-by-4.0"
@@ -55912,9 +55912,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/sidaama/tree/v1.2",
       "license": "cc-by-4.0"
@@ -55950,9 +55950,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/teop/tree/v1.2",
       "license": "cc-by-4.0"
@@ -55994,9 +55994,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/guarayu/tree/v1.2",
       "license": "cc-by-4.0"
@@ -56035,9 +56035,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.2",
       "license": "cc-by-4.0"
@@ -56088,9 +56088,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/hdi/tree/v1.3",
       "license": "cc-by-4.0"
@@ -56126,9 +56126,9 @@
         "linguistics"
       ],
       "communities": [
+        "cldf-datasets",
         "clld",
-        "dictionaria",
-        "cldf-datasets"
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.3",
       "license": "cc-by-4.0"
@@ -56165,8 +56165,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/wersing/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56203,8 +56203,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/wersing/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56241,8 +56241,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/tseltal/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56275,8 +56275,8 @@
       "conceptdoi": "10.5281/zenodo.3660890",
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/tseltal/tree/v1.0.1",
       "license": "cc-by-4.0"
@@ -56312,8 +56312,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/tseltal/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56350,8 +56350,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/teop/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56387,8 +56387,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/teop/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56428,8 +56428,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/sidaama/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56469,8 +56469,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/sidaama/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56507,8 +56507,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/sanzhi/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56545,8 +56545,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/sanzhi/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56583,8 +56583,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/palula/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56621,8 +56621,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/palula/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56659,8 +56659,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.2",
       "license": "cc-by-4.0"
@@ -56696,8 +56696,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56735,8 +56735,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/nen/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56779,8 +56779,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/medialengua/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56823,8 +56823,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/medialengua/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56861,8 +56861,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/kalamang/tree/v1.1",
       "license": "cc-by-4.0"
@@ -56899,8 +56899,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/kalamang/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56940,8 +56940,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/iquito/tree/v1.0",
       "license": "cc-by-4.0"
@@ -56993,8 +56993,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/hdi/tree/v1.2",
       "license": "cc-by-4.0"
@@ -57040,8 +57040,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "contributors": [
         {
@@ -57093,8 +57093,8 @@
       "conceptdoi": "10.5281/zenodo.3067648",
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "contributors": [
         {
@@ -57147,8 +57147,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/guarayu/tree/v1.1",
       "license": "cc-by-4.0"
@@ -57190,8 +57190,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/guarayu/tree/v1.0",
       "license": "cc-by-4.0"
@@ -57231,8 +57231,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.1",
       "license": "cc-by-4.0"
@@ -57272,8 +57272,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/diidxaza/tree/v1.0",
       "license": "cc-by-4.0"
@@ -57310,8 +57310,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.2",
       "license": "cc-by-4.0"
@@ -57347,8 +57347,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.1.1",
       "license": "cc-by-4.0"
@@ -57384,8 +57384,8 @@
       ],
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.1",
       "license": "cc-by-4.0"
@@ -57419,8 +57419,8 @@
       "conceptdoi": "10.5281/zenodo.3067380",
       "communities": [
         "cldf-datasets",
-        "dictionaria",
-        "clld"
+        "clld",
+        "dictionaria"
       ],
       "git-link": "https://github.com/dictionaria/daakaka/tree/v1.0",
       "license": "cc-by-4.0"
@@ -59219,8 +59219,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295546",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/satterthwaitetb/tree/v2.0.1",
       "license": "other-open"
@@ -59255,8 +59255,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295546",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/satterthwaitetb/tree/v2.0",
       "license": "other-open"
@@ -59294,8 +59294,8 @@
         "clics2"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/satterthwaitetb/tree/v1.0",
       "license": "other-open"
@@ -59469,8 +59469,8 @@
       ],
       "communities": [
         "calc",
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -60374,8 +60374,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -60659,8 +60659,8 @@
       ],
       "communities": [
         "calc",
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -60733,9 +60733,9 @@
         "linguistics"
       ],
       "communities": [
+        "calc",
         "eu",
-        "lexibank",
-        "calc"
+        "lexibank"
       ],
       "contributors": [
         {
@@ -60808,9 +60808,9 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2553233",
       "communities": [
-        "lexibank",
         "calc",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/lieberherrkhobwa/tree/v0.1.2",
       "license": "apache2.0"
@@ -60896,8 +60896,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2634450",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/naganorgyalrongic/tree/v1.1.1",
       "license": "other-open"
@@ -60932,8 +60932,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2634450",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -60976,8 +60976,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2634450",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/naganorgyalrongic/tree/v1.0",
       "license": "cc-by-4.0"
@@ -61016,8 +61016,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -61412,8 +61412,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -61572,8 +61572,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/sagartst/tree/v2.0",
       "license": "cc-by-4.0"
@@ -61775,8 +61775,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -61830,8 +61830,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -63002,8 +63002,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2634477",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/sohartmannchin/tree/v1.0.1",
       "license": "other-open"
@@ -63035,8 +63035,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2634477",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/sohartmannchin/tree/v1.0",
       "license": "other-open"
@@ -63229,8 +63229,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2633936",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/halenepal/tree/v1.0.1",
       "license": "other-open"
@@ -63265,8 +63265,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2633936",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -63516,8 +63516,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295556",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/suntb/tree/v2.1",
       "license": "other-open"
@@ -63552,8 +63552,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295556",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -63603,8 +63603,8 @@
         "clics2"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/suntb/tree/v1.1",
       "license": "other-open"
@@ -63642,8 +63642,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295556",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/suntb/tree/v1.0",
       "license": "other-open"
@@ -63683,8 +63683,8 @@
         "cognate judgments"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/sagartst/tree/v1.1.0",
       "license": "other-open"
@@ -63723,8 +63723,8 @@
         "wordlist"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/sagartst/tree/v1.0.0",
       "license": "gpl-2.0"
@@ -63757,8 +63757,8 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1465396",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/sagartst/tree/v0.1.1.alpha",
       "license": "other-open"
@@ -64731,8 +64731,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -64823,8 +64823,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295571",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/hubercolumbian/tree/v2.0.1",
       "license": "other-open"
@@ -64861,8 +64861,8 @@
         "lexibank"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/hubercolumbian/tree/v2.0",
       "license": "other-open"
@@ -64902,8 +64902,8 @@
         "clics2"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -65408,8 +65408,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -65451,8 +65451,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -65602,8 +65602,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -65657,8 +65657,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -65887,8 +65887,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -65963,8 +65963,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295534",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/beidasinitic/tree/v3.0.1",
       "license": "other-open"
@@ -65996,8 +65996,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295534",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/beidasinitic/tree/v3.0",
       "license": "other-open"
@@ -66033,8 +66033,8 @@
         "clics2"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/beidasinitic/tree/v2.0",
       "license": "other-open"
@@ -66066,8 +66066,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1318198",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -66114,8 +66114,8 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1318198",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -66248,8 +66248,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2634107",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/chenhmongmien/tree/v1.1",
       "license": "other-open"
@@ -66284,8 +66284,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2634107",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -66422,8 +66422,8 @@
         "phonetic alignments"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -66467,8 +66467,8 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1318063",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -66745,8 +66745,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -67032,8 +67032,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2630824",
       "communities": [
-        "lexibank",
-        "calc"
+        "calc",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/abrahammonpa/tree/v1.0.1",
       "license": "other-open"
@@ -67071,8 +67071,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.2630824",
       "communities": [
-        "lexibank",
-        "calc"
+        "calc",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/abrahammonpa/tree/v1.0",
       "license": "cc-by-nc-3.0"
@@ -67151,8 +67151,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295536",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/allenbai/tree/v2.0.1",
       "license": "other-open"
@@ -67189,8 +67189,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1295536",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/allenbai/tree/v2.0",
       "license": "other-open"
@@ -67230,8 +67230,8 @@
         "clics2"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/allenbai/tree/v1.0",
       "license": "other-open"
@@ -68155,8 +68155,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -68276,8 +68276,8 @@
         "linguistics"
       ],
       "communities": [
-        "lexibank",
-        "clld"
+        "clld",
+        "lexibank"
       ],
       "contributors": [
         {
@@ -68820,8 +68820,8 @@
         "phonetics"
       ],
       "communities": [
-        "eu",
-        "calc"
+        "calc",
+        "eu"
       ],
       "git-link": "https://github.com/tresoldi/distfeat/tree/v0.1.1",
       "license": "mit-license"
@@ -68954,8 +68954,8 @@
         "cldf:Wordlist"
       ],
       "communities": [
-        "lexibank",
-        "clics"
+        "clics",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/tryonsolomon/tree/v3.0",
       "license": "other-open"
@@ -68992,8 +68992,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1297462",
       "communities": [
-        "lexibank",
-        "clics"
+        "clics",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/tryonsolomon/tree/v2.0.1",
       "license": "other-open"
@@ -69025,8 +69025,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1297462",
       "communities": [
-        "lexibank",
-        "clics"
+        "clics",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/tryonsolomon/tree/v2.0",
       "license": "other-open"
@@ -69066,8 +69066,8 @@
         "clics2"
       ],
       "communities": [
-        "lexibank",
-        "clics"
+        "clics",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/tryonsolomon/tree/v1.0.1",
       "license": "other-open"
@@ -69099,8 +69099,8 @@
       "resource_type": "software",
       "conceptdoi": "10.5281/zenodo.1297462",
       "communities": [
-        "lexibank",
-        "clics"
+        "clics",
+        "lexibank"
       ],
       "git-link": "https://github.com/lexibank/tryonsolomon/tree/v1.0.0",
       "license": "other-open"
@@ -69192,10 +69192,10 @@
         "historical linguistics"
       ],
       "communities": [
-        "lexibank",
-        "cldf-datasets",
         "calc",
-        "eu"
+        "cldf-datasets",
+        "eu",
+        "lexibank"
       ],
       "git-link": "https://github.com/cldf-datasets/normansinitic/tree/v1.0",
       "license": "apache2.0"
@@ -69236,10 +69236,10 @@
         "cldf:Wordlist"
       ],
       "communities": [
-        "lexibank",
+        "calc",
         "cldf-datasets",
         "eu",
-        "calc"
+        "lexibank"
       ],
       "git-link": "https://github.com/cldf-datasets/normansinitic/tree/v2.0",
       "license": "cc-by-4.0"
@@ -70298,8 +70298,8 @@
       "resource_type": "dataset",
       "conceptdoi": "10.5281/zenodo.1312786",
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ]
     },
     {
@@ -70328,8 +70328,8 @@
         "madang, papua"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ]
     },
     {
@@ -70358,8 +70358,8 @@
         "alor; pantar; alor-pantar"
       ],
       "communities": [
-        "lexibank",
-        "eu"
+        "eu",
+        "lexibank"
       ]
     }
   ]
