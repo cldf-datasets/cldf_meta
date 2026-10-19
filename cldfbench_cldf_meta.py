@@ -303,6 +303,10 @@ class Dataset(BaseDataset):
         >>> self.raw_dir.download(url, fname)
         """
         access_token = dl.retrieve_access_token()
+        if not access_token:
+            answer = input('continue without access token? [y|N] ') or ''
+            if answer.strip() != 'y':
+                return
 
         try:
             records = self.raw_dir.read_json('zenodo-metadata.json')['records']

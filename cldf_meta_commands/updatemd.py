@@ -366,6 +366,10 @@ def might_have_cldf_in_it(record):
 
 def updatemd(dataset, _args):
     access_token = dl.retrieve_access_token()
+    if not access_token:
+        answer = input('continue without access token? [y|N] ') or ''
+        if answer.strip() != 'y':
+            return
 
     print('reading existing zenodo metadata...', file=sys.stderr, flush=True)
     metadata_file = dataset.raw_dir / 'zenodo-metadata.json'
