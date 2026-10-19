@@ -72,6 +72,8 @@ TITLE_BLACKLIST_REGEX = r"""
     | ^EDICTOR\.\ A\ web-based\ interactive\ tool
     | ^glottobank/cldf:
     | ^glottolog/glottolog-cldf:
+    | ^Glottolog\ custom\ downloads
+    | ^Glottolog\ archive
     | ^LingPy[-:. ]
     | ^lingpy/lingpy:
     | ^lingpy/lingpy-tutorial:\ LingPy\ Tutorial
@@ -80,6 +82,9 @@ TITLE_BLACKLIST_REGEX = r"""
     | ^paceofchange:
     | ^PoePy\.\ A\ Python\ library
     | ^PyBor:\ A\ Python\ library
+    | \b[Mm]edia\ [Ff]iles\b
+    | \b[M]edia\ accompanying\b
+    | \bclld\ app\b
 """
 
 
