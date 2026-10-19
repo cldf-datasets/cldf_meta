@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/cldf_meta",
             "rdf:type": "prov:Entity",
-            "dc:created": "47b93b3",
+            "dc:created": "31ec96f",
             "dc:title": "Repository"
         },
         {
@@ -27,7 +27,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.10.20"
+            "dc:description": "3.11.17"
         },
         {
             "dc:title": "python-packages",
@@ -39,7 +39,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 9952,
+            "dc:extent": 10050,
             "tableSchema": {
                 "columns": [
                     {
@@ -111,7 +111,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 1028,
+            "dc:extent": 1087,
             "tableSchema": {
                 "columns": [
                     {
@@ -215,7 +215,7 @@
             "url": "contributions.csv"
         },
         {
-            "dc:extent": 2479,
+            "dc:extent": 2539,
             "tableSchema": {
                 "columns": [
                     {
@@ -284,7 +284,7 @@
             "url": "datasets.csv"
         },
         {
-            "dc:extent": 308794,
+            "dc:extent": 331778,
             "tableSchema": {
                 "columns": [
                     {

@@ -19,7 +19,9 @@ record_no,file,reason
 3592064,DMGoldstein/HomerObliqueCase-1.0.0.zip,nocldf
 3610089,supplementary_materials.zip,nocldf
 3624336,anselm_v1.0_coraxml.zip,nocldf
+3634436,pofatu/pofatu-data-v1.0rc1.zip,nocldf
 3667562,autotyp-data-0.1.0.zip,nocldf
+3670127,pofatu/pofatu-data-v1.0.0.zip,nocldf
 3687530,clics/clics3-v1.1.zip,nocldf
 3702421,2_OeAV_Photo_Index.zip,nocldf
 3703068,1_Enriched_Alpenwort_Corpus.zip,nocldf
@@ -37,6 +39,8 @@ record_no,file,reason
 3988775,supplementary_materials.zip,nocldf
 4071599,lingpy/evobib-v1.3.1.zip,nocldf
 4084859,digling/cjp-data-v0.1.0.zip,nocldf
+4133959,pofatu/pofatu-data-v1.1.0.zip,nocldf
+4134337,pofatu/pofatu-data-v1.1.1.zip,nocldf
 4162535,jkuokkala/ume-saami-conv-v0.1.0.zip,nocldf
 4163676,ume-MalaLpW-mod.zip,nocldf
 4284743,lingpy/prediction-study-v1.0.zip,nocldf
@@ -46,6 +50,7 @@ record_no,file,reason
 4350924,media.zip,nocldf
 4574513,autotyp-data-v0.1.2.zip,nocldf
 4641277,direct-phonology/dphon-2.0.1.zip,nocldf
+4726799,pofatu/pofatu-data-v1.2.zip,nocldf
 4740810,lingpy/evobib-v1.4.0.zip,nocldf
 4743882,dv3d_v1.0.zip,nocldf
 5111013,rwsproat/comparative_simulations-1.0.0.zip,nocldf
@@ -74,6 +79,7 @@ record_no,file,reason
 7980852,lingpy/pacs-v1.0.zip,nocldf
 8028568,engganolang/digitised-holle-list-1.2.0.zip,nocldf
 8310190,direct-phonology/dphon-2.0.2.zip,nocldf
+10090671,pofatu/pofatu-data-v1.3.zip,nocldf
 10620790,direct-phonology/dphon-2.0.3.zip,nocldf
 10989955,direct-phonology/dphon-2.0.4.zip,nocldf
 13363074,lingpy/evobib-v1.8.0.zip,nocldf
@@ -89,3 +95,15 @@ record_no,file,reason
 17294928,arcaverborum.A.full.20251008.zip,nocldf
 17294928,arcaverborum.A.corecog.20251008.zip,nocldf
 18668178,lingpy/evobib-v1.11.0.zip,nocldf
+21217159,pofatu/pofatu-data-v1.4.zip,nocldf
+22032517,patkaiist/salist-v1.0.2.zip,nocldf
+22172184,page-source.zip,nocldf
+22713208,ATLAS_Forschung_WALS_Datensatz_v1_0_2026-09-11.zip,nocldf
+22880451,IE-confidence-architecture.zip,nocldf
+22891176,IE-confidence-architecture.zip,nocldf
+22932494,IE-confidence-architecture_v1.2.zip,nocldf
+22939811,patkaiist/salist-v1.0.3.zip,nocldf
+22943978,patkaiist/salist-v1.0.4.zip,nocldf
+23031577,page-source.zip,nocldf
+23065430,patkaiist/salist-v1.0.5.zip,nocldf
+23104283,patkaiist/salist-v1.0.6.zip,nocldf
